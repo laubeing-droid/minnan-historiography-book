@@ -1,6 +1,6 @@
 # 配套文档的精选方法来源
 
-检索与核读日期：2026-11-12。这里登记本轮配套采用的方法来源，不冒称已经完成全书书目审校。正文既有引文仍按各章核查。本页明确核读层次，网页可打开与理论已适用于闽南是两回事。
+本页列出配套文档采用的部分方法文献，检索与核读日期为2026-11-12。表中注明实际读到的内容，以及它在本书中用于说明什么。全书引文仍需按章核查；某项方法能否用于具体闽南材料，也要结合课题条件判断。
 
 |来源|本次核读范围|本库使用范围|
 |---|---|---|
@@ -20,11 +20,11 @@
 
 ## 本轮没有做的事
 
-没有穷尽全书引文，没有复核全部作者观点的经验基础，没有把姊妹语料库的书目完整搬入本书，也没有将文献可检索当作其结论已正确。后续新引用应标明版本、具体用途和核读范围，避免从一个相关标题推演整套论证。
+这是一份方法选目，尚未覆盖全书引文和作者观点的全部经验依据。姊妹语料库的专业书目仍在原库维护。补充引用时，请注明版本、用途和核读范围，使读者知道哪些内容已经读到，哪些仍需查阅。
 
 ## 作者立场扩写的理论文本
 
 以下两项于2026-11-12核读公开文本的指定段落，用于说明概念出处，不作为作者关于闽南具体历史判断已经成立的证据。
 
-- Karl Marx，1859，*A Contribution to the Critique of Political Economy*，Preface。[Marxists Internet Archive公开文本](https://www.marxists.org/archive/marx/works/1859/critique-pol-economy/preface.htm)。网页注明来源为Progress Publishers 1977年版本；本轮核读物质生活、生产关系与社会意识相关段落，不冒称核完全部著作。
+- Karl Marx，1859，*A Contribution to the Critique of Political Economy*，Preface。[Marxists Internet Archive公开文本](https://www.marxists.org/archive/marx/works/1859/critique-pol-economy/preface.htm)。网页注明来源为Progress Publishers 1977年版本；本轮核读物质生活、生产关系与社会意识相关段落，未核读全部著作。
 - Guy Debord，1967，*Society of the Spectacle*。[Marxists Internet Archive公开文本](https://www.marxists.org/reference/archive/debord/society.htm)。网页注明Black & Red 1977年英译；本轮核读第一章第1、4、6节及相关段落。用于景观作为社会关系及其生产背景的概念说明，不证明本书各地景观化过程已经得到经验验证。
