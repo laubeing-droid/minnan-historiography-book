@@ -9,6 +9,7 @@
 > progress — **not a finished book**.
 
 **Docs**: [Research Position Statement](docs/POSITION.md#english-summary) · [Repo structure & chapter workspaces](docs/STRUCTURE.md) · [Scope & limits](docs/SCOPE_AND_LIMITS.md) · [Project history](docs/PROJECT_HISTORY.md) · [Contributing](CONTRIBUTING.md) · [Changelog](CHANGELOG.md)
+**New Chinese documentation**: [current missing-items ledger](docs/MISSING_ITEMS.md), [methodology](docs/METHODOLOGY.md), [material/status rules](docs/DATA_AND_STATUS.md), [review guide](docs/REVIEW_GUIDE.md), [sources](docs/SOURCES_AND_CITATION.md), [glossary](docs/GLOSSARY.md), [reader attachments](manuscript/读者附件总索引.md). Translation update pending.
 **Handover archive**: migration notes published as-is under [`handover/`](handover/) (unrewritten, Chinese).
 **Sister repo**: [minnan-spanish-corpus](https://github.com/laubeing-droid/minnan-spanish-corpus) — 22-source Minnan–Spanish bilingual corpus (one of the source bases of this project).
 
@@ -24,15 +25,15 @@ Target structure (a target, not an acceptance result): ~10% concepts & historiog
 
 | Path | Contents | Layer |
 | --- | --- | --- |
-| `manuscript/` | Full writing draft package (2026-10-30): 23-chapter body + 23 attachment sets + code examples | Archive, as-is |
+| `manuscript/` | Full writing draft package (2026-10-30): 23-chapter body + 23 attachment sets + code examples | Writing line; authorized revisions are recorded |
 | `round1_review/` | First-round collation & recomputation package: parallel body + run/report logs | Archive, as-is |
-| `variants/` | 126 historical Pages versions (originals, edited revisions, per-chapter drafts) | Archive, as-is |
-| `plans/` | 5 construction plans (trilogy outline, engineering plans v1.0/v1.2, timeline & event-filtering specs) | Archive, as-is |
+| `variants/` | 55 actual historical-version files (originals, edited revisions, per-chapter drafts) | Archive, as-is |
+| `plans/` | 63 plan and candidate-draft files | Archive, as-is |
 | `chapters/` | **Chapter workspaces (live code layer)**: per-chapter code / data / results + promotion protocol | Writable |
 | `handover/` | Migration handover archive: read-me, scope, missing-items list, inventories | Archive, as-is |
 | `docs/` | Position statement, structure, scope & limits, project history | Facade |
 
-Archives and live code are strictly separated: **code inside manuscript attachments is teaching material (mostly marked NOT_RUN) and does not pretend to be a runnable pipeline**. Ongoing work happens in `chapters/` under the [promotion protocol](chapters/README.md).
+The writing line, preserved archives, and live code are separated: **code inside manuscript attachments is teaching material (mostly marked NOT_RUN) and does not pretend to be a runnable pipeline**. Ongoing work happens in `chapters/` under the [promotion protocol](chapters/README.md).
 
 ## 3. Quick start (reading order)
 
@@ -44,7 +45,7 @@ Archives and live code are strictly separated: **code inside manuscript attachme
 ## 4. Status (honest framing)
 
 - **In progress.** 23 chapters / 156 sections / ~350k chars / the 10–75–15 split are *targets*, not acceptance results.
-- Chapter 12's source page was access-restricted (FORBIDDEN on the source platform); it was not retrieved and not fabricated — see [Scope & limits](docs/SCOPE_AND_LIMITS.md).
+- The old edited Chapter 12 page remains access-restricted; the writing line already contains a newly written nine-section chapter and 13 attachments, not a recovery of that old page — see [Scope & limits](docs/SCOPE_AND_LIMITS.md).
 - Recomputation and collation are **paused** per the author's 2026-10-28 decision, prioritizing completing the full text and attachments; un-recomputed and un-collated passages are marked as such; NOT_RUN / NOT_EXECUTED markers are preserved.
 - File existence, word counts, and successful saves do not equal independent verification.
 - The author's original discussion dialogues are **not published**; only the de-identified [Research Position Statement](docs/POSITION.md) is.
