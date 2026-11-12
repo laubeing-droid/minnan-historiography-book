@@ -1,0 +1,28 @@
+# 更新日志 / Changelog
+
+> 语义化版本：0.x = 写作期（复算与校对暂停中）；1.0.0 = 全书完成并经独立校对复核。
+
+## [0.1.0] — 2026-11-12 · 开源建库
+
+### 初始保全（档案层，原样入库存档）
+- `manuscript/`：全文写作稿完整包（558 项；正文 23 章 + 附件 23 套 + 代码示例；剔除内嵌历史底稿 zip）
+- `round1_review/`：首轮校订与复算版完整包（2,156 项；平行正文 + 校对复算记录 runs / reports）
+- `variants/`：书稿 Pages 历史版本 126 件
+- `plans/`：施工方案 5 件（三部曲总纲、工程方案 v1.0 / v1.2 史学优先版、时间线与事件筛选方案）
+- `handover/`：迁移接手史档（从这里开始、交付范围、交接任务书、缺件表、实交清单，未改写）
+
+### 新增（配套与活代码层）
+- `chapters/`：23 章工作区骨架（code / data / results + 提升协议 + 章↔附件↔复算记录索引表）
+- `docs/POSITION.md`：研究立场声明（作者 2026-07—10 立项讨论观点索引脱敏改写 + 公共学术坐标联网核查：model collapse／蟳埔簪花／泉州学建制／计算人文学）
+- `docs/STRUCTURE.md`、`docs/SCOPE_AND_LIMITS.md`、`docs/PROJECT_HISTORY.md`
+- 中英双语 README、CC BY-NC-SA 4.0 LICENSE、CONTRIBUTING、CHANGELOG
+
+### 边界声明
+- 原始讨论对话、Slack 施工线程、账号凭据类内容不入库。
+- 复算与校对按 2026-10-28 作者决定暂停；未复算、未校对、未运行处如实标注。
+- 第 12 章源页面受限未取回，未伪造补回。
+
+## 历史版本沿革
+
+书稿在开源前的完整版本沿革（ChatGPT Pages 各版、2026-10-30 两包组装）见
+[docs/PROJECT_HISTORY.md](docs/PROJECT_HISTORY.md) 与 [`handover/`](handover/从这里开始.md)。
