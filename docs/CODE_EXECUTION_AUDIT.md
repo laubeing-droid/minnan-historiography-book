@@ -6,6 +6,12 @@
 
 第8、14、22章应使用下文所列修正版。原始入口共100次调用的统计不包含修补回归或Gemma适配器，不是研究完成率。以下按阶段保留过程，旧失败不删除，成功也不扩大成全书复算完成。
 
+## 第16→17章后续：合成教学数据桥接
+
+已增加[关系到网络的教学桥接](../chapters/ch16/README.md)，实际执行及筛选记录见[桥接报告](../chapters/ch16/results/bridge-2026-11-12/bridge_report.json)。从12条教材关系中筛选已接受、已确认、年份明确的寄信关系，按事件与来源去重；本次得到3个人物、1条边、1个孤立点，无向图密度为1/3。7项测试通过，复用第17章图指标，没有调用原为A—H教材人物专设的敏感性情景。
+
+这证明指定教学输入可以衔接，不证明真实史料已完成消歧、来源独立性判断或网络研究。原始教学输入与旧日志保留；桥接测试不计入前述100次原程序入口调用。
+
 ## 第6章后续：Google EmbeddingGemma 2实际执行
 
 用户进一步指定谷歌EmbeddingGemma 2。已核[官方模型卡](https://huggingface.co/google/embeddinggemma-2)及[Google开发指南](https://developers.googleblog.com/en/embeddinggemma-2-the-developer-guide/)，实际模型ID为`google/embeddinggemma-2`，不是Gemma2生成模型。官方API确认公开、非gated，Apache-2.0；本轮未登录账号或绕过访问限制。
