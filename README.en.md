@@ -1,4 +1,4 @@
-# minnan-historiography-book · *A Future of Minnan Historiography* (book project)
+# minnan-historiography-book · *A Future of Minnan Historiography: AI and Modern Research Methods* (book project)
 
 [简体中文](README.md) | [English](README.en.md)
 
@@ -60,7 +60,7 @@ All content — manuscript, attachments, docs, workspace code — is released un
 
 ```bibtex
 @misc{minnan_historiography_book_2026,
-  title  = {minnan-historiography-book: draft, variants and chapter code workspaces for ``A Future of Minnan Historiography''},
+  title  = {minnan-historiography-book: draft, variants and chapter code workspaces for ``A Future of Minnan Historiography: AI and Modern Research Methods''},
   author = {laubeing-droid},
   year   = {2026},
   url    = {https://github.com/laubeing-droid/minnan-historiography-book},
