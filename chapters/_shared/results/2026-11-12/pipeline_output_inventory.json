@@ -1,0 +1,1002 @@
+[
+  {
+    "file": "SANDBOX/ch12/out_default/evaluation_truth.csv",
+    "bytes": 1184,
+    "sha256": "1afda0efc0977e75aaba68f69243e1c00219d15f8aa9292f7b93b7bbac09c5cc"
+  },
+  {
+    "file": "SANDBOX/ch12/out_default/run_manifest.json",
+    "bytes": 950,
+    "sha256": "a81c05f5a047f860649abcfdbf121477b3cf3895498848b77f88a995229c6f9b"
+  },
+  {
+    "file": "SANDBOX/ch12/out_default/train_input.csv",
+    "bytes": 1951,
+    "sha256": "c204e25ae3a811f7f2b56254105785fcb06eae06cf241b9a3f8e87bf8c659139"
+  },
+  {
+    "file": "SANDBOX/ch12/out_default/transform_params.json",
+    "bytes": 400,
+    "sha256": "e5896c87d06d8cd93941985534bc2420bb01bd7b98cb6dde865f3654dcf4df6b"
+  },
+  {
+    "file": "SANDBOX/ch12/out_scaled/evaluation_truth.csv",
+    "bytes": 664,
+    "sha256": "2e84d0b0527e411268e254d9e229db0aeeb1b49cb765b8807c6db014ab6eb65a"
+  },
+  {
+    "file": "SANDBOX/ch12/out_scaled/run_manifest.json",
+    "bytes": 955,
+    "sha256": "b550cc5ed90dae835c24fbfc31243863ecff176d1496cad8f0582a215ef3ffe3"
+  },
+  {
+    "file": "SANDBOX/ch12/out_scaled/train_input.csv",
+    "bytes": 2696,
+    "sha256": "821a2914da6b94f659074829e29750979d267aaccbcce899f8d5e1811628f164"
+  },
+  {
+    "file": "SANDBOX/ch12/out_scaled/transform_params.json",
+    "bytes": 430,
+    "sha256": "a36652141e33710c487ced8505b94a018622a13927d25560d89e3bc1e290e5eb"
+  },
+  {
+    "file": "SANDBOX/ch13/out_adapter/adapter_audit.json",
+    "bytes": 4297,
+    "sha256": "d60f2543676bd6efda0d25f58b3cc7b631af1ec5c04747f654f43aa7122473ae"
+  },
+  {
+    "file": "SANDBOX/ch13/out_adapter/annual_series.csv",
+    "bytes": 716,
+    "sha256": "6c0eda0561c9d6962cf25f6ac8ffde3293cae7716c9036fc2fe37a4201f0a59f"
+  },
+  {
+    "file": "SANDBOX/ch13/out_models/fit_records.json",
+    "bytes": 16013,
+    "sha256": "8b5baa763252e7fd68c05040a4e64a52cf1dbfdd48821e2af4710dd8152f2943"
+  },
+  {
+    "file": "SANDBOX/ch13/out_models/predictions.csv",
+    "bytes": 7158,
+    "sha256": "e2905e1e5b5f4bddf1eff6a835c95a61834d29b49d7376067b37c8aa3e1a735d"
+  },
+  {
+    "file": "SANDBOX/ch13/out_models/run_manifest.json",
+    "bytes": 329,
+    "sha256": "8437b29f4882483ab4922d03031a3d44a1cb746274a6e4933ad30c6058a57c2d"
+  },
+  {
+    "file": "SANDBOX/ch13/out_models/selection.json",
+    "bytes": 284,
+    "sha256": "271e1a14d31e637633aa34ae5524ffd07f24306cb0a5aacffd729e4fba6c938c"
+  },
+  {
+    "file": "SANDBOX/ch13/out_models/summary.csv",
+    "bytes": 283,
+    "sha256": "ebb6c117f4f8e93a09806b5ab78307a41816143ed7d1734b40b25899abbab1b8"
+  },
+  {
+    "file": "SANDBOX/ch13/out_models_test/fit_records.json",
+    "bytes": 5642,
+    "sha256": "cbb4c36b6e39dc54467c22edb783492de196dd799209092f3289e7d994930af4"
+  },
+  {
+    "file": "SANDBOX/ch13/out_models_test/predictions.csv",
+    "bytes": 1342,
+    "sha256": "a1644b1b97396cfab705db4bb7b7cdc85bab7434158f3d00a4d00f68c185cd93"
+  },
+  {
+    "file": "SANDBOX/ch13/out_models_test/run_manifest.json",
+    "bytes": 323,
+    "sha256": "043e2657d09d037eaa992cdf2cf018fb22f47584a34e6d6e35df6658cd8ab92d"
+  },
+  {
+    "file": "SANDBOX/ch13/out_models_test/summary.csv",
+    "bytes": 126,
+    "sha256": "b1bb637bf439d7dca93b3d70a5d89b19a8a3eea525eed44d3ed9e9bb9cc753db"
+  },
+  {
+    "file": "SANDBOX/ch13/out_optuna/failure.json",
+    "bytes": 125,
+    "sha256": "bd29d6d86d4656431426e569aa5ccedd7893dc15ba136a1dc58240d74e58ab4d"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s1/anomaly.csv",
+    "bytes": 489,
+    "sha256": "20e78063c09e9ecd4baaeff20e92be7d8c7a0b3da59af05929ade53da8c4ef4f"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s1/classification_rows.csv",
+    "bytes": 86,
+    "sha256": "41d6943eae1fb7a35539f0f6b3639dd19ad6185e43987403f916239d8decdaa7"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s1/forecast.csv",
+    "bytes": 336,
+    "sha256": "9a214b2acc021ae9843ce8179da1e152a19e939de7109dda9d5cd6c1213ecfe5"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s1/generation.csv",
+    "bytes": 900,
+    "sha256": "ec4f2ae9980162b98d486422298be5e64d65cfcc9458846f736541c4df64e3c9"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s1/result.json",
+    "bytes": 4720,
+    "sha256": "ef085860eeaab8060700d9a1b67f43258fc0cbf996679c053ebb587afa810826"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s1/run_manifest.json",
+    "bytes": 161,
+    "sha256": "5d31b98f7264dbcf45e27992c06c33a3dce282e2ea4ca3ae1f31cd6bffa7cc57"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s10/common_task_summary.csv",
+    "bytes": 332,
+    "sha256": "3e1a61a8eb68189086ee222d5b984ecd0dfbabb805beb515a476f19c4404a985"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s10/fit_records.csv",
+    "bytes": 9227,
+    "sha256": "f752876df2f839924b7d3c8fc044f2622c5277df9067b8a3545a45a6360cc7fe"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s10/forecast_rows.csv",
+    "bytes": 2119,
+    "sha256": "19f7632e0af652655b6294d9b6c24d0b1292cc76ff9b1c0cf6c23facfba35670"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s10/result.json",
+    "bytes": 32248,
+    "sha256": "7a690b0a3b7307d9d13bd8a8302d36c67da6256ef7944ea99d5e85867a61534b"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s10/run_manifest.json",
+    "bytes": 162,
+    "sha256": "f12a88d9a70e884503315cd5c1a1a8b8e0acb2478780067d0a7c8efb77a348dd"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s10/selection.json",
+    "bytes": 150,
+    "sha256": "da0683ca794a7ba083873d75643b74fa6a66993930de99dd94ae99b8225b80ca"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s10/summary.csv",
+    "bytes": 345,
+    "sha256": "2a645b3094cc3639a52696b001e96b5440a821a9f30384f4c356c032b62f8d8e"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s5/result.json",
+    "bytes": 1664,
+    "sha256": "fa979197ed8f70a4106b279aea2152c090d0201172f0e1ebf3c9ef16470cca93"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s5/run_manifest.json",
+    "bytes": 161,
+    "sha256": "b5e3028b2ee38f943d43b798e743f9fb3b6172b95e448c99e0d473944644ea10"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s5/series_scores.csv",
+    "bytes": 309,
+    "sha256": "82daf1ecac3dd53354d493b47b54b69534c24fd19833f142a1f6b29339d2cf99"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s5/summary.csv",
+    "bytes": 128,
+    "sha256": "91b762ea2a3e79f88af882d96251f09c7cf15b781478ea21fdc8c6bbfde319d9"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s6/declared_aggregation.csv",
+    "bytes": 105,
+    "sha256": "b3ccb6fdc504234764527e657271ebf4eec9db957e8d3812135bb2cb3ac66c47"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s6/metrics.csv",
+    "bytes": 723,
+    "sha256": "1b2d589da6e4b458f3fd33eb0b5f5e2b22794156d38db9b009b1507a319ae2ad"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s6/prediction_rows.csv",
+    "bytes": 553,
+    "sha256": "9b09e8457a163b3f46c15c10c9492687f31058b98535802363e84229e0e50975"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s6/result.json",
+    "bytes": 7644,
+    "sha256": "9f124822a6a2a8acff0e870d377dd292a1317c4a21715a8dad245ceedb3bee20"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s6/run_manifest.json",
+    "bytes": 161,
+    "sha256": "7c789a574c5837b4853e2a362584916851aca6f3ba04cc33b8f87e82f67a92aa"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s7/fit_records.csv",
+    "bytes": 5379,
+    "sha256": "94639bca9ec7b581c9fbd7dfdcd3afef189d3b1fb7b03f7f05817e46d86ebf3a"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s7/forecast_rows.csv",
+    "bytes": 1297,
+    "sha256": "cad90d47a0ec1fa3b0736a1e653275bcde2d3cb465b59c5a0419ed659cdfe98c"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s7/result.json",
+    "bytes": 18393,
+    "sha256": "a430246ec69e08d20956b3e0d0762da160c32239b9e734cd309b4df9af190383"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s7/run_manifest.json",
+    "bytes": 161,
+    "sha256": "688c93ceb2d740a58c462e18e14c89d3fbd1c139563837b18db90a8aafff3f54"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s7/selection.json",
+    "bytes": 150,
+    "sha256": "1168ec61b654a5e69f56f4394316f515d4008562e43625391ce2059a34b1ea91"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s7/summary.csv",
+    "bytes": 233,
+    "sha256": "ee480c73823a50363a8de2d11508cfab951fb8f0e001c7dcd781ce449ca9d1c0"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s8/interval_rows.csv",
+    "bytes": 325,
+    "sha256": "790d1e4dda4f526a72704e2d82d7d81bb58eb4de94c333d5dc264f7fdaaf7f55"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s8/interval_summary.csv",
+    "bytes": 79,
+    "sha256": "67abe44d0bed23612d0c58cf4cda9a7f030b966f2c116ea95dd9457ca05883cc"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s8/quantile_losses.csv",
+    "bytes": 101,
+    "sha256": "e12afa4392724b7e390c0c5de53d54f803083106f0b88e06db3bed2fd047edba"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s8/result.json",
+    "bytes": 2548,
+    "sha256": "5bea51e2bceccade290f60cd3a11d22a89466c53e966994cce9c15370aeea995"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s8/run_manifest.json",
+    "bytes": 161,
+    "sha256": "477c45367a03f4cc4533db77c2185166605b72851983b225c54d0c5f2b9151c1"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s9/grid_selection.json",
+    "bytes": 2062,
+    "sha256": "b8b990473488aa9aeda441b09de6629c087f86926b89ca71bcf8d04bfce64b71"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s9/random_139_selection.json",
+    "bytes": 2090,
+    "sha256": "968d31e9ce83dfc3e5d9097aa10ef097b63d683129fc1d13cbe937dae2d8bd04"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s9/random_140_selection.json",
+    "bytes": 2051,
+    "sha256": "10ce78c277ae7cc4760bece67bb51b865df1fa9f4ae4887b6d20289967d65859"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s9/random_141_selection.json",
+    "bytes": 2106,
+    "sha256": "57c8197d822afdfb31f0a3ca1bb1a4a5da6b9c6604fa55522bf32fd114bdbe3f"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s9/result.json",
+    "bytes": 18361,
+    "sha256": "a5a9467d5972f307c6d78bed2f820676e5c5cc09c5457ba9b30e8dab9748762a"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s9/run_manifest.json",
+    "bytes": 161,
+    "sha256": "5e23e990db401e7f0c746b270a0d6f85724cf01405dea62b95a2d5ba9f8f9143"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s9/selections.csv",
+    "bytes": 6897,
+    "sha256": "da09fb42a1ac92809f2297aef1bd66edd7f560714a569ca93873284ded2c52f9"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s9/tests.csv",
+    "bytes": 307,
+    "sha256": "23805508284a3b8a98011434494ca561b18c38854cb4f4fcfb84ca1649f8f423"
+  },
+  {
+    "file": "SANDBOX/ch13/out_s9/trials.csv",
+    "bytes": 2169,
+    "sha256": "e015ca039b823dbace5afa0be80b82a7bbf3711969ab41beac30ee4a1f5eaebb"
+  },
+  {
+    "file": "SANDBOX/ch13/out_test7/fit_records.csv",
+    "bytes": 1771,
+    "sha256": "ffcbda44dae8bb435e13274ed211c3f2beb6955f41f2053743d62af623020b61"
+  },
+  {
+    "file": "SANDBOX/ch13/out_test7/forecast_rows.csv",
+    "bytes": 480,
+    "sha256": "9e7ccdac7a985c3068d7ac0be73b73b6706a1a914cdbf15a940c306c12895019"
+  },
+  {
+    "file": "SANDBOX/ch13/out_test7/result.json",
+    "bytes": 5953,
+    "sha256": "806e0f9d3d13f68ef86caf3109df80f238ad7d35d89d2aa7268f845cd22f9847"
+  },
+  {
+    "file": "SANDBOX/ch13/out_test7/run_manifest.json",
+    "bytes": 161,
+    "sha256": "688c93ceb2d740a58c462e18e14c89d3fbd1c139563837b18db90a8aafff3f54"
+  },
+  {
+    "file": "SANDBOX/ch13/out_test7/summary.csv",
+    "bytes": 129,
+    "sha256": "096323bdb738d5adb534f6517d52f61e34dfb8fb595fb6e4241232cff35a0e5a"
+  },
+  {
+    "file": "SANDBOX/ch14/out_s1/candidates.csv",
+    "bytes": 1163,
+    "sha256": "ec02a2b4491cb13775e1d305e09c25b615a044a79e45194c304be24753142a55"
+  },
+  {
+    "file": "SANDBOX/ch14/out_s1/current_decisions.csv",
+    "bytes": 194,
+    "sha256": "ba19f4fbadd17118a15680ac280b5cdeb45e66d7a82eb6f18c78f531a10555ac"
+  },
+  {
+    "file": "SANDBOX/ch14/out_s1/result.json",
+    "bytes": 3163,
+    "sha256": "9303c8078ea4fe18b767d6bf9b0ae80b7045bc1e51510c484c2ed18301f59fd0"
+  },
+  {
+    "file": "SANDBOX/ch14/out_s1/run_manifest.json",
+    "bytes": 138,
+    "sha256": "5b543fa1e0be0b060e15a4f16c0988f3dcd69d7d871417fc0b945ca2fd061ae2"
+  },
+  {
+    "file": "SANDBOX/ch14/out_s2/result.json",
+    "bytes": 3680,
+    "sha256": "44d5609f3b3b3f54e1c7324fd75e0cbbc5036c92128260ce72668ba37bb25000"
+  },
+  {
+    "file": "SANDBOX/ch14/out_s2/run_manifest.json",
+    "bytes": 138,
+    "sha256": "0d1c812051bb2a657f17ccd786b87b9f6ecf1b410baa56a842f67932ecd92680"
+  },
+  {
+    "file": "SANDBOX/ch14/out_s2/scenarios.csv",
+    "bytes": 2163,
+    "sha256": "154052e593701a73a82a122e17cbe11a5e87710b4043f95509104caef620716f"
+  },
+  {
+    "file": "SANDBOX/ch14/out_s3/features.csv",
+    "bytes": 401,
+    "sha256": "778daa9567f4fe531a68dac78d9efb85f5d15b430fc80cf47dbd8218012ec044"
+  },
+  {
+    "file": "SANDBOX/ch14/out_s3/result.json",
+    "bytes": 1411,
+    "sha256": "5b35bf66ed36c5ac06bba6ff3a9601424cb766d0ac4acfab8bfda1472ffc59a1"
+  },
+  {
+    "file": "SANDBOX/ch14/out_s3/run_manifest.json",
+    "bytes": 138,
+    "sha256": "887d6f108366d1693e3c1573a3836b78bded87b6046496008d5924d428b0b6ec"
+  },
+  {
+    "file": "SANDBOX/ch14/out_s4/assignments.csv",
+    "bytes": 1059,
+    "sha256": "8a24d6faf7a39e472f5fe5923ca70b851c666be689583bed25abfff86a29a9e2"
+  },
+  {
+    "file": "SANDBOX/ch14/out_s4/period_layers.csv",
+    "bytes": 2120,
+    "sha256": "34902b58c4551ef3c082f8826af0909186114dbbbc7dd11f0d3de49a81b51c4c"
+  },
+  {
+    "file": "SANDBOX/ch14/out_s4/result.json",
+    "bytes": 8748,
+    "sha256": "266f5b1eeea8a8a4c9b30d5b78f7a3b76650b3508cceaf67e91bd5a69ac5e7b6"
+  },
+  {
+    "file": "SANDBOX/ch14/out_s4/run_manifest.json",
+    "bytes": 138,
+    "sha256": "3e84bf3a3faa72aa4a4328cb60b82b2b623c0079924695f792c4d7ac5c0a497a"
+  },
+  {
+    "file": "SANDBOX/ch14/out_s5/distance_bounds.csv",
+    "bytes": 1327,
+    "sha256": "65ff1376530262f58123c44c8f18d3a0dddbb8e439dddbc64715ce68ee269bd2"
+  },
+  {
+    "file": "SANDBOX/ch14/out_s5/result.json",
+    "bytes": 4419,
+    "sha256": "c397256d7775ac42701bd546a121b0bbc2fc4b0ecd1c115515765c3bf6d766b9"
+  },
+  {
+    "file": "SANDBOX/ch14/out_s5/run_manifest.json",
+    "bytes": 138,
+    "sha256": "ec19d1e4561c7224a95a8d1a798a177f3d2a14bbccaaa30963b2f06a829fc39e"
+  },
+  {
+    "file": "SANDBOX/ch15/out_s1/audit_log.csv",
+    "bytes": 329,
+    "sha256": "fc76a83a5cf6742363819126de4e4578e6589458411e54aab393ce291508a2e3"
+  },
+  {
+    "file": "SANDBOX/ch15/out_s1/distinct_events.csv",
+    "bytes": 120,
+    "sha256": "49ea26a3f30017280a1f1e0558ece4001729a8f35277f68ab1229628b03e8190"
+  },
+  {
+    "file": "SANDBOX/ch15/out_s1/regions.csv",
+    "bytes": 195,
+    "sha256": "36242a199a8c79435cfce9ecc5ce4e06bd80b1a1da6553bf2eefb40839999240"
+  },
+  {
+    "file": "SANDBOX/ch15/out_s1/result.json",
+    "bytes": 2903,
+    "sha256": "48ee10de38dc0b66b8f14966b517fa7507720ea07bcccb0dd4d170cbef3dcb1e"
+  },
+  {
+    "file": "SANDBOX/ch15/out_s1/run_manifest.json",
+    "bytes": 138,
+    "sha256": "c706f45195857b50c60b439d0eee2fef390e15690e32316900ef9f134707639e"
+  },
+  {
+    "file": "SANDBOX/ch15/out_s2/adjacency.csv",
+    "bytes": 65,
+    "sha256": "d32951763c04c453b0935c37837abfd72c9cdb5f2d7e862c75560792aafbae22"
+  },
+  {
+    "file": "SANDBOX/ch15/out_s2/excluded_edges.csv",
+    "bytes": 110,
+    "sha256": "30d36366f8fbca2e00a1b3515bfcb1cf357076795abe363e748dcaeb753db3da"
+  },
+  {
+    "file": "SANDBOX/ch15/out_s2/paths.csv",
+    "bytes": 3966,
+    "sha256": "1e8a6118abd56b7097a3bed811f2b8d898c7e76d7480dd5b92267cfca419dc61"
+  },
+  {
+    "file": "SANDBOX/ch15/out_s2/result.json",
+    "bytes": 17030,
+    "sha256": "bbf9041d9cde301c96f4db818d04b420b3dec09e739ed6c36c98d919dcef370f"
+  },
+  {
+    "file": "SANDBOX/ch15/out_s2/run_manifest.json",
+    "bytes": 138,
+    "sha256": "46ba6caec52d982c4ff6a2d56325d3302dbbda8654028c8a5b14d3bc99c7abc5"
+  },
+  {
+    "file": "SANDBOX/ch15/out_s3/permutations.csv",
+    "bytes": 23364,
+    "sha256": "cb000989d4e67fd28b56440d13b0912ad1ec56bfe28dfed2ed4807c3941f57d6"
+  },
+  {
+    "file": "SANDBOX/ch15/out_s3/regions.csv",
+    "bytes": 164,
+    "sha256": "bb7f2e007661072f67fd4dbd15222bd6d05ab57570d1303bf4fa59851153210b"
+  },
+  {
+    "file": "SANDBOX/ch15/out_s3/result.json",
+    "bytes": 122937,
+    "sha256": "0ce22a00f743cf31d4b1bdb4561be9135f3fec770ba0078383838b18ac0954a1"
+  },
+  {
+    "file": "SANDBOX/ch15/out_s3/run_manifest.json",
+    "bytes": 138,
+    "sha256": "29a4d4b3691d9f5f1eeeba68821359ccb97a473504eaa3147a9b681d08c6d6ae"
+  },
+  {
+    "file": "SANDBOX/ch15/out_s3/within_group_permutations.csv",
+    "bytes": 1147,
+    "sha256": "f4d789d084450455398dfd87e69c4a4c027c2d15aa7de8f44f2f3becf6198f5a"
+  },
+  {
+    "file": "SANDBOX/ch15/out_s4/changes.csv",
+    "bytes": 124,
+    "sha256": "a83c2525323262233fd8be031ab24058c9f0d997be5526f184b99de612c9dba3"
+  },
+  {
+    "file": "SANDBOX/ch15/out_s4/regional.csv",
+    "bytes": 158,
+    "sha256": "416b8d00b700379a04b1bd09ede24f1d57a4b86df852ba5e4a0e381c0e9a50c3"
+  },
+  {
+    "file": "SANDBOX/ch15/out_s4/result.json",
+    "bytes": 2617,
+    "sha256": "f3ed123c23a056aed17134383193e5bc2411ddedaa80dc03b08f7268559d00a9"
+  },
+  {
+    "file": "SANDBOX/ch15/out_s4/run_manifest.json",
+    "bytes": 138,
+    "sha256": "7dd9032dac8ca49f4d6dc7fbe18ab5f766eadf16674905d7338ce3e09767d469"
+  },
+  {
+    "file": "SANDBOX/ch15/out_s4/strata.csv",
+    "bytes": 408,
+    "sha256": "4bb9bb086e10b33958bbbc30c2963b206c7b92203e92ac73ec26177066fa1c1f"
+  },
+  {
+    "file": "SANDBOX/ch15/out_s5/joint_configurations.csv",
+    "bytes": 18336,
+    "sha256": "c4499a0fcfdd39a503f746299d3a8dedb6bb0723e53e979c87a4e417c413b72d"
+  },
+  {
+    "file": "SANDBOX/ch15/out_s5/result.json",
+    "bytes": 63770,
+    "sha256": "b14a0fb772187f26d3b810b17671452da9280205635fdae19a0b28b2a5d4f9ed"
+  },
+  {
+    "file": "SANDBOX/ch15/out_s5/run_manifest.json",
+    "bytes": 138,
+    "sha256": "281d25831ebb76c40dc81e889321688d0e09f16d33b7c77824d617ad1756612e"
+  },
+  {
+    "file": "SANDBOX/ch15/out_s5/sensitivity_ranges.csv",
+    "bytes": 1949,
+    "sha256": "c7e39ab864323c503abb56542c8bb702d6fac95b3b506cbaef93496366c1cc8b"
+  },
+  {
+    "file": "SANDBOX/ch15/out_s6/interpretations.csv",
+    "bytes": 494,
+    "sha256": "714f55e7e8f8fe57cec6f93fb4fd6bc2dcf62fcca7bbb9bc6dda2a9d731dca97"
+  },
+  {
+    "file": "SANDBOX/ch15/out_s6/result.json",
+    "bytes": 2793,
+    "sha256": "6950585d7154d3690251215e4b8333d723f4c45af5dee2378d4c165b060137ae"
+  },
+  {
+    "file": "SANDBOX/ch15/out_s6/run_manifest.json",
+    "bytes": 138,
+    "sha256": "446e32c4761efd6f6f7b628d08357b8cce90508ec050fde6924698a0913e5d20"
+  },
+  {
+    "file": "SANDBOX/ch15/out_s6/timeline.csv",
+    "bytes": 604,
+    "sha256": "90631a18fe9dfa06aff9ea135a272b3ee95653a35ba96ae1915d3045dcb75859"
+  },
+  {
+    "file": "SANDBOX/ch16/out_base/assertion_audit.csv",
+    "bytes": 1822,
+    "sha256": "909590b47bd3557a2628b47be79463a25d9617cb97933fd873c6746ffb4ccf8f"
+  },
+  {
+    "file": "SANDBOX/ch16/out_base/attendance_bipartite.csv",
+    "bytes": 275,
+    "sha256": "ad8b5cc1ce8c337469831161b6488fcb4f3f295b05bdbdffde5e3fea480d812d"
+  },
+  {
+    "file": "SANDBOX/ch16/out_base/candidate_evidence.json",
+    "bytes": 5806,
+    "sha256": "657b4d8667b7b75b33d7e1fd5ecb82d191a343d81456c2e55a28af2f2df2858b"
+  },
+  {
+    "file": "SANDBOX/ch16/out_base/candidate_evidence.svg",
+    "bytes": 1237,
+    "sha256": "a5ea07b4d6213036eccfde1a27bfff5a12d6a7c213986af9fd53b2ff49f0855b"
+  },
+  {
+    "file": "SANDBOX/ch16/out_base/confirmed_instances.csv",
+    "bytes": 521,
+    "sha256": "794e09e9819e9f550af72a02ca772fd1fe30068192699de58d067fa001febeff"
+  },
+  {
+    "file": "SANDBOX/ch16/out_base/disambiguation_audit.json",
+    "bytes": 3821,
+    "sha256": "2a54f56a5fa0d1d3713e4855f95a48b4200f680846098d674f64ead0341ddf74"
+  },
+  {
+    "file": "SANDBOX/ch16/out_base/excluded_instances.csv",
+    "bytes": 640,
+    "sha256": "fc71f26244d755826fd53fa62de8f2f7c80c3c16cecd3f40e695e59b013111d9"
+  },
+  {
+    "file": "SANDBOX/ch16/out_base/layer_edges.csv",
+    "bytes": 521,
+    "sha256": "794e09e9819e9f550af72a02ca772fd1fe30068192699de58d067fa001febeff"
+  },
+  {
+    "file": "SANDBOX/ch16/out_base/lineage.json",
+    "bytes": 4177,
+    "sha256": "49135853f47d162abffab71611073265d60f356b8dad4a8bd6a2c9a0e657f286"
+  },
+  {
+    "file": "SANDBOX/ch16/out_base/nodes.csv",
+    "bytes": 410,
+    "sha256": "4570f9336621f27aefac5848ce519f295d03b56dd7f745a2ee1ee8916e95aec5"
+  },
+  {
+    "file": "SANDBOX/ch16/out_base/projection.csv",
+    "bytes": 101,
+    "sha256": "5b36b702f5092fd1bbaf20789e88aefe12d8005b850f3a19b0ce3bd87c54677f"
+  },
+  {
+    "file": "SANDBOX/ch16/out_base/provenance.json",
+    "bytes": 2451,
+    "sha256": "64fe2165c0a109f71918fdc1f9da645f688b251c3fa75701b44bc3f1e2961caa"
+  },
+  {
+    "file": "SANDBOX/ch16/out_base/relations.svg",
+    "bytes": 1228,
+    "sha256": "776eef8061fdaad9a4ea9afeffc89e46bdb5e82df8a4912cee3711c5724be45b"
+  },
+  {
+    "file": "SANDBOX/ch16/out_defer/assertion_audit.csv",
+    "bytes": 1840,
+    "sha256": "cd15f315a29b1a23c63b15370c07a9466d96c1edc5fff7aa2d05cfe160e83157"
+  },
+  {
+    "file": "SANDBOX/ch16/out_defer/attendance_bipartite.csv",
+    "bytes": 275,
+    "sha256": "ad8b5cc1ce8c337469831161b6488fcb4f3f295b05bdbdffde5e3fea480d812d"
+  },
+  {
+    "file": "SANDBOX/ch16/out_defer/candidate_evidence.json",
+    "bytes": 5806,
+    "sha256": "657b4d8667b7b75b33d7e1fd5ecb82d191a343d81456c2e55a28af2f2df2858b"
+  },
+  {
+    "file": "SANDBOX/ch16/out_defer/candidate_evidence.svg",
+    "bytes": 1237,
+    "sha256": "a5ea07b4d6213036eccfde1a27bfff5a12d6a7c213986af9fd53b2ff49f0855b"
+  },
+  {
+    "file": "SANDBOX/ch16/out_defer/confirmed_instances.csv",
+    "bytes": 461,
+    "sha256": "ed9a9cf03892ae8dcdb1a488febf405cb95da1f6ca9f22b6f84e6e4e1bbb7f8e"
+  },
+  {
+    "file": "SANDBOX/ch16/out_defer/disambiguation_audit.json",
+    "bytes": 3821,
+    "sha256": "2a54f56a5fa0d1d3713e4855f95a48b4200f680846098d674f64ead0341ddf74"
+  },
+  {
+    "file": "SANDBOX/ch16/out_defer/excluded_instances.csv",
+    "bytes": 717,
+    "sha256": "b85fb074a5034a8930bcba05efd16168544ed321faaf3851c01a2faa701481a9"
+  },
+  {
+    "file": "SANDBOX/ch16/out_defer/layer_edges.csv",
+    "bytes": 461,
+    "sha256": "ed9a9cf03892ae8dcdb1a488febf405cb95da1f6ca9f22b6f84e6e4e1bbb7f8e"
+  },
+  {
+    "file": "SANDBOX/ch16/out_defer/lineage.json",
+    "bytes": 4209,
+    "sha256": "47168424cb92a221dd79ab1381ff38b209c1515059882f5bd6b86125cce11e66"
+  },
+  {
+    "file": "SANDBOX/ch16/out_defer/nodes.csv",
+    "bytes": 410,
+    "sha256": "4570f9336621f27aefac5848ce519f295d03b56dd7f745a2ee1ee8916e95aec5"
+  },
+  {
+    "file": "SANDBOX/ch16/out_defer/projection.csv",
+    "bytes": 101,
+    "sha256": "5b36b702f5092fd1bbaf20789e88aefe12d8005b850f3a19b0ce3bd87c54677f"
+  },
+  {
+    "file": "SANDBOX/ch16/out_defer/provenance.json",
+    "bytes": 2498,
+    "sha256": "efa749bfeb0b4720f16504b7c79107b55433c42fabd0007224d04778b8c4f513"
+  },
+  {
+    "file": "SANDBOX/ch16/out_defer/relations.svg",
+    "bytes": 1083,
+    "sha256": "5c18dc766d0aff0b79d1c1c69075e28b643eecdd65cbaa882e901230d7c45063"
+  },
+  {
+    "file": "SANDBOX/ch16/out_identity/assertion_audit.csv",
+    "bytes": 1782,
+    "sha256": "64699a3dc7772ba812cc582fff4ff5109314d34fe556ac36776be84d40e00bb8"
+  },
+  {
+    "file": "SANDBOX/ch16/out_identity/attendance_bipartite.csv",
+    "bytes": 340,
+    "sha256": "1bb56e78161a1746ec7e466114b0d6dddeb1b3de3a9b99d3280f8fa98c9ef41b"
+  },
+  {
+    "file": "SANDBOX/ch16/out_identity/candidate_evidence.json",
+    "bytes": 5806,
+    "sha256": "657b4d8667b7b75b33d7e1fd5ecb82d191a343d81456c2e55a28af2f2df2858b"
+  },
+  {
+    "file": "SANDBOX/ch16/out_identity/candidate_evidence.svg",
+    "bytes": 1237,
+    "sha256": "a5ea07b4d6213036eccfde1a27bfff5a12d6a7c213986af9fd53b2ff49f0855b"
+  },
+  {
+    "file": "SANDBOX/ch16/out_identity/confirmed_instances.csv",
+    "bytes": 594,
+    "sha256": "726a1c6ff9068a9990e7e102c5cb15bfca0e7a936a1c0a22fe6cf39ffda5ce64"
+  },
+  {
+    "file": "SANDBOX/ch16/out_identity/disambiguation_audit.json",
+    "bytes": 3821,
+    "sha256": "2a54f56a5fa0d1d3713e4855f95a48b4200f680846098d674f64ead0341ddf74"
+  },
+  {
+    "file": "SANDBOX/ch16/out_identity/excluded_instances.csv",
+    "bytes": 552,
+    "sha256": "33391e8b8a002b1e321977e1342289b31cdb5f69fba7ae2f82648c55f4f9c15c"
+  },
+  {
+    "file": "SANDBOX/ch16/out_identity/layer_edges.csv",
+    "bytes": 594,
+    "sha256": "726a1c6ff9068a9990e7e102c5cb15bfca0e7a936a1c0a22fe6cf39ffda5ce64"
+  },
+  {
+    "file": "SANDBOX/ch16/out_identity/lineage.json",
+    "bytes": 4114,
+    "sha256": "4cb9ae3ce944062daa8b285f06ae2f5d5b5e4e448a4d842d527bae73c1189cb9"
+  },
+  {
+    "file": "SANDBOX/ch16/out_identity/nodes.csv",
+    "bytes": 410,
+    "sha256": "4570f9336621f27aefac5848ce519f295d03b56dd7f745a2ee1ee8916e95aec5"
+  },
+  {
+    "file": "SANDBOX/ch16/out_identity/projection.csv",
+    "bytes": 155,
+    "sha256": "7fbb87359a1c90a98a1b417888b0355f2e4247461188082cb2c3add4ffd91ef5"
+  },
+  {
+    "file": "SANDBOX/ch16/out_identity/provenance.json",
+    "bytes": 2502,
+    "sha256": "b87cabd85b86ba81f767d2d1b932477dc6d5a93e395cca7f7a8d6ae1648cc8c6"
+  },
+  {
+    "file": "SANDBOX/ch16/out_identity/relations.svg",
+    "bytes": 1378,
+    "sha256": "5f7c09e38233b4a35868452ea67791c4a80ca31859f44b873123b596dd1cf115"
+  },
+  {
+    "file": "SANDBOX/ch16/out_window/assertion_audit.csv",
+    "bytes": 1792,
+    "sha256": "f235e97a7e13b04bd54f9dc213efcb9723c4630bba2a3bee1e84c02c9a60ba24"
+  },
+  {
+    "file": "SANDBOX/ch16/out_window/attendance_bipartite.csv",
+    "bytes": 336,
+    "sha256": "1c783a9cc811e706619b558851f13a960a32f384bbc90b3c342cb3beb18e8c45"
+  },
+  {
+    "file": "SANDBOX/ch16/out_window/candidate_evidence.json",
+    "bytes": 5806,
+    "sha256": "657b4d8667b7b75b33d7e1fd5ecb82d191a343d81456c2e55a28af2f2df2858b"
+  },
+  {
+    "file": "SANDBOX/ch16/out_window/candidate_evidence.svg",
+    "bytes": 1237,
+    "sha256": "a5ea07b4d6213036eccfde1a27bfff5a12d6a7c213986af9fd53b2ff49f0855b"
+  },
+  {
+    "file": "SANDBOX/ch16/out_window/confirmed_instances.csv",
+    "bytes": 644,
+    "sha256": "3c12a798d3df2604b67c823c56eed1d411f6ceb26c94b88a90a85090b3f1c78b"
+  },
+  {
+    "file": "SANDBOX/ch16/out_window/disambiguation_audit.json",
+    "bytes": 3821,
+    "sha256": "2a54f56a5fa0d1d3713e4855f95a48b4200f680846098d674f64ead0341ddf74"
+  },
+  {
+    "file": "SANDBOX/ch16/out_window/excluded_instances.csv",
+    "bytes": 489,
+    "sha256": "a0a6a79e31cac723b71fff6609279462fce9cf026ec203cc509b5bf2a99892e0"
+  },
+  {
+    "file": "SANDBOX/ch16/out_window/layer_edges.csv",
+    "bytes": 644,
+    "sha256": "3c12a798d3df2604b67c823c56eed1d411f6ceb26c94b88a90a85090b3f1c78b"
+  },
+  {
+    "file": "SANDBOX/ch16/out_window/lineage.json",
+    "bytes": 4119,
+    "sha256": "32e7cf9c98948ab1e0d7025feb2afde5721427dcd44097d0d44823ae9c9dd012"
+  },
+  {
+    "file": "SANDBOX/ch16/out_window/nodes.csv",
+    "bytes": 410,
+    "sha256": "4570f9336621f27aefac5848ce519f295d03b56dd7f745a2ee1ee8916e95aec5"
+  },
+  {
+    "file": "SANDBOX/ch16/out_window/projection.csv",
+    "bytes": 101,
+    "sha256": "5b36b702f5092fd1bbaf20789e88aefe12d8005b850f3a19b0ce3bd87c54677f"
+  },
+  {
+    "file": "SANDBOX/ch16/out_window/provenance.json",
+    "bytes": 2483,
+    "sha256": "b5c22316c7119d72f8996768ab280d01dfec80b8447e98a2cf2a000fffe16780"
+  },
+  {
+    "file": "SANDBOX/ch16/out_window/relations.svg",
+    "bytes": 1527,
+    "sha256": "f8ea461b20a0dd6608cf1d40d7291d498f57bf85889982c4f8723afd760780aa"
+  },
+  {
+    "file": "SANDBOX/ch17/out_base/bridges_and_articulations.json",
+    "bytes": 211,
+    "sha256": "1595aff971541c22ee532c9b35a272c12ab44143d03ca9bef74efc9517daef78"
+  },
+  {
+    "file": "SANDBOX/ch17/out_base/centralities.csv",
+    "bytes": 796,
+    "sha256": "84ddc10b0a358e71239b9aea46cea12efb22de43c6a422335adcc126e2603c9f"
+  },
+  {
+    "file": "SANDBOX/ch17/out_base/co_membership.csv",
+    "bytes": 5179,
+    "sha256": "176529732b39ef8617978ee29c4209b33c3251ce728b4d5a50b0baad03b44fa0"
+  },
+  {
+    "file": "SANDBOX/ch17/out_base/communities.csv",
+    "bytes": 448,
+    "sha256": "d1ca3806054c201ac6982c636580c3db62ee519882da388a6e1c56ccb2604187"
+  },
+  {
+    "file": "SANDBOX/ch17/out_base/comparisons.csv",
+    "bytes": 319,
+    "sha256": "ac3cd55517cbcf9bac309c9276a3bd505f322b00fa268e7ccadbfdb32baabfb6"
+  },
+  {
+    "file": "SANDBOX/ch17/out_base/components.csv",
+    "bytes": 232,
+    "sha256": "e719fd0ea8dfeaa7ea5060594dff4374f1b2140a3cde82cb68cd4af4f22778e6"
+  },
+  {
+    "file": "SANDBOX/ch17/out_base/derived_edges.csv",
+    "bytes": 504,
+    "sha256": "9adc921caef5bb2a88781a218ca63fe579fb7e84583e8908ddb5ebf72b55164f"
+  },
+  {
+    "file": "SANDBOX/ch17/out_base/event_audit.json",
+    "bytes": 2289,
+    "sha256": "60e67e6ce7e01d2827ef0e5e37ab43c158c326ab3aaa454da0133993933d86da"
+  },
+  {
+    "file": "SANDBOX/ch17/out_base/network.svg",
+    "bytes": 1676,
+    "sha256": "312fc3f7c6b98ee3d61c7646ff32c4f36823395b91c5d31857410dfa25d98c89"
+  },
+  {
+    "file": "SANDBOX/ch17/out_base/network_summary.json",
+    "bytes": 1184,
+    "sha256": "3e9a15d4ba51889b4831425b1fa91ed2d48d4ef4b4edbdea53c6c545de9bd0a4"
+  },
+  {
+    "file": "SANDBOX/ch17/out_base/provenance.json",
+    "bytes": 10614,
+    "sha256": "6c1ebf198d22d66263b985a446f45214853cb6cc1a99b711890e80c2194103be"
+  },
+  {
+    "file": "SANDBOX/ch17/out_base/sensitivity.json",
+    "bytes": 88868,
+    "sha256": "80a94faeeba9dce70543e3347b565f46c4108437adcc923aef6f35b49885d966"
+  },
+  {
+    "file": "SANDBOX/ch17/out_gamma/bridges_and_articulations.json",
+    "bytes": 211,
+    "sha256": "1595aff971541c22ee532c9b35a272c12ab44143d03ca9bef74efc9517daef78"
+  },
+  {
+    "file": "SANDBOX/ch17/out_gamma/centralities.csv",
+    "bytes": 796,
+    "sha256": "84ddc10b0a358e71239b9aea46cea12efb22de43c6a422335adcc126e2603c9f"
+  },
+  {
+    "file": "SANDBOX/ch17/out_gamma/co_membership.csv",
+    "bytes": 3877,
+    "sha256": "4b004bed895b0e1bdb21b4a2fddc3eb4ff1ddec1d740f6147e16f6033546456c"
+  },
+  {
+    "file": "SANDBOX/ch17/out_gamma/communities.csv",
+    "bytes": 370,
+    "sha256": "fbfa6b8cba6881f332716c1685975b9e2a91d61d7842f48c2e79970b6b7bf8f7"
+  },
+  {
+    "file": "SANDBOX/ch17/out_gamma/comparisons.csv",
+    "bytes": 319,
+    "sha256": "ac3cd55517cbcf9bac309c9276a3bd505f322b00fa268e7ccadbfdb32baabfb6"
+  },
+  {
+    "file": "SANDBOX/ch17/out_gamma/components.csv",
+    "bytes": 232,
+    "sha256": "e719fd0ea8dfeaa7ea5060594dff4374f1b2140a3cde82cb68cd4af4f22778e6"
+  },
+  {
+    "file": "SANDBOX/ch17/out_gamma/derived_edges.csv",
+    "bytes": 504,
+    "sha256": "9adc921caef5bb2a88781a218ca63fe579fb7e84583e8908ddb5ebf72b55164f"
+  },
+  {
+    "file": "SANDBOX/ch17/out_gamma/event_audit.json",
+    "bytes": 2289,
+    "sha256": "60e67e6ce7e01d2827ef0e5e37ab43c158c326ab3aaa454da0133993933d86da"
+  },
+  {
+    "file": "SANDBOX/ch17/out_gamma/network.svg",
+    "bytes": 1676,
+    "sha256": "312fc3f7c6b98ee3d61c7646ff32c4f36823395b91c5d31857410dfa25d98c89"
+  },
+  {
+    "file": "SANDBOX/ch17/out_gamma/network_summary.json",
+    "bytes": 1184,
+    "sha256": "3e9a15d4ba51889b4831425b1fa91ed2d48d4ef4b4edbdea53c6c545de9bd0a4"
+  },
+  {
+    "file": "SANDBOX/ch17/out_gamma/provenance.json",
+    "bytes": 10677,
+    "sha256": "2a7a33066d72592c1a32056288e96f41a4647bbfc5ebb209705a0b5981fd5b23"
+  },
+  {
+    "file": "SANDBOX/ch17/out_gamma/sensitivity.json",
+    "bytes": 88868,
+    "sha256": "80a94faeeba9dce70543e3347b565f46c4108437adcc923aef6f35b49885d966"
+  },
+  {
+    "file": "SANDBOX/ch17/out_window/bridges_and_articulations.json",
+    "bytes": 270,
+    "sha256": "8800e5d358eb4dfa216ac74b53b426004fd029ee82ed52a904c54c0978f69b62"
+  },
+  {
+    "file": "SANDBOX/ch17/out_window/centralities.csv",
+    "bytes": 700,
+    "sha256": "f21bd5601c8e599895987f37938b233bdbd3b7ce72a0f7455fb129d149a51863"
+  },
+  {
+    "file": "SANDBOX/ch17/out_window/co_membership.csv",
+    "bytes": 2503,
+    "sha256": "49439231b23c91f979bc42c05e814e7f0ad6774cf2134e9166b2816bcd56caa9"
+  },
+  {
+    "file": "SANDBOX/ch17/out_window/communities.csv",
+    "bytes": 585,
+    "sha256": "04ddaf0c85507e34f584af1827fbc1f0de5f23ec1a58515a11325fcbc9731f5f"
+  },
+  {
+    "file": "SANDBOX/ch17/out_window/comparisons.csv",
+    "bytes": 319,
+    "sha256": "ac3cd55517cbcf9bac309c9276a3bd505f322b00fa268e7ccadbfdb32baabfb6"
+  },
+  {
+    "file": "SANDBOX/ch17/out_window/components.csv",
+    "bytes": 386,
+    "sha256": "f8ccbe3a3e7eb8d00e899a3a88d2ac7eacc6847410e1929da0136fd111a8d372"
+  },
+  {
+    "file": "SANDBOX/ch17/out_window/derived_edges.csv",
+    "bytes": 277,
+    "sha256": "b161150aa84509b924da33f028399f4dc485a33728ae7e824ce1ad57f8de3272"
+  },
+  {
+    "file": "SANDBOX/ch17/out_window/event_audit.json",
+    "bytes": 2434,
+    "sha256": "b977c0196cc43e2642c615861ef2d5e869526c35b799b4d778db40ffc75673b2"
+  },
+  {
+    "file": "SANDBOX/ch17/out_window/network.svg",
+    "bytes": 1387,
+    "sha256": "f692e49821e18fe3b162ce828e316b3ca619db19fc04caa21b2f548a7533f722"
+  },
+  {
+    "file": "SANDBOX/ch17/out_window/network_summary.json",
+    "bytes": 1351,
+    "sha256": "be07e7dc6a73ac21163f0c756d279a7695852d94c4d0e7b37be174c9e8500445"
+  },
+  {
+    "file": "SANDBOX/ch17/out_window/provenance.json",
+    "bytes": 9887,
+    "sha256": "b291f12b29a26932a41d024fccb13f8ec9aaa1c72969ada1aad7d15cf9b45890"
+  },
+  {
+    "file": "SANDBOX/ch17/out_window/sensitivity.json",
+    "bytes": 60773,
+    "sha256": "255b2889f98e66fb659d00231fd813ff61f0998520428d67e0560956f1a51d0f"
+  }
+]

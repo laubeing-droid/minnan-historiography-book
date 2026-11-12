@@ -1,0 +1,1242 @@
+{
+  "scope": "synthetic teaching fixtures only; not academic recomputation",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "runs": [
+    {
+      "script": "ch07/workbook.py",
+      "input": "ch07/7.1/input.json",
+      "mode": "units",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch07/workbook.py",
+        "--input",
+        "SANDBOX/ch07/7.1/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch07__7.1__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "43ac9989ddcf251966264b97dc81ded145b07d744cc97be1848e20f7dfda8ce1",
+      "output_sha256": "378120d3b0e77e9e9692147065222a8ccaabddee7e9e1976242633d2e3c25d8a",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch07/workbook.py",
+      "input": "ch07/7.2/input.json",
+      "mode": "derive",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch07/workbook.py",
+        "--input",
+        "SANDBOX/ch07/7.2/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch07__7.2__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "01edfab333c3326a989c5666a7f5edd36462055f755c122fd737e615f1d3f092",
+      "output_sha256": "e2e30c7c71af4c9019ed9a2cead68b8df883e86f0de6bf6804ff7cfa0382ba59",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch07/workbook.py",
+      "input": "ch07/7.2/input_v2.json",
+      "mode": "derive",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch07/workbook.py",
+        "--input",
+        "SANDBOX/ch07/7.2/input_v2.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch07__7.2__input_v2.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "d1cd32e7ff20445f1698c4f57403c7b45240285f4f4b61fca2db6317dcca4be4",
+      "output_sha256": "6192bf072a6666654b55184196786f152e2b8b1f3587e993ae273fb839edc66f",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch07/workbook.py",
+      "input": "ch07/7.3/input.json",
+      "mode": "missing",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch07/workbook.py",
+        "--input",
+        "SANDBOX/ch07/7.3/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch07__7.3__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "a7b792bbd81c4ed4671f5d3e4776e3318345a23f78c4d7d0156bd8bd0b63c56b",
+      "output_sha256": "b34c2d09dfb1143b7fff6e700d913538dc3a8b6ef844765fcc613c7e294fd4b9",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch07/workbook.py",
+      "input": "ch07/7.4/input.json",
+      "mode": "agreement",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch07/workbook.py",
+        "--input",
+        "SANDBOX/ch07/7.4/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch07__7.4__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "e87351cf659ba27abe70c608394d91ee6dc88f4f774af7be819374f98cff91d9",
+      "output_sha256": "65ea1b6bdc2d78c756a1e5e982408b96bff13d4d00561b33b0dca5599fd2cff8",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch07/workbook.py",
+      "input": "ch07/7.5/input.json",
+      "mode": "coverage",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch07/workbook.py",
+        "--input",
+        "SANDBOX/ch07/7.5/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch07__7.5__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "1209e0eefd29d3123da8153990e28d7126690365bafd689d4b84ced3f47477a8",
+      "output_sha256": "c6d00cc9feb35c908b0b007390641f621bc234bda8d33870a2947a9f8e605273",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch07/workbook.py",
+      "input": "ch07/7.6/input.json",
+      "mode": "split",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch07/workbook.py",
+        "--input",
+        "SANDBOX/ch07/7.6/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch07__7.6__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "e96dd3d56464b892b65a6e9d0c7e3504ce64196840c7b178a5fecf5c8756add3",
+      "output_sha256": "77a0cd338027a7cee0d6cabb581d666a7fbc09db87948b429d4937bdf51c746d",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch07/workbook.py",
+      "input": "ch07/7.7/input.json",
+      "mode": "card",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch07/workbook.py",
+        "--input",
+        "SANDBOX/ch07/7.7/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch07__7.7__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "2dc797ed0209d56dd00083830d4f19ed312cbb9b50012d8362e9c5f44594cd0e",
+      "output_sha256": "eb0736048d98d975be892e9ad72265c200b00973f8c681378e8735d8341cf6fa",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch08/workbook.py",
+      "input": "ch08/8.1/input.json",
+      "mode": "baseline",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch08/workbook.py",
+        "--input",
+        "SANDBOX/ch08/8.1/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch08__8.1__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "f20f83d7ed381d2207c701e0b73e72021219504c5e2649f3849c32503842bb86",
+      "output_sha256": "19f814dd506b0e8d656ab3df497390843e0c07a1ac58a41ddc8d13cc74033fca",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch08/workbook.py",
+      "input": "ch08/8.2/input.json",
+      "mode": "matrix",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch08/workbook.py",
+        "--input",
+        "SANDBOX/ch08/8.2/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch08__8.2__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "27d248f74927d0d9dc1e03e3eade549527106795dd92c80ab58d766643fa49b3",
+      "output_sha256": "29c9aff0abf78a4dd5bfb7cdc5bfb0d82c739dbb64c361fa285220dd72f83d6c",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch08/workbook.py",
+      "input": "ch08/8.3/input.json",
+      "mode": "ablation",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch08/workbook.py",
+        "--input",
+        "SANDBOX/ch08/8.3/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch08__8.3__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "f0aea5fad7ccdd612076d79b8dc82f3b10f6c15a3b597fc1ace036f9493e520b",
+      "output_sha256": "ab9cd6ebec72a67b4fc302f04ebcaf5fa5929005d856a9f91b6458808f7f5573",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch08/workbook.py",
+      "input": "ch08/8.4/input.json",
+      "mode": "config",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch08/workbook.py",
+        "--input",
+        "SANDBOX/ch08/8.4/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch08__8.4__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "e47c5df3cf7cd49d64cce6ddfdc95519b376b26afd8316732da0c52927cc98a3",
+      "output_sha256": "577657043cd1cae1839fc42def79ca208ec6d8e66d9e6a7460010ed0f0db0f21",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch08/workbook.py",
+      "input": "ch08/8.4/input_reverse_sort.json",
+      "mode": "config",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch08/workbook.py",
+        "--input",
+        "SANDBOX/ch08/8.4/input_reverse_sort.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch08__8.4__input_reverse_sort.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "a5519ee49394f859eb2b67ff7800473ea0bbadcbc937b1a620059839a66114f3",
+      "output_sha256": "06a956c2cefcf4b6db911473a5785c09fec3609a246939a1be50fab92fd5a2e0",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch08/workbook.py",
+      "input": "ch08/8.4/input_reverse_unsorted.json",
+      "mode": "config",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch08/workbook.py",
+        "--input",
+        "SANDBOX/ch08/8.4/input_reverse_unsorted.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch08__8.4__input_reverse_unsorted.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "943c36dea334896543d8cdfb1713af716400c448a9102b3724471240cde378f5",
+      "output_sha256": "1910fd9d95546af1258f4cd5d0fcbd392ab327013f0aefdd5ad1f1c3cb371505",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch08/workbook.py",
+      "input": "ch08/8.4/input_seed29.json",
+      "mode": "config",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch08/workbook.py",
+        "--input",
+        "SANDBOX/ch08/8.4/input_seed29.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch08__8.4__input_seed29.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "35178575464417e5e44049adf76a44e12c00e69194a18c4c1ef5b95a6fe5b197",
+      "output_sha256": "c001fa7af3b0ceac064c7130243432909c10bca8048e9ec2e5c61c9365d3811a",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch08/workbook.py",
+      "input": "ch08/8.5/input.json",
+      "mode": "tracking",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch08/workbook.py",
+        "--input",
+        "SANDBOX/ch08/8.5/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch08__8.5__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "a50503327974fa2bcd8003acd5f4ebeb325bae15f2a522437838726668e6d42c",
+      "output_sha256": "9adc8b7471aacd8cfe46a659f0d303be90f411befe014db8a3a22bc04c484048",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch08/workbook.py",
+      "input": "ch08/8.6/input.json",
+      "mode": "literal",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch08/workbook.py",
+        "--input",
+        "SANDBOX/ch08/8.6/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch08__8.6__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "44591d2015b4a6a83f0a55bd1d8c62d316f361cb539f4990c548c3f7ad78ba19",
+      "output_sha256": "ef697b4c075a8f3c354897c86c1265c2fd756d09e4e644a4e690ad000a45c896",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch08/workbook.py",
+      "input": "ch08/8.7/input.json",
+      "mode": "join",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch08/workbook.py",
+        "--input",
+        "SANDBOX/ch08/8.7/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch08__8.7__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "54a5b476a5ec6d3ea7fca6a87fde5d55048e83724f306662d1dae2ffd4f48326",
+      "output_sha256": "20fa6439476c5f79ab7268f761cbbafd6949ea121f322e800daa129e798e222f",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch08/workbook.py",
+      "input": "ch08/8.7/regression_duplicate_input.json",
+      "mode": "join",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch08/workbook.py",
+        "--input",
+        "SANDBOX/ch08/8.7/regression_duplicate_input.json"
+      ],
+      "returncode": 1,
+      "stdout": "SANDBOX/logs/ch08__8.7__regression_duplicate_input.json.stdout.json",
+      "stderr": "Traceback (most recent call last):\n  File \"SANDBOX/ch08/workbook.py\", line 340, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"SANDBOX/ch08/workbook.py\", line 337, in main\n    result=run(data,path.parent)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"SANDBOX/ch08/workbook.py\", line 233, in run\n    if rows:unique(rows,'id')\n            ^^^^^^^^^^^^^^^^^\n  File \"SANDBOX/ch08/workbook.py\", line 18, in unique\n    raise ValueError('duplicate '+key)\nValueError: duplicate id\n",
+      "input_sha256": "704c3fd907c9fe135e8c94c8746578bede3d69ecb63aab1e2db878981eea046a",
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output_json_valid": false
+    },
+    {
+      "script": "ch08/workbook.py",
+      "input": "ch08/8.7/regression_missing_input.json",
+      "mode": "join",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch08/workbook.py",
+        "--input",
+        "SANDBOX/ch08/8.7/regression_missing_input.json"
+      ],
+      "returncode": 1,
+      "stdout": "SANDBOX/logs/ch08__8.7__regression_missing_input.json.stdout.json",
+      "stderr": "Traceback (most recent call last):\n  File \"SANDBOX/ch08/workbook.py\", line 340, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"SANDBOX/ch08/workbook.py\", line 337, in main\n    result=run(data,path.parent)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"SANDBOX/ch08/workbook.py\", line 269, in run\n    if set(pred)!={r['id'] for r in rows}:raise ValueError('prediction id set differs')\n                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: prediction id set differs\n",
+      "input_sha256": "f61bea21d6b0443af0797ae6fa44cc436ae314b658087309c68eb51200745d94",
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output_json_valid": false
+    },
+    {
+      "script": "ch08/workbook.py",
+      "input": "ch08/8.8/input.json",
+      "mode": "independent",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch08/workbook.py",
+        "--input",
+        "SANDBOX/ch08/8.8/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch08__8.8__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "52099931d78f64ad1753e783ebbc86ffddd2fc5757def5e6b85c591d8128d093",
+      "output_sha256": "ae6c8ddaf78e8a9eb68c54ca2bdca90b45581cd809f0f85b05213141f729472c",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch09/workbook.py",
+      "input": "ch09/9.1/input.json",
+      "mode": "tasks",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch09/workbook.py",
+        "--input",
+        "SANDBOX/ch09/9.1/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch09__9.1__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "b82661a6e8f7a5b7c7765d5d6ed2d60a34e8cf44f7be782beff19b71630cd370",
+      "output_sha256": "4e3537a3b34bf68d7346d9cb1c1a77c799027bfff5c81fcdf81fc2272a6b8954",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch09/workbook.py",
+      "input": "ch09/9.2/input.json",
+      "mode": "tensor",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch09/workbook.py",
+        "--input",
+        "SANDBOX/ch09/9.2/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch09__9.2__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "7af1fdbe67c9167ecfd50b80ba42a75552645ae229863c136a0314886ad2ac7e",
+      "output_sha256": "75e02c132792d990b3ab6ee0a61077edfc7cb46ce7c9ee2e11270676440c6ea6",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch09/workbook.py",
+      "input": "ch09/9.3/input.json",
+      "mode": "baseline",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch09/workbook.py",
+        "--input",
+        "SANDBOX/ch09/9.3/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch09__9.3__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "2be1184f983cc7bafc78bdcca99212ccbecc3b4eb5f7f8f87940127facf47093",
+      "output_sha256": "d401aafe384938a273abff7794532baf78c8e06a3931d7ab179b3c76cc2210a4",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch09/workbook.py",
+      "input": "ch09/9.4/input.json",
+      "mode": "vectors",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch09/workbook.py",
+        "--input",
+        "SANDBOX/ch09/9.4/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch09__9.4__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "bc455e58079b7a607cf54e035a655a9bcb6d058807da3cdf0303750c294f44ee",
+      "output_sha256": "fda22c5ba804ea2543db0cae057b1797fa6b2f9829387b4065175ef08118dd68",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch09/workbook.py",
+      "input": "ch09/9.5/input.json",
+      "mode": "benchmark",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch09/workbook.py",
+        "--input",
+        "SANDBOX/ch09/9.5/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch09__9.5__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "a24af68d96f6492b2eb84ad5c201a319e9bf0c9cbff866fa683f6a8ea1990067",
+      "output_sha256": "9e3377a3e1bbe5e98cca5676b0058345822ced81d61e38249ce86478bb4692f1",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch09/workbook.py",
+      "input": "ch09/9.6/input.json",
+      "mode": "agreement",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch09/workbook.py",
+        "--input",
+        "SANDBOX/ch09/9.6/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch09__9.6__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "292dd8705c0bf57c986c945371806391c37c2b7b6e09cdf0de0c0be52d3e4aba",
+      "output_sha256": "c7e0866d8f851833da682701875d612050021d0701a933f80474430be97544c4",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch09/workbook.py",
+      "input": "ch09/9.7/input.json",
+      "mode": "multilingual",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch09/workbook.py",
+        "--input",
+        "SANDBOX/ch09/9.7/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch09__9.7__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "962c53836ffaecee5cd00998a9f40fc3dbeb2799d500943a3e4e273e64bd9fdc",
+      "output_sha256": "8551d39e41c5e22ab1d00d4571ee5660b2dddbe4df3932ce143fe198c22da83d",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch09/workbook.py",
+      "input": "ch09/9.8/input.json",
+      "mode": "coverage",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch09/workbook.py",
+        "--input",
+        "SANDBOX/ch09/9.8/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch09__9.8__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "b6d03c1bbd2442771017ccc5365505c426370d0a86310d345a3a13f2053d2973",
+      "output_sha256": "6e2de42155e566e9fcf1f893dd279af606679990ed2c61d22ea5aa7913980170",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch10/workbook.py",
+      "input": "ch10/10.1/input.json",
+      "mode": "prompt",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch10/workbook.py",
+        "--input",
+        "SANDBOX/ch10/10.1/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch10__10.1__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "d548665536f22ef8d3c82b48c19519e4ff92d229f216eae9f9e1f75500a81ab7",
+      "output_sha256": "fb277f1232f373cf8d7a4edea4cc5da8eb8a3ba5addb1ef0a666fa98e9b41dac",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch10/workbook.py",
+      "input": "ch10/10.10/input.json",
+      "mode": "card",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch10/workbook.py",
+        "--input",
+        "SANDBOX/ch10/10.10/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch10__10.10__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "cf00bd248fa40552fee0b40f43bb3083435a9e2b5a0843006adfb3dee94cde5f",
+      "output_sha256": "6e9332b6227ad5b5c74501bbf82f41a2be0c15e76ec48ee7b7b060111c6eeeec",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch10/workbook.py",
+      "input": "ch10/10.2/input.json",
+      "mode": "fewshot",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch10/workbook.py",
+        "--input",
+        "SANDBOX/ch10/10.2/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch10__10.2__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "3e2564eaad92d648ad7ae09c6a9619943686986aebc0b22b6ded8f73b6a132e9",
+      "output_sha256": "39077a441fa162f2888ae36d1a9204de6ebdbf3209fffe9f4672399cd2028e86",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch10/workbook.py",
+      "input": "ch10/10.3/input.json",
+      "mode": "sensitivity",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch10/workbook.py",
+        "--input",
+        "SANDBOX/ch10/10.3/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch10__10.3__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "9c1bddb6705cf7172c132c401ba054f4b7070b4e99a6a60f0d0a18704daa15d9",
+      "output_sha256": "94bbd9ca11f7668d1934ed66f868b17e9fba4cfb7586978c83cab5e056b682d3",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch10/workbook.py",
+      "input": "ch10/10.4/input.json",
+      "mode": "overlap",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch10/workbook.py",
+        "--input",
+        "SANDBOX/ch10/10.4/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch10__10.4__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "ea131af2ba1157ce2766a92e7575b81810ae07e6abc17d1d4b70f63367d862b2",
+      "output_sha256": "81c242a6d34bccc4a007a53a71614ae390df1e9a4e90ac7bb7abcb4f88996122",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch10/workbook.py",
+      "input": "ch10/10.5/input.json",
+      "mode": "ratings",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch10/workbook.py",
+        "--input",
+        "SANDBOX/ch10/10.5/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch10__10.5__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "93b59b1be44473823f0dc7e5e93dca299c31801bc0e325516921c95d4d7dccce",
+      "output_sha256": "e54a49f0ec53fb9dafce1c7e97209780671725eaef24033a94bfa854a2095ad7",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch10/workbook.py",
+      "input": "ch10/10.6/input.json",
+      "mode": "judge",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch10/workbook.py",
+        "--input",
+        "SANDBOX/ch10/10.6/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch10__10.6__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "49d0c036a6238b37e7469dde8460b7c2c2e79c626c558d4cbedfe51fd25bc618",
+      "output_sha256": "b28acf29641826a94c478839696fb71d6f34575c5a7541708e813ba15e7069c7",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch10/workbook.py",
+      "input": "ch10/10.7/input.json",
+      "mode": "bootstrap",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch10/workbook.py",
+        "--input",
+        "SANDBOX/ch10/10.7/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch10__10.7__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "2f0f9f15d8cb615743da8fd1bb95f62f813571a67f6d7588dace5916259d19c5",
+      "output_sha256": "11266bbf7e650d048582f2c3f09c915db024c8cbc0e9608e4715d2acf9e416ff",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch10/workbook.py",
+      "input": "ch10/10.8/input.json",
+      "mode": "mcnemar",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch10/workbook.py",
+        "--input",
+        "SANDBOX/ch10/10.8/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch10__10.8__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "73fba0a618d0fad4081dde4778daceb0d8ffcc35cadd35b424359ec606f9df19",
+      "output_sha256": "622e7335ea3faa09368ed8d33ae1d3064335340ad872fdd1c336856a256c9d45",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch10/workbook.py",
+      "input": "ch10/10.9/input.json",
+      "mode": "claims",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch10/workbook.py",
+        "--input",
+        "SANDBOX/ch10/10.9/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch10__10.9__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "f058c2f7177ddb970ffd1bddf32be2c2164bf640352a800deb861c6b2dbee255",
+      "output_sha256": "7b443bf126d9c1174ead3c92796ee7aede7e8b87b83900a62fa28a6cc9bb0c2d",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch11/workbook.py",
+      "input": "ch11/11.1/input.json",
+      "mode": "vision_class",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch11/workbook.py",
+        "--input",
+        "SANDBOX/ch11/11.1/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch11__11.1__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "1a4747e31d48e08853f4b22049f29e7a533d7d452218b69b55a29cf923d3f6a4",
+      "output_sha256": "55e87ee20dd9edba7b6a6c7b71a38e4f0951c22de947ef39fdcfc4530204f9a1",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch11/workbook.py",
+      "input": "ch11/11.10/input.json",
+      "mode": "vision_ablation",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch11/workbook.py",
+        "--input",
+        "SANDBOX/ch11/11.10/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch11__11.10__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "dad318bef1d608440e848fb16eda1de1068166b52f28440cc35f5b4521a61c9e",
+      "output_sha256": "606fbaab8816a9fd0998dcdf72ce7e03625899b92cc43af0fb8c0c4ff8b9645d",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch11/workbook.py",
+      "input": "ch11/11.2/input.json",
+      "mode": "detection",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch11/workbook.py",
+        "--input",
+        "SANDBOX/ch11/11.2/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch11__11.2__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "badab8c24a9b1370bd43b127e2636c67f759385eebf01104a02fd893b1606df2",
+      "output_sha256": "6e373f3e736223230a817b73027356a2f249163e9338240ac15fdff904730a72",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch11/workbook.py",
+      "input": "ch11/11.3/input.json",
+      "mode": "segmentation",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch11/workbook.py",
+        "--input",
+        "SANDBOX/ch11/11.3/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch11__11.3__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "364afe7a01fa7ec7012aea4baf4efd323f218f0590b6bccb5c5928820bb2182c",
+      "output_sha256": "7482044fb2ed500e942b19e17194801421fac255531599231c8d75b2a71b2383",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch11/workbook.py",
+      "input": "ch11/11.4/input.json",
+      "mode": "architecture",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch11/workbook.py",
+        "--input",
+        "SANDBOX/ch11/11.4/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch11__11.4__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "b07a132fdbdd54fe3412393d88c7e96e913bb168aba3b16834114694c5ed0a8b",
+      "output_sha256": "3c06a4257aa46b7c8a6fa5824c8d0af0958c4530d6d73b991840ae7216dc793e",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch11/workbook.py",
+      "input": "ch11/11.5/input.json",
+      "mode": "feature_eval",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch11/workbook.py",
+        "--input",
+        "SANDBOX/ch11/11.5/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch11__11.5__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "b5866c3d9529ddb4e3134fe0bbb51f6fb688bcd194f59831346b618258cad7fe",
+      "output_sha256": "196624cb005efba9e5330e238ce5727ec46d5f716dbca51c62ed20a3030dfbfe",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch11/workbook.py",
+      "input": "ch11/11.6/input.json",
+      "mode": "benchmark",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch11/workbook.py",
+        "--input",
+        "SANDBOX/ch11/11.6/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch11__11.6__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "0b595835a2748299d497731bc102f2d824652923c1f95e1b20fb5ac2012ebd62",
+      "output_sha256": "2b2280ba53f88f1a08aa0de7d1bc27b34a58ab02348f2c19729a03b53eb53bfa",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch11/workbook.py",
+      "input": "ch11/11.7/input.json",
+      "mode": "vision_metrics",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch11/workbook.py",
+        "--input",
+        "SANDBOX/ch11/11.7/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch11__11.7__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "054076f5264fdaf2629af145d0c29b0834ef1aa49836958be30657964eacb819",
+      "output_sha256": "138a58ab9634a3fc55a5e2c7c360a2008e6c843ea6fc817bd9b4c5dd40650bb8",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch11/workbook.py",
+      "input": "ch11/11.8/input.json",
+      "mode": "longtail",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch11/workbook.py",
+        "--input",
+        "SANDBOX/ch11/11.8/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch11__11.8__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "36e83d56e3fbf9127a9688e48c1ca432518c73a8dc7b3dc7a8878562e95962e9",
+      "output_sha256": "47514656f01a246d7ad6387cc225c0d47395a064d6c980fc9c19b614e047ee7b",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch11/workbook.py",
+      "input": "ch11/11.9/input.json",
+      "mode": "shift",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch11/workbook.py",
+        "--input",
+        "SANDBOX/ch11/11.9/input.json"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/ch11__11.9__input.json.stdout.json",
+      "stderr": "",
+      "input_sha256": "5ba4856d0260383397fd82f15592434a73e92a525046205d55abd4d5a5f5e702",
+      "output_sha256": "99e477940ec179b4117d1ac2f81655481aecc9af2e10fbf405fc51613e0ef0dd",
+      "output_json_valid": true,
+      "output_top_level_keys": [
+        "execution",
+        "input_provenance",
+        "section",
+        "result"
+      ]
+    },
+    {
+      "script": "ch08/8.8/score_predictions.py",
+      "command": [
+        "python",
+        "-B",
+        "SANDBOX/ch08/8.8/score_predictions.py",
+        "--predictions",
+        "SANDBOX/logs/ch08__8.8__input.json.stdout.json",
+        "--reference",
+        "SANDBOX/ch08/8.8/reference.csv"
+      ],
+      "returncode": 0,
+      "stdout": "SANDBOX/logs/score_predictions.stdout.json",
+      "stderr": "",
+      "output_top_level_keys": [
+        "n",
+        "confusion_gold_prediction",
+        "errors",
+        "provenance"
+      ]
+    }
+  ],
+  "static": [
+    {
+      "file": "ch07/workbook.py",
+      "sha256": "fc768ad6d1d63f66030f3dfe9b0d20893fb766313e426d2e0741397c63f36904",
+      "imports": [
+        "argparse",
+        "pathlib"
+      ]
+    },
+    {
+      "file": "ch08/8.8/score_predictions.py",
+      "sha256": "01b40fbb753f926cc31df7497479dea4875dfccd69fec24842c87287dd33f500",
+      "imports": [
+        "argparse",
+        "pathlib"
+      ]
+    },
+    {
+      "file": "ch08/workbook.py",
+      "sha256": "fc768ad6d1d63f66030f3dfe9b0d20893fb766313e426d2e0741397c63f36904",
+      "imports": [
+        "argparse",
+        "pathlib"
+      ]
+    },
+    {
+      "file": "ch09/workbook.py",
+      "sha256": "fc768ad6d1d63f66030f3dfe9b0d20893fb766313e426d2e0741397c63f36904",
+      "imports": [
+        "argparse",
+        "pathlib"
+      ]
+    },
+    {
+      "file": "ch10/workbook.py",
+      "sha256": "fc768ad6d1d63f66030f3dfe9b0d20893fb766313e426d2e0741397c63f36904",
+      "imports": [
+        "argparse",
+        "pathlib"
+      ]
+    },
+    {
+      "file": "ch11/workbook.py",
+      "sha256": "fc768ad6d1d63f66030f3dfe9b0d20893fb766313e426d2e0741397c63f36904",
+      "imports": [
+        "argparse",
+        "pathlib"
+      ]
+    }
+  ]
+}

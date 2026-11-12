@@ -1,0 +1,183 @@
+{
+  "audit_log.csv": "﻿event,record,regions,status\nE01,R01,\"[\"\"A\"\"]\",accepted\nE01,R02,\"[\"\"A\"\"]\",accepted\nE02,R03,\"[\"\"A\"\"]\",accepted\nE03,R04,\"[\"\"B\"\"]\",accepted\nE04,R05,\"[\"\"B\"\"]\",accepted\n,R06,\"[\"\"B\"\"]\",unresolved\nE05,R07,\"[\"\"C\"\"]\",accepted\nE06,R08,\"[\"\"A\"\"]\",outside_window\n,R09,\"[\"\"C\"\"]\",unknown_date\nE07,R10,\"[\"\"C\"\"]\",invalid_site_period\n",
+  "distinct_events.csv": "﻿event,site,year\nE01,S_A,1701\nE02,S_A,1702\nE03,S_B,1703\nE04,S_B,1704\nE05,S_C,1705\nE06,S_A,1690\nE07,S_old,1705\n",
+  "regions.csv": "﻿covered,event_per_opportunity,events,opportunities,region,sites,unresolved,valid_records\nTrue,0.5,2,4,A,1,0,3\nTrue,0.25,2,8,B,1,1,2\nTrue,0.5,1,2,C,1,0,1\nTrue,,0,0,D,0,0,0\nFalse,,,,E,,0,\n",
+  "result.json": {
+    "regions": [
+      {
+        "region": "A",
+        "covered": true,
+        "events": 2,
+        "valid_records": 3,
+        "sites": 1,
+        "opportunities": 4,
+        "event_per_opportunity": 0.5,
+        "unresolved": 0
+      },
+      {
+        "region": "B",
+        "covered": true,
+        "events": 2,
+        "valid_records": 2,
+        "sites": 1,
+        "opportunities": 8,
+        "event_per_opportunity": 0.25,
+        "unresolved": 1
+      },
+      {
+        "region": "C",
+        "covered": true,
+        "events": 1,
+        "valid_records": 1,
+        "sites": 1,
+        "opportunities": 2,
+        "event_per_opportunity": 0.5,
+        "unresolved": 0
+      },
+      {
+        "region": "D",
+        "covered": true,
+        "events": 0,
+        "valid_records": 0,
+        "sites": 0,
+        "opportunities": 0,
+        "event_per_opportunity": null,
+        "unresolved": 0
+      },
+      {
+        "region": "E",
+        "covered": false,
+        "events": null,
+        "valid_records": null,
+        "sites": null,
+        "opportunities": null,
+        "event_per_opportunity": null,
+        "unresolved": 0
+      }
+    ],
+    "audit_log": [
+      {
+        "record": "R01",
+        "event": "E01",
+        "status": "accepted",
+        "regions": [
+          "A"
+        ]
+      },
+      {
+        "record": "R02",
+        "event": "E01",
+        "status": "accepted",
+        "regions": [
+          "A"
+        ]
+      },
+      {
+        "record": "R03",
+        "event": "E02",
+        "status": "accepted",
+        "regions": [
+          "A"
+        ]
+      },
+      {
+        "record": "R04",
+        "event": "E03",
+        "status": "accepted",
+        "regions": [
+          "B"
+        ]
+      },
+      {
+        "record": "R05",
+        "event": "E04",
+        "status": "accepted",
+        "regions": [
+          "B"
+        ]
+      },
+      {
+        "record": "R06",
+        "event": null,
+        "status": "unresolved",
+        "regions": [
+          "B"
+        ]
+      },
+      {
+        "record": "R07",
+        "event": "E05",
+        "status": "accepted",
+        "regions": [
+          "C"
+        ]
+      },
+      {
+        "record": "R08",
+        "event": "E06",
+        "status": "outside_window",
+        "regions": [
+          "A"
+        ]
+      },
+      {
+        "record": "R09",
+        "event": null,
+        "status": "unknown_date",
+        "regions": [
+          "C"
+        ]
+      },
+      {
+        "record": "R10",
+        "event": "E07",
+        "status": "invalid_site_period",
+        "regions": [
+          "C"
+        ]
+      }
+    ],
+    "distinct_events": [
+      {
+        "event": "E01",
+        "site": "S_A",
+        "year": 1701
+      },
+      {
+        "event": "E02",
+        "site": "S_A",
+        "year": 1702
+      },
+      {
+        "event": "E03",
+        "site": "S_B",
+        "year": 1703
+      },
+      {
+        "event": "E04",
+        "site": "S_B",
+        "year": 1704
+      },
+      {
+        "event": "E05",
+        "site": "S_C",
+        "year": 1705
+      },
+      {
+        "event": "E06",
+        "site": "S_A",
+        "year": 1690
+      },
+      {
+        "event": "E07",
+        "site": "S_old",
+        "year": 1705
+      }
+    ]
+  },
+  "run_manifest.json": {
+    "status": "EXECUTED_BY_READER",
+    "section": 1,
+    "input_sha256": "2ea76cf7f17d2f038cd4998792ddcd8b8bc77365969574fa81186481ad91143f"
+  }
+}

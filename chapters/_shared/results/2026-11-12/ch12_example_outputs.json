@@ -1,0 +1,46 @@
+{
+  "evaluation_truth.csv": "﻿series_id,period,y,observed_mask,eligible_target,status,unit,measure,boundary_version,source_id,availability_year,data_kind,use_restriction\nDEMO_PORT_A,1916,24.0,1,1,observed,item,registered_items,B0,SYNTH_CH12,1916,SYNTHETIC_DEMO,EVALUATION_ONLY_AFTER_LABEL_AVAILABLE\nDEMO_PORT_A,1917,26.0,1,1,observed,item,registered_items,B0,SYNTH_CH12,1917,SYNTHETIC_DEMO,EVALUATION_ONLY_AFTER_LABEL_AVAILABLE\nDEMO_PORT_A,1918,28.0,1,1,observed,item,registered_items,B0,SYNTH_CH12,1920,SYNTHETIC_DEMO,EVALUATION_ONLY_AFTER_LABEL_AVAILABLE\nDEMO_PORT_A,1919,27.0,1,1,observed,item,registered_items,B0,SYNTH_CH12,1919,SYNTHETIC_DEMO,EVALUATION_ONLY_AFTER_LABEL_AVAILABLE\nDEMO_PORT_A,1920,29.0,1,1,observed,item,registered_items,B0,SYNTH_CH12,1920,SYNTHETIC_DEMO,EVALUATION_ONLY_AFTER_LABEL_AVAILABLE\nDEMO_PORT_A,1921,30.0,1,1,observed,item,registered_items,B0,SYNTH_CH12,1921,SYNTHETIC_DEMO,EVALUATION_ONLY_AFTER_LABEL_AVAILABLE\nDEMO_PORT_A,1922,28.0,1,1,observed,item,registered_items,B0,SYNTH_CH12,1922,SYNTHETIC_DEMO,EVALUATION_ONLY_AFTER_LABEL_AVAILABLE\nDEMO_PORT_A,1923,31.0,1,1,observed,item,registered_items,B0,SYNTH_CH12,1923,SYNTHETIC_DEMO,EVALUATION_ONLY_AFTER_LABEL_AVAILABLE\n",
+  "run_manifest.json": {
+    "status": "PREPROCESSING_COMPLETED_BY_THIS_INVOCATION",
+    "statistical_diagnostics": "NOT_RUN",
+    "models": "NOT_RUN",
+    "evaluation": "NOT_RUN",
+    "source_release_status": "NOT_RUN",
+    "executed_at_utc": "2026-11-12T10:49:31.718241+00:00",
+    "python_version": "3.12.14",
+    "input_path": "SANDBOX/ch12/data/demo_annual_observations.csv",
+    "input_sha256": "a438f3b9dc8d1590ec8d0cc25bdd8c8ab4bc803559abae8d8049f0a04bcc5d79",
+    "program_sha256": "6b1b8a97f4f1012e34658408a9c86aa3fcd6485264ae61d4db6e61405b670b21",
+    "arguments": {
+      "input": "data/demo_annual_observations.csv",
+      "output": "out_default",
+      "series_id": "DEMO_PORT_A",
+      "origin": 1915,
+      "train_start": 1900,
+      "evaluation_end": 1923,
+      "impute": "none",
+      "scale": "none"
+    },
+    "train_rows": 16,
+    "evaluation_rows": 8,
+    "data_kind": "SYNTHETIC_DEMO",
+    "warning": "This is preprocessing only; no forecast or statistical result is established."
+  },
+  "train_input.csv": "﻿series_id,period,y,input_y,z,observed_mask,available_mask,imputed_mask,eligible_target,status,unit,measure,boundary_version,source_id,availability_year,year_index,years_since_last_observed,origin,data_kind\nDEMO_PORT_A,1900,12.0,12.0,,1,1,0,1,observed,item,registered_items,B0,SYNTH_CH12,1900,0,0,1915,SYNTHETIC_DEMO\nDEMO_PORT_A,1901,14.0,14.0,,1,1,0,1,observed,item,registered_items,B0,SYNTH_CH12,1901,1,0,1915,SYNTHETIC_DEMO\nDEMO_PORT_A,1902,13.0,13.0,,1,1,0,1,observed,item,registered_items,B0,SYNTH_CH12,1902,2,0,1915,SYNTHETIC_DEMO\nDEMO_PORT_A,1903,,,,0,0,0,0,no_record,item,registered_items,B0,,,3,1,1915,SYNTHETIC_DEMO\nDEMO_PORT_A,1904,16.0,16.0,,1,1,0,1,observed,item,registered_items,B0,SYNTH_CH12,1904,4,0,1915,SYNTHETIC_DEMO\nDEMO_PORT_A,1905,18.0,18.0,,1,1,0,1,observed,item,registered_items,B0,SYNTH_CH12,1905,5,0,1915,SYNTHETIC_DEMO\nDEMO_PORT_A,1906,17.0,17.0,,1,1,0,1,observed,item,registered_items,B0,SYNTH_CH12,1906,6,0,1915,SYNTHETIC_DEMO\nDEMO_PORT_A,1907,,,,0,0,0,0,illegible,item,registered_items,B0,SYNTH_CH12,,7,1,1915,SYNTHETIC_DEMO\nDEMO_PORT_A,1908,20.0,20.0,,1,1,0,1,observed,item,registered_items,B0,SYNTH_CH12,1908,8,0,1915,SYNTHETIC_DEMO\nDEMO_PORT_A,1909,21.0,21.0,,1,1,0,1,observed,item,registered_items,B0,SYNTH_CH12,1909,9,0,1915,SYNTHETIC_DEMO\nDEMO_PORT_A,1910,,,,0,0,0,0,source_missing,item,registered_items,B0,SYNTH_CH12,,10,1,1915,SYNTHETIC_DEMO\nDEMO_PORT_A,1911,,,,0,0,0,0,source_missing,item,registered_items,B0,SYNTH_CH12,,11,2,1915,SYNTHETIC_DEMO\nDEMO_PORT_A,1912,23.0,23.0,,1,1,0,1,observed,item,registered_items,B0,SYNTH_CH12,1912,12,0,1915,SYNTHETIC_DEMO\nDEMO_PORT_A,1913,22.0,22.0,,1,1,0,1,observed,item,registered_items,B0,SYNTH_CH12,1913,13,0,1915,SYNTHETIC_DEMO\nDEMO_PORT_A,1914,0.0,0.0,,1,1,0,1,observed_zero,item,registered_items,B0,SYNTH_CH12,1914,14,0,1915,SYNTHETIC_DEMO\nDEMO_PORT_A,1915,25.0,25.0,,1,1,0,1,observed,item,registered_items,B0,SYNTH_CH12,1915,15,0,1915,SYNTHETIC_DEMO\n",
+  "transform_params.json": {
+    "method": "none",
+    "series_id": "DEMO_PORT_A",
+    "train_start": 1900,
+    "origin": 1915,
+    "n_original_available": 12,
+    "mean": 16.75,
+    "scale": 6.391726423014886,
+    "variance_denominator": "n",
+    "constant_train": false,
+    "imputation": "none",
+    "fit_includes_imputed_values": false,
+    "fit_includes_future_values": false,
+    "inverse_transform": "identity",
+    "seasonality": "none_assumed"
+  }
+}

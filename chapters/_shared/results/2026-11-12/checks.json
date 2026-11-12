@@ -1,0 +1,50 @@
+[
+  {
+    "check": "default_calendar",
+    "pass": true
+  },
+  {
+    "check": "default_zero_preserved",
+    "pass": true
+  },
+  {
+    "check": "default_no_raw_imputation",
+    "pass": true
+  },
+  {
+    "check": "default_source_missing_unfilled",
+    "pass": true
+  },
+  {
+    "check": "scaled_calendar",
+    "pass": true
+  },
+  {
+    "check": "scaled_zero_preserved",
+    "pass": true
+  },
+  {
+    "check": "scaled_no_raw_imputation",
+    "pass": true
+  },
+  {
+    "check": "scaled_source_missing_unfilled",
+    "pass": true
+  },
+  {
+    "check": "late_1918_masked",
+    "pass": true
+  },
+  {
+    "check": "1903_only_input_filled",
+    "pass": true
+  },
+  {
+    "check": "adapter_retains16_calendar_rows",
+    "pass": true
+  },
+  {
+    "check": "adapter_retains_missing",
+    "pass": true
+  }
+]

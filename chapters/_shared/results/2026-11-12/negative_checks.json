@@ -1,0 +1,25 @@
+[
+  {
+    "chapter": 12,
+    "check": "existing_output_rejected",
+    "pass": true,
+    "stderr": "Traceback (most recent call last):\n  File \"SANDBOX/ch12/preprocess_annual.py\", line 273, in <module>\n    main()\n  File \"SANDBOX/ch12/preprocess_annual.py\", line 238, in main\n    raise FileExistsError(\"Output already exists; choose a new directory, do not overwrite\")\nFileExistsError: Output already exists; choose a new directory, do not overwrite\n"
+  },
+  {
+    "chapter": 16,
+    "check": "existing_output_rejected",
+    "pass": true,
+    "stderr": "Traceback (most recent call last):\n  File \"SANDBOX/ch16/relations.py\", line 329, in <module>\n    main()\n  File \"SANDBOX/ch16/relations.py\", line 244, in main\n    raise FileExistsError(\"Output already exists. Choose a new --out directory; no overwrite is supported.\")\nFileExistsError: Output already exists. Choose a new --out directory; no overwrite is supported.\n"
+  },
+  {
+    "chapter": 17,
+    "check": "existing_output_rejected",
+    "pass": true,
+    "stderr": "Traceback (most recent call last):\n  File \"SANDBOX/ch17/network_analysis.py\", line 406, in <module>\n    main()\n  File \"SANDBOX/ch17/network_analysis.py\", line 323, in main\n    raise FileExistsError(\"Output exists; choose a new --out directory. No overwrite is supported.\")\nFileExistsError: Output exists; choose a new --out directory. No overwrite is supported.\n"
+  },
+  {
+    "chapter": 13,
+    "check": "adapter_calendar_accepted_but_missing_present",
+    "pass": true
+  }
+]

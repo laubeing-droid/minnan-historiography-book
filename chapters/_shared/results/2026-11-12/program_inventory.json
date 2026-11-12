@@ -1,0 +1,158 @@
+[
+  {
+    "source": "manuscript/附件/ch05/check_links_NOT_RUN.py",
+    "sha256": "ef2d9a49bd83f9ae4db79907021f1902d22c89908cb7d77b6b73e981051cfe3f",
+    "status": "TEACHING_EXECUTED",
+    "chapter": "ch05"
+  },
+  {
+    "source": "manuscript/附件/ch06/bm25_NOT_RUN.py",
+    "sha256": "bb35c0e42b773f3978ee081fb9fa5c5682c109a9a2f8f7c7390367616399fbd6",
+    "status": "TEACHING_EXECUTED",
+    "chapter": "ch06"
+  },
+  {
+    "source": "manuscript/附件/ch06/chunk_NOT_RUN.py",
+    "sha256": "c4c2168945fa25a1b28a9e4480e4ec76bf07c33df1f6699d01cdbd3353e123db",
+    "status": "TEACHING_EXECUTED",
+    "chapter": "ch06"
+  },
+  {
+    "source": "manuscript/附件/ch06/embedding_compare_NOT_RUN.py",
+    "sha256": "f76a812c91929f8f106b1ebeb8f28d1ef5f3dd018a34c790262a21de4a9f2459",
+    "status": "DEPENDENCY_BLOCKED",
+    "chapter": "ch06"
+  },
+  {
+    "source": "manuscript/附件/ch06/evaluate_NOT_RUN.py",
+    "sha256": "22019d46ecd48bf91c504e34e2fe7b143edcffbd8f8c0a7654d266779cb4bcf9",
+    "status": "TEACHING_EXECUTED",
+    "chapter": "ch06"
+  },
+  {
+    "source": "manuscript/附件/ch06/rrf_NOT_RUN.py",
+    "sha256": "7f22a97875d3df2498b2867b5be2e3cdb5d79ea79cf2a7d665f3340d00c299fc",
+    "status": "TEACHING_EXECUTED",
+    "chapter": "ch06"
+  },
+  {
+    "source": "manuscript/附件/ch07/workbook.py",
+    "sha256": "fc768ad6d1d63f66030f3dfe9b0d20893fb766313e426d2e0741397c63f36904",
+    "status": "TEACHING_EXECUTED",
+    "chapter": "ch07"
+  },
+  {
+    "source": "manuscript/附件/ch08/8.8/score_predictions.py",
+    "sha256": "01b40fbb753f926cc31df7497479dea4875dfccd69fec24842c87287dd33f500",
+    "status": "TEACHING_EXECUTED",
+    "chapter": "ch08"
+  },
+  {
+    "source": "manuscript/附件/ch08/workbook.py",
+    "sha256": "fc768ad6d1d63f66030f3dfe9b0d20893fb766313e426d2e0741397c63f36904",
+    "status": "TEACHING_EXECUTED",
+    "chapter": "ch08"
+  },
+  {
+    "source": "manuscript/附件/ch09/workbook.py",
+    "sha256": "fc768ad6d1d63f66030f3dfe9b0d20893fb766313e426d2e0741397c63f36904",
+    "status": "TEACHING_EXECUTED",
+    "chapter": "ch09"
+  },
+  {
+    "source": "manuscript/附件/ch10/workbook.py",
+    "sha256": "fc768ad6d1d63f66030f3dfe9b0d20893fb766313e426d2e0741397c63f36904",
+    "status": "TEACHING_EXECUTED",
+    "chapter": "ch10"
+  },
+  {
+    "source": "manuscript/附件/ch11/workbook.py",
+    "sha256": "fc768ad6d1d63f66030f3dfe9b0d20893fb766313e426d2e0741397c63f36904",
+    "status": "TEACHING_EXECUTED",
+    "chapter": "ch11"
+  },
+  {
+    "source": "manuscript/附件/ch12/preprocess_annual.py",
+    "sha256": "6b1b8a97f4f1012e34658408a9c86aa3fcd6485264ae61d4db6e61405b670b21",
+    "status": "TEACHING_EXECUTED",
+    "chapter": "ch12"
+  },
+  {
+    "source": "manuscript/附件/ch13/chapter12_adapter.py",
+    "sha256": "acaf5f52a440dd5f278ec9ebd1d0bd419da7941a505a42a69f705a6126fdd84a",
+    "status": "TEACHING_EXECUTED",
+    "chapter": "ch13"
+  },
+  {
+    "source": "manuscript/附件/ch13/models.py",
+    "sha256": "1c337bedd923ca7a1bbf98111c2dd0539dcbf29335fb50625fbdad91ade57969",
+    "status": "PARTIAL_EXECUTION",
+    "chapter": "ch13"
+  },
+  {
+    "source": "manuscript/附件/ch13/optuna_search.py",
+    "sha256": "c16120ebd8c1d4270f1b98fbc17ef677ff59965c3f6ca2a30c7d0b3e654ae535",
+    "status": "DEPENDENCY_BLOCKED",
+    "chapter": "ch13"
+  },
+  {
+    "source": "manuscript/附件/ch13/workflow.py",
+    "sha256": "dc9526462fc9205905a9384b564ce456f194e0db517b8a2e476f80dcd2b87c05",
+    "status": "TEACHING_EXECUTED",
+    "chapter": "ch13"
+  },
+  {
+    "source": "manuscript/附件/ch14/workflow.py",
+    "sha256": "095a66bc6a425c64b006087920380bd76d179260e3e38b42940153c0ee06bef6",
+    "status": "TEACHING_EXECUTED",
+    "chapter": "ch14"
+  },
+  {
+    "source": "manuscript/附件/ch15/workflow.py",
+    "sha256": "57d9d6e76d910e520a062168bf30d7eac577a8f12ae1e7de2a01966548470b07",
+    "status": "TEACHING_EXECUTED",
+    "chapter": "ch15"
+  },
+  {
+    "source": "manuscript/附件/ch16/relations.py",
+    "sha256": "502ca905f65111ed5a0ce2fb3f0bc54ed41ad6c5fa2009f4c5acf2698a7ecbe3",
+    "status": "TEACHING_EXECUTED",
+    "chapter": "ch16"
+  },
+  {
+    "source": "manuscript/附件/ch17/network_analysis.py",
+    "sha256": "6d098694a653d4493b6a3d2b7e01b4a09b983dd31f8301a3e2cc6ae3b7395240",
+    "status": "TEACHING_EXECUTED",
+    "chapter": "ch17"
+  },
+  {
+    "source": "manuscript/附件/ch19/check_catalog_NOT_RUN.py",
+    "sha256": "2f0c4ae2e7d069ff06400af57dfd3fb8b8b2f796831ef80bc637f8599814695c",
+    "status": "TEACHING_EXECUTED",
+    "chapter": "ch19"
+  },
+  {
+    "source": "manuscript/附件/ch20/calculate_population_NOT_RUN.py",
+    "sha256": "74120474f2eaf74d72a2014cbe07dce72218f141e5d78e479ca262df676c91b8",
+    "status": "TEACHING_EXECUTED",
+    "chapter": "ch20"
+  },
+  {
+    "source": "manuscript/附件/ch21/check_response_NOT_RUN.py",
+    "sha256": "b10788cf79273c700c1b72a86903ac65144a529360cb9fc1c5b3063ab79d8e59",
+    "status": "TEACHING_EXECUTED",
+    "chapter": "ch21"
+  },
+  {
+    "source": "manuscript/附件/ch22/inspect_question_cards_NOT_RUN.py",
+    "sha256": "1822318cbf1fe676a80e959ced570ca78e473e874f3d1b7a864ab551add2fb96",
+    "status": "TEACHING_EXECUTED",
+    "chapter": "ch22"
+  },
+  {
+    "source": "manuscript/附件/ch23/inspect_source_chain_NOT_RUN.py",
+    "sha256": "ee40e8feda4e7cf29e339bd090ebd974b8f11783c1e6783d9afd6a7203a88c75",
+    "status": "TEACHING_EXECUTED",
+    "chapter": "ch23"
+  }
+]

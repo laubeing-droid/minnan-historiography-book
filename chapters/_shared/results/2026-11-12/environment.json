@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux",
+  "packages_available": {
+    "numpy": true,
+    "sentence_transformers": false,
+    "statsmodels": false,
+    "optuna": false
+  },
+  "installed_by_this_audit": false,
+  "model_downloads": false
+}

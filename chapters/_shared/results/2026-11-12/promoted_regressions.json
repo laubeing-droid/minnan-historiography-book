@@ -1,0 +1,56 @@
+[
+  {
+    "case": "ch14 section 1",
+    "exit": 0,
+    "stderr": ""
+  },
+  {
+    "case": "ch14 section 2",
+    "exit": 0,
+    "stderr": ""
+  },
+  {
+    "case": "ch14 section 3",
+    "exit": 0,
+    "stderr": ""
+  },
+  {
+    "case": "ch14 section 4",
+    "exit": 0,
+    "stderr": ""
+  },
+  {
+    "case": "ch14 section 5",
+    "exit": 0,
+    "stderr": ""
+  },
+  {
+    "case": "ch22 existing cards",
+    "exit": 0,
+    "stdout": {
+      "scope": "completeness only; no score or recommendation",
+      "cards": [
+        {
+          "id": "Q22-A",
+          "missing": [],
+          "duplicate_id": false
+        },
+        {
+          "id": "Q22-B",
+          "missing": [],
+          "duplicate_id": false
+        },
+        {
+          "id": "Q22-C",
+          "missing": [],
+          "duplicate_id": false
+        }
+      ]
+    }
+  },
+  {
+    "case": "6 regression methods",
+    "exit": 0,
+    "stderr": "test_cards (__main__.PromotionTests.test_cards) ... ok\ntest_current (__main__.PromotionTests.test_current) ... ok\ntest_reject_supersession (__main__.PromotionTests.test_reject_supersession) ... ok\ntest_score_rejects_coercion (__main__.PromotionTests.test_score_rejects_coercion) ... ok\ntest_score_valid (__main__.PromotionTests.test_score_valid) ... ok\ntest_valid_supersession (__main__.PromotionTests.test_valid_supersession) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.480s\n\nOK\n"
+  }
+]

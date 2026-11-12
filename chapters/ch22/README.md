@@ -25,3 +25,7 @@
 - [ ] 依赖与环境登记（`code/requirements.txt`）
 - [ ] 首次可运行验证
 - [ ] 结果与书稿正文数字核对
+
+## 2026-11-12 教学代码审计
+
+本章已有标准库修正版进入 `code/`，见[全书执行审计](../../docs/CODE_EXECUTION_AUDIT.md)。原附件保留；仅教学测试通过，不是正式数据复算或学术验收。合成回归：`python -B chapters/_shared/test_promoted.py`（仓库根目录）。

@@ -1,0 +1,582 @@
+[
+  {
+    "chapter": 12,
+    "tag": "default",
+    "command": [
+      "python",
+      "preprocess_annual.py",
+      "--input",
+      "data/demo_annual_observations.csv",
+      "--output",
+      "out_default",
+      "--origin",
+      "1915"
+    ],
+    "returncode": 0,
+    "stdout": "Wrote a new preprocessing directory: out_default\n",
+    "stderr": "",
+    "seconds": 0.04990959167480469
+  },
+  {
+    "chapter": 12,
+    "tag": "scaled",
+    "command": [
+      "python",
+      "preprocess_annual.py",
+      "--input",
+      "data/demo_annual_observations.csv",
+      "--output",
+      "out_scaled",
+      "--origin",
+      "1919",
+      "--impute",
+      "ffill1",
+      "--scale",
+      "standard"
+    ],
+    "returncode": 0,
+    "stdout": "Wrote a new preprocessing directory: out_scaled\n",
+    "stderr": "",
+    "seconds": 0.07450103759765625
+  },
+  {
+    "chapter": 13,
+    "tag": "adapter",
+    "command": [
+      "python",
+      "chapter12_adapter.py",
+      "--input",
+      "../ch12/out_default/train_input.csv",
+      "--series-id",
+      "DEMO_PORT_A",
+      "--origin",
+      "1915",
+      "--out",
+      "out_adapter"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "seconds": 0.03495454788208008
+  },
+  {
+    "chapter": 13,
+    "tag": "s1",
+    "command": [
+      "python",
+      "workflow.py",
+      "--section",
+      "1",
+      "--input",
+      "13.1/input.json",
+      "--out",
+      "out_s1"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "seconds": 0.06931591033935547
+  },
+  {
+    "chapter": 13,
+    "tag": "s5",
+    "command": [
+      "python",
+      "workflow.py",
+      "--section",
+      "5",
+      "--input",
+      "13.5/input.json",
+      "--out",
+      "out_s5"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "seconds": 0.07456421852111816
+  },
+  {
+    "chapter": 13,
+    "tag": "s6",
+    "command": [
+      "python",
+      "workflow.py",
+      "--section",
+      "6",
+      "--input",
+      "13.6/input.json",
+      "--out",
+      "out_s6"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "seconds": 0.0636146068572998
+  },
+  {
+    "chapter": 13,
+    "tag": "s7",
+    "command": [
+      "python",
+      "workflow.py",
+      "--section",
+      "7",
+      "--input",
+      "13.7/input.json",
+      "--out",
+      "out_s7"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "seconds": 0.056012630462646484
+  },
+  {
+    "chapter": 13,
+    "tag": "s8",
+    "command": [
+      "python",
+      "workflow.py",
+      "--section",
+      "8",
+      "--input",
+      "13.8/input.json",
+      "--out",
+      "out_s8"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "seconds": 0.0564424991607666
+  },
+  {
+    "chapter": 13,
+    "tag": "s9",
+    "command": [
+      "python",
+      "workflow.py",
+      "--section",
+      "9",
+      "--input",
+      "13.9/input.json",
+      "--out",
+      "out_s9"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "seconds": 0.05950117111206055
+  },
+  {
+    "chapter": 13,
+    "tag": "s10",
+    "command": [
+      "python",
+      "workflow.py",
+      "--section",
+      "10",
+      "--input",
+      "13.10/input.json",
+      "--out",
+      "out_s10"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "seconds": 0.0572514533996582
+  },
+  {
+    "chapter": 13,
+    "tag": "test7",
+    "command": [
+      "python",
+      "workflow.py",
+      "--section",
+      "7",
+      "--input",
+      "13.7/input.json",
+      "--out",
+      "out_test7",
+      "--phase",
+      "test",
+      "--selection",
+      "out_s7/selection.json"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "seconds": 0.058496952056884766
+  },
+  {
+    "chapter": 13,
+    "tag": "models",
+    "command": [
+      "python",
+      "models.py",
+      "--out",
+      "out_models"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "seconds": 0.10104537010192871
+  },
+  {
+    "chapter": 13,
+    "tag": "models_test",
+    "command": [
+      "python",
+      "models.py",
+      "--out",
+      "out_models_test",
+      "--phase",
+      "test",
+      "--selection",
+      "out_models/selection.json"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "seconds": 0.0517728328704834
+  },
+  {
+    "chapter": 13,
+    "tag": "optuna",
+    "command": [
+      "python",
+      "optuna_search.py",
+      "--out",
+      "out_optuna"
+    ],
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"SANDBOX/ch13/optuna_search.py\", line 21, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"SANDBOX/ch13/optuna_search.py\", line 10, in main\n    import optuna\nModuleNotFoundError: No module named 'optuna'\n",
+    "seconds": 0.052213191986083984
+  },
+  {
+    "chapter": 14,
+    "tag": "s1",
+    "command": [
+      "python",
+      "workflow.py",
+      "--section",
+      "1",
+      "--input",
+      "14.1/input.json",
+      "--out",
+      "out_s1"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "seconds": 0.04064321517944336
+  },
+  {
+    "chapter": 14,
+    "tag": "s2",
+    "command": [
+      "python",
+      "workflow.py",
+      "--section",
+      "2",
+      "--input",
+      "14.2/input.json",
+      "--out",
+      "out_s2"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "seconds": 0.041552066802978516
+  },
+  {
+    "chapter": 14,
+    "tag": "s3",
+    "command": [
+      "python",
+      "workflow.py",
+      "--section",
+      "3",
+      "--input",
+      "14.3/input.json",
+      "--out",
+      "out_s3"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "seconds": 0.03929591178894043
+  },
+  {
+    "chapter": 14,
+    "tag": "s4",
+    "command": [
+      "python",
+      "workflow.py",
+      "--section",
+      "4",
+      "--input",
+      "14.4/input.json",
+      "--out",
+      "out_s4"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "seconds": 0.04041123390197754
+  },
+  {
+    "chapter": 14,
+    "tag": "s5",
+    "command": [
+      "python",
+      "workflow.py",
+      "--section",
+      "5",
+      "--input",
+      "14.5/input.json",
+      "--out",
+      "out_s5"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "seconds": 0.0408172607421875
+  },
+  {
+    "chapter": 15,
+    "tag": "s1",
+    "command": [
+      "python",
+      "workflow.py",
+      "--section",
+      "1",
+      "--input",
+      "15.1/input.json",
+      "--out",
+      "out_s1"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "seconds": 0.04178333282470703
+  },
+  {
+    "chapter": 15,
+    "tag": "s2",
+    "command": [
+      "python",
+      "workflow.py",
+      "--section",
+      "2",
+      "--input",
+      "15.2/input.json",
+      "--out",
+      "out_s2"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "seconds": 0.05907487869262695
+  },
+  {
+    "chapter": 15,
+    "tag": "s3",
+    "command": [
+      "python",
+      "workflow.py",
+      "--section",
+      "3",
+      "--input",
+      "15.3/input.json",
+      "--out",
+      "out_s3"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "seconds": 0.0742793083190918
+  },
+  {
+    "chapter": 15,
+    "tag": "s4",
+    "command": [
+      "python",
+      "workflow.py",
+      "--section",
+      "4",
+      "--input",
+      "15.4/input.json",
+      "--out",
+      "out_s4"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "seconds": 0.049768686294555664
+  },
+  {
+    "chapter": 15,
+    "tag": "s5",
+    "command": [
+      "python",
+      "workflow.py",
+      "--section",
+      "5",
+      "--input",
+      "15.5/input.json",
+      "--out",
+      "out_s5"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "seconds": 0.055330514907836914
+  },
+  {
+    "chapter": 15,
+    "tag": "s6",
+    "command": [
+      "python",
+      "workflow.py",
+      "--section",
+      "6",
+      "--input",
+      "15.6/input.json",
+      "--out",
+      "out_s6"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "seconds": 0.051874399185180664
+  },
+  {
+    "chapter": 16,
+    "tag": "base",
+    "command": [
+      "python",
+      "relations.py",
+      "--data",
+      ".",
+      "--out",
+      "out_base"
+    ],
+    "returncode": 0,
+    "stdout": "New results written to out_base; historical interpretation remains a human task.\n",
+    "stderr": "",
+    "seconds": 0.05325627326965332
+  },
+  {
+    "chapter": 16,
+    "tag": "identity",
+    "command": [
+      "python",
+      "relations.py",
+      "--data",
+      ".",
+      "--out",
+      "out_identity",
+      "--assume-identity",
+      "P3"
+    ],
+    "returncode": 0,
+    "stdout": "New results written to out_identity; historical interpretation remains a human task.\n",
+    "stderr": "",
+    "seconds": 0.04603385925292969
+  },
+  {
+    "chapter": 16,
+    "tag": "defer",
+    "command": [
+      "python",
+      "relations.py",
+      "--data",
+      ".",
+      "--out",
+      "out_defer",
+      "--defer-instance",
+      "R2"
+    ],
+    "returncode": 0,
+    "stdout": "New results written to out_defer; historical interpretation remains a human task.\n",
+    "stderr": "",
+    "seconds": 0.051637887954711914
+  },
+  {
+    "chapter": 16,
+    "tag": "window",
+    "command": [
+      "python",
+      "relations.py",
+      "--data",
+      ".",
+      "--out",
+      "out_window",
+      "--end-year",
+      "1709"
+    ],
+    "returncode": 0,
+    "stdout": "New results written to out_window; historical interpretation remains a human task.\n",
+    "stderr": "",
+    "seconds": 0.05217123031616211
+  },
+  {
+    "chapter": 17,
+    "tag": "base",
+    "command": [
+      "python",
+      "network_analysis.py",
+      "--data",
+      ".",
+      "--out",
+      "out_base"
+    ],
+    "returncode": 0,
+    "stdout": "New teaching results written to out_base. Historical interpretation remains unverified.\n",
+    "stderr": "",
+    "seconds": 0.12382888793945312
+  },
+  {
+    "chapter": 17,
+    "tag": "window",
+    "command": [
+      "python",
+      "network_analysis.py",
+      "--data",
+      ".",
+      "--out",
+      "out_window",
+      "--start-year",
+      "1703",
+      "--end-year",
+      "1705"
+    ],
+    "returncode": 0,
+    "stdout": "New teaching results written to out_window. Historical interpretation remains unverified.\n",
+    "stderr": "",
+    "seconds": 0.0668172836303711
+  },
+  {
+    "chapter": 17,
+    "tag": "gamma",
+    "command": [
+      "python",
+      "network_analysis.py",
+      "--data",
+      ".",
+      "--out",
+      "out_gamma",
+      "--gamma",
+      "0.5",
+      "--gamma",
+      "1",
+      "--gamma",
+      "2"
+    ],
+    "returncode": 0,
+    "stdout": "New teaching results written to out_gamma. Historical interpretation remains unverified.\n",
+    "stderr": "",
+    "seconds": 0.13704204559326172
+  }
+]

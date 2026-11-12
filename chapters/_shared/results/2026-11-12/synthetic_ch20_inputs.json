@@ -1,0 +1,5 @@
+{
+  "population_values.csv": "id,value,unit\nQ2010,100,人\nQ2020,120,人\nF2010,1000,人\nF2020,1200,人\n",
+  "published_shares.csv": "statistical_year,share_pct\n2010,10\n2020,10\n",
+  "scope": "synthetic substituted inputs; no published population recomputation"
+}
