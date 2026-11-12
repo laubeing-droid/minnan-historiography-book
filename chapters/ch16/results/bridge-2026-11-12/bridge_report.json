@@ -1,0 +1,422 @@
+{
+  "status": "EXECUTED_SYNTHETIC_TEACHING_NOT_HISTORICAL_REVIEW",
+  "window": [
+    1700,
+    1710
+  ],
+  "roster": [
+    "P1",
+    "P2",
+    "P4"
+  ],
+  "events": [
+    {
+      "event_id": "V2",
+      "instance_id": "R5",
+      "sender": "P1",
+      "recipient": "P2",
+      "event_year": 1704,
+      "identity_status": "confirmed",
+      "event_status": "accepted",
+      "source_id": "S3",
+      "locator": "letter1"
+    }
+  ],
+  "audit": [
+    {
+      "instance_id": "R1",
+      "included": false,
+      "reasons": [
+        "not_send_letter",
+        "not_confirmed_person_pair",
+        "not_exact_event_year"
+      ]
+    },
+    {
+      "instance_id": "R10",
+      "included": false,
+      "reasons": [
+        "not_send_letter",
+        "not_confirmed_person_pair",
+        "not_exact_event_year"
+      ]
+    },
+    {
+      "instance_id": "R12",
+      "included": false,
+      "reasons": [
+        "not_send_letter",
+        "not_confirmed_person_pair",
+        "judgment_rejected"
+      ]
+    },
+    {
+      "instance_id": "R13",
+      "included": false,
+      "reasons": [
+        "not_send_letter",
+        "not_confirmed_person_pair"
+      ]
+    },
+    {
+      "instance_id": "R2",
+      "included": false,
+      "reasons": [
+        "not_send_letter",
+        "not_confirmed_person_pair",
+        "not_exact_event_year"
+      ]
+    },
+    {
+      "instance_id": "R3",
+      "included": false,
+      "reasons": [
+        "not_send_letter",
+        "not_confirmed_person_pair"
+      ]
+    },
+    {
+      "instance_id": "R4",
+      "included": false,
+      "reasons": [
+        "not_send_letter",
+        "not_confirmed_person_pair"
+      ]
+    },
+    {
+      "instance_id": "R5",
+      "included": true,
+      "reasons": []
+    },
+    {
+      "instance_id": "R6",
+      "included": false,
+      "reasons": [
+        "not_send_letter",
+        "not_exact_event_year"
+      ]
+    },
+    {
+      "instance_id": "R7",
+      "included": false,
+      "reasons": [
+        "not_send_letter",
+        "not_confirmed_person_pair",
+        "judgment_pending",
+        "not_exact_event_year"
+      ]
+    },
+    {
+      "instance_id": "R8",
+      "included": false,
+      "reasons": [
+        "not_send_letter",
+        "not_confirmed_person_pair"
+      ]
+    },
+    {
+      "instance_id": "R9",
+      "included": false,
+      "reasons": [
+        "not_send_letter",
+        "hypothesis_not_event",
+        "judgment_pending"
+      ]
+    }
+  ],
+  "lineage": [
+    {
+      "instance_id": "R1",
+      "event_id": "",
+      "included": false,
+      "evidence": [
+        {
+          "assertion_id": "C1",
+          "source_id": "S1",
+          "locator": "entry1",
+          "independent_group": "G1",
+          "excerpt": "甲于1701至1705年为O1成员。"
+        }
+      ]
+    },
+    {
+      "instance_id": "R10",
+      "event_id": "",
+      "included": false,
+      "evidence": [
+        {
+          "assertion_id": "C10",
+          "source_id": "S1",
+          "locator": "entry3",
+          "independent_group": "G1",
+          "excerpt": "另记甲于1708至1709年为O1成员。"
+        }
+      ]
+    },
+    {
+      "instance_id": "R12",
+      "event_id": "",
+      "included": false,
+      "evidence": [
+        {
+          "assertion_id": "C12",
+          "source_id": "S1",
+          "locator": "entry4",
+          "independent_group": "G1",
+          "excerpt": "丁为O1成员之说在本练习判断中被否定。"
+        }
+      ]
+    },
+    {
+      "instance_id": "R13",
+      "event_id": "V3",
+      "included": false,
+      "evidence": [
+        {
+          "assertion_id": "C13",
+          "source_id": "S2",
+          "locator": "entry4",
+          "independent_group": "G2",
+          "excerpt": "乙参加1708年活动V3。"
+        }
+      ]
+    },
+    {
+      "instance_id": "R2",
+      "event_id": "",
+      "included": false,
+      "evidence": [
+        {
+          "assertion_id": "C2",
+          "source_id": "S1",
+          "locator": "entry2",
+          "independent_group": "G1",
+          "excerpt": "乙于1703至1704年为O1成员。"
+        }
+      ]
+    },
+    {
+      "instance_id": "R3",
+      "event_id": "V1",
+      "included": false,
+      "evidence": [
+        {
+          "assertion_id": "C3",
+          "source_id": "S2",
+          "locator": "entry1",
+          "independent_group": "G2",
+          "excerpt": "甲参加1703年活动V1。"
+        }
+      ]
+    },
+    {
+      "instance_id": "R4",
+      "event_id": "V1",
+      "included": false,
+      "evidence": [
+        {
+          "assertion_id": "C4",
+          "source_id": "S2",
+          "locator": "entry2",
+          "independent_group": "G2",
+          "excerpt": "乙参加1703年活动V1。"
+        }
+      ]
+    },
+    {
+      "instance_id": "R5",
+      "event_id": "V2",
+      "included": true,
+      "evidence": [
+        {
+          "assertion_id": "C5",
+          "source_id": "S3",
+          "locator": "letter1",
+          "independent_group": "G3",
+          "excerpt": "甲于1704年寄信给乙，本次寄信记为V2。"
+        },
+        {
+          "assertion_id": "C11",
+          "source_id": "S4",
+          "locator": "copy1",
+          "independent_group": "G3",
+          "excerpt": "转抄S3的letter1：甲于1704年寄信给乙，非另一次寄出。"
+        }
+      ]
+    },
+    {
+      "instance_id": "R6",
+      "event_id": "",
+      "included": false,
+      "evidence": [
+        {
+          "assertion_id": "C6",
+          "source_id": "S5",
+          "locator": "entry1",
+          "independent_group": "G5",
+          "excerpt": "甲乙为同胞；本练习证据支持范围记为1700至1710年。"
+        }
+      ]
+    },
+    {
+      "instance_id": "R7",
+      "event_id": "",
+      "included": false,
+      "evidence": [
+        {
+          "assertion_id": "C7",
+          "source_id": "S5",
+          "locator": "entry2",
+          "independent_group": "G5",
+          "excerpt": "丙为甲父之说待查，日期未知。"
+        }
+      ]
+    },
+    {
+      "instance_id": "R8",
+      "event_id": "V1",
+      "included": false,
+      "evidence": [
+        {
+          "assertion_id": "C8",
+          "source_id": "S2",
+          "locator": "entry3",
+          "independent_group": "G2",
+          "excerpt": "丙参加1703年活动V1；丙身份仍待定。"
+        }
+      ]
+    },
+    {
+      "instance_id": "R9",
+      "event_id": "",
+      "included": false,
+      "evidence": [
+        {
+          "assertion_id": "C9",
+          "source_id": "H1",
+          "locator": "hypothesis1",
+          "independent_group": "H1",
+          "excerpt": "由甲乙共同参加V1提出二人可能熟识，仅为分析假设。"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "node_a": "P1",
+      "node_b": "P2",
+      "event_count": 1,
+      "event_ids": "V2",
+      "source_locations": "S3/letter1",
+      "status": "derived_from_given_synthetic_events"
+    }
+  ],
+  "metrics": {
+    "summary": {
+      "model": "simple_undirected_unweighted_existence",
+      "N": 3,
+      "M": 1,
+      "possible_pairs": 3,
+      "density_fraction": "1/3",
+      "density_decimal": 0.3333333333333333,
+      "component_sizes": [
+        2,
+        1
+      ],
+      "components": [
+        [
+          "P1",
+          "P2"
+        ],
+        [
+          "P4"
+        ]
+      ],
+      "isolates": [
+        "P4"
+      ],
+      "largest_component_share": "2/3",
+      "degree_sum": 2,
+      "degree_sum_reference_2M": 2
+    },
+    "centralities": [
+      {
+        "node_id": "P1",
+        "degree": 1,
+        "degree_centrality_fraction": "1/2",
+        "degree_centrality_decimal": 0.5,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 1,
+        "distance_sum": 1,
+        "corrected_closeness_fraction": "1/2",
+        "corrected_closeness_decimal": 0.5
+      },
+      {
+        "node_id": "P2",
+        "degree": 1,
+        "degree_centrality_fraction": "1/2",
+        "degree_centrality_decimal": 0.5,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 1,
+        "distance_sum": 1,
+        "corrected_closeness_fraction": "1/2",
+        "corrected_closeness_decimal": 0.5
+      },
+      {
+        "node_id": "P4",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      }
+    ],
+    "bridges": [
+      [
+        "P1",
+        "P2"
+      ]
+    ],
+    "articulation_points": []
+  },
+  "limitations": [
+    "固定名册来自教学 entities.csv，不是完整历史人口",
+    "方向在事件中保留；此处指标针对无向简单存在图",
+    "同一实例的多条出处保留，但不按出处数增加事件数",
+    "未使用 A–H 敏感性情景，未推断历史社群、权力或因果关系"
+  ],
+  "input_sha256": {
+    "README.md": "61832a9847f9477a5c24fd7eb9510de5f60eb9e8950dfbb01ee1b33a06804611",
+    "assertions.csv": "013e92e016d052fc9adefc5f48d13ed02504d7374c2c6fb62c4e045203ec955c",
+    "candidate_sources.json": "121354657aff5cc53ba00460e334bf60717f5591444eb2b207186a759656a182",
+    "candidates.json": "9329503889666ba6588db079581519f9e186c045fd5d1c8bd4cb516c40dc07b5",
+    "data_dictionary.md": "686359b61228a5ff9d18b97dd3492365217e98d5ebd49682f9ccfa73ba61543e",
+    "disambiguation_cards.csv": "c361bcbdffe51841b53325101049c769571a3a0066d0ba4986e0241137816b85",
+    "entities.csv": "a0959bf2ba1caac7c171414e0007b48e7177f6a4dd06ce7975fd75dafc265c5b",
+    "entity_mapping.csv": "cc476a3d0d8c8b7da85d338cf78e504d6d4452a7ef25b5458ec9a4a7897a6138",
+    "events.csv": "0c3fba17830b693d521726a3a01ed53035f17c9fb7195a5ab1dafc48e17c6f21",
+    "execution_status.json": "f39b0b613b93ec00552501cac4a788cabdbc1c60d88267f56573c0066ebc9c2b",
+    "pair_decisions.csv": "905ddc270e2e6cb5d8351ae896f1242f60051f6798bfbaaeac1093caebb4fa22",
+    "provenance_path.svg": "8e8aae664ae75f818a52662a6da8cc383d589284f4329f53460e4efaa21511e3",
+    "relation_types.csv": "70e13d9e65cb1a95f499b09692d06c8131c6bb3823fa1b78fa90e03650c3b414",
+    "relations.py": "502ca905f65111ed5a0ce2fb3f0bc54ed41ad6c5fa2009f4c5acf2698a7ecbe3",
+    "rules.json": "882ff3ef493067e9b7578c7662b0c7b76c8a04f152ea95677b7b73f81e919c2c",
+    "source_extracts.md": "55ce1e58d09c94ab1703bc63ac30db510e95e74476cfced2fc4ec8d2030cacfb",
+    "sources.json": "bd05106978c6aff430764523a2945c2eec461a85031df87d7792996ef0e2352d",
+    "version_impact_template.csv": "ee32286c8123a41d1aa992cbfa63f3eba678d199efce67a098fdbfd5459a8206"
+  },
+  "implementation_sha256": {
+    "chapters/ch16/code/relations_to_network.py": "a651252dbce0dafd2ea295a494e45c2f15abadc3660841ef9bcd6bec6ae316bf",
+    "manuscript/附件/ch16/relations.py": "502ca905f65111ed5a0ce2fb3f0bc54ed41ad6c5fa2009f4c5acf2698a7ecbe3",
+    "manuscript/附件/ch17/network_analysis.py": "6d098694a653d4493b6a3d2b7e01b4a09b983dd31f8301a3e2cc6ae3b7395240"
+  }
+}

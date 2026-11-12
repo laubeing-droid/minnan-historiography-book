@@ -1,0 +1,2 @@
+event_id,instance_id,sender,recipient,event_year,identity_status,event_status,source_id,locator
+V2,R5,P1,P2,1704,confirmed,accepted,S3,letter1
