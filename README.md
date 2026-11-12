@@ -5,6 +5,8 @@
 > 《一种闽南文史的未来：基于人工智能与现代研究方法》——23 章 156 节结构目标、约 35 万字的方法论书稿：
 > 本仓库收录其**写作稿、历史版本、首轮校订复算记录与章节代码工作区**。在建，不是已完成著作。
 
+**任务推进**：[本仓任务看板](https://github.com/laubeing-droid/minnan-historiography-book/issues/1) · [Agent 接手与检查说明](docs/AGENT_WORKFLOW.md)
+
 **文档导航**：[研究立场声明](docs/POSITION.md) · [仓库结构与章节工作区](docs/STRUCTURE.md) · [范围与局限](docs/SCOPE_AND_LIMITS.md) · [项目历史](docs/PROJECT_HISTORY.md) · [贡献指南](CONTRIBUTING.md) · [更新日志](CHANGELOG.md)
 **完整配套入口**：[文档总导航](docs/INDEX.md) · [阅读指南](docs/READING_GUIDE.md) · [研究工程意义](docs/SIGNIFICANCE.md) · [研究纲领](docs/RESEARCH_PROGRAMME.md)
 **基础配套**：[研究方法](docs/METHODOLOGY.md) · [当前缺件](docs/MISSING_ITEMS.md) · [材料与状态](docs/DATA_AND_STATUS.md) · [复核指南](docs/REVIEW_GUIDE.md) · [来源与引用](docs/SOURCES_AND_CITATION.md) · [术语](docs/GLOSSARY.md) · [读者附件索引](manuscript/读者附件总索引.md)
