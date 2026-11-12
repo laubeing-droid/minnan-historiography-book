@@ -1,5 +1,11 @@
 # 配套代码云端执行审计（2026-11-12）
 
+## 当前使用结论
+
+读者先看[配套程序怎么跑](RUNNING_EXAMPLES.md)，再按本页追查执行记录。当前有25个原程序的有限教学执行覆盖；原 BGE/E5 嵌入程序未实际运行，指定 Google EmbeddingGemma 2 另由活代码适配器完成小样本执行。第13章 statsmodels/Optuna 的初次缺依赖已通过后续补跑解决，不能继续报成当前阻塞。
+
+第8、14、22章应使用下文所列修正版。原始入口共100次调用的统计不包含修补回归或Gemma适配器，不是研究完成率。以下按阶段保留过程，旧失败不删除，成功也不扩大成全书复算完成。
+
 ## 第6章后续：Google EmbeddingGemma 2实际执行
 
 用户进一步指定谷歌EmbeddingGemma 2。已核[官方模型卡](https://huggingface.co/google/embeddinggemma-2)及[Google开发指南](https://developers.googleblog.com/en/embeddinggemma-2-the-developer-guide/)，实际模型ID为`google/embeddinggemma-2`，不是Gemma2生成模型。官方API确认公开、非gated，Apache-2.0；本轮未登录账号或绕过访问限制。
@@ -16,13 +22,13 @@ python -B chapters/ch06/code/embeddinggemma2_compare.py --model LOCAL_MODEL_DIRE
 
 因此第6章嵌入功能现已有指定Gemma模型的实跑结果，但**原BGE/E5算法分支仍未运行**，不写成“26个原程序全部通过”。全书教学功能的有限检查、具体模型的小样本演示与正式史料复算是不同事项；正式复算和独立学术校对仍暂停。
 
-## 后续授权补跑更新
+## 第13章补跑阶段（在Gemma阶段之前）
 
-初次审计后，用户明确授权仅在云端安装statsmodels、optuna及必要依赖。已在独立虚拟环境从PyPI安装，`pip check`通过；statsmodels 0.15.0、optuna 5.0.0，完整版本见[环境记录](../chapters/_shared/results/2026-11-12/ch13_after_install/environment.json)。未安装到用户电脑，未安装Embedding框架或下载模型。
+初次审计后，用户明确授权仅在云端安装statsmodels、optuna及必要依赖。已在独立虚拟环境从PyPI安装，`pip check`通过；statsmodels 0.15.0、optuna 5.0.0，完整版本见[环境记录](../chapters/_shared/results/2026-11-12/ch13_after_install/environment.json)。这一阶段没有安装到用户电脑，也尚未安装Embedding框架或下载模型；后者随后按上节记录完成。
 
 新增3次CLI：模型验证15/15拟合成功（last、seasonal、ARIMA、SARIMA、Holt-Winters各3次）；验证选择Holt-Winters，锁定后测试4/4拟合成功；Optuna的8/8 trial完成，选C1，**没有评估其最终测试集**。只运行现有合成教学序列，拟合成功不等于适用于闽南历史序列。
 
-实际命令与完整结果：[补跑记录](../chapters/_shared/results/2026-11-12/ch13_after_install/runs.json)、[验证输出](../chapters/_shared/results/2026-11-12/ch13_after_install/models_validation.json)、[测试输出](../chapters/_shared/results/2026-11-12/ch13_after_install/models_test.json)、[搜参输出](../chapters/_shared/results/2026-11-12/ch13_after_install/optuna_validation.json)。补跑后主线26个程序中25个获得有限教学执行覆盖，仅Embedding仍缺框架和模型。合计100次原始入口调用，不包括修补回归测试。
+实际命令与完整结果：[补跑记录](../chapters/_shared/results/2026-11-12/ch13_after_install/runs.json)、[验证输出](../chapters/_shared/results/2026-11-12/ch13_after_install/models_validation.json)、[测试输出](../chapters/_shared/results/2026-11-12/ch13_after_install/models_test.json)、[搜参输出](../chapters/_shared/results/2026-11-12/ch13_after_install/optuna_validation.json)。补跑后主线26个程序中25个获得有限教学执行覆盖，当时仅Embedding仍缺框架和模型；随后Gemma适配器另行实跑，原BGE/E5仍未跑。合计100次原始入口调用，不包括修补回归测试。
 
 下文保留初次审计事实：其中“缺statsmodels/Optuna”“未安装”等是**补跑前快照**，不能读成当前阻塞。旧失败记录不覆写。
 
@@ -30,7 +36,7 @@ python -B chapters/ch06/code/embeddinggemma2_compare.py --model LOCAL_MODEL_DIRE
 
 范围：主线 `manuscript/附件/` 的26个Python程序，以及其现有公开教学输入。Python 3.12.14；只使用已有环境，没有安装依赖、下载模型或调用外部API。本次得到用户单独授权开展教学代码检查；正式史料复算与独立学术校对继续暂停。
 
-## 结果不能只看退出码
+### 结果不能只看退出码
 
 完成97次原始程序入口调用：50次第7—11章、32次第12—17章、15次其余章节。3次预期拒绝是重复/缺失ID及禁止覆盖；2次依赖阻塞是本地Embedding模型缺失与Optuna缺包。其余92次退出0，但其中models.py的拟合子任务仍有9次失败，不能写成全部模型通过。
 
@@ -43,7 +49,7 @@ python -B chapters/ch06/code/embeddinggemma2_compare.py --model LOCAL_MODEL_DIRE
 - 第5、19、21—23章为结构检查；第6章为教材检索/切分/融合练习。真实来源文字的存在不等于来源内容已经重新核读。
 - 第7—17章本次使用人工教学输入，不将人工样本性能视为真实历史预测能力。
 
-## 逐文件覆盖
+### 逐文件覆盖
 
 |主线程序|本次状态|执行证据|
 |---|---|---|
@@ -74,7 +80,7 @@ python -B chapters/ch06/code/embeddinggemma2_compare.py --model LOCAL_MODEL_DIRE
 |`manuscript/附件/ch22/inspect_question_cards_NOT_RUN.py`|有限教学执行|[逐次命令与结果](../chapters/_shared/results/2026-11-12/small_program_runs.json)|
 |`manuscript/附件/ch23/inspect_source_chain_NOT_RUN.py`|有限教学执行|[逐次命令与结果](../chapters/_shared/results/2026-11-12/small_program_runs.json)|
 
-## 已确认缺陷与修补
+### 已确认缺陷与修补
 
 原附件不覆盖，修正版置于活代码层；原NOT_RUN文件名/历史状态保留，其本次执行情况由本报告覆盖登记。
 
@@ -95,13 +101,13 @@ python -B chapters/ch14/code/workflow.py --section 1 --input manuscript/附件/c
 
 后两项必须自己提供预测输入或新的输出目录；不覆盖已有文件。三份修正版只需Python标准库，不新增依赖配置。第14章的修补不声称完成GIS、所有边界输入或所有历史实体消歧的验证。
 
-## 输入、输出及章节对应
+### 输入、输出及章节对应
 
 [程序清单](../chapters/_shared/results/2026-11-12/program_inventory.json)保存源文件SHA与所属章；各组运行记录保存实际命令、退出状态及输入/输出线索。[流水线输出清单](../chapters/_shared/results/2026-11-12/pipeline_output_inventory.json)登记200件实际生成文件的大小与SHA，不把文件数量当成功率。第12—17章各保留一组代表性输出JSON封装，其CSV保留原文本；不重复发布所有情境的同类结果。
 
 日志中的`SANDBOX/`表示临时运行副本，不是仓库路径。输入可由 `manuscript/附件/` 中对应章取得；第20章的替换数据另存 [synthetic_ch20_inputs.json](../chapters/_shared/results/2026-11-12/synthetic_ch20_inputs.json)。第12章预处理结果实际接入第13章adapter，缺失和零值的12项断言通过，3项已有目录拒绝覆盖检查通过。第16章关系整理和第17章网络示例都运行，但两章并非自动共享统一schema，不宣称已实现跨章自动导入。
 
-## 尚未完成及使用限制
+### 尚未完成及使用限制
 
 97次调用不是97项学术检验。没有全量证明测试覆盖、没有安装缺少的依赖、没有真实模型检索、没有执行历史版本里的程序，也没有独立复核正文叙述与所有计算数字。原附件里已知缺陷仍留作教材版本，实际使用上述三个功能请优先选择活代码层修正版。
 

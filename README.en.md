@@ -36,6 +36,8 @@ Target structure (a target, not an acceptance result): ~10% concepts & historiog
 
 The writing line, preserved archives, and live code are separated: **code inside manuscript attachments is teaching material (mostly marked NOT_RUN) and does not pretend to be a runnable pipeline**. Ongoing work happens in `chapters/` under the [promotion protocol](chapters/README.md).
 
+Selected teaching programs have separate execution records; historical `NOT_RUN` labels are preserved. See the Chinese [running guide](docs/RUNNING_EXAMPLES.md) for current entry points, corrected versions and untested scope, and the [execution audit](docs/CODE_EXECUTION_AUDIT.md) for evidence.
+
 ## 3. Quick start (reading order)
 
 1. [docs/POSITION.md](docs/POSITION.md#english-summary) — the author's research positions (broad-culture view, four-stage practice decay, spectacle critique, human judgment rights over AI)

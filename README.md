@@ -51,6 +51,8 @@
 写作主线、历史档案与活代码层分离：**书稿附件里的代码是教材示例（多数标 NOT_RUN），不冒充可运行管线**；
 后续推进在 `chapters/` 按[提升协议](chapters/README.md)进行。
 
+配套程序已有另行授权的教学运行记录，历史 `NOT_RUN` 不回写。运行入口、推荐修正版与未测试范围见[配套程序怎么跑](docs/RUNNING_EXAMPLES.md)；逐次证据见[执行审计](docs/CODE_EXECUTION_AUDIT.md)。
+
 ## 3. 快速上手（阅读顺序）
 
 1. [docs/POSITION.md](docs/POSITION.md) —— 作者研究立场（广义文化观、实践衰减四阶段、景观化批判、AI 判断权）

@@ -19,13 +19,10 @@
 - `results/` 运行产物；重跑产生覆盖时保留旧版或写明差异，不静默覆盖结论。
 - 状态如实：未运行写 **NOT_RUN**；未复核不称完成。协议见[章节工作区总说明](../README.md)。
 
-## 当前状态
+## 当前状态与运行入口
 
-- [ ] 附件代码清点与提升
-- [ ] 依赖与环境登记（`code/requirements.txt`）
-- [ ] 首次可运行验证
-- [ ] 结果与书稿正文数字核对
+本章已有2026-11-12的有限教学执行记录，不再是“尚未首次运行”。请从[配套程序怎么跑](../../docs/RUNNING_EXAMPLES.md)的第6章说明开始，按给定输入和命令运行，并检查实际输出。原附件编写时的 `NOT_RUN` 标记与历史复算档案仍保留，不据此改写过去。
 
-## 2026-11-12 指定模型教学执行
+当前核对的是教学程序及已有结果，不是正式史料复算、全部分支验证或正文数字的独立学术复核。具体覆盖和限制见[执行审计](../../docs/CODE_EXECUTION_AUDIT.md)。
 
-新增 `code/embeddinggemma2_compare.py`：Google `google/embeddinggemma-2`的纯文本本地适配，使用模型专用检索提示，不冒称原BGE/E5分支已通过。实跑结果、安装过程和权重SHA见[执行审计](../../docs/CODE_EXECUTION_AUDIT.md)。权重不入Git；真实史料复算仍暂停。
+推荐模型入口为 `code/embeddinggemma2_compare.py`：指定的 Google EmbeddingGemma 2 已做纯文本本地教学执行；原 BGE/E5 分支仍未跑。模型权重不入 Git。
