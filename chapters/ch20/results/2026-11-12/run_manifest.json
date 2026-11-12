@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-12",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "commands": [
+    "python chapters/ch20/code/reproduce_population.py --out chapters/ch20/results/2026-11-12",
+    "python chapters/ch20/code/test_population.py"
+  ],
+  "run_exit_codes": [
+    0,
+    0
+  ],
+  "checks": "4 published arithmetic/rounding checks; 5 unittest methods",
+  "sha256": {
+    "code/reproduce_population.py": "bce12064a4c9c0245ceb66641c8b87c37e541fe7408a29d95f4c5f16003f5eea",
+    "code/test_population.py": "7b4151bd5936d8593104fedbf54e1bd7f04971847bdadef2e39875b917939bbe",
+    "data/checks.csv": "7afdaea1ea7462c28cf2d9478ebd51b81f003b4ba85c7345be835449f9a1c9f5",
+    "data/population.csv": "e71f0cca6c739aefd4fd41884925c1c47e54b6bb69bf7fdd62a8d7bcfaadd1b5",
+    "data/sources.json": "23292b24f906f39190412532a7597cb437574195b222a6c6cc619105589799e3",
+    "results/2026-11-12/calculation.json": "16287ee3ed148cdbd4b987da1a4db2324d4becdb51a43b4597b97f5c79012496",
+    "results/2026-11-12/population.svg": "24f5e3b98e453a445c4f35da407d6ea21c2cb093856a8473b9186d4e7423bbbd",
+    "results/2026-11-12/tests.txt": "6273232de4d3ef7acd4ecafa5c86beeeb974f56586b21089a2990b3f72facbe6"
+  }
+}

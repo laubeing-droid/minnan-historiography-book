@@ -1,0 +1,5 @@
+id,value,unit,source_id,locator
+Q_increase,653755,人,REG2020,第一节人口增加段
+F_increase,4645870,人,F2020,第一节常住人口
+Q_share_2010,22.03,百分比,REG2020,表2-1泉州行2010年
+Q_share_2020,21.14,百分比,REG2020,表2-1泉州行2020年

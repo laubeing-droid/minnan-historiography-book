@@ -1,0 +1,35 @@
+[
+  {
+    "source_id": "Q2010",
+    "title": "泉州市2010年第六次全国人口普查主要数据公报",
+    "url": "https://tjj.quanzhou.gov.cn/zwgk/zfxxgk/fdzdgknr/tjxx/tjgb/202101/t20210125_2502652.htm",
+    "published_date": "2011-07-07",
+    "locator": "第一节全市常住人口",
+    "checked_date": "2026-11-12",
+    "checked_scope": "官方网站页面正文与表格；非独立复核",
+    "retrieved_html_sha256": "d726b7f32785789157ca2f8022e4d17ad6d031d0b048aefa543741c522fde182",
+    "hash_note": "本轮读取HTML并以UTF-8保存后的字节；页面动态内容可导致后来哈希变化，不是档案永久标识"
+  },
+  {
+    "source_id": "F2020",
+    "title": "福建省第七次全国人口普查公报（第一号）",
+    "url": "https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598797.htm",
+    "published_date": "2021-05-20",
+    "locator": "第一节常住人口、注释1—3",
+    "checked_date": "2026-11-12",
+    "checked_scope": "官方网站页面正文与表格；非独立复核",
+    "retrieved_html_sha256": "d478b3ca2eee373a1ea75eb0c00be6a9088fe5c885b20924db0c8c01d686e171",
+    "hash_note": "本轮读取HTML并以UTF-8保存后的字节；页面动态内容可导致后来哈希变化，不是档案永久标识"
+  },
+  {
+    "source_id": "REG2020",
+    "title": "福建省第七次全国人口普查公报（第二号）",
+    "url": "https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm",
+    "published_date": "2021-05-20",
+    "locator": "第一节增量段、表2-1泉州行、注释1—3",
+    "checked_date": "2026-11-12",
+    "checked_scope": "官方网站页面正文与表格；非独立复核",
+    "retrieved_html_sha256": "b38a43d41042d621bda17f736b0c7587185dd206fb2c6f4a5e7b481d96bb7812",
+    "hash_note": "本轮读取HTML并以UTF-8保存后的字节；页面动态内容可导致后来哈希变化，不是档案永久标识"
+  }
+]

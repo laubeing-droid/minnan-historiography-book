@@ -1,0 +1,31 @@
+{
+  "Q": {
+    "increase": "653755",
+    "growth_pct": "8.042721131619124245097206998"
+  },
+  "F": {
+    "increase": "4645870",
+    "growth_pct": "12.59240743860772105849870885"
+  },
+  "shares_pct": {
+    "2010": "22.03199005502651147269263019",
+    "2020": "21.14171116545112593170847070"
+  },
+  "share_change_percentage_points": "-0.89027888957538554098415949",
+  "rest_of_province": {
+    "increase": "3992115",
+    "growth_pct": "13.87804552966336349496410411"
+  },
+  "checks_passed": [
+    "Q_increase",
+    "F_increase",
+    "Q_share_2010",
+    "Q_share_2020"
+  ],
+  "limits": "Published counts comparison; no annual path, migration decomposition, or cultural-change conclusion.",
+  "inputs_sha256": {
+    "population.csv": "e71f0cca6c739aefd4fd41884925c1c47e54b6bb69bf7fdd62a8d7bcfaadd1b5",
+    "checks.csv": "7afdaea1ea7462c28cf2d9478ebd51b81f003b4ba85c7345be835449f9a1c9f5",
+    "sources.json": "23292b24f906f39190412532a7597cb437574195b222a6c6cc619105589799e3"
+  }
+}
