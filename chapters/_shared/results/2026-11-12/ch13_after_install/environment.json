@@ -1,0 +1,37 @@
+{
+  "installation_scope": "isolated cloud virtual environment; user computer untouched",
+  "index": "https://pypi.org/simple",
+  "explicit_packages": [
+    "statsmodels",
+    "optuna"
+  ],
+  "pip_check": "No broken requirements found.",
+  "python": "3.12.14",
+  "installed_versions": [
+    "alembic==1.20.1",
+    "colorlog==6.12.0",
+    "formulaic==1.2.2",
+    "interface_meta==2.0.1",
+    "Mako==1.4.3",
+    "MarkupSafe==3.0.4",
+    "narwhals==2.28.0",
+    "numpy==2.5.4",
+    "optuna==5.0.0",
+    "packaging==26.3",
+    "pandas==3.1.1",
+    "patsy==1.0.3",
+    "python-dateutil==4.0.0",
+    "PyYAML==6.0.3",
+    "scipy==1.18.1",
+    "SQLAlchemy==2.1.8",
+    "statsmodels==0.15.0",
+    "tqdm==4.70.1",
+    "typing_extensions==4.16.0",
+    "tzdata==2026.6",
+    "wrapt==2.5.2"
+  ],
+  "embedding_installed": false,
+  "model_downloaded": false,
+  "input_sha256": "da157a6203fda0db02510fa60563e0b930a6969ce04646bb076f3a6d8a1bdc8f",
+  "protocol_sha256": "72d6aab4d6e0e82f48018554cd42c4bd3b3542515fd63c08048ce9211cdf0f8c"
+}

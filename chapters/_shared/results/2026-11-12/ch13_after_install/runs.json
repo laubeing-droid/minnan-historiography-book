@@ -1,0 +1,45 @@
+[
+  {
+    "command": [
+      "python",
+      "-B",
+      "models.py",
+      "--out",
+      "models_validation"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "seconds": 1.96
+  },
+  {
+    "command": [
+      "python",
+      "-B",
+      "models.py",
+      "--out",
+      "models_test",
+      "--phase",
+      "test",
+      "--selection",
+      "models_validation/selection.json"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "seconds": 1.746
+  },
+  {
+    "command": [
+      "python",
+      "-B",
+      "optuna_search.py",
+      "--out",
+      "optuna_validation"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "[I 2026-11-12 22:12:56,303] A new study created in memory with name: no-name-caf738e7-747d-442d-9cf6-e12010ad96c0\n[I 2026-11-12 22:12:56,303] Trial 0 finished with value: 1.6111111111111114 and parameters: {'candidate': 'C3'}. Best is trial 0 with value: 1.6111111111111114.\n[I 2026-11-12 22:12:56,304] Trial 1 finished with value: 1.654163029335115 and parameters: {'candidate': 'C4'}. Best is trial 0 with value: 1.6111111111111114.\n[I 2026-11-12 22:12:56,304] Trial 2 finished with value: 1.654163029335115 and parameters: {'candidate': 'C4'}. Best is trial 0 with value: 1.6111111111111114.\n[I 2026-11-12 22:12:56,304] Trial 3 finished with value: 1.0 and parameters: {'candidate': 'C1'}. Best is trial 3 with value: 1.0.\n[I 2026-11-12 22:12:56,304] Trial 4 finished with value: 1.7000248598452696 and parameters: {'candidate': 'C6'}. Best is trial 3 with value: 1.0.\n[I 2026-11-12 22:12:56,304] Trial 5 finished with value: 1.6666666666666667 and parameters: {'candidate': 'C5'}. Best is trial 3 with value: 1.0.\n[I 2026-11-12 22:12:56,305] Trial 6 finished with value: 1.5 and parameters: {'candidate': 'C0'}. Best is trial 3 with value: 1.0.\n[I 2026-11-12 22:12:56,305] Trial 7 finished with value: 1.7000248598452696 and parameters: {'candidate': 'C6'}. Best is trial 3 with value: 1.0.\n",
+    "seconds": 0.241
+  }
+]

@@ -25,3 +25,7 @@
 - [ ] 依赖与环境登记（`code/requirements.txt`）
 - [ ] 首次可运行验证
 - [ ] 结果与书稿正文数字核对
+
+## 2026-11-12 云端教学执行
+
+经用户授权补装statsmodels、Optuna后，合成示例的15次验证拟合、4次锁定模型测试拟合与8次Optuna试验完成。见[执行审计及补跑结果](../../docs/CODE_EXECUTION_AUDIT.md)。原附件保留，未正式史料复算，未下载Embedding模型。

@@ -1,5 +1,17 @@
 # 配套代码云端执行审计（2026-11-12）
 
+## 后续授权补跑更新
+
+初次审计后，用户明确授权仅在云端安装statsmodels、optuna及必要依赖。已在独立虚拟环境从PyPI安装，`pip check`通过；statsmodels 0.15.0、optuna 5.0.0，完整版本见[环境记录](../chapters/_shared/results/2026-11-12/ch13_after_install/environment.json)。未安装到用户电脑，未安装Embedding框架或下载模型。
+
+新增3次CLI：模型验证15/15拟合成功（last、seasonal、ARIMA、SARIMA、Holt-Winters各3次）；验证选择Holt-Winters，锁定后测试4/4拟合成功；Optuna的8/8 trial完成，选C1，**没有评估其最终测试集**。只运行现有合成教学序列，拟合成功不等于适用于闽南历史序列。
+
+实际命令与完整结果：[补跑记录](../chapters/_shared/results/2026-11-12/ch13_after_install/runs.json)、[验证输出](../chapters/_shared/results/2026-11-12/ch13_after_install/models_validation.json)、[测试输出](../chapters/_shared/results/2026-11-12/ch13_after_install/models_test.json)、[搜参输出](../chapters/_shared/results/2026-11-12/ch13_after_install/optuna_validation.json)。补跑后主线26个程序中25个获得有限教学执行覆盖，仅Embedding仍缺框架和模型。合计100次原始入口调用，不包括修补回归测试。
+
+下文保留初次审计事实：其中“缺statsmodels/Optuna”“未安装”等是**补跑前快照**，不能读成当前阻塞。旧失败记录不覆写。
+
+## 初次审计快照
+
 范围：主线 `manuscript/附件/` 的26个Python程序，以及其现有公开教学输入。Python 3.12.14；只使用已有环境，没有安装依赖、下载模型或调用外部API。本次得到用户单独授权开展教学代码检查；正式史料复算与独立学术校对继续暂停。
 
 ## 结果不能只看退出码
