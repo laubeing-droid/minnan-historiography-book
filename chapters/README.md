@@ -24,7 +24,7 @@
 | ch03 | 第3章 从关键词到语义扩展的三轮文献检索 | md×6 | 2 件 | 无对应复算分组 | 无代码附件（方法章） |
 | ch04 | 第4章 三遍阅读 论文拆解与研究综述 | md×6 | 2 件 | 无对应复算分组 | 无代码附件（方法章） |
 | ch05 | 第5章 按研究问题组织资料与知识库 | md×5、csv×4、py×1 | 3 件 | `round1_review/校对复算记录/runs/ch05_06_19_23/` | 已清点；有限教学执行，详见执行审计 |
-| ch06 | 第6章 chunk Embedding BM25 与 RAG 检索增强 | json×8、py×5、md×4、csv×2 | 3 件 | `round1_review/校对复算记录/runs/ch05_06_19_23/` | BM25等教学已跑；Gemma另有适配器；原BGE/E5未跑 |
+| ch06 | 第6章 chunk Embedding BM25 与 RAG 检索增强 | json×8、py×5、md×4、csv×2 | 3 件 | `round1_review/校对复算记录/runs/ch05_06_19_23/` | BM25等教学已跑；旧BGE/E5路线已退役，不再作为待跑任务；现行[EmbeddingGemma 2运行记录](../docs/CODE_EXECUTION_AUDIT.md#第6章后续google-embeddinggemma-2实际执行)另列，旧日志保留 |
 | ch07 | 第7章 数据整理 标注与分析数据集的建立 | md×17、json×16、csv×14、py×1 | 2 件 | `round1_review/校对复算记录/runs/ch07_11/` | 已清点；有限教学执行，详见执行审计 |
 | ch08 | 第8章 基线 实验矩阵 消融与可复现操作 | json×24、md×18、csv×18、py×2、yaml×1 | 2 件 | `round1_review/校对复算记录/runs/ch07_11/` | 教学已跑；使用活代码修正版 |
 | ch09 | 第9章 文本任务 词表示与自然语言处理方法选择 | json×17、md×17、csv×16、py×1 | 2 件 | `round1_review/校对复算记录/runs/ch07_11/` | 已清点；有限教学执行，详见执行审计 |
