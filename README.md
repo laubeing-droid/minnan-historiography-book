@@ -6,7 +6,8 @@
 > 本仓库收录其**写作稿、历史版本、首轮校订复算记录与章节代码工作区**。在建，不是已完成著作。
 
 **文档导航**：[研究立场声明](docs/POSITION.md) · [仓库结构与章节工作区](docs/STRUCTURE.md) · [范围与局限](docs/SCOPE_AND_LIMITS.md) · [项目历史](docs/PROJECT_HISTORY.md) · [贡献指南](CONTRIBUTING.md) · [更新日志](CHANGELOG.md)
-**新增配套**：[研究方法](docs/METHODOLOGY.md) · [当前缺件](docs/MISSING_ITEMS.md) · [材料与状态](docs/DATA_AND_STATUS.md) · [复核指南](docs/REVIEW_GUIDE.md) · [来源与引用](docs/SOURCES_AND_CITATION.md) · [术语](docs/GLOSSARY.md) · [读者附件索引](manuscript/读者附件总索引.md)
+**完整配套入口**：[文档总导航](docs/INDEX.md) · [阅读指南](docs/READING_GUIDE.md) · [研究工程意义](docs/SIGNIFICANCE.md) · [研究纲领](docs/RESEARCH_PROGRAMME.md)
+**基础配套**：[研究方法](docs/METHODOLOGY.md) · [当前缺件](docs/MISSING_ITEMS.md) · [材料与状态](docs/DATA_AND_STATUS.md) · [复核指南](docs/REVIEW_GUIDE.md) · [来源与引用](docs/SOURCES_AND_CITATION.md) · [术语](docs/GLOSSARY.md) · [读者附件索引](manuscript/读者附件总索引.md)
 **接手史档**：迁移说明原样见 [`handover/`](handover/从这里开始.md)（未改写）
 **姊妹库**：[minnan-spanish-corpus](https://github.com/laubeing-droid/minnan-spanish-corpus) —— 22 源闽南—西班牙双语文献语料库（本书史料工程的文献底座之一）
 
@@ -30,7 +31,7 @@
 | `plans/` | 方案与候选稿实文件63件（含v1.0 / v1.2） | 档案层，原样保全 |
 | `chapters/` | **章节工作区（活代码层）**：每章 code / data / results 与提升协议 | 可写层 |
 | `handover/` | 迁移接手史档：从这里开始、交付范围、缺件表、实交清单 | 档案层，未改写 |
-| `docs/` | 立场声明、结构说明、范围与局限、项目历史 | 配套 |
+| `docs/` | 研究纲领、读者与教学路径、方法与证据、状态、来源引用及维护指南 | 配套 |
 
 写作主线、历史档案与活代码层分离：**书稿附件里的代码是教材示例（多数标 NOT_RUN），不冒充可运行管线**；
 后续推进在 `chapters/` 按[提升协议](chapters/README.md)进行。

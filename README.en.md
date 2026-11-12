@@ -9,7 +9,8 @@
 > progress — **not a finished book**.
 
 **Docs**: [Research Position Statement](docs/POSITION.md#english-summary) · [Repo structure & chapter workspaces](docs/STRUCTURE.md) · [Scope & limits](docs/SCOPE_AND_LIMITS.md) · [Project history](docs/PROJECT_HISTORY.md) · [Contributing](CONTRIBUTING.md) · [Changelog](CHANGELOG.md)
-**New Chinese documentation**: [current missing-items ledger](docs/MISSING_ITEMS.md), [methodology](docs/METHODOLOGY.md), [material/status rules](docs/DATA_AND_STATUS.md), [review guide](docs/REVIEW_GUIDE.md), [sources](docs/SOURCES_AND_CITATION.md), [glossary](docs/GLOSSARY.md), [reader attachments](manuscript/读者附件总索引.md). Translation update pending.
+**Expanded Chinese documentation**: [full documentation index](docs/INDEX.md), [reader guide](docs/READING_GUIDE.md), [research significance](docs/SIGNIFICANCE.md), [research programme](docs/RESEARCH_PROGRAMME.md). English expansion update pending.
+**Core Chinese documentation**: [current missing-items ledger](docs/MISSING_ITEMS.md), [methodology](docs/METHODOLOGY.md), [material/status rules](docs/DATA_AND_STATUS.md), [review guide](docs/REVIEW_GUIDE.md), [sources](docs/SOURCES_AND_CITATION.md), [glossary](docs/GLOSSARY.md), [reader attachments](manuscript/读者附件总索引.md). Translation update pending.
 **Handover archive**: migration notes published as-is under [`handover/`](handover/) (unrewritten, Chinese).
 **Sister repo**: [minnan-spanish-corpus](https://github.com/laubeing-droid/minnan-spanish-corpus) — 22-source Minnan–Spanish bilingual corpus (one of the source bases of this project).
 

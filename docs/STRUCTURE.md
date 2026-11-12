@@ -48,6 +48,8 @@ chapters/
 
 新增配套：[研究方法](METHODOLOGY.md)、[当前缺件](MISSING_ITEMS.md)、[材料与状态](DATA_AND_STATUS.md)、[复核指南](REVIEW_GUIDE.md)、[来源与引用](SOURCES_AND_CITATION.md)、[术语](GLOSSARY.md)。
 
+完整配套按读者任务组织，见[文档总导航](INDEX.md)。研究纲领与意义解释本书的问题意识，阅读/教学/案例指南帮助使用现有正文，证据与研究记录连接材料和论证，引用与维护指南支持长期协作。这些说明不改变任何正文或档案的状态。
+
 ## 四、不入库的内容
 
 - 原始讨论对话（作者观点原话）——仅发布脱敏立场声明；

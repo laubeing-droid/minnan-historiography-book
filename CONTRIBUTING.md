@@ -42,3 +42,9 @@
 
 实质性贡献者（章代码推进、史实勘误、立场商榷、结构修复）将记入 README 致谢节与
 [docs/PROJECT_HISTORY.md](docs/PROJECT_HISTORY.md)。
+
+## 6. 配套文档贡献与来源
+
+文档贡献先从[总导航](docs/INDEX.md)确认已有位置，不为同一规则另造一份近义说明。补充历史解释须区分作者观点、外部来源与贡献者推论；来源阅读范围按[来源规则](docs/SOURCES_AND_CITATION.md)登记。理论商榷可针对[研究纲领](docs/RESEARCH_PROGRAMME.md)提出反例，不把讨论中的假说改成已证结论。
+
+提交前按[维护指南](docs/MAINTENANCE.md)核对改动范围、并发差异、相对链接和隐私；版本引用与贡献角色见[引用与署名](docs/CITATION_AND_CREDIT.md)。文档检查不等于独立学术复核，文档贡献也不自动解除代码运行或复算暂停。

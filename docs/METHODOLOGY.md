@@ -22,3 +22,7 @@
 ## 姊妹库的关系
 
 [minnan-spanish-corpus](https://github.com/laubeing-droid/minnan-spanish-corpus)提供文献整理工程的一个具体实践，其方法、schema、校对、台账与局限文档的组织方式可参考。不能把其盲读规则、22来源计数、M1/M2或TAG含义直接移植为本书通用规约，也不能把其施工完成度作为本书论证已获证明的依据。
+
+## 延伸阅读与具体用法
+
+本页概述原则；[研究设计](RESEARCH_DESIGN.md)把问题与方法连接，[材料辨析](EVIDENCE_PRACTICE.md)说明来源、不确定性及推论，[案例地图](CASE_STUDIES.md)给出现有章的入口。作者思路的扩展及假说边界见[研究纲领](RESEARCH_PROGRAMME.md)。所用外部来源及核读范围见[精选方法来源](BIBLIOGRAPHY.md)。
