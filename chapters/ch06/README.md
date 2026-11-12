@@ -25,4 +25,4 @@
 
 当前核对的是教学程序及已有结果，不是正式史料复算、全部分支验证或正文数字的独立学术复核。具体覆盖和限制见[执行审计](../../docs/CODE_EXECUTION_AUDIT.md)。
 
-推荐模型入口为 `code/embeddinggemma2_compare.py`：指定的 Google EmbeddingGemma 2 已做纯文本本地教学执行；原 BGE/E5 分支仍未跑。模型权重不入 Git。
+推荐模型入口为 `code/embeddinggemma2_compare.py`：指定的 Google EmbeddingGemma 2 已做纯文本本地教学执行；旧 BGE/E5 路线已退出当前方案，仅存档，不再安排补跑。模型权重不入 Git。

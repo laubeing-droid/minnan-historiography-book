@@ -34,7 +34,7 @@ Windows 可在 Git Bash 或 WSL 中使用这些命令。本文没有重新验证
 python -B chapters/ch06/code/embeddinggemma2_compare.py --model LOCAL_MODEL_DIRECTORY --input manuscript/附件/ch06/model_input.json --revision f9972ac22e696a105c482202646979e33e4b5a1e
 ```
 
-适配器只读本地模型，不自动下载。已运行环境的包版本见[环境记录](../chapters/_shared/results/2026-11-12/embeddinggemma2/environment.json)，不要把这一命令理解成安装命令。既有记录用1条查询、3段材料得到4个768维向量，排序为 B、A、C。输入、向量和得分见[结果](../chapters/_shared/results/2026-11-12/embeddinggemma2/retrieval_result.json)。这只说明这组输入的相似度排序，不能据此认定哪段史料更真实。原 BGE/E5 分支尚未实际运行；这次文档核对也没有重新下载或运行模型。
+适配器只读本地模型，不自动下载。已运行环境的包版本见[环境记录](../chapters/_shared/results/2026-11-12/embeddinggemma2/environment.json)，不要把这一命令理解成安装命令。既有记录用1条查询、3段材料得到4个768维向量，排序为 B、A、C。输入、向量和得分见[结果](../chapters/_shared/results/2026-11-12/embeddinggemma2/retrieval_result.json)。这只说明这组输入的相似度排序，不能据此认定哪段史料更真实。旧 BGE/E5 路线仅留历史附件，不再作为当前入口或待补跑任务。本次调整没有重新下载或运行模型。
 
 ## 第12章：把缺页和真实零值分开
 

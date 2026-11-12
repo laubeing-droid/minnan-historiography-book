@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Local-only EmbeddingGemma 2 adapter for the chapter 6 teaching input.
-Original BGE/E5 attachment is preserved; this does not validate those models.
+This is the current embedding route; the original attachment is archival only.
 No installation, download, API call or source-file write is performed here.
 """
 from pathlib import Path
