@@ -25,3 +25,7 @@
 - [ ] 依赖与环境登记（`code/requirements.txt`）
 - [ ] 首次可运行验证
 - [ ] 结果与书稿正文数字核对
+
+## 2026-11-12 指定模型教学执行
+
+新增 `code/embeddinggemma2_compare.py`：Google `google/embeddinggemma-2`的纯文本本地适配，使用模型专用检索提示，不冒称原BGE/E5分支已通过。实跑结果、安装过程和权重SHA见[执行审计](../../docs/CODE_EXECUTION_AUDIT.md)。权重不入Git；真实史料复算仍暂停。

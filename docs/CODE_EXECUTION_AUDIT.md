@@ -1,5 +1,21 @@
 # 配套代码云端执行审计（2026-11-12）
 
+## 第6章后续：Google EmbeddingGemma 2实际执行
+
+用户进一步指定谷歌EmbeddingGemma 2。已核[官方模型卡](https://huggingface.co/google/embeddinggemma-2)及[Google开发指南](https://developers.googleblog.com/en/embeddinggemma-2-the-developer-guide/)，实际模型ID为`google/embeddinggemma-2`，不是Gemma2生成模型。官方API确认公开、非gated，Apache-2.0；本轮未登录账号或绕过访问限制。
+
+在独立云端环境安装sentence-transformers/transformers及CPU PyTorch，固定模型revision `f9972ac22e696a105c482202646979e33e4b5a1e` 下载官方safetensors。只启用文本编码，以float32执行；模型文件不加入本仓库，文件大小与SHA见[下载清单](../chapters/_shared/results/2026-11-12/embeddinggemma2/model_download_manifest.json)。统一processor加载仍要求Pillow及CPU torchvision，两次缺依赖失败后补装成功；这不是运行视觉或音视频任务。完整依赖和过程见[环境记录](../chapters/_shared/results/2026-11-12/embeddinggemma2/environment.json)。
+
+原附件只支持BGE/E5，不能把Gemma硬套入其提示词。新增[本地专用适配器](../chapters/ch06/code/embeddinggemma2_compare.py)，采用模型自带的SearchQuery/Document检索提示，禁止远程代码，推理时强制本地离线；检查长度、输出形状、有限值和单位范数。现有1条查询与3段教材材料产生4×768向量，输入分别25/89/108/78 token，均未截断，全部范数为1。实际排序为B>A>C，分数约0.858、0.843、0.659；这里只展示相似度，不证明B比A更可靠、更独立或足以回答历史问题。
+
+[真实输入、向量和排序](../chapters/_shared/results/2026-11-12/embeddinggemma2/retrieval_result.json)已保存。运行命令（使用自行准备的官方本地快照，不自动下载）：
+
+```bash
+python -B chapters/ch06/code/embeddinggemma2_compare.py --model LOCAL_MODEL_DIRECTORY --input manuscript/附件/ch06/model_input.json --revision f9972ac22e696a105c482202646979e33e4b5a1e
+```
+
+因此第6章嵌入功能现已有指定Gemma模型的实跑结果，但**原BGE/E5算法分支仍未运行**，不写成“26个原程序全部通过”。全书教学功能的有限检查、具体模型的小样本演示与正式史料复算是不同事项；正式复算和独立学术校对仍暂停。
+
 ## 后续授权补跑更新
 
 初次审计后，用户明确授权仅在云端安装statsmodels、optuna及必要依赖。已在独立虚拟环境从PyPI安装，`pip check`通过；statsmodels 0.15.0、optuna 5.0.0，完整版本见[环境记录](../chapters/_shared/results/2026-11-12/ch13_after_install/environment.json)。未安装到用户电脑，未安装Embedding框架或下载模型。
