@@ -9,6 +9,13 @@ class PopulationTest(unittest.TestCase):
   self.assertEqual(len(m.verify(r,DATA/'checks.csv')),4)
   self.assertGreater(m.D(r['Q']['increase']),0)
   self.assertLess(m.D(r['share_change_percentage_points']),0)
+ def test_district_totals_without_double_counting(self):
+  with (DATA/'district_checks.csv').open(encoding='utf-8',newline='') as f: rows=list(csv.DictReader(f))
+  self.assertEqual(len(rows),11)
+  self.assertEqual(len({r['region'] for r in rows}),11)
+  v=m.read_population(DATA/'population.csv')
+  for year in ('2010','2020'):
+   self.assertEqual(sum(int(r['population_'+year]) for r in rows),v['Q'+year])
  def test_wrong_unit_rejected(self):
   with tempfile.TemporaryDirectory() as d:
    p=Path(d)/'input.csv';p.write_text((DATA/'population.csv').read_text().replace(',人,',',万人,',1))

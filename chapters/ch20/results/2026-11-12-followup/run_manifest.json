@@ -1,0 +1,16 @@
+{
+  "run_date": "2026-11-12",
+  "commands": [
+    "python chapters/ch20/code/reproduce_population.py --out chapters/ch20/results/2026-11-12-followup",
+    "python chapters/ch20/code/test_population.py"
+  ],
+  "tests_passed": 6,
+  "official_crosschecks_passed": 4,
+  "inputs_sha256": {
+    "data/district_checks.csv": "ae8fd8be24f3166d48a5731c5f88c48d2d97a8f2fe812032126a7e1b0071e0b9",
+    "data/sources.json": "a2e5a19a2a44aa78b216960fa7294258bc2cd95c2b9f64d3e0102fa11c8bdfbf",
+    "data/checks.csv": "7afdaea1ea7462c28cf2d9478ebd51b81f003b4ba85c7345be835449f9a1c9f5",
+    "data/population.csv": "e71f0cca6c739aefd4fd41884925c1c47e54b6bb69bf7fdd62a8d7bcfaadd1b5",
+    "data/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}
