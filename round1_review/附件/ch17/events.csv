@@ -1,0 +1,10 @@
+event_id,sender,recipient,event_year,source_id,locator,identity_status,event_status
+T01,A,B,1701,X1,t01,confirmed,accepted
+T02,B,C,1701,X1,t02,confirmed,accepted
+T03,C,A,1702,X1,t03,confirmed,accepted
+T04,C,D,1704,X2,t04,confirmed,accepted
+T05,D,E,1702,X3,t05,confirmed,accepted
+T06,E,F,1703,X3,t06,confirmed,accepted
+T07,F,D,1703,X3,t07,confirmed,accepted
+T08,F,G,1705,X4,t08,confirmed,accepted
+T09,B,A,1702,X1,t09,confirmed,accepted

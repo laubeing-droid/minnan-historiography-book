@@ -1,0 +1,4 @@
+id,benchmark,task,expected_output,local_output
+V01,ImageNet,classification,image_label,image_label
+V02,COCO,detection,bbox_class,bbox_class
+V03,ADE20K,semantic_segmentation,pixel_class,pixel_class

@@ -1,0 +1,19 @@
+{
+  "execution": "reader_invoked",
+  "input_provenance": "编者新编教学数据 非史实 非模型输出",
+  "section": "7.3",
+  "result": {
+    "states": {
+      "observed": 2,
+      "not_recorded": 1,
+      "illegible": 1
+    },
+    "total_rows": 4,
+    "observed_rows": 2,
+    "observed_sum": 3.0,
+    "unresolved_ids": [
+      "U02",
+      "U03"
+    ]
+  }
+}

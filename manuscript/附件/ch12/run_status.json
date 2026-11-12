@@ -1,0 +1,12 @@
+{
+  "chapter": 12,
+  "artifact_date": "2026-10-30",
+  "code_status": "NOT_RUN",
+  "statistical_diagnostics": "NOT_RUN",
+  "model_fitting": "NOT_RUN",
+  "forecast_evaluation": "NOT_RUN",
+  "data_status": "MANUALLY_AUTHORED_SYNTHETIC_DEMO",
+  "real_historical_observations_included": false,
+  "external_packages_required_by_preprocessing": [],
+  "note": "本次只完成正文和附件写作。未执行预处理脚本、统计检验、模型或学术复算。"
+}

@@ -1,0 +1,238 @@
+{
+  "fiction": true,
+  "history": [
+    {
+      "id": "H01",
+      "period": 1,
+      "available_at": 1,
+      "value": 10
+    },
+    {
+      "id": "H02",
+      "period": 2,
+      "available_at": 2,
+      "value": 12
+    },
+    {
+      "id": "H03",
+      "period": 3,
+      "available_at": 3,
+      "value": 14
+    },
+    {
+      "id": "H04",
+      "period": 4,
+      "available_at": 4,
+      "value": 16
+    },
+    {
+      "id": "H05",
+      "period": 5,
+      "available_at": 5,
+      "value": 18
+    },
+    {
+      "id": "H06",
+      "period": 6,
+      "available_at": 6,
+      "value": null
+    },
+    {
+      "id": "H07",
+      "period": 7,
+      "available_at": 7,
+      "value": 22
+    },
+    {
+      "id": "H08",
+      "period": 8,
+      "available_at": 10,
+      "value": 24
+    },
+    {
+      "id": "H09",
+      "period": 9,
+      "available_at": 9,
+      "value": 26
+    },
+    {
+      "id": "H10",
+      "period": 10,
+      "available_at": 10,
+      "value": 28
+    },
+    {
+      "id": "H11",
+      "period": 11,
+      "available_at": 11,
+      "value": 30
+    },
+    {
+      "id": "H12",
+      "period": 12,
+      "available_at": 12,
+      "value": 32
+    },
+    {
+      "id": "H13",
+      "period": 13,
+      "available_at": 13,
+      "value": 34
+    },
+    {
+      "id": "H14",
+      "period": 14,
+      "available_at": 14,
+      "value": 36
+    },
+    {
+      "id": "H15",
+      "period": 15,
+      "available_at": 15,
+      "value": 38
+    },
+    {
+      "id": "H16",
+      "period": 16,
+      "available_at": 16,
+      "value": 40
+    }
+  ],
+  "truth": [
+    {
+      "id": "Y01",
+      "period": 1,
+      "available_at": 1,
+      "value": 10
+    },
+    {
+      "id": "Y02",
+      "period": 2,
+      "available_at": 2,
+      "value": 12
+    },
+    {
+      "id": "Y03",
+      "period": 3,
+      "available_at": 3,
+      "value": 14
+    },
+    {
+      "id": "Y04",
+      "period": 4,
+      "available_at": 4,
+      "value": 16
+    },
+    {
+      "id": "Y05",
+      "period": 5,
+      "available_at": 5,
+      "value": 18
+    },
+    {
+      "id": "Y06",
+      "period": 6,
+      "available_at": 6,
+      "value": 20
+    },
+    {
+      "id": "Y07",
+      "period": 7,
+      "available_at": 7,
+      "value": 22
+    },
+    {
+      "id": "Y08",
+      "period": 8,
+      "available_at": 8,
+      "value": 24
+    },
+    {
+      "id": "Y09",
+      "period": 9,
+      "available_at": 9,
+      "value": null
+    },
+    {
+      "id": "Y10",
+      "period": 10,
+      "available_at": 10,
+      "value": 28
+    },
+    {
+      "id": "Y11",
+      "period": 11,
+      "available_at": 11,
+      "value": 30
+    },
+    {
+      "id": "Y12",
+      "period": 12,
+      "available_at": 12,
+      "value": 32
+    },
+    {
+      "id": "Y13",
+      "period": 13,
+      "available_at": 13,
+      "value": 34
+    },
+    {
+      "id": "Y14",
+      "period": 14,
+      "available_at": 14,
+      "value": 36
+    },
+    {
+      "id": "Y15",
+      "period": 15,
+      "available_at": 15,
+      "value": null
+    },
+    {
+      "id": "Y16",
+      "period": 16,
+      "available_at": 16,
+      "value": 40
+    }
+  ],
+  "validation_origins": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "test_origins": [
+    10,
+    11,
+    12,
+    13
+  ],
+  "horizons": [
+    1,
+    2
+  ],
+  "validation_cutoff": 10,
+  "test_cutoff": 16,
+  "min_train": 3,
+  "candidates": [
+    {
+      "id": "C1",
+      "method": "mean",
+      "window": 4,
+      "fill": "drop"
+    },
+    {
+      "id": "C2",
+      "method": "mean",
+      "window": null,
+      "fill": "drop"
+    },
+    {
+      "id": "C3",
+      "method": "last",
+      "window": 4,
+      "fill": "drop"
+    }
+  ]
+}

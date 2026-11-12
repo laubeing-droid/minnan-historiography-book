@@ -1,0 +1,150 @@
+{
+  "fiction": true,
+  "origin": 4,
+  "score_cutoff": 10,
+  "series": [
+    {
+      "id": "A",
+      "unit": "teaching_unit",
+      "m": 1,
+      "train": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "actual": [
+        10,
+        10
+      ],
+      "available_at": [
+        6,
+        7
+      ],
+      "predictions": {
+        "P": [
+          10,
+          16
+        ],
+        "Q": [
+          14,
+          14
+        ]
+      }
+    },
+    {
+      "id": "B",
+      "unit": "teaching_unit",
+      "m": 1,
+      "train": [
+        60,
+        70,
+        80,
+        90,
+        100
+      ],
+      "actual": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "available_at": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "predictions": {
+        "P": [
+          110,
+          110,
+          110,
+          110
+        ],
+        "Q": [
+          105,
+          105,
+          105,
+          105
+        ]
+      }
+    },
+    {
+      "id": "C",
+      "unit": "teaching_unit",
+      "m": 2,
+      "train": [
+        0,
+        -2,
+        0,
+        0,
+        0
+      ],
+      "actual": [
+        0,
+        -2,
+        0
+      ],
+      "available_at": [
+        6,
+        7,
+        8
+      ],
+      "predictions": {
+        "P": [
+          1,
+          -1,
+          0
+        ],
+        "Q": [
+          0,
+          -2,
+          0
+        ]
+      }
+    },
+    {
+      "id": "D",
+      "unit": "teaching_unit",
+      "m": 1,
+      "train": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "actual": [
+        5,
+        null
+      ],
+      "available_at": [
+        6,
+        7
+      ],
+      "predictions": {
+        "P": [
+          5,
+          5
+        ],
+        "Q": [
+          6,
+          5
+        ]
+      }
+    }
+  ],
+  "aggregation": {
+    "ids": [
+      "A",
+      "B"
+    ],
+    "weights": {
+      "A": 3,
+      "B": 1
+    }
+  },
+  "note": "C训练端点、Q的C/D预测为完整化新增教学设定；不把未明列的旧值伪称恢复。"
+}

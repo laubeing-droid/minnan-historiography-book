@@ -1,0 +1,195 @@
+{
+  "execution": "reader_invoked",
+  "input_provenance": "编者新编教学数据 非史实 非模型输出",
+  "section": "8.2",
+  "result": [
+    {
+      "expand": false,
+      "negation": false,
+      "rows": [
+        {
+          "id": "T01",
+          "prediction": 1,
+          "gold": 1
+        },
+        {
+          "id": "T02",
+          "prediction": 1,
+          "gold": 0
+        },
+        {
+          "id": "T03",
+          "prediction": 1,
+          "gold": 0
+        },
+        {
+          "id": "T04",
+          "prediction": 0,
+          "gold": 1
+        },
+        {
+          "id": "T05",
+          "prediction": 0,
+          "gold": 0
+        },
+        {
+          "id": "T06",
+          "prediction": 1,
+          "gold": 1
+        }
+      ],
+      "metrics": {
+        "n": 6,
+        "tp": 2,
+        "fp": 2,
+        "fn": 1,
+        "tn": 1,
+        "accuracy": 0.5,
+        "precision": 0.5,
+        "recall": 0.6666666666666666,
+        "f1": 0.5714285714285714
+      }
+    },
+    {
+      "expand": true,
+      "negation": false,
+      "rows": [
+        {
+          "id": "T01",
+          "prediction": 1,
+          "gold": 1
+        },
+        {
+          "id": "T02",
+          "prediction": 1,
+          "gold": 0
+        },
+        {
+          "id": "T03",
+          "prediction": 1,
+          "gold": 0
+        },
+        {
+          "id": "T04",
+          "prediction": 1,
+          "gold": 1
+        },
+        {
+          "id": "T05",
+          "prediction": 0,
+          "gold": 0
+        },
+        {
+          "id": "T06",
+          "prediction": 1,
+          "gold": 1
+        }
+      ],
+      "metrics": {
+        "n": 6,
+        "tp": 3,
+        "fp": 2,
+        "fn": 0,
+        "tn": 1,
+        "accuracy": 0.6666666666666666,
+        "precision": 0.6,
+        "recall": 1.0,
+        "f1": 0.75
+      }
+    },
+    {
+      "expand": false,
+      "negation": true,
+      "rows": [
+        {
+          "id": "T01",
+          "prediction": 1,
+          "gold": 1
+        },
+        {
+          "id": "T02",
+          "prediction": 0,
+          "gold": 0
+        },
+        {
+          "id": "T03",
+          "prediction": 0,
+          "gold": 0
+        },
+        {
+          "id": "T04",
+          "prediction": 0,
+          "gold": 1
+        },
+        {
+          "id": "T05",
+          "prediction": 0,
+          "gold": 0
+        },
+        {
+          "id": "T06",
+          "prediction": 1,
+          "gold": 1
+        }
+      ],
+      "metrics": {
+        "n": 6,
+        "tp": 2,
+        "fp": 0,
+        "fn": 1,
+        "tn": 3,
+        "accuracy": 0.8333333333333334,
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      }
+    },
+    {
+      "expand": true,
+      "negation": true,
+      "rows": [
+        {
+          "id": "T01",
+          "prediction": 1,
+          "gold": 1
+        },
+        {
+          "id": "T02",
+          "prediction": 0,
+          "gold": 0
+        },
+        {
+          "id": "T03",
+          "prediction": 0,
+          "gold": 0
+        },
+        {
+          "id": "T04",
+          "prediction": 1,
+          "gold": 1
+        },
+        {
+          "id": "T05",
+          "prediction": 0,
+          "gold": 0
+        },
+        {
+          "id": "T06",
+          "prediction": 1,
+          "gold": 1
+        }
+      ],
+      "metrics": {
+        "n": 6,
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "tn": 3,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    }
+  ]
+}

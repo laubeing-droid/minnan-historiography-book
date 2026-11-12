@@ -1,0 +1,288 @@
+{
+  "fit_records": [
+    {
+      "fit_id": "C1_o10",
+      "candidate": "C1",
+      "origin": 10,
+      "window_start": 7,
+      "window_end": 10,
+      "training": [
+        {
+          "id": "H07",
+          "period": 7,
+          "available_at": 7,
+          "value": 22,
+          "imputed_from": null
+        },
+        {
+          "id": "H08",
+          "period": 8,
+          "available_at": 10,
+          "value": 24,
+          "imputed_from": null
+        },
+        {
+          "id": "H09",
+          "period": 9,
+          "available_at": 9,
+          "value": 26,
+          "imputed_from": null
+        },
+        {
+          "id": "H10",
+          "period": 10,
+          "available_at": 10,
+          "value": 28,
+          "imputed_from": null
+        }
+      ],
+      "excluded": [],
+      "effective_count": 4,
+      "status": "success",
+      "reason": null
+    },
+    {
+      "fit_id": "C1_o11",
+      "candidate": "C1",
+      "origin": 11,
+      "window_start": 8,
+      "window_end": 11,
+      "training": [
+        {
+          "id": "H08",
+          "period": 8,
+          "available_at": 10,
+          "value": 24,
+          "imputed_from": null
+        },
+        {
+          "id": "H09",
+          "period": 9,
+          "available_at": 9,
+          "value": 26,
+          "imputed_from": null
+        },
+        {
+          "id": "H10",
+          "period": 10,
+          "available_at": 10,
+          "value": 28,
+          "imputed_from": null
+        },
+        {
+          "id": "H11",
+          "period": 11,
+          "available_at": 11,
+          "value": 30,
+          "imputed_from": null
+        }
+      ],
+      "excluded": [],
+      "effective_count": 4,
+      "status": "success",
+      "reason": null
+    },
+    {
+      "fit_id": "C1_o12",
+      "candidate": "C1",
+      "origin": 12,
+      "window_start": 9,
+      "window_end": 12,
+      "training": [
+        {
+          "id": "H09",
+          "period": 9,
+          "available_at": 9,
+          "value": 26,
+          "imputed_from": null
+        },
+        {
+          "id": "H10",
+          "period": 10,
+          "available_at": 10,
+          "value": 28,
+          "imputed_from": null
+        },
+        {
+          "id": "H11",
+          "period": 11,
+          "available_at": 11,
+          "value": 30,
+          "imputed_from": null
+        },
+        {
+          "id": "H12",
+          "period": 12,
+          "available_at": 12,
+          "value": 32,
+          "imputed_from": null
+        }
+      ],
+      "excluded": [],
+      "effective_count": 4,
+      "status": "success",
+      "reason": null
+    },
+    {
+      "fit_id": "C1_o13",
+      "candidate": "C1",
+      "origin": 13,
+      "window_start": 10,
+      "window_end": 13,
+      "training": [
+        {
+          "id": "H10",
+          "period": 10,
+          "available_at": 10,
+          "value": 28,
+          "imputed_from": null
+        },
+        {
+          "id": "H11",
+          "period": 11,
+          "available_at": 11,
+          "value": 30,
+          "imputed_from": null
+        },
+        {
+          "id": "H12",
+          "period": 12,
+          "available_at": 12,
+          "value": 32,
+          "imputed_from": null
+        },
+        {
+          "id": "H13",
+          "period": 13,
+          "available_at": 13,
+          "value": 34,
+          "imputed_from": null
+        }
+      ],
+      "excluded": [],
+      "effective_count": 4,
+      "status": "success",
+      "reason": null
+    }
+  ],
+  "forecast_rows": [
+    {
+      "fit_id": "C1_o10",
+      "candidate": "C1",
+      "origin": 10,
+      "horizon": 1,
+      "target": 11,
+      "prediction": 25.0,
+      "status": "success",
+      "reason": null,
+      "actual": 30,
+      "error": 5.0,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C1_o10",
+      "candidate": "C1",
+      "origin": 10,
+      "horizon": 2,
+      "target": 12,
+      "prediction": 25.0,
+      "status": "success",
+      "reason": null,
+      "actual": 32,
+      "error": 7.0,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C1_o11",
+      "candidate": "C1",
+      "origin": 11,
+      "horizon": 1,
+      "target": 12,
+      "prediction": 27.0,
+      "status": "success",
+      "reason": null,
+      "actual": 32,
+      "error": 5.0,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C1_o11",
+      "candidate": "C1",
+      "origin": 11,
+      "horizon": 2,
+      "target": 13,
+      "prediction": 27.0,
+      "status": "success",
+      "reason": null,
+      "actual": 34,
+      "error": 7.0,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C1_o12",
+      "candidate": "C1",
+      "origin": 12,
+      "horizon": 1,
+      "target": 13,
+      "prediction": 29.0,
+      "status": "success",
+      "reason": null,
+      "actual": 34,
+      "error": 5.0,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C1_o12",
+      "candidate": "C1",
+      "origin": 12,
+      "horizon": 2,
+      "target": 14,
+      "prediction": 29.0,
+      "status": "success",
+      "reason": null,
+      "actual": 36,
+      "error": 7.0,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C1_o13",
+      "candidate": "C1",
+      "origin": 13,
+      "horizon": 1,
+      "target": 14,
+      "prediction": 31.0,
+      "status": "success",
+      "reason": null,
+      "actual": 36,
+      "error": 5.0,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C1_o13",
+      "candidate": "C1",
+      "origin": 13,
+      "horizon": 2,
+      "target": 15,
+      "prediction": 31.0,
+      "status": "success",
+      "reason": null,
+      "actual": null,
+      "error": null,
+      "score_status": "missing_or_late_truth"
+    }
+  ],
+  "summary": [
+    {
+      "candidate": "C1",
+      "planned": 8,
+      "predicted": 8,
+      "failed": 0,
+      "scored": 7,
+      "coverage": 1.0,
+      "MAE": 5.857142857142857,
+      "RMSE": 5.94017796751194,
+      "eligible": true
+    }
+  ],
+  "phase": "test"
+}

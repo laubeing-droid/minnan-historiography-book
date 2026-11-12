@@ -1,0 +1,38 @@
+{
+  "section": "9.4",
+  "title": "词表示演进：Word2Vec→BERT→GPT",
+  "status": "EXECUTED_PASS",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "vectors",
+  "rows": [
+    {
+      "id": "V01",
+      "text": "教学码头",
+      "vector": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "V02",
+      "text": "教学港口",
+      "vector": [
+        1,
+        0,
+        0.8
+      ]
+    },
+    {
+      "id": "V03",
+      "text": "教学讲席",
+      "vector": [
+        0,
+        1,
+        0.1
+      ]
+    }
+  ],
+  "config": {},
+  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
+}

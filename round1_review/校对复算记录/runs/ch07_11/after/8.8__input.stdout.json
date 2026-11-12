@@ -1,0 +1,34 @@
+{
+  "execution": "reader_invoked",
+  "input_provenance": "编者新编教学数据 非史实 非模型输出",
+  "section": "8.8",
+  "result": {
+    "predictions": [
+      {
+        "id": "T01",
+        "prediction": 1
+      },
+      {
+        "id": "T02",
+        "prediction": 0
+      },
+      {
+        "id": "T03",
+        "prediction": 0
+      },
+      {
+        "id": "T04",
+        "prediction": 1
+      },
+      {
+        "id": "T05",
+        "prediction": 0
+      },
+      {
+        "id": "T06",
+        "prediction": 1
+      }
+    ],
+    "note": "Predict-only stage. Reference is not opened here."
+  }
+}

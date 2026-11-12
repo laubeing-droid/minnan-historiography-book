@@ -1,0 +1,275 @@
+{
+  "baseline_inputs_and_scripts_checked": 54,
+  "all_baseline_bytes_unchanged": true,
+  "current_script_hashes_match_final_run": {
+    "book_review_20261030/revision/附件/ch07/workbook.py": true,
+    "book_review_20261030/revision/附件/ch08/workbook.py": true,
+    "book_review_20261030/revision/附件/ch09/workbook.py": true,
+    "book_review_20261030/revision/附件/ch10/workbook.py": true,
+    "book_review_20261030/revision/附件/ch11/workbook.py": true,
+    "book_review_20261030/revision/附件/ch08/8.8/score_predictions.py": true
+  },
+  "declared_modes": [
+    "ablation",
+    "agreement",
+    "architecture",
+    "baseline",
+    "benchmark",
+    "bootstrap",
+    "card",
+    "claims",
+    "config",
+    "coverage",
+    "derive",
+    "detection",
+    "feature_eval",
+    "fewshot",
+    "independent",
+    "join",
+    "judge",
+    "literal",
+    "longtail",
+    "matrix",
+    "mcnemar",
+    "missing",
+    "multilingual",
+    "overlap",
+    "prompt",
+    "ratings",
+    "segmentation",
+    "sensitivity",
+    "shift",
+    "split",
+    "tasks",
+    "tensor",
+    "tracking",
+    "units",
+    "vectors",
+    "vision_ablation",
+    "vision_class",
+    "vision_metrics"
+  ],
+  "mode_count": 38,
+  "all_modes_covered_by_section_inputs": true,
+  "all_43_sections_have_command_and_independent_check": true,
+  "all_recorded_outputs_exist": true,
+  "changed_file_hashes_verified": 111,
+  "details": [
+    {
+      "path": "book_completion_20261030/final/附件/ch07/7.1/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch07/7.2/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch07/7.2/input_v2.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch07/7.3/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch07/7.4/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch07/7.5/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch07/7.6/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch07/7.7/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch08/8.1/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch08/8.2/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch08/8.3/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch08/8.4/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch08/8.4/input_reverse_sort.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch08/8.4/input_reverse_unsorted.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch08/8.4/input_seed29.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch08/8.5/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch08/8.6/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch08/8.7/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch08/8.7/regression_duplicate_input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch08/8.7/regression_missing_input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch08/8.8/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch09/9.1/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch09/9.2/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch09/9.3/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch09/9.4/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch09/9.5/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch09/9.6/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch09/9.7/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch09/9.8/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch10/10.1/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch10/10.2/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch10/10.3/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch10/10.4/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch10/10.5/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch10/10.6/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch10/10.7/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch10/10.8/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch10/10.9/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch10/10.10/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch11/11.1/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch11/11.2/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch11/11.3/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch11/11.4/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch11/11.5/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch11/11.6/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch11/11.7/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch11/11.8/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch11/11.9/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch11/11.10/input.json",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch07/workbook.py",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch08/workbook.py",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch09/workbook.py",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch10/workbook.py",
+      "unchanged": true
+    },
+    {
+      "path": "book_completion_20261030/final/附件/ch11/workbook.py",
+      "unchanged": true
+    }
+  ]
+}

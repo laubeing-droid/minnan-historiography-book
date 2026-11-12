@@ -1,0 +1,335 @@
+[
+  {
+    "name": "population_rational",
+    "pass": true,
+    "detail": {
+      "Q_growth": {
+        "exact": "6537550/812853",
+        "decimal": 8.042721131619125
+      },
+      "F_growth": {
+        "exact": "58073375/4611777",
+        "decimal": 12.59240743860772
+      },
+      "share_change": {
+        "exact": "-28425657270875/31928935532137",
+        "decimal": -0.8902788895753856
+      },
+      "rest_growth": {
+        "exact": "66535250/4794281",
+        "decimal": 13.878045529663364
+      }
+    }
+  },
+  {
+    "name": "bm25_independent_scores",
+    "pass": true,
+    "detail": [
+      {
+        "query": "H01",
+        "pass": true,
+        "scores": {
+          "D1": 5.480233339611719,
+          "D2": 0.5085579146299599,
+          "D3": 0.49990721857988335,
+          "D4": 0.8932458974639479
+        }
+      },
+      {
+        "query": "H01-A",
+        "pass": true,
+        "scores": {
+          "D1": 5.3137902371333,
+          "D2": 1.9161798813055413,
+          "D3": 0.49990721857988335,
+          "D4": 0.11786091582061932
+        }
+      },
+      {
+        "query": "H01-B",
+        "pass": true,
+        "scores": {
+          "D1": 0.4255741498054877,
+          "D2": 1.7310533774839876,
+          "D3": 0.49990721857988335,
+          "D4": 0.11786091582061932
+        }
+      },
+      {
+        "query": "H01-C",
+        "pass": true,
+        "scores": {
+          "D1": 1.58561466273263,
+          "D2": 0.14639566386140085,
+          "D3": 0.11399662349863181,
+          "D4": 0.11786091582061932
+        }
+      },
+      {
+        "query": "H01-E1",
+        "pass": true,
+        "scores": {
+          "D1": 0.4255741498054877,
+          "D2": 0.5085579146299599,
+          "D3": 0.49990721857988335,
+          "D4": 0.11786091582061932
+        }
+      },
+      {
+        "query": "H01-E2",
+        "pass": true,
+        "scores": {
+          "D1": 0.4255741498054877,
+          "D2": 1.7310533774839876,
+          "D3": 0.49990721857988335,
+          "D4": 0.11786091582061932
+        }
+      },
+      {
+        "query": "H01-X1",
+        "pass": true,
+        "scores": {
+          "D1": 2.723003856272794,
+          "D2": 1.2123688979677507,
+          "D3": 0.49990721857988335,
+          "D4": 0.11786091582061932
+        }
+      },
+      {
+        "query": "H01-X2",
+        "pass": true,
+        "scores": {
+          "D1": 0.4255741498054877,
+          "D2": 0.5085579146299599,
+          "D3": 0.49990721857988335,
+          "D4": 0.11786091582061932
+        }
+      },
+      {
+        "query": "H01-X3",
+        "pass": true,
+        "scores": {
+          "D1": 2.889446958751214,
+          "D2": 1.7310533774839876,
+          "D3": 3.5489884081338396,
+          "D4": 2.811494986515934
+        }
+      }
+    ]
+  },
+  {
+    "name": "rrf_exact",
+    "pass": true,
+    "detail": {
+      "D1": "124/3843",
+      "D3": "1/62",
+      "D2": "124/3843",
+      "D4": "1/62"
+    }
+  },
+  {
+    "name": "dev_baseline_metrics",
+    "pass": true,
+    "detail": [
+      "1/2",
+      "3/4",
+      "3/4"
+    ]
+  },
+  {
+    "name": "dev_changed_metrics",
+    "pass": true,
+    "detail": [
+      "3/4",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "name": "holdout_T03_baseline_no_reference",
+    "pass": true,
+    "detail": "No gold entries remain separate"
+  },
+  {
+    "name": "holdout_T03_changed_no_reference",
+    "pass": true,
+    "detail": "No gold entries remain separate"
+  },
+  {
+    "name": "holdout_baseline_metrics",
+    "pass": true,
+    "detail": [
+      "1/2",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "name": "holdout_changed_metrics",
+    "pass": true,
+    "detail": [
+      "1/2",
+      "1",
+      "1"
+    ]
+  },
+  {
+    "name": "link_targets",
+    "pass": true,
+    "detail": 18
+  },
+  {
+    "name": "catalog_normal",
+    "pass": true,
+    "detail": {
+      "scope": "structure only; not source verification",
+      "rows": [
+        {
+          "csv_line": 2,
+          "input": {
+            "item_id": "R01",
+            "title_raw": "泉州府志",
+            "pub_raw": "1964.10",
+            "source_url": "https://ci.nii.ac.jp/ncid/BA6316803X",
+            "locator": "書誌事項中的出版时间"
+          },
+          "status": "pending_review",
+          "errors": []
+        },
+        {
+          "csv_line": 3,
+          "input": {
+            "item_id": "R02",
+            "title_raw": "泉州府志 76卷首1卷",
+            "pub_raw": "1984",
+            "source_url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1970304959891186992",
+            "locator": "書誌情報中的出版年月日等"
+          },
+          "status": "pending_review",
+          "errors": []
+        }
+      ]
+    }
+  },
+  {
+    "name": "catalog_anomalies",
+    "pass": true,
+    "detail": {
+      "scope": "structure only; not source verification",
+      "rows": [
+        {
+          "csv_line": 2,
+          "input": {
+            "item_id": "R01",
+            "title_raw": "泉州府志",
+            "pub_raw": "1964.10",
+            "source_url": "https://ci.nii.ac.jp/ncid/BA6316803X",
+            "locator": "書誌事項中的出版时间"
+          },
+          "status": "input_error",
+          "errors": [
+            "duplicate_id"
+          ]
+        },
+        {
+          "csv_line": 3,
+          "input": {
+            "item_id": "R02",
+            "title_raw": "泉州府志 76卷首1卷",
+            "pub_raw": "1984",
+            "source_url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1970304959891186992",
+            "locator": "書誌情報中的出版年月日等"
+          },
+          "status": "pending_review",
+          "errors": []
+        },
+        {
+          "csv_line": 4,
+          "input": {
+            "item_id": "R01",
+            "title_raw": "泉州府志",
+            "pub_raw": "1964.10",
+            "source_url": "https://ci.nii.ac.jp/ncid/BA6316803X",
+            "locator": "書誌事項中的出版时间"
+          },
+          "status": "input_error",
+          "errors": [
+            "duplicate_id"
+          ]
+        },
+        {
+          "csv_line": 5,
+          "input": {
+            "item_id": "R04",
+            "title_raw": "",
+            "pub_raw": "1984",
+            "source_url": "https://ci.nii.ac.jp/ncid/BB05578337",
+            "locator": "人工异常：故意空题名"
+          },
+          "status": "input_error",
+          "errors": [
+            "missing:title_raw"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "responses_after",
+    "pass": true,
+    "detail": {
+      "scope": "ID and path checks only",
+      "rows": [
+        {
+          "comment_id": "R1",
+          "change_id": "M1",
+          "structural_errors": []
+        },
+        {
+          "comment_id": "R2",
+          "change_id": "M2",
+          "structural_errors": []
+        },
+        {
+          "comment_id": "R3",
+          "change_id": "M3",
+          "structural_errors": []
+        }
+      ]
+    }
+  },
+  {
+    "name": "question_cards",
+    "pass": true,
+    "detail": {
+      "scope": "completeness only; no score or recommendation",
+      "cards": [
+        {
+          "id": "Q22-A",
+          "missing": [],
+          "duplicate_id": false
+        },
+        {
+          "id": "Q22-B",
+          "missing": [],
+          "duplicate_id": false
+        },
+        {
+          "id": "Q22-C",
+          "missing": [],
+          "duplicate_id": false
+        }
+      ]
+    }
+  },
+  {
+    "name": "source_chain",
+    "pass": true,
+    "detail": {
+      "scope": "structural only; shared ancestry is not automatically independent evidence",
+      "identity": "TEACHING_SCENARIO_NOT_OBSERVED_PROPAGATION",
+      "missing_references": [],
+      "cycles": []
+    }
+  }
+]

@@ -1,0 +1,4 @@
+claim_id,scenario,claim,competing_explanation,required_evidence,status,source_chain
+I1,base,D具有潜在中介位置,实际中介工作;文书登记可见度;其他跨组记录缺失,转交内容;委托与回应;职掌;材料目录和缺卷,PENDING_HISTORICAL_REVIEW,指标→CD→T04→X2/t04
+I2,base,ABC连接相对集中,共同活动;制度;地域;收录方式,关系形成顺序;身份时间;反例;来源覆盖,PENDING_HISTORICAL_REVIEW,社群设定→AB/AC/BC→T01/T02/T03/T09→X1
+I3,assume_BE,增加BE可能改变桥与排名,只是一项缺边情境，不是新发现,查找独立B-E往来材料,HYPOTHESIS_NO_SOURCE,BE→无来源假设；不可回写事件表

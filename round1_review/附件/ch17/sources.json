@@ -1,0 +1,57 @@
+[
+  {
+    "source_id": "X0",
+    "title": "教学观察名册",
+    "compiled_year": 1701,
+    "independent_group": "X0",
+    "locations": {
+      "roster1": "预先列定观察对象A、B、C、D、E、F、G、H。H有名册依据，本窗未给寄信事件。"
+    },
+    "material_kind": "new_synthetic_reconstruction"
+  },
+  {
+    "source_id": "X1",
+    "title": "教学寄信登记组X1",
+    "compiled_year": 1706,
+    "independent_group": "X1",
+    "locations": {
+      "t01": "1701年，A向B寄信；教学独立事件编号T01。",
+      "t02": "1701年，B向C寄信；教学独立事件编号T02。",
+      "t03": "1702年，C向A寄信；教学独立事件编号T03。",
+      "t09": "1702年，B向A寄信；教学独立事件编号T09。"
+    },
+    "material_kind": "new_synthetic_reconstruction"
+  },
+  {
+    "source_id": "X2",
+    "title": "教学寄信登记组X2",
+    "compiled_year": 1706,
+    "independent_group": "X2",
+    "locations": {
+      "t04": "1704年，C向D寄信；教学独立事件编号T04。"
+    },
+    "material_kind": "new_synthetic_reconstruction"
+  },
+  {
+    "source_id": "X3",
+    "title": "教学寄信登记组X3",
+    "compiled_year": 1706,
+    "independent_group": "X3",
+    "locations": {
+      "t05": "1702年，D向E寄信；教学独立事件编号T05。",
+      "t06": "1703年，E向F寄信；教学独立事件编号T06。",
+      "t07": "1703年，F向D寄信；教学独立事件编号T07。"
+    },
+    "material_kind": "new_synthetic_reconstruction"
+  },
+  {
+    "source_id": "X4",
+    "title": "教学寄信登记组X4",
+    "compiled_year": 1706,
+    "independent_group": "X4",
+    "locations": {
+      "t08": "1705年，F向G寄信；教学独立事件编号T08。"
+    },
+    "material_kind": "new_synthetic_reconstruction"
+  }
+]

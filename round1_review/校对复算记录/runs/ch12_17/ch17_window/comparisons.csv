@@ -1,0 +1,3 @@
+window_start,window_end,roster,N,M,density_fraction,component_sizes,event_ids,warning
+1700,1702,fixed_X0,8,4,1/7,3;2;1;1;1,T01;T02;T03;T05;T09,equal_window_length_does_not_establish_equal_source_coverage
+1703,1705,fixed_X0,8,4,1/7,5;1;1;1,T04;T06;T07;T08,equal_window_length_does_not_establish_equal_source_coverage

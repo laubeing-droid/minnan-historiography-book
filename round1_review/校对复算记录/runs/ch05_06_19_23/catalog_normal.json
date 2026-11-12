@@ -1,0 +1,29 @@
+{
+  "scope": "structure only; not source verification",
+  "rows": [
+    {
+      "csv_line": 2,
+      "input": {
+        "item_id": "R01",
+        "title_raw": "泉州府志",
+        "pub_raw": "1964.10",
+        "source_url": "https://ci.nii.ac.jp/ncid/BA6316803X",
+        "locator": "書誌事項中的出版时间"
+      },
+      "status": "pending_review",
+      "errors": []
+    },
+    {
+      "csv_line": 3,
+      "input": {
+        "item_id": "R02",
+        "title_raw": "泉州府志 76卷首1卷",
+        "pub_raw": "1984",
+        "source_url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1970304959891186992",
+        "locator": "書誌情報中的出版年月日等"
+      },
+      "status": "pending_review",
+      "errors": []
+    }
+  ]
+}

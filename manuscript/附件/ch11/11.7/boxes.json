@@ -1,0 +1,54 @@
+[
+  {
+    "id": "D01",
+    "image": "teaching_page",
+    "kind": "reference",
+    "label": "seal",
+    "score": 1,
+    "box": [
+      1,
+      1,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "D02",
+    "image": "teaching_page",
+    "kind": "prediction",
+    "label": "seal",
+    "score": 0.9,
+    "box": [
+      1,
+      1,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "D03",
+    "image": "teaching_page",
+    "kind": "prediction",
+    "label": "seal",
+    "score": 0.7,
+    "box": [
+      2,
+      1,
+      6,
+      5
+    ]
+  },
+  {
+    "id": "D04",
+    "image": "teaching_page",
+    "kind": "prediction",
+    "label": "text",
+    "score": 0.8,
+    "box": [
+      1,
+      1,
+      5,
+      5
+    ]
+  }
+]

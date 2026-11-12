@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch13/workflow.py", line 239, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch13/workflow.py", line 229, in main
+    result=fn[a.section](d) if a.section in fn else (backtest(d,a.section,out,a.phase,a.selection) if a.section in (7,10) else searches(d,out))
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch13/workflow.py", line 143, in backtest
+    if section==10:raise ValueError('ablation test is intentionally NOT_RUN; old test cannot be a new blind test')
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: ablation test is intentionally NOT_RUN; old test cannot be a new blind test

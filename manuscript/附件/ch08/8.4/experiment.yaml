@@ -1,0 +1,8 @@
+status: NOT_RUN
+seed: 17
+dataset: six-sentence-demo-v1
+rule_version: sampling-v1
+sample_size: 3
+input_order: as_read
+population_order: id_ascending
+# Human-readable only; workbook.py reads input.json.

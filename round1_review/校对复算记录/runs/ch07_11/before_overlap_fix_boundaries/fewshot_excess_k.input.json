@@ -1,0 +1,36 @@
+{
+  "section": "10.2",
+  "title": "Few-shot示例选择与k-shot评测协议",
+  "status": "NOT_RUN",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "fewshot",
+  "rows": [
+    {
+      "id": "S01",
+      "source": "demo_A",
+      "split": "example",
+      "text": "拟迁，尚在议。",
+      "answer": "拟议未定"
+    },
+    {
+      "id": "S02",
+      "source": "demo_B",
+      "split": "example",
+      "text": "现已迁至新岸。",
+      "answer": "已迁"
+    },
+    {
+      "id": "S03",
+      "source": "demo_C",
+      "split": "test",
+      "text": "尚未迁。",
+      "answer": "未迁"
+    }
+  ],
+  "config": {
+    "k": [
+      3
+    ],
+    "order": "id_ascending"
+  }
+}

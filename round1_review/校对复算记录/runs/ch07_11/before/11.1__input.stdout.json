@@ -1,0 +1,49 @@
+{
+  "execution": "reader_invoked",
+  "input_provenance": "编者新编教学数据 非史实 非模型输出",
+  "section": "11.1",
+  "result": {
+    "centroids": {
+      "bar": [
+        1.0,
+        3.0
+      ],
+      "square": [
+        1.0,
+        1.0
+      ]
+    },
+    "rows": [
+      {
+        "id": "I03",
+        "label": "square",
+        "prediction": "square",
+        "scores": {
+          "bar": 0.017986209962091555,
+          "square": 0.9820137900379085
+        },
+        "max_score": 0.9820137900379085,
+        "accepted": true
+      },
+      {
+        "id": "I04",
+        "label": "bar",
+        "prediction": "bar",
+        "scores": {
+          "bar": 0.9820137900379085,
+          "square": 0.017986209962091555
+        },
+        "max_score": 0.9820137900379085,
+        "accepted": true
+      }
+    ],
+    "metrics": {
+      "n": 2,
+      "accepted": 2,
+      "correct_accepted": 2,
+      "coverage": 1.0,
+      "accepted_accuracy": 1.0,
+      "utility": 1.0
+    }
+  }
+}

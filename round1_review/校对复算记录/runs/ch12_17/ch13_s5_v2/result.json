@@ -1,0 +1,95 @@
+{
+  "series_scores": [
+    {
+      "method": "X",
+      "series": "A",
+      "scale": 1.0,
+      "prediction": [
+        4,
+        5
+      ],
+      "MSE": 1.0,
+      "RMSSE": 1.0,
+      "weight": 0.1,
+      "training_amount": 7
+    },
+    {
+      "method": "X",
+      "series": "B",
+      "scale": 4.0,
+      "prediction": [
+        12,
+        14
+      ],
+      "MSE": 4.0,
+      "RMSSE": 1.0,
+      "weight": 0.4,
+      "training_amount": 28
+    },
+    {
+      "method": "X",
+      "series": "TOTAL",
+      "scale": 9.0,
+      "prediction": [
+        16,
+        19
+      ],
+      "MSE": 1.0,
+      "RMSSE": 0.3333333333333333,
+      "weight": 0.5,
+      "training_amount": 35
+    },
+    {
+      "method": "Y",
+      "series": "A",
+      "scale": 1.0,
+      "prediction": [
+        5,
+        6
+      ],
+      "MSE": 0.0,
+      "RMSSE": 0.0,
+      "weight": 0.1,
+      "training_amount": 7
+    },
+    {
+      "method": "Y",
+      "series": "B",
+      "scale": 4.0,
+      "prediction": [
+        8,
+        10
+      ],
+      "MSE": 4.0,
+      "RMSSE": 1.0,
+      "weight": 0.4,
+      "training_amount": 28
+    },
+    {
+      "method": "Y",
+      "series": "TOTAL",
+      "scale": 9.0,
+      "prediction": [
+        13,
+        16
+      ],
+      "MSE": 4.0,
+      "RMSSE": 0.6666666666666666,
+      "weight": 0.5,
+      "training_amount": 35
+    }
+  ],
+  "summary": [
+    {
+      "method": "X",
+      "equal_node_average": 0.7777777777777778,
+      "teaching_WRMSSE": 0.6666666666666667
+    },
+    {
+      "method": "Y",
+      "equal_node_average": 0.5555555555555555,
+      "teaching_WRMSSE": 0.7333333333333334
+    }
+  ],
+  "official_competition_score": false
+}

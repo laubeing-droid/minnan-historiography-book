@@ -1,0 +1,3 @@
+﻿alarm_events,event_hits,event_missed,false_alarm_events,flags,method,point_scores
+"[[4, 4]]",0,2,1,"[0, 0, 0, 0, 1, 0, 0, 0]",fixed,"{""TP"": 0, ""FP"": 1, ""FN"": 3, ""TN"": 4, ""accuracy"": 0.5, ""precision"": 0.0, ""recall"": 0.0, ""false_alarms_per_100_normal"": 20.0}"
+"[[1, 2], [4, 4], [6, 6]]",2,0,1,"[0, 1, 1, 0, 1, 0, 1, 0]",mad,"{""TP"": 3, ""FP"": 1, ""FN"": 0, ""TN"": 4, ""accuracy"": 0.875, ""precision"": 0.75, ""recall"": 1.0, ""false_alarms_per_100_normal"": 20.0}"

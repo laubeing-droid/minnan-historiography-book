@@ -1,0 +1,5 @@
+id,file,label,split,source
+I01,images/square.pgm,square,train,teaching_A
+I02,images/bar.pgm,bar,train,teaching_A
+I03,images/square_shift.pgm,square,dev,teaching_B
+I04,images/bar_shift.pgm,bar,dev,teaching_B

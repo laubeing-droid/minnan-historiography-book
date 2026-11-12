@@ -1,0 +1,241 @@
+{
+  "fiction": true,
+  "crs": "LOCAL_TEACHING_METRE",
+  "interval": "[start,end)",
+  "periods": [
+    {
+      "id": "P1",
+      "start": 1800,
+      "end": 1850
+    },
+    {
+      "id": "P2",
+      "start": 1850,
+      "end": 1900
+    },
+    {
+      "id": "P3",
+      "start": 1900,
+      "end": 1950
+    }
+  ],
+  "versions": [
+    {
+      "id": "A1",
+      "unit": "A",
+      "name": "甲县",
+      "start": 1800,
+      "end": 1850,
+      "known_at": 2020,
+      "rect": [
+        0,
+        0,
+        10,
+        10
+      ],
+      "source": "S1"
+    },
+    {
+      "id": "B1",
+      "unit": "B",
+      "name": "西县",
+      "start": 1850,
+      "end": 1900,
+      "known_at": 2020,
+      "rect": [
+        0,
+        0,
+        5,
+        10
+      ],
+      "source": "S2"
+    },
+    {
+      "id": "C1",
+      "unit": "C",
+      "name": "东县",
+      "start": 1850,
+      "end": 1900,
+      "known_at": 2020,
+      "rect": [
+        5,
+        0,
+        10,
+        10
+      ],
+      "source": "S2"
+    },
+    {
+      "id": "D1",
+      "unit": "D",
+      "name": "甲县",
+      "start": 1850,
+      "end": 1900,
+      "known_at": 2020,
+      "rect": [
+        20,
+        0,
+        30,
+        10
+      ],
+      "source": "S3"
+    },
+    {
+      "id": "E1",
+      "unit": "E",
+      "name": "合县",
+      "start": 1900,
+      "end": 1950,
+      "known_at": 2020,
+      "rect": [
+        0,
+        0,
+        10,
+        10
+      ],
+      "source": "S4"
+    },
+    {
+      "id": "D2",
+      "unit": "D",
+      "name": "远县",
+      "start": 1900,
+      "end": 1950,
+      "known_at": 2020,
+      "rect": [
+        20,
+        0,
+        30,
+        10
+      ],
+      "source": "S4"
+    },
+    {
+      "id": "X1",
+      "unit": "X",
+      "name": "争议区",
+      "start": 1850,
+      "end": 1900,
+      "known_at": 2022,
+      "rect": [
+        4,
+        0,
+        7,
+        10
+      ],
+      "source": "S5"
+    }
+  ],
+  "events": [
+    {
+      "id": "T1",
+      "start": 1849,
+      "end": 1850,
+      "x": 2,
+      "y": 2,
+      "source": "T1"
+    },
+    {
+      "id": "T2",
+      "start": 1850,
+      "end": 1851,
+      "x": 2,
+      "y": 2,
+      "source": "T2"
+    },
+    {
+      "id": "T3",
+      "start": 1851,
+      "end": 1852,
+      "x": 8,
+      "y": 2,
+      "source": "T3"
+    },
+    {
+      "id": "T4",
+      "start": 1851,
+      "end": 1852,
+      "x": 5,
+      "y": 2,
+      "source": "T4"
+    },
+    {
+      "id": "T5",
+      "start": 1910,
+      "end": 1911,
+      "x": 2,
+      "y": 2,
+      "source": "T5"
+    },
+    {
+      "id": "T6",
+      "start": 1851,
+      "end": 1852,
+      "x": 25,
+      "y": 2,
+      "source": "T6"
+    },
+    {
+      "id": "T7",
+      "start": 1851,
+      "end": 1852,
+      "x": 40,
+      "y": 2,
+      "source": "T7"
+    },
+    {
+      "id": "T8",
+      "start": 1849,
+      "end": 1851,
+      "x": 2,
+      "y": 2,
+      "source": "T8"
+    },
+    {
+      "id": "T9",
+      "start": null,
+      "end": null,
+      "x": 2,
+      "y": 2,
+      "source": "T9"
+    },
+    {
+      "id": "T10",
+      "start": 1860,
+      "end": 1861,
+      "x": 6,
+      "y": 2,
+      "source": "T10"
+    }
+  ],
+  "cutoffs": [
+    2020,
+    2022
+  ],
+  "successions": [
+    {
+      "from": "A",
+      "to": "B",
+      "year": 1850,
+      "type": "split"
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "year": 1850,
+      "type": "split"
+    },
+    {
+      "from": "B",
+      "to": "E",
+      "year": 1900,
+      "type": "merge"
+    },
+    {
+      "from": "C",
+      "to": "E",
+      "year": 1900,
+      "type": "merge"
+    }
+  ]
+}

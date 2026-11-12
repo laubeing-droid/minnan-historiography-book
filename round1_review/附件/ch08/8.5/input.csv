@@ -1,0 +1,4 @@
+id,status,config,metric,error
+E01,NOT_RUN,rules_v1,,
+E02,FAILED,rules_v2,,教学预置：输入列名缺失
+E03,ILLUSTRATIVE,rules_v2,0.5,教学计数，非运行结果

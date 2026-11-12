@@ -1,0 +1,87 @@
+{
+  "search": "grid",
+  "selected": "C1",
+  "all_trials": [
+    {
+      "search": "grid",
+      "seed": null,
+      "trial": 0,
+      "candidate": "C0",
+      "validation_MAE": 1.5,
+      "status": "complete",
+      "error": null,
+      "elapsed_seconds": 1.0877000022446737e-05
+    },
+    {
+      "search": "grid",
+      "seed": null,
+      "trial": 1,
+      "candidate": "C1",
+      "validation_MAE": 1.0,
+      "status": "complete",
+      "error": null,
+      "elapsed_seconds": 6.8999997893115506e-06
+    },
+    {
+      "search": "grid",
+      "seed": null,
+      "trial": 2,
+      "candidate": "C2",
+      "validation_MAE": 1.010047048965036,
+      "status": "complete",
+      "error": null,
+      "elapsed_seconds": 2.086200038320385e-05
+    },
+    {
+      "search": "grid",
+      "seed": null,
+      "trial": 3,
+      "candidate": "C3",
+      "validation_MAE": 1.6111111111111114,
+      "status": "complete",
+      "error": null,
+      "elapsed_seconds": 3.395000021555461e-06
+    },
+    {
+      "search": "grid",
+      "seed": null,
+      "trial": 4,
+      "candidate": "C4",
+      "validation_MAE": 1.654163029335115,
+      "status": "complete",
+      "error": null,
+      "elapsed_seconds": 4.886999704467598e-06
+    },
+    {
+      "search": "grid",
+      "seed": null,
+      "trial": 5,
+      "candidate": "C5",
+      "validation_MAE": 1.6666666666666667,
+      "status": "complete",
+      "error": null,
+      "elapsed_seconds": 2.7940004656556994e-06
+    },
+    {
+      "search": "grid",
+      "seed": null,
+      "trial": 6,
+      "candidate": "C6",
+      "validation_MAE": 1.7000248598452696,
+      "status": "complete",
+      "error": null,
+      "elapsed_seconds": 4.9270001909462735e-06
+    },
+    {
+      "search": "grid",
+      "seed": null,
+      "trial": 7,
+      "candidate": "C7",
+      "validation_MAE": null,
+      "status": "failed",
+      "error": "window exceeds available history",
+      "elapsed_seconds": 2.5740000637597404e-06
+    }
+  ],
+  "development_sha256": "640a4a0677dd0cb35f13eccc72de412345fbc3d2e6a8f9bf6f1ff8899423b2bf"
+}

@@ -1,0 +1,85 @@
+{
+  "fiction": true,
+  "values": [
+    6,
+    5,
+    7,
+    6,
+    9,
+    8,
+    11,
+    10,
+    12,
+    11,
+    13,
+    12,
+    14,
+    13,
+    15,
+    14
+  ],
+  "validation_origins": [
+    7,
+    9,
+    11
+  ],
+  "test_origin": 13,
+  "horizon": 2,
+  "budget": 8,
+  "seeds": [
+    139,
+    140,
+    141
+  ],
+  "candidates": [
+    {
+      "id": "C0",
+      "method": "last",
+      "window": 1,
+      "transform": "identity"
+    },
+    {
+      "id": "C1",
+      "method": "mean",
+      "window": 2,
+      "transform": "identity"
+    },
+    {
+      "id": "C2",
+      "method": "mean",
+      "window": 2,
+      "transform": "log1p"
+    },
+    {
+      "id": "C3",
+      "method": "mean",
+      "window": 3,
+      "transform": "identity"
+    },
+    {
+      "id": "C4",
+      "method": "mean",
+      "window": 3,
+      "transform": "log1p"
+    },
+    {
+      "id": "C5",
+      "method": "mean",
+      "window": 4,
+      "transform": "identity"
+    },
+    {
+      "id": "C6",
+      "method": "mean",
+      "window": 4,
+      "transform": "log1p"
+    },
+    {
+      "id": "C7",
+      "method": "mean",
+      "window": 99,
+      "transform": "identity"
+    }
+  ],
+  "note": "完整16期输入重新编制；正文两期均值算例可复算，旧随机搜索具体输出不作本次结果"
+}

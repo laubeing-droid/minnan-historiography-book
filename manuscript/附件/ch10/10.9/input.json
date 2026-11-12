@@ -1,0 +1,34 @@
+{
+  "section": "10.9",
+  "title": "幻觉的评测与缓解",
+  "status": "NOT_RUN",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "claims",
+  "rows": [
+    {
+      "id": "F01",
+      "answer_id": "Q1",
+      "claim": "甲渡拟迁东岸",
+      "source": "甲渡拟迁东岸，议未定。",
+      "verdict": "supported",
+      "reason": "原句明确拟迁"
+    },
+    {
+      "id": "F02",
+      "answer_id": "Q1",
+      "claim": "甲渡已迁东岸",
+      "source": "甲渡拟迁东岸，议未定。",
+      "verdict": "contradicted",
+      "reason": "把拟议写成已发生"
+    },
+    {
+      "id": "F03",
+      "answer_id": "Q1",
+      "claim": "迁址导致商业繁荣",
+      "source": "甲渡拟迁东岸，议未定。",
+      "verdict": "not_in_evidence",
+      "reason": "材料未说明后果"
+    }
+  ],
+  "config": {}
+}

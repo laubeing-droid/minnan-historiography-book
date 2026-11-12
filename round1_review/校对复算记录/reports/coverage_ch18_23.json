@@ -1,0 +1,2063 @@
+{
+  "scope": "ch18—ch23正文独立逐节校对",
+  "date": "2026-10-30",
+  "reviewer": "独立校读分组D",
+  "section_count": 36,
+  "read_status": "READ_COMPLETE",
+  "baseline_read_only": true,
+  "baseline_hashes": {
+    "ch18.md": "1d3cf849578faac59117243e536bd3815aa720ad15051af5ccb1527d38867442",
+    "ch19.md": "410f9178214cd1f5349ec184be8885612c37e6812dbc8e7d7872a129ae677d58",
+    "ch20.md": "3cc12059a6886b4425b492ffc56d892b06eb669ae8e08d4d53812933839227dd",
+    "ch21.md": "c7abda67afef1abaca3d7f4d529eec566372f8d700077008d0ff1986274a61e0",
+    "ch22.md": "e463c23dc7d99fe8de31ae43a1e1f9fa32dbab1a5cf61b6e9346dee15e56a1e8",
+    "ch23.md": "d4489dc7e3cacc3d78ee1b3427697343f64288969f8b662b3b29f12bca149942"
+  },
+  "revision_hashes_at_review": {
+    "ch18.md": "e733af9c3b6fa026692ffad02657a6500e3592afa3106be775b6e35013ac6fe1",
+    "ch19.md": "c979246e0876eeb4e746d17774467b9129e174a3c4505f840ae519937df0e377",
+    "ch20.md": "3cc12059a6886b4425b492ffc56d892b06eb669ae8e08d4d53812933839227dd",
+    "ch21.md": "c7abda67afef1abaca3d7f4d529eec566372f8d700077008d0ff1986274a61e0",
+    "ch22.md": "e463c23dc7d99fe8de31ae43a1e1f9fa32dbab1a5cf61b6e9346dee15e56a1e8",
+    "ch23.md": "43bc92b2b2d08157d058cc929e5e72967505068ed82a33a9d619ea7624e09abf"
+  },
+  "chapters": [
+    {
+      "chapter": 18,
+      "line_count": 120,
+      "intro_read": true,
+      "source_notes_and_attachment_entries_read": true,
+      "changed": true
+    },
+    {
+      "chapter": 19,
+      "line_count": 101,
+      "intro_read": true,
+      "source_notes_and_attachment_entries_read": true,
+      "changed": true
+    },
+    {
+      "chapter": 20,
+      "line_count": 105,
+      "intro_read": true,
+      "source_notes_and_attachment_entries_read": true,
+      "changed": false
+    },
+    {
+      "chapter": 21,
+      "line_count": 116,
+      "intro_read": true,
+      "source_notes_and_attachment_entries_read": true,
+      "changed": false
+    },
+    {
+      "chapter": 22,
+      "line_count": 295,
+      "intro_read": true,
+      "source_notes_and_attachment_entries_read": true,
+      "changed": false
+    },
+    {
+      "chapter": 23,
+      "line_count": 554,
+      "intro_read": true,
+      "source_notes_and_attachment_entries_read": true,
+      "changed": true
+    }
+  ],
+  "sections": [
+    {
+      "chapter": 18,
+      "section": "18.1",
+      "title": "共同问题 任务拆解与责任分工",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        7,
+        26
+      ],
+      "read_evidence": [
+        "虚构杉溪桥、四名成员及材料均明确标注，不把教学转录冒充真实馆藏。",
+        "核分工与接手关系、口述同意和访问边界。"
+      ],
+      "source_evidence": [
+        "S01"
+      ],
+      "issue_ids": [],
+      "source_check_status": "SEE_SOURCE_LEVEL_STATUS"
+    },
+    {
+      "chapter": 18,
+      "section": "18.2",
+      "title": "资料标识 数据字典与共同试做",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        27,
+        55
+      ],
+      "read_evidence": [
+        "逐条对读材01—04及附件字典；垫银与最终捐赠不能混同，同名同额不等于同笔。",
+        "修正支付年份、完整示例把1893材料署年当事件年的不当确定。"
+      ],
+      "source_evidence": [],
+      "issue_ids": [
+        "P18-01"
+      ],
+      "source_check_status": "INTERNAL_ARGUMENT_AND_CROSS_REFERENCE_CHECKED"
+    },
+    {
+      "chapter": 18,
+      "section": "18.3",
+      "title": "分组执行 版本变更与材料交接",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        56,
+        73
+      ],
+      "read_evidence": [
+        "版本改变应通知依赖者，旧原文与解释分开；交接不是只交最终表格。",
+        "与第5、7章稳定资料号逻辑及本章四人分工一致。"
+      ],
+      "source_evidence": [],
+      "issue_ids": [],
+      "source_check_status": "INTERNAL_ARGUMENT_AND_CROSS_REFERENCE_CHECKED"
+    },
+    {
+      "chapter": 18,
+      "section": "18.4",
+      "title": "独立复核 矛盾判断与交叉核查",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        74,
+        97
+      ],
+      "read_evidence": [
+        "区分抄错、字段口径和解释分歧；后出材03依赖前出材料，不构成独立捐款证据。",
+        "修正只按材料署年便定位筹议、垫付年份的潜在越界；保留两笔款项关联待核。"
+      ],
+      "source_evidence": [
+        "S02"
+      ],
+      "issue_ids": [
+        "P18-01"
+      ],
+      "source_check_status": "SEE_SOURCE_LEVEL_STATUS"
+    },
+    {
+      "chapter": 18,
+      "section": "18.5",
+      "title": "结果合并 论证共审与贡献记录",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        98,
+        120
+      ],
+      "read_evidence": [
+        "主张与证据逐层合并，不用多数赞成替代解释；贡献记录承认核读与整理劳动。",
+        "CRediT角色不自动决定署名资格，适用范围未夸大。"
+      ],
+      "source_evidence": [
+        "S02",
+        "S03"
+      ],
+      "issue_ids": [],
+      "source_check_status": "SEE_SOURCE_LEVEL_STATUS"
+    },
+    {
+      "chapter": 19,
+      "section": "19.1",
+      "title": "重复任务 自动化边界与验收标准",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        12,
+        28
+      ],
+      "read_evidence": [
+        "两条泉州府志出版信息不是同一版本；1964.10、1984精度不补成日期，出版年不是史事年。",
+        "NDL来源为CiNii Books，不因两个入口形成两份独立证据；改含混词“来源不串行”。"
+      ],
+      "source_evidence": [
+        "S04",
+        "S05",
+        "S06"
+      ],
+      "issue_ids": [
+        "P19-01"
+      ],
+      "source_check_status": "SEE_SOURCE_LEVEL_STATUS"
+    },
+    {
+      "chapter": 19,
+      "section": "19.2",
+      "title": "现有工具 简单脚本与智能体选择",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        29,
+        40
+      ],
+      "read_evidence": [
+        "静态规则脚本与动态工具选择区分清楚，先用简单工具而非为智能体而自动化。",
+        "文档支持CSV处理概念；本审稿者未运行附件脚本。"
+      ],
+      "source_evidence": [
+        "S07",
+        "S09"
+      ],
+      "issue_ids": [],
+      "source_check_status": "SEE_SOURCE_LEVEL_STATUS"
+    },
+    {
+      "chapter": 19,
+      "section": "19.3",
+      "title": "知识库加 LLM 加工具与读写边界",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        41,
+        54
+      ],
+      "read_evidence": [
+        "资料文本不能取得工具指令权，知识库、模型和执行工具的边界清楚。",
+        "提示注入缓解不被写成保证安全；原件只读、输出新建，不外发未授权材料。"
+      ],
+      "source_evidence": [
+        "S08",
+        "S10"
+      ],
+      "issue_ids": [],
+      "source_check_status": "SEE_SOURCE_LEVEL_STATUS"
+    },
+    {
+      "chapter": 19,
+      "section": "19.4",
+      "title": "最小批次 状态记录与批量验收",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        55,
+        72
+      ],
+      "read_evidence": [
+        "最小批次先验收，逐字段返回来源；运行成功、转录核对与学术结论三者分开。",
+        "批量状态与排他新建的要求逻辑一致，待复算团队负责真实执行结果。"
+      ],
+      "source_evidence": [
+        "S07",
+        "S08"
+      ],
+      "issue_ids": [],
+      "source_check_status": "SEE_SOURCE_LEVEL_STATUS"
+    },
+    {
+      "chapter": 19,
+      "section": "19.5",
+      "title": "缺失 失败 无法判断与异常交接",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        73,
+        84
+      ],
+      "read_evidence": [
+        "原文缺失、读取失败、无法判断与未完成分别登记，不把空值补成零或捏造内容。",
+        "异常交接包含目标、理由与已完成部分；不把重试成功冒充证据确认。"
+      ],
+      "source_evidence": [],
+      "issue_ids": [],
+      "source_check_status": "INTERNAL_ARGUMENT_AND_CROSS_REFERENCE_CHECKED"
+    },
+    {
+      "chapter": 19,
+      "section": "19.6",
+      "title": "模板版本 使用复盘与流程停用",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        85,
+        101
+      ],
+      "read_evidence": [
+        "模板修订和停用条件能追踪旧结果影响，维护不是不断扩大自动权限。",
+        "附件入口存在；状态横幅和NOT_RUN由统筹按实际复算统一更新，本轮未改。"
+      ],
+      "source_evidence": [],
+      "issue_ids": [],
+      "source_check_status": "INTERNAL_ARGUMENT_AND_CROSS_REFERENCE_CHECKED"
+    },
+    {
+      "chapter": 20,
+      "section": "20.1",
+      "title": "图表先行 表达选择与结果整理",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        10,
+        33
+      ],
+      "read_evidence": [
+        "两份福建公报和泉州2010原页已核；人数、百分比与百分点分开。",
+        "2020泉州8782285；2010泉州8128530；全省对应41540086与36894216，均有原页支持。"
+      ],
+      "source_evidence": [
+        "S11",
+        "S12",
+        "S13"
+      ],
+      "issue_ids": [],
+      "source_check_status": "SEE_SOURCE_LEVEL_STATUS"
+    },
+    {
+      "chapter": 20,
+      "section": "20.2",
+      "title": "主张 证据 分析步骤与反例",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        34,
+        54
+      ],
+      "read_evidence": [
+        "份额下降与总人数增加不矛盾，不能推出人口外流或文化衰退因果。",
+        "主张—证据—分析步骤—反例的链条清楚；统计数正确不等于解释已经完成。"
+      ],
+      "source_evidence": [
+        "S11",
+        "S12",
+        "S13"
+      ],
+      "issue_ids": [],
+      "source_check_status": "SEE_SOURCE_LEVEL_STATUS"
+    },
+    {
+      "chapter": 20,
+      "section": "20.3",
+      "title": "问题 材料 方法 结果与论文骨架",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        55,
+        72
+      ],
+      "read_evidence": [
+        "论文骨架由问题组织而非结果堆叠；本例不把人口增长机制当作已确定。",
+        "资料与分析限度的位置不掩盖作者主张。"
+      ],
+      "source_evidence": [],
+      "issue_ids": [],
+      "source_check_status": "INTERNAL_ARGUMENT_AND_CROSS_REFERENCE_CHECKED"
+    },
+    {
+      "chapter": 20,
+      "section": "20.4",
+      "title": "人的主张 AI 辅助与草稿形成",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        73,
+        84
+      ],
+      "read_evidence": [
+        "AI草稿与人的论点、取舍和核验责任分开，披露不代替准确性责任。",
+        "ICMJE所述作者原则获支持；未移植为所有期刊一模一样的规则。"
+      ],
+      "source_evidence": [
+        "S14"
+      ],
+      "issue_ids": [],
+      "source_check_status": "SEE_SOURCE_LEVEL_STATUS"
+    },
+    {
+      "chapter": 20,
+      "section": "20.5",
+      "title": "事实 引文 数字与全文一致性核查",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        85,
+        94
+      ],
+      "read_evidence": [
+        "核查表头、单位、标准时点、来源和图文一致性；源页日期与统计年份未混用。",
+        "2010公报当前网页注释缺失，因此保留口径待查，未声称已完成同口径证明。"
+      ],
+      "source_evidence": [
+        "S11",
+        "S12",
+        "S13",
+        "S15"
+      ],
+      "issue_ids": [],
+      "source_check_status": "SEE_SOURCE_LEVEL_STATUS"
+    },
+    {
+      "chapter": 20,
+      "section": "20.6",
+      "title": "附录 补充材料与研究过程披露",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        95,
+        105
+      ],
+      "read_evidence": [
+        "附录保存输入、派生结果和使用说明，未把未运行脚本写成已跑结果。",
+        "相对附件链接存在；实际人口复算归统筹，本文仅核原页支持性。"
+      ],
+      "source_evidence": [],
+      "issue_ids": [],
+      "source_check_status": "INTERNAL_ARGUMENT_AND_CROSS_REFERENCE_CHECKED"
+    },
+    {
+      "chapter": 21,
+      "section": "21.1",
+      "title": "研究问题 目标读者与发表渠道匹配",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        10,
+        21
+      ],
+      "read_evidence": [
+        "目标读者和期刊适配不是接受保证；Journal of Chinese History官网研究范围可支持。",
+        "不把期刊声望代替论证质量。"
+      ],
+      "source_evidence": [
+        "S22"
+      ],
+      "issue_ids": [],
+      "source_check_status": "SEE_SOURCE_LEVEL_STATUS"
+    },
+    {
+      "chapter": 21,
+      "section": "21.2",
+      "title": "数字 文献 图像 统计与合规核查",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        22,
+        53
+      ],
+      "read_evidence": [
+        "逐项核UNESCO目录、ICOMOS评估及委员会决定身份；2017考察、2019咨询、2020通过未混成2021实地考察。",
+        "安平1151、1152网页及ICOMOS1128—1152分别定位；洛阳1053—1059误接Yuan Dynasty确实出现在源文，正文未盲从。",
+        "统计与影像许可原则和来源核查分开；未取得真实原碑原志。"
+      ],
+      "source_evidence": [
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20",
+        "S21"
+      ],
+      "issue_ids": [],
+      "source_check_status": "SEE_SOURCE_LEVEL_STATUS"
+    },
+    {
+      "chapter": 21,
+      "section": "21.3",
+      "title": "Cover Letter 投稿材料与提交前检查",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        54,
+        73
+      ],
+      "read_evidence": [
+        "投稿信论点、独创性和材料范围与实际稿件相接，不编造完成的研究。",
+        "核作者AI披露、审稿保密边界；COPE本轮受限未重新核正文。"
+      ],
+      "source_evidence": [
+        "S14",
+        "S23",
+        "S24",
+        "S25"
+      ],
+      "issue_ids": [],
+      "source_check_status": "SEE_SOURCE_LEVEL_STATUS"
+    },
+    {
+      "chapter": 21,
+      "section": "21.4",
+      "title": "审稿意见分类 补查补分析与修改",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        74,
+        85
+      ],
+      "read_evidence": [
+        "审稿意见按错误、补查、解释分歧处理；不同意可说明证据而非强行接受。",
+        "回复指出动作与稿件位置，不凭客套话宣称完成。"
+      ],
+      "source_evidence": [],
+      "issue_ids": [],
+      "source_check_status": "INTERNAL_ARGUMENT_AND_CROSS_REFERENCE_CHECKED"
+    },
+    {
+      "chapter": 21,
+      "section": "21.5",
+      "title": "逐条回应 Rebuttal 与稿件对应核验",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        86,
+        116
+      ],
+      "read_evidence": [
+        "逐条回应的意见号、修改号、位置与未改理由逻辑自洽。",
+        "实际CSV无字面反斜杠换行缺陷；统筹已测试并修检查器Unicode边界误报，不由本审稿者改附件。"
+      ],
+      "source_evidence": [],
+      "issue_ids": [],
+      "source_check_status": "INTERNAL_ARGUMENT_AND_CROSS_REFERENCE_CHECKED"
+    },
+    {
+      "chapter": 22,
+      "section": "22.1",
+      "title": "经验 理论 计算 数据与 AI 研究范式",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        9,
+        56
+      ],
+      "read_evidence": [
+        "Kuhn只援引出版社说明，未伪造全书精读或页码；第四范式xviii与177页原PDF文本支持互补非线性淘汰。",
+        "把AI是否成新范式写作待比较判断，不冒充科学史定论。"
+      ],
+      "source_evidence": [
+        "S26",
+        "S27"
+      ],
+      "issue_ids": [],
+      "source_check_status": "SEE_SOURCE_LEVEL_STATUS"
+    },
+    {
+      "chapter": 22,
+      "section": "22.2",
+      "title": "科学仪器 机器猜想与知识生产分工",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        57,
+        106
+      ],
+      "read_evidence": [
+        "Davies数学研究场景与人工猜想、证明分工范围清楚，不把机器猜想当历史事实自动证明。",
+        "人类最后签字不是全部判断权，工具选择与分工会提前影响问题。"
+      ],
+      "source_evidence": [
+        "S28"
+      ],
+      "issue_ids": [],
+      "source_check_status": "SEE_SOURCE_LEVEL_STATUS"
+    },
+    {
+      "chapter": 22,
+      "section": "22.3",
+      "title": "定义空白 好问题与科研品味",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        107,
+        162
+      ],
+      "read_evidence": [
+        "定义空白相对于既有研究；科研品味需给理由，不以题目新奇或技术复杂度打分。",
+        "地方经验与普通人价值未被数据便利性替代。"
+      ],
+      "source_evidence": [],
+      "issue_ids": [],
+      "source_check_status": "INTERNAL_ARGUMENT_AND_CROSS_REFERENCE_CHECKED"
+    },
+    {
+      "chapter": 22,
+      "section": "22.4",
+      "title": "提问 材料辨析 方法理解与研究者能力",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        163,
+        220
+      ],
+      "read_evidence": [
+        "核读第16.3的D1—D4、M1—M4与P-A/P-B：同名异人与未决身份逻辑相符。",
+        "读材料、理解方法与提出异议是能力，不将流利输出当训练完成。"
+      ],
+      "source_evidence": [],
+      "issue_ids": [],
+      "source_check_status": "INTERNAL_ARGUMENT_AND_CROSS_REFERENCE_CHECKED"
+    },
+    {
+      "chapter": 22,
+      "section": "22.5",
+      "title": "长期积累 学习复盘与研究的意义",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        221,
+        295
+      ],
+      "read_evidence": [
+        "长期积累、学习卡与复盘不冒称亲历田野；普通人的历史意义与作者原始立场一致。",
+        "两种年代记载指政府网页1151/1152，ICOMOS另给起建年不使该概括自相矛盾；撤销初检疑点、不乱改。",
+        "来源说明准确区分选读与通读，附件链接存在。"
+      ],
+      "source_evidence": [
+        "S20",
+        "S21",
+        "S27",
+        "S13"
+      ],
+      "issue_ids": [],
+      "source_check_status": "SEE_SOURCE_LEVEL_STATUS"
+    },
+    {
+      "chapter": 23,
+      "section": "23.1",
+      "title": "验证瓶颈 幻觉 黑箱与可复现性",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        11,
+        54
+      ],
+      "read_evidence": [
+        "8782285、21.14、22.03、增653755有同一公报支持；四层推论不借同一脚注越界。",
+        "TruthfulQA范围有条件；黑箱、可复现与事实核验不混为一谈；停止断言不否定价值判断。"
+      ],
+      "source_evidence": [
+        "S13",
+        "S29"
+      ],
+      "issue_ids": [],
+      "source_check_status": "SEE_SOURCE_LEVEL_STATUS"
+    },
+    {
+      "chapter": 23,
+      "section": "23.2",
+      "title": "材料 整理 生成 采纳与完整来源链",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        55,
+        113
+      ],
+      "read_evidence": [
+        "现代网页1151/1152与转引府志的身份分开，未冒充核到原志。",
+        "完整来源链不等于无限公开隐私；公开冲突不免除作者解释责任。"
+      ],
+      "source_evidence": [
+        "S20",
+        "S21"
+      ],
+      "issue_ids": [],
+      "source_check_status": "SEE_SOURCE_LEVEL_STATUS"
+    },
+    {
+      "chapter": 23,
+      "section": "23.3",
+      "title": "AI 信息回流 循环印证与独立证据",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        114,
+        171
+      ],
+      "read_evidence": [
+        "循环传播来源不独立；递归训练与保留累积数据研究的不同条件已核。",
+        "确证原稿把作者历史判断外部化又改为制度风险；按原始访谈恢复实践消亡立场，区别检索改善与实践复兴。",
+        "2025正式勘误仅是理论段α/β参数记号，本文未引该推导，定性概括不受其影响。"
+      ],
+      "source_evidence": [
+        "S30",
+        "S31",
+        "S32",
+        "S33"
+      ],
+      "issue_ids": [
+        "P23-01"
+      ],
+      "source_check_status": "SEE_SOURCE_LEVEL_STATUS"
+    },
+    {
+      "chapter": 23,
+      "section": "23.4",
+      "title": "事实可靠 解释充分与人的价值判断",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        172,
+        231
+      ],
+      "read_evidence": [
+        "事实、解释、因果、价值不是同一种评分；历史条件中理解并不取消最终判断。",
+        "人与土地、普通人的主体价值及共同承担保留；参与权不能改写过去事实。"
+      ],
+      "source_evidence": [
+        "S34"
+      ],
+      "issue_ids": [],
+      "source_check_status": "SEE_SOURCE_LEVEL_STATUS"
+    },
+    {
+      "chapter": 23,
+      "section": "23.5",
+      "title": "最终判断 署名 披露与错误更正",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        232,
+        298
+      ],
+      "read_evidence": [
+        "人承担署名、披露、勘误及下游纠正责任；制度也应提供拒绝不当署名条件。",
+        "ICMJE、Singapore、DORA相关条款已核；COPE当前正文未重新核读。"
+      ],
+      "source_evidence": [
+        "S14",
+        "S25",
+        "S34",
+        "S35"
+      ],
+      "issue_ids": [],
+      "source_check_status": "SEE_SOURCE_LEVEL_STATUS"
+    },
+    {
+      "chapter": 23,
+      "section": "23.6",
+      "title": "生成速度 验证劳动与发表回写原则",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        299,
+        354
+      ],
+      "read_evidence": [
+        "生成速度不等于研究净节时；核验劳动与评价机制论证连贯，不替假设捏造工时实验。",
+        "DORA3、5、8条与数据软件及贡献承认相关；声明不是实施效果。"
+      ],
+      "source_evidence": [
+        "S35"
+      ],
+      "issue_ids": [],
+      "source_check_status": "SEE_SOURCE_LEVEL_STATUS"
+    },
+    {
+      "chapter": 23,
+      "section": "23.7",
+      "title": "景观社会概念与研究议程",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        355,
+        415
+      ],
+      "read_evidence": [
+        "Debord原作英译第1、4—6、17条已读；景观是社会关系，不是简单图片或传播过量。",
+        "AI情境为本书延伸分析，未归作Debord谈AI；未杜撰原书中文页码。"
+      ],
+      "source_evidence": [
+        "S36"
+      ],
+      "issue_ids": [],
+      "source_check_status": "SEE_SOURCE_LEVEL_STATUS"
+    },
+    {
+      "chapter": 23,
+      "section": "23.8",
+      "title": "知识生产中的资源 机构与传播机制",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        416,
+        471
+      ],
+      "read_evidence": [
+        "词目校長/hāu-tiúnn是一词多表征，台罗制度来源已核，不冒充实际检索实验。",
+        "UNESCO参与管理声明能证明安排文本，不能预支实践效果；谁代表地方、谁能退出仍需分析。"
+      ],
+      "source_evidence": [
+        "S18",
+        "S19",
+        "S37",
+        "S38"
+      ],
+      "issue_ids": [],
+      "source_check_status": "SEE_SOURCE_LEVEL_STATUS"
+    },
+    {
+      "chapter": 23,
+      "section": "23.9",
+      "title": "政治与市场解释的证据比较",
+      "status": "READ_COMPLETE",
+      "read_line_range": [
+        472,
+        554
+      ],
+      "read_evidence": [
+        "政治、市场、基础设施与社群解释需要同一被解释对象和不同反证条件，不偷换题目。",
+        "地区差异、平台激励为研究议程，未伪造比较数据；结尾保留文化实践消亡判断与历史尊严任务。",
+        "附件列出可执行练习而不是已经完成的模型实验。"
+      ],
+      "source_evidence": [],
+      "issue_ids": [],
+      "source_check_status": "INTERNAL_ARGUMENT_AND_CROSS_REFERENCE_CHECKED"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "title": "OHA Best Practices",
+      "url": "https://oralhistory.org/best-practices/",
+      "status": "DIRECT_READ",
+      "evidence": "研究准备、知情同意、保存和访问约定支持18.1。",
+      "locator": "Best Practices研究准备、访谈、保存与访问部分"
+    },
+    {
+      "id": "S02",
+      "title": "AHA Statement on Standards",
+      "url": "https://www.historians.org/resource/statement-on-standards-of-professional-conduct/",
+      "status": "DIRECT_READ",
+      "evidence": "可追踪证据、诚实呈现相反材料、明确贡献支持18.4—18.5。",
+      "locator": "The Scholarship of History及Plagiarism / Professional Responsibilities相关段"
+    },
+    {
+      "id": "S03",
+      "title": "CRediT及实施指南",
+      "url": "https://credit.niso.org/implementing-credit/",
+      "status": "DIRECT_READ",
+      "evidence": "14类贡献；一人可多项、一项可多人；不用于自动决定作者资格。另核https://credit.niso.org/。",
+      "locator": "首页14角色清单；实施页Attributing contributions的角色规则及作者资格说明"
+    },
+    {
+      "id": "S04",
+      "title": "CiNii BA6316803X",
+      "url": "https://ci.nii.ac.jp/ncid/BA6316803X",
+      "status": "DIRECT_READ",
+      "evidence": "泉州府志，1964.10，4冊，同治9年重刻序刊本影印。",
+      "locator": "書誌事項、注記、大学図書館所蔵与書誌詳細字段"
+    },
+    {
+      "id": "S05",
+      "title": "NDL转入的CiNii书目",
+      "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1970304959891186992",
+      "status": "DIRECT_READ",
+      "evidence": "1984，4帙40冊，提供者CiNii Books、NCID BB05578337；不作为独立第二份证据。",
+      "locator": "書誌情報、一般注記、資料種別／提供元、関連資料・NCID字段"
+    },
+    {
+      "id": "S06",
+      "title": "CiNii BB05578337",
+      "url": "https://ci.nii.ac.jp/ncid/BB05578337",
+      "status": "DIRECT_ACCESS_BLOCKED",
+      "evidence": "本轮未直接读到上游页；标识与来源关系由S05支持，不把此页标为独立已核。",
+      "locator": "直接目标不可读；仅S05提供元与NCID关联支持"
+    },
+    {
+      "id": "S07",
+      "title": "Python 3.12 csv",
+      "url": "https://docs.python.org/3.12/library/csv.html",
+      "status": "DIRECT_READ",
+      "evidence": "CSV引号、换行、DictReader字段边界支持19章；未据文档冒称附件已执行。",
+      "locator": "Module Contents、csv.reader、csv.writer、DictReader及newline说明"
+    },
+    {
+      "id": "S08",
+      "title": "Python open",
+      "url": "https://docs.python.org/3.12/library/functions.html#open",
+      "status": "DIRECT_READ",
+      "evidence": "x模式为独占创建，目标已存在时报错。",
+      "locator": "open函数mode参数表中x模式"
+    },
+    {
+      "id": "S09",
+      "title": "Anthropic Building effective agents",
+      "url": "https://www.anthropic.com/research/building-effective-agents",
+      "status": "DIRECT_READ",
+      "evidence": "预定工作流与动态代理区别、优先简单方案；未把厂商经验变成历史学效果实测。",
+      "locator": "What are agents?及When (and when not) to use agents"
+    },
+    {
+      "id": "S10",
+      "title": "NCSC Prompt injection is not SQL injection",
+      "url": "https://www.ncsc.gov.uk/blog-post/prompt-injection-is-not-sql-injection",
+      "status": "DIRECT_READ",
+      "evidence": "指令与数据边界、缓解而非保证根除的表述获支持。",
+      "locator": "指令与不可信数据分隔困难、降低风险但非彻底消除的论述"
+    },
+    {
+      "id": "S11",
+      "title": "泉州第六次人口普查主要数据公报",
+      "url": "https://tjj.quanzhou.gov.cn/zwgk/zfxxgk/fdzdgknr/tjxx/tjgb/202101/t20210125_2502652.htm",
+      "status": "DIRECT_READ_PARTIAL_NOTES",
+      "evidence": "正文与表格均为8128530；时点2010-11-01零时；页面显示2011-07-07。脚注编号[1]—[7]存在，当前网页没有注释正文，不能声称跨年完整统计口径已核清。",
+      "locator": "普查标准时点、第一部分总人口及人口表；未显示脚注全文"
+    },
+    {
+      "id": "S12",
+      "title": "福建第七次人口普查公报第一号",
+      "url": "https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598797.htm",
+      "status": "DIRECT_READ",
+      "evidence": "2021-05-20；2020全省41540086、2010全省36894216；初步汇总、时点和常住定义、金门马祖不计均有注释。",
+      "locator": "第一部分全省人口和注释1—3"
+    },
+    {
+      "id": "S13",
+      "title": "福建第七次人口普查公报第二号",
+      "url": "https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm",
+      "status": "DIRECT_READ",
+      "evidence": "表2-1泉州8782285，2020占比21.14、2010占比22.03；正文增量653755；注释、单位、表头已读。",
+      "locator": "第一部分第二段、表2-1泉州行、注释"
+    },
+    {
+      "id": "S14",
+      "title": "ICMJE AI Use by Authors",
+      "url": "https://www.icmje.org/recommendations/browse/artificial-intelligence/ai-use-by-authors.html",
+      "status": "DIRECT_READ",
+      "evidence": "AI使用披露、不能署名为作者、人承担准确性与引文责任。",
+      "locator": "Use of AI by Authors第1—4段"
+    },
+    {
+      "id": "S15",
+      "title": "Chicago Notes and Bibliography guide",
+      "url": "https://www.chicagomanualofstyle.org/tools_citationguide/citation-guide-1.html",
+      "status": "OFFICIAL_INDEX_TEXT_READ",
+      "evidence": "直接页未成功打开；通过该官方网址搜索索引核到网页引注及无固定页码时定位章节的示例，不声称直接全文核读。",
+      "locator": "官方索引中Books/无固定页码及Website content示例"
+    },
+    {
+      "id": "S16",
+      "title": "UNESCO泉州项目文档目录",
+      "url": "https://whc.unesco.org/en/list/1561/documents/",
+      "status": "DIRECT_READ",
+      "evidence": "2021项下列Nomination Text 2020；申报材料由缔约国负责，不能等同ICOMOS独立评估。",
+      "locator": "2021下Nomination Text 2020及文档目录责任说明"
+    },
+    {
+      "id": "S17",
+      "title": "ICOMOS泉州评估2020",
+      "url": "https://whc.unesco.org/document/189212",
+      "status": "PDF_TEXT_READ",
+      "evidence": "印刷220—221页：2019咨询程序、2017-09-24至29考察、2020-03-12评估通过；223页安平1128—1152、洛阳1053—1059后误附Yuan Dynasty。核的是PDF文本；截图工具未返回可见图像，未声称视觉复核。",
+      "locator": "印刷220—221页评估过程；223页Luoyang/Anping段"
+    },
+    {
+      "id": "S18",
+      "title": "UNESCO泉州正式项目页",
+      "url": "https://whc.unesco.org/en/list/1561/",
+      "status": "DIRECT_READ",
+      "evidence": "贸易网络与社区参与、四级管理和协调安排的声明；不足以证明实际参与效果。",
+      "locator": "Brief synthesis与Protection and management requirements"
+    },
+    {
+      "id": "S19",
+      "title": "44 COM 8B.15决定",
+      "url": "https://whc.unesco.org/en/decisions/7934",
+      "status": "DIRECT_READ",
+      "evidence": "通过卓越普遍价值声明，核对项目页与委员会决定身份。",
+      "locator": "44 COM 8B.15决定正文及adopts following Statement"
+    },
+    {
+      "id": "S20",
+      "title": "泉州政府安平桥",
+      "url": "https://www.quanzhou.gov.cn/lyb/lytj/rmjdtj/202202/t20220224_2699965.htm",
+      "status": "DIRECT_READ",
+      "evidence": "页面显示2020-04-28；介绍1138开建、1152竣工；URL路径年份不冒充发布日期。",
+      "locator": "性质及与突出普遍价值的关联；整体介绍开头"
+    },
+    {
+      "id": "S21",
+      "title": "我国现存古代最长的石桥",
+      "url": "https://www.quanzhou.gov.cn/lyb/qzzz/200407/t20040726_3123.htm",
+      "status": "DIRECT_READ",
+      "evidence": "2004-07-26；转称府志1138开建、1151竣工；未提供原志版次卷页，本轮未取得古籍原件。",
+      "locator": "标题、显示日期及正文第2段府志转引"
+    },
+    {
+      "id": "S22",
+      "title": "Journal of Chinese History作者说明",
+      "url": "https://www.cambridge.org/core/journals/journal-of-chinese-history/information/author-instructions",
+      "status": "DIRECT_READ",
+      "evidence": "中国史各时期分支与较广读者、文章范围；不保证选题接受。",
+      "locator": "Journal scope / Article types说明"
+    },
+    {
+      "id": "S23",
+      "title": "Journal of Chinese History preparing materials",
+      "url": "https://www.cambridge.org/core/journals/journal-of-chinese-history/information/author-instructions/preparing-your-materials",
+      "status": "DIRECT_READ",
+      "evidence": "生成式AI声明、人类作者责任；只作非生成性拼写等检查的例外不影响正文表述。",
+      "locator": "Preparing your materials中的Use of Artificial Intelligence (AI) tools"
+    },
+    {
+      "id": "S24",
+      "title": "Cambridge核心编辑政策",
+      "url": "https://www.cambridge.org/core/services/publishing-ethics/core-editorial-policies-journals",
+      "status": "DIRECT_READ",
+      "evidence": "审稿保密、未经另行约定不可把稿件或报告片段传给公共生成式工具；正文区分作者与审稿人义务。",
+      "locator": "Generative AI tools相关政策，审稿保密段"
+    },
+    {
+      "id": "S25",
+      "title": "COPE Authorship and AI tools",
+      "url": "https://doi.org/10.24318/cCVRZBms",
+      "status": "DIRECT_ACCESS_BLOCKED",
+      "evidence": "DOI及COPE位置页本轮403；题名可检索，实质正文未重新核读，不计为本轮已核来源。相关原则另有S14、S23。",
+      "locator": "DOI与COPE位置页均403；本轮未核到正文"
+    },
+    {
+      "id": "S26",
+      "title": "Kuhn第四版出版社页面",
+      "url": "https://press.uchicago.edu/ucp/books/book/chicago/S/bo13179781.html",
+      "status": "PUBLISHER_DESCRIPTION_READ",
+      "evidence": "50周年版2012、原作1962，常规科学与革命；正文明确仅用书目目录介绍，未冒充全书细读或杜撰页码。",
+      "locator": "书目出版信息、内容介绍与目录"
+    },
+    {
+      "id": "S27",
+      "title": "The Fourth Paradigm",
+      "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2009/10/Fourth_Paradigm.pdf",
+      "status": "PDF_TEXT_SELECTED_PASSAGES_READ",
+      "evidence": "2009；印刷xviii图示经验/理论/计算/eScience；177页Lynch强调补充互动，非旧范式一律被替代。核PDF文本，未声称视觉复核或全书通读。",
+      "locator": "印刷xviii页图1及177页Lynch篇开头"
+    },
+    {
+      "id": "S28",
+      "title": "Davies等 Advancing mathematics",
+      "url": "https://www.nature.com/articles/s41586-021-04086-x",
+      "status": "OFFICIAL_INDEX_TEXT_READ",
+      "evidence": "Nature2021,600:70—74；结理论与表示论、机器辅助人类猜想与证明分工。Nature直开受限，相关正式正文由官方索引读取。",
+      "locator": "官方索引中的摘要及结理论、表示论与attribution technique正文"
+    },
+    {
+      "id": "S29",
+      "title": "TruthfulQA",
+      "url": "https://aclanthology.org/2022.acl-long.229/",
+      "status": "DIRECT_READ",
+      "evidence": "Lin、Hilton、Evans，ACL2022；模仿常见错误观念，不外推为当前全部模型固定错误率。",
+      "locator": "出版题录、作者及Abstract"
+    },
+    {
+      "id": "S30",
+      "title": "Shumailov等 AI models collapse",
+      "url": "https://www.nature.com/articles/s41586-024-07566-y",
+      "status": "OFFICIAL_INDEX_TEXT_READ",
+      "evidence": "Nature2024,631:755—759；递归使用生成数据造成分布尾部丢失，正文保持条件性。正式论文直接打开受限，相关正文用官方索引读取，另读S31。",
+      "locator": "官方索引中的Abstract、Theoretical intuition及Change history"
+    },
+    {
+      "id": "S31",
+      "title": "模型崩溃作者预印本v3",
+      "url": "https://arxiv.org/html/2305.17493v3",
+      "status": "DIRECT_READ",
+      "evidence": "作者预印本旧题The Curse of Recursion，与正式发表题名区分，不冒充另一独立研究。",
+      "locator": "摘要、递归训练设定及分布尾部丢失讨论"
+    },
+    {
+      "id": "S32",
+      "title": "Gerstgrasser等 Is Model Collapse Inevitable",
+      "url": "https://arxiv.org/html/2404.01413v2",
+      "status": "DIRECT_READ",
+      "evidence": "积累保留原始及历代数据的特定设置可避免退化；本章未扩张为任何合成数据都安全。",
+      "locator": "Abstract，Replacing vs Accumulating设置与实验/线性理论结论"
+    },
+    {
+      "id": "S33",
+      "title": "模型崩溃论文2025勘误",
+      "url": "https://www.nature.com/articles/s41586-025-08905-3.pdf",
+      "status": "OFFICIAL_INDEX_TEXT_READ",
+      "evidence": "2025-03-21作者勘误：理论直觉段α_i=γ_i=0改为β_i=γ_i=0；不涉及本书所引定性结论。正式更正文由Nature PDF搜索索引取得；本章未使用该符号推导，无需正文增补。",
+      "locator": "正式勘误单页，Theoretical intuition参数修正段"
+    },
+    {
+      "id": "S34",
+      "title": "Singapore Statement",
+      "url": "https://www.wcrif.org/downloads/main-website/singapore-statements/224-singpore-statement-lettersize/file",
+      "status": "DIRECT_READ",
+      "evidence": "第4—5条记录与成果、第10条区分专业意见和个人看法、第13条制度支持；不能以声明替代实施成效。",
+      "locator": "声明第4、5、10、11—13项"
+    },
+    {
+      "id": "S35",
+      "title": "DORA",
+      "url": "https://sfdora.org/read/",
+      "status": "DIRECT_READ",
+      "evidence": "第1条不以期刊指标替代成果质量，第3与5条承认数据软件，第8条贡献说明；与23.5—23.6吻合。",
+      "locator": "建议1、3、5、8"
+    },
+    {
+      "id": "S36",
+      "title": "Debord The Society of the Spectacle，Ken Knabb英译",
+      "url": "https://www.bopsecrets.org/SI/debord/1.htm",
+      "status": "PRIMARY_WORK_SELECTED_PASSAGES_READ",
+      "evidence": "第1、4—6、17条：景观是经图像中介的社会关系，不能化约成图片过多；另核目录原作1967与译本信息，不编造中文页码。",
+      "locator": "第1、4、5、6、17条；译者序与索引页末版本说明"
+    },
+    {
+      "id": "S37",
+      "title": "台湾教育部词目校長",
+      "url": "https://sutian.moe.edu.tw/zh-hant/su/6117/",
+      "status": "DIRECT_READ",
+      "evidence": "字形校長与读音hāu-tiúnn对应同一词目；不误作两个词或实测检索结果。",
+      "locator": "词目、汉字、音读字段"
+    },
+    {
+      "id": "S38",
+      "title": "台湾教育部台罗说明",
+      "url": "https://sutian.moe.edu.tw/zh-hant/piantsip/tailo-phiautsu-suatbing/",
+      "status": "DIRECT_READ",
+      "evidence": "词典拼音依2006年台湾台语罗马字拼音方案；未从词典制度推定使用者参与成效。",
+      "locator": "说明开头2006年台罗方案及标注规则"
+    }
+  ],
+  "local_links": [
+    {
+      "chapter": 18,
+      "target": "../附件/ch18/01_共同问题与分工表.md",
+      "exists": true
+    },
+    {
+      "chapter": 18,
+      "target": "../附件/ch18/02_模拟材料与数据字典.md",
+      "exists": true
+    },
+    {
+      "chapter": 18,
+      "target": "../附件/ch18/03_变更与材料交接表.md",
+      "exists": true
+    },
+    {
+      "chapter": 18,
+      "target": "../附件/ch18/04_独立复读与交叉核查.md",
+      "exists": true
+    },
+    {
+      "chapter": 18,
+      "target": "../附件/ch18/05_论证共审与贡献记录.md",
+      "exists": true
+    },
+    {
+      "chapter": 19,
+      "target": "../附件/ch19/README.md",
+      "exists": true
+    },
+    {
+      "chapter": 19,
+      "target": "../附件/ch19/expected_behavior.md",
+      "exists": true
+    },
+    {
+      "chapter": 19,
+      "target": "../附件/ch19/README.md",
+      "exists": true
+    },
+    {
+      "chapter": 19,
+      "target": "../附件/ch19/catalog_input.csv",
+      "exists": true
+    },
+    {
+      "chapter": 19,
+      "target": "../附件/ch19/catalog_anomalies.csv",
+      "exists": true
+    },
+    {
+      "chapter": 19,
+      "target": "../附件/ch19/check_catalog_NOT_RUN.py",
+      "exists": true
+    },
+    {
+      "chapter": 19,
+      "target": "../附件/ch19/task_template.md",
+      "exists": true
+    },
+    {
+      "chapter": 19,
+      "target": "../附件/ch19/unresolved_questions.md",
+      "exists": true
+    },
+    {
+      "chapter": 20,
+      "target": "ch06.md",
+      "exists": true
+    },
+    {
+      "chapter": 20,
+      "target": "../附件/ch20/README.md",
+      "exists": true
+    },
+    {
+      "chapter": 20,
+      "target": "../附件/ch20/population_values.csv",
+      "exists": true
+    },
+    {
+      "chapter": 20,
+      "target": "../附件/ch20/published_shares.csv",
+      "exists": true
+    },
+    {
+      "chapter": 20,
+      "target": "../附件/ch20/calculate_population_NOT_RUN.py",
+      "exists": true
+    },
+    {
+      "chapter": 20,
+      "target": "../附件/ch20/calculation_workbook.md",
+      "exists": true
+    },
+    {
+      "chapter": 20,
+      "target": "../附件/ch20/inherited_results.md",
+      "exists": true
+    },
+    {
+      "chapter": 21,
+      "target": "../附件/ch21/README.md",
+      "exists": true
+    },
+    {
+      "chapter": 21,
+      "target": "../附件/ch21/cover_letter_teaching.md",
+      "exists": true
+    },
+    {
+      "chapter": 21,
+      "target": "../附件/ch21/reviewer_comments_teaching.md",
+      "exists": true
+    },
+    {
+      "chapter": 21,
+      "target": "../附件/ch21/response_teaching.md",
+      "exists": true
+    },
+    {
+      "chapter": 21,
+      "target": "../附件/ch21/revised_passages_teaching.md",
+      "exists": true
+    },
+    {
+      "chapter": 21,
+      "target": "../附件/ch21/response_matrix.csv",
+      "exists": true
+    },
+    {
+      "chapter": 21,
+      "target": "../附件/ch21/check_response_NOT_RUN.py",
+      "exists": true
+    },
+    {
+      "chapter": 22,
+      "target": "../附件/ch22/README.md",
+      "exists": true
+    },
+    {
+      "chapter": 23,
+      "target": "ch05.md",
+      "exists": true
+    },
+    {
+      "chapter": 23,
+      "target": "ch21.md",
+      "exists": true
+    },
+    {
+      "chapter": 23,
+      "target": "../附件/ch23/README.md",
+      "exists": true
+    }
+  ],
+  "all_local_links_exist": true,
+  "author_basis": {
+    "path": "book_completion_20261030/baseline/用户观点原始记录与索引/采访闽南文史理论_原始对话.md",
+    "user_message_ids": [
+      "b056faee-1e06-454b-8620-915d3962fa98",
+      "ce357ad3-28e0-4f44-a698-768701458e9d",
+      "e2843234-210a-4a8e-b15c-c741b84de260"
+    ],
+    "date": "2026-08-27",
+    "used": "直接读用户原话及观点索引，未以助手后续总结代替作者立场"
+  },
+  "limitations": [
+    "不把逐节读完等同每部被引著作全文通读；来源状态逐条保留。",
+    "历史原志、原碑、田野记录未新取得；教学材料按明示虚构处理。",
+    "本校对者未运行19—23附件脚本；统计复算与21检查器修复归统筹及其他复算者。",
+    "保留当前正文旧状态横幅，交统筹按实际执行情况统一修订。",
+    "本轮仅Markdown语义与链接检查，未声称DOCX/PDF排版视觉校验。"
+  ],
+  "original_citation_count": 41,
+  "original_citation_occurrence_count": 61,
+  "original_citation_ledger": [
+    {
+      "citation_id": "C01",
+      "url": "https://oralhistory.org/best-practices/",
+      "label": "OHA Best Practices",
+      "locations": [
+        {
+          "chapter": 18,
+          "section": "18.1",
+          "line": 25
+        }
+      ],
+      "source_id": "S01",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "Best Practices研究准备、访谈、保存与访问部分",
+      "claim_check": "研究准备、知情同意、保存和访问约定支持18.1。"
+    },
+    {
+      "citation_id": "C02",
+      "url": "https://www.historians.org/resource/statement-on-standards-of-professional-conduct/",
+      "label": "AHA Statement on Standards",
+      "locations": [
+        {
+          "chapter": 18,
+          "section": "18.4",
+          "line": 96
+        },
+        {
+          "chapter": 21,
+          "section": "21.2",
+          "line": 50
+        }
+      ],
+      "source_id": "S02",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "The Scholarship of History及Plagiarism / Professional Responsibilities相关段",
+      "claim_check": "可追踪证据、诚实呈现相反材料、明确贡献支持18.4—18.5。"
+    },
+    {
+      "citation_id": "C03",
+      "url": "https://credit.niso.org/",
+      "label": "CRediT角色分类首页",
+      "locations": [
+        {
+          "chapter": 18,
+          "section": "18.5",
+          "line": 114
+        }
+      ],
+      "source_id": "S03",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "首页14 Contributor Roles清单",
+      "claim_check": "14项角色清单包含概念形成、资料整理、调查、验证、初稿和审阅修订。"
+    },
+    {
+      "citation_id": "C04",
+      "url": "https://credit.niso.org/implementing-credit/",
+      "label": "CRediT及实施指南",
+      "locations": [
+        {
+          "chapter": 18,
+          "section": "18.5",
+          "line": 114
+        }
+      ],
+      "source_id": "S03",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "首页14角色清单；实施页Attributing contributions的角色规则及作者资格说明",
+      "claim_check": "14类贡献；一人可多项、一项可多人；不用于自动决定作者资格。另核https://credit.niso.org/。"
+    },
+    {
+      "citation_id": "C05",
+      "url": "https://ci.nii.ac.jp/ncid/BA6316803X",
+      "label": "CiNii BA6316803X",
+      "locations": [
+        {
+          "chapter": 19,
+          "section": "19导言",
+          "line": 8
+        }
+      ],
+      "source_id": "S04",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "書誌事項、注記、大学図書館所蔵与書誌詳細字段",
+      "claim_check": "泉州府志，1964.10，4冊，同治9年重刻序刊本影印。"
+    },
+    {
+      "citation_id": "C06",
+      "url": "https://ndlsearch.ndl.go.jp/books/R100000136-I1970304959891186992",
+      "label": "NDL转入的CiNii书目",
+      "locations": [
+        {
+          "chapter": 19,
+          "section": "19导言",
+          "line": 8
+        }
+      ],
+      "source_id": "S05",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "書誌情報、一般注記、資料種別／提供元、関連資料・NCID字段",
+      "claim_check": "1984，4帙40冊，提供者CiNii Books、NCID BB05578337；不作为独立第二份证据。"
+    },
+    {
+      "citation_id": "C07",
+      "url": "https://ci.nii.ac.jp/ncid/BB05578337",
+      "label": "CiNii BB05578337",
+      "locations": [
+        {
+          "chapter": 19,
+          "section": "19导言",
+          "line": 8
+        }
+      ],
+      "source_id": "S06",
+      "verdict": "ACCESS_BLOCKED",
+      "display_verdict": "访问阻塞；不计已核",
+      "locator": "直接目标不可读；仅S05提供元与NCID关联支持",
+      "claim_check": "本轮未直接读到上游页；标识与来源关系由S05支持，不把此页标为独立已核。"
+    },
+    {
+      "citation_id": "C08",
+      "url": "https://docs.python.org/3.12/library/csv.html",
+      "label": "Python 3.12 csv",
+      "locations": [
+        {
+          "chapter": 19,
+          "section": "19.2",
+          "line": 33
+        }
+      ],
+      "source_id": "S07",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "Module Contents、csv.reader、csv.writer、DictReader及newline说明",
+      "claim_check": "CSV引号、换行、DictReader字段边界支持19章；未据文档冒称附件已执行。"
+    },
+    {
+      "citation_id": "C09",
+      "url": "https://docs.python.org/3.12/library/functions.html#open",
+      "label": "Python open",
+      "locations": [
+        {
+          "chapter": 19,
+          "section": "19.2",
+          "line": 33
+        }
+      ],
+      "source_id": "S08",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "open函数mode参数表中x模式",
+      "claim_check": "x模式为独占创建，目标已存在时报错。"
+    },
+    {
+      "citation_id": "C10",
+      "url": "https://www.anthropic.com/research/building-effective-agents",
+      "label": "Anthropic Building effective agents",
+      "locations": [
+        {
+          "chapter": 19,
+          "section": "19.2",
+          "line": 37
+        }
+      ],
+      "source_id": "S09",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "What are agents?及When (and when not) to use agents",
+      "claim_check": "预定工作流与动态代理区别、优先简单方案；未把厂商经验变成历史学效果实测。"
+    },
+    {
+      "citation_id": "C11",
+      "url": "https://www.ncsc.gov.uk/blog-post/prompt-injection-is-not-sql-injection",
+      "label": "NCSC Prompt injection is not SQL injection",
+      "locations": [
+        {
+          "chapter": 19,
+          "section": "19.3",
+          "line": 51
+        }
+      ],
+      "source_id": "S10",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "指令与不可信数据分隔困难、降低风险但非彻底消除的论述",
+      "claim_check": "指令与数据边界、缓解而非保证根除的表述获支持。"
+    },
+    {
+      "citation_id": "C12",
+      "url": "https://tjj.quanzhou.gov.cn/zwgk/zfxxgk/fdzdgknr/tjxx/tjgb/202101/t20210125_2502652.htm",
+      "label": "泉州第六次人口普查主要数据公报",
+      "locations": [
+        {
+          "chapter": 20,
+          "section": "20.1",
+          "line": 14
+        }
+      ],
+      "source_id": "S11",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持；完整脚注未核到",
+      "locator": "普查标准时点、第一部分总人口及人口表；未显示脚注全文",
+      "claim_check": "正文与表格均为8128530；时点2010-11-01零时；页面显示2011-07-07。脚注编号[1]—[7]存在，当前网页没有注释正文，不能声称跨年完整统计口径已核清。"
+    },
+    {
+      "citation_id": "C13",
+      "url": "https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm",
+      "label": "福建第七次人口普查公报第二号",
+      "locations": [
+        {
+          "chapter": 20,
+          "section": "20.1",
+          "line": 14
+        },
+        {
+          "chapter": 22,
+          "section": "22.1",
+          "line": 33
+        },
+        {
+          "chapter": 22,
+          "section": "22.5",
+          "line": 293
+        },
+        {
+          "chapter": 23,
+          "section": "23.1",
+          "line": 17
+        },
+        {
+          "chapter": 23,
+          "section": "23.9",
+          "line": 514
+        }
+      ],
+      "source_id": "S13",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "第一部分第二段、表2-1泉州行、注释",
+      "claim_check": "表2-1泉州8782285，2020占比21.14、2010占比22.03；正文增量653755；注释、单位、表头已读。"
+    },
+    {
+      "citation_id": "C14",
+      "url": "https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598797.htm",
+      "label": "福建第七次人口普查公报第一号",
+      "locations": [
+        {
+          "chapter": 20,
+          "section": "20.1",
+          "line": 14
+        }
+      ],
+      "source_id": "S12",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "第一部分全省人口和注释1—3",
+      "claim_check": "2021-05-20；2020全省41540086、2010全省36894216；初步汇总、时点和常住定义、金门马祖不计均有注释。"
+    },
+    {
+      "citation_id": "C15",
+      "url": "https://icmje.org/recommendations/browse/artificial-intelligence/ai-use-by-authors.html",
+      "label": "ICMJE AI Use by Authors",
+      "locations": [
+        {
+          "chapter": 20,
+          "section": "20.4",
+          "line": 83
+        }
+      ],
+      "source_id": "S14",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "Use of AI by Authors第1—4段",
+      "claim_check": "AI使用披露、不能署名为作者、人承担准确性与引文责任。"
+    },
+    {
+      "citation_id": "C16",
+      "url": "https://www.chicagomanualofstyle.org/tools_citationguide/citation-guide-1.html",
+      "label": "Chicago Notes and Bibliography guide",
+      "locations": [
+        {
+          "chapter": 20,
+          "section": "20.5",
+          "line": 91
+        }
+      ],
+      "source_id": "S15",
+      "verdict": "SUPPORTED_VIA_OFFICIAL_INDEX",
+      "display_verdict": "相关主张支持（官方索引正文）",
+      "locator": "官方索引中Books/无固定页码及Website content示例",
+      "claim_check": "直接页未成功打开；通过该官方网址搜索索引核到网页引注及无固定页码时定位章节的示例，不声称直接全文核读。"
+    },
+    {
+      "citation_id": "C17",
+      "url": "https://www.cambridge.org/core/journals/journal-of-chinese-history/information/author-instructions",
+      "label": "Journal of Chinese History作者说明",
+      "locations": [
+        {
+          "chapter": 21,
+          "section": "21.1",
+          "line": 18
+        }
+      ],
+      "source_id": "S22",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "Journal scope / Article types说明",
+      "claim_check": "中国史各时期分支与较广读者、文章范围；不保证选题接受。"
+    },
+    {
+      "citation_id": "C18",
+      "url": "https://whc.unesco.org/en/list/1561/documents/",
+      "label": "UNESCO泉州项目文档目录",
+      "locations": [
+        {
+          "chapter": 21,
+          "section": "21.2",
+          "line": 28
+        }
+      ],
+      "source_id": "S16",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "2021下Nomination Text 2020及文档目录责任说明",
+      "claim_check": "2021项下列Nomination Text 2020；申报材料由缔约国负责，不能等同ICOMOS独立评估。"
+    },
+    {
+      "citation_id": "C19",
+      "url": "https://whc.unesco.org/document/189212",
+      "label": "ICOMOS泉州评估2020",
+      "locations": [
+        {
+          "chapter": 21,
+          "section": "21.2",
+          "line": 28
+        },
+        {
+          "chapter": 21,
+          "section": "21.2",
+          "line": 36
+        }
+      ],
+      "source_id": "S17",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "印刷220—221页评估过程；223页Luoyang/Anping段",
+      "claim_check": "印刷220—221页：2019咨询程序、2017-09-24至29考察、2020-03-12评估通过；223页安平1128—1152、洛阳1053—1059后误附Yuan Dynasty。核的是PDF文本；截图工具未返回可见图像，未声称视觉复核。"
+    },
+    {
+      "citation_id": "C20",
+      "url": "https://whc.unesco.org/en/list/1561/",
+      "label": "UNESCO泉州正式项目页",
+      "locations": [
+        {
+          "chapter": 21,
+          "section": "21.2",
+          "line": 30
+        },
+        {
+          "chapter": 23,
+          "section": "23.8",
+          "line": 446
+        }
+      ],
+      "source_id": "S18",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "Brief synthesis与Protection and management requirements",
+      "claim_check": "贸易网络与社区参与、四级管理和协调安排的声明；不足以证明实际参与效果。"
+    },
+    {
+      "citation_id": "C21",
+      "url": "https://whc.unesco.org/en/decisions/7934",
+      "label": "44 COM 8B.15决定",
+      "locations": [
+        {
+          "chapter": 21,
+          "section": "21.2",
+          "line": 30
+        }
+      ],
+      "source_id": "S19",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "44 COM 8B.15决定正文及adopts following Statement",
+      "claim_check": "通过卓越普遍价值声明，核对项目页与委员会决定身份。"
+    },
+    {
+      "citation_id": "C22",
+      "url": "https://www.quanzhou.gov.cn/lyb/lytj/rmjdtj/202202/t20220224_2699965.htm",
+      "label": "泉州政府安平桥",
+      "locations": [
+        {
+          "chapter": 21,
+          "section": "21.2",
+          "line": 36
+        },
+        {
+          "chapter": 22,
+          "section": "22.2",
+          "line": 67
+        },
+        {
+          "chapter": 22,
+          "section": "22.5",
+          "line": 291
+        },
+        {
+          "chapter": 23,
+          "section": "23.2",
+          "line": 67
+        },
+        {
+          "chapter": 23,
+          "section": "23.9",
+          "line": 478
+        }
+      ],
+      "source_id": "S20",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "性质及与突出普遍价值的关联；整体介绍开头",
+      "claim_check": "页面显示2020-04-28；介绍1138开建、1152竣工；URL路径年份不冒充发布日期。"
+    },
+    {
+      "citation_id": "C23",
+      "url": "https://www.quanzhou.gov.cn/lyb/qzzz/200407/t20040726_3123.htm",
+      "label": "我国现存古代最长的石桥",
+      "locations": [
+        {
+          "chapter": 21,
+          "section": "21.2",
+          "line": 36
+        },
+        {
+          "chapter": 22,
+          "section": "22.2",
+          "line": 67
+        },
+        {
+          "chapter": 22,
+          "section": "22.5",
+          "line": 291
+        },
+        {
+          "chapter": 23,
+          "section": "23.2",
+          "line": 68
+        },
+        {
+          "chapter": 23,
+          "section": "23.9",
+          "line": 478
+        }
+      ],
+      "source_id": "S21",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "标题、显示日期及正文第2段府志转引",
+      "claim_check": "2004-07-26；转称府志1138开建、1151竣工；未提供原志版次卷页，本轮未取得古籍原件。"
+    },
+    {
+      "citation_id": "C24",
+      "url": "https://doi.org/10.24318/cCVRZBms",
+      "label": "COPE Authorship and AI tools",
+      "locations": [
+        {
+          "chapter": 21,
+          "section": "21.2",
+          "line": 52
+        }
+      ],
+      "source_id": "S25",
+      "verdict": "ACCESS_BLOCKED",
+      "display_verdict": "访问阻塞；不计已核",
+      "locator": "DOI与COPE位置页均403；本轮未核到正文",
+      "claim_check": "DOI及COPE位置页本轮403；题名可检索，实质正文未重新核读，不计为本轮已核来源。相关原则另有S14、S23。"
+    },
+    {
+      "citation_id": "C25",
+      "url": "https://www.cambridge.org/core/journals/journal-of-chinese-history/information/author-instructions/preparing-your-materials",
+      "label": "Journal of Chinese History preparing materials",
+      "locations": [
+        {
+          "chapter": 21,
+          "section": "21.2",
+          "line": 52
+        }
+      ],
+      "source_id": "S23",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "Preparing your materials中的Use of Artificial Intelligence (AI) tools",
+      "claim_check": "生成式AI声明、人类作者责任；只作非生成性拼写等检查的例外不影响正文表述。"
+    },
+    {
+      "citation_id": "C26",
+      "url": "https://www.cambridge.org/core/services/publishing-ethics/core-editorial-policies-journals",
+      "label": "Cambridge核心编辑政策",
+      "locations": [
+        {
+          "chapter": 21,
+          "section": "21.4",
+          "line": 84
+        }
+      ],
+      "source_id": "S24",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "Generative AI tools相关政策，审稿保密段",
+      "claim_check": "审稿保密、未经另行约定不可把稿件或报告片段传给公共生成式工具；正文区分作者与审稿人义务。"
+    },
+    {
+      "citation_id": "C27",
+      "url": "https://press.uchicago.edu/ucp/books/book/chicago/S/bo13179781.html",
+      "label": "Kuhn第四版出版社页面",
+      "locations": [
+        {
+          "chapter": 22,
+          "section": "22.1",
+          "line": 15
+        },
+        {
+          "chapter": 22,
+          "section": "22.5",
+          "line": 285
+        }
+      ],
+      "source_id": "S26",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "书目出版信息、内容介绍与目录",
+      "claim_check": "50周年版2012、原作1962，常规科学与革命；正文明确仅用书目目录介绍，未冒充全书细读或杜撰页码。"
+    },
+    {
+      "citation_id": "C28",
+      "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2009/10/Fourth_Paradigm.pdf",
+      "label": "The Fourth Paradigm",
+      "locations": [
+        {
+          "chapter": 22,
+          "section": "22.1",
+          "line": 19
+        },
+        {
+          "chapter": 22,
+          "section": "22.5",
+          "line": 287
+        }
+      ],
+      "source_id": "S27",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "印刷xviii页图1及177页Lynch篇开头",
+      "claim_check": "2009；印刷xviii图示经验/理论/计算/eScience；177页Lynch强调补充互动，非旧范式一律被替代。核PDF文本，未声称视觉复核或全书通读。"
+    },
+    {
+      "citation_id": "C29",
+      "url": "https://www.nature.com/articles/s41586-021-04086-x",
+      "label": "Davies等 Advancing mathematics",
+      "locations": [
+        {
+          "chapter": 22,
+          "section": "22.2",
+          "line": 73
+        },
+        {
+          "chapter": 22,
+          "section": "22.5",
+          "line": 289
+        }
+      ],
+      "source_id": "S28",
+      "verdict": "SUPPORTED_VIA_OFFICIAL_INDEX",
+      "display_verdict": "相关主张支持（官方索引正文）",
+      "locator": "官方索引中的摘要及结理论、表示论与attribution technique正文",
+      "claim_check": "Nature2021,600:70—74；结理论与表示论、机器辅助人类猜想与证明分工。Nature直开受限，相关正式正文由官方索引读取。"
+    },
+    {
+      "citation_id": "C30",
+      "url": "https://aclanthology.org/2022.acl-long.229/",
+      "label": "TruthfulQA",
+      "locations": [
+        {
+          "chapter": 23,
+          "section": "23.1",
+          "line": 25
+        }
+      ],
+      "source_id": "S29",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "出版题录、作者及Abstract",
+      "claim_check": "Lin、Hilton、Evans，ACL2022；模仿常见错误观念，不外推为当前全部模型固定错误率。"
+    },
+    {
+      "citation_id": "C31",
+      "url": "https://www.nature.com/articles/s41586-024-07566-y",
+      "label": "Shumailov等 AI models collapse",
+      "locations": [
+        {
+          "chapter": 23,
+          "section": "23.3",
+          "line": 136
+        }
+      ],
+      "source_id": "S30",
+      "verdict": "SUPPORTED_VIA_OFFICIAL_INDEX",
+      "display_verdict": "相关主张支持（官方索引正文）",
+      "locator": "官方索引中的Abstract、Theoretical intuition及Change history",
+      "claim_check": "Nature2024,631:755—759；递归使用生成数据造成分布尾部丢失，正文保持条件性。正式论文直接打开受限，相关正文用官方索引读取，另读S31。"
+    },
+    {
+      "citation_id": "C32",
+      "url": "https://arxiv.org/html/2305.17493v3",
+      "label": "模型崩溃作者预印本v3",
+      "locations": [
+        {
+          "chapter": 23,
+          "section": "23.3",
+          "line": 136
+        }
+      ],
+      "source_id": "S31",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "摘要、递归训练设定及分布尾部丢失讨论",
+      "claim_check": "作者预印本旧题The Curse of Recursion，与正式发表题名区分，不冒充另一独立研究。"
+    },
+    {
+      "citation_id": "C33",
+      "url": "https://arxiv.org/html/2404.01413v2",
+      "label": "Gerstgrasser等 Is Model Collapse Inevitable",
+      "locations": [
+        {
+          "chapter": 23,
+          "section": "23.3",
+          "line": 138
+        }
+      ],
+      "source_id": "S32",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "Abstract，Replacing vs Accumulating设置与实验/线性理论结论",
+      "claim_check": "积累保留原始及历代数据的特定设置可避免退化；本章未扩张为任何合成数据都安全。"
+    },
+    {
+      "citation_id": "C34",
+      "url": "https://www.icmje.org/recommendations/browse/artificial-intelligence/ai-use-by-authors.html",
+      "label": "ICMJE AI Use by Authors",
+      "locations": [
+        {
+          "chapter": 23,
+          "section": "23.5",
+          "line": 238
+        }
+      ],
+      "source_id": "S14",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "Use of AI by Authors第1—4段",
+      "claim_check": "AI使用披露、不能署名为作者、人承担准确性与引文责任。"
+    },
+    {
+      "citation_id": "C35",
+      "url": "https://www.wcrif.org/downloads/main-website/singapore-statements/224-singpore-statement-lettersize/file",
+      "label": "Singapore Statement",
+      "locations": [
+        {
+          "chapter": 23,
+          "section": "23.5",
+          "line": 265
+        },
+        {
+          "chapter": 23,
+          "section": "23.5",
+          "line": 279
+        }
+      ],
+      "source_id": "S34",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "声明第4、5、10、11—13项",
+      "claim_check": "第4—5条记录与成果、第10条区分专业意见和个人看法、第13条制度支持；不能以声明替代实施成效。"
+    },
+    {
+      "citation_id": "C36",
+      "url": "https://sfdora.org/read/",
+      "label": "DORA",
+      "locations": [
+        {
+          "chapter": 23,
+          "section": "23.6",
+          "line": 335
+        }
+      ],
+      "source_id": "S35",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "建议1、3、5、8",
+      "claim_check": "第1条不以期刊指标替代成果质量，第3与5条承认数据软件，第8条贡献说明；与23.5—23.6吻合。"
+    },
+    {
+      "citation_id": "C37",
+      "url": "https://www.bopsecrets.org/SI/debord/index.htm",
+      "label": "Debord译本目录与译者序",
+      "locations": [
+        {
+          "chapter": 23,
+          "section": "23.7",
+          "line": 359
+        }
+      ],
+      "source_id": "S36",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "页首署名、Preface及2024 edition说明",
+      "claim_check": "Ken Knabb英译及版本身份有据；2002上网、2014注释版、2024修订说明不与原作年混同。"
+    },
+    {
+      "citation_id": "C38",
+      "url": "https://www.bopsecrets.org/SI/debord/indexsos.htm",
+      "label": "Debord译本索引",
+      "locations": [
+        {
+          "chapter": 23,
+          "section": "23.7",
+          "line": 359
+        }
+      ],
+      "source_id": "S36",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "索引页末版本说明",
+      "claim_check": "索引页末载原著La Société du Spectacle（Paris,1967），支持原作出版年；没有据索引冒充全书通读。"
+    },
+    {
+      "citation_id": "C39",
+      "url": "https://www.bopsecrets.org/SI/debord/1.htm",
+      "label": "Debord The Society of the Spectacle，Ken Knabb英译",
+      "locations": [
+        {
+          "chapter": 23,
+          "section": "23.7",
+          "line": 359
+        },
+        {
+          "chapter": 23,
+          "section": "23.9",
+          "line": 512
+        }
+      ],
+      "source_id": "S36",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "第1、4、5、6、17条；译者序与索引页末版本说明",
+      "claim_check": "第1、4—6、17条：景观是经图像中介的社会关系，不能化约成图片过多；另核目录原作1967与译本信息，不编造中文页码。"
+    },
+    {
+      "citation_id": "C40",
+      "url": "https://sutian.moe.edu.tw/zh-hant/su/6117/",
+      "label": "台湾教育部词目校長",
+      "locations": [
+        {
+          "chapter": 23,
+          "section": "23.8",
+          "line": 428
+        }
+      ],
+      "source_id": "S37",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "词目、汉字、音读字段",
+      "claim_check": "字形校長与读音hāu-tiúnn对应同一词目；不误作两个词或实测检索结果。"
+    },
+    {
+      "citation_id": "C41",
+      "url": "https://sutian.moe.edu.tw/zh-hant/piantsip/tailo-phiautsu-suatbing/",
+      "label": "台湾教育部台罗说明",
+      "locations": [
+        {
+          "chapter": 23,
+          "section": "23.8",
+          "line": 428
+        }
+      ],
+      "source_id": "S38",
+      "verdict": "SUPPORTED_CITED_CLAIM",
+      "display_verdict": "相关主张支持",
+      "locator": "说明开头2006年台罗方案及标注规则",
+      "claim_check": "词典拼音依2006年台湾台语罗马字拼音方案；未从词典制度推定使用者参与成效。"
+    }
+  ],
+  "source_audit_termination": "全部原引用逐项获得相关主张支持（注明索引访问方式）或访问阻塞结论；未扩展为整部著作或整领域核查。"
+}

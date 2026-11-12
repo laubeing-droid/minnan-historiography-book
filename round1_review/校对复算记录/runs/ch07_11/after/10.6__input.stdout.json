@@ -1,0 +1,19 @@
+{
+  "execution": "reader_invoked",
+  "input_provenance": "编者新编教学数据 非史实 非模型输出",
+  "section": "10.6",
+  "result": {
+    "agreement": 0.6666666666666666,
+    "disagreements": [
+      {
+        "id": "J1",
+        "item": "Q1",
+        "order": "AB",
+        "human": "B",
+        "judge": "A",
+        "reason": "预置教学意见偏爱较长回答"
+      }
+    ],
+    "note": "Judge identities are candidate identities, not display positions. Prewritten fixture."
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "fiction": true,
+  "windows": {
+    "T1": [
+      1700,
+      1709
+    ],
+    "T2": [
+      1710,
+      1719
+    ]
+  },
+  "weights": {
+    "low": 0.5,
+    "high": 0.5
+  },
+  "count_rule": "confirmed distinct event",
+  "opportunity_rule": "checked register unit",
+  "cells": [
+    {
+      "region": "A",
+      "period": "T1",
+      "stratum": "low",
+      "events": 9,
+      "opportunities": 10,
+      "covered": true,
+      "source": "fiction:A:T1:low"
+    },
+    {
+      "region": "A",
+      "period": "T1",
+      "stratum": "high",
+      "events": 18,
+      "opportunities": 90,
+      "covered": true,
+      "source": "fiction:A:T1:high"
+    },
+    {
+      "region": "B",
+      "period": "T1",
+      "stratum": "low",
+      "events": 72,
+      "opportunities": 90,
+      "covered": true,
+      "source": "fiction:B:T1:low"
+    },
+    {
+      "region": "B",
+      "period": "T1",
+      "stratum": "high",
+      "events": 1,
+      "opportunities": 10,
+      "covered": true,
+      "source": "fiction:B:T1:high"
+    },
+    {
+      "region": "A",
+      "period": "T2",
+      "stratum": "low",
+      "events": 80,
+      "opportunities": 80,
+      "covered": true,
+      "source": "fiction:A:T2:low"
+    },
+    {
+      "region": "A",
+      "period": "T2",
+      "stratum": "high",
+      "events": 6,
+      "opportunities": 20,
+      "covered": true,
+      "source": "fiction:A:T2:high"
+    },
+    {
+      "region": "B",
+      "period": "T2",
+      "stratum": "low",
+      "events": 18,
+      "opportunities": 20,
+      "covered": true,
+      "source": "fiction:B:T2:low"
+    },
+    {
+      "region": "B",
+      "period": "T2",
+      "stratum": "high",
+      "events": 16,
+      "opportunities": 80,
+      "covered": true,
+      "source": "fiction:B:T2:high"
+    }
+  ],
+  "travel": [
+    {
+      "region": "A",
+      "T1": 40,
+      "T2": 20
+    },
+    {
+      "region": "B",
+      "T1": 60,
+      "T2": 50
+    }
+  ]
+}

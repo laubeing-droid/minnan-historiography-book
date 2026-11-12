@@ -1,0 +1,72 @@
+[
+  {
+    "candidate_id": "K1",
+    "source_id": "S1",
+    "quote": "[T1]林甲致书海东会。",
+    "names": [
+      "林甲",
+      "海东会"
+    ],
+    "occurrence": null,
+    "direction_hint": "person_to_organization",
+    "strength": null
+  },
+  {
+    "candidate_id": "K2",
+    "source_id": "S1",
+    "quote": "林甲未曾致书海东会。",
+    "names": [
+      "林甲",
+      "海东会"
+    ],
+    "occurrence": null,
+    "direction_hint": "needs_negation_review",
+    "strength": null
+  },
+  {
+    "candidate_id": "K3",
+    "source_id": "S2",
+    "quote": "林甲、陈乙同列名录。",
+    "names": [
+      "林甲",
+      "陈乙"
+    ],
+    "occurrence": null,
+    "direction_hint": "none",
+    "strength": null
+  },
+  {
+    "candidate_id": "K4",
+    "source_id": "S2",
+    "quote": "陈乙记事",
+    "names": [
+      "陈乙"
+    ],
+    "occurrence": null,
+    "direction_hint": "none",
+    "strength": null
+  },
+  {
+    "candidate_id": "K5",
+    "source_id": "S3",
+    "quote": "陈乙到场。\n\n翌日，海东会收函。",
+    "names": [
+      "陈乙",
+      "海东会"
+    ],
+    "occurrence": null,
+    "direction_hint": "unknown",
+    "strength": null
+  },
+  {
+    "candidate_id": "K6",
+    "source_id": "S3",
+    "quote": "翌日，海东会收函。",
+    "names": [
+      "海东会"
+    ],
+    "occurrence": null,
+    "direction_hint": "unknown",
+    "strength": null
+  }
+]

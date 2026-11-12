@@ -1,0 +1,155 @@
+{
+  "status": "EXECUTED_PASS",
+  "date": "2026-10-30",
+  "scope": "只对本章下列实际输入/命令及报告中的边界有效；共享脚本其他章分支并非在每个副本逐一独立运行。",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "linux"
+  },
+  "script_sha256": "2573d9dc39a21faa129106521216a8ab6a75988af373b19c8938fae30351c58b",
+  "sections": [
+    {
+      "section": "8.1",
+      "title": "任务指标与简单基线",
+      "mode": "baseline",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "TEACHING_CALCULATION",
+      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.1/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "7e627fcbcd9141e068b71c7f232164978156aa6eaa3c7ca7e02f8c6045f106dd"
+    },
+    {
+      "section": "8.2",
+      "title": "对照原则 变量控制与实验矩阵",
+      "mode": "matrix",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "TEACHING_CALCULATION",
+      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.2/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "ff189c113787d08085d592e80b1ce8c291d7fcdadddeb9b32ddce65cd97b12d8"
+    },
+    {
+      "section": "8.3",
+      "title": "消融树与组件贡献",
+      "mode": "ablation",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "TEACHING_CALCULATION",
+      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.3/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "9fb7d2b681a24eb4f7ab5893464fa4fa6eb94629aea98c23834fe77b8c8e65b0"
+    },
+    {
+      "section": "8.4",
+      "title": "随机种子 环境锁定与 YAML 配置",
+      "mode": "config",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "TEACHING_CALCULATION",
+      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.4/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "3a7583b8673a01fbadc0626ba2270f4454e7ee95284aca7fb1249d3dccd5552a"
+    },
+    {
+      "section": "8.5",
+      "title": "实验追踪与结果汇总",
+      "mode": "tracking",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "TEACHING_CALCULATION",
+      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.5/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "d5d8aea480e4180ab9d042b3d590bb8f32480359e04e0c4dbf53473a48ac30ce"
+    },
+    {
+      "section": "8.6",
+      "title": "AI 结对编程 输入输出契约与三遍审查",
+      "mode": "literal",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "TEACHING_CALCULATION",
+      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.6/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "9d584f5dd64d01c4966ffa2b4273952f5ac3525f80b2779eaf0620de0fed3975"
+    },
+    {
+      "section": "8.7",
+      "title": "科学调试与最小复现",
+      "mode": "join",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "TEACHING_CALCULATION",
+      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.7/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "6db1af11c35a10129109f5952a56e9f81f52040b15514260dd277cfa122106bb"
+    },
+    {
+      "section": "8.8",
+      "title": "独立测试与方法复现",
+      "mode": "independent",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "TEACHING_CALCULATION",
+      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.8/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "23c2660d0160c2f90e5fe62d9678ae41c69793ee839c73724ddc7237170bffee"
+    }
+  ],
+  "model_calls": "NOT_RUN",
+  "real_feature_extraction": "NOT_RUN",
+  "public_benchmark_runs": "NOT_RUN",
+  "blank_worksheets_and_result_templates": "NON_RUNNING_TEMPLATE",
+  "fixture_embedded_statuses": "教学追踪行、卡片、示例配置中的NOT_RUN保留其原对象含义，不因运行检查器而改成模型完成。",
+  "report": "../../../reports/recompute_ch07_11.md",
+  "raw_final_manifest": "../../../runs/ch07_11/verified/manifest.json"
+}

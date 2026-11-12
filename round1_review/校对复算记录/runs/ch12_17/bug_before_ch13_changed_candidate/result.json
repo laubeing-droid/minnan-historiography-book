@@ -1,0 +1,490 @@
+{
+  "fit_records": [
+    {
+      "fit_id": "C1_o10",
+      "candidate": "C1",
+      "origin": 10,
+      "window_start": 1,
+      "window_end": 10,
+      "training": [
+        {
+          "id": "H01",
+          "period": 1,
+          "available_at": 1,
+          "value": 10,
+          "imputed_from": null
+        },
+        {
+          "id": "H02",
+          "period": 2,
+          "available_at": 2,
+          "value": 12,
+          "imputed_from": null
+        },
+        {
+          "id": "H03",
+          "period": 3,
+          "available_at": 3,
+          "value": 14,
+          "imputed_from": null
+        },
+        {
+          "id": "H04",
+          "period": 4,
+          "available_at": 4,
+          "value": 16,
+          "imputed_from": null
+        },
+        {
+          "id": "H05",
+          "period": 5,
+          "available_at": 5,
+          "value": 18,
+          "imputed_from": null
+        },
+        {
+          "id": "H07",
+          "period": 7,
+          "available_at": 7,
+          "value": 22,
+          "imputed_from": null
+        },
+        {
+          "id": "H08",
+          "period": 8,
+          "available_at": 10,
+          "value": 24,
+          "imputed_from": null
+        },
+        {
+          "id": "H09",
+          "period": 9,
+          "available_at": 9,
+          "value": 26,
+          "imputed_from": null
+        },
+        {
+          "id": "H10",
+          "period": 10,
+          "available_at": 10,
+          "value": 28,
+          "imputed_from": null
+        }
+      ],
+      "excluded": [
+        {
+          "id": "H06",
+          "reason": "missing_no_legal_fill"
+        }
+      ],
+      "effective_count": 9,
+      "status": "success",
+      "reason": null
+    },
+    {
+      "fit_id": "C1_o11",
+      "candidate": "C1",
+      "origin": 11,
+      "window_start": 1,
+      "window_end": 11,
+      "training": [
+        {
+          "id": "H01",
+          "period": 1,
+          "available_at": 1,
+          "value": 10,
+          "imputed_from": null
+        },
+        {
+          "id": "H02",
+          "period": 2,
+          "available_at": 2,
+          "value": 12,
+          "imputed_from": null
+        },
+        {
+          "id": "H03",
+          "period": 3,
+          "available_at": 3,
+          "value": 14,
+          "imputed_from": null
+        },
+        {
+          "id": "H04",
+          "period": 4,
+          "available_at": 4,
+          "value": 16,
+          "imputed_from": null
+        },
+        {
+          "id": "H05",
+          "period": 5,
+          "available_at": 5,
+          "value": 18,
+          "imputed_from": null
+        },
+        {
+          "id": "H07",
+          "period": 7,
+          "available_at": 7,
+          "value": 22,
+          "imputed_from": null
+        },
+        {
+          "id": "H08",
+          "period": 8,
+          "available_at": 10,
+          "value": 24,
+          "imputed_from": null
+        },
+        {
+          "id": "H09",
+          "period": 9,
+          "available_at": 9,
+          "value": 26,
+          "imputed_from": null
+        },
+        {
+          "id": "H10",
+          "period": 10,
+          "available_at": 10,
+          "value": 28,
+          "imputed_from": null
+        },
+        {
+          "id": "H11",
+          "period": 11,
+          "available_at": 11,
+          "value": 30,
+          "imputed_from": null
+        }
+      ],
+      "excluded": [
+        {
+          "id": "H06",
+          "reason": "missing_no_legal_fill"
+        }
+      ],
+      "effective_count": 10,
+      "status": "success",
+      "reason": null
+    },
+    {
+      "fit_id": "C1_o12",
+      "candidate": "C1",
+      "origin": 12,
+      "window_start": 1,
+      "window_end": 12,
+      "training": [
+        {
+          "id": "H01",
+          "period": 1,
+          "available_at": 1,
+          "value": 10,
+          "imputed_from": null
+        },
+        {
+          "id": "H02",
+          "period": 2,
+          "available_at": 2,
+          "value": 12,
+          "imputed_from": null
+        },
+        {
+          "id": "H03",
+          "period": 3,
+          "available_at": 3,
+          "value": 14,
+          "imputed_from": null
+        },
+        {
+          "id": "H04",
+          "period": 4,
+          "available_at": 4,
+          "value": 16,
+          "imputed_from": null
+        },
+        {
+          "id": "H05",
+          "period": 5,
+          "available_at": 5,
+          "value": 18,
+          "imputed_from": null
+        },
+        {
+          "id": "H07",
+          "period": 7,
+          "available_at": 7,
+          "value": 22,
+          "imputed_from": null
+        },
+        {
+          "id": "H08",
+          "period": 8,
+          "available_at": 10,
+          "value": 24,
+          "imputed_from": null
+        },
+        {
+          "id": "H09",
+          "period": 9,
+          "available_at": 9,
+          "value": 26,
+          "imputed_from": null
+        },
+        {
+          "id": "H10",
+          "period": 10,
+          "available_at": 10,
+          "value": 28,
+          "imputed_from": null
+        },
+        {
+          "id": "H11",
+          "period": 11,
+          "available_at": 11,
+          "value": 30,
+          "imputed_from": null
+        },
+        {
+          "id": "H12",
+          "period": 12,
+          "available_at": 12,
+          "value": 32,
+          "imputed_from": null
+        }
+      ],
+      "excluded": [
+        {
+          "id": "H06",
+          "reason": "missing_no_legal_fill"
+        }
+      ],
+      "effective_count": 11,
+      "status": "success",
+      "reason": null
+    },
+    {
+      "fit_id": "C1_o13",
+      "candidate": "C1",
+      "origin": 13,
+      "window_start": 1,
+      "window_end": 13,
+      "training": [
+        {
+          "id": "H01",
+          "period": 1,
+          "available_at": 1,
+          "value": 10,
+          "imputed_from": null
+        },
+        {
+          "id": "H02",
+          "period": 2,
+          "available_at": 2,
+          "value": 12,
+          "imputed_from": null
+        },
+        {
+          "id": "H03",
+          "period": 3,
+          "available_at": 3,
+          "value": 14,
+          "imputed_from": null
+        },
+        {
+          "id": "H04",
+          "period": 4,
+          "available_at": 4,
+          "value": 16,
+          "imputed_from": null
+        },
+        {
+          "id": "H05",
+          "period": 5,
+          "available_at": 5,
+          "value": 18,
+          "imputed_from": null
+        },
+        {
+          "id": "H07",
+          "period": 7,
+          "available_at": 7,
+          "value": 22,
+          "imputed_from": null
+        },
+        {
+          "id": "H08",
+          "period": 8,
+          "available_at": 10,
+          "value": 24,
+          "imputed_from": null
+        },
+        {
+          "id": "H09",
+          "period": 9,
+          "available_at": 9,
+          "value": 26,
+          "imputed_from": null
+        },
+        {
+          "id": "H10",
+          "period": 10,
+          "available_at": 10,
+          "value": 28,
+          "imputed_from": null
+        },
+        {
+          "id": "H11",
+          "period": 11,
+          "available_at": 11,
+          "value": 30,
+          "imputed_from": null
+        },
+        {
+          "id": "H12",
+          "period": 12,
+          "available_at": 12,
+          "value": 32,
+          "imputed_from": null
+        },
+        {
+          "id": "H13",
+          "period": 13,
+          "available_at": 13,
+          "value": 34,
+          "imputed_from": null
+        }
+      ],
+      "excluded": [
+        {
+          "id": "H06",
+          "reason": "missing_no_legal_fill"
+        }
+      ],
+      "effective_count": 12,
+      "status": "success",
+      "reason": null
+    }
+  ],
+  "forecast_rows": [
+    {
+      "fit_id": "C1_o10",
+      "candidate": "C1",
+      "origin": 10,
+      "horizon": 1,
+      "target": 11,
+      "prediction": 18.88888888888889,
+      "status": "success",
+      "reason": null,
+      "actual": 30,
+      "error": 11.11111111111111,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C1_o10",
+      "candidate": "C1",
+      "origin": 10,
+      "horizon": 2,
+      "target": 12,
+      "prediction": 18.88888888888889,
+      "status": "success",
+      "reason": null,
+      "actual": 32,
+      "error": 13.11111111111111,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C1_o11",
+      "candidate": "C1",
+      "origin": 11,
+      "horizon": 1,
+      "target": 12,
+      "prediction": 20.0,
+      "status": "success",
+      "reason": null,
+      "actual": 32,
+      "error": 12.0,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C1_o11",
+      "candidate": "C1",
+      "origin": 11,
+      "horizon": 2,
+      "target": 13,
+      "prediction": 20.0,
+      "status": "success",
+      "reason": null,
+      "actual": 34,
+      "error": 14.0,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C1_o12",
+      "candidate": "C1",
+      "origin": 12,
+      "horizon": 1,
+      "target": 13,
+      "prediction": 21.09090909090909,
+      "status": "success",
+      "reason": null,
+      "actual": 34,
+      "error": 12.90909090909091,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C1_o12",
+      "candidate": "C1",
+      "origin": 12,
+      "horizon": 2,
+      "target": 14,
+      "prediction": 21.09090909090909,
+      "status": "success",
+      "reason": null,
+      "actual": 36,
+      "error": 14.90909090909091,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C1_o13",
+      "candidate": "C1",
+      "origin": 13,
+      "horizon": 1,
+      "target": 14,
+      "prediction": 22.166666666666668,
+      "status": "success",
+      "reason": null,
+      "actual": 36,
+      "error": 13.833333333333332,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C1_o13",
+      "candidate": "C1",
+      "origin": 13,
+      "horizon": 2,
+      "target": 15,
+      "prediction": 22.166666666666668,
+      "status": "success",
+      "reason": null,
+      "actual": null,
+      "error": null,
+      "score_status": "missing_or_late_truth"
+    }
+  ],
+  "summary": [
+    {
+      "candidate": "C1",
+      "planned": 8,
+      "predicted": 8,
+      "failed": 0,
+      "scored": 7,
+      "coverage": 1.0,
+      "MAE": 13.124819624819624,
+      "RMSE": 13.1781461715826,
+      "eligible": true
+    }
+  ],
+  "phase": "test"
+}

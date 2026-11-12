@@ -1,0 +1,131 @@
+{
+  "strata": [
+    {
+      "region": "A",
+      "period": "T1",
+      "stratum": "low",
+      "events": null,
+      "opportunities": 10,
+      "covered": true,
+      "source": "fiction:A:T1:low",
+      "rate": null
+    },
+    {
+      "region": "A",
+      "period": "T1",
+      "stratum": "high",
+      "events": 18,
+      "opportunities": 90,
+      "covered": true,
+      "source": "fiction:A:T1:high",
+      "rate": 0.2
+    },
+    {
+      "region": "B",
+      "period": "T1",
+      "stratum": "low",
+      "events": 72,
+      "opportunities": 90,
+      "covered": true,
+      "source": "fiction:B:T1:low",
+      "rate": 0.8
+    },
+    {
+      "region": "B",
+      "period": "T1",
+      "stratum": "high",
+      "events": 1,
+      "opportunities": 10,
+      "covered": true,
+      "source": "fiction:B:T1:high",
+      "rate": 0.1
+    },
+    {
+      "region": "A",
+      "period": "T2",
+      "stratum": "low",
+      "events": 80,
+      "opportunities": 80,
+      "covered": true,
+      "source": "fiction:A:T2:low",
+      "rate": 1.0
+    },
+    {
+      "region": "A",
+      "period": "T2",
+      "stratum": "high",
+      "events": 6,
+      "opportunities": 20,
+      "covered": true,
+      "source": "fiction:A:T2:high",
+      "rate": 0.3
+    },
+    {
+      "region": "B",
+      "period": "T2",
+      "stratum": "low",
+      "events": 18,
+      "opportunities": 20,
+      "covered": true,
+      "source": "fiction:B:T2:low",
+      "rate": 0.9
+    },
+    {
+      "region": "B",
+      "period": "T2",
+      "stratum": "high",
+      "events": 16,
+      "opportunities": 80,
+      "covered": true,
+      "source": "fiction:B:T2:high",
+      "rate": 0.2
+    }
+  ],
+  "regional": [
+    {
+      "region": "A",
+      "period": "T1",
+      "events": null,
+      "opportunities": null,
+      "raw_rate": null,
+      "standardized_rate": null
+    },
+    {
+      "region": "A",
+      "period": "T2",
+      "events": 86,
+      "opportunities": 100,
+      "raw_rate": 0.86,
+      "standardized_rate": 0.65
+    },
+    {
+      "region": "B",
+      "period": "T1",
+      "events": 73,
+      "opportunities": 100,
+      "raw_rate": 0.73,
+      "standardized_rate": 0.45
+    },
+    {
+      "region": "B",
+      "period": "T2",
+      "events": 34,
+      "opportunities": 100,
+      "raw_rate": 0.34,
+      "standardized_rate": 0.55
+    }
+  ],
+  "changes": [
+    {
+      "region": "A",
+      "raw_rate_change": null,
+      "standardized_rate_change": null
+    },
+    {
+      "region": "B",
+      "raw_rate_change": -0.38999999999999996,
+      "standardized_rate_change": 0.10000000000000003
+    }
+  ],
+  "causal_estimate": null
+}

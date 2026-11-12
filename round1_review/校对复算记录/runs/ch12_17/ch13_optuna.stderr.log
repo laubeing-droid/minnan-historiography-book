@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch13/optuna_search.py", line 21, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch13/optuna_search.py", line 10, in main
+    import optuna
+ModuleNotFoundError: No module named 'optuna'

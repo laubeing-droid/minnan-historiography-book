@@ -1,0 +1,3 @@
+item_id,old_location,new_id,new_location,operation_proposed,permission,completed,unresolved
+EXAMPLE,读者自填不公开私人路径,S02,sources.csv,只建索引,读者决定,示例未执行,原网页未保存
+,,,,,,,

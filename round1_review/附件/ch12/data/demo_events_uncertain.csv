@@ -1,0 +1,5 @@
+event_id,entity_id,earliest_year,latest_year,date_precision,event_type,source_id,data_kind,note
+E001,DEMO_SITE_A,1880,1889,decade,activity_record,SYNTH_CH12,SYNTHETIC_DEMO,只演示十年区间不可擅取1885
+E002,DEMO_SITE_B,1900,1900,year,activity_record,SYNTH_CH12,SYNTHETIC_DEMO,只知年不得生成月日
+E003,DEMO_SITE_C,1902,1904,interval,activity_record,SYNTH_CH12,SYNTHETIC_DEMO,三年可能范围不代表每年发生一次
+E004,DEMO_SITE_A,1910,1910,year,activity_record,SYNTH_CH12,SYNTHETIC_DEMO,本表不交给年度预处理脚本

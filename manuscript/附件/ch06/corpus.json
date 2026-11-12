@@ -1,0 +1,119 @@
+{
+  "status": "NEW_TEACHING_INPUT_NOT_RUN",
+  "corpus_version": "ch06-new-20261030-v1",
+  "source": {
+    "source_id": "S1",
+    "title": "福建省第七次全国人口普查公报（第二号）——地区人口情况",
+    "url": "https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm",
+    "pdf_url": "https://tjj.fujian.gov.cn/tongjinianjian/rk2020/html/fu0202.pdf",
+    "publication_date": "2021-05-20",
+    "statistics_time": "2020-11-01 00:00",
+    "status": "TRANSCRIBED_FROM_INHERITED_MANUSCRIPT_NOT_RECHECKED",
+    "notes": "初步汇总常住人口；范围不含金门、马祖等岛屿；完整定义返回原注[3]。"
+  },
+  "query": "泉州占全省常住人口的比重下降，是否意味着泉州人口减少？",
+  "documents": [
+    {
+      "id": "D1",
+      "text": "泉州常住人口数8782285人；占全省常住人口的比重2020年21.14%，2010年22.03%。",
+      "tokens": [
+        "泉州",
+        "常住",
+        "人口",
+        "数",
+        "8782285",
+        "人",
+        "占",
+        "全省",
+        "常住",
+        "人口",
+        "的",
+        "比重",
+        "2020",
+        "年",
+        "21.14",
+        "%",
+        "2010",
+        "年",
+        "22.03",
+        "%"
+      ],
+      "locator": "表2-1泉州行、双层表头与单位",
+      "kind": "编者整理非逐字引文",
+      "source_id": "S1",
+      "source_url": "https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm",
+      "statistical_year": 2020,
+      "evidence_group": "D1"
+    },
+    {
+      "id": "D2",
+      "text": "与2010年第六次全国人口普查相比，泉州人口增加653755人。",
+      "tokens": [
+        "与",
+        "2010",
+        "年",
+        "第六次",
+        "全国",
+        "人口",
+        "普查",
+        "相比",
+        "泉州",
+        "人口",
+        "增加",
+        "653755",
+        "人"
+      ],
+      "locator": "一、地区常住人口第二段",
+      "kind": "编者整理非逐字引文",
+      "source_id": "S1",
+      "source_url": "https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm",
+      "statistical_year": 2020,
+      "evidence_group": "D2"
+    },
+    {
+      "id": "D3",
+      "text": "泉州人口女性占比47.78%，性别比109.31（女性为100）。",
+      "tokens": [
+        "泉州",
+        "人口",
+        "女性",
+        "占比",
+        "47.78",
+        "%",
+        "性别比",
+        "109.31",
+        "女性",
+        "为",
+        "100"
+      ],
+      "locator": "二、性别构成表2-2泉州行及列名",
+      "kind": "编者整理非逐字引文",
+      "source_id": "S1",
+      "source_url": "https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm",
+      "statistical_year": 2020,
+      "evidence_group": "D3"
+    },
+    {
+      "id": "D4",
+      "text": "本公报不含金门、马祖等岛屿的人口数。",
+      "tokens": [
+        "本",
+        "公报",
+        "不含",
+        "金门",
+        "马祖",
+        "等",
+        "岛屿",
+        "的",
+        "人口",
+        "数"
+      ],
+      "locator": "注[3]末句，人口定义须读完整原注",
+      "kind": "正文已有原文摘录",
+      "source_id": "S1",
+      "source_url": "https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm",
+      "statistical_year": 2020,
+      "evidence_group": "D4"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "status": "NEW_INPUT_NOT_RUN",
+  "k": 2,
+  "notice": "全部题目已在书内公开；留出只演示执行顺序，不是新的独立测试证据",
+  "questions": [
+    {
+      "id": "E01",
+      "split": "development",
+      "question": "泉州占全省人口份额下降是否表示人数减少？",
+      "relevant_ids": [
+        "D1",
+        "D2"
+      ],
+      "judgments": {
+        "D1": "direct",
+        "D2": "direct",
+        "D3": "not_direct",
+        "D4": "background"
+      },
+      "baseline": [
+        "H01"
+      ],
+      "changed": [
+        "H01",
+        "H01-A",
+        "H01-B"
+      ],
+      "reference": "份额下降而人数增加；两处直接证据须同时保留",
+      "statistical_year": 2020
+    },
+    {
+      "id": "E02",
+      "split": "development",
+      "question": "2020年泉州女性占比和性别比是多少？",
+      "relevant_ids": [
+        "D3"
+      ],
+      "judgments": {
+        "D1": "not_direct",
+        "D2": "not_direct",
+        "D3": "direct",
+        "D4": "not_direct"
+      },
+      "baseline": [
+        "泉州 人口"
+      ],
+      "changed": [
+        "泉州 女性 性别比"
+      ],
+      "reference": "47.78%；109.31",
+      "statistical_year": 2020
+    },
+    {
+      "id": "T01",
+      "split": "holdout_exercise",
+      "question": "2020年泉州常住人口数？",
+      "relevant_ids": [
+        "D1"
+      ],
+      "judgments": {
+        "D1": "direct",
+        "D2": "not_direct",
+        "D3": "not_direct",
+        "D4": "not_direct"
+      },
+      "baseline": [
+        "泉州 常住 人口 数"
+      ],
+      "changed": [
+        "泉州 常住 人口 数"
+      ],
+      "reference": "8782285人",
+      "statistical_year": 2020
+    },
+    {
+      "id": "T02",
+      "split": "holdout_exercise",
+      "question": "是否包括金门人口？",
+      "relevant_ids": [
+        "D4"
+      ],
+      "judgments": {
+        "D1": "not_direct",
+        "D2": "not_direct",
+        "D3": "not_direct",
+        "D4": "direct"
+      },
+      "baseline": [
+        "金门"
+      ],
+      "changed": [
+        "金门"
+      ],
+      "reference": "不包括",
+      "statistical_year": 2020
+    },
+    {
+      "id": "T03",
+      "split": "holdout_exercise",
+      "question": "2021年泉州常住人口数？",
+      "relevant_ids": [],
+      "judgments": {
+        "D1": "not_direct",
+        "D2": "not_direct",
+        "D3": "not_direct",
+        "D4": "not_direct"
+      },
+      "baseline": [
+        "泉州 2021 年 常住 人口"
+      ],
+      "changed": [
+        "泉州 2021 年 常住 人口"
+      ],
+      "reference": "当前四块不回答该时点；不是所有地方都没有资料",
+      "statistical_year": 2021
+    }
+  ]
+}

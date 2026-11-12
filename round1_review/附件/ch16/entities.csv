@@ -1,0 +1,9 @@
+entity_id,display_name,entity_type,identity_status,judgment_version
+P1,甲,person,confirmed,teaching-v1
+P2,乙,person,confirmed,teaching-v1
+P3,丙,person,pending,teaching-v1
+P4,丁,person,confirmed,teaching-v1
+O1,教学组织O1,organization,confirmed,teaching-v1
+V1,教学活动V1,event,confirmed,teaching-v1
+V2,教学寄信V2,event,confirmed,teaching-v1
+V3,教学活动V3,event,confirmed,teaching-v1

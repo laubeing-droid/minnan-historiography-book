@@ -1,0 +1,677 @@
+{
+  "scope": {
+    "description": "第 8 章原引用清单 20 个 UNVERIFIED URL 的独立补核；未改正文或他人清单。",
+    "input_ledger": "reports/sources_ch07_08_inprogress.json",
+    "manuscript": "revision/正文/ch08.md",
+    "manuscript_sha256_at_review": "2fc118d0dfc9d84a2b5e9a100febe4df723706bd71c6f3de77e4b36d5a8c58b4",
+    "review_date": "2026-10-30",
+    "reviewer": "来源核验分组",
+    "limits": "仅核与实际正文主张相关段落；网页可达不等于支持，文档概念支持不等于代码执行、历史史实或整章全项合格。",
+    "write_scope": [
+      "reports/sources_ch08_supplement.json",
+      "reports/sources_ch08_supplement.md"
+    ]
+  },
+  "summary": {
+    "requested_url_count": 20,
+    "checked_supports_cited_claim": 20,
+    "directly_checked_url_count": 18,
+    "same_round_evidence_reused_url_count": 2,
+    "blocked": 0,
+    "unsupported": 0,
+    "unverified_remaining_in_this_scope": 0,
+    "manuscript_changes": 0,
+    "bibliographic_or_claim_corrections_required_in_this_scope": 0
+  },
+  "ledger": [
+    {
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html",
+      "chapter": 8,
+      "occurrences": [
+        {
+          "section": "8.1 任务指标与简单基线",
+          "baseline_line": 90,
+          "citation_text": "[1] scikit-learn官方文档，`accuracy_score`，说明`normalize=True`返回判断相符的比例。[文档](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html)。"
+        }
+      ],
+      "status": "CHECKED_CITED_PASSAGE",
+      "status_zh": "已核相关段落",
+      "evidence": "normalize=True 返回正确分类样本的比例；False 返回正确分类数量。",
+      "checked_url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html",
+      "id": "S08-SUP-01",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+      "source_title": "accuracy_score — scikit-learn 官方文档",
+      "claim_checked": "准确率是答对样本比例，即本例 (TP+TN)/总句数。",
+      "revision_claim_lines": [
+        35
+      ],
+      "checked_location": "normalize 参数及 Returns，网页行 655—669",
+      "boundary": "只支持二分类准确率的定义，不证明本书脚本已运行。",
+      "checked_on": "2026-10-30",
+      "reviewer": "来源核验分组",
+      "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+      "check_method": "DIRECT_WEB_CITED_PASSAGE",
+      "source_version": "本次页面标示 scikit-learn 1.9.1",
+      "evidence_path": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html"
+    },
+    {
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html",
+      "chapter": 8,
+      "occurrences": [
+        {
+          "section": "8.1 任务指标与简单基线",
+          "baseline_line": 94,
+          "citation_text": "[3] scikit-learn官方文档，`f1_score`，公式及`average='binary'`、`pos_label`说明。[文档](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html)。"
+        }
+      ],
+      "status": "CHECKED_CITED_PASSAGE",
+      "status_zh": "已核相关段落",
+      "evidence": "公式与正文一致；average='binary' 返回 pos_label 指定类别的 F1，其他平均方式另有含义。",
+      "checked_url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html",
+      "id": "S08-SUP-02",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+      "source_title": "f1_score — scikit-learn 官方文档",
+      "claim_checked": "正类 F1=2TP/(2TP+FP+FN)，不是两类平均。",
+      "revision_claim_lines": [
+        39
+      ],
+      "checked_location": "开头公式与 binary 说明，网页行 635—643",
+      "boundary": "核定义与正类口径，不核案例运行结果。",
+      "checked_on": "2026-10-30",
+      "reviewer": "来源核验分组",
+      "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+      "check_method": "DIRECT_WEB_CITED_PASSAGE",
+      "source_version": "本次页面标示 scikit-learn 1.9.1",
+      "evidence_path": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html"
+    },
+    {
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.dummy.DummyClassifier.html",
+      "chapter": 8,
+      "occurrences": [
+        {
+          "section": "8.1 任务指标与简单基线",
+          "baseline_line": 96,
+          "citation_text": "[4] scikit-learn官方文档，`DummyClassifier`，`strategy=\"most_frequent\"`说明与示例。[文档](https://scikit-learn.org/stable/modules/generated/sklearn.dummy.DummyClassifier.html)。"
+        }
+      ],
+      "status": "CHECKED_CITED_PASSAGE",
+      "status_zh": "已核相关段落",
+      "evidence": "不使用输入特征作判断；most_frequent 总返回传给 fit 的 y 中最常见类别，示例与此一致。",
+      "checked_url": "https://scikit-learn.org/stable/modules/generated/sklearn.dummy.DummyClassifier.html",
+      "id": "S08-SUP-03",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+      "source_title": "DummyClassifier — scikit-learn 官方文档",
+      "claim_checked": "most_frequent 按训练答案中的多数类固定作答。",
+      "revision_claim_lines": [
+        49
+      ],
+      "checked_location": "导言、strategy 参数及示例，网页行 638—656、714—726",
+      "boundary": "官方实现说明不等于书中调用或安装此库。",
+      "checked_on": "2026-10-30",
+      "reviewer": "来源核验分组",
+      "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+      "check_method": "DIRECT_WEB_CITED_PASSAGE",
+      "source_version": "本次页面标示 scikit-learn 1.9.1",
+      "evidence_path": "https://scikit-learn.org/stable/modules/generated/sklearn.dummy.DummyClassifier.html"
+    },
+    {
+      "url": "https://www.itl.nist.gov/div898/handbook/pri/section3/pri31.htm",
+      "chapter": 8,
+      "occurrences": [
+        {
+          "section": "8.2 对照原则 变量控制与实验矩阵",
+          "baseline_line": 194,
+          "citation_text": "[1] NIST/SEMATECH，*e-Handbook of Statistical Methods*，5.3.1“ What are the objectives?”，开头目标与因素选择的关系。[公开原文](https://www.itl.nist.gov/div898/handbook/pri/section3/pri31.htm)。"
+        }
+      ],
+      "status": "CHECKED_CITED_PASSAGE",
+      "status_zh": "已核相关段落",
+      "evidence": "目标须先明确并排序，目标决定因素、响应和设计选择方向。",
+      "checked_url": "https://www.itl.nist.gov/div898/handbook/pri/section3/pri31.htm",
+      "id": "S08-SUP-04",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+      "source_title": "NIST/SEMATECH 5.3.1 What are the objectives?",
+      "claim_checked": "先明确实验目标，再选择因素和设计。",
+      "revision_claim_lines": [
+        112
+      ],
+      "checked_location": "5.3.1 开头与结尾，网页行 6—7、24—28",
+      "boundary": "只采用设计顺序，不以手册为教学例的实测证据。",
+      "checked_on": "2026-10-30",
+      "reviewer": "来源核验分组",
+      "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+      "check_method": "DIRECT_WEB_CITED_PASSAGE",
+      "source_version": "未额外锁定版本，以本次公开原页面为准",
+      "evidence_path": "https://www.itl.nist.gov/div898/handbook/pri/section3/pri31.htm"
+    },
+    {
+      "url": "https://scikit-learn.org/stable/modules/cross_validation.html",
+      "chapter": 8,
+      "occurrences": [
+        {
+          "section": "8.2 对照原则 变量控制与实验矩阵",
+          "baseline_line": 196,
+          "citation_text": "[2] scikit-learn官方文档，3.1“Cross-validation: evaluating estimator performance”，开头关于在评价资料上反复选择设置及开发验证集的说明；本节不调用其模型示例。[公开文档](https://scikit-learn.org/stable/modules/cross_validation.html)。"
+        },
+        {
+          "section": "8.8 独立测试与方法复现",
+          "baseline_line": 791,
+          "citation_text": "[1] scikit-learn, [Cross-validation: evaluating estimator performance](https://scikit-learn.org/stable/modules/cross_validation.html)，开头关于训练、开发验证、最终测试及反复选择设置的说明。"
+        }
+      ],
+      "status": "CHECKED_CITED_PASSAGE",
+      "status_zh": "已核相关段落",
+      "evidence": "同数据训练及测试不当；反复调超参数可把测试信息引入选择；训练、验证选方案与最后测试应分开。",
+      "checked_url": "https://scikit-learn.org/stable/modules/cross_validation.html",
+      "id": "S08-SUP-05",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+      "source_title": "Cross-validation — scikit-learn 官方文档",
+      "claim_checked": "开发验证可用于选择方案，最终测试须隔离，反复据测试调设置会泄漏。",
+      "revision_claim_lines": [
+        114,
+        714
+      ],
+      "checked_location": "§3.1 开头，网页行 74、99—106（协作核对记录）",
+      "boundary": "支持第 8.2、8.8 节阶段区分；不证明本例有真正独立测试。",
+      "checked_on": "2026-10-30",
+      "reviewer": "来源核验分组",
+      "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+      "check_method": "REUSED_THIS_ROUND_INDEPENDENT_REVIEW",
+      "source_version": "协作核对页面标示 scikit-learn 1.9.1",
+      "evidence_path": "reports/sources_ch07_supplement.json#ledger/S07-18",
+      "carried_from": {
+        "report": "reports/sources_ch07_supplement.json",
+        "entry_id": "S07-18",
+        "reviewer": "独立校读分组A",
+        "checked_on": "2026-10-30",
+        "same_claim_assessment": "已与第 8 章实际引用主张比对，同一网页相同概念；本补核员未机械重开。",
+        "collaboration_message_received_utc": "2026-10-30T03:08:56Z"
+      }
+    },
+    {
+      "url": "https://docs.python.org/3.12/library/stdtypes.html#common-sequence-operations",
+      "chapter": 8,
+      "occurrences": [
+        {
+          "section": "8.2 对照原则 变量控制与实验矩阵",
+          "baseline_line": 198,
+          "citation_text": "[3] Python 3.12官方文档，*Built-in Types*，Common Sequence Operations的切片规则及Text Sequence Type中字符串为Unicode码点序列的定义。[公开文档](https://docs.python.org/3.12/library/stdtypes.html#common-sequence-operations)。"
+        }
+      ],
+      "status": "CHECKED_CITED_PASSAGE",
+      "status_zh": "已核相关段落",
+      "evidence": "序列索引从零开始，切片右端不含；字符串是 Unicode 码点序列。",
+      "checked_url": "https://docs.python.org/3.12/library/stdtypes.html#common-sequence-operations",
+      "id": "S08-SUP-06",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+      "source_title": "Python 3.12 Built-in Types：序列与字符串",
+      "claim_checked": "text[:8] 取前八个 Unicode 码点，标点占位置，不按字节或词元计。",
+      "revision_claim_lines": [
+        134
+      ],
+      "checked_location": "Common Sequence Operations 表及注 4；Text Sequence Type — str，网页行 420—421、454—455、634—650",
+      "boundary": "八字符教学输入的具体内容仍属本书案例，不由文档证明。",
+      "checked_on": "2026-10-30",
+      "reviewer": "来源核验分组",
+      "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+      "check_method": "DIRECT_WEB_CITED_PASSAGE",
+      "source_version": "本次页面标示 Python 3.12.16",
+      "evidence_path": "https://docs.python.org/3.12/library/stdtypes.html#common-sequence-operations"
+    },
+    {
+      "url": "https://www.itl.nist.gov/div898/handbook/pri/section3/pri333.htm",
+      "chapter": 8,
+      "occurrences": [
+        {
+          "section": "8.2 对照原则 变量控制与实验矩阵",
+          "baseline_line": 200,
+          "citation_text": "[4] NIST/SEMATECH，*e-Handbook of Statistical Methods*，5.3.3.3“Full factorial designs”，所有设置组合及两因素四组合说明。[公开原文](https://www.itl.nist.gov/div898/handbook/pri/section3/pri333.htm)。"
+        }
+      ],
+      "status": "CHECKED_CITED_PASSAGE",
+      "status_zh": "已核相关段落",
+      "evidence": "两水平 k 因素全因子设计有 2^k 次组合；表中两因素对应四次。",
+      "checked_url": "https://www.itl.nist.gov/div898/handbook/pri/section3/pri333.htm",
+      "id": "S08-SUP-07",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+      "source_title": "NIST/SEMATECH 5.3.3.3 Full factorial designs",
+      "claim_checked": "全因子设计含各因素所有设置组合；两个因素各两设置形成四格。",
+      "revision_claim_lines": [
+        140
+      ],
+      "checked_location": "5.3.3.3 定义及 Table 3.2，网页行 8—11",
+      "boundary": "只核组合安排，未把确定性教学矩阵写成随机化统计实验。",
+      "checked_on": "2026-10-30",
+      "reviewer": "来源核验分组",
+      "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+      "check_method": "DIRECT_WEB_CITED_PASSAGE",
+      "source_version": "未额外锁定版本，以本次公开原页面为准",
+      "evidence_path": "https://www.itl.nist.gov/div898/handbook/pri/section3/pri333.htm"
+    },
+    {
+      "url": "https://yaml.org/spec/1.2.2/",
+      "chapter": 8,
+      "occurrences": [
+        {
+          "section": "8.4 随机种子 环境锁定与 YAML 配置",
+          "baseline_line": 384,
+          "citation_text": "[2] YAML 1.2.2规范，JSON兼容与集合写法。https://yaml.org/spec/1.2.2/ 。"
+        }
+      ],
+      "status": "CHECKED_CITED_PASSAGE",
+      "status_zh": "已核相关段落",
+      "evidence": "规范说明 1.2 以包含 JSON 为目标；块结构用缩进，映射值使用冒号。",
+      "checked_url": "https://yaml.org/spec/1.2.2/",
+      "id": "S08-SUP-08",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+      "source_title": "YAML 1.2.2 规范",
+      "claim_checked": "YAML 常用冒号、缩进表达结构，YAML 1.2 兼容 JSON，兼容关系不能反向推成 JSON 解析器能读任意 YAML。",
+      "revision_claim_lines": [
+        345
+      ],
+      "checked_location": "历史说明、§6.1、§7.4.2 映射值说明，网页行 165、1516—1550、3002—3003",
+      "boundary": "与 Python json 文档合读支持兼容方向；本轮未安装解析器或解析展示用 YAML。",
+      "checked_on": "2026-10-30",
+      "reviewer": "来源核验分组",
+      "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+      "check_method": "DIRECT_WEB_CITED_PASSAGE",
+      "source_version": "YAML 1.2.2，2021-10-01",
+      "evidence_path": "https://yaml.org/spec/1.2.2/"
+    },
+    {
+      "url": "https://docs.python.org/3.12/library/json.html",
+      "chapter": 8,
+      "occurrences": [
+        {
+          "section": "8.4 随机种子 环境锁定与 YAML 配置",
+          "baseline_line": 386,
+          "citation_text": "[3] Python官方文档，json模块，JSON与YAML子集说明。https://docs.python.org/3.12/library/json.html 。"
+        }
+      ],
+      "status": "CHECKED_CITED_PASSAGE",
+      "status_zh": "已核相关段落",
+      "evidence": "文档明确 JSON 属于 YAML 1.2 子集，并把 json 的读写对象限定为 JSON 格式。",
+      "checked_url": "https://docs.python.org/3.12/library/json.html",
+      "id": "S08-SUP-09",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+      "source_title": "Python 3.12 json",
+      "claim_checked": "JSON 是 YAML 1.2 子集，不等于 json 模块能读取任意缩进式 YAML。",
+      "revision_claim_lines": [
+        345
+      ],
+      "checked_location": "导言示例后的 Note 与 Basic Usage，网页行 99—110",
+      "boundary": "支持正文兼容方向解释，不声称所有 YAML 都是 JSON。",
+      "checked_on": "2026-10-30",
+      "reviewer": "来源核验分组",
+      "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+      "check_method": "DIRECT_WEB_CITED_PASSAGE",
+      "source_version": "本次页面标示 Python 3.12.16",
+      "evidence_path": "https://docs.python.org/3.12/library/json.html"
+    },
+    {
+      "url": "https://docs.pytorch.org/docs/2.9/notes/randomness.html",
+      "chapter": 8,
+      "occurrences": [
+        {
+          "section": "8.4 随机种子 环境锁定与 YAML 配置",
+          "baseline_line": 388,
+          "citation_text": "[4] PyTorch官方文档，Reproducibility。https://docs.pytorch.org/docs/2.9/notes/randomness.html 。"
+        }
+      ],
+      "status": "CHECKED_CITED_PASSAGE",
+      "status_zh": "已核相关段落",
+      "evidence": "官方明确不保证跨发布、提交、平台的完全复现，CPU 与 GPU 即使种子相同也可能不同。",
+      "checked_url": "https://docs.pytorch.org/docs/2.9/notes/randomness.html",
+      "id": "S08-SUP-10",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+      "source_title": "PyTorch 2.9 Reproducibility",
+      "claim_checked": "相同种子不保证跨版本、平台或 CPU/GPU 完全复现。",
+      "revision_claim_lines": [
+        370
+      ],
+      "checked_location": "开头两段，网页行 68—71",
+      "boundary": "只引用复现限制；本例没有运行 PyTorch。",
+      "checked_on": "2026-10-30",
+      "reviewer": "来源核验分组",
+      "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+      "check_method": "DIRECT_WEB_CITED_PASSAGE",
+      "source_version": "PyTorch 2.9",
+      "evidence_path": "https://docs.pytorch.org/docs/2.9/notes/randomness.html"
+    },
+    {
+      "url": "https://mlflow.org/docs/latest/ml/tracking/",
+      "chapter": 8,
+      "occurrences": [
+        {
+          "section": "8.5 实验追踪与结果汇总",
+          "baseline_line": 483,
+          "citation_text": "[1] MLflow官方文档，*MLflow Tracking*导言及“Concepts—Runs”“Experiments”，说明按运行组织参数、版本、指标与输出文件。本节使用记录分工，不运行MLflow。[文档](https://mlflow.org/docs/latest/ml/tracking/)。"
+        }
+      ],
+      "status": "CHECKED_CITED_PASSAGE",
+      "status_zh": "已核相关段落",
+      "evidence": "导言列明参数、代码版本、指标与输出文件；Runs 保存元数据和产物，Experiments 组织运行。",
+      "checked_url": "https://mlflow.org/docs/latest/ml/tracking/",
+      "id": "S08-SUP-11",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+      "source_title": "MLflow Tracking 官方文档",
+      "claim_checked": "围绕每次运行组织参数、代码版本、指标及输出文件。",
+      "revision_claim_lines": [
+        396
+      ],
+      "checked_location": "导言、Concepts—Runs、Experiments，网页行 37—60",
+      "boundary": "支持记录分工，不证明本书运行过 MLflow。",
+      "checked_on": "2026-10-30",
+      "reviewer": "来源核验分组",
+      "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+      "check_method": "DIRECT_WEB_CITED_PASSAGE",
+      "source_version": "滚动 latest 路径，核于 2026-10-30",
+      "evidence_path": "https://mlflow.org/docs/latest/ml/tracking/"
+    },
+    {
+      "url": "https://docs.python.org/3.12/library/exceptions.html#FileNotFoundError",
+      "chapter": 8,
+      "occurrences": [
+        {
+          "section": "8.5 实验追踪与结果汇总",
+          "baseline_line": 485,
+          "citation_text": "[2] Python 3.12官方文档，内置异常`FileNotFoundError`，说明请求不存在的文件或目录时出现的异常。[文档](https://docs.python.org/3.12/library/exceptions.html#FileNotFoundError)。"
+        }
+      ],
+      "status": "CHECKED_CITED_PASSAGE",
+      "status_zh": "已核相关段落",
+      "evidence": "该异常对应请求的文件或目录不存在的情况。",
+      "checked_url": "https://docs.python.org/3.12/library/exceptions.html#FileNotFoundError",
+      "id": "S08-SUP-12",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+      "source_title": "Python 3.12 Built-in Exceptions",
+      "claim_checked": "请求不存在的文件或目录会产生 FileNotFoundError。",
+      "revision_claim_lines": [
+        422
+      ],
+      "checked_location": "FileNotFoundError 定义，网页行 417—420",
+      "boundary": "文档支持异常含义，不能证明案例 E03 曾执行或产生某次实际异常。",
+      "checked_on": "2026-10-30",
+      "reviewer": "来源核验分组",
+      "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+      "check_method": "DIRECT_WEB_CITED_PASSAGE",
+      "source_version": "本次页面标示 Python 3.12.16",
+      "evidence_path": "https://docs.python.org/3.12/library/exceptions.html#FileNotFoundError"
+    },
+    {
+      "url": "https://scikit-learn.org/stable/common_pitfalls.html#data-leakage",
+      "chapter": 8,
+      "occurrences": [
+        {
+          "section": "8.5 实验追踪与结果汇总",
+          "baseline_line": 487,
+          "citation_text": "[3] scikit-learn官方文档，*Common pitfalls and recommended practices*第12.2节“Data leakage”，尤其测试材料不能用于方法选择的说明。本节只应用阶段区分，不运行该库。[文档](https://scikit-learn.org/stable/common_pitfalls.html#data-leakage)。"
+        },
+        {
+          "section": "8.8 独立测试与方法复现",
+          "baseline_line": 793,
+          "citation_text": "[2] scikit-learn, [Common pitfalls and recommended practices — Data leakage](https://scikit-learn.org/stable/common_pitfalls.html#data-leakage)，测试信息不能参与方案选择，预处理条件应在训练侧学习。"
+        }
+      ],
+      "status": "CHECKED_CITED_PASSAGE",
+      "status_zh": "已核相关段落",
+      "evidence": "测试信息不得用于模型选择；预处理参数只在训练侧学习，fit/fit_transform 不用测试数据。",
+      "checked_url": "https://scikit-learn.org/stable/common_pitfalls.html",
+      "id": "S08-SUP-13",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+      "source_title": "Common pitfalls — Data leakage 官方文档",
+      "claim_checked": "测试材料不能供方法选择；学习所得预处理条件须只来自训练侧。",
+      "revision_claim_lines": [
+        469,
+        732
+      ],
+      "checked_location": "§12.2 Data leakage，网页行 122—141（协作核对记录）",
+      "boundary": "支持第 8.5、8.8 节信息隔离原则，不证明书中示范材料具有独立性。",
+      "checked_on": "2026-10-30",
+      "reviewer": "来源核验分组",
+      "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+      "check_method": "REUSED_THIS_ROUND_INDEPENDENT_REVIEW",
+      "source_version": "协作核对页面标示 scikit-learn 1.9.1",
+      "evidence_path": "reports/sources_ch07_supplement.json#ledger/S07-19",
+      "carried_from": {
+        "report": "reports/sources_ch07_supplement.json",
+        "entry_id": "S07-19",
+        "reviewer": "独立校读分组A",
+        "checked_on": "2026-10-30",
+        "same_claim_assessment": "已与第 8 章实际引用主张比对，同一网页相同概念；本补核员未机械重开。",
+        "collaboration_message_received_utc": "2026-10-30T03:08:56Z"
+      }
+    },
+    {
+      "url": "https://docs.github.com/en/copilot/get-started/best-practices",
+      "chapter": 8,
+      "occurrences": [
+        {
+          "section": "8.6 AI 结对编程 输入输出契约与三遍审查",
+          "baseline_line": 588,
+          "citation_text": "[1] GitHub官方文档，*Best practices for using GitHub Copilot*中的“Create thoughtful prompts”与“Check Copilot's work”，支持拆小任务、给出例子以及阅读和测试代码。[文档](https://docs.github.com/en/copilot/get-started/best-practices)。三遍阅读是本节的教学安排。"
+        }
+      ],
+      "status": "CHECKED_CITED_PASSAGE",
+      "status_zh": "已核相关段落",
+      "evidence": "建议拆分复杂任务、明确要求、提供示例；理解及审查建议代码，并用测试核验。",
+      "checked_url": "https://docs.github.com/en/copilot/get-started/best-practices",
+      "id": "S08-SUP-14",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+      "source_title": "GitHub Copilot Best practices",
+      "claim_checked": "拆小任务、明确要求、给出输入输出例，并阅读和测试生成代码。",
+      "revision_claim_lines": [
+        497
+      ],
+      "checked_location": "Create thoughtful prompts；Check Copilot's work，网页行 65—79",
+      "boundary": "文档不规定本书的三遍阅读顺序，正文已明确那是教学安排。",
+      "checked_on": "2026-10-30",
+      "reviewer": "来源核验分组",
+      "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+      "check_method": "DIRECT_WEB_CITED_PASSAGE",
+      "source_version": "未额外锁定版本，以本次公开原页面为准",
+      "evidence_path": "https://docs.github.com/en/copilot/get-started/best-practices"
+    },
+    {
+      "url": "https://docs.python.org/3.12/library/stdtypes.html#str.find",
+      "chapter": 8,
+      "occurrences": [
+        {
+          "section": "8.6 AI 结对编程 输入输出契约与三遍审查",
+          "baseline_line": 590,
+          "citation_text": "[2] Python 3.12官方文档，*Built-in Types*中的“Text Sequence Type—str”、序列切片及`str.find`，说明Unicode码位、从0开始的位置、切片终点和首次查找行为。[文档](https://docs.python.org/3.12/library/stdtypes.html#str.find)。"
+        }
+      ],
+      "status": "CHECKED_CITED_PASSAGE",
+      "status_zh": "已核相关段落",
+      "evidence": "find 返回指定切片范围内的最低索引，未找到时为 -1；序列与字符串规则见同页。",
+      "checked_url": "https://docs.python.org/3.12/library/stdtypes.html#str.find",
+      "id": "S08-SUP-15",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+      "source_title": "Python 3.12 Built-in Types：str.find",
+      "claim_checked": "字符串位置从零开始且按码点计，切片右端不含；find 仅返回搜索范围内首处位置。",
+      "revision_claim_lines": [
+        507,
+        525
+      ],
+      "checked_location": "Common Sequence Operations、Text Sequence Type—str、str.find，网页行 420、455、636、722—725",
+      "boundary": "完整非重叠枚举仍须由书中循环实现，文档不证明循环已运行。",
+      "checked_on": "2026-10-30",
+      "reviewer": "来源核验分组",
+      "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+      "check_method": "DIRECT_WEB_CITED_PASSAGE",
+      "source_version": "本次页面标示 Python 3.12.16",
+      "evidence_path": "https://docs.python.org/3.12/library/stdtypes.html#str.find"
+    },
+    {
+      "url": "https://docs.python.org/3.12/library/unittest.html",
+      "chapter": 8,
+      "occurrences": [
+        {
+          "section": "8.6 AI 结对编程 输入输出契约与三遍审查",
+          "baseline_line": 592,
+          "citation_text": "[3] Python 3.12官方文档，`unittest`的“test case”与“Basic example”，说明按给定输入检查响应，包括预期异常。本节用标准库循环逐例比较，未调用`unittest`框架。[文档](https://docs.python.org/3.12/library/unittest.html)。"
+        }
+      ],
+      "status": "CHECKED_CITED_PASSAGE",
+      "status_zh": "已核相关段落",
+      "evidence": "测试用例检查特定输入的特定响应；示例使用 assertRaises 检查指定异常。",
+      "checked_url": "https://docs.python.org/3.12/library/unittest.html",
+      "id": "S08-SUP-16",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+      "source_title": "Python 3.12 unittest",
+      "claim_checked": "测试检查给定输入的特定响应，可检查预期异常。",
+      "revision_claim_lines": [
+        553
+      ],
+      "checked_location": "test case 定义及 Basic example，网页行 15—18、72—79",
+      "boundary": "本书只采用测试方法，未称调用 unittest 框架。",
+      "checked_on": "2026-10-30",
+      "reviewer": "来源核验分组",
+      "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+      "check_method": "DIRECT_WEB_CITED_PASSAGE",
+      "source_version": "本次页面标示 Python 3.12.16",
+      "evidence_path": "https://docs.python.org/3.12/library/unittest.html"
+    },
+    {
+      "url": "https://docs.python.org/3.12/library/stdtypes.html#text-sequence-type-str",
+      "chapter": 8,
+      "occurrences": [
+        {
+          "section": "8.7 科学调试与最小复现",
+          "baseline_line": 696,
+          "citation_text": "[1] Python 3.12 Documentation, [Text Sequence Type — str](https://docs.python.org/3.12/library/stdtypes.html#text-sequence-type-str) 与 [str.strip](https://docs.python.org/3.12/library/stdtypes.html#str.strip)：字符串位置与首尾清理的定义。"
+        }
+      ],
+      "status": "CHECKED_CITED_PASSAGE",
+      "status_zh": "已核相关段落",
+      "evidence": "字符串是不可变的 Unicode 码点序列，单个索引得到长度一的字符串。",
+      "checked_url": "https://docs.python.org/3.12/library/stdtypes.html#text-sequence-type-str",
+      "id": "S08-SUP-17",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+      "source_title": "Python 3.12 Built-in Types：Text Sequence Type — str",
+      "claim_checked": "Python 字符串位置按 Unicode 码位，不按 UTF-8 字节计。",
+      "revision_claim_lines": [
+        620
+      ],
+      "checked_location": "Text Sequence Type — str，网页行 634—650",
+      "boundary": "只核字符串语义，不证明本书诊断表的执行。",
+      "checked_on": "2026-10-30",
+      "reviewer": "来源核验分组",
+      "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+      "check_method": "DIRECT_WEB_CITED_PASSAGE",
+      "source_version": "本次页面标示 Python 3.12.16",
+      "evidence_path": "https://docs.python.org/3.12/library/stdtypes.html#text-sequence-type-str"
+    },
+    {
+      "url": "https://docs.python.org/3.12/library/stdtypes.html#str.strip",
+      "chapter": 8,
+      "occurrences": [
+        {
+          "section": "8.7 科学调试与最小复现",
+          "baseline_line": 696,
+          "citation_text": "[1] Python 3.12 Documentation, [Text Sequence Type — str](https://docs.python.org/3.12/library/stdtypes.html#text-sequence-type-str) 与 [str.strip](https://docs.python.org/3.12/library/stdtypes.html#str.strip)：字符串位置与首尾清理的定义。"
+        }
+      ],
+      "status": "CHECKED_CITED_PASSAGE",
+      "status_zh": "已核相关段落",
+      "evidence": "省略 chars 时清除首尾空白，返回副本；移除范围是两端而非内部。",
+      "checked_url": "https://docs.python.org/3.12/library/stdtypes.html#str.strip",
+      "id": "S08-SUP-18",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+      "source_title": "Python 3.12 Built-in Types：str.strip",
+      "claim_checked": "strip 默认清理首尾空白并返回新字符串，不删除中间空格。",
+      "revision_claim_lines": [
+        622
+      ],
+      "checked_location": "str.strip 定义、示例及外端说明，网页行 1002—1013",
+      "boundary": "本书坐标错配原因需要配套程序证明，本项只核 API 定义。",
+      "checked_on": "2026-10-30",
+      "reviewer": "来源核验分组",
+      "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+      "check_method": "DIRECT_WEB_CITED_PASSAGE",
+      "source_version": "本次页面标示 Python 3.12.16",
+      "evidence_path": "https://docs.python.org/3.12/library/stdtypes.html#str.strip"
+    },
+    {
+      "url": "https://www.debuggingbook.org/html/DeltaDebugger.html#Manual-Input-Reduction",
+      "chapter": 8,
+      "occurrences": [
+        {
+          "section": "8.7 科学调试与最小复现",
+          "baseline_line": 698,
+          "citation_text": "[2] Andreas Zeller, *The Debugging Book*, [Reducing Failure-Inducing Inputs — Manual Input Reduction](https://www.debuggingbook.org/html/DeltaDebugger.html#Manual-Input-Reduction)：保持失败现象的输入缩减。"
+        }
+      ],
+      "status": "CHECKED_CITED_PASSAGE",
+      "status_zh": "已核相关段落",
+      "evidence": "章节先说明剔除与失败无关的条件，再以分半输入且复查错误是否仍发生演示缩减。",
+      "checked_url": "https://www.debuggingbook.org/html/DeltaDebugger.html#Manual-Input-Reduction",
+      "id": "S08-SUP-19",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+      "source_title": "The Debugging Book：Manual Input Reduction",
+      "claim_checked": "缩减输入时去掉不相关部分，每次保持并核对同一种失败。",
+      "revision_claim_lines": [
+        639
+      ],
+      "checked_location": "Manual Input Reduction 开头与二分缩减说明，网页行 238—264",
+      "boundary": "支持手工缩减原则，不证明本书 R2 为全部可能输入中的全局最小值；正文已有条件限定。",
+      "checked_on": "2026-10-30",
+      "reviewer": "来源核验分组",
+      "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+      "check_method": "DIRECT_WEB_CITED_PASSAGE",
+      "source_version": "未额外锁定版本，以本次公开原页面为准",
+      "evidence_path": "https://www.debuggingbook.org/html/DeltaDebugger.html#Manual-Input-Reduction"
+    },
+    {
+      "url": "https://docs.djangoproject.com/en/5.2/intro/contributing/#writing-some-tests-for-your-ticket",
+      "chapter": 8,
+      "occurrences": [
+        {
+          "section": "8.7 科学调试与最小复现",
+          "baseline_line": 700,
+          "citation_text": "[3] Django 5.2 Documentation, [Writing your first contribution](https://docs.djangoproject.com/en/5.2/intro/contributing/#writing-some-tests-for-your-ticket)，小节“Writing some tests for your ticket”及“Running Django’s test suite for the second time”：故障前后检查与回归检查。"
+        }
+      ],
+      "status": "CHECKED_CITED_PASSAGE",
+      "status_zh": "已核相关段落",
+      "evidence": "教程明确要求回归例区分有无缺陷；改动及新测试通过后再跑已有测试以发现其他回归。",
+      "checked_url": "https://docs.djangoproject.com/en/5.2/intro/contributing/#writing-some-tests-for-your-ticket",
+      "id": "S08-SUP-20",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+      "source_title": "Django 5.2：Writing your first contribution",
+      "claim_checked": "回归例应在缺陷存在时失败、修复后通过，并检查其他既有行为。",
+      "revision_claim_lines": [
+        666
+      ],
+      "checked_location": "Writing some tests for your ticket；Running Django’s test suite for the second time，网页行 213—217、278—280",
+      "boundary": "通过测试不保证无全部缺陷；本书仅采用方法，不安装或运行 Django。",
+      "checked_on": "2026-10-30",
+      "reviewer": "来源核验分组",
+      "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+      "check_method": "DIRECT_WEB_CITED_PASSAGE",
+      "source_version": "Django 5.2",
+      "evidence_path": "https://docs.djangoproject.com/en/5.2/intro/contributing/#writing-some-tests-for-your-ticket"
+    }
+  ]
+}

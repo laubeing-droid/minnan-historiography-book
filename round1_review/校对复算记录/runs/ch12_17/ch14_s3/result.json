@@ -1,0 +1,73 @@
+{
+  "features": [
+    {
+      "id": "P1",
+      "type": "Point",
+      "status": "accepted",
+      "length": null,
+      "area": null
+    },
+    {
+      "id": "P2",
+      "type": "Point",
+      "status": "accepted",
+      "length": null,
+      "area": null
+    },
+    {
+      "id": "L1",
+      "type": "LineString",
+      "status": "accepted",
+      "length": 7.0,
+      "area": null
+    },
+    {
+      "id": "A1",
+      "type": "Polygon",
+      "status": "accepted",
+      "length": null,
+      "area": 12.0
+    },
+    {
+      "id": "bad_open",
+      "type": "Polygon",
+      "status": "rejected",
+      "length": null,
+      "area": null,
+      "reason": "unclosed ring"
+    },
+    {
+      "id": "bad_cross",
+      "type": "Polygon",
+      "status": "rejected",
+      "length": null,
+      "area": null,
+      "reason": "self intersection/contact"
+    },
+    {
+      "id": "bad_duplicate",
+      "type": "LineString",
+      "status": "rejected",
+      "length": null,
+      "area": null,
+      "reason": "repeated node"
+    },
+    {
+      "id": "unknown",
+      "type": "Point",
+      "status": "rejected",
+      "length": null,
+      "area": null,
+      "reason": "unknown geometry"
+    },
+    {
+      "id": "bad_range",
+      "type": "Point",
+      "status": "rejected",
+      "length": null,
+      "area": null,
+      "reason": "requires bounded integer 2D coordinates"
+    }
+  ],
+  "P1_P2_distance": 5.0
+}

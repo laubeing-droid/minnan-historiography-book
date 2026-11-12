@@ -1,0 +1,21 @@
+{
+  "blind_without_reference_same_predictions": true,
+  "seed17_three_repeats": [
+    [
+      "T05",
+      "T04",
+      "T03"
+    ],
+    [
+      "T05",
+      "T04",
+      "T03"
+    ],
+    [
+      "T05",
+      "T04",
+      "T03"
+    ]
+  ],
+  "scope": "handoff isolation and deterministic same-environment repeat, not external model reproducibility"
+}

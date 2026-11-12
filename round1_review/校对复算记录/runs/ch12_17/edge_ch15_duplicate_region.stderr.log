@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch15/workflow.py", line 210, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch15/workflow.py", line 200, in main
+    result=[distribution,access,spatial,compare,sensitivity,interpretation][a.section-1](d)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch15/workflow.py", line 95, in spatial
+    rs=unique(d['regions']);ids=list(rs);n=len(ids)
+       ^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch15/workflow.py", line 11, in unique
+    if r['id'] in d:raise ValueError('duplicate id '+r['id'])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: duplicate id A

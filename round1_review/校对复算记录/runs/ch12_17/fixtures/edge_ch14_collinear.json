@@ -1,0 +1,95 @@
+{
+  "fiction": true,
+  "crs": "LOCAL_TEACHING_METRE",
+  "pixel_origin": "top-left corner; u right; v down; no half-pixel shift",
+  "control": [
+    {
+      "id": "G1",
+      "u": 100,
+      "v": 100,
+      "x": 1210,
+      "y": 1820,
+      "source": "fiction:G1"
+    },
+    {
+      "id": "G2",
+      "u": 900,
+      "v": 900,
+      "x": 2810,
+      "y": 1980,
+      "source": "fiction:G2"
+    },
+    {
+      "id": "G3",
+      "u": 100,
+      "v": 100,
+      "x": 1290,
+      "y": 220,
+      "source": "fiction:G3"
+    },
+    {
+      "id": "G4",
+      "u": 900,
+      "v": 900,
+      "x": 2890,
+      "y": 380,
+      "source": "fiction:G4"
+    }
+  ],
+  "check": [
+    {
+      "id": "C1",
+      "u": 500,
+      "v": 500,
+      "x": 2053,
+      "y": 1104,
+      "source": "fiction:C1"
+    },
+    {
+      "id": "C2",
+      "u": 300,
+      "v": 700,
+      "x": 1673,
+      "y": 664,
+      "source": "fiction:C2"
+    },
+    {
+      "id": "C3",
+      "u": 700,
+      "v": 300,
+      "x": 2433,
+      "y": 1544,
+      "source": "fiction:C3"
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "base",
+      "control_override": {}
+    },
+    {
+      "name": "wrong_G4",
+      "control_override": {
+        "G4": [
+          3050,
+          300
+        ]
+      }
+    }
+  ],
+  "collinear_negative_example": [
+    [
+      100,
+      100
+    ],
+    [
+      200,
+      200
+    ],
+    [
+      300,
+      300
+    ]
+  ],
+  "note": "\u91cd\u7f16\u8f93\u5165\u4fdd\u7559\u6b63\u6587\u53ef\u624b\u7b97\u5173\u7cfb\uff1b\u4e0d\u662f\u539f\u5305\u6062\u590d\u3002\u672a\u9644\u539f\u6587\u805a\u96c6\u4e09\u70b9\u8fd0\u884c\u503c\u3002"
+}

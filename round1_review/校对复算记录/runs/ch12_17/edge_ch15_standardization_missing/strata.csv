@@ -1,0 +1,9 @@
+﻿covered,events,opportunities,period,rate,region,source,stratum
+True,,10,T1,,A,fiction:A:T1:low,low
+True,18,90,T1,0.2,A,fiction:A:T1:high,high
+True,72,90,T1,0.8,B,fiction:B:T1:low,low
+True,1,10,T1,0.1,B,fiction:B:T1:high,high
+True,80,80,T2,1.0,A,fiction:A:T2:low,low
+True,6,20,T2,0.3,A,fiction:A:T2:high,high
+True,18,20,T2,0.9,B,fiction:B:T2:low,low
+True,16,80,T2,0.2,B,fiction:B:T2:high,high

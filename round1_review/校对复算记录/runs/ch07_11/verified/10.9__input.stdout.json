@@ -1,0 +1,18 @@
+{
+  "execution": "reader_invoked",
+  "input_provenance": "编者新编教学数据 非史实 非模型输出",
+  "section": "10.9",
+  "result": {
+    "n": 3,
+    "verdicts": {
+      "supported": 1,
+      "contradicted": 1,
+      "not_in_evidence": 1
+    },
+    "needs_revision": [
+      "F02",
+      "F03"
+    ],
+    "note": "Counts supplied human judgments; does not establish truth."
+  }
+}

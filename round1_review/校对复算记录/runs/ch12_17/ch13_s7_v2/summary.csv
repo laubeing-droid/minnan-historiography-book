@@ -1,0 +1,4 @@
+﻿MAE,RMSE,candidate,coverage,eligible,failed,planned,predicted,scored
+6.19047619047619,6.284271118599475,C1,1.0,True,0,8,8,7
+7.523809523809524,7.6821789237086255,C2,1.0,True,0,8,8,7
+2.8,2.9664793948382653,C3,0.75,False,2,8,6,5

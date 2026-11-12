@@ -1,0 +1,99 @@
+{
+  "window": [
+    1703,
+    1705
+  ],
+  "interval": "closed_integer_year",
+  "undirected": {
+    "model": "simple_undirected_unweighted_existence",
+    "N": 8,
+    "M": 4,
+    "possible_pairs": 28,
+    "density_fraction": "1/7",
+    "density_decimal": 0.14285714285714285,
+    "component_sizes": [
+      5,
+      1,
+      1,
+      1
+    ],
+    "components": [
+      [
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      [
+        "A"
+      ],
+      [
+        "B"
+      ],
+      [
+        "H"
+      ]
+    ],
+    "isolates": [
+      "A",
+      "B",
+      "H"
+    ],
+    "largest_component_share": "5/8",
+    "degree_sum": 8,
+    "degree_sum_reference_2M": 8
+  },
+  "directed": {
+    "model": "simple_directed_existence",
+    "N": 8,
+    "M": 4,
+    "possible_ordered_pairs": 56,
+    "density_fraction": "1/14",
+    "density_decimal": 0.07142857142857142,
+    "weak_components": [
+      [
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      [
+        "A"
+      ],
+      [
+        "B"
+      ],
+      [
+        "H"
+      ]
+    ],
+    "strong_components": [
+      [
+        "A"
+      ],
+      [
+        "B"
+      ],
+      [
+        "C"
+      ],
+      [
+        "D"
+      ],
+      [
+        "E"
+      ],
+      [
+        "F"
+      ],
+      [
+        "G"
+      ],
+      [
+        "H"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+﻿entity,id,mention,reason,status,supersedes
+P001,J1,M01,F5所记地域与F1相容,confirmed,
+P001,J2,M03,F7与F2时期地域相容,confirmed,
+P002,J3,M07,F11地域与F3相容,confirmed,J0

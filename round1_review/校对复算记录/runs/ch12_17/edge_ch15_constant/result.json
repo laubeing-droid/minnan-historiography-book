@@ -1,0 +1,63 @@
+{
+  "regions": [
+    {
+      "id": "A",
+      "area_km2": 1.0,
+      "events": 2,
+      "density": 2.0,
+      "opportunities": 2,
+      "rate": 1.0
+    },
+    {
+      "id": "B",
+      "area_km2": 1.0,
+      "events": 2,
+      "density": 2.0,
+      "opportunities": 2,
+      "rate": 1.0
+    },
+    {
+      "id": "C",
+      "area_km2": 1.0,
+      "events": 2,
+      "density": 2.0,
+      "opportunities": 2,
+      "rate": 1.0
+    },
+    {
+      "id": "D",
+      "area_km2": 1.0,
+      "events": 2,
+      "density": 2.0,
+      "opportunities": 8,
+      "rate": 0.25
+    },
+    {
+      "id": "E",
+      "area_km2": 1.0,
+      "events": 2,
+      "density": 2.0,
+      "opportunities": 8,
+      "rate": 0.25
+    },
+    {
+      "id": "F",
+      "area_km2": 1.0,
+      "events": 2,
+      "density": 2.0,
+      "opportunities": 8,
+      "rate": 0.25
+    }
+  ],
+  "global": {
+    "I": null,
+    "status": "constant_attribute",
+    "exact_upper_tail": null,
+    "opportunity_I": "3/5",
+    "opportunity_status": "defined",
+    "within_group_upper_tail": null,
+    "group_reference_degenerate": null
+  },
+  "permutations": [],
+  "within_group_permutations": []
+}

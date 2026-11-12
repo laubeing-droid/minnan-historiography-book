@@ -1,0 +1,61 @@
+{
+  "identity": "TEACHING_SCENARIO_NOT_OBSERVED_PROPAGATION",
+  "nodes": [
+    {
+      "id": "S02",
+      "kind": "modern_source",
+      "parents": [],
+      "claim": "现代网页记1152",
+      "locator": "第5章来源索引"
+    },
+    {
+      "id": "S04",
+      "kind": "modern_source",
+      "parents": [],
+      "claim": "现代网页转引1151",
+      "locator": "第5章来源索引；所引古籍仍未取得"
+    },
+    {
+      "id": "N02",
+      "kind": "research_note",
+      "parents": [
+        "S02",
+        "S04"
+      ],
+      "claim": "并列年代差异，不裁定"
+    },
+    {
+      "id": "G1",
+      "kind": "hypothetical_generated_claim",
+      "parents": [
+        "N02"
+      ],
+      "claim": "错误补成1151竣工1152启用"
+    },
+    {
+      "id": "W1",
+      "kind": "hypothetical_republication",
+      "parents": [
+        "G1"
+      ],
+      "claim": "转述同一错误解释"
+    },
+    {
+      "id": "W2",
+      "kind": "hypothetical_republication",
+      "parents": [
+        "G1"
+      ],
+      "claim": "另一页面重复"
+    },
+    {
+      "id": "R1",
+      "kind": "hypothetical_retrieval_answer",
+      "parents": [
+        "W1",
+        "W2"
+      ],
+      "claim": "误称多方证实"
+    }
+  ]
+}

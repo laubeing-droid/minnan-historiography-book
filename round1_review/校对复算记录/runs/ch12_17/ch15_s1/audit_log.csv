@@ -1,0 +1,11 @@
+﻿event,record,regions,status
+E01,R01,"[""A""]",accepted
+E01,R02,"[""A""]",accepted
+E02,R03,"[""A""]",accepted
+E03,R04,"[""B""]",accepted
+E04,R05,"[""B""]",accepted
+,R06,"[""B""]",unresolved
+E05,R07,"[""C""]",accepted
+E06,R08,"[""A""]",outside_window
+,R09,"[""C""]",unknown_date
+E07,R10,"[""C""]",invalid_site_period

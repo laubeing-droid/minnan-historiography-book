@@ -1,0 +1,87 @@
+{
+  "search": "random_141",
+  "selected": "C2",
+  "all_trials": [
+    {
+      "search": "random_141",
+      "seed": 141,
+      "trial": 0,
+      "candidate": "C0",
+      "validation_MAE": 1.5,
+      "status": "complete",
+      "error": null,
+      "elapsed_seconds": 3.05399953504093e-06
+    },
+    {
+      "search": "random_141",
+      "seed": 141,
+      "trial": 1,
+      "candidate": "C7",
+      "validation_MAE": null,
+      "status": "failed",
+      "error": "window exceeds available history",
+      "elapsed_seconds": 2.0229999790899456e-06
+    },
+    {
+      "search": "random_141",
+      "seed": 141,
+      "trial": 2,
+      "candidate": "C2",
+      "validation_MAE": 1.010047048965036,
+      "status": "complete",
+      "error": null,
+      "elapsed_seconds": 5.308000254444778e-06
+    },
+    {
+      "search": "random_141",
+      "seed": 141,
+      "trial": 3,
+      "candidate": "C7",
+      "validation_MAE": null,
+      "status": "failed",
+      "error": "window exceeds available history",
+      "elapsed_seconds": 1.1319998520775698e-06
+    },
+    {
+      "search": "random_141",
+      "seed": 141,
+      "trial": 4,
+      "candidate": "C0",
+      "validation_MAE": 1.5,
+      "status": "complete",
+      "error": null,
+      "elapsed_seconds": 2.2940002963878214e-06
+    },
+    {
+      "search": "random_141",
+      "seed": 141,
+      "trial": 5,
+      "candidate": "C4",
+      "validation_MAE": 1.654163029335115,
+      "status": "complete",
+      "error": null,
+      "elapsed_seconds": 6.279999979597051e-06
+    },
+    {
+      "search": "random_141",
+      "seed": 141,
+      "trial": 6,
+      "candidate": "C0",
+      "validation_MAE": 1.5,
+      "status": "complete",
+      "error": null,
+      "elapsed_seconds": 2.214000232925173e-06
+    },
+    {
+      "search": "random_141",
+      "seed": 141,
+      "trial": 7,
+      "candidate": "C5",
+      "validation_MAE": 1.6666666666666667,
+      "status": "complete",
+      "error": null,
+      "elapsed_seconds": 2.7039995984523557e-06
+    }
+  ],
+  "development_sha256": "640a4a0677dd0cb35f13eccc72de412345fbc3d2e6a8f9bf6f1ff8899423b2bf"
+}

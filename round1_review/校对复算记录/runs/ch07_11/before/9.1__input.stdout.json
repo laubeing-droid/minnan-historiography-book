@@ -1,0 +1,30 @@
+{
+  "execution": "reader_invoked",
+  "input_provenance": "编者新编教学数据 非史实 非模型输出",
+  "section": "9.1",
+  "result": {
+    "tasks": [
+      {
+        "id": "N01",
+        "task": "understanding",
+        "expected_output": "事件状态=拟议未行"
+      },
+      {
+        "id": "N02",
+        "task": "retrieval",
+        "expected_output": "返回含甲埠迁移线索的材料编号"
+      },
+      {
+        "id": "N03",
+        "task": "generation",
+        "expected_output": "写一句保留暂缓的摘要"
+      },
+      {
+        "id": "N04",
+        "task": "reasoning",
+        "expected_output": "“甲埠已经迁址”不受该句支持"
+      }
+    ],
+    "note": "Human-authored task specification, not an NLP model."
+  }
+}

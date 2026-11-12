@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py", line 340, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py", line 337, in main
+    result=run(data,path.parent)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py", line 251, in run
+    if not 0<=cfg['sample_size']<=len(ordered):raise ValueError('sample size out of range')
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: sample size out of range

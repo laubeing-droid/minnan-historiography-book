@@ -1,0 +1,15 @@
+{
+  "section": "10.8",
+  "title": "McNemar检验",
+  "status": "NOT_RUN",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "mcnemar",
+  "rows": [
+    {
+      "id": "x",
+      "a": 1,
+      "b": 1
+    }
+  ],
+  "config": {}
+}

@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch13/workflow.py", line 245, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch13/workflow.py", line 235, in main
+    result=fn[a.section](d) if a.section in fn else (backtest(d,a.section,out,a.phase,a.selection) if a.section in (7,10) else searches(d,out))
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch13/workflow.py", line 153, in backtest
+    if lock.get('protocol_sha256')!=protocol_hash:raise ValueError('protocol changed or legacy lock lacks protocol digest; rerun validation in a new directory')
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: protocol changed or legacy lock lacks protocol digest; rerun validation in a new directory

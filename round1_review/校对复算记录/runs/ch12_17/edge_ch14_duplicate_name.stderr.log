@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch14/workflow.py", line 191, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch14/workflow.py", line 180, in main
+    result=[reconcile,affine,geometry,boundaries,uncertainty][args.section-1](d)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch14/workflow.py", line 18, in reconcile
+    names=unique(d['names']); mentions=unique(d['mentions']); decisions=unique(d['decisions']); sources=unique(d['sources'])
+          ^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch14/workflow.py", line 9, in unique
+    if r['id'] in d: raise ValueError('duplicate id: '+r['id'])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: duplicate id: N1

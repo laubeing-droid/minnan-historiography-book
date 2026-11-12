@@ -1,0 +1,804 @@
+[
+  {
+    "page_id": "page_fbbc7a784a4c81918fc1fbfe37502349",
+    "title": "第2章 问题地图 定义空白 假设生成与可行性评估",
+    "url": "https://chatgpt.com/space/page_fbbc7a784a4c81918fc1fbfe37502349",
+    "updated_at": "2026-10-26T12:59:31.126912Z",
+    "sequence": 1,
+    "refs": [],
+    "export_path": "01_书稿Pages各版/第2章 问题地图 定义空白 假设生成与可行性评估_37502349.md"
+  },
+  {
+    "page_id": "page_06b2da40aaac8191aee109730fc684dd",
+    "title": "第1章 研究范围与通用方法 编校修订稿",
+    "url": "https://chatgpt.com/space/page_06b2da40aaac8191aee109730fc684dd",
+    "updated_at": "2026-10-27T08:10:48.414459Z",
+    "sequence": 0,
+    "refs": [],
+    "export_path": "01_书稿Pages各版/第1章 研究范围与通用方法 编校修订稿_0fc684dd.md"
+  },
+  {
+    "page_id": "page_e2aea04772348191b3dd826622385f30",
+    "title": "第2章 问题地图 定义空白 假设生成与可行性评估 编校修订稿",
+    "url": "https://chatgpt.com/space/page_e2aea04772348191b3dd826622385f30",
+    "updated_at": "2026-10-27T10:35:58.590374Z",
+    "sequence": 0,
+    "refs": [],
+    "export_path": "01_书稿Pages各版/第2章 问题地图 定义空白 假设生成与可行性评估 编校修订稿_22385f30.md"
+  },
+  {
+    "page_id": "page_ac7d94f6e1a48191a5528a1929f2df71",
+    "title": "第3章 从关键词到语义扩展的三轮文献检索 编校修订稿",
+    "url": "https://chatgpt.com/space/page_ac7d94f6e1a48191a5528a1929f2df71",
+    "updated_at": "2026-10-27T10:36:38.051814Z",
+    "sequence": 0,
+    "refs": [],
+    "export_path": "01_书稿Pages各版/第3章 从关键词到语义扩展的三轮文献检索 编校修订稿_29f2df71.md"
+  },
+  {
+    "page_id": "page_5f00e671031c8191bb7b0f9fd019336a",
+    "title": "第3章 从关键词到语义扩展的三轮文献检索",
+    "url": "https://chatgpt.com/space/page_5f00e671031c8191bb7b0f9fd019336a",
+    "updated_at": "2026-10-26T13:06:07.105716Z",
+    "sequence": 0,
+    "refs": [],
+    "export_path": "01_书稿Pages各版/第3章 从关键词到语义扩展的三轮文献检索_d019336a.md"
+  },
+  {
+    "page_id": "page_62a627ea7b448191bd54160610cc8304",
+    "title": "第4章 论文阅读与研究综述 编校修订稿",
+    "url": "https://chatgpt.com/space/page_62a627ea7b448191bd54160610cc8304",
+    "updated_at": "2026-10-27T10:28:58.650456Z",
+    "sequence": 1,
+    "refs": [],
+    "export_path": "01_书稿Pages各版/第4章 论文阅读与研究综述 编校修订稿_10cc8304.md"
+  },
+  {
+    "page_id": "page_58f758e3085c8191935ff5ca3cbd6d25",
+    "title": "第6章 检索增强与方法比较 编校修订稿",
+    "url": "https://chatgpt.com/space/page_58f758e3085c8191935ff5ca3cbd6d25",
+    "updated_at": "2026-10-27T10:29:54.561594Z",
+    "sequence": 1,
+    "refs": [
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9QR2tpbDIxeXhRaTN2dks5c0JVa2F3_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": false,
+        "mime_type": null,
+        "byte_size": null
+      }
+    ],
+    "export_path": "01_书稿Pages各版/第6章 检索增强与方法比较 编校修订稿_3cbd6d25.md"
+  },
+  {
+    "page_id": "page_2c3483f82cec8191be2394bcb80873c3",
+    "title": "第5章 按研究问题组织资料与知识库 编校修订稿",
+    "url": "https://chatgpt.com/space/page_2c3483f82cec8191be2394bcb80873c3",
+    "updated_at": "2026-10-27T10:36:54.162214Z",
+    "sequence": 0,
+    "refs": [],
+    "export_path": "01_书稿Pages各版/第5章 按研究问题组织资料与知识库 编校修订稿_b80873c3.md"
+  },
+  {
+    "page_id": "page_8c4a7138da708191bd9c292415bfc519",
+    "title": "第7章 数据整理 标注与分析数据集的建立 编校修订稿",
+    "url": "https://chatgpt.com/space/page_8c4a7138da708191bd9c292415bfc519",
+    "updated_at": "2026-10-27T10:37:10.702591Z",
+    "sequence": 0,
+    "refs": [
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9ZR0phTndIWExjUUdoVy1MTmZDdERn_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": false,
+        "mime_type": null,
+        "byte_size": null
+      }
+    ],
+    "export_path": "01_书稿Pages各版/第7章 数据整理 标注与分析数据集的建立 编校修订稿_15bfc519.md"
+  },
+  {
+    "page_id": "page_d13a62bab9c08191bcb43599187a1c7a",
+    "title": "第5章 按研究问题组织资料与知识库",
+    "url": "https://chatgpt.com/space/page_d13a62bab9c08191bcb43599187a1c7a",
+    "updated_at": "2026-10-26T13:22:46.526850Z",
+    "sequence": 0,
+    "refs": [],
+    "export_path": "01_书稿Pages各版/第5章 按研究问题组织资料与知识库_187a1c7a.md"
+  },
+  {
+    "page_id": "page_5e08150c45688191a4fe9007355698a2",
+    "title": "第11章 视觉分类检测与分割 编校修订稿",
+    "url": "https://chatgpt.com/space/page_5e08150c45688191a4fe9007355698a2",
+    "updated_at": "2026-10-27T10:31:23.489208Z",
+    "sequence": 2,
+    "refs": [
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9pSW1tYzk1OEV5VEVGcnQyb1p6NGhn_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": false,
+        "mime_type": null,
+        "byte_size": null
+      }
+    ],
+    "export_path": "01_书稿Pages各版/第11章 视觉分类检测与分割 编校修订稿_355698a2.md"
+  },
+  {
+    "page_id": "page_57118e394af48191ba254b14ab8f3dd3",
+    "title": "第7章 数据整理 标注与分析数据集的建立",
+    "url": "https://chatgpt.com/space/page_57118e394af48191ba254b14ab8f3dd3",
+    "updated_at": "2026-10-26T12:45:50.615930Z",
+    "sequence": 2,
+    "refs": [
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9ZR0phTndIWExjUUdoVy1MTmZDdERn_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": true,
+        "mime_type": "application/zip",
+        "byte_size": 155680
+      }
+    ],
+    "export_path": "01_书稿Pages各版/第7章 数据整理 标注与分析数据集的建立_ab8f3dd3.md"
+  },
+  {
+    "page_id": "page_11d14cbc82ac8191a750655e1cbf5763",
+    "title": "第10章 提示设计与文本结果评估 编校修订稿",
+    "url": "https://chatgpt.com/space/page_11d14cbc82ac8191a750655e1cbf5763",
+    "updated_at": "2026-10-27T10:31:05.193732Z",
+    "sequence": 4,
+    "refs": [
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9DMjRud29jUjRtUlpIcEM2c3FVM0xB_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": false,
+        "mime_type": null,
+        "byte_size": null
+      }
+    ],
+    "export_path": "01_书稿Pages各版/第10章 提示设计与文本结果评估 编校修订稿_1cbf5763.md"
+  },
+  {
+    "page_id": "page_8a42055457288191abba6e13b8289198",
+    "title": "第9章 文本任务与自然语言处理 编校修订稿",
+    "url": "https://chatgpt.com/space/page_8a42055457288191abba6e13b8289198",
+    "updated_at": "2026-10-27T10:30:32.989607Z",
+    "sequence": 4,
+    "refs": [
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9jSUxZdTMzblVkQWhFMjJnWlJMX1hR_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": false,
+        "mime_type": null,
+        "byte_size": null
+      }
+    ],
+    "export_path": "01_书稿Pages各版/第9章 文本任务与自然语言处理 编校修订稿_b8289198.md"
+  },
+  {
+    "page_id": "page_d87eff922890819198c8212bb3aeb599",
+    "title": "第8章 基线与实验设计 编校修订稿",
+    "url": "https://chatgpt.com/space/page_d87eff922890819198c8212bb3aeb599",
+    "updated_at": "2026-10-27T10:30:12.795418Z",
+    "sequence": 1,
+    "refs": [
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9DWm9zUzl4N2poMHpzV1cybVJVUEpR_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": false,
+        "mime_type": null,
+        "byte_size": null
+      }
+    ],
+    "export_path": "01_书稿Pages各版/第8章 基线与实验设计 编校修订稿_b3aeb599.md"
+  },
+  {
+    "page_id": "page_32b369758e6481918664906155664000",
+    "title": "第15章 空间分布与区域比较 编校修订稿",
+    "url": "https://chatgpt.com/space/page_32b369758e6481918664906155664000",
+    "updated_at": "2026-10-27T10:33:28.227498Z",
+    "sequence": 1,
+    "refs": [
+      {
+        "reference": "library-file:fde1_bGliZmlsZV94UFp1S2hlc1Uyc09rNExuZGNDTGNB_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": false,
+        "mime_type": null,
+        "byte_size": null
+      }
+    ],
+    "export_path": "01_书稿Pages各版/第15章 空间分布与区域比较 编校修订稿_55664000.md"
+  },
+  {
+    "page_id": "page_067e9c113bb48191b88194476fe49cd5",
+    "title": "第16章 人物组织与关系数据 编校修订稿",
+    "url": "https://chatgpt.com/space/page_067e9c113bb48191b88194476fe49cd5",
+    "updated_at": "2026-10-27T14:03:07.522426Z",
+    "sequence": 2,
+    "refs": [
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9GU1ZXakNtOGM1N3dBbWN6Zjhxc3Bn_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": false,
+        "mime_type": null,
+        "byte_size": null
+      },
+      {
+        "reference": "library-file:fde1_bGliZmlsZV82dHc3eUZudDZ0cjdmWFFXemVhdFdR_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": false,
+        "mime_type": null,
+        "byte_size": null
+      }
+    ],
+    "export_path": "01_书稿Pages各版/第16章 人物组织与关系数据 编校修订稿_6fe49cd5.md"
+  },
+  {
+    "page_id": "page_ea4a50c7d440819194f2801287c30c36",
+    "title": "第17章 社会关系网络 编校修订稿",
+    "url": "https://chatgpt.com/space/page_ea4a50c7d440819194f2801287c30c36",
+    "updated_at": "2026-10-27T14:03:44.783610Z",
+    "sequence": 3,
+    "refs": [
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9WdUo4RWYwek5iM3ZGbmU3Qk9qLWF3_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": false,
+        "mime_type": null,
+        "byte_size": null
+      }
+    ],
+    "export_path": "01_书稿Pages各版/第17章 社会关系网络 编校修订稿_87c30c36.md"
+  },
+  {
+    "page_id": "page_95d94f1b7a5c8191851d4a5f6a1fee41",
+    "title": "第14章 历史地名地图与时空数据 编校修订稿",
+    "url": "https://chatgpt.com/space/page_95d94f1b7a5c8191851d4a5f6a1fee41",
+    "updated_at": "2026-10-27T10:33:12.699531Z",
+    "sequence": 1,
+    "refs": [
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9KVkhVNzhVSTBNWkpTX1l6MkFkNGZn_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": false,
+        "mime_type": null,
+        "byte_size": null
+      }
+    ],
+    "export_path": "01_书稿Pages各版/第14章 历史地名地图与时空数据 编校修订稿_6a1fee41.md"
+  },
+  {
+    "page_id": "page_582eb750ee8c81919ecd3c1ecfedb26f",
+    "title": "第13章 时序基线与回测 编校修订稿",
+    "url": "https://chatgpt.com/space/page_582eb750ee8c81919ecd3c1ecfedb26f",
+    "updated_at": "2026-10-27T10:32:56.080243Z",
+    "sequence": 1,
+    "refs": [
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9qMWY1WGZ5a2QtS1N3bm91UDB0cEpR_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": false,
+        "mime_type": null,
+        "byte_size": null
+      },
+      {
+        "reference": "library-file:fde1_bGliZmlsZV91ODZtdUVzb3FyTUFINmNWcXhtd09n_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": false,
+        "mime_type": null,
+        "byte_size": null
+      },
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9sMnVaMmFMa09vTGR0RC1abEtaT0hn_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": false,
+        "mime_type": null,
+        "byte_size": null
+      },
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9PNUhXeHlaZXh3LWlZUjBteEh1aVpn_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": false,
+        "mime_type": null,
+        "byte_size": null
+      },
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9FR2NHR2I0ZUVfOFBoMG5vbHY5LUtB_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": false,
+        "mime_type": null,
+        "byte_size": null
+      },
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9CdVBvS1d4LXREX0tNMy1DUU9vR3N3_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": false,
+        "mime_type": null,
+        "byte_size": null
+      },
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9VaFdLU2dILTlGc2NYTWRfeDRpbFNn_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": false,
+        "mime_type": null,
+        "byte_size": null
+      },
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9MSUgxYmFkSVpQQjlMbElkVTNEQjVB_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": false,
+        "mime_type": null,
+        "byte_size": null
+      }
+    ],
+    "export_path": "01_书稿Pages各版/第13章 时序基线与回测 编校修订稿_cfedb26f.md"
+  },
+  {
+    "page_id": "page_795fa2da3a008191b7b1a758d828bccb",
+    "title": "第19章 研究自动化与智能体 编校修订稿",
+    "url": "https://chatgpt.com/space/page_795fa2da3a008191b7b1a758d828bccb",
+    "updated_at": "2026-10-27T10:34:47.224900Z",
+    "sequence": 2,
+    "refs": [],
+    "export_path": "01_书稿Pages各版/第19章 研究自动化与智能体 编校修订稿_d828bccb.md"
+  },
+  {
+    "page_id": "page_e5cb8431ebf881919386c971b3b37090",
+    "title": "第18章 集体研究与交叉核查 编校修订稿",
+    "url": "https://chatgpt.com/space/page_e5cb8431ebf881919386c971b3b37090",
+    "updated_at": "2026-10-27T10:34:24.194151Z",
+    "sequence": 2,
+    "refs": [],
+    "export_path": "01_书稿Pages各版/第18章 集体研究与交叉核查 编校修订稿_b3b37090.md"
+  },
+  {
+    "page_id": "page_3520310b333481918a75f4b2fb3f54a7",
+    "title": "第21章 学术核查与审稿回应 编校修订稿",
+    "url": "https://chatgpt.com/space/page_3520310b333481918a75f4b2fb3f54a7",
+    "updated_at": "2026-10-27T10:35:01.149793Z",
+    "sequence": 2,
+    "refs": [],
+    "export_path": "01_书稿Pages各版/第21章 学术核查与审稿回应 编校修订稿_fb3f54a7.md"
+  },
+  {
+    "page_id": "page_8c823c5ce4e08191a09657e665ca6b50",
+    "title": "第20章 从结果到图表论证 编校修订稿",
+    "url": "https://chatgpt.com/space/page_8c823c5ce4e08191a09657e665ca6b50",
+    "updated_at": "2026-10-27T08:57:00.743328Z",
+    "sequence": 3,
+    "refs": [],
+    "export_path": "01_书稿Pages各版/第20章 从结果到图表论证 编校修订稿_65ca6b50.md"
+  },
+  {
+    "page_id": "page_4fb0bb085fd48191be7e8e692f5c2e2f",
+    "title": "第22章 研究范式与研究者能力 编校修订稿",
+    "url": "https://chatgpt.com/space/page_4fb0bb085fd48191be7e8e692f5c2e2f",
+    "updated_at": "2026-10-27T13:13:38.231076Z",
+    "sequence": 3,
+    "refs": [],
+    "export_path": "01_书稿Pages各版/第22章 研究范式与研究者能力 编校修订稿_2f5c2e2f.md"
+  },
+  {
+    "page_id": "page_11231f1287488191a9b388e26d1adf45",
+    "title": "第1章 闽南文史的研究范围与通用方法基础",
+    "url": "https://chatgpt.com/space/page_11231f1287488191a9b388e26d1adf45",
+    "updated_at": "2026-10-26T12:38:48.296294Z",
+    "sequence": 0,
+    "refs": [],
+    "export_path": "01_书稿Pages各版/第1章 闽南文史的研究范围与通用方法基础_6d1adf45.md"
+  },
+  {
+    "page_id": "page_3934e9e2b72881918409ddceb715c645",
+    "title": "全书主题配比与案例完整性审读",
+    "url": "https://chatgpt.com/space/page_3934e9e2b72881918409ddceb715c645",
+    "updated_at": "2026-10-27T08:33:42.019570Z",
+    "sequence": 0,
+    "refs": [],
+    "export_path": "01_书稿Pages各版/全书主题配比与案例完整性审读_b715c645.md"
+  },
+  {
+    "page_id": "page_f26dd843ed048191b2ae11e931ef1d9c",
+    "title": "第6章 chunk Embedding BM25与RAG检索增强",
+    "url": "https://chatgpt.com/space/page_f26dd843ed048191b2ae11e931ef1d9c",
+    "updated_at": "2026-10-26T12:45:26.786301Z",
+    "sequence": 2,
+    "refs": [
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9QR2tpbDIxeXhRaTN2dks5c0JVa2F3_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": true,
+        "mime_type": "application/zip",
+        "byte_size": 118042
+      }
+    ],
+    "export_path": "01_书稿Pages各版/第6章 chunk Embedding BM25与RAG检索增强_31ef1d9c.md"
+  },
+  {
+    "page_id": "page_a5526a2ee12881918c7a42810c005971",
+    "title": "第4章 三遍阅读 论文拆解与研究综述",
+    "url": "https://chatgpt.com/space/page_a5526a2ee12881918c7a42810c005971",
+    "updated_at": "2026-10-26T13:16:54.337372Z",
+    "sequence": 0,
+    "refs": [],
+    "export_path": "01_书稿Pages各版/第4章 三遍阅读 论文拆解与研究综述_0c005971.md"
+  },
+  {
+    "page_id": "page_e8e131a1479c819196a798131b00e644",
+    "title": "第23章 价值判断景观与AI风险 编校修订稿",
+    "url": "https://chatgpt.com/space/page_e8e131a1479c819196a798131b00e644",
+    "updated_at": "2026-10-27T13:26:04.995269Z",
+    "sequence": 6,
+    "refs": [],
+    "export_path": "01_书稿Pages各版/第23章 价值判断景观与AI风险 编校修订稿_1b00e644.md"
+  },
+  {
+    "page_id": "page_7469fdd61db48191b549f00a837a1816",
+    "title": "第10章 Prompt 计算实验 文本结果评估与幻觉缓解",
+    "url": "https://chatgpt.com/space/page_7469fdd61db48191b549f00a837a1816",
+    "updated_at": "2026-10-26T12:47:04.030386Z",
+    "sequence": 2,
+    "refs": [
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9DMjRud29jUjRtUlpIcEM2c3FVM0xB_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": true,
+        "mime_type": "application/zip",
+        "byte_size": 235196
+      }
+    ],
+    "export_path": "01_书稿Pages各版/第10章 Prompt 计算实验 文本结果评估与幻觉缓解_837a1816.md"
+  },
+  {
+    "page_id": "page_a5c758763af88191aa989204f788aefa",
+    "title": "第14章 历史地名 地图与时空数据的建立",
+    "url": "https://chatgpt.com/space/page_a5c758763af88191aa989204f788aefa",
+    "updated_at": "2026-10-26T12:45:01.311024Z",
+    "sequence": 2,
+    "refs": [
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9KVkhVNzhVSTBNWkpTX1l6MkFkNGZn_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": true,
+        "mime_type": "application/zip",
+        "byte_size": 114433
+      }
+    ],
+    "export_path": "01_书稿Pages各版/第14章 历史地名 地图与时空数据的建立_f788aefa.md"
+  },
+  {
+    "page_id": "page_da75889e601c8191b03b4dd10553280d",
+    "title": "第9章 文本任务 词表示与自然语言处理方法选择",
+    "url": "https://chatgpt.com/space/page_da75889e601c8191b03b4dd10553280d",
+    "updated_at": "2026-10-26T12:46:39.438763Z",
+    "sequence": 2,
+    "refs": [
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9jSUxZdTMzblVkQWhFMjJnWlJMX1hR_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": true,
+        "mime_type": "application/zip",
+        "byte_size": 193141
+      }
+    ],
+    "export_path": "01_书稿Pages各版/第9章 文本任务 词表示与自然语言处理方法选择_0553280d.md"
+  },
+  {
+    "page_id": "page_d32b6fe239148191963bcd405b348d26",
+    "title": "第8章 基线 实验矩阵 消融与可复现操作",
+    "url": "https://chatgpt.com/space/page_d32b6fe239148191963bcd405b348d26",
+    "updated_at": "2026-10-26T12:46:14.527099Z",
+    "sequence": 2,
+    "refs": [
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9DWm9zUzl4N2poMHpzV1cybVJVUEpR_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": true,
+        "mime_type": "application/zip",
+        "byte_size": 201993
+      }
+    ],
+    "export_path": "01_书稿Pages各版/第8章 基线 实验矩阵 消融与可复现操作_5b348d26.md"
+  },
+  {
+    "page_id": "page_083c6b33cd04819183d18ac9ebd3a92b",
+    "title": "第11章 视觉分类 检测 分割与结果评估",
+    "url": "https://chatgpt.com/space/page_083c6b33cd04819183d18ac9ebd3a92b",
+    "updated_at": "2026-10-26T12:47:28.179816Z",
+    "sequence": 2,
+    "refs": [
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9pSW1tYzk1OEV5VEVGcnQyb1p6NGhn_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": true,
+        "mime_type": "application/zip",
+        "byte_size": 359126
+      }
+    ],
+    "export_path": "01_书稿Pages各版/第11章 视觉分类 检测 分割与结果评估_ebd3a92b.md"
+  },
+  {
+    "page_id": "page_5900966c785c81919c5c635432e4b2cc",
+    "title": "第19章 研究任务自动化 智能体与模板维护",
+    "url": "https://chatgpt.com/space/page_5900966c785c81919c5c635432e4b2cc",
+    "updated_at": "2026-10-26T13:52:53.025219Z",
+    "sequence": 1,
+    "refs": [],
+    "export_path": "01_书稿Pages各版/第19章 研究任务自动化 智能体与模板维护_32e4b2cc.md"
+  },
+  {
+    "page_id": "page_fbf6353153c081918f856ca25c91ec90",
+    "title": "第16章 人物 组织与关系数据的建立",
+    "url": "https://chatgpt.com/space/page_fbf6353153c081918f856ca25c91ec90",
+    "updated_at": "2026-10-26T12:50:58.574579Z",
+    "sequence": 2,
+    "refs": [
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9GU1ZXakNtOGM1N3dBbWN6Zjhxc3Bn_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": true,
+        "mime_type": "application/zip",
+        "byte_size": 20235
+      },
+      {
+        "reference": "library-file:fde1_bGliZmlsZV82dHc3eUZudDZ0cjdmWFFXemVhdFdR_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": true,
+        "mime_type": "application/zip",
+        "byte_size": 17120
+      }
+    ],
+    "export_path": "01_书稿Pages各版/第16章 人物 组织与关系数据的建立_5c91ec90.md"
+  },
+  {
+    "page_id": "page_90165abe281c8191bedd2eed11730e23",
+    "title": "第17章 社会关系网络的描述 比较与解释",
+    "url": "https://chatgpt.com/space/page_90165abe281c8191bedd2eed11730e23",
+    "updated_at": "2026-10-26T13:40:25.440390Z",
+    "sequence": 1,
+    "refs": [
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9WdUo4RWYwek5iM3ZGbmU3Qk9qLWF3_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": true,
+        "mime_type": "application/zip",
+        "byte_size": 29990
+      }
+    ],
+    "export_path": "01_书稿Pages各版/第17章 社会关系网络的描述 比较与解释_11730e23.md"
+  },
+  {
+    "page_id": "page_67c02241a9c4819190f0f73f6150e56e",
+    "title": "第15章 空间分布 区域比较与人地关系分析",
+    "url": "https://chatgpt.com/space/page_67c02241a9c4819190f0f73f6150e56e",
+    "updated_at": "2026-10-26T12:47:55.750615Z",
+    "sequence": 2,
+    "refs": [
+      {
+        "reference": "library-file:fde1_bGliZmlsZV94UFp1S2hlc1Uyc09rNExuZGNDTGNB_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": true,
+        "mime_type": "application/zip",
+        "byte_size": 140288
+      }
+    ],
+    "export_path": "01_书稿Pages各版/第15章 空间分布 区域比较与人地关系分析_6150e56e.md"
+  },
+  {
+    "page_id": "page_088cef618a9c8191bb0f153c3479f590",
+    "title": "第18章 集体研究的分工 共用资料与交叉核查",
+    "url": "https://chatgpt.com/space/page_088cef618a9c8191bb0f153c3479f590",
+    "updated_at": "2026-10-26T13:35:38.732498Z",
+    "sequence": 0,
+    "refs": [],
+    "export_path": "01_书稿Pages各版/第18章 集体研究的分工 共用资料与交叉核查_3479f590.md"
+  },
+  {
+    "page_id": "page_a5484babfbec819195390ebd2ecc78b4",
+    "title": "第21章 学术核查 投稿与审稿回应",
+    "url": "https://chatgpt.com/space/page_a5484babfbec819195390ebd2ecc78b4",
+    "updated_at": "2026-10-26T13:58:05.445034Z",
+    "sequence": 1,
+    "refs": [],
+    "export_path": "01_书稿Pages各版/第21章 学术核查 投稿与审稿回应_2ecc78b4.md"
+  },
+  {
+    "page_id": "page_45705c1de45881918cc59010064afd0b",
+    "title": "第23章 验证 价值判断 景观社会 学术机制与AI信息回流",
+    "url": "https://chatgpt.com/space/page_45705c1de45881918cc59010064afd0b",
+    "updated_at": "2026-10-26T14:12:12.132576Z",
+    "sequence": 0,
+    "refs": [],
+    "export_path": "01_书稿Pages各版/第23章 验证 价值判断 景观社会 学术机制与AI信息回流_064afd0b.md"
+  },
+  {
+    "page_id": "page_00a7a29729cc8191ba69abb833cbdbfb",
+    "title": "第20章 从分析结果到图表 论证与论文",
+    "url": "https://chatgpt.com/space/page_00a7a29729cc8191ba69abb833cbdbfb",
+    "updated_at": "2026-10-26T13:58:51.232976Z",
+    "sequence": 2,
+    "refs": [],
+    "export_path": "01_书稿Pages各版/第20章 从分析结果到图表 论证与论文_33cbdbfb.md"
+  },
+  {
+    "page_id": "page_1c5a89ef3fa08191bb35396ea08c2dc7",
+    "title": "第13章 statsmodels 基线 滑窗回测与时序比较 全文草稿",
+    "url": "https://chatgpt.com/space/page_1c5a89ef3fa08191bb35396ea08c2dc7",
+    "updated_at": "2026-10-26T14:43:16.937960Z",
+    "sequence": 5,
+    "refs": [
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9qMWY1WGZ5a2QtS1N3bm91UDB0cEpR_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": true,
+        "mime_type": "application/zip",
+        "byte_size": 15692
+      },
+      {
+        "reference": "library-file:fde1_bGliZmlsZV91ODZtdUVzb3FyTUFINmNWcXhtd09n_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": true,
+        "mime_type": "application/zip",
+        "byte_size": 15465
+      },
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9sMnVaMmFMa09vTGR0RC1abEtaT0hn_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": true,
+        "mime_type": "application/zip",
+        "byte_size": 17500
+      },
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9PNUhXeHlaZXh3LWlZUjBteEh1aVpn_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": true,
+        "mime_type": "application/zip",
+        "byte_size": 16645
+      },
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9FR2NHR2I0ZUVfOFBoMG5vbHY5LUtB_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": true,
+        "mime_type": "application/zip",
+        "byte_size": 18915
+      },
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9CdVBvS1d4LXREX0tNMy1DUU9vR3N3_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": true,
+        "mime_type": "application/zip",
+        "byte_size": 18556
+      },
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9VaFdLU2dILTlGc2NYTWRfeDRpbFNn_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": true,
+        "mime_type": "application/zip",
+        "byte_size": 13552
+      },
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9MSUgxYmFkSVpQQjlMbElkVTNEQjVB_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": true,
+        "mime_type": "application/zip",
+        "byte_size": 27693
+      }
+    ],
+    "export_path": "01_书稿Pages各版/第13章 statsmodels 基线 滑窗回测与时序比较 全文草稿_a08c2dc7.md"
+  },
+  {
+    "page_id": "page_1ef0fadefaf88191b6668a6105d9fb62",
+    "title": "第22章 研究范式 好问题与研究者能力",
+    "url": "https://chatgpt.com/space/page_1ef0fadefaf88191b6668a6105d9fb62",
+    "updated_at": "2026-10-26T14:02:02.264497Z",
+    "sequence": 0,
+    "refs": [],
+    "export_path": "01_书稿Pages各版/第22章 研究范式 好问题与研究者能力_05d9fb62.md"
+  },
+  {
+    "page_id": "page_869826b1986081918fb218f310605ce8",
+    "title": "书稿编校修订稿",
+    "url": "https://chatgpt.com/space/page_869826b1986081918fb218f310605ce8",
+    "updated_at": "2026-10-27T10:44:54.424483Z",
+    "sequence": 6,
+    "refs": [
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9TeHdDc2hwd1FjWkpLMmF2dWtiWmd3_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": true,
+        "mime_type": "application/zip",
+        "byte_size": 657077
+      },
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9tQzloeXRIeVB0OWhaVWRZV3hEQ2ln_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": true,
+        "mime_type": "application/zip",
+        "byte_size": 1174437
+      },
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9FZWRnQmhKQUFEaXpEZkVKbzFaSmdn_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": true,
+        "mime_type": "application/zip",
+        "byte_size": 1177326
+      },
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9KUUNWaVJneEdoUU9JRXdac3VwYjdn_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": true,
+        "mime_type": "application/zip",
+        "byte_size": 3136930
+      }
+    ],
+    "export_path": "01_书稿Pages各版/书稿编校修订稿_10605ce8.md"
+  },
+  {
+    "page_id": "page_e55caadb7e4c81918d7369d234dc183a",
+    "title": "一种闽南文史的未来：基于人工智能与现代研究方法",
+    "url": "https://chatgpt.com/space/page_e55caadb7e4c81918d7369d234dc183a",
+    "updated_at": "2026-10-26T14:26:23.844100Z",
+    "sequence": 20,
+    "refs": [],
+    "export_path": "01_书稿Pages各版/一种闽南文史的未来：基于人工智能与现代研究方法_34dc183a.md"
+  },
+  {
+    "page_id": "page_c68a372618dc8191966745da73df0d7a",
+    "title": "第5章 资料与知识库 写作草稿 未校对",
+    "url": "https://chatgpt.com/space/page_c68a372618dc8191966745da73df0d7a",
+    "updated_at": "2026-10-28T05:55:36.232716Z",
+    "sequence": 0,
+    "refs": [],
+    "export_path": "01_书稿Pages各版/第5章 资料与知识库 写作草稿 未校对_73df0d7a.md"
+  },
+  {
+    "page_id": "page_dba3274404048191a1c551307c4e8237",
+    "title": "第6章 检索增强与方法比较 写作草稿 未校对",
+    "url": "https://chatgpt.com/space/page_dba3274404048191a1c551307c4e8237",
+    "updated_at": "2026-10-28T05:52:48.714663Z",
+    "sequence": 0,
+    "refs": [
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9QR2tpbDIxeXhRaTN2dks5c0JVa2F3_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": false,
+        "mime_type": null,
+        "byte_size": null
+      }
+    ],
+    "export_path": "01_书稿Pages各版/第6章 检索增强与方法比较 写作草稿 未校对_7c4e8237.md"
+  },
+  {
+    "page_id": "page_b12c6582550c8191b3f5fa354109bf89",
+    "title": "第19章 研究自动化与智能体 写作草稿 未校对",
+    "url": "https://chatgpt.com/space/page_b12c6582550c8191b3f5fa354109bf89",
+    "updated_at": "2026-10-28T05:59:38.084494Z",
+    "sequence": 0,
+    "refs": [],
+    "export_path": "01_书稿Pages各版/第19章 研究自动化与智能体 写作草稿 未校对_4109bf89.md"
+  },
+  {
+    "page_id": "page_1bacbe29793481918540da0241559779",
+    "title": "第20章 从结果到图表论证 写作草稿 未校对",
+    "url": "https://chatgpt.com/space/page_1bacbe29793481918540da0241559779",
+    "updated_at": "2026-10-28T05:49:50.689682Z",
+    "sequence": 1,
+    "refs": [],
+    "export_path": "01_书稿Pages各版/第20章 从结果到图表论证 写作草稿 未校对_41559779.md"
+  },
+  {
+    "page_id": "page_b658b5fd6c388191a97dd9adb95de35a",
+    "title": "第21章 学术核查与审稿回应 写作草稿 未校对",
+    "url": "https://chatgpt.com/space/page_b658b5fd6c388191a97dd9adb95de35a",
+    "updated_at": "2026-10-28T05:50:21.169887Z",
+    "sequence": 0,
+    "refs": [],
+    "export_path": "01_书稿Pages各版/第21章 学术核查与审稿回应 写作草稿 未校对_b95de35a.md"
+  },
+  {
+    "page_id": "page_0a5e592ea9e8819184c2453724ded9ab",
+    "title": "第22章 研究范式与研究者能力 写作草稿 未校对",
+    "url": "https://chatgpt.com/space/page_0a5e592ea9e8819184c2453724ded9ab",
+    "updated_at": "2026-10-28T05:48:28.139136Z",
+    "sequence": 0,
+    "refs": [],
+    "export_path": "01_书稿Pages各版/第22章 研究范式与研究者能力 写作草稿 未校对_24ded9ab.md"
+  },
+  {
+    "page_id": "page_1dc5503490cc81918f9aa0cde5011c23",
+    "title": "第23章 价值判断景观与AI风险 写作草稿 未校对",
+    "url": "https://chatgpt.com/space/page_1dc5503490cc81918f9aa0cde5011c23",
+    "updated_at": "2026-10-28T05:54:22.443217Z",
+    "sequence": 0,
+    "refs": [],
+    "export_path": "01_书稿Pages各版/第23章 价值判断景观与AI风险 写作草稿 未校对_e5011c23.md"
+  },
+  {
+    "page_id": "page_f45818d4570c8191a4a59b3a4492b69b",
+    "title": "完整写作草稿 未校对 20261028",
+    "url": "https://chatgpt.com/space/page_f45818d4570c8191a4a59b3a4492b69b",
+    "updated_at": "2026-10-28T06:38:38.728878Z",
+    "sequence": 4,
+    "refs": [
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9ydVRjZy0tMzZwdmZHcnBRYU12dGtR_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": true,
+        "mime_type": "application/zip",
+        "byte_size": 1355583
+      },
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9NWklHYUdERUtvdFNsbEU5OU5rbml3_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": true,
+        "mime_type": "application/zip",
+        "byte_size": 2464048
+      },
+      {
+        "reference": "library-file:fde1_bGliZmlsZV9Ibl9CNVNwM0pIXzB3S3ZQbUZ4VC1R_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": true,
+        "mime_type": "application/zip",
+        "byte_size": 2479993
+      },
+      {
+        "reference": "library-file:fde1_bGliZmlsZV80MUkxWTJqSXNIeEZqVmNCR1NPMWd3_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+        "metadata_available": true,
+        "mime_type": "application/zip",
+        "byte_size": 23189
+      }
+    ],
+    "export_path": "01_书稿Pages各版/完整写作草稿 未校对 20261028_4492b69b.md"
+  }
+]

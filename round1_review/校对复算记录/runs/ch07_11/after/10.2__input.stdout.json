@@ -1,0 +1,24 @@
+{
+  "execution": "reader_invoked",
+  "input_provenance": "编者新编教学数据 非史实 非模型输出",
+  "section": "10.2",
+  "result": [
+    {
+      "k": 0,
+      "example_ids": [],
+      "test_id": "S03",
+      "prompt": "\n待判断：尚未迁。",
+      "response_status": "NOT_RUN"
+    },
+    {
+      "k": 2,
+      "example_ids": [
+        "S01",
+        "S02"
+      ],
+      "test_id": "S03",
+      "prompt": "拟迁，尚在议。 => 拟议未定\n现已迁至新岸。 => 已迁\n待判断：尚未迁。",
+      "response_status": "NOT_RUN"
+    }
+  ]
+}

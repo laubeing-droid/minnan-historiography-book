@@ -1,0 +1,23 @@
+{
+  "section": "11.4",
+  "title": "从CNN到ViT：架构与迁移路线",
+  "status": "EXECUTED_PASS",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "architecture",
+  "rows": [
+    {
+      "id": "A01",
+      "height": 224,
+      "width": 224,
+      "patch": 16
+    },
+    {
+      "id": "A02",
+      "height": 448,
+      "width": 448,
+      "patch": 16
+    }
+  ],
+  "config": {},
+  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
+}

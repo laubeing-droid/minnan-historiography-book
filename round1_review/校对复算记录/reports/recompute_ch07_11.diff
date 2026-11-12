@@ -1,0 +1,3107 @@
+--- baseline/ch07/7.1/README.md
++++ revision/ch07/7.1/README.md
+@@ -23,7 +23,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -35,4 +35,4 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+--- baseline/ch07/7.1/input.json
++++ revision/ch07/7.1/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "7.1",
+   "title": "观察单位 字段与数据字典",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "units",
+   "rows": [
+@@ -49,5 +49,6 @@
+       "event"
+     ],
+     "unit": "一行是一次被提及的事件，拟议事件另记状态"
+-  }
+-}+  },
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch07/7.2/README.md
++++ revision/ch07/7.2/README.md
+@@ -23,7 +23,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -35,6 +35,6 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+ 
+-第二个问题版本见input_v2.json，只把派生选择改为复课，不改变原始三行。需要运行时使用 `python -B ../workbook.py --input input_v2.json`；仍为NOT_RUN。
++第二个问题版本见input_v2.json，只把派生选择改为复课，不改变原始三行。需要运行时使用 `python -B ../workbook.py --input input_v2.json`；此第二版本亦已实际执行。
+--- baseline/ch07/7.2/input.json
++++ revision/ch07/7.2/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "7.2",
+   "title": "原始数据 派生数据与版本化",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "derive",
+   "rows": [
+@@ -41,5 +41,6 @@
+   ],
+   "config": {
+     "select_event": "停讲"
+-  }
+-}+  },
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch07/7.2/input_v2.json
++++ revision/ch07/7.2/input_v2.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "7.2",
+   "title": "原始数据 派生数据与版本化",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "derive",
+   "rows": [
+@@ -42,5 +42,6 @@
+   "config": {
+     "select_event": "复课"
+   },
+-  "version": "v2_reopening_question"
+-}+  "version": "v2_reopening_question",
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch07/7.3/README.md
++++ revision/ch07/7.3/README.md
+@@ -23,7 +23,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -35,4 +35,4 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+--- baseline/ch07/7.3/input.json
++++ revision/ch07/7.3/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "7.3",
+   "title": "缺失 歧义与时空不确定性编码",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "missing",
+   "rows": [
+@@ -46,5 +46,6 @@
+       "place_status": "region"
+     }
+   ],
+-  "config": {}
+-}+  "config": {},
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch07/7.4/README.md
++++ revision/ch07/7.4/README.md
+@@ -23,7 +23,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -35,4 +35,4 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+--- baseline/ch07/7.4/input.json
++++ revision/ch07/7.4/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "7.4",
+   "title": "标注指南 一致性与歧义仲裁",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "agreement",
+   "rows": [
+@@ -34,5 +34,6 @@
+       "final": "未停讲"
+     }
+   ],
+-  "config": {}
+-}+  "config": {},
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch07/7.5/README.md
++++ revision/ch07/7.5/README.md
+@@ -23,7 +23,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -35,4 +35,4 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+--- baseline/ch07/7.5/input.json
++++ revision/ch07/7.5/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "7.5",
+   "title": "多语言 跨语言与资源不平等",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "coverage",
+   "rows": [
+@@ -36,5 +36,6 @@
+       "correct": 1
+     }
+   ],
+-  "config": {}
+-}+  "config": {},
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch07/7.6/README.md
++++ revision/ch07/7.6/README.md
+@@ -23,7 +23,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -35,4 +35,8 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
++
++## 本次复核确认的页号边界
++
++页号以来源加页号联合识别，优先取source_id，其次source；不同书的“1”页不是同一原页。来源缺失时不凭裸页号强行合组，须先补查来源。人物和来源的传递关联仍按配置合并。
+--- baseline/ch07/7.6/input.json
++++ revision/ch07/7.6/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "7.6",
+   "title": "数据切分与泄漏检查",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "split",
+   "rows": [
+@@ -60,5 +60,6 @@
+       "source",
+       "page"
+     ]
+-  }
+-}+  },
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch07/7.7/README.md
++++ revision/ch07/7.7/README.md
+@@ -25,7 +25,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -37,4 +37,4 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+--- baseline/ch07/7.7/input.json
++++ revision/ch07/7.7/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "7.7",
+   "title": "数据卡与 Datasheet",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "card",
+   "rows": [
+@@ -63,5 +63,6 @@
+       "status": "NOT_RUN",
+       "scope": "用于理解分组，不估计历史总体"
+     }
+-  }
+-}+  },
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch07/EXECUTION_STATUS.json
++++ revision/ch07/EXECUTION_STATUS.json
+@@ -1,7 +1,138 @@
+ {
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "date": "2026-10-30",
+-  "scope": "All newly authored scripts, model calls, scores and resampling calculations were not executed in this delivery.",
+-  "inputs": "Synthetic fixtures or human-fillable plans. No newly collected historical records.",
+-  "dependencies": "Python standard library only; no install required by the package."
+-}+  "scope": "只对本章下列实际输入/命令及报告中的边界有效；共享脚本其他章分支并非在每个副本逐一独立运行。",
++  "environment": {
++    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
++    "platform": "linux"
++  },
++  "script_sha256": "2573d9dc39a21faa129106521216a8ab6a75988af373b19c8938fae30351c58b",
++  "sections": [
++    {
++      "section": "7.1",
++      "title": "观察单位 字段与数据字典",
++      "mode": "units",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/7.1/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "f7b3cf60ee41372d8795de68f43729f8deba0b8396e30e2d145f4fe4b6792893"
++    },
++    {
++      "section": "7.2",
++      "title": "原始数据 派生数据与版本化",
++      "mode": "derive",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/7.2/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "39bc75221a2e6f32f1b615d2cb4e86e7b8dcc74da598bc4767a84f23ca52bd8a"
++    },
++    {
++      "section": "7.3",
++      "title": "缺失 歧义与时空不确定性编码",
++      "mode": "missing",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/7.3/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "77a857fbd813b04a88bf098356db80a59b3eee4c4a9e1d90fc240149aa6e61c3"
++    },
++    {
++      "section": "7.4",
++      "title": "标注指南 一致性与歧义仲裁",
++      "mode": "agreement",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/7.4/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "128f3cbc4d33fdb97f1b65e7ecbb1d3b63dcb16590ffd8a8135839f25b6218a1"
++    },
++    {
++      "section": "7.5",
++      "title": "多语言 跨语言与资源不平等",
++      "mode": "coverage",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/7.5/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "48b2727f4b13841372ab8bfc6e9ab27fd75d36677d6e09ab862c31f5c4188d2e"
++    },
++    {
++      "section": "7.6",
++      "title": "数据切分与泄漏检查",
++      "mode": "split",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/7.6/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "873aee3dd2a4e5ad55ee21805c78fe66d26f7c352c080d800f20017a6107315a"
++    },
++    {
++      "section": "7.7",
++      "title": "数据卡与 Datasheet",
++      "mode": "card",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "NON_RUNNING_TEMPLATE",
++      "scope_note": "卡片字段存在性检查，不是数据有效性认证",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/7.7/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "639344f58265fb95cc74c1fefe40c35a8edb2fe44e997eaff919d9385ab1bbb4"
++    }
++  ],
++  "model_calls": "NOT_RUN",
++  "real_feature_extraction": "NOT_RUN",
++  "public_benchmark_runs": "NOT_RUN",
++  "blank_worksheets_and_result_templates": "NON_RUNNING_TEMPLATE",
++  "fixture_embedded_statuses": "教学追踪行、卡片、示例配置中的NOT_RUN保留其原对象含义，不因运行检查器而改成模型完成。",
++  "report": "../../../reports/recompute_ch07_11.md",
++  "raw_final_manifest": "../../../runs/ch07_11/verified/manifest.json"
++}
+--- baseline/ch07/README.md
++++ revision/ch07/README.md
+@@ -8,4 +8,4 @@
+ - [7.6 数据切分与泄漏检查](7.6/README.md) — 关联组清单、现有泄漏报告与修订后的切分表
+ - [7.7 数据卡与 Datasheet](7.7/README.md) — 已填教学数据卡和可迁移的空白模板
+ 
+-全部新增程序状态为NOT_RUN；没有模型调用、复算结果或伪造运行日志。各节输入相互独立，不能叠加为历史样本。旧稿中出现的旧程序名和旧输出不再承担操作入口，本包以各节README和input.json为准。
++本章所列标准库教学命令已于2026-10-30实际运行，关键数值经独立计数或公式核对；详见[运行记录](EXECUTION_STATUS.json)。模型调用、公开基准运行、真实特征提取和未填人工工作表仍未执行，不把模板检查当成模型实验。各节输入相互独立，不能叠加为历史样本。旧稿中出现的旧程序名和旧输出不再承担操作入口，本包以各节README和input.json为准。
+--- baseline/ch07/workbook.py
++++ revision/ch07/workbook.py
+@@ -1,5 +1,6 @@
+ #!/usr/bin/env python3
+-"""STATUS: NOT_RUN. Authored teaching implementation, not validated execution.
++"""Locally exercised teaching implementation; see EXECUTION_STATUS.json.
++Execution checks do not validate historical claims or execute model calls.
+ Only reads the requested local JSON and PGM files and prints JSON to stdout.
+ No model, network, dependency install, external command, deletion or overwrite.
+ Examples are synthetic. Do not cite outputs as historical findings.
+@@ -70,6 +71,10 @@
+         for i,r in enumerate(rows):
+             value=r.get(key)
+             if value in (None,''): continue
++            if key=='page':
++                source=r.get('source_id') or r.get('source')
++                if source in (None,''): continue  # Unknown provenance cannot identify a shared page.
++                value=(source,value)
+             if value in seen: parent[root(i)]=root(seen[value])
+             else: seen[value]=i
+     groups=collections.defaultdict(list)
+@@ -91,7 +96,11 @@
+ 
+ def bootstrap(rows,cfg):
+     if not rows: raise ValueError('empty bootstrap sample')
+-    rng=random.Random(cfg['seed']); unit=cfg.get('unit','row')
++    unit=cfg.get('unit','row')
++    if unit not in ('row','source'): raise ValueError('bootstrap unit must be row or source')
++    if type(cfg['resamples']) is not int or cfg['resamples']<=0: raise ValueError('resamples must be a positive integer')
++    if not 0<cfg['confidence']<1: raise ValueError('confidence must be between 0 and 1')
++    rng=random.Random(cfg['seed'])
+     groups=collections.defaultdict(list)
+     for r in rows:groups[r['source'] if unit=='source' else r['id']].append(r)
+     groups=list(groups.values());values=[]
+@@ -121,14 +130,16 @@
+ 
+ def overlap(rows,cfg):
+     result=[]
++    if type(cfg['bleu_order']) is not int or cfg['bleu_order']<1: raise ValueError('bleu order must be a positive integer')
+     for r in rows:
+         ref=r['reference'].split();cand=r['candidate'].split();prec=[]
++        if not ref: raise ValueError('empty reference')
+         for n in range(1,cfg['bleu_order']+1):
+             rc=collections.Counter(tuple(ref[i:i+n]) for i in range(len(ref)-n+1))
+             cc=collections.Counter(tuple(cand[i:i+n]) for i in range(len(cand)-n+1))
+-            prec.append(div(sum(min(v,rc[k]) for k,v in cc.items()),sum(cc.values())) or 0.0)
++            prec.append(div(sum(min(v,rc[k]) for k,v in cc.items()),sum(cc.values())))
+         bp=0 if not cand else min(1,math.exp(1-len(ref)/len(cand)))
+-        bleu=0 if any(p==0 for p in prec) else bp*math.exp(sum(math.log(p) for p in prec)/len(prec))
++        bleu=0 if not cand else None if any(p is None for p in prec) else 0 if any(p==0 for p in prec) else bp*math.exp(sum(math.log(p) for p in prec)/len(prec))
+         common=sum((collections.Counter(ref)&collections.Counter(cand)).values())
+         longest=lcs(ref,cand)
+         def prf(hit):return {'precision':div(hit,len(cand)),'recall':div(hit,len(ref)),'f1':div(2*hit,len(ref)+len(cand))}
+@@ -192,6 +203,7 @@
+ 
+ 
+ def detection(rows,threshold):
++    unique(rows,'id')
+     refs=[r for r in rows if r['kind']=='reference'];preds=sorted([r for r in rows if r['kind']=='prediction'],key=lambda r:(-r['score'],r['id']))
+     used=set();out=[]
+     for r in preds:
+@@ -213,6 +225,7 @@
+ 
+ 
+ def segmentation(rows):
++    unique(rows,'id')
+     out=[]
+     for r in rows:
+         g=r['reference'];p=r['prediction']
+@@ -320,7 +333,7 @@
+         per=[]
+         for label in sorted({r['label'] for r in rows}):
+             subset=[r for r in rows if r['label']==label];per.append({'label':label,'support':len(subset),'recall':sum(r['pred']==r['label'] for r in subset)/len(subset),'sources':sorted({r['source'] for r in subset})})
+-        return {'per_class':per,'macro_recall':sum(r['recall'] for r in per)/len(per),'micro_accuracy':div(sum(r['label']==r['pred'] for r in rows),len(rows))}
++        return {'per_class':per,'macro_recall':div(sum(r['recall'] for r in per),len(per)),'micro_accuracy':div(sum(r['label']==r['pred'] for r in rows),len(rows))}
+     if mode=='shift':
+         out=[]
+         for source in sorted({r['source'] for r in rows}):
+--- baseline/ch08/8.1/README.md
++++ revision/ch08/8.1/README.md
+@@ -23,7 +23,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -35,4 +35,4 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+--- baseline/ch08/8.1/input.json
++++ revision/ch08/8.1/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "8.1",
+   "title": "任务指标与简单基线",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "baseline",
+   "rows": [
+@@ -42,5 +42,6 @@
+       "gold": 1
+     }
+   ],
+-  "config": {}
+-}+  "config": {},
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch08/8.2/README.md
++++ revision/ch08/8.2/README.md
+@@ -23,7 +23,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -35,4 +35,4 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+--- baseline/ch08/8.2/input.json
++++ revision/ch08/8.2/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "8.2",
+   "title": "对照原则 变量控制与实验矩阵",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "matrix",
+   "rows": [
+@@ -42,5 +42,6 @@
+       "gold": 1
+     }
+   ],
+-  "config": {}
+-}+  "config": {},
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch08/8.3/README.md
++++ revision/ch08/8.3/README.md
+@@ -23,7 +23,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -35,4 +35,4 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+--- baseline/ch08/8.3/input.json
++++ revision/ch08/8.3/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "8.3",
+   "title": "消融树与组件贡献",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "ablation",
+   "rows": [
+@@ -42,5 +42,6 @@
+       "gold": 1
+     }
+   ],
+-  "config": {}
+-}+  "config": {},
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch08/8.4/README.md
++++ revision/ch08/8.4/README.md
+@@ -24,7 +24,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -36,6 +36,6 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+ 
+ 本节真实输入为六条教学句，抽三条。另附input_seed29.json、input_reverse_sort.json、input_reverse_unsorted.json，每份只改变指定条件。运行时把--input替换为对应文件。没有预先写入抽样名单；所有变体为NOT_RUN。观察参数是否真的进入抽样函数，再比较同配置重复、换种子与变输入次序。
+--- baseline/ch08/8.4/input.json
++++ revision/ch08/8.4/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "8.4",
+   "title": "随机种子 环境锁定与 YAML 配置",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "config",
+   "rows": [
+@@ -55,5 +55,6 @@
+     "sample_size": 3,
+     "input_order": "as_read",
+     "population_order": "id_ascending"
+-  }
+-}+  },
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch08/8.4/input_reverse_sort.json
++++ revision/ch08/8.4/input_reverse_sort.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "8.4",
+   "title": "随机种子 环境锁定与 YAML 配置",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "config",
+   "rows": [
+@@ -55,5 +55,6 @@
+     "sample_size": 3,
+     "input_order": "reversed",
+     "population_order": "id_ascending"
+-  }
+-}+  },
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch08/8.4/input_reverse_unsorted.json
++++ revision/ch08/8.4/input_reverse_unsorted.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "8.4",
+   "title": "随机种子 环境锁定与 YAML 配置",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "config",
+   "rows": [
+@@ -55,5 +55,6 @@
+     "sample_size": 3,
+     "input_order": "reversed",
+     "population_order": "as_read"
+-  }
+-}+  },
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch08/8.4/input_seed29.json
++++ revision/ch08/8.4/input_seed29.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "8.4",
+   "title": "随机种子 环境锁定与 YAML 配置",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "config",
+   "rows": [
+@@ -55,5 +55,6 @@
+     "sample_size": 3,
+     "input_order": "as_read",
+     "population_order": "id_ascending"
+-  }
+-}+  },
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch08/8.5/README.md
++++ revision/ch08/8.5/README.md
+@@ -23,7 +23,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -35,4 +35,4 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+--- baseline/ch08/8.5/input.json
++++ revision/ch08/8.5/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "8.5",
+   "title": "实验追踪与结果汇总",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "tracking",
+   "rows": [
+@@ -27,5 +27,6 @@
+       "error": "教学计数，非运行结果"
+     }
+   ],
+-  "config": {}
+-}+  "config": {},
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch08/8.6/README.md
++++ revision/ch08/8.6/README.md
+@@ -24,7 +24,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -36,4 +36,4 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+--- baseline/ch08/8.6/input.json
++++ revision/ch08/8.6/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "8.6",
+   "title": "AI 结对编程 输入输出契约与三遍审查",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "literal",
+   "rows": [
+@@ -26,5 +26,6 @@
+       "needle": ""
+     }
+   ],
+-  "config": {}
+-}+  "config": {},
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch08/8.7/README.md
++++ revision/ch08/8.7/README.md
+@@ -24,7 +24,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -36,6 +36,6 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+ 
+ 具体反例也已附上：regression_duplicate_input.json应因重复id报错；regression_missing_input.json应因两边编号集合不同报错。将命令的--input替换为对应文件即可；预期行为是说明，不是已通过测试。
+--- baseline/ch08/8.7/input.json
++++ revision/ch08/8.7/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "8.7",
+   "title": "科学调试与最小复现",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "join",
+   "rows": [
+@@ -18,5 +18,6 @@
+       "prediction": 1
+     }
+   ],
+-  "config": {}
+-}+  "config": {},
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch08/8.7/regression_duplicate_input.json
++++ revision/ch08/8.7/regression_duplicate_input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "8.7",
+   "title": "科学调试与最小复现",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "join",
+   "rows": [
+@@ -18,5 +18,6 @@
+       "prediction": 0
+     }
+   ],
+-  "config": {}
+-}+  "config": {},
++  "execution_scope": "2026-10-30错误探针已执行，预期非零退出并明确报错；不表示坏输入被接受。"
++}
+--- baseline/ch08/8.7/regression_missing_input.json
++++ revision/ch08/8.7/regression_missing_input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "8.7",
+   "title": "科学调试与最小复现",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "join",
+   "rows": [
+@@ -12,5 +12,6 @@
+       "prediction": 0
+     }
+   ],
+-  "config": {}
+-}+  "config": {},
++  "execution_scope": "2026-10-30错误探针已执行，预期非零退出并明确报错；不表示坏输入被接受。"
++}
+--- baseline/ch08/8.8/README.md
++++ revision/ch08/8.8/README.md
+@@ -4,7 +4,7 @@
+ 
+ ## 先做什么
+ 
+-先把固定方案里的词表与否定条件写好，只把 input_blind.csv 交给执行者；reference.csv 由评分者保管。两份文件按 id 相连，不以行序猜对应关系。示范句已经出现在前面，因而本包只能演示交接程序，不能称为独立历史测试。真实项目须另取未参与规则选择且按原件分组的材料。
++先把固定方案里的词表与否定条件写好，把不含参考列的 input.json、input_blind.csv、固定方案 locked_plan.json 与 workbook.py 交给执行者；reference.csv 及评分脚本由评分者保管。两份文件按 id 相连，不以行序猜对应关系。示范句已经出现在前面，因而本包只能演示交接程序，不能称为独立历史测试。真实项目须另取未参与规则选择且按原件分组的材料。
+ 
+ ## 文件与使用
+ 
+@@ -26,7 +26,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -38,6 +38,8 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+ 
+-预测者把实际终端输出另存为一个新JSON后，评分者可执行 `python -B score_predictions.py --predictions 读者新保存的预测.json --reference reference.csv`。这里的预测文件应由读者真实运行产生，本包不伪造该文件。score_predictions.py亦为NOT_RUN。
++预测者把实际终端输出另存为一个新JSON后，评分者可执行 `python -B score_predictions.py --predictions 读者新保存的预测.json --reference reference.csv`。这里的预测文件应由读者真实运行产生，本包不伪造该文件。score_predictions.py亦已用实际生成的预测执行，并检查重复、缺号及非法二值输入。
++
++固定方案locked_plan.json是人工可读快照；此教学脚本使用workbook.py中的固定rule实现，并不从该快照动态加载词表。更改方案时须同步核对实现并在新的开发材料上重新检查，不把改过的方案当作原锁定方案。复核已在不含reference.csv的单独交接目录实际执行预测，并确认逐条输出相同。
+--- baseline/ch08/8.8/field_dictionary.json
++++ revision/ch08/8.8/field_dictionary.json
+@@ -4,7 +4,7 @@
+     "id": "本节唯一记录编号，用于连接输入和输出，不依赖行顺序",
+     "source": "教学来源/证据或来源组，具体含义由本节任务决定；真实研究须补原件定位",
+     "text": "未经标签或预测覆盖的教学原句",
+-    "gold": "预置教学参考，1表示正类，0表示负类"
++    "gold": "仅评分者reference.csv持有的预置教学参考，1表示正类，0表示负类；预测者输入不含此列"
+   },
+   "common_rules": {
+     "id": "本节输入唯一编号，不与其他节编号合并",
+@@ -12,4 +12,4 @@
+     "source": "教学来源代号不能作为真实馆藏引用",
+     "prediction": "若有预置答案或正确标记，仅用于练习计数，不是实测"
+   }
+-}+}
+--- baseline/ch08/8.8/input.csv
++++ revision/ch08/8.8/input.csv
+@@ -1,7 +1,7 @@
+-id,source,text,gold
+-T01,教学甲册,甲书院停讲。,1
+-T02,教学甲册,甲书院未停讲。,0
+-T03,教学乙册,拟停讲，尚未执行。,0
+-T04,教学乙册,乙书院罢讲。,1
+-T05,教学丙册,丙书院照常开讲。,0
+-T06,教学丙册,丁书院停讲，次年复课。,1
++id,source,text
++T01,教学甲册,甲书院停讲。
++T02,教学甲册,甲书院未停讲。
++T03,教学乙册,拟停讲，尚未执行。
++T04,教学乙册,乙书院罢讲。
++T05,教学丙册,丙书院照常开讲。
++T06,教学丙册,丁书院停讲，次年复课。
+--- baseline/ch08/8.8/input.json
++++ revision/ch08/8.8/input.json
+@@ -1,46 +1,41 @@
+ {
+   "section": "8.8",
+   "title": "独立测试与方法复现",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "independent",
+   "rows": [
+     {
+       "id": "T01",
+       "source": "教学甲册",
+-      "text": "甲书院停讲。",
+-      "gold": 1
++      "text": "甲书院停讲。"
+     },
+     {
+       "id": "T02",
+       "source": "教学甲册",
+-      "text": "甲书院未停讲。",
+-      "gold": 0
++      "text": "甲书院未停讲。"
+     },
+     {
+       "id": "T03",
+       "source": "教学乙册",
+-      "text": "拟停讲，尚未执行。",
+-      "gold": 0
++      "text": "拟停讲，尚未执行。"
+     },
+     {
+       "id": "T04",
+       "source": "教学乙册",
+-      "text": "乙书院罢讲。",
+-      "gold": 1
++      "text": "乙书院罢讲。"
+     },
+     {
+       "id": "T05",
+       "source": "教学丙册",
+-      "text": "丙书院照常开讲。",
+-      "gold": 0
++      "text": "丙书院照常开讲。"
+     },
+     {
+       "id": "T06",
+       "source": "教学丙册",
+-      "text": "丁书院停讲，次年复课。",
+-      "gold": 1
++      "text": "丁书院停讲，次年复课。"
+     }
+   ],
+-  "config": {}
+-}+  "config": {},
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch08/8.8/score_predictions.py
++++ revision/ch08/8.8/score_predictions.py
+@@ -1,5 +1,5 @@
+ #!/usr/bin/env python3
+-"""NOT_RUN. Score reader-generated predictions against the provided teaching reference."""
++"""Locally exercised scorer; see ../EXECUTION_STATUS.json. Synthetic reference only."""
+ import argparse,csv,json
+ from pathlib import Path
+ p=argparse.ArgumentParser();p.add_argument('--predictions',required=True);p.add_argument('--reference',default='reference.csv');a=p.parse_args()
+@@ -9,7 +9,9 @@
+     result={}
+     for r in items:
+         if r['id'] in result:raise ValueError('duplicate id')
+-        result[r['id']]=int(r[key])
++        value=r[key]
++        if value not in (0,1,'0','1'): raise ValueError('binary values required')
++        result[r['id']]=int(value)
+     return result
+ pred=index(rows,'prediction');gold=index(reference,'gold')
+ if pred.keys()!=gold.keys():raise ValueError('id sets differ')
+--- baseline/ch08/8.8/worksheet.md
++++ revision/ch08/8.8/worksheet.md
+@@ -13,7 +13,7 @@
+ 
+ ## 操作
+ 
+-先把固定方案里的词表与否定条件写好，只把 input_blind.csv 交给执行者；reference.csv 由评分者保管。两份文件按 id 相连，不以行序猜对应关系。示范句已经出现在前面，因而本包只能演示交接程序，不能称为独立历史测试。真实项目须另取未参与规则选择且按原件分组的材料。
++先把固定方案里的词表与否定条件写好，把不含参考列的 input.json、input_blind.csv、固定方案 locked_plan.json 与 workbook.py 交给执行者；reference.csv 及评分脚本由评分者保管。两份文件按 id 相连，不以行序猜对应关系。示范句已经出现在前面，因而本包只能演示交接程序，不能称为独立历史测试。真实项目须另取未参与规则选择且按原件分组的材料。
+ 
+ ## 结果怎样回到材料
+ 
+--- baseline/ch08/EXECUTION_STATUS.json
++++ revision/ch08/EXECUTION_STATUS.json
+@@ -1,7 +1,155 @@
+ {
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "date": "2026-10-30",
+-  "scope": "All newly authored scripts, model calls, scores and resampling calculations were not executed in this delivery.",
+-  "inputs": "Synthetic fixtures or human-fillable plans. No newly collected historical records.",
+-  "dependencies": "Python standard library only; no install required by the package."
+-}+  "scope": "只对本章下列实际输入/命令及报告中的边界有效；共享脚本其他章分支并非在每个副本逐一独立运行。",
++  "environment": {
++    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
++    "platform": "linux"
++  },
++  "script_sha256": "2573d9dc39a21faa129106521216a8ab6a75988af373b19c8938fae30351c58b",
++  "sections": [
++    {
++      "section": "8.1",
++      "title": "任务指标与简单基线",
++      "mode": "baseline",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.1/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "7e627fcbcd9141e068b71c7f232164978156aa6eaa3c7ca7e02f8c6045f106dd"
++    },
++    {
++      "section": "8.2",
++      "title": "对照原则 变量控制与实验矩阵",
++      "mode": "matrix",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.2/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "ff189c113787d08085d592e80b1ce8c291d7fcdadddeb9b32ddce65cd97b12d8"
++    },
++    {
++      "section": "8.3",
++      "title": "消融树与组件贡献",
++      "mode": "ablation",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.3/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "9fb7d2b681a24eb4f7ab5893464fa4fa6eb94629aea98c23834fe77b8c8e65b0"
++    },
++    {
++      "section": "8.4",
++      "title": "随机种子 环境锁定与 YAML 配置",
++      "mode": "config",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.4/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "3a7583b8673a01fbadc0626ba2270f4454e7ee95284aca7fb1249d3dccd5552a"
++    },
++    {
++      "section": "8.5",
++      "title": "实验追踪与结果汇总",
++      "mode": "tracking",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.5/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "d5d8aea480e4180ab9d042b3d590bb8f32480359e04e0c4dbf53473a48ac30ce"
++    },
++    {
++      "section": "8.6",
++      "title": "AI 结对编程 输入输出契约与三遍审查",
++      "mode": "literal",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.6/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "9d584f5dd64d01c4966ffa2b4273952f5ac3525f80b2779eaf0620de0fed3975"
++    },
++    {
++      "section": "8.7",
++      "title": "科学调试与最小复现",
++      "mode": "join",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.7/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "6db1af11c35a10129109f5952a56e9f81f52040b15514260dd277cfa122106bb"
++    },
++    {
++      "section": "8.8",
++      "title": "独立测试与方法复现",
++      "mode": "independent",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.8/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "23c2660d0160c2f90e5fe62d9678ae41c69793ee839c73724ddc7237170bffee"
++    }
++  ],
++  "model_calls": "NOT_RUN",
++  "real_feature_extraction": "NOT_RUN",
++  "public_benchmark_runs": "NOT_RUN",
++  "blank_worksheets_and_result_templates": "NON_RUNNING_TEMPLATE",
++  "fixture_embedded_statuses": "教学追踪行、卡片、示例配置中的NOT_RUN保留其原对象含义，不因运行检查器而改成模型完成。",
++  "report": "../../../reports/recompute_ch07_11.md",
++  "raw_final_manifest": "../../../runs/ch07_11/verified/manifest.json"
++}
+--- baseline/ch08/README.md
++++ revision/ch08/README.md
+@@ -9,4 +9,4 @@
+ - [8.7 科学调试与最小复现](8.7/README.md) — 最小故障输入、按编号连接实现和回归用例模板
+ - [8.8 独立测试与方法复现](8.8/README.md) — 方案快照、盲输入、参考表与交接记录
+ 
+-全部新增程序状态为NOT_RUN；没有模型调用、复算结果或伪造运行日志。各节输入相互独立，不能叠加为历史样本。旧稿中出现的旧程序名和旧输出不再承担操作入口，本包以各节README和input.json为准。
++本章所列标准库教学命令已于2026-10-30实际运行，关键数值经独立计数或公式核对；详见[运行记录](EXECUTION_STATUS.json)。模型调用、公开基准运行、真实特征提取和未填人工工作表仍未执行，不把模板检查当成模型实验。各节输入相互独立，不能叠加为历史样本。旧稿中出现的旧程序名和旧输出不再承担操作入口，本包以各节README和input.json为准。
+--- baseline/ch08/workbook.py
++++ revision/ch08/workbook.py
+@@ -1,5 +1,6 @@
+ #!/usr/bin/env python3
+-"""STATUS: NOT_RUN. Authored teaching implementation, not validated execution.
++"""Locally exercised teaching implementation; see EXECUTION_STATUS.json.
++Execution checks do not validate historical claims or execute model calls.
+ Only reads the requested local JSON and PGM files and prints JSON to stdout.
+ No model, network, dependency install, external command, deletion or overwrite.
+ Examples are synthetic. Do not cite outputs as historical findings.
+@@ -70,6 +71,10 @@
+         for i,r in enumerate(rows):
+             value=r.get(key)
+             if value in (None,''): continue
++            if key=='page':
++                source=r.get('source_id') or r.get('source')
++                if source in (None,''): continue  # Unknown provenance cannot identify a shared page.
++                value=(source,value)
+             if value in seen: parent[root(i)]=root(seen[value])
+             else: seen[value]=i
+     groups=collections.defaultdict(list)
+@@ -91,7 +96,11 @@
+ 
+ def bootstrap(rows,cfg):
+     if not rows: raise ValueError('empty bootstrap sample')
+-    rng=random.Random(cfg['seed']); unit=cfg.get('unit','row')
++    unit=cfg.get('unit','row')
++    if unit not in ('row','source'): raise ValueError('bootstrap unit must be row or source')
++    if type(cfg['resamples']) is not int or cfg['resamples']<=0: raise ValueError('resamples must be a positive integer')
++    if not 0<cfg['confidence']<1: raise ValueError('confidence must be between 0 and 1')
++    rng=random.Random(cfg['seed'])
+     groups=collections.defaultdict(list)
+     for r in rows:groups[r['source'] if unit=='source' else r['id']].append(r)
+     groups=list(groups.values());values=[]
+@@ -121,14 +130,16 @@
+ 
+ def overlap(rows,cfg):
+     result=[]
++    if type(cfg['bleu_order']) is not int or cfg['bleu_order']<1: raise ValueError('bleu order must be a positive integer')
+     for r in rows:
+         ref=r['reference'].split();cand=r['candidate'].split();prec=[]
++        if not ref: raise ValueError('empty reference')
+         for n in range(1,cfg['bleu_order']+1):
+             rc=collections.Counter(tuple(ref[i:i+n]) for i in range(len(ref)-n+1))
+             cc=collections.Counter(tuple(cand[i:i+n]) for i in range(len(cand)-n+1))
+-            prec.append(div(sum(min(v,rc[k]) for k,v in cc.items()),sum(cc.values())) or 0.0)
++            prec.append(div(sum(min(v,rc[k]) for k,v in cc.items()),sum(cc.values())))
+         bp=0 if not cand else min(1,math.exp(1-len(ref)/len(cand)))
+-        bleu=0 if any(p==0 for p in prec) else bp*math.exp(sum(math.log(p) for p in prec)/len(prec))
++        bleu=0 if not cand else None if any(p is None for p in prec) else 0 if any(p==0 for p in prec) else bp*math.exp(sum(math.log(p) for p in prec)/len(prec))
+         common=sum((collections.Counter(ref)&collections.Counter(cand)).values())
+         longest=lcs(ref,cand)
+         def prf(hit):return {'precision':div(hit,len(cand)),'recall':div(hit,len(ref)),'f1':div(2*hit,len(ref)+len(cand))}
+@@ -192,6 +203,7 @@
+ 
+ 
+ def detection(rows,threshold):
++    unique(rows,'id')
+     refs=[r for r in rows if r['kind']=='reference'];preds=sorted([r for r in rows if r['kind']=='prediction'],key=lambda r:(-r['score'],r['id']))
+     used=set();out=[]
+     for r in preds:
+@@ -213,6 +225,7 @@
+ 
+ 
+ def segmentation(rows):
++    unique(rows,'id')
+     out=[]
+     for r in rows:
+         g=r['reference'];p=r['prediction']
+@@ -320,7 +333,7 @@
+         per=[]
+         for label in sorted({r['label'] for r in rows}):
+             subset=[r for r in rows if r['label']==label];per.append({'label':label,'support':len(subset),'recall':sum(r['pred']==r['label'] for r in subset)/len(subset),'sources':sorted({r['source'] for r in subset})})
+-        return {'per_class':per,'macro_recall':sum(r['recall'] for r in per)/len(per),'micro_accuracy':div(sum(r['label']==r['pred'] for r in rows),len(rows))}
++        return {'per_class':per,'macro_recall':div(sum(r['recall'] for r in per),len(per)),'micro_accuracy':div(sum(r['label']==r['pred'] for r in rows),len(rows))}
+     if mode=='shift':
+         out=[]
+         for source in sorted({r['source'] for r in rows}):
+--- baseline/ch09/9.1/README.md
++++ revision/ch09/9.1/README.md
+@@ -23,7 +23,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -35,4 +35,4 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+--- baseline/ch09/9.1/input.json
++++ revision/ch09/9.1/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "9.1",
+   "title": "NLP任务谱系：理解/生成/检索/推理",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "tasks",
+   "rows": [
+@@ -30,5 +30,6 @@
+       "output": "“甲埠已经迁址”不受该句支持"
+     }
+   ],
+-  "config": {}
+-}+  "config": {},
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch09/9.2/README.md
++++ revision/ch09/9.2/README.md
+@@ -23,7 +23,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -35,4 +35,4 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+--- baseline/ch09/9.2/input.json
++++ revision/ch09/9.2/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "9.2",
+   "title": "输入输出张量与数据格式",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "tensor",
+   "rows": [
+@@ -23,5 +23,6 @@
+   ],
+   "config": {
+     "max_length": 12
+-  }
+-}+  },
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch09/9.3/README.md
++++ revision/ch09/9.3/README.md
+@@ -23,7 +23,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -35,4 +35,4 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+--- baseline/ch09/9.3/input.json
++++ revision/ch09/9.3/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "9.3",
+   "title": "统计→神经→LLM：方法路线与简单基线",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "baseline",
+   "rows": [
+@@ -42,5 +42,6 @@
+       "gold": 1
+     }
+   ],
+-  "config": {}
+-}+  "config": {},
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch09/9.4/README.md
++++ revision/ch09/9.4/README.md
+@@ -23,7 +23,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -35,4 +35,4 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+--- baseline/ch09/9.4/input.json
++++ revision/ch09/9.4/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "9.4",
+   "title": "词表示演进：Word2Vec→BERT→GPT",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "vectors",
+   "rows": [
+@@ -33,5 +33,6 @@
+       ]
+     }
+   ],
+-  "config": {}
+-}+  "config": {},
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch09/9.5/README.md
++++ revision/ch09/9.5/README.md
+@@ -23,7 +23,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -35,4 +35,4 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+--- baseline/ch09/9.5/input.json
++++ revision/ch09/9.5/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "9.5",
+   "title": "GLUE/SuperGLUE/MMLU/HumanEval：基准选择与适用边界",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "benchmark",
+   "rows": [
+@@ -34,5 +34,6 @@
+       "transfer_check": "另设输入输出测试"
+     }
+   ],
+-  "config": {}
+-}+  "config": {},
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch09/9.6/README.md
++++ revision/ch09/9.6/README.md
+@@ -23,7 +23,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -35,4 +35,4 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+--- baseline/ch09/9.6/input.json
++++ revision/ch09/9.6/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "9.6",
+   "title": "人工标注质量管控：指南 一致性与歧义样本",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "agreement",
+   "rows": [
+@@ -34,5 +34,6 @@
+       "final": "未停讲"
+     }
+   ],
+-  "config": {}
+-}+  "config": {},
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch09/9.7/README.md
++++ revision/ch09/9.7/README.md
+@@ -23,7 +23,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -35,4 +35,4 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+--- baseline/ch09/9.7/input.json
++++ revision/ch09/9.7/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "9.7",
+   "title": "多语言与跨语言评测",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "multilingual",
+   "rows": [
+@@ -38,5 +38,6 @@
+       "pred": "已迁"
+     }
+   ],
+-  "config": {}
+-}+  "config": {},
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch09/9.8/README.md
++++ revision/ch09/9.8/README.md
+@@ -23,7 +23,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -35,4 +35,4 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+--- baseline/ch09/9.8/input.json
++++ revision/ch09/9.8/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "9.8",
+   "title": "多语言公平性与偏见",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "coverage",
+   "rows": [
+@@ -36,5 +36,6 @@
+       "correct": 1
+     }
+   ],
+-  "config": {}
+-}+  "config": {},
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch09/EXECUTION_STATUS.json
++++ revision/ch09/EXECUTION_STATUS.json
+@@ -1,7 +1,155 @@
+ {
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "date": "2026-10-30",
+-  "scope": "All newly authored scripts, model calls, scores and resampling calculations were not executed in this delivery.",
+-  "inputs": "Synthetic fixtures or human-fillable plans. No newly collected historical records.",
+-  "dependencies": "Python standard library only; no install required by the package."
+-}+  "scope": "只对本章下列实际输入/命令及报告中的边界有效；共享脚本其他章分支并非在每个副本逐一独立运行。",
++  "environment": {
++    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
++    "platform": "linux"
++  },
++  "script_sha256": "2573d9dc39a21faa129106521216a8ab6a75988af373b19c8938fae30351c58b",
++  "sections": [
++    {
++      "section": "9.1",
++      "title": "NLP任务谱系：理解/生成/检索/推理",
++      "mode": "tasks",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "NON_RUNNING_TEMPLATE",
++      "scope_note": "人工任务规格展示，不是NLP任务执行",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/9.1/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "c7286cdeb9954d02ca18f6a6b668fafe7890114bff1117d99a632823bcef0101"
++    },
++    {
++      "section": "9.2",
++      "title": "输入输出张量与数据格式",
++      "mode": "tensor",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/9.2/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "dbf63e34963bb114f2db8e4009a8a39f1c45cb2a3c28512dfa6d5e6e7f0148ae"
++    },
++    {
++      "section": "9.3",
++      "title": "统计→神经→LLM：方法路线与简单基线",
++      "mode": "baseline",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/9.3/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "98f7deacf6443483e6fcedbf1233f99a7946ecd1be89d8e7e5b6730b47936051"
++    },
++    {
++      "section": "9.4",
++      "title": "词表示演进：Word2Vec→BERT→GPT",
++      "mode": "vectors",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/9.4/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "38432f569ec755c025007aeca1d77aca5a2c52ed4d430c8df42bb02f599b96bb"
++    },
++    {
++      "section": "9.5",
++      "title": "GLUE/SuperGLUE/MMLU/HumanEval：基准选择与适用边界",
++      "mode": "benchmark",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "NON_RUNNING_TEMPLATE",
++      "scope_note": "基准审读模板，不是公开benchmark运行",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/9.5/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "4b7d64a61e711c935f9fe7e256184bd70746cf70c5a2faea80abe2a3f7ca5337"
++    },
++    {
++      "section": "9.6",
++      "title": "人工标注质量管控：指南 一致性与歧义样本",
++      "mode": "agreement",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/9.6/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "847844a05c309ed9fc76c7452c2b4a9bf9d80764b922002b20653fdea9c56e54"
++    },
++    {
++      "section": "9.7",
++      "title": "多语言与跨语言评测",
++      "mode": "multilingual",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/9.7/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "e43b124a667fb3d7ea66398d2e404364a70a8a38f38994727ec5f3848f5e5479"
++    },
++    {
++      "section": "9.8",
++      "title": "多语言公平性与偏见",
++      "mode": "coverage",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/9.8/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "be61b4171aa7429729803a18aea547f102911d8efcdd122a77c4122ea8aff3e2"
++    }
++  ],
++  "model_calls": "NOT_RUN",
++  "real_feature_extraction": "NOT_RUN",
++  "public_benchmark_runs": "NOT_RUN",
++  "blank_worksheets_and_result_templates": "NON_RUNNING_TEMPLATE",
++  "fixture_embedded_statuses": "教学追踪行、卡片、示例配置中的NOT_RUN保留其原对象含义，不因运行检查器而改成模型完成。",
++  "report": "../../../reports/recompute_ch07_11.md",
++  "raw_final_manifest": "../../../runs/ch07_11/verified/manifest.json"
++}
+--- baseline/ch09/README.md
++++ revision/ch09/README.md
+@@ -9,4 +9,4 @@
+ - [9.7 多语言与跨语言评测](9.7/README.md) — 配对语言材料、逐语言结果与翻译错误记录
+ - [9.8 多语言公平性与偏见](9.8/README.md) — 覆盖漏斗、优先补充清单与结论范围说明
+ 
+-全部新增程序状态为NOT_RUN；没有模型调用、复算结果或伪造运行日志。各节输入相互独立，不能叠加为历史样本。旧稿中出现的旧程序名和旧输出不再承担操作入口，本包以各节README和input.json为准。
++本章所列标准库教学命令已于2026-10-30实际运行，关键数值经独立计数或公式核对；详见[运行记录](EXECUTION_STATUS.json)。模型调用、公开基准运行、真实特征提取和未填人工工作表仍未执行，不把模板检查当成模型实验。各节输入相互独立，不能叠加为历史样本。旧稿中出现的旧程序名和旧输出不再承担操作入口，本包以各节README和input.json为准。
+--- baseline/ch09/workbook.py
++++ revision/ch09/workbook.py
+@@ -1,5 +1,6 @@
+ #!/usr/bin/env python3
+-"""STATUS: NOT_RUN. Authored teaching implementation, not validated execution.
++"""Locally exercised teaching implementation; see EXECUTION_STATUS.json.
++Execution checks do not validate historical claims or execute model calls.
+ Only reads the requested local JSON and PGM files and prints JSON to stdout.
+ No model, network, dependency install, external command, deletion or overwrite.
+ Examples are synthetic. Do not cite outputs as historical findings.
+@@ -70,6 +71,10 @@
+         for i,r in enumerate(rows):
+             value=r.get(key)
+             if value in (None,''): continue
++            if key=='page':
++                source=r.get('source_id') or r.get('source')
++                if source in (None,''): continue  # Unknown provenance cannot identify a shared page.
++                value=(source,value)
+             if value in seen: parent[root(i)]=root(seen[value])
+             else: seen[value]=i
+     groups=collections.defaultdict(list)
+@@ -91,7 +96,11 @@
+ 
+ def bootstrap(rows,cfg):
+     if not rows: raise ValueError('empty bootstrap sample')
+-    rng=random.Random(cfg['seed']); unit=cfg.get('unit','row')
++    unit=cfg.get('unit','row')
++    if unit not in ('row','source'): raise ValueError('bootstrap unit must be row or source')
++    if type(cfg['resamples']) is not int or cfg['resamples']<=0: raise ValueError('resamples must be a positive integer')
++    if not 0<cfg['confidence']<1: raise ValueError('confidence must be between 0 and 1')
++    rng=random.Random(cfg['seed'])
+     groups=collections.defaultdict(list)
+     for r in rows:groups[r['source'] if unit=='source' else r['id']].append(r)
+     groups=list(groups.values());values=[]
+@@ -121,14 +130,16 @@
+ 
+ def overlap(rows,cfg):
+     result=[]
++    if type(cfg['bleu_order']) is not int or cfg['bleu_order']<1: raise ValueError('bleu order must be a positive integer')
+     for r in rows:
+         ref=r['reference'].split();cand=r['candidate'].split();prec=[]
++        if not ref: raise ValueError('empty reference')
+         for n in range(1,cfg['bleu_order']+1):
+             rc=collections.Counter(tuple(ref[i:i+n]) for i in range(len(ref)-n+1))
+             cc=collections.Counter(tuple(cand[i:i+n]) for i in range(len(cand)-n+1))
+-            prec.append(div(sum(min(v,rc[k]) for k,v in cc.items()),sum(cc.values())) or 0.0)
++            prec.append(div(sum(min(v,rc[k]) for k,v in cc.items()),sum(cc.values())))
+         bp=0 if not cand else min(1,math.exp(1-len(ref)/len(cand)))
+-        bleu=0 if any(p==0 for p in prec) else bp*math.exp(sum(math.log(p) for p in prec)/len(prec))
++        bleu=0 if not cand else None if any(p is None for p in prec) else 0 if any(p==0 for p in prec) else bp*math.exp(sum(math.log(p) for p in prec)/len(prec))
+         common=sum((collections.Counter(ref)&collections.Counter(cand)).values())
+         longest=lcs(ref,cand)
+         def prf(hit):return {'precision':div(hit,len(cand)),'recall':div(hit,len(ref)),'f1':div(2*hit,len(ref)+len(cand))}
+@@ -192,6 +203,7 @@
+ 
+ 
+ def detection(rows,threshold):
++    unique(rows,'id')
+     refs=[r for r in rows if r['kind']=='reference'];preds=sorted([r for r in rows if r['kind']=='prediction'],key=lambda r:(-r['score'],r['id']))
+     used=set();out=[]
+     for r in preds:
+@@ -213,6 +225,7 @@
+ 
+ 
+ def segmentation(rows):
++    unique(rows,'id')
+     out=[]
+     for r in rows:
+         g=r['reference'];p=r['prediction']
+@@ -320,7 +333,7 @@
+         per=[]
+         for label in sorted({r['label'] for r in rows}):
+             subset=[r for r in rows if r['label']==label];per.append({'label':label,'support':len(subset),'recall':sum(r['pred']==r['label'] for r in subset)/len(subset),'sources':sorted({r['source'] for r in subset})})
+-        return {'per_class':per,'macro_recall':sum(r['recall'] for r in per)/len(per),'micro_accuracy':div(sum(r['label']==r['pred'] for r in rows),len(rows))}
++        return {'per_class':per,'macro_recall':div(sum(r['recall'] for r in per),len(per)),'micro_accuracy':div(sum(r['label']==r['pred'] for r in rows),len(rows))}
+     if mode=='shift':
+         out=[]
+         for source in sorted({r['source'] for r in rows}):
+--- baseline/ch10/10.1/README.md
++++ revision/ch10/10.1/README.md
+@@ -24,7 +24,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -36,4 +36,4 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+--- baseline/ch10/10.1/input.json
++++ revision/ch10/10.1/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "10.1",
+   "title": "Prompt模板设计",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "prompt",
+   "rows": [
+@@ -20,5 +20,6 @@
+   ],
+   "config": {
+     "template": "任务：仅依材料判断迁址状态。类别：已迁/拟议未定/未迁/无法判断。不要补充背景。输出JSON字段 id,status,evidence。\n材料编号：{id}\n材料：{text}"
+-  }
+-}+  },
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch10/10.10/README.md
++++ revision/ch10/10.10/README.md
+@@ -25,7 +25,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -37,4 +37,4 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+--- baseline/ch10/10.10/input.json
++++ revision/ch10/10.10/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "10.10",
+   "title": "Model Card与Datasheet for Datasets",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "card",
+   "rows": [
+@@ -51,5 +51,6 @@
+       "status": "NOT_RUN",
+       "model": "not_applicable"
+     }
+-  }
+-}+  },
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch10/10.2/README.md
++++ revision/ch10/10.2/README.md
+@@ -23,7 +23,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -35,4 +35,4 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+--- baseline/ch10/10.2/input.json
++++ revision/ch10/10.2/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "10.2",
+   "title": "Few-shot示例选择与k-shot评测协议",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "fewshot",
+   "rows": [
+@@ -33,5 +33,6 @@
+       2
+     ],
+     "order": "id_ascending"
+-  }
+-}+  },
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch10/10.3/README.md
++++ revision/ch10/10.3/README.md
+@@ -23,7 +23,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -35,4 +35,4 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+--- baseline/ch10/10.3/input.json
++++ revision/ch10/10.3/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "10.3",
+   "title": "Prompt敏感度分析",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "sensitivity",
+   "rows": [
+@@ -38,5 +38,6 @@
+       "gold": "拟议"
+     }
+   ],
+-  "config": {}
+-}+  "config": {},
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch10/10.4/README.md
++++ revision/ch10/10.4/README.md
+@@ -23,7 +23,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -35,4 +35,8 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
++
++## 本次复核确认的边界
++
++空候选的BLEU记0；非空候选不足指定阶数时，相应n-gram精确率和BLEU记null，不混成“零匹配”；空参考拒绝评分。输入仍用空格给定分词，报告逐句值，不冒称语料级BLEU。
+--- baseline/ch10/10.4/input.json
++++ revision/ch10/10.4/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "10.4",
+   "title": "n-gram评测：BLEU与ROUGE",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "overlap",
+   "rows": [
+@@ -20,5 +20,6 @@
+     "bleu_order": 2,
+     "tokenization": "whitespace_authored",
+     "aggregation": "per_sentence_not_corpus"
+-  }
+-}+  },
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch10/10.5/README.md
++++ revision/ch10/10.5/README.md
+@@ -24,7 +24,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -36,4 +36,4 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+--- baseline/ch10/10.5/input.json
++++ revision/ch10/10.5/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "10.5",
+   "title": "人工评估金标准与质量控制",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "ratings",
+   "rows": [
+@@ -42,5 +42,6 @@
+       "reason": "与材料相合"
+     }
+   ],
+-  "config": {}
+-}+  "config": {},
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch10/10.6/README.md
++++ revision/ch10/10.6/README.md
+@@ -24,7 +24,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -36,6 +36,6 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+ 
+ 固定评判模板见judge_prompt.txt；填入双大括号槽位后人工检查完整输入。该文件不发起模型调用。交换位置时同步交换显示文本和候选编号，保留原始身份。
+--- baseline/ch10/10.6/input.json
++++ revision/ch10/10.6/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "10.6",
+   "title": "LLM-as-Judge协议",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "judge",
+   "rows": [
+@@ -30,5 +30,6 @@
+       "reason": "两者均保留状态"
+     }
+   ],
+-  "config": {}
+-}+  "config": {},
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch10/10.7/README.md
++++ revision/ch10/10.7/README.md
+@@ -23,7 +23,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -35,4 +35,8 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
++
++## 本次复核确认的配置
++
++重采样单位只接受row或source；未知拼写明确报错，不能静默改成逐行。resamples须为正整数，confidence严格在0与1之间。本输入六行属三个来源，来源组差值为0.5、0、0；点估计为1/6，seed=17、2000次来源组重采样的区间为[0,0.5]。这只是合成样本的计算结果，三个来源不能支持稳健的总体推断。
+--- baseline/ch10/10.7/input.json
++++ revision/ch10/10.7/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "10.7",
+   "title": "Bootstrap置信区间",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "bootstrap",
+   "rows": [
+@@ -48,5 +48,6 @@
+     "confidence": 0.95,
+     "unit": "source",
+     "method": "percentile"
+-  }
+-}+  },
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch10/10.8/README.md
++++ revision/ch10/10.8/README.md
+@@ -23,7 +23,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -35,4 +35,4 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+--- baseline/ch10/10.8/input.json
++++ revision/ch10/10.8/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "10.8",
+   "title": "McNemar检验",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "mcnemar",
+   "rows": [
+@@ -42,5 +42,6 @@
+       "b": 0
+     }
+   ],
+-  "config": {}
+-}+  "config": {},
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch10/10.9/README.md
++++ revision/ch10/10.9/README.md
+@@ -23,7 +23,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -35,4 +35,4 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+--- baseline/ch10/10.9/input.json
++++ revision/ch10/10.9/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "10.9",
+   "title": "幻觉的评测与缓解",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "claims",
+   "rows": [
+@@ -30,5 +30,6 @@
+       "reason": "材料未说明后果"
+     }
+   ],
+-  "config": {}
+-}+  "config": {},
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch10/EXECUTION_STATUS.json
++++ revision/ch10/EXECUTION_STATUS.json
+@@ -1,7 +1,189 @@
+ {
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "date": "2026-10-30",
+-  "scope": "All newly authored scripts, model calls, scores and resampling calculations were not executed in this delivery.",
+-  "inputs": "Synthetic fixtures or human-fillable plans. No newly collected historical records.",
+-  "dependencies": "Python standard library only; no install required by the package."
+-}+  "scope": "只对本章下列实际输入/命令及报告中的边界有效；共享脚本其他章分支并非在每个副本逐一独立运行。",
++  "environment": {
++    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
++    "platform": "linux"
++  },
++  "script_sha256": "2573d9dc39a21faa129106521216a8ab6a75988af373b19c8938fae30351c58b",
++  "sections": [
++    {
++      "section": "10.1",
++      "title": "Prompt模板设计",
++      "mode": "prompt",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "NON_RUNNING_TEMPLATE",
++      "scope_note": "仅渲染提示，模型回答NOT_RUN",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.1/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "9150b9622cecc8f40dba4993b970b297550c67178e106a2c0fee578ff5f03719"
++    },
++    {
++      "section": "10.2",
++      "title": "Few-shot示例选择与k-shot评测协议",
++      "mode": "fewshot",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "NON_RUNNING_TEMPLATE",
++      "scope_note": "仅渲染few-shot提示，模型回答NOT_RUN",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.2/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "be76d3041cda4fd531c93a7e8f259fd84eb09f63f24da0ea2a1e47ea58a8420f"
++    },
++    {
++      "section": "10.3",
++      "title": "Prompt敏感度分析",
++      "mode": "sensitivity",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.3/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "ea5cb0297951356559a796f18166e91771285c0e21c69cee80ff33b923de48a0"
++    },
++    {
++      "section": "10.4",
++      "title": "n-gram评测：BLEU与ROUGE",
++      "mode": "overlap",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.4/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "c1722486c339108b0f7a712b08dc875cfe96df0be8e1eac2db680b2c0d7aeaac"
++    },
++    {
++      "section": "10.5",
++      "title": "人工评估金标准与质量控制",
++      "mode": "ratings",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.5/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "743f668d7e7c5c7472696f7701c2eee3635481d95e0b82ed7564e65a922222bd"
++    },
++    {
++      "section": "10.6",
++      "title": "LLM-as-Judge协议",
++      "mode": "judge",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.6/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "e5c22adbf46b47453f892058c3d219ef6181301f088bd94195eccb564de76860"
++    },
++    {
++      "section": "10.7",
++      "title": "Bootstrap置信区间",
++      "mode": "bootstrap",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.7/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "afe0563f5385fc9df3282a303ad025175d08f946c8baa839f031675907db22e0"
++    },
++    {
++      "section": "10.8",
++      "title": "McNemar检验",
++      "mode": "mcnemar",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.8/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "dbac8705a43889058460a6c7c975b35338d217896ffd6f238d6fefef3ec28b69"
++    },
++    {
++      "section": "10.9",
++      "title": "幻觉的评测与缓解",
++      "mode": "claims",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.9/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "52d354844f707c8f6c64c7349954b10df6f0dd0b6f3520b1cfb2a6e3dad1551c"
++    },
++    {
++      "section": "10.10",
++      "title": "Model Card与Datasheet for Datasets",
++      "mode": "card",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "NON_RUNNING_TEMPLATE",
++      "scope_note": "应用/数据卡结构检查，不是模型实验",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.10/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "041cc1d468982198f2d8217a95aa371d98fc52f3c22bfd4f1465c3cd9182b9f0"
++    }
++  ],
++  "model_calls": "NOT_RUN",
++  "real_feature_extraction": "NOT_RUN",
++  "public_benchmark_runs": "NOT_RUN",
++  "blank_worksheets_and_result_templates": "NON_RUNNING_TEMPLATE",
++  "fixture_embedded_statuses": "教学追踪行、卡片、示例配置中的NOT_RUN保留其原对象含义，不因运行检查器而改成模型完成。",
++  "report": "../../../reports/recompute_ch07_11.md",
++  "raw_final_manifest": "../../../runs/ch07_11/verified/manifest.json"
++}
+--- baseline/ch10/README.md
++++ revision/ch10/README.md
+@@ -11,4 +11,4 @@
+ - [10.9 幻觉的评测与缓解](10.9/README.md) — 断言证据表、修订记录与漏答检查表
+ - [10.10 Model Card与Datasheet for Datasets](10.10/README.md) — 数据卡、应用卡与状态字段模板
+ 
+-全部新增程序状态为NOT_RUN；没有模型调用、复算结果或伪造运行日志。各节输入相互独立，不能叠加为历史样本。旧稿中出现的旧程序名和旧输出不再承担操作入口，本包以各节README和input.json为准。
++本章所列标准库教学命令已于2026-10-30实际运行，关键数值经独立计数或公式核对；详见[运行记录](EXECUTION_STATUS.json)。模型调用、公开基准运行、真实特征提取和未填人工工作表仍未执行，不把模板检查当成模型实验。各节输入相互独立，不能叠加为历史样本。旧稿中出现的旧程序名和旧输出不再承担操作入口，本包以各节README和input.json为准。
+--- baseline/ch10/workbook.py
++++ revision/ch10/workbook.py
+@@ -1,5 +1,6 @@
+ #!/usr/bin/env python3
+-"""STATUS: NOT_RUN. Authored teaching implementation, not validated execution.
++"""Locally exercised teaching implementation; see EXECUTION_STATUS.json.
++Execution checks do not validate historical claims or execute model calls.
+ Only reads the requested local JSON and PGM files and prints JSON to stdout.
+ No model, network, dependency install, external command, deletion or overwrite.
+ Examples are synthetic. Do not cite outputs as historical findings.
+@@ -70,6 +71,10 @@
+         for i,r in enumerate(rows):
+             value=r.get(key)
+             if value in (None,''): continue
++            if key=='page':
++                source=r.get('source_id') or r.get('source')
++                if source in (None,''): continue  # Unknown provenance cannot identify a shared page.
++                value=(source,value)
+             if value in seen: parent[root(i)]=root(seen[value])
+             else: seen[value]=i
+     groups=collections.defaultdict(list)
+@@ -91,7 +96,11 @@
+ 
+ def bootstrap(rows,cfg):
+     if not rows: raise ValueError('empty bootstrap sample')
+-    rng=random.Random(cfg['seed']); unit=cfg.get('unit','row')
++    unit=cfg.get('unit','row')
++    if unit not in ('row','source'): raise ValueError('bootstrap unit must be row or source')
++    if type(cfg['resamples']) is not int or cfg['resamples']<=0: raise ValueError('resamples must be a positive integer')
++    if not 0<cfg['confidence']<1: raise ValueError('confidence must be between 0 and 1')
++    rng=random.Random(cfg['seed'])
+     groups=collections.defaultdict(list)
+     for r in rows:groups[r['source'] if unit=='source' else r['id']].append(r)
+     groups=list(groups.values());values=[]
+@@ -121,14 +130,16 @@
+ 
+ def overlap(rows,cfg):
+     result=[]
++    if type(cfg['bleu_order']) is not int or cfg['bleu_order']<1: raise ValueError('bleu order must be a positive integer')
+     for r in rows:
+         ref=r['reference'].split();cand=r['candidate'].split();prec=[]
++        if not ref: raise ValueError('empty reference')
+         for n in range(1,cfg['bleu_order']+1):
+             rc=collections.Counter(tuple(ref[i:i+n]) for i in range(len(ref)-n+1))
+             cc=collections.Counter(tuple(cand[i:i+n]) for i in range(len(cand)-n+1))
+-            prec.append(div(sum(min(v,rc[k]) for k,v in cc.items()),sum(cc.values())) or 0.0)
++            prec.append(div(sum(min(v,rc[k]) for k,v in cc.items()),sum(cc.values())))
+         bp=0 if not cand else min(1,math.exp(1-len(ref)/len(cand)))
+-        bleu=0 if any(p==0 for p in prec) else bp*math.exp(sum(math.log(p) for p in prec)/len(prec))
++        bleu=0 if not cand else None if any(p is None for p in prec) else 0 if any(p==0 for p in prec) else bp*math.exp(sum(math.log(p) for p in prec)/len(prec))
+         common=sum((collections.Counter(ref)&collections.Counter(cand)).values())
+         longest=lcs(ref,cand)
+         def prf(hit):return {'precision':div(hit,len(cand)),'recall':div(hit,len(ref)),'f1':div(2*hit,len(ref)+len(cand))}
+@@ -192,6 +203,7 @@
+ 
+ 
+ def detection(rows,threshold):
++    unique(rows,'id')
+     refs=[r for r in rows if r['kind']=='reference'];preds=sorted([r for r in rows if r['kind']=='prediction'],key=lambda r:(-r['score'],r['id']))
+     used=set();out=[]
+     for r in preds:
+@@ -213,6 +225,7 @@
+ 
+ 
+ def segmentation(rows):
++    unique(rows,'id')
+     out=[]
+     for r in rows:
+         g=r['reference'];p=r['prediction']
+@@ -320,7 +333,7 @@
+         per=[]
+         for label in sorted({r['label'] for r in rows}):
+             subset=[r for r in rows if r['label']==label];per.append({'label':label,'support':len(subset),'recall':sum(r['pred']==r['label'] for r in subset)/len(subset),'sources':sorted({r['source'] for r in subset})})
+-        return {'per_class':per,'macro_recall':sum(r['recall'] for r in per)/len(per),'micro_accuracy':div(sum(r['label']==r['pred'] for r in rows),len(rows))}
++        return {'per_class':per,'macro_recall':div(sum(r['recall'] for r in per),len(per)),'micro_accuracy':div(sum(r['label']==r['pred'] for r in rows),len(rows))}
+     if mode=='shift':
+         out=[]
+         for source in sorted({r['source'] for r in rows}):
+--- baseline/ch11/11.1/README.md
++++ revision/ch11/11.1/README.md
+@@ -24,7 +24,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -36,4 +36,4 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+--- baseline/ch11/11.1/input.json
++++ revision/ch11/11.1/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "11.1",
+   "title": "分类：从图片到类别概率向量",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "vision_class",
+   "rows": [
+@@ -37,5 +37,6 @@
+   "config": {
+     "threshold": 128,
+     "accept": 0.6
+-  }
+-}+  },
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch11/11.10/README.md
++++ revision/ch11/11.10/README.md
+@@ -24,7 +24,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -36,4 +36,8 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
++
++## 本次实际运行的零差异
++
++这四张图均为实心矩形，填充率都为1，形状已由宽高比区分；开发图最高分约0.982，高于0.60和0.85。因此四格的开发覆盖率、接受准确率和效用均为1，没有观察到因素差异。不得为制造消融效果而改写结果，也不得把正文旧十二图的数值套到本输入。这里的零差异不能证明填充率或拒识阈值在其他材料上无用。
+--- baseline/ch11/11.10/input.json
++++ revision/ch11/11.10/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "11.10",
+   "title": "消融协议与控制变量",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "vision_ablation",
+   "rows": [
+@@ -40,5 +40,6 @@
+       0.6,
+       0.85
+     ]
+-  }
+-}+  },
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch11/11.2/README.md
++++ revision/ch11/11.2/README.md
+@@ -23,7 +23,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -35,4 +35,8 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
++
++## 本次复核确认的分母
++
++此输入的AP只对存在参考对象的seal类计算。D02为TP，D03重复框与D04错误类别均为FP；AP=1不意味着没有误检。text类没有参考，不进入该宏平均。best_iou只在尚未被占用、同图同类的参考中取最大值；无此类候选时为0，不代表对全部参考框的几何IoU为0。
+--- baseline/ch11/11.2/input.json
++++ revision/ch11/11.2/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "11.2",
+   "title": "检测：bbox回归与分类的联合任务",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "detection",
+   "rows": [
+@@ -60,5 +60,6 @@
+   ],
+   "config": {
+     "iou_threshold": 0.5
+-  }
+-}+  },
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch11/11.3/README.md
++++ revision/ch11/11.3/README.md
+@@ -24,7 +24,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -36,4 +36,4 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+--- baseline/ch11/11.3/input.json
++++ revision/ch11/11.3/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "11.3",
+   "title": "分割：像素级分类与SAM提示分割",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "segmentation",
+   "rows": [
+@@ -61,5 +61,6 @@
+       ]
+     }
+   ],
+-  "config": {}
+-}+  "config": {},
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch11/11.4/README.md
++++ revision/ch11/11.4/README.md
+@@ -23,7 +23,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -35,4 +35,4 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+--- baseline/ch11/11.4/input.json
++++ revision/ch11/11.4/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "11.4",
+   "title": "从CNN到ViT：架构与迁移路线",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "architecture",
+   "rows": [
+@@ -18,5 +18,6 @@
+       "patch": 16
+     }
+   ],
+-  "config": {}
+-}+  "config": {},
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch11/11.5/README.md
++++ revision/ch11/11.5/README.md
+@@ -24,7 +24,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -36,4 +36,4 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+--- baseline/ch11/11.5/input.json
++++ revision/ch11/11.5/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "11.5",
+   "title": "DINOv2与特征质量评估",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "feature_eval",
+   "rows": [
+@@ -46,5 +46,6 @@
+       ]
+     }
+   ],
+-  "config": {}
+-}+  "config": {},
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch11/11.6/README.md
++++ revision/ch11/11.6/README.md
+@@ -23,7 +23,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -35,4 +35,4 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+--- baseline/ch11/11.6/input.json
++++ revision/ch11/11.6/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "11.6",
+   "title": "ImageNet/COCO/ADE20K：三大benchmark",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "benchmark",
+   "rows": [
+@@ -27,5 +27,6 @@
+       "local_output": "pixel_class"
+     }
+   ],
+-  "config": {}
+-}+  "config": {},
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch11/11.7/README.md
++++ revision/ch11/11.7/README.md
+@@ -25,7 +25,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -37,4 +37,8 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
++
++## 本次复核确认的分母
++
++新输入Top-1为1/2；检测的AP只平均有参考的seal类，text类无参考，两个FP仍在匹配明细中；不得把AP=1说成没有误检。分割前景IoU=3/4、背景IoU=12/13，含背景均值=87/104。检测框与掩膜的嵌套编号也须唯一。以上是新版小例，不是正文旧三类、100像素样本。
+--- baseline/ch11/11.7/input.json
++++ revision/ch11/11.7/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "11.7",
+   "title": "Top-1/mAP/mIoU指标族",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "vision_metrics",
+   "rows": [
+@@ -135,5 +135,6 @@
+       }
+     ],
+     "iou_threshold": 0.5
+-  }
+-}+  },
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch11/11.8/README.md
++++ revision/ch11/11.8/README.md
+@@ -23,7 +23,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -35,4 +35,8 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
++
++## 本次复核确认的空表边界
++
++无参考行时，per_class为空列表，macro_recall和micro_accuracy均记null，不能制造零分或满分。
+--- baseline/ch11/11.8/input.json
++++ revision/ch11/11.8/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "11.8",
+   "title": "长尾分布与类别不平衡评测",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "longtail",
+   "rows": [
+@@ -36,5 +36,6 @@
+       "source": "C"
+     }
+   ],
+-  "config": {}
+-}+  "config": {},
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch11/11.9/README.md
++++ revision/ch11/11.9/README.md
+@@ -23,7 +23,7 @@
+ python -B ../workbook.py --input input.json
+ ```
+ 
+-脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。当前版本所有计算脚本为 **NOT_RUN**：本次只编写，不复算、不训练、不把预期当实测。尚未在读者环境执行，可能需要后续调试。
++脚本只读本地输入并在终端打印JSON，不联网、不安装、不调用模型、不修改输入、不自动保存结果。需要留存时，先确认新文件名，再自行保存终端输出。2026-10-30已在本次复核环境实际执行本节所列标准库命令，并对关键输出独立计数或计算；详细状态见[本章运行记录](../EXECUTION_STATUS.json)。这不等于已在所有读者环境验证，也不表示运行过模型或获得历史研究结论。result_template.csv及未填worksheet仍是空白模板，不充作运行结果。
+ 
+ ## 看什么结果
+ 
+@@ -35,4 +35,4 @@
+ 
+ 另建课题输入版本，替换教学来源与编号，保留原文或图像位置；不要把其他节的独立例子合并成更大样本。模型调用、下载数据和训练不由本脚本执行，若采用需另记录模型和数据版本、来源切分、成本和实际状态。
+ 
+-实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。本次仅查明标准库输入输出接口，不据此声称学术脚本已通过测试。
++实现依据：Python官方[csv](https://docs.python.org/3/library/csv.html)与[json](https://docs.python.org/3/library/json.html)文档。接口出处与本次执行检查分开记录；通过教学输入及边界检查，不等于证实真实研究的历史结论。
+--- baseline/ch11/11.9/input.json
++++ revision/ch11/11.9/input.json
+@@ -1,7 +1,7 @@
+ {
+   "section": "11.9",
+   "title": "分布偏移与鲁棒性评测",
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "provenance": "编者新编教学数据 非史实 非模型输出",
+   "mode": "shift",
+   "rows": [
+@@ -38,5 +38,6 @@
+       "accepted": 0
+     }
+   ],
+-  "config": {}
+-}+  "config": {},
++  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
++}
+--- baseline/ch11/EXECUTION_STATUS.json
++++ revision/ch11/EXECUTION_STATUS.json
+@@ -1,7 +1,189 @@
+ {
+-  "status": "NOT_RUN",
++  "status": "EXECUTED_PASS",
+   "date": "2026-10-30",
+-  "scope": "All newly authored scripts, model calls, scores and resampling calculations were not executed in this delivery.",
+-  "inputs": "Synthetic fixtures or human-fillable plans. No newly collected historical records.",
+-  "dependencies": "Python standard library only; no install required by the package."
+-}+  "scope": "只对本章下列实际输入/命令及报告中的边界有效；共享脚本其他章分支并非在每个副本逐一独立运行。",
++  "environment": {
++    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
++    "platform": "linux"
++  },
++  "script_sha256": "2573d9dc39a21faa129106521216a8ab6a75988af373b19c8938fae30351c58b",
++  "sections": [
++    {
++      "section": "11.1",
++      "title": "分类：从图片到类别概率向量",
++      "mode": "vision_class",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.1/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "039c9bf447f947ce85b9c379ed2195c7c96f851552d9a1b1f3770f7dc172bd3a"
++    },
++    {
++      "section": "11.2",
++      "title": "检测：bbox回归与分类的联合任务",
++      "mode": "detection",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.2/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "619220d1e4d9581814d539136e66702c1d588624d929c1c3d251a03a6eac7a93"
++    },
++    {
++      "section": "11.3",
++      "title": "分割：像素级分类与SAM提示分割",
++      "mode": "segmentation",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.3/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "4702b97c94898d74c1ecc7201b0c6826450758dbcf1725762d1754982211693c"
++    },
++    {
++      "section": "11.4",
++      "title": "从CNN到ViT：架构与迁移路线",
++      "mode": "architecture",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.4/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "d086c99ce7da936aec56845b09013ac6579221fa95e49fb30e52c47465b06486"
++    },
++    {
++      "section": "11.5",
++      "title": "DINOv2与特征质量评估",
++      "mode": "feature_eval",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.5/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "38ac96f7e796ced5f4ebbf5d56d6a1d807a098ff0d20d3913a847a6412155926"
++    },
++    {
++      "section": "11.6",
++      "title": "ImageNet/COCO/ADE20K：三大benchmark",
++      "mode": "benchmark",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "NON_RUNNING_TEMPLATE",
++      "scope_note": "基准映射模板，不是公开benchmark运行",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.6/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "73c39e9cedf1b4d7b5b8583aca2a4ad6b8dfdeabda6013e8cb23d1265f1601a7"
++    },
++    {
++      "section": "11.7",
++      "title": "Top-1/mAP/mIoU指标族",
++      "mode": "vision_metrics",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.7/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "22a7a5c6dc5a45c22c76b1fb81f89c2a53a34c0753becde636c3f2a26bcf51af"
++    },
++    {
++      "section": "11.8",
++      "title": "长尾分布与类别不平衡评测",
++      "mode": "longtail",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.8/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "22708c19707f309d149be5a684aeb556d5b6fb252bcc4a41dc3ffe3c938377f3"
++    },
++    {
++      "section": "11.9",
++      "title": "分布偏移与鲁棒性评测",
++      "mode": "shift",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.9/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "69ec88cb271e6566cb4d6ef99b83bd45e58a7ffcc73b2aebcbd789a866609d16"
++    },
++    {
++      "section": "11.10",
++      "title": "消融协议与控制变量",
++      "mode": "vision_ablation",
++      "status": "EXECUTED_PASS",
++      "artifact_type": "TEACHING_CALCULATION",
++      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
++      "main_command": [
++        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
++        "-B",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
++        "--input",
++        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.10/input.json"
++      ],
++      "main_exit_code": 0,
++      "input_sha256": "65e555e10301126c42a088161bfc4f4bca2739e4dc9439986e11428cb30d86c8"
++    }
++  ],
++  "model_calls": "NOT_RUN",
++  "real_feature_extraction": "NOT_RUN",
++  "public_benchmark_runs": "NOT_RUN",
++  "blank_worksheets_and_result_templates": "NON_RUNNING_TEMPLATE",
++  "fixture_embedded_statuses": "教学追踪行、卡片、示例配置中的NOT_RUN保留其原对象含义，不因运行检查器而改成模型完成。",
++  "report": "../../../reports/recompute_ch07_11.md",
++  "raw_final_manifest": "../../../runs/ch07_11/verified/manifest.json"
++}
+--- baseline/ch11/README.md
++++ revision/ch11/README.md
+@@ -11,4 +11,4 @@
+ - [11.9 分布偏移与鲁棒性评测](11.9/README.md) — 原件配对表、分组覆盖与失效条件记录
+ - [11.10 消融协议与控制变量](11.10/README.md) — 四格消融计划、逐图结果格式与独立测试交接模板
+ 
+-全部新增程序状态为NOT_RUN；没有模型调用、复算结果或伪造运行日志。各节输入相互独立，不能叠加为历史样本。旧稿中出现的旧程序名和旧输出不再承担操作入口，本包以各节README和input.json为准。
++本章所列标准库教学命令已于2026-10-30实际运行，关键数值经独立计数或公式核对；详见[运行记录](EXECUTION_STATUS.json)。模型调用、公开基准运行、真实特征提取和未填人工工作表仍未执行，不把模板检查当成模型实验。各节输入相互独立，不能叠加为历史样本。旧稿中出现的旧程序名和旧输出不再承担操作入口，本包以各节README和input.json为准。
+--- baseline/ch11/workbook.py
++++ revision/ch11/workbook.py
+@@ -1,5 +1,6 @@
+ #!/usr/bin/env python3
+-"""STATUS: NOT_RUN. Authored teaching implementation, not validated execution.
++"""Locally exercised teaching implementation; see EXECUTION_STATUS.json.
++Execution checks do not validate historical claims or execute model calls.
+ Only reads the requested local JSON and PGM files and prints JSON to stdout.
+ No model, network, dependency install, external command, deletion or overwrite.
+ Examples are synthetic. Do not cite outputs as historical findings.
+@@ -70,6 +71,10 @@
+         for i,r in enumerate(rows):
+             value=r.get(key)
+             if value in (None,''): continue
++            if key=='page':
++                source=r.get('source_id') or r.get('source')
++                if source in (None,''): continue  # Unknown provenance cannot identify a shared page.
++                value=(source,value)
+             if value in seen: parent[root(i)]=root(seen[value])
+             else: seen[value]=i
+     groups=collections.defaultdict(list)
+@@ -91,7 +96,11 @@
+ 
+ def bootstrap(rows,cfg):
+     if not rows: raise ValueError('empty bootstrap sample')
+-    rng=random.Random(cfg['seed']); unit=cfg.get('unit','row')
++    unit=cfg.get('unit','row')
++    if unit not in ('row','source'): raise ValueError('bootstrap unit must be row or source')
++    if type(cfg['resamples']) is not int or cfg['resamples']<=0: raise ValueError('resamples must be a positive integer')
++    if not 0<cfg['confidence']<1: raise ValueError('confidence must be between 0 and 1')
++    rng=random.Random(cfg['seed'])
+     groups=collections.defaultdict(list)
+     for r in rows:groups[r['source'] if unit=='source' else r['id']].append(r)
+     groups=list(groups.values());values=[]
+@@ -121,14 +130,16 @@
+ 
+ def overlap(rows,cfg):
+     result=[]
++    if type(cfg['bleu_order']) is not int or cfg['bleu_order']<1: raise ValueError('bleu order must be a positive integer')
+     for r in rows:
+         ref=r['reference'].split();cand=r['candidate'].split();prec=[]
++        if not ref: raise ValueError('empty reference')
+         for n in range(1,cfg['bleu_order']+1):
+             rc=collections.Counter(tuple(ref[i:i+n]) for i in range(len(ref)-n+1))
+             cc=collections.Counter(tuple(cand[i:i+n]) for i in range(len(cand)-n+1))
+-            prec.append(div(sum(min(v,rc[k]) for k,v in cc.items()),sum(cc.values())) or 0.0)
++            prec.append(div(sum(min(v,rc[k]) for k,v in cc.items()),sum(cc.values())))
+         bp=0 if not cand else min(1,math.exp(1-len(ref)/len(cand)))
+-        bleu=0 if any(p==0 for p in prec) else bp*math.exp(sum(math.log(p) for p in prec)/len(prec))
++        bleu=0 if not cand else None if any(p is None for p in prec) else 0 if any(p==0 for p in prec) else bp*math.exp(sum(math.log(p) for p in prec)/len(prec))
+         common=sum((collections.Counter(ref)&collections.Counter(cand)).values())
+         longest=lcs(ref,cand)
+         def prf(hit):return {'precision':div(hit,len(cand)),'recall':div(hit,len(ref)),'f1':div(2*hit,len(ref)+len(cand))}
+@@ -192,6 +203,7 @@
+ 
+ 
+ def detection(rows,threshold):
++    unique(rows,'id')
+     refs=[r for r in rows if r['kind']=='reference'];preds=sorted([r for r in rows if r['kind']=='prediction'],key=lambda r:(-r['score'],r['id']))
+     used=set();out=[]
+     for r in preds:
+@@ -213,6 +225,7 @@
+ 
+ 
+ def segmentation(rows):
++    unique(rows,'id')
+     out=[]
+     for r in rows:
+         g=r['reference'];p=r['prediction']
+@@ -320,7 +333,7 @@
+         per=[]
+         for label in sorted({r['label'] for r in rows}):
+             subset=[r for r in rows if r['label']==label];per.append({'label':label,'support':len(subset),'recall':sum(r['pred']==r['label'] for r in subset)/len(subset),'sources':sorted({r['source'] for r in subset})})
+-        return {'per_class':per,'macro_recall':sum(r['recall'] for r in per)/len(per),'micro_accuracy':div(sum(r['label']==r['pred'] for r in rows),len(rows))}
++        return {'per_class':per,'macro_recall':div(sum(r['recall'] for r in per),len(per)),'micro_accuracy':div(sum(r['label']==r['pred'] for r in rows),len(rows))}
+     if mode=='shift':
+         out=[]
+         for source in sorted({r['source'] for r in rows}):

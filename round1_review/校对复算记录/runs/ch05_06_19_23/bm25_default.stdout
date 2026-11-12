@@ -1,0 +1,124 @@
+{
+  "corpus_version": "ch06-new-20261030-v1",
+  "allowed_ids": [
+    "D1",
+    "D2",
+    "D3",
+    "D4"
+  ],
+  "k1": 1.2,
+  "b": 0.75,
+  "queries": [
+    {
+      "id": "USER",
+      "status": "ok",
+      "query_tokens": [
+        "泉州",
+        "人口",
+        "增加"
+      ],
+      "N": 4,
+      "avgdl": 13.5,
+      "empty_blocks": [],
+      "unmatched_terms": [],
+      "results": [
+        {
+          "id": "D2",
+          "score": 1.7310533774839876,
+          "matched_terms": [
+            {
+              "term": "泉州",
+              "tf": 1,
+              "df": 3,
+              "idf": 0.3566749439387324,
+              "contribution": 0.3621622507685591
+            },
+            {
+              "term": "人口",
+              "tf": 2,
+              "df": 4,
+              "idf": 0.10536051565782635,
+              "contribution": 0.14639566386140085
+            },
+            {
+              "term": "增加",
+              "tf": 1,
+              "df": 1,
+              "idf": 1.2039728043259361,
+              "contribution": 1.2224954628540277
+            }
+          ],
+          "locator": "一、地区常住人口第二段",
+          "source_id": "S1",
+          "evidence_group": "D2",
+          "rank": 1
+        },
+        {
+          "id": "D3",
+          "score": 0.49990721857988335,
+          "matched_terms": [
+            {
+              "term": "泉州",
+              "tf": 1,
+              "df": 3,
+              "idf": 0.3566749439387324,
+              "contribution": 0.38591059508125153
+            },
+            {
+              "term": "人口",
+              "tf": 1,
+              "df": 4,
+              "idf": 0.10536051565782635,
+              "contribution": 0.11399662349863181
+            }
+          ],
+          "locator": "二、性别构成表2-2泉州行及列名",
+          "source_id": "S1",
+          "evidence_group": "D3",
+          "rank": 2
+        },
+        {
+          "id": "D1",
+          "score": 0.4255741498054877,
+          "matched_terms": [
+            {
+              "term": "泉州",
+              "tf": 1,
+              "df": 3,
+              "idf": 0.3566749439387324,
+              "contribution": 0.29798159873362456
+            },
+            {
+              "term": "人口",
+              "tf": 2,
+              "df": 4,
+              "idf": 0.10536051565782635,
+              "contribution": 0.12759255107186313
+            }
+          ],
+          "locator": "表2-1泉州行、双层表头与单位",
+          "source_id": "S1",
+          "evidence_group": "D1",
+          "rank": 3
+        },
+        {
+          "id": "D4",
+          "score": 0.11786091582061932,
+          "matched_terms": [
+            {
+              "term": "人口",
+              "tf": 1,
+              "df": 4,
+              "idf": 0.10536051565782635,
+              "contribution": 0.11786091582061932
+            }
+          ],
+          "locator": "注[3]末句，人口定义须读完整原注",
+          "source_id": "S1",
+          "evidence_group": "D4",
+          "rank": 4
+        }
+      ]
+    }
+  ]
+}

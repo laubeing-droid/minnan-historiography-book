@@ -1,0 +1,20 @@
+{
+  "execution": "reader_invoked",
+  "input_provenance": "编者新编教学数据 非史实 非模型输出",
+  "section": "7.6",
+  "result": [
+    {
+      "ids": [
+        "a",
+        "b",
+        "c"
+      ],
+      "splits": [
+        "dev",
+        "test",
+        "train"
+      ],
+      "crosses_split": true
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "execution": "reader_invoked",
+  "input_provenance": "编者新编教学数据 非史实 非模型输出",
+  "section": "11.7",
+  "result": {
+    "classification": {
+      "n": 2,
+      "top1": 0.5
+    },
+    "detection": {
+      "matches": [
+        {
+          "id": "D02",
+          "label": "seal",
+          "score": 0.9,
+          "matched_id": "D01",
+          "best_iou": 1.0,
+          "tp": 1
+        },
+        {
+          "id": "D04",
+          "label": "text",
+          "score": 0.8,
+          "matched_id": null,
+          "best_iou": 0,
+          "tp": 0
+        },
+        {
+          "id": "D03",
+          "label": "seal",
+          "score": 0.7,
+          "matched_id": null,
+          "best_iou": 0,
+          "tp": 0
+        }
+      ],
+      "missed_ids": [],
+      "ap_noninterpolated_per_class": {
+        "seal": 1.0
+      },
+      "mean_ap_at_one_threshold": 1.0,
+      "protocol": "teaching non-interpolated AP at a single IoU threshold; not COCO AP"
+    },
+    "segmentation": [
+      {
+        "id": "M1",
+        "classes": {
+          "0": {
+            "intersection": 12,
+            "union": 13,
+            "iou": 0.9230769230769231
+          },
+          "1": {
+            "intersection": 3,
+            "union": 4,
+            "iou": 0.75
+          }
+        },
+        "miou_including_background": 0.8365384615384616,
+        "foreground_iou": 0.75
+      }
+    ]
+  }
+}

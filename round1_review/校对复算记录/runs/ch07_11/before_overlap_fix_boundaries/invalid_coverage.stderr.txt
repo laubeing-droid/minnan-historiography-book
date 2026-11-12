@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py", line 347, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py", line 344, in main
+    result=run(data,path.parent)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py", line 246, in run
+    if mode=='coverage':return coverage(rows)
+                               ^^^^^^^^^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py", line 58, in coverage
+    if not 0<=r['correct']<=r['evaluated']<=r['readable']<=r['available']: raise ValueError('invalid coverage funnel')
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid coverage funnel

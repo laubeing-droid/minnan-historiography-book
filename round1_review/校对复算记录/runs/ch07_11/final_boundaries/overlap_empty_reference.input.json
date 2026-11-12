@@ -1,0 +1,19 @@
+{
+  "section": "10.4",
+  "title": "n-gram评测：BLEU与ROUGE",
+  "status": "NOT_RUN",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "overlap",
+  "rows": [
+    {
+      "id": "x",
+      "reference": "",
+      "candidate": "甲"
+    }
+  ],
+  "config": {
+    "bleu_order": 2,
+    "tokenization": "whitespace_authored",
+    "aggregation": "per_sentence_not_corpus"
+  }
+}

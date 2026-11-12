@@ -1,0 +1,10 @@
+query_id,new_run_status,rank,block_id,score,direct_or_background,reason,locator
+H01,NOT_RUN,,,,,原问,
+H01-A,NOT_RUN,,,,,比重子问,
+H01-B,NOT_RUN,,,,,人数子问；并列方向不预选答案,
+H01-C,NOT_RUN,,,,,统计口径,
+H01-E1,NOT_RUN,,,,,保留白话原词,
+H01-E2,NOT_RUN,,,,,增加来自材料原词,
+H01-X1,NOT_RUN,,,,,教学反例：统计时点偏移,
+H01-X2,NOT_RUN,,,,,教学反例：把原因写成事实,
+H01-X3,NOT_RUN,,,,,教学反例：混入不同指标,

@@ -1,0 +1,8 @@
+{
+  "status": "EXECUTED_BY_READER",
+  "phase": "validation",
+  "python": "3.12.14",
+  "input_sha256": "6c0eda0561c9d6962cf25f6ac8ffde3293cae7716c9036fc2fe37a4201f0a59f",
+  "protocol_sha256": "ec00edfa9069d6d0fc56d1823662add82530ce63ae8bbf25665a7ac7a91eaece",
+  "plots": "NOT_GENERATED; diagnostics require human interpretation"
+}

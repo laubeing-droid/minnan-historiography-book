@@ -1,0 +1,254 @@
+[
+  {
+    "candidate_id": "K1",
+    "source_id": "S1",
+    "quote": "[T1]林甲致书海东会。",
+    "names": [
+      "林甲",
+      "海东会"
+    ],
+    "occurrence": null,
+    "direction_hint": "person_to_organization",
+    "strength": null,
+    "text_sha256": "8abd72e18dadeb1ce5c28fb611deec3d4710d1fbb1e03c44aed7529c0ec266c3",
+    "text_version": "new-teaching-v1",
+    "page_label": "合成记录第1页",
+    "text_length_codepoints": 23,
+    "all_matches": [
+      [
+        0,
+        12
+      ]
+    ],
+    "selected_span": [
+      0,
+      12
+    ],
+    "location_status": "selected",
+    "mentions": [
+      {
+        "name_as_written": "林甲",
+        "start": 4,
+        "end": 6,
+        "identity": "not_inferred"
+      },
+      {
+        "name_as_written": "海东会",
+        "start": 8,
+        "end": 11,
+        "identity": "not_inferred"
+      }
+    ],
+    "negation_hint": false,
+    "cross_paragraph_hint": false,
+    "explicit_time_markers": [
+      "[T1]"
+    ],
+    "historical_relation_status": "not_decided_by_locator"
+  },
+  {
+    "candidate_id": "K2",
+    "source_id": "S1",
+    "quote": "林甲未曾致书海东会。",
+    "names": [
+      "林甲",
+      "海东会"
+    ],
+    "occurrence": null,
+    "direction_hint": "needs_negation_review",
+    "strength": null,
+    "text_sha256": "8abd72e18dadeb1ce5c28fb611deec3d4710d1fbb1e03c44aed7529c0ec266c3",
+    "text_version": "new-teaching-v1",
+    "page_label": "合成记录第1页",
+    "text_length_codepoints": 23,
+    "all_matches": [
+      [
+        13,
+        23
+      ]
+    ],
+    "selected_span": [
+      13,
+      23
+    ],
+    "location_status": "selected",
+    "mentions": [
+      {
+        "name_as_written": "林甲",
+        "start": 13,
+        "end": 15,
+        "identity": "not_inferred"
+      },
+      {
+        "name_as_written": "海东会",
+        "start": 19,
+        "end": 22,
+        "identity": "not_inferred"
+      }
+    ],
+    "negation_hint": true,
+    "cross_paragraph_hint": false,
+    "explicit_time_markers": [],
+    "historical_relation_status": "not_decided_by_locator"
+  },
+  {
+    "candidate_id": "K3",
+    "source_id": "S2",
+    "quote": "林甲、陈乙同列名录。",
+    "names": [
+      "林甲",
+      "陈乙"
+    ],
+    "occurrence": null,
+    "direction_hint": "none",
+    "strength": null,
+    "text_sha256": "1c389d39c1643697faf57b4daa19d0638dede0855b3e9513a0f3ed2c5b1a76b5",
+    "text_version": "new-teaching-v1",
+    "page_label": "合成名录第1页",
+    "text_length_codepoints": 22,
+    "all_matches": [
+      [
+        0,
+        10
+      ]
+    ],
+    "selected_span": [
+      0,
+      10
+    ],
+    "location_status": "selected",
+    "mentions": [
+      {
+        "name_as_written": "林甲",
+        "start": 0,
+        "end": 2,
+        "identity": "not_inferred"
+      },
+      {
+        "name_as_written": "陈乙",
+        "start": 3,
+        "end": 5,
+        "identity": "not_inferred"
+      }
+    ],
+    "negation_hint": false,
+    "cross_paragraph_hint": false,
+    "explicit_time_markers": [],
+    "historical_relation_status": "not_decided_by_locator"
+  },
+  {
+    "candidate_id": "K4",
+    "source_id": "S2",
+    "quote": "陈乙记事",
+    "names": [
+      "陈乙"
+    ],
+    "occurrence": null,
+    "direction_hint": "none",
+    "strength": null,
+    "text_sha256": "1c389d39c1643697faf57b4daa19d0638dede0855b3e9513a0f3ed2c5b1a76b5",
+    "text_version": "new-teaching-v1",
+    "page_label": "合成名录第1页",
+    "text_length_codepoints": 22,
+    "all_matches": [
+      [
+        11,
+        15
+      ],
+      [
+        17,
+        21
+      ]
+    ],
+    "selected_span": null,
+    "location_status": "ambiguous",
+    "mentions": [],
+    "negation_hint": false,
+    "cross_paragraph_hint": false,
+    "explicit_time_markers": [],
+    "historical_relation_status": "not_decided_by_locator"
+  },
+  {
+    "candidate_id": "K5",
+    "source_id": "S3",
+    "quote": "陈乙到场。\n\n翌日，海东会收函。",
+    "names": [
+      "陈乙",
+      "海东会"
+    ],
+    "occurrence": null,
+    "direction_hint": "unknown",
+    "strength": null,
+    "text_sha256": "71f371e4553afbfc6d823152be341f771cc73665228d72a02ec131c6175462c2",
+    "text_version": "new-teaching-v1",
+    "page_label": "合成跨段记录第1页",
+    "text_length_codepoints": 16,
+    "all_matches": [
+      [
+        0,
+        16
+      ]
+    ],
+    "selected_span": [
+      0,
+      16
+    ],
+    "location_status": "selected",
+    "mentions": [
+      {
+        "name_as_written": "陈乙",
+        "start": 0,
+        "end": 2,
+        "identity": "not_inferred"
+      },
+      {
+        "name_as_written": "海东会",
+        "start": 10,
+        "end": 13,
+        "identity": "not_inferred"
+      }
+    ],
+    "negation_hint": false,
+    "cross_paragraph_hint": true,
+    "explicit_time_markers": [],
+    "historical_relation_status": "not_decided_by_locator"
+  },
+  {
+    "candidate_id": "K6",
+    "source_id": "S3",
+    "quote": "翌日，海东会收函。",
+    "names": [
+      "海东会"
+    ],
+    "occurrence": null,
+    "direction_hint": "unknown",
+    "strength": null,
+    "text_sha256": "71f371e4553afbfc6d823152be341f771cc73665228d72a02ec131c6175462c2",
+    "text_version": "new-teaching-v1",
+    "page_label": "合成跨段记录第1页",
+    "text_length_codepoints": 16,
+    "all_matches": [
+      [
+        7,
+        16
+      ]
+    ],
+    "selected_span": [
+      7,
+      16
+    ],
+    "location_status": "selected",
+    "mentions": [
+      {
+        "name_as_written": "海东会",
+        "start": 10,
+        "end": 13,
+        "identity": "not_inferred"
+      }
+    ],
+    "negation_hint": false,
+    "cross_paragraph_hint": false,
+    "explicit_time_markers": [],
+    "historical_relation_status": "not_decided_by_locator"
+  }
+]

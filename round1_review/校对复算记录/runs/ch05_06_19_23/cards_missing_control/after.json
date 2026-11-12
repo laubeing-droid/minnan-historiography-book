@@ -1,0 +1,23 @@
+{
+  "scope": "completeness only; no score or recommendation",
+  "cards": [
+    {
+      "id": "Q22-A",
+      "missing": [
+        "materials",
+        "next_step"
+      ],
+      "duplicate_id": false
+    },
+    {
+      "id": "Q22-B",
+      "missing": [],
+      "duplicate_id": false
+    },
+    {
+      "id": "Q22-C",
+      "missing": [],
+      "duplicate_id": false
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "section": "8.6",
+  "title": "AI 结对编程 输入输出契约与三遍审查",
+  "status": "NOT_RUN",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "literal",
+  "rows": [
+    {
+      "id": "C01",
+      "text": "甲未停讲，乙停讲。",
+      "needle": "停讲"
+    },
+    {
+      "id": "C02",
+      "text": "停讲停讲",
+      "needle": "停讲"
+    },
+    {
+      "id": "C03",
+      "text": "无相关词",
+      "needle": "停讲"
+    },
+    {
+      "id": "C04",
+      "text": "甲停讲",
+      "needle": ""
+    }
+  ],
+  "config": {}
+}

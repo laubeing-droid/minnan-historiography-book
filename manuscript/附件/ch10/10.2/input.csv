@@ -1,0 +1,4 @@
+id,source,split,text,answer
+S01,demo_A,example,拟迁，尚在议。,拟议未定
+S02,demo_B,example,现已迁至新岸。,已迁
+S03,demo_C,test,尚未迁。,未迁

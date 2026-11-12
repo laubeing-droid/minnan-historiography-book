@@ -1,0 +1,39 @@
+{
+  "section": "9.5",
+  "title": "GLUE/SuperGLUE/MMLU/HumanEval：基准选择与适用边界",
+  "status": "EXECUTED_PASS",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "benchmark",
+  "rows": [
+    {
+      "id": "B01",
+      "name": "GLUE",
+      "task": "language_understanding",
+      "local_task": "事件状态分类",
+      "transfer_check": "加入否定和拟议例"
+    },
+    {
+      "id": "B02",
+      "name": "SuperGLUE",
+      "task": "language_understanding",
+      "local_task": "依据判定",
+      "transfer_check": "保留证据边界"
+    },
+    {
+      "id": "B03",
+      "name": "MMLU",
+      "task": "knowledge_multiple_choice",
+      "local_task": "背景知识选择",
+      "transfer_check": "不能代替原文出处核对"
+    },
+    {
+      "id": "B04",
+      "name": "HumanEval",
+      "task": "code_generation",
+      "local_task": "生成小函数",
+      "transfer_check": "另设输入输出测试"
+    }
+  ],
+  "config": {},
+  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
+}

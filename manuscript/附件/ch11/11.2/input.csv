@@ -1,0 +1,5 @@
+id,image,kind,label,score,box
+D01,teaching_page,reference,seal,1,"[1, 1, 5, 5]"
+D02,teaching_page,prediction,seal,0.9,"[1, 1, 5, 5]"
+D03,teaching_page,prediction,seal,0.7,"[2, 1, 6, 5]"
+D04,teaching_page,prediction,text,0.8,"[1, 1, 5, 5]"

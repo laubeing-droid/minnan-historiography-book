@@ -1,0 +1,917 @@
+{
+  "scope": "第6章37个不同原引用URL，有限清单核查",
+  "url_count": 37,
+  "status_counts": {
+    "CHECKED_SUPPORTS_CITED_CLAIM": 36,
+    "ACCESS_BLOCKED": 1
+  },
+  "ledger": [
+    {
+      "id": "S06-01",
+      "url": "https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.1",
+          "baseline_line": 54,
+          "citation_text": "[1] Microsoft Learn，*Retrieval-augmented generation (RAG) in Azure AI Search*，“Classic RAG pattern”及资料准备相关段落。https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview 。"
+        }
+      ],
+      "sections": [
+        "6.1"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "Classic RAG／Content preparation and ingestion",
+      "claim_checked": "经典流程先取材料，再交生成模型；切块和向量化属于资料准备。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE"
+    },
+    {
+      "id": "S06-02",
+      "url": "https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.1",
+          "baseline_line": 56,
+          "citation_text": "[2] 福建省统计局、福建省第七次全国人口普查领导小组办公室，《福建省第七次全国人口普查公报（第二号）——地区人口情况》，2021年5月20日，正文开头、“一、地区常住人口”、表2-1及注[1]—[3]。官方网页：https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm 。年鉴收录PDF：https://tjj.fujian.gov.cn/tongjinianjian/rk2020/html/fu0202.pdf ，表2-1及人口增加段在PDF第1页，印刷页2887。"
+        },
+        {
+          "chapter": 6,
+          "section": "6.2",
+          "baseline_line": 107,
+          "citation_text": "[2] 福建省统计局、福建省第七次全国人口普查领导小组办公室，《福建省第七次全国人口普查公报（第二号）——地区人口情况》，2021年5月20日。官方网页：https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm 。年鉴所收公报PDF：https://tjj.fujian.gov.cn/tongjinianjian/rk2020/html/fu0202.pdf 。本节使用表2-1及注[1]—[3]；表格在PDF第1页，相关注释在第3—4页，印刷页码2887、2889—2890。核读日期：2026年10月24日。"
+        },
+        {
+          "chapter": 6,
+          "section": "6.3",
+          "baseline_line": 153,
+          "citation_text": "[3] 福建省统计局、福建省第七次全国人口普查领导小组办公室，《福建省第七次全国人口普查公报（第二号）——地区人口情况》，2021年5月20日，正文开头、“一、地区常住人口”第二段、表2-1及“二、性别构成”表2-2。https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm 。"
+        },
+        {
+          "chapter": 6,
+          "section": "6.4",
+          "baseline_line": 261,
+          "citation_text": "[2] 福建省统计局、福建省第七次全国人口普查领导小组办公室，《福建省第七次全国人口普查公报（第二号）——地区人口情况》，2021年5月20日，“一、地区常住人口”第二段、表2-1泉州行、表2-2泉州行及注[1]—[3]。https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm 。"
+        },
+        {
+          "chapter": 6,
+          "section": "6.5",
+          "baseline_line": 356,
+          "citation_text": "[1] 福建省统计局、福建省第七次全国人口普查领导小组办公室，《福建省第七次全国人口普查公报（第二号）——地区人口情况》，2021年5月20日，表2-1、人口增加段、表2-2及注[1]—[3]。https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm 。"
+        },
+        {
+          "chapter": 6,
+          "section": "6.6",
+          "baseline_line": 454,
+          "citation_text": "[2] 福建省统计局、福建省第七次全国人口普查领导小组办公室，《福建省第七次全国人口普查公报（第二号）——地区人口情况》，2021年5月20日，开头、第一部分第二段、表2-1、表2-2及注[1]—[3]。https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm 。"
+        },
+        {
+          "chapter": 6,
+          "section": "6.7",
+          "baseline_line": 510,
+          "citation_text": "这段回答把公报直接记载的增量与据表计算的百分点差分开了。首句的两个判断分别由D1、D2支持，后面再给出精确位置。来源S1链接到[福建省统计局原公报](https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm)，读者沿编号便可找到表或段落。两版拟答的差别落在可见的文字上：补齐时间与数值，把笼统出处拆成具体定位。原问题已得到回答，就在这里结束。"
+        },
+        {
+          "chapter": 6,
+          "section": "6.7",
+          "baseline_line": 532,
+          "citation_text": "[1] 福建省统计局、福建省第七次全国人口普查领导小组办公室，《福建省第七次全国人口普查公报（第二号）——地区人口情况》，2021年5月20日，开头、“一、地区常住人口”第二段、表2-1及注[1]—[3]。https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm 。"
+        },
+        {
+          "chapter": 6,
+          "section": "6.8",
+          "baseline_line": 611,
+          "citation_text": "[1] 福建省统计局、福建省第七次全国人口普查领导小组办公室，《福建省第七次全国人口普查公报（第二号）——地区人口情况》，2021年5月20日，开头、第一部分第二段、表2-1泉州行、表2-2泉州行及注[1]—[3]。https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm 。"
+        }
+      ],
+      "sections": [
+        "6.1",
+        "6.2",
+        "6.3",
+        "6.4",
+        "6.5",
+        "6.6",
+        "6.7",
+        "6.8"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "开头、第一部分第二段、表2-1、表2-2及注1—3",
+      "claim_checked": "2020统计时点、2021发布日期及初步汇总边界；泉州人数8782285、增量653755、份额22.03至21.14、女性47.78、性别比109.31及不含金门马祖相符。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组B（原通读核查，父校对员据记录汇编）",
+      "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+      "evidence_record": "coverage_ch06_08.json/source_checks"
+    },
+    {
+      "id": "S06-03",
+      "url": "https://tjj.fujian.gov.cn/tongjinianjian/rk2020/html/fu0202.pdf",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.1",
+          "baseline_line": 56,
+          "citation_text": "[2] 福建省统计局、福建省第七次全国人口普查领导小组办公室，《福建省第七次全国人口普查公报（第二号）——地区人口情况》，2021年5月20日，正文开头、“一、地区常住人口”、表2-1及注[1]—[3]。官方网页：https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm 。年鉴收录PDF：https://tjj.fujian.gov.cn/tongjinianjian/rk2020/html/fu0202.pdf ，表2-1及人口增加段在PDF第1页，印刷页2887。"
+        },
+        {
+          "chapter": 6,
+          "section": "6.2",
+          "baseline_line": 107,
+          "citation_text": "[2] 福建省统计局、福建省第七次全国人口普查领导小组办公室，《福建省第七次全国人口普查公报（第二号）——地区人口情况》，2021年5月20日。官方网页：https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm 。年鉴所收公报PDF：https://tjj.fujian.gov.cn/tongjinianjian/rk2020/html/fu0202.pdf 。本节使用表2-1及注[1]—[3]；表格在PDF第1页，相关注释在第3—4页，印刷页码2887、2889—2890。核读日期：2026年10月24日。"
+        }
+      ],
+      "sections": [
+        "6.1",
+        "6.2"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "PDF第1—4页（印刷2887—2890），表2-1／2-2及注1—3",
+      "claim_checked": "年鉴PDF与网页统计数字和表头一致；表2-1的2010列是比重而非2010人数。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE"
+    },
+    {
+      "id": "S06-04",
+      "url": "https://aclanthology.org/2020.emnlp-main.550/",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.1",
+          "baseline_line": 58,
+          "citation_text": "[3] Vladimir Karpukhin et al.，*Dense Passage Retrieval for Open-Domain Question Answering*，EMNLP 2020，6769—6781页，第3.1节。出版社页面：https://aclanthology.org/2020.emnlp-main.550/ ，原文PDF：https://aclanthology.org/2020.emnlp-main.550.pdf 。"
+        }
+      ],
+      "sections": [
+        "6.1"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "ACL论文页面Abstract与书目信息",
+      "claim_checked": "2020年论文及双编码器稠密段落检索摘要相符。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE"
+    },
+    {
+      "id": "S06-05",
+      "url": "https://aclanthology.org/2020.emnlp-main.550.pdf",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.1",
+          "baseline_line": 58,
+          "citation_text": "[3] Vladimir Karpukhin et al.，*Dense Passage Retrieval for Open-Domain Question Answering*，EMNLP 2020，6769—6781页，第3.1节。出版社页面：https://aclanthology.org/2020.emnlp-main.550/ ，原文PDF：https://aclanthology.org/2020.emnlp-main.550.pdf 。"
+        }
+      ],
+      "sections": [
+        "6.1"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "§3.1，印刷6770—6771，公式1",
+      "claim_checked": "问题与段落分别编码；以内积比较向量，段落可预先编码。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE"
+    },
+    {
+      "id": "S06-06",
+      "url": "https://arxiv.org/html/2005.11401v4",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.1",
+          "baseline_line": 60,
+          "citation_text": "[4] Patrick Lewis et al.，*Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks*，NeurIPS 2020，第2.1、2.2、2.4节。作者公开的arXiv v4版本：https://arxiv.org/html/2005.11401v4 。"
+        }
+      ],
+      "sections": [
+        "6.1"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "§2.1 RAG-Sequence／§2.2 Retriever／§2.4 Training",
+      "claim_checked": "原论文有检索加生成、top-k边缘化与联合微调；不能把所有RAG都定义为不更新参数。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组B（原通读核查，父校对员据记录汇编）",
+      "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+      "evidence_record": "coverage_ch06_08.json/source_checks"
+    },
+    {
+      "id": "S06-07",
+      "url": "https://arxiv.org/html/2005.14165v4",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.1",
+          "baseline_line": 62,
+          "citation_text": "[5] Tom B. Brown et al.，*Language Models are Few-Shot Learners*，NeurIPS 2020，第1—2节。作者公开版本：https://arxiv.org/html/2005.14165v4 。"
+        }
+      ],
+      "sections": [
+        "6.1"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "Abstract及§1对few-shot/in-context learning的说明",
+      "claim_checked": "文中few-shot以文字示范和交互指定任务，不在该任务适配中更新梯度。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE"
+    },
+    {
+      "id": "S06-08",
+      "url": "https://learn.microsoft.com/en-us/azure/search/vector-search-how-to-chunk-documents",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.2",
+          "baseline_line": 105,
+          "citation_text": "[1] Microsoft Learn，*Chunk large documents for RAG and vector search in Azure AI Search*，“Common chunking techniques”“Content overlap considerations”。https://learn.microsoft.com/en-us/azure/search/vector-search-how-to-chunk-documents 。核读日期：2026年10月24日。"
+        }
+      ],
+      "sections": [
+        "6.2"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "Common chunking patterns／Content overlap considerations",
+      "claim_checked": "固定、结构与语义切块以及重叠的连贯性／成本权衡相符。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE"
+    },
+    {
+      "id": "S06-09",
+      "url": "https://huggingface.co/docs/transformers/main/tokenizer_summary",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.2",
+          "baseline_line": 109,
+          "citation_text": "[3] Hugging Face Transformers，*Tokenization algorithms*，子词切分、BPE及SentencePiece的说明。https://huggingface.co/docs/transformers/main/tokenizer_summary 。核读日期：2026年10月24日。"
+        }
+      ],
+      "sections": [
+        "6.2"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "Subword tokenization／SentencePiece",
+      "claim_checked": "子词词元并不等于汉字数，中文等无空格文本仍须由各模型词元器处理。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE"
+    },
+    {
+      "id": "S06-10",
+      "url": "https://aclanthology.org/D19-1410.pdf",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.3",
+          "baseline_line": 149,
+          "citation_text": "[1] Nils Reimers、Iryna Gurevych，*Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks*，EMNLP-IJCNLP 2019，第3节，3984页，关于句向量及汇聚方式。https://aclanthology.org/D19-1410.pdf 。"
+        }
+      ],
+      "sections": [
+        "6.3"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "§3 Model，印刷3984",
+      "claim_checked": "SBERT把输出汇聚成定长句向量；CLS、平均与最大汇聚均为论文比较项。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE"
+    },
+    {
+      "id": "S06-11",
+      "url": "https://sbert.net/examples/sentence_transformer/applications/semantic-search/README.html",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.3",
+          "baseline_line": 151,
+          "citation_text": "[2] Sentence Transformers，*Semantic Search*，“Symmetric vs. Asymmetric Semantic Search”及检索示例。https://sbert.net/examples/sentence_transformer/applications/semantic-search/README.html 。"
+        }
+      ],
+      "sections": [
+        "6.3"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "Background／Symmetric vs. Asymmetric Semantic Search／Manual Implementation",
+      "claim_checked": "问题与长段落是非对称检索；查询和语料进入同一向量空间比较。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE"
+    },
+    {
+      "id": "S06-12",
+      "url": "https://huggingface.co/BAAI/bge-small-zh-v1.5",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.3",
+          "baseline_line": 155,
+          "citation_text": "[4] BAAI，*bge-small-zh-v1.5*，官方模型说明中的型号表、查询指令及使用说明：https://huggingface.co/BAAI/bge-small-zh-v1.5 。编码器配置：https://huggingface.co/BAAI/bge-small-zh-v1.5/raw/main/config.json ；句向量长度配置：https://huggingface.co/BAAI/bge-small-zh-v1.5/blob/main/sentence_bert_config.json ；汇聚配置：https://huggingface.co/BAAI/bge-small-zh-v1.5/blob/main/1_Pooling/config.json 。"
+        }
+      ],
+      "sections": [
+        "6.3"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "Model List及脚注1／Usage",
+      "claim_checked": "bge-small-zh-v1.5为中文型号，检索查询指令见型号表；正文不加同一查询指令。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE"
+    },
+    {
+      "id": "S06-13",
+      "url": "https://huggingface.co/BAAI/bge-small-zh-v1.5/raw/main/config.json",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.3",
+          "baseline_line": 155,
+          "citation_text": "[4] BAAI，*bge-small-zh-v1.5*，官方模型说明中的型号表、查询指令及使用说明：https://huggingface.co/BAAI/bge-small-zh-v1.5 。编码器配置：https://huggingface.co/BAAI/bge-small-zh-v1.5/raw/main/config.json ；句向量长度配置：https://huggingface.co/BAAI/bge-small-zh-v1.5/blob/main/sentence_bert_config.json ；汇聚配置：https://huggingface.co/BAAI/bge-small-zh-v1.5/blob/main/1_Pooling/config.json 。"
+        }
+      ],
+      "sections": [
+        "6.3"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "config.json：hidden_size、max_position_embeddings",
+      "claim_checked": "隐藏向量维度512，位置上限512；与正文型号表相符。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE"
+    },
+    {
+      "id": "S06-14",
+      "url": "https://huggingface.co/BAAI/bge-small-zh-v1.5/blob/main/sentence_bert_config.json",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.3",
+          "baseline_line": 155,
+          "citation_text": "[4] BAAI，*bge-small-zh-v1.5*，官方模型说明中的型号表、查询指令及使用说明：https://huggingface.co/BAAI/bge-small-zh-v1.5 。编码器配置：https://huggingface.co/BAAI/bge-small-zh-v1.5/raw/main/config.json ；句向量长度配置：https://huggingface.co/BAAI/bge-small-zh-v1.5/blob/main/sentence_bert_config.json ；汇聚配置：https://huggingface.co/BAAI/bge-small-zh-v1.5/blob/main/1_Pooling/config.json 。"
+        }
+      ],
+      "sections": [
+        "6.3"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "sentence_bert_config.json：max_seq_length",
+      "claim_checked": "句向量封装的最大序列长度512。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE"
+    },
+    {
+      "id": "S06-15",
+      "url": "https://huggingface.co/BAAI/bge-small-zh-v1.5/blob/main/1_Pooling/config.json",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.3",
+          "baseline_line": 155,
+          "citation_text": "[4] BAAI，*bge-small-zh-v1.5*，官方模型说明中的型号表、查询指令及使用说明：https://huggingface.co/BAAI/bge-small-zh-v1.5 。编码器配置：https://huggingface.co/BAAI/bge-small-zh-v1.5/raw/main/config.json ；句向量长度配置：https://huggingface.co/BAAI/bge-small-zh-v1.5/blob/main/sentence_bert_config.json ；汇聚配置：https://huggingface.co/BAAI/bge-small-zh-v1.5/blob/main/1_Pooling/config.json 。"
+        }
+      ],
+      "sections": [
+        "6.3"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "1_Pooling/config.json",
+      "claim_checked": "word_embedding_dimension=512，CLS汇聚为true、均值与最大汇聚为false。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE"
+    },
+    {
+      "id": "S06-16",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-small/raw/main/README.md",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.3",
+          "baseline_line": 157,
+          "citation_text": "[5] intfloat，*multilingual-e5-small*，官方模型说明，模型维度、支持语言、“Usage”中的前缀及编码示例，以及输入截断说明。https://huggingface.co/intfloat/multilingual-e5-small/raw/main/README.md 。"
+        }
+      ],
+      "sections": [
+        "6.3"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "模型概要／Usage／Supported Languages／Limitations",
+      "claim_checked": "e5-small向量384维；query:/passage:前缀适用于非英语；attention_mask均值汇聚、L2归一化、512截断；100种语言并不保证低资源语表现相同。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE"
+    },
+    {
+      "id": "S06-17",
+      "url": "https://github.com/facebookresearch/faiss/wiki/MetricType-and-distances",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.3",
+          "baseline_line": 159,
+          "citation_text": "[6] Facebook Research，Faiss Wiki，*MetricType and distances*，“How can I index vectors for cosine similarity?”。https://github.com/facebookresearch/faiss/wiki/MetricType-and-distances 。"
+        }
+      ],
+      "sections": [
+        "6.3"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "How can I index vectors for cosine similarity?",
+      "claim_checked": "查询和语料均归一化后，最大内积排序等价于余弦排序。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE"
+    },
+    {
+      "id": "S06-18",
+      "url": "https://sbert.net/docs/package_reference/sentence_transformer/model.html",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.3",
+          "baseline_line": 161,
+          "citation_text": "[7] Sentence Transformers，*SentenceTransformer*，构造函数的`local_files_only`、`token`参数，`tokenizer`属性及`encode`方法的`prompt`、`normalize_embeddings`、`convert_to_numpy`参数。https://sbert.net/docs/package_reference/sentence_transformer/model.html 。"
+        }
+      ],
+      "sections": [
+        "6.3"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "构造函数local_files_only/token；encode的prompt、convert_to_numpy、normalize_embeddings；tokenizer属性",
+      "claim_checked": "限定本地读取、认证token、前缀、归一化与数组返回的参数含义相符；tokenizer属性仍可获取所用词元器。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE"
+    },
+    {
+      "id": "S06-19",
+      "url": "https://huggingface.co/docs/transformers/main_classes/tokenizer",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.3",
+          "baseline_line": 163,
+          "citation_text": "[8] Hugging Face Transformers，*Tokenizer*，`__call__`方法的`add_special_tokens`、`truncation`、`padding`及`input_ids`。https://huggingface.co/docs/transformers/main_classes/tokenizer 。"
+        }
+      ],
+      "sections": [
+        "6.3"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "__call__参数表及Returns: BatchEncoding",
+      "claim_checked": "特殊词元、截断、补齐分开控制；input_ids是模型输入的词元ID而非字符位置。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE"
+    },
+    {
+      "id": "S06-20",
+      "url": "https://www.elastic.co/docs/solutions/search/full-text/how-full-text-works",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.4",
+          "baseline_line": 259,
+          "citation_text": "[1] Elastic，*How full-text search works*，词项分析、倒排索引及相关性计分。https://www.elastic.co/docs/solutions/search/full-text/how-full-text-works 。"
+        }
+      ],
+      "sections": [
+        "6.4"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "开头Text analysis／Inverted index creation／Relevance scoring",
+      "claim_checked": "倒排索引由词项指向文档；BM25使用词频、文档频率和长度。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE"
+    },
+    {
+      "id": "S06-21",
+      "url": "https://nlp.stanford.edu/IR-book/html/htmledition/tokenization-1.html",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.4",
+          "baseline_line": 263,
+          "citation_text": "[3] Christopher D. Manning、Prabhakar Raghavan、Hinrich Schütze，*Introduction to Information Retrieval*，第2.2.1节“Tokenization”，中文词项边界及查询、文档采用一致处理的说明。https://nlp.stanford.edu/IR-book/html/htmledition/tokenization-1.html 。"
+        }
+      ],
+      "sections": [
+        "6.4"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "§2.2.1：定义、O’Neill例后查询处理段、中文分词末段（同URL索引正文）",
+      "claim_checked": "查询和文档须一致词元化；中文词界存在歧义，词项不应机械等于逐字。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "SAME_PRIMARY_URL_INDEXED_BODY",
+      "access_status": "原URL直接open两次超时；站内精准搜索返回同URL完整相关段落，已核其索引正文。",
+      "limitation": "未声称本次成功直连实时页；来源是该原URL的索引正文，不是第三方转述。"
+    },
+    {
+      "id": "S06-22",
+      "url": "https://lucene.apache.org/__root/docs.lucene.apache.org/core/9_12_0/core/org/apache/lucene/search/similarities/BM25Similarity.html",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.4",
+          "baseline_line": 265,
+          "citation_text": "[4] Apache Lucene 9.12.0，*BM25Similarity*，参数k₁、b、idf及avgFieldLength说明。https://lucene.apache.org/__root/docs.lucene.apache.org/core/9_12_0/core/org/apache/lucene/search/similarities/BM25Similarity.html 。"
+        }
+      ],
+      "sections": [
+        "6.4"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "BM25Similarity构造函数、idf、avgFieldLength",
+      "claim_checked": "默认k1=1.2、b=.75；Lucene的带1对数idf及平均长度说明相符。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组B（原通读核查，父校对员据记录汇编）",
+      "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+      "evidence_record": "coverage_ch06_08.json/source_checks"
+    },
+    {
+      "id": "S06-23",
+      "url": "https://www.staff.city.ac.uk/~sbrp622/papers/foundations_bm25_review.pdf",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.4",
+          "baseline_line": 267,
+          "citation_text": "[5] Stephen Robertson、Hugo Zaragoza，*The Probabilistic Relevance Framework: BM25 and Beyond*，2009，第3.1节公式3.3及第3.4.5—3.5.1节，尤其公式3.15及分子加入k₁＋1的变体说明，印刷页349、359—361。https://www.staff.city.ac.uk/~sbrp622/papers/foundations_bm25_review.pdf 。"
+        }
+      ],
+      "sections": [
+        "6.4"
+      ],
+      "status": "访问阻塞",
+      "status_code": "ACCESS_BLOCKED",
+      "checked_location": "未取得作者原PDF",
+      "claim_checked": "待核原论文§3.1公式3.3、§3.4.5—3.5.1及分子k1+1变体；不能把Lucene接口页等同原论文该页已核。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "NO_PRIMARY_TEXT_OBTAINED",
+      "access_status": "HTTPS两次及HTTP转HTTPS一次均Timeout fetching；精准搜索未返回原论文可核正文。",
+      "limitation": "该原论文所引页与公式本轮未独立核到；不据访问失败认定正文错误。"
+    },
+    {
+      "id": "S06-24",
+      "url": "https://learn.microsoft.com/en-us/azure/search/hybrid-search-overview",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.4",
+          "baseline_line": 269,
+          "citation_text": "[6] Microsoft Learn，*Hybrid search using vectors and full-text search in Azure AI Search*，“Why use hybrid search?”。https://learn.microsoft.com/en-us/azure/search/hybrid-search-overview 。"
+        }
+      ],
+      "sections": [
+        "6.4"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "Why use hybrid search?／How does hybrid search work?",
+      "claim_checked": "精确人名数字等可受益于关键词；向量匹配概念相关材料；并行结果用RRF融合。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE"
+    },
+    {
+      "id": "S06-25",
+      "url": "https://learn.microsoft.com/en-us/azure/search/vector-search-filters",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.5",
+          "baseline_line": 358,
+          "citation_text": "[2] Microsoft Learn，*Filters in vector queries*，“How filtering works in vector queries”“Set the filter mode”，关于检索前筛选与截断后筛选的区别。https://learn.microsoft.com/en-us/azure/search/vector-search-filters 。"
+        }
+      ],
+      "sections": [
+        "6.5"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "How filtering works／Set the filter mode",
+      "claim_checked": "后过滤与先取全库top-k后过滤均有漏掉范围内候选的风险；筛选字段来自非向量元数据。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE"
+    },
+    {
+      "id": "S06-26",
+      "url": "https://www.elastic.co/docs/reference/elasticsearch/rest-apis/reciprocal-rank-fusion",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.5",
+          "baseline_line": 360,
+          "citation_text": "[3] Elastic，*Reciprocal rank fusion*，公式、`rank_constant`、`rank_window_size`及两路分别检索后融合的说明。https://www.elastic.co/docs/reference/elasticsearch/rest-apis/reciprocal-rank-fusion 。"
+        }
+      ],
+      "sections": [
+        "6.5"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "开头公式／rank_constant／rank_window_size",
+      "claim_checked": "RRF按各榜名次加1/(常数+名次)，未入榜贡献0；名次自1、默认常数60；窗口可截断。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE"
+    },
+    {
+      "id": "S06-27",
+      "url": "https://plg.uwaterloo.ca/~gvcormac/cormacksigir09-rrf.pdf",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.5",
+          "baseline_line": 362,
+          "citation_text": "[4] Gordon V. Cormack、Charles L. A. Clarke、Stefan Büttcher，*Reciprocal Rank Fusion outperforms Condorcet and individual Rank Learning Methods*，SIGIR 2009，第1节，公式及常数60的实验设置。https://plg.uwaterloo.ca/~gvcormac/cormacksigir09-rrf.pdf 。"
+        }
+      ],
+      "sections": [
+        "6.5"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "§1公式及k=60说明",
+      "claim_checked": "原RRF公式与本书教学融合式相符，常数60不是取前60条的k。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组B（原通读核查，父校对员据记录汇编）",
+      "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+      "evidence_record": "coverage_ch06_08.json/source_checks"
+    },
+    {
+      "id": "S06-28",
+      "url": "https://learn.microsoft.com/en-us/azure/search/hybrid-search-ranking",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.5",
+          "baseline_line": 364,
+          "citation_text": "[5] Microsoft Learn，*Relevance scoring in hybrid search using Reciprocal Rank Fusion (RRF)*，“Scores in hybrid search results”，关于各路相关性分数范围与量级不同。https://learn.microsoft.com/en-us/azure/search/hybrid-search-ranking 。"
+        }
+      ],
+      "sections": [
+        "6.5"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "How RRF ranking works／Scores in hybrid search results",
+      "claim_checked": "融合常数与近邻数不同；BM25、向量、RRF计分尺度不同，不能直接当同一概率。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE"
+    },
+    {
+      "id": "S06-29",
+      "url": "https://www.elastic.co/docs/reference/elasticsearch/rest-apis/search-rank-eval",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.5",
+          "baseline_line": 366,
+          "citation_text": "[6] Elastic，*Ranking evaluation API*，“Precision at k”“Recall at k”及相关性判断说明。https://www.elastic.co/docs/reference/elasticsearch/rest-apis/search-rank-eval 。"
+        },
+        {
+          "chapter": 6,
+          "section": "6.8",
+          "baseline_line": 617,
+          "citation_text": "[4] Elastic，*Ranking evaluation*，“Precision at K”“Recall at K”“Mean reciprocal rank”及其k参数。本节另外明确不足额、重复证据和零相关题的计算约定，便于复跑。https://www.elastic.co/docs/reference/elasticsearch/rest-apis/search-rank-eval 。"
+        }
+      ],
+      "sections": [
+        "6.5",
+        "6.8"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "Precision at K／Recall at K／Mean reciprocal rank",
+      "claim_checked": "三种指标分别关注前k相关比例、全部相关召回和首个相关位置；本书短返回、重复证据和零相关约定另行明示。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组B（原通读核查，父校对员据记录汇编）",
+      "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+      "evidence_record": "coverage_ch06_08.json/source_checks"
+    },
+    {
+      "id": "S06-30",
+      "url": "https://learn.microsoft.com/en-us/azure/search/semantic-how-to-query-rewrite",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.6",
+          "baseline_line": 452,
+          "citation_text": "[1] Microsoft Learn，*Rewrite queries with semantic ranker in Azure AI Search*，开头关于查询改写、原查询与改写共同检索的说明及精确词项可能丢失的提示，“Test query rewrites with debug”。https://learn.microsoft.com/en-us/azure/search/semantic-how-to-query-rewrite 。"
+        }
+      ],
+      "sections": [
+        "6.6"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "开头、精确词项警示、Test query rewrites with debug",
+      "claim_checked": "保留原问并共同检索；改写可能丢失精确词；debug可查看改写，须评估是否保持任务含义。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE"
+    },
+    {
+      "id": "S06-31",
+      "url": "https://whc.unesco.org/en/list/1561/",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.6",
+          "baseline_line": 456,
+          "citation_text": "[3] UNESCO World Heritage Centre，*Quanzhou: Emporium of the World in Song-Yuan China*，英文Description末句，Zayton及10—14世纪文本的说明。https://whc.unesco.org/en/list/1561/ 。"
+        }
+      ],
+      "sections": [
+        "6.6"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "英文Description末句",
+      "claim_checked": "Zayton的历史用法限于10—14世纪阿拉伯与西方文本，不等同现代地域范围。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组B（原通读核查，父校对员据记录汇编）",
+      "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+      "evidence_record": "coverage_ch06_08.json/source_checks"
+    },
+    {
+      "id": "S06-32",
+      "url": "https://aclanthology.org/2023.emnlp-main.322.pdf",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.6",
+          "baseline_line": 458,
+          "citation_text": "[4] Xinbei Ma、Yeyun Gong、Pengcheng He、Hai Zhao、Nan Duan，*Query Rewriting for Retrieval-Augmented Large Language Models*，EMNLP 2023，5303—5315页，第3.1节；第6.2—6.3节另讨论检索结果及改写案例。原论文PDF：https://aclanthology.org/2023.emnlp-main.322.pdf 。"
+        }
+      ],
+      "sections": [
+        "6.6"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "§3.1，印刷5306；§6.2—6.3，5310—5311",
+      "claim_checked": "重写—检索—阅读流程；案例和检索指标表明命中改善与回答改善需分别看，改写可产生错误理解。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE"
+    },
+    {
+      "id": "S06-33",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.7",
+          "baseline_line": 534,
+          "citation_text": "[2] Anthropic，*Prompting best practices*，“Be clear and direct”“Structure prompts with XML tags”，关于明确输出要求及区分指令、上下文和输入。https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices 。"
+        }
+      ],
+      "sections": [
+        "6.7"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "Be clear and direct／Structure prompts with XML tags",
+      "claim_checked": "明确输出要求、分开指令/上下文/输入的建议确有依据；不代表本书人工拟答由模型产生。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE"
+    },
+    {
+      "id": "S06-34",
+      "url": "https://aclanthology.org/2023.emnlp-main.398.pdf",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.7",
+          "baseline_line": 536,
+          "citation_text": "[3] Tianyu Gao、Howard Yen、Jiatong Yu、Danqi Chen，*Enabling Large Language Models to Generate Text with Citations*，EMNLP 2023，6465—6488页，第3.3节，印刷页6468—6469，分别讨论引文支持的覆盖及无关引文。https://aclanthology.org/2023.emnlp-main.398.pdf 。"
+        },
+        {
+          "chapter": 6,
+          "section": "6.8",
+          "baseline_line": 619,
+          "citation_text": "[5] Tianyu Gao、Howard Yen、Jiatong Yu、Danqi Chen，*Enabling Large Language Models to Generate Text with Citations*，EMNLP 2023，6465—6488页，第3.2—3.3节，印刷页6467—6469，回答内容及引文支持分别评价。https://aclanthology.org/2023.emnlp-main.398.pdf 。"
+        }
+      ],
+      "sections": [
+        "6.7",
+        "6.8"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "§3.2—3.3，印刷6467—6469",
+      "claim_checked": "回答正确与覆盖、引文支持覆盖和无关引文分开评价；引用数量不能替代支持关系。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE"
+    },
+    {
+      "id": "S06-35",
+      "url": "https://nlp.stanford.edu/IR-book/html/htmledition/information-retrieval-system-evaluation-1.html",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.8",
+          "baseline_line": 613,
+          "citation_text": "[2] Christopher D. Manning、Prabhakar Raghavan、Hinrich Schütze，*Introduction to Information Retrieval*，第8.1节“Information retrieval system evaluation”，测试集合的组成、按信息需要判断相关性及开发集调参。https://nlp.stanford.edu/IR-book/html/htmledition/information-retrieval-system-evaluation-1.html 。"
+        }
+      ],
+      "sections": [
+        "6.8"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "§8.1全节（同URL索引正文）",
+      "claim_checked": "测试集合含文档、信息需要及相关性判断；按信息需要判定而非机械同词；开发集调参后在独立测试集评价。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "SAME_PRIMARY_URL_INDEXED_BODY",
+      "access_status": "原URL直接open两次超时；站内精准搜索返回同URL完整相关段落，已核其索引正文。",
+      "limitation": "未声称本次成功直连实时页；来源是该原URL的索引正文，不是第三方转述。"
+    },
+    {
+      "id": "S06-36",
+      "url": "https://nlp.stanford.edu/IR-book/html/htmledition/assessing-relevance-1.html",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.8",
+          "baseline_line": 615,
+          "citation_text": "[3] 同书第8.5节“Assessing relevance”，逐项判断、小集合穷尽判断及评阅者分歧。https://nlp.stanford.edu/IR-book/html/htmledition/assessing-relevance-1.html ；第8.5.1节“Critiques and justifications of the concept of relevance”，重复材料与不同证据内容。https://nlp.stanford.edu/IR-book/html/htmledition/critiques-and-justifications-of-the-concept-of-relevance-1.html 。"
+        }
+      ],
+      "sections": [
+        "6.8"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "§8.5第1—3段及分歧讨论（同URL索引正文）",
+      "claim_checked": "小型集合可穷尽判定，较大集合用pooling；评阅者有分歧，需记录和核对。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "SAME_PRIMARY_URL_INDEXED_BODY",
+      "access_status": "原URL直接open两次超时；站内精准搜索返回同URL完整相关段落，已核其索引正文。",
+      "limitation": "未声称本次成功直连实时页；来源是该原URL的索引正文，不是第三方转述。"
+    },
+    {
+      "id": "S06-37",
+      "url": "https://nlp.stanford.edu/IR-book/html/htmledition/critiques-and-justifications-of-the-concept-of-relevance-1.html",
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.8",
+          "baseline_line": 615,
+          "citation_text": "[3] 同书第8.5节“Assessing relevance”，逐项判断、小集合穷尽判断及评阅者分歧。https://nlp.stanford.edu/IR-book/html/htmledition/assessing-relevance-1.html ；第8.5.1节“Critiques and justifications of the concept of relevance”，重复材料与不同证据内容。https://nlp.stanford.edu/IR-book/html/htmledition/critiques-and-justifications-of-the-concept-of-relevance-1.html 。"
+        }
+      ],
+      "sections": [
+        "6.8"
+      ],
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "§8.5.1：marginal relevance段（同URL索引正文）",
+      "claim_checked": "高度相关但重复的信息可能无新增效用；不同事实可作评价单位，不等于史学上多个独立来源。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "SAME_PRIMARY_URL_INDEXED_BODY",
+      "access_status": "原URL直接open两次超时；站内精准搜索返回同URL完整相关段落，已核其索引正文。",
+      "limitation": "未声称本次成功直连实时页；来源是该原URL的索引正文，不是第三方转述。"
+    }
+  ],
+  "termination_note": "每个原URL均有支持或访问阻塞的明确结果，无待检查URL。4个Stanford原页直连超时但其同URL索引正文具体段落已核；1篇BM25原PDF内容未取得。未运行附件或模型。"
+}

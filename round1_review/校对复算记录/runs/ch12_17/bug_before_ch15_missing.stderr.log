@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch15/workflow.py", line 205, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch15/workflow.py", line 195, in main
+    result=[distribution,access,spatial,compare,sensitivity,interpretation][a.section-1](d)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch15/workflow.py", line 106, in spatial
+    if area<=0 or r['events']<0 or r['opportunities']<0:raise ValueError('invalid denominator or counts')
+                  ^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'NoneType' and 'int'

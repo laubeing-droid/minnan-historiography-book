@@ -1,0 +1,73 @@
+{
+  "execution": "reader_invoked",
+  "input_provenance": "编者新编教学数据 非史实 非模型输出",
+  "section": "9.2",
+  "result": {
+    "pad_id": 0,
+    "vocabulary": {
+      "。": 1,
+      "丙": 2,
+      "东": 3,
+      "乙": 4,
+      "埠": 5,
+      "岸": 6,
+      "未": 7,
+      "甲": 8,
+      "至": 9,
+      "议": 10,
+      "迁": 11
+    },
+    "shape": [
+      3,
+      3
+    ],
+    "rows": [
+      {
+        "id": "N01",
+        "input_ids": [
+          8,
+          5,
+          10
+        ],
+        "attention_mask": [
+          1,
+          1,
+          1
+        ],
+        "label": 0,
+        "truncated": true
+      },
+      {
+        "id": "N02",
+        "input_ids": [
+          4,
+          5,
+          11
+        ],
+        "attention_mask": [
+          1,
+          1,
+          1
+        ],
+        "label": 1,
+        "truncated": true
+      },
+      {
+        "id": "N03",
+        "input_ids": [
+          2,
+          5,
+          7
+        ],
+        "attention_mask": [
+          1,
+          1,
+          1
+        ],
+        "label": 0,
+        "truncated": true
+      }
+    ],
+    "note": "Character teaching encoding, not a pretrained tokenizer."
+  }
+}

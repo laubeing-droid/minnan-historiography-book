@@ -1,0 +1,9 @@
+﻿actual,candidate,error,fit_id,horizon,origin,prediction,reason,score_status,status,target
+30,C1,5.0,C1_o10,1,10,25.0,,scored,success,11
+32,C1,7.0,C1_o10,2,10,25.0,,scored,success,12
+32,C1,5.0,C1_o11,1,11,27.0,,scored,success,12
+34,C1,7.0,C1_o11,2,11,27.0,,scored,success,13
+34,C1,5.0,C1_o12,1,12,29.0,,scored,success,13
+36,C1,7.0,C1_o12,2,12,29.0,,scored,success,14
+36,C1,5.0,C1_o13,1,13,31.0,,scored,success,14
+,C1,,C1_o13,2,13,31.0,,missing_or_late_truth,success,15

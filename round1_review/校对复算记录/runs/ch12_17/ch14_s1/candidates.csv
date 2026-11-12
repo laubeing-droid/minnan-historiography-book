@@ -1,0 +1,10 @@
+﻿checks,entity,mention,retained
+"[{""name_row"": ""N1"", ""time"": ""pass"", ""parent"": ""pass"", ""retain"": true, ""source"": ""F1""}]",P001,M01,True
+"[{""name_row"": ""N3"", ""time"": ""pass"", ""parent"": ""conflict"", ""retain"": false, ""source"": ""F3""}]",P002,M01,False
+"[{""name_row"": ""N1"", ""time"": ""pass"", ""parent"": ""unknown"", ""retain"": true, ""source"": ""F1""}]",P001,M02,True
+"[{""name_row"": ""N3"", ""time"": ""pass"", ""parent"": ""unknown"", ""retain"": true, ""source"": ""F3""}]",P002,M02,True
+"[{""name_row"": ""N2"", ""time"": ""pass"", ""parent"": ""pass"", ""retain"": true, ""source"": ""F2""}]",P001,M03,True
+"[{""name_row"": ""N2"", ""time"": ""conflict"", ""parent"": ""pass"", ""retain"": false, ""source"": ""F2""}]",P001,M04,False
+"[{""name_row"": ""N4"", ""time"": ""unknown"", ""parent"": ""unknown"", ""retain"": true, ""source"": ""F4""}]",P003,M05,True
+"[{""name_row"": ""N1"", ""time"": ""pass"", ""parent"": ""conflict"", ""retain"": false, ""source"": ""F1""}]",P001,M07,False
+"[{""name_row"": ""N3"", ""time"": ""pass"", ""parent"": ""pass"", ""retain"": true, ""source"": ""F3""}]",P002,M07,True

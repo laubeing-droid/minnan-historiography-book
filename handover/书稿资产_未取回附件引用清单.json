@@ -1,0 +1,406 @@
+[
+  {
+    "reference": "library-file:fde1_bGliZmlsZV9QR2tpbDIxeXhRaTN2dks5c0JVa2F3_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+    "status": "未取回字节",
+    "source_pages": [
+      {
+        "title": "第6章 检索增强与方法比较 编校修订稿",
+        "url": "https://chatgpt.com/space/page_58f758e3085c8191935ff5ca3cbd6d25"
+      },
+      {
+        "title": "第6章 chunk Embedding BM25与RAG检索增强",
+        "url": "https://chatgpt.com/space/page_f26dd843ed048191b2ae11e931ef1d9c"
+      },
+      {
+        "title": "第6章 检索增强与方法比较 写作草稿 未校对",
+        "url": "https://chatgpt.com/space/page_dba3274404048191a1c551307c4e8237"
+      }
+    ],
+    "mime_type": "application/zip",
+    "byte_size": 118042
+  },
+  {
+    "reference": "library-file:fde1_bGliZmlsZV9ZR0phTndIWExjUUdoVy1MTmZDdERn_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+    "status": "未取回字节",
+    "source_pages": [
+      {
+        "title": "第7章 数据整理 标注与分析数据集的建立 编校修订稿",
+        "url": "https://chatgpt.com/space/page_8c4a7138da708191bd9c292415bfc519"
+      },
+      {
+        "title": "第7章 数据整理 标注与分析数据集的建立",
+        "url": "https://chatgpt.com/space/page_57118e394af48191ba254b14ab8f3dd3"
+      }
+    ],
+    "mime_type": "application/zip",
+    "byte_size": 155680
+  },
+  {
+    "reference": "library-file:fde1_bGliZmlsZV9pSW1tYzk1OEV5VEVGcnQyb1p6NGhn_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+    "status": "未取回字节",
+    "source_pages": [
+      {
+        "title": "第11章 视觉分类检测与分割 编校修订稿",
+        "url": "https://chatgpt.com/space/page_5e08150c45688191a4fe9007355698a2"
+      },
+      {
+        "title": "第11章 视觉分类 检测 分割与结果评估",
+        "url": "https://chatgpt.com/space/page_083c6b33cd04819183d18ac9ebd3a92b"
+      }
+    ],
+    "mime_type": "application/zip",
+    "byte_size": 359126
+  },
+  {
+    "reference": "library-file:fde1_bGliZmlsZV9DMjRud29jUjRtUlpIcEM2c3FVM0xB_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+    "status": "未取回字节",
+    "source_pages": [
+      {
+        "title": "第10章 提示设计与文本结果评估 编校修订稿",
+        "url": "https://chatgpt.com/space/page_11d14cbc82ac8191a750655e1cbf5763"
+      },
+      {
+        "title": "第10章 Prompt 计算实验 文本结果评估与幻觉缓解",
+        "url": "https://chatgpt.com/space/page_7469fdd61db48191b549f00a837a1816"
+      }
+    ],
+    "mime_type": "application/zip",
+    "byte_size": 235196
+  },
+  {
+    "reference": "library-file:fde1_bGliZmlsZV9jSUxZdTMzblVkQWhFMjJnWlJMX1hR_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+    "status": "未取回字节",
+    "source_pages": [
+      {
+        "title": "第9章 文本任务与自然语言处理 编校修订稿",
+        "url": "https://chatgpt.com/space/page_8a42055457288191abba6e13b8289198"
+      },
+      {
+        "title": "第9章 文本任务 词表示与自然语言处理方法选择",
+        "url": "https://chatgpt.com/space/page_da75889e601c8191b03b4dd10553280d"
+      }
+    ],
+    "mime_type": "application/zip",
+    "byte_size": 193141
+  },
+  {
+    "reference": "library-file:fde1_bGliZmlsZV9DWm9zUzl4N2poMHpzV1cybVJVUEpR_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+    "status": "未取回字节",
+    "source_pages": [
+      {
+        "title": "第8章 基线与实验设计 编校修订稿",
+        "url": "https://chatgpt.com/space/page_d87eff922890819198c8212bb3aeb599"
+      },
+      {
+        "title": "第8章 基线 实验矩阵 消融与可复现操作",
+        "url": "https://chatgpt.com/space/page_d32b6fe239148191963bcd405b348d26"
+      }
+    ],
+    "mime_type": "application/zip",
+    "byte_size": 201993
+  },
+  {
+    "reference": "library-file:fde1_bGliZmlsZV94UFp1S2hlc1Uyc09rNExuZGNDTGNB_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+    "status": "未取回字节",
+    "source_pages": [
+      {
+        "title": "第15章 空间分布与区域比较 编校修订稿",
+        "url": "https://chatgpt.com/space/page_32b369758e6481918664906155664000"
+      },
+      {
+        "title": "第15章 空间分布 区域比较与人地关系分析",
+        "url": "https://chatgpt.com/space/page_67c02241a9c4819190f0f73f6150e56e"
+      }
+    ],
+    "mime_type": "application/zip",
+    "byte_size": 140288
+  },
+  {
+    "reference": "library-file:fde1_bGliZmlsZV9GU1ZXakNtOGM1N3dBbWN6Zjhxc3Bn_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+    "status": "未取回字节",
+    "source_pages": [
+      {
+        "title": "第16章 人物组织与关系数据 编校修订稿",
+        "url": "https://chatgpt.com/space/page_067e9c113bb48191b88194476fe49cd5"
+      },
+      {
+        "title": "第16章 人物 组织与关系数据的建立",
+        "url": "https://chatgpt.com/space/page_fbf6353153c081918f856ca25c91ec90"
+      }
+    ],
+    "mime_type": "application/zip",
+    "byte_size": 20235
+  },
+  {
+    "reference": "library-file:fde1_bGliZmlsZV82dHc3eUZudDZ0cjdmWFFXemVhdFdR_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+    "status": "未取回字节",
+    "source_pages": [
+      {
+        "title": "第16章 人物组织与关系数据 编校修订稿",
+        "url": "https://chatgpt.com/space/page_067e9c113bb48191b88194476fe49cd5"
+      },
+      {
+        "title": "第16章 人物 组织与关系数据的建立",
+        "url": "https://chatgpt.com/space/page_fbf6353153c081918f856ca25c91ec90"
+      }
+    ],
+    "mime_type": "application/zip",
+    "byte_size": 17120
+  },
+  {
+    "reference": "library-file:fde1_bGliZmlsZV9WdUo4RWYwek5iM3ZGbmU3Qk9qLWF3_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+    "status": "未取回字节",
+    "source_pages": [
+      {
+        "title": "第17章 社会关系网络 编校修订稿",
+        "url": "https://chatgpt.com/space/page_ea4a50c7d440819194f2801287c30c36"
+      },
+      {
+        "title": "第17章 社会关系网络的描述 比较与解释",
+        "url": "https://chatgpt.com/space/page_90165abe281c8191bedd2eed11730e23"
+      }
+    ],
+    "mime_type": "application/zip",
+    "byte_size": 29990
+  },
+  {
+    "reference": "library-file:fde1_bGliZmlsZV9KVkhVNzhVSTBNWkpTX1l6MkFkNGZn_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+    "status": "未取回字节",
+    "source_pages": [
+      {
+        "title": "第14章 历史地名地图与时空数据 编校修订稿",
+        "url": "https://chatgpt.com/space/page_95d94f1b7a5c8191851d4a5f6a1fee41"
+      },
+      {
+        "title": "第14章 历史地名 地图与时空数据的建立",
+        "url": "https://chatgpt.com/space/page_a5c758763af88191aa989204f788aefa"
+      }
+    ],
+    "mime_type": "application/zip",
+    "byte_size": 114433
+  },
+  {
+    "reference": "library-file:fde1_bGliZmlsZV9qMWY1WGZ5a2QtS1N3bm91UDB0cEpR_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+    "status": "未取回字节",
+    "source_pages": [
+      {
+        "title": "第13章 时序基线与回测 编校修订稿",
+        "url": "https://chatgpt.com/space/page_582eb750ee8c81919ecd3c1ecfedb26f"
+      },
+      {
+        "title": "第13章 statsmodels 基线 滑窗回测与时序比较 全文草稿",
+        "url": "https://chatgpt.com/space/page_1c5a89ef3fa08191bb35396ea08c2dc7"
+      }
+    ],
+    "mime_type": "application/zip",
+    "byte_size": 15692
+  },
+  {
+    "reference": "library-file:fde1_bGliZmlsZV91ODZtdUVzb3FyTUFINmNWcXhtd09n_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+    "status": "未取回字节",
+    "source_pages": [
+      {
+        "title": "第13章 时序基线与回测 编校修订稿",
+        "url": "https://chatgpt.com/space/page_582eb750ee8c81919ecd3c1ecfedb26f"
+      },
+      {
+        "title": "第13章 statsmodels 基线 滑窗回测与时序比较 全文草稿",
+        "url": "https://chatgpt.com/space/page_1c5a89ef3fa08191bb35396ea08c2dc7"
+      }
+    ],
+    "mime_type": "application/zip",
+    "byte_size": 15465
+  },
+  {
+    "reference": "library-file:fde1_bGliZmlsZV9sMnVaMmFMa09vTGR0RC1abEtaT0hn_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+    "status": "未取回字节",
+    "source_pages": [
+      {
+        "title": "第13章 时序基线与回测 编校修订稿",
+        "url": "https://chatgpt.com/space/page_582eb750ee8c81919ecd3c1ecfedb26f"
+      },
+      {
+        "title": "第13章 statsmodels 基线 滑窗回测与时序比较 全文草稿",
+        "url": "https://chatgpt.com/space/page_1c5a89ef3fa08191bb35396ea08c2dc7"
+      }
+    ],
+    "mime_type": "application/zip",
+    "byte_size": 17500
+  },
+  {
+    "reference": "library-file:fde1_bGliZmlsZV9PNUhXeHlaZXh3LWlZUjBteEh1aVpn_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+    "status": "未取回字节",
+    "source_pages": [
+      {
+        "title": "第13章 时序基线与回测 编校修订稿",
+        "url": "https://chatgpt.com/space/page_582eb750ee8c81919ecd3c1ecfedb26f"
+      },
+      {
+        "title": "第13章 statsmodels 基线 滑窗回测与时序比较 全文草稿",
+        "url": "https://chatgpt.com/space/page_1c5a89ef3fa08191bb35396ea08c2dc7"
+      }
+    ],
+    "mime_type": "application/zip",
+    "byte_size": 16645
+  },
+  {
+    "reference": "library-file:fde1_bGliZmlsZV9FR2NHR2I0ZUVfOFBoMG5vbHY5LUtB_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+    "status": "未取回字节",
+    "source_pages": [
+      {
+        "title": "第13章 时序基线与回测 编校修订稿",
+        "url": "https://chatgpt.com/space/page_582eb750ee8c81919ecd3c1ecfedb26f"
+      },
+      {
+        "title": "第13章 statsmodels 基线 滑窗回测与时序比较 全文草稿",
+        "url": "https://chatgpt.com/space/page_1c5a89ef3fa08191bb35396ea08c2dc7"
+      }
+    ],
+    "mime_type": "application/zip",
+    "byte_size": 18915
+  },
+  {
+    "reference": "library-file:fde1_bGliZmlsZV9CdVBvS1d4LXREX0tNMy1DUU9vR3N3_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+    "status": "未取回字节",
+    "source_pages": [
+      {
+        "title": "第13章 时序基线与回测 编校修订稿",
+        "url": "https://chatgpt.com/space/page_582eb750ee8c81919ecd3c1ecfedb26f"
+      },
+      {
+        "title": "第13章 statsmodels 基线 滑窗回测与时序比较 全文草稿",
+        "url": "https://chatgpt.com/space/page_1c5a89ef3fa08191bb35396ea08c2dc7"
+      }
+    ],
+    "mime_type": "application/zip",
+    "byte_size": 18556
+  },
+  {
+    "reference": "library-file:fde1_bGliZmlsZV9VaFdLU2dILTlGc2NYTWRfeDRpbFNn_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+    "status": "未取回字节",
+    "source_pages": [
+      {
+        "title": "第13章 时序基线与回测 编校修订稿",
+        "url": "https://chatgpt.com/space/page_582eb750ee8c81919ecd3c1ecfedb26f"
+      },
+      {
+        "title": "第13章 statsmodels 基线 滑窗回测与时序比较 全文草稿",
+        "url": "https://chatgpt.com/space/page_1c5a89ef3fa08191bb35396ea08c2dc7"
+      }
+    ],
+    "mime_type": "application/zip",
+    "byte_size": 13552
+  },
+  {
+    "reference": "library-file:fde1_bGliZmlsZV9MSUgxYmFkSVpQQjlMbElkVTNEQjVB_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+    "status": "未取回字节",
+    "source_pages": [
+      {
+        "title": "第13章 时序基线与回测 编校修订稿",
+        "url": "https://chatgpt.com/space/page_582eb750ee8c81919ecd3c1ecfedb26f"
+      },
+      {
+        "title": "第13章 statsmodels 基线 滑窗回测与时序比较 全文草稿",
+        "url": "https://chatgpt.com/space/page_1c5a89ef3fa08191bb35396ea08c2dc7"
+      }
+    ],
+    "mime_type": "application/zip",
+    "byte_size": 27693
+  },
+  {
+    "reference": "library-file:fde1_bGliZmlsZV9TeHdDc2hwd1FjWkpLMmF2dWtiWmd3_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+    "status": "未取回字节",
+    "source_pages": [
+      {
+        "title": "书稿编校修订稿",
+        "url": "https://chatgpt.com/space/page_869826b1986081918fb218f310605ce8"
+      }
+    ],
+    "mime_type": "application/zip",
+    "byte_size": 657077
+  },
+  {
+    "reference": "library-file:fde1_bGliZmlsZV9tQzloeXRIeVB0OWhaVWRZV3hEQ2ln_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+    "status": "未取回字节",
+    "source_pages": [
+      {
+        "title": "书稿编校修订稿",
+        "url": "https://chatgpt.com/space/page_869826b1986081918fb218f310605ce8"
+      }
+    ],
+    "mime_type": "application/zip",
+    "byte_size": 1174437
+  },
+  {
+    "reference": "library-file:fde1_bGliZmlsZV9FZWRnQmhKQUFEaXpEZkVKbzFaSmdn_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+    "status": "未取回字节",
+    "source_pages": [
+      {
+        "title": "书稿编校修订稿",
+        "url": "https://chatgpt.com/space/page_869826b1986081918fb218f310605ce8"
+      }
+    ],
+    "mime_type": "application/zip",
+    "byte_size": 1177326
+  },
+  {
+    "reference": "library-file:fde1_bGliZmlsZV9KUUNWaVJneEdoUU9JRXdac3VwYjdn_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+    "status": "未取回字节",
+    "source_pages": [
+      {
+        "title": "书稿编校修订稿",
+        "url": "https://chatgpt.com/space/page_869826b1986081918fb218f310605ce8"
+      }
+    ],
+    "mime_type": "application/zip",
+    "byte_size": 3136930
+  },
+  {
+    "reference": "library-file:fde1_bGliZmlsZV9ydVRjZy0tMzZwdmZHcnBRYU12dGtR_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+    "status": "未取回字节",
+    "source_pages": [
+      {
+        "title": "完整写作草稿 未校对 20261028",
+        "url": "https://chatgpt.com/space/page_f45818d4570c8191a4a59b3a4492b69b"
+      }
+    ],
+    "mime_type": "application/zip",
+    "byte_size": 1355583
+  },
+  {
+    "reference": "library-file:fde1_bGliZmlsZV9NWklHYUdERUtvdFNsbEU5OU5rbml3_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+    "status": "未取回字节",
+    "source_pages": [
+      {
+        "title": "完整写作草稿 未校对 20261028",
+        "url": "https://chatgpt.com/space/page_f45818d4570c8191a4a59b3a4492b69b"
+      }
+    ],
+    "mime_type": "application/zip",
+    "byte_size": 2464048
+  },
+  {
+    "reference": "library-file:fde1_bGliZmlsZV9Ibl9CNVNwM0pIXzB3S3ZQbUZ4VC1R_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+    "status": "未取回字节",
+    "source_pages": [
+      {
+        "title": "完整写作草稿 未校对 20261028",
+        "url": "https://chatgpt.com/space/page_f45818d4570c8191a4a59b3a4492b69b"
+      }
+    ],
+    "mime_type": "application/zip",
+    "byte_size": 2479993
+  },
+  {
+    "reference": "library-file:fde1_bGliZmlsZV80MUkxWTJqSXNIeEZqVmNCR1NPMWd3_FileDrive_e7e5d77e9a1c81918c960a2415c82d98",
+    "status": "未取回字节",
+    "source_pages": [
+      {
+        "title": "完整写作草稿 未校对 20261028",
+        "url": "https://chatgpt.com/space/page_f45818d4570c8191a4a59b3a4492b69b"
+      }
+    ],
+    "mime_type": "application/zip",
+    "byte_size": 23189
+  }
+]

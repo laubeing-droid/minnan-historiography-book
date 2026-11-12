@@ -1,0 +1,47 @@
+{
+  "section": "10.5",
+  "title": "人工评估金标准与质量控制",
+  "status": "EXECUTED_PASS",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "ratings",
+  "rows": [
+    {
+      "id": "A",
+      "item": "Q1",
+      "rater": "甲",
+      "supported": 0,
+      "complete": 1,
+      "readable": 1,
+      "reason": "把拟议写成已经"
+    },
+    {
+      "id": "B",
+      "item": "Q1",
+      "rater": "乙",
+      "supported": 1,
+      "complete": 1,
+      "readable": 1,
+      "reason": "误把流畅等同有据"
+    },
+    {
+      "id": "C",
+      "item": "Q2",
+      "rater": "甲",
+      "supported": 1,
+      "complete": 1,
+      "readable": 1,
+      "reason": "保留事件状态"
+    },
+    {
+      "id": "D",
+      "item": "Q2",
+      "rater": "乙",
+      "supported": 1,
+      "complete": 1,
+      "readable": 1,
+      "reason": "与材料相合"
+    }
+  ],
+  "config": {},
+  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
+}

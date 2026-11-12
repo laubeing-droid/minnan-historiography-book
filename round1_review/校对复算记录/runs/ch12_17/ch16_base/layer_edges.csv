@@ -1,0 +1,7 @@
+instance_id,subject,relation_type,object,directed,start_year,end_year,temporal_kind,event_id,assertion_ids,source_ids,reasons,scenario_identity_assumptions
+R1,P1,member,O1,True,1701,1705,continuous_support,,C1,S1,,
+R2,P2,member,O1,True,1703,1704,continuous_support,,C2,S1,,
+R3,P1,participate,V1,True,1703,1703,event_year,V1,C3,S2,,
+R4,P2,participate,V1,True,1703,1703,event_year,V1,C4,S2,,
+R5,P1,send_letter,P2,True,1704,1704,event_year,V2,C5;C11,S3;S4,,
+R6,P1,sibling,P2,False,1700,1710,evidence_support,,C6,S5,,

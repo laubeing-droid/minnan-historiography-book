@@ -1,0 +1,18 @@
+{
+  "execution": "reader_invoked",
+  "input_provenance": "编者新编教学数据 非史实 非模型输出",
+  "section": "10.10",
+  "result": {
+    "card": {
+      "name": "配对评价教学示例",
+      "unit": "一条材料的一对正确标记",
+      "source": "编者预置 非模型预测",
+      "version": "2026-10-30",
+      "status": "NOT_RUN",
+      "model": "not_applicable"
+    },
+    "rows": 6,
+    "required_missing": [],
+    "note": "Checks presence only, not truth or historical validity."
+  }
+}

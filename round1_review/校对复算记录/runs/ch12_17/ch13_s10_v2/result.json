@@ -1,0 +1,1541 @@
+{
+  "fit_records": [
+    {
+      "fit_id": "C1_o4",
+      "candidate": "C1",
+      "origin": 4,
+      "window_start": 1,
+      "window_end": 4,
+      "training": [
+        {
+          "id": "H01",
+          "period": 1,
+          "available_at": 1,
+          "value": 10,
+          "imputed_from": null
+        },
+        {
+          "id": "H02",
+          "period": 2,
+          "available_at": 2,
+          "value": 12,
+          "imputed_from": null
+        },
+        {
+          "id": "H03",
+          "period": 3,
+          "available_at": 3,
+          "value": 14,
+          "imputed_from": null
+        },
+        {
+          "id": "H04",
+          "period": 4,
+          "available_at": 4,
+          "value": 16,
+          "imputed_from": null
+        }
+      ],
+      "excluded": [],
+      "effective_count": 4,
+      "status": "success",
+      "reason": null
+    },
+    {
+      "fit_id": "C1_o5",
+      "candidate": "C1",
+      "origin": 5,
+      "window_start": 2,
+      "window_end": 5,
+      "training": [
+        {
+          "id": "H02",
+          "period": 2,
+          "available_at": 2,
+          "value": 12,
+          "imputed_from": null
+        },
+        {
+          "id": "H03",
+          "period": 3,
+          "available_at": 3,
+          "value": 14,
+          "imputed_from": null
+        },
+        {
+          "id": "H04",
+          "period": 4,
+          "available_at": 4,
+          "value": 16,
+          "imputed_from": null
+        },
+        {
+          "id": "H05",
+          "period": 5,
+          "available_at": 5,
+          "value": 18,
+          "imputed_from": null
+        }
+      ],
+      "excluded": [],
+      "effective_count": 4,
+      "status": "success",
+      "reason": null
+    },
+    {
+      "fit_id": "C1_o6",
+      "candidate": "C1",
+      "origin": 6,
+      "window_start": 3,
+      "window_end": 6,
+      "training": [
+        {
+          "id": "H03",
+          "period": 3,
+          "available_at": 3,
+          "value": 14,
+          "imputed_from": null
+        },
+        {
+          "id": "H04",
+          "period": 4,
+          "available_at": 4,
+          "value": 16,
+          "imputed_from": null
+        },
+        {
+          "id": "H05",
+          "period": 5,
+          "available_at": 5,
+          "value": 18,
+          "imputed_from": null
+        }
+      ],
+      "excluded": [
+        {
+          "id": "H06",
+          "reason": "missing_no_legal_fill"
+        }
+      ],
+      "effective_count": 3,
+      "status": "success",
+      "reason": null
+    },
+    {
+      "fit_id": "C1_o7",
+      "candidate": "C1",
+      "origin": 7,
+      "window_start": 4,
+      "window_end": 7,
+      "training": [
+        {
+          "id": "H04",
+          "period": 4,
+          "available_at": 4,
+          "value": 16,
+          "imputed_from": null
+        },
+        {
+          "id": "H05",
+          "period": 5,
+          "available_at": 5,
+          "value": 18,
+          "imputed_from": null
+        },
+        {
+          "id": "H07",
+          "period": 7,
+          "available_at": 7,
+          "value": 22,
+          "imputed_from": null
+        }
+      ],
+      "excluded": [
+        {
+          "id": "H06",
+          "reason": "missing_no_legal_fill"
+        }
+      ],
+      "effective_count": 3,
+      "status": "success",
+      "reason": null
+    },
+    {
+      "fit_id": "C2_o4",
+      "candidate": "C2",
+      "origin": 4,
+      "window_start": 1,
+      "window_end": 4,
+      "training": [
+        {
+          "id": "H01",
+          "period": 1,
+          "available_at": 1,
+          "value": 10,
+          "imputed_from": null
+        },
+        {
+          "id": "H02",
+          "period": 2,
+          "available_at": 2,
+          "value": 12,
+          "imputed_from": null
+        },
+        {
+          "id": "H03",
+          "period": 3,
+          "available_at": 3,
+          "value": 14,
+          "imputed_from": null
+        },
+        {
+          "id": "H04",
+          "period": 4,
+          "available_at": 4,
+          "value": 16,
+          "imputed_from": null
+        }
+      ],
+      "excluded": [],
+      "effective_count": 4,
+      "status": "success",
+      "reason": null
+    },
+    {
+      "fit_id": "C2_o5",
+      "candidate": "C2",
+      "origin": 5,
+      "window_start": 1,
+      "window_end": 5,
+      "training": [
+        {
+          "id": "H01",
+          "period": 1,
+          "available_at": 1,
+          "value": 10,
+          "imputed_from": null
+        },
+        {
+          "id": "H02",
+          "period": 2,
+          "available_at": 2,
+          "value": 12,
+          "imputed_from": null
+        },
+        {
+          "id": "H03",
+          "period": 3,
+          "available_at": 3,
+          "value": 14,
+          "imputed_from": null
+        },
+        {
+          "id": "H04",
+          "period": 4,
+          "available_at": 4,
+          "value": 16,
+          "imputed_from": null
+        },
+        {
+          "id": "H05",
+          "period": 5,
+          "available_at": 5,
+          "value": 18,
+          "imputed_from": null
+        }
+      ],
+      "excluded": [],
+      "effective_count": 5,
+      "status": "success",
+      "reason": null
+    },
+    {
+      "fit_id": "C2_o6",
+      "candidate": "C2",
+      "origin": 6,
+      "window_start": 1,
+      "window_end": 6,
+      "training": [
+        {
+          "id": "H01",
+          "period": 1,
+          "available_at": 1,
+          "value": 10,
+          "imputed_from": null
+        },
+        {
+          "id": "H02",
+          "period": 2,
+          "available_at": 2,
+          "value": 12,
+          "imputed_from": null
+        },
+        {
+          "id": "H03",
+          "period": 3,
+          "available_at": 3,
+          "value": 14,
+          "imputed_from": null
+        },
+        {
+          "id": "H04",
+          "period": 4,
+          "available_at": 4,
+          "value": 16,
+          "imputed_from": null
+        },
+        {
+          "id": "H05",
+          "period": 5,
+          "available_at": 5,
+          "value": 18,
+          "imputed_from": null
+        }
+      ],
+      "excluded": [
+        {
+          "id": "H06",
+          "reason": "missing_no_legal_fill"
+        }
+      ],
+      "effective_count": 5,
+      "status": "success",
+      "reason": null
+    },
+    {
+      "fit_id": "C2_o7",
+      "candidate": "C2",
+      "origin": 7,
+      "window_start": 1,
+      "window_end": 7,
+      "training": [
+        {
+          "id": "H01",
+          "period": 1,
+          "available_at": 1,
+          "value": 10,
+          "imputed_from": null
+        },
+        {
+          "id": "H02",
+          "period": 2,
+          "available_at": 2,
+          "value": 12,
+          "imputed_from": null
+        },
+        {
+          "id": "H03",
+          "period": 3,
+          "available_at": 3,
+          "value": 14,
+          "imputed_from": null
+        },
+        {
+          "id": "H04",
+          "period": 4,
+          "available_at": 4,
+          "value": 16,
+          "imputed_from": null
+        },
+        {
+          "id": "H05",
+          "period": 5,
+          "available_at": 5,
+          "value": 18,
+          "imputed_from": null
+        },
+        {
+          "id": "H07",
+          "period": 7,
+          "available_at": 7,
+          "value": 22,
+          "imputed_from": null
+        }
+      ],
+      "excluded": [
+        {
+          "id": "H06",
+          "reason": "missing_no_legal_fill"
+        }
+      ],
+      "effective_count": 6,
+      "status": "success",
+      "reason": null
+    },
+    {
+      "fit_id": "C3_o4",
+      "candidate": "C3",
+      "origin": 4,
+      "window_start": 1,
+      "window_end": 4,
+      "training": [
+        {
+          "id": "H01",
+          "period": 1,
+          "available_at": 1,
+          "value": 10,
+          "imputed_from": null
+        },
+        {
+          "id": "H02",
+          "period": 2,
+          "available_at": 2,
+          "value": 12,
+          "imputed_from": null
+        },
+        {
+          "id": "H03",
+          "period": 3,
+          "available_at": 3,
+          "value": 14,
+          "imputed_from": null
+        },
+        {
+          "id": "H04",
+          "period": 4,
+          "available_at": 4,
+          "value": 16,
+          "imputed_from": null
+        }
+      ],
+      "excluded": [],
+      "effective_count": 4,
+      "status": "success",
+      "reason": null
+    },
+    {
+      "fit_id": "C3_o5",
+      "candidate": "C3",
+      "origin": 5,
+      "window_start": 2,
+      "window_end": 5,
+      "training": [
+        {
+          "id": "H02",
+          "period": 2,
+          "available_at": 2,
+          "value": 12,
+          "imputed_from": null
+        },
+        {
+          "id": "H03",
+          "period": 3,
+          "available_at": 3,
+          "value": 14,
+          "imputed_from": null
+        },
+        {
+          "id": "H04",
+          "period": 4,
+          "available_at": 4,
+          "value": 16,
+          "imputed_from": null
+        },
+        {
+          "id": "H05",
+          "period": 5,
+          "available_at": 5,
+          "value": 18,
+          "imputed_from": null
+        }
+      ],
+      "excluded": [],
+      "effective_count": 4,
+      "status": "success",
+      "reason": null
+    },
+    {
+      "fit_id": "C3_o6",
+      "candidate": "C3",
+      "origin": 6,
+      "window_start": 3,
+      "window_end": 6,
+      "training": [
+        {
+          "id": "H03",
+          "period": 3,
+          "available_at": 3,
+          "value": 14,
+          "imputed_from": null
+        },
+        {
+          "id": "H04",
+          "period": 4,
+          "available_at": 4,
+          "value": 16,
+          "imputed_from": null
+        },
+        {
+          "id": "H05",
+          "period": 5,
+          "available_at": 5,
+          "value": 18,
+          "imputed_from": null
+        },
+        {
+          "id": "H06",
+          "period": 6,
+          "available_at": 6,
+          "value": 18,
+          "imputed_from": "H05"
+        }
+      ],
+      "excluded": [],
+      "effective_count": 4,
+      "status": "success",
+      "reason": null
+    },
+    {
+      "fit_id": "C3_o7",
+      "candidate": "C3",
+      "origin": 7,
+      "window_start": 4,
+      "window_end": 7,
+      "training": [
+        {
+          "id": "H04",
+          "period": 4,
+          "available_at": 4,
+          "value": 16,
+          "imputed_from": null
+        },
+        {
+          "id": "H05",
+          "period": 5,
+          "available_at": 5,
+          "value": 18,
+          "imputed_from": null
+        },
+        {
+          "id": "H06",
+          "period": 6,
+          "available_at": 6,
+          "value": 18,
+          "imputed_from": "H05"
+        },
+        {
+          "id": "H07",
+          "period": 7,
+          "available_at": 7,
+          "value": 22,
+          "imputed_from": null
+        }
+      ],
+      "excluded": [],
+      "effective_count": 4,
+      "status": "success",
+      "reason": null
+    },
+    {
+      "fit_id": "C4_o4",
+      "candidate": "C4",
+      "origin": 4,
+      "window_start": 1,
+      "window_end": 4,
+      "training": [
+        {
+          "id": "H01",
+          "period": 1,
+          "available_at": 1,
+          "value": 10,
+          "imputed_from": null
+        },
+        {
+          "id": "H02",
+          "period": 2,
+          "available_at": 2,
+          "value": 12,
+          "imputed_from": null
+        },
+        {
+          "id": "H03",
+          "period": 3,
+          "available_at": 3,
+          "value": 14,
+          "imputed_from": null
+        },
+        {
+          "id": "H04",
+          "period": 4,
+          "available_at": 4,
+          "value": 16,
+          "imputed_from": null
+        }
+      ],
+      "excluded": [],
+      "effective_count": 4,
+      "status": "success",
+      "reason": null
+    },
+    {
+      "fit_id": "C4_o5",
+      "candidate": "C4",
+      "origin": 5,
+      "window_start": 1,
+      "window_end": 5,
+      "training": [
+        {
+          "id": "H01",
+          "period": 1,
+          "available_at": 1,
+          "value": 10,
+          "imputed_from": null
+        },
+        {
+          "id": "H02",
+          "period": 2,
+          "available_at": 2,
+          "value": 12,
+          "imputed_from": null
+        },
+        {
+          "id": "H03",
+          "period": 3,
+          "available_at": 3,
+          "value": 14,
+          "imputed_from": null
+        },
+        {
+          "id": "H04",
+          "period": 4,
+          "available_at": 4,
+          "value": 16,
+          "imputed_from": null
+        },
+        {
+          "id": "H05",
+          "period": 5,
+          "available_at": 5,
+          "value": 18,
+          "imputed_from": null
+        }
+      ],
+      "excluded": [],
+      "effective_count": 5,
+      "status": "success",
+      "reason": null
+    },
+    {
+      "fit_id": "C4_o6",
+      "candidate": "C4",
+      "origin": 6,
+      "window_start": 1,
+      "window_end": 6,
+      "training": [
+        {
+          "id": "H01",
+          "period": 1,
+          "available_at": 1,
+          "value": 10,
+          "imputed_from": null
+        },
+        {
+          "id": "H02",
+          "period": 2,
+          "available_at": 2,
+          "value": 12,
+          "imputed_from": null
+        },
+        {
+          "id": "H03",
+          "period": 3,
+          "available_at": 3,
+          "value": 14,
+          "imputed_from": null
+        },
+        {
+          "id": "H04",
+          "period": 4,
+          "available_at": 4,
+          "value": 16,
+          "imputed_from": null
+        },
+        {
+          "id": "H05",
+          "period": 5,
+          "available_at": 5,
+          "value": 18,
+          "imputed_from": null
+        },
+        {
+          "id": "H06",
+          "period": 6,
+          "available_at": 6,
+          "value": 18,
+          "imputed_from": "H05"
+        }
+      ],
+      "excluded": [],
+      "effective_count": 6,
+      "status": "success",
+      "reason": null
+    },
+    {
+      "fit_id": "C4_o7",
+      "candidate": "C4",
+      "origin": 7,
+      "window_start": 1,
+      "window_end": 7,
+      "training": [
+        {
+          "id": "H01",
+          "period": 1,
+          "available_at": 1,
+          "value": 10,
+          "imputed_from": null
+        },
+        {
+          "id": "H02",
+          "period": 2,
+          "available_at": 2,
+          "value": 12,
+          "imputed_from": null
+        },
+        {
+          "id": "H03",
+          "period": 3,
+          "available_at": 3,
+          "value": 14,
+          "imputed_from": null
+        },
+        {
+          "id": "H04",
+          "period": 4,
+          "available_at": 4,
+          "value": 16,
+          "imputed_from": null
+        },
+        {
+          "id": "H05",
+          "period": 5,
+          "available_at": 5,
+          "value": 18,
+          "imputed_from": null
+        },
+        {
+          "id": "H06",
+          "period": 6,
+          "available_at": 6,
+          "value": 18,
+          "imputed_from": "H05"
+        },
+        {
+          "id": "H07",
+          "period": 7,
+          "available_at": 7,
+          "value": 22,
+          "imputed_from": null
+        }
+      ],
+      "excluded": [],
+      "effective_count": 7,
+      "status": "success",
+      "reason": null
+    },
+    {
+      "fit_id": "C5_o4",
+      "candidate": "C5",
+      "origin": 4,
+      "window_start": 1,
+      "window_end": 4,
+      "training": [
+        {
+          "id": "H01",
+          "period": 1,
+          "available_at": 1,
+          "value": 10,
+          "imputed_from": null
+        },
+        {
+          "id": "H02",
+          "period": 2,
+          "available_at": 2,
+          "value": 12,
+          "imputed_from": null
+        },
+        {
+          "id": "H03",
+          "period": 3,
+          "available_at": 3,
+          "value": 14,
+          "imputed_from": null
+        },
+        {
+          "id": "H04",
+          "period": 4,
+          "available_at": 4,
+          "value": 16,
+          "imputed_from": null
+        }
+      ],
+      "excluded": [],
+      "effective_count": 4,
+      "status": "success",
+      "reason": null
+    },
+    {
+      "fit_id": "C5_o5",
+      "candidate": "C5",
+      "origin": 5,
+      "window_start": 2,
+      "window_end": 5,
+      "training": [
+        {
+          "id": "H02",
+          "period": 2,
+          "available_at": 2,
+          "value": 12,
+          "imputed_from": null
+        },
+        {
+          "id": "H03",
+          "period": 3,
+          "available_at": 3,
+          "value": 14,
+          "imputed_from": null
+        },
+        {
+          "id": "H04",
+          "period": 4,
+          "available_at": 4,
+          "value": 16,
+          "imputed_from": null
+        },
+        {
+          "id": "H05",
+          "period": 5,
+          "available_at": 5,
+          "value": 18,
+          "imputed_from": null
+        }
+      ],
+      "excluded": [],
+      "effective_count": 4,
+      "status": "success",
+      "reason": null
+    },
+    {
+      "fit_id": "C5_o6",
+      "candidate": "C5",
+      "origin": 6,
+      "window_start": 3,
+      "window_end": 6,
+      "training": [
+        {
+          "id": "H03",
+          "period": 3,
+          "available_at": 3,
+          "value": 14,
+          "imputed_from": null
+        },
+        {
+          "id": "H04",
+          "period": 4,
+          "available_at": 4,
+          "value": 16,
+          "imputed_from": null
+        },
+        {
+          "id": "H05",
+          "period": 5,
+          "available_at": 5,
+          "value": 18,
+          "imputed_from": null
+        }
+      ],
+      "excluded": [
+        {
+          "id": "H06",
+          "reason": "missing_no_legal_fill"
+        }
+      ],
+      "effective_count": 3,
+      "status": "failed",
+      "reason": "origin_value_unavailable"
+    },
+    {
+      "fit_id": "C5_o7",
+      "candidate": "C5",
+      "origin": 7,
+      "window_start": 4,
+      "window_end": 7,
+      "training": [
+        {
+          "id": "H04",
+          "period": 4,
+          "available_at": 4,
+          "value": 16,
+          "imputed_from": null
+        },
+        {
+          "id": "H05",
+          "period": 5,
+          "available_at": 5,
+          "value": 18,
+          "imputed_from": null
+        },
+        {
+          "id": "H07",
+          "period": 7,
+          "available_at": 7,
+          "value": 22,
+          "imputed_from": null
+        }
+      ],
+      "excluded": [
+        {
+          "id": "H06",
+          "reason": "missing_no_legal_fill"
+        }
+      ],
+      "effective_count": 3,
+      "status": "success",
+      "reason": null
+    }
+  ],
+  "forecast_rows": [
+    {
+      "fit_id": "C1_o4",
+      "candidate": "C1",
+      "origin": 4,
+      "horizon": 1,
+      "target": 5,
+      "prediction": 13.0,
+      "status": "success",
+      "reason": null,
+      "actual": 18,
+      "error": 5.0,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C1_o4",
+      "candidate": "C1",
+      "origin": 4,
+      "horizon": 2,
+      "target": 6,
+      "prediction": 13.0,
+      "status": "success",
+      "reason": null,
+      "actual": 20,
+      "error": 7.0,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C1_o5",
+      "candidate": "C1",
+      "origin": 5,
+      "horizon": 1,
+      "target": 6,
+      "prediction": 15.0,
+      "status": "success",
+      "reason": null,
+      "actual": 20,
+      "error": 5.0,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C1_o5",
+      "candidate": "C1",
+      "origin": 5,
+      "horizon": 2,
+      "target": 7,
+      "prediction": 15.0,
+      "status": "success",
+      "reason": null,
+      "actual": 22,
+      "error": 7.0,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C1_o6",
+      "candidate": "C1",
+      "origin": 6,
+      "horizon": 1,
+      "target": 7,
+      "prediction": 16.0,
+      "status": "success",
+      "reason": null,
+      "actual": 22,
+      "error": 6.0,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C1_o6",
+      "candidate": "C1",
+      "origin": 6,
+      "horizon": 2,
+      "target": 8,
+      "prediction": 16.0,
+      "status": "success",
+      "reason": null,
+      "actual": 24,
+      "error": 8.0,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C1_o7",
+      "candidate": "C1",
+      "origin": 7,
+      "horizon": 1,
+      "target": 8,
+      "prediction": 18.666666666666668,
+      "status": "success",
+      "reason": null,
+      "actual": 24,
+      "error": 5.333333333333332,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C1_o7",
+      "candidate": "C1",
+      "origin": 7,
+      "horizon": 2,
+      "target": 9,
+      "prediction": 18.666666666666668,
+      "status": "success",
+      "reason": null,
+      "actual": null,
+      "error": null,
+      "score_status": "missing_or_late_truth"
+    },
+    {
+      "fit_id": "C2_o4",
+      "candidate": "C2",
+      "origin": 4,
+      "horizon": 1,
+      "target": 5,
+      "prediction": 13.0,
+      "status": "success",
+      "reason": null,
+      "actual": 18,
+      "error": 5.0,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C2_o4",
+      "candidate": "C2",
+      "origin": 4,
+      "horizon": 2,
+      "target": 6,
+      "prediction": 13.0,
+      "status": "success",
+      "reason": null,
+      "actual": 20,
+      "error": 7.0,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C2_o5",
+      "candidate": "C2",
+      "origin": 5,
+      "horizon": 1,
+      "target": 6,
+      "prediction": 14.0,
+      "status": "success",
+      "reason": null,
+      "actual": 20,
+      "error": 6.0,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C2_o5",
+      "candidate": "C2",
+      "origin": 5,
+      "horizon": 2,
+      "target": 7,
+      "prediction": 14.0,
+      "status": "success",
+      "reason": null,
+      "actual": 22,
+      "error": 8.0,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C2_o6",
+      "candidate": "C2",
+      "origin": 6,
+      "horizon": 1,
+      "target": 7,
+      "prediction": 14.0,
+      "status": "success",
+      "reason": null,
+      "actual": 22,
+      "error": 8.0,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C2_o6",
+      "candidate": "C2",
+      "origin": 6,
+      "horizon": 2,
+      "target": 8,
+      "prediction": 14.0,
+      "status": "success",
+      "reason": null,
+      "actual": 24,
+      "error": 10.0,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C2_o7",
+      "candidate": "C2",
+      "origin": 7,
+      "horizon": 1,
+      "target": 8,
+      "prediction": 15.333333333333334,
+      "status": "success",
+      "reason": null,
+      "actual": 24,
+      "error": 8.666666666666666,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C2_o7",
+      "candidate": "C2",
+      "origin": 7,
+      "horizon": 2,
+      "target": 9,
+      "prediction": 15.333333333333334,
+      "status": "success",
+      "reason": null,
+      "actual": null,
+      "error": null,
+      "score_status": "missing_or_late_truth"
+    },
+    {
+      "fit_id": "C3_o4",
+      "candidate": "C3",
+      "origin": 4,
+      "horizon": 1,
+      "target": 5,
+      "prediction": 13.0,
+      "status": "success",
+      "reason": null,
+      "actual": 18,
+      "error": 5.0,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C3_o4",
+      "candidate": "C3",
+      "origin": 4,
+      "horizon": 2,
+      "target": 6,
+      "prediction": 13.0,
+      "status": "success",
+      "reason": null,
+      "actual": 20,
+      "error": 7.0,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C3_o5",
+      "candidate": "C3",
+      "origin": 5,
+      "horizon": 1,
+      "target": 6,
+      "prediction": 15.0,
+      "status": "success",
+      "reason": null,
+      "actual": 20,
+      "error": 5.0,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C3_o5",
+      "candidate": "C3",
+      "origin": 5,
+      "horizon": 2,
+      "target": 7,
+      "prediction": 15.0,
+      "status": "success",
+      "reason": null,
+      "actual": 22,
+      "error": 7.0,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C3_o6",
+      "candidate": "C3",
+      "origin": 6,
+      "horizon": 1,
+      "target": 7,
+      "prediction": 16.5,
+      "status": "success",
+      "reason": null,
+      "actual": 22,
+      "error": 5.5,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C3_o6",
+      "candidate": "C3",
+      "origin": 6,
+      "horizon": 2,
+      "target": 8,
+      "prediction": 16.5,
+      "status": "success",
+      "reason": null,
+      "actual": 24,
+      "error": 7.5,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C3_o7",
+      "candidate": "C3",
+      "origin": 7,
+      "horizon": 1,
+      "target": 8,
+      "prediction": 18.5,
+      "status": "success",
+      "reason": null,
+      "actual": 24,
+      "error": 5.5,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C3_o7",
+      "candidate": "C3",
+      "origin": 7,
+      "horizon": 2,
+      "target": 9,
+      "prediction": 18.5,
+      "status": "success",
+      "reason": null,
+      "actual": null,
+      "error": null,
+      "score_status": "missing_or_late_truth"
+    },
+    {
+      "fit_id": "C4_o4",
+      "candidate": "C4",
+      "origin": 4,
+      "horizon": 1,
+      "target": 5,
+      "prediction": 13.0,
+      "status": "success",
+      "reason": null,
+      "actual": 18,
+      "error": 5.0,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C4_o4",
+      "candidate": "C4",
+      "origin": 4,
+      "horizon": 2,
+      "target": 6,
+      "prediction": 13.0,
+      "status": "success",
+      "reason": null,
+      "actual": 20,
+      "error": 7.0,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C4_o5",
+      "candidate": "C4",
+      "origin": 5,
+      "horizon": 1,
+      "target": 6,
+      "prediction": 14.0,
+      "status": "success",
+      "reason": null,
+      "actual": 20,
+      "error": 6.0,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C4_o5",
+      "candidate": "C4",
+      "origin": 5,
+      "horizon": 2,
+      "target": 7,
+      "prediction": 14.0,
+      "status": "success",
+      "reason": null,
+      "actual": 22,
+      "error": 8.0,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C4_o6",
+      "candidate": "C4",
+      "origin": 6,
+      "horizon": 1,
+      "target": 7,
+      "prediction": 14.666666666666666,
+      "status": "success",
+      "reason": null,
+      "actual": 22,
+      "error": 7.333333333333334,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C4_o6",
+      "candidate": "C4",
+      "origin": 6,
+      "horizon": 2,
+      "target": 8,
+      "prediction": 14.666666666666666,
+      "status": "success",
+      "reason": null,
+      "actual": 24,
+      "error": 9.333333333333334,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C4_o7",
+      "candidate": "C4",
+      "origin": 7,
+      "horizon": 1,
+      "target": 8,
+      "prediction": 15.714285714285714,
+      "status": "success",
+      "reason": null,
+      "actual": 24,
+      "error": 8.285714285714286,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C4_o7",
+      "candidate": "C4",
+      "origin": 7,
+      "horizon": 2,
+      "target": 9,
+      "prediction": 15.714285714285714,
+      "status": "success",
+      "reason": null,
+      "actual": null,
+      "error": null,
+      "score_status": "missing_or_late_truth"
+    },
+    {
+      "fit_id": "C5_o4",
+      "candidate": "C5",
+      "origin": 4,
+      "horizon": 1,
+      "target": 5,
+      "prediction": 16,
+      "status": "success",
+      "reason": null,
+      "actual": 18,
+      "error": 2,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C5_o4",
+      "candidate": "C5",
+      "origin": 4,
+      "horizon": 2,
+      "target": 6,
+      "prediction": 16,
+      "status": "success",
+      "reason": null,
+      "actual": 20,
+      "error": 4,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C5_o5",
+      "candidate": "C5",
+      "origin": 5,
+      "horizon": 1,
+      "target": 6,
+      "prediction": 18,
+      "status": "success",
+      "reason": null,
+      "actual": 20,
+      "error": 2,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C5_o5",
+      "candidate": "C5",
+      "origin": 5,
+      "horizon": 2,
+      "target": 7,
+      "prediction": 18,
+      "status": "success",
+      "reason": null,
+      "actual": 22,
+      "error": 4,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C5_o6",
+      "candidate": "C5",
+      "origin": 6,
+      "horizon": 1,
+      "target": 7,
+      "prediction": null,
+      "status": "failed",
+      "reason": "origin_value_unavailable",
+      "actual": 22,
+      "error": null,
+      "score_status": "prediction_failed"
+    },
+    {
+      "fit_id": "C5_o6",
+      "candidate": "C5",
+      "origin": 6,
+      "horizon": 2,
+      "target": 8,
+      "prediction": null,
+      "status": "failed",
+      "reason": "origin_value_unavailable",
+      "actual": 24,
+      "error": null,
+      "score_status": "prediction_failed"
+    },
+    {
+      "fit_id": "C5_o7",
+      "candidate": "C5",
+      "origin": 7,
+      "horizon": 1,
+      "target": 8,
+      "prediction": 22,
+      "status": "success",
+      "reason": null,
+      "actual": 24,
+      "error": 2,
+      "score_status": "scored"
+    },
+    {
+      "fit_id": "C5_o7",
+      "candidate": "C5",
+      "origin": 7,
+      "horizon": 2,
+      "target": 9,
+      "prediction": 22,
+      "status": "success",
+      "reason": null,
+      "actual": null,
+      "error": null,
+      "score_status": "missing_or_late_truth"
+    }
+  ],
+  "summary": [
+    {
+      "candidate": "C1",
+      "planned": 8,
+      "predicted": 8,
+      "failed": 0,
+      "scored": 7,
+      "coverage": 1.0,
+      "MAE": 6.19047619047619,
+      "RMSE": 6.284271118599475,
+      "eligible": true
+    },
+    {
+      "candidate": "C2",
+      "planned": 8,
+      "predicted": 8,
+      "failed": 0,
+      "scored": 7,
+      "coverage": 1.0,
+      "MAE": 7.523809523809524,
+      "RMSE": 7.6821789237086255,
+      "eligible": true
+    },
+    {
+      "candidate": "C3",
+      "planned": 8,
+      "predicted": 8,
+      "failed": 0,
+      "scored": 7,
+      "coverage": 1.0,
+      "MAE": 6.071428571428571,
+      "RMSE": 6.149912891369159,
+      "eligible": true
+    },
+    {
+      "candidate": "C4",
+      "planned": 8,
+      "predicted": 8,
+      "failed": 0,
+      "scored": 7,
+      "coverage": 1.0,
+      "MAE": 7.278911564625851,
+      "RMSE": 7.4021420655817,
+      "eligible": true
+    },
+    {
+      "candidate": "C5",
+      "planned": 8,
+      "predicted": 6,
+      "failed": 2,
+      "scored": 5,
+      "coverage": 0.75,
+      "MAE": 2.8,
+      "RMSE": 2.9664793948382653,
+      "eligible": false
+    }
+  ],
+  "phase": "validation",
+  "selection": {
+    "selected": "C3",
+    "selection_basis": "validation only",
+    "history_sha256": "25f376c9e44a64d1c6037aa5acd42a165fb2b4cce56e21de48ecf012fd2b5224",
+    "protocol_sha256": "a27002de44c78919301387179b8f0605d6b9581f570f420261cad93e3de5adef"
+  },
+  "common_task_summary": [
+    {
+      "candidate": "C1",
+      "planned": 5,
+      "predicted": 5,
+      "failed": 0,
+      "scored": 5,
+      "coverage": 1.0,
+      "MAE": 5.866666666666666,
+      "RMSE": 5.940445175985457,
+      "eligible": true
+    },
+    {
+      "candidate": "C2",
+      "planned": 5,
+      "predicted": 5,
+      "failed": 0,
+      "scored": 5,
+      "coverage": 1.0,
+      "MAE": 6.933333333333333,
+      "RMSE": 7.058485830702093,
+      "eligible": true
+    },
+    {
+      "candidate": "C3",
+      "planned": 5,
+      "predicted": 5,
+      "failed": 0,
+      "scored": 5,
+      "coverage": 1.0,
+      "MAE": 5.9,
+      "RMSE": 5.9707620954112715,
+      "eligible": true
+    },
+    {
+      "candidate": "C4",
+      "planned": 5,
+      "predicted": 5,
+      "failed": 0,
+      "scored": 5,
+      "coverage": 1.0,
+      "MAE": 6.857142857142857,
+      "RMSE": 6.966391622992348,
+      "eligible": true
+    },
+    {
+      "candidate": "C5",
+      "planned": 5,
+      "predicted": 5,
+      "failed": 0,
+      "scored": 5,
+      "coverage": 1.0,
+      "MAE": 2.8,
+      "RMSE": 2.9664793948382653,
+      "eligible": true
+    }
+  ],
+  "interaction": -0.12585034013605423,
+  "test_status": "NOT_RUN_NO_NEW_INDEPENDENT_TEST"
+}

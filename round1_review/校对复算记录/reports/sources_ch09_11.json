@@ -1,0 +1,3436 @@
+{
+  "scope": "9—11全部原引用URL；按完整URL去重，保留每次引用与各项检查",
+  "url_count": 108,
+  "status_counts": {
+    "CHECKED_SUPPORTS_CITED_CLAIM": 108
+  },
+  "ledger": [
+    {
+      "url": "https://pr.ntnu.edu.tw/news/index.php?id=21193&mode=data",
+      "checks": [
+        {
+          "id": "S09-01",
+          "checked_location": "页首2022-11-18、正文第二段及末尾署源",
+          "sections": [
+            "9.1",
+            "9.2",
+            "9.3"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "1946成立、1955改制、1967升格及图书馆校史特藏组来源相符。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 95,
+          "citation_text": "[1] 國立臺灣師範大學秘書室公共事務中心，2022年11月18日，[「百年師大人」校史影片 跟著大眾一起成長的臺師大](https://pr.ntnu.edu.tw/news/index.php?id=21193&mode=data)，页首日期、正文首段及第二段。网页注明资料来源为图书馆校史特藏组。"
+        },
+        {
+          "chapter": 9,
+          "baseline_line": 192,
+          "citation_text": "[1] 國立臺灣師範大學秘書室公共事務中心，[「百年師大人」校史影片 跟著大眾一起成長的臺師大](https://pr.ntnu.edu.tw/news/index.php?id=21193&mode=data)，2022年11月18日，页首日期、首段及正文第二段。四句为9.1编者转述的原样副本。"
+        },
+        {
+          "chapter": 9,
+          "baseline_line": 289,
+          "citation_text": "[1] 國立臺灣師範大學秘書室公共事務中心，[「百年師大人」校史影片 跟著大眾一起成長的臺師大](https://pr.ntnu.edu.tw/news/index.php?id=21193&mode=data)，2022年11月18日，第二段及页首日期；本节只复用9.1整理句。"
+        }
+      ],
+      "id": "S0911-001",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://huggingface.co/tasks/text-classification",
+      "checks": [
+        {
+          "id": "S09-02",
+          "checked_location": "开头任务定义",
+          "sections": [
+            "9.1"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "分类为给文本赋类别；未采用网页后文NLI过简化说明。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 97,
+          "citation_text": "[2] Hugging Face, [Text Classification](https://huggingface.co/tasks/text-classification)，开头任务定义；本节仅取分类定义，不使用网页模型示例。"
+        }
+      ],
+      "id": "S0911-002",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://www.sbert.net/examples/sentence_transformer/applications/semantic-search/README.html",
+      "checks": [
+        {
+          "id": "S09-03",
+          "checked_location": "开头及Background",
+          "sections": [
+            "9.1"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "字面匹配与向量语义检索分开，句向量近邻是方法而非真实性保证。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 99,
+          "citation_text": "[3] Sentence Transformers, [Semantic Search](https://www.sbert.net/examples/sentence_transformer/applications/semantic-search/README.html)，开头语义检索与字面匹配的区别。"
+        }
+      ],
+      "id": "S0911-003",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://huggingface.co/tasks/summarization",
+      "checks": [
+        {
+          "id": "S09-04",
+          "checked_location": "开头任务定义",
+          "sections": [
+            "9.1"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "摘要压缩重要信息，抽取与生成表达有别。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 101,
+          "citation_text": "[4] Hugging Face, [Summarization](https://huggingface.co/tasks/summarization)，开头摘要任务与抽取、生成表达的区别。"
+        }
+      ],
+      "id": "S0911-004",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://aclanthology.org/D15-1075.pdf",
+      "checks": [
+        {
+          "id": "S09-05",
+          "checked_location": "刊页632—634，第1节、表1及2.1",
+          "sections": [
+            "9.1"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "SNLI三类、前提与假设有原文依据；未把中立标签等同历史虚假。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 103,
+          "citation_text": "[5] Bowman等，2015，[A large annotated corpus for learning natural language inference](https://aclanthology.org/D15-1075.pdf)，刊页632—634，第1—2.1节：前提、候选断言及三类关系；本节不使用其数据或模型。"
+        }
+      ],
+      "id": "S0911-005",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://jsonlines.org/",
+      "checks": [
+        {
+          "id": "S09-06",
+          "checked_location": "三项格式要求",
+          "sections": [
+            "9.2"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "UTF-8、每行有效JSON值、换行规则相合。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 194,
+          "citation_text": "[2] [JSON Lines格式说明](https://jsonlines.org/)，UTF-8、每行有效JSON值及换行要求。"
+        }
+      ],
+      "id": "S0911-006",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://numpy.org/doc/2.3/reference/generated/numpy.asarray.html",
+      "checks": [
+        {
+          "id": "S09-07",
+          "checked_location": "定义、a与dtype参数",
+          "sections": [
+            "9.2"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "输入转数组、数据类型说明相符。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 196,
+          "citation_text": "[3] NumPy 2.3官方文档：[numpy.asarray](https://numpy.org/doc/2.3/reference/generated/numpy.asarray.html)、[ndarray.shape](https://numpy.org/doc/2.3/reference/generated/numpy.ndarray.shape.html)。"
+        }
+      ],
+      "id": "S0911-007",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://numpy.org/doc/2.3/reference/generated/numpy.ndarray.shape.html",
+      "checks": [
+        {
+          "id": "S09-08",
+          "checked_location": "shape定义",
+          "sections": [
+            "9.2"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "形状为各轴维度元组。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 196,
+          "citation_text": "[3] NumPy 2.3官方文档：[numpy.asarray](https://numpy.org/doc/2.3/reference/generated/numpy.asarray.html)、[ndarray.shape](https://numpy.org/doc/2.3/reference/generated/numpy.ndarray.shape.html)。"
+        }
+      ],
+      "id": "S0911-008",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://huggingface.co/docs/transformers/v4.57.1/main_classes/tokenizer",
+      "checks": [
+        {
+          "id": "S09-09",
+          "checked_location": "开头Fast映射说明及return_offsets_mapping参数",
+          "sections": [
+            "9.2"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "快速分词器的字符起止映射有据；未测试任何模型接口。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 198,
+          "citation_text": "[4] Hugging Face Transformers 4.57.1，[Tokenizer](https://huggingface.co/docs/transformers/v4.57.1/main_classes/tokenizer)，字符与单元映射、`__call__`参数及返回字段。"
+        }
+      ],
+      "id": "S0911-009",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://huggingface.co/docs/transformers/main/pad_truncation",
+      "checks": [
+        {
+          "id": "S09-10",
+          "checked_location": "开头及padding/max_length参数",
+          "sections": [
+            "9.2"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "补齐与截断区分正确。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 200,
+          "citation_text": "[5] Hugging Face Transformers，[Padding and truncation](https://huggingface.co/docs/transformers/main/pad_truncation)，补齐与截断的定义。"
+        }
+      ],
+      "id": "S0911-010",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://huggingface.co/docs/transformers/main_classes/output",
+      "checks": [
+        {
+          "id": "S09-11",
+          "checked_location": "BaseModelOutput.last_hidden_state及SequenceClassifierOutput.logits",
+          "sections": [
+            "9.2",
+            "9.4"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "隐状态三轴与分类分数两轴相符，logits未误称概率。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 202,
+          "citation_text": "[6] Hugging Face Transformers，[Model outputs](https://huggingface.co/docs/transformers/main_classes/output)，`SequenceClassifierOutput`的类别分数形状；此处只说明结构，不使用网页模型代码。"
+        },
+        {
+          "chapter": 9,
+          "baseline_line": 385,
+          "citation_text": "[3] Hugging Face Transformers，[Model outputs](https://huggingface.co/docs/transformers/main_classes/output)，`BaseModelOutput.last_hidden_state`的三个轴。只引用字段定义，不执行模型。"
+        }
+      ],
+      "id": "S0911-011",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://github.com/huggingface/transformers/blob/main/docs/source/en/tasks/token_classification.md",
+      "checks": [
+        {
+          "id": "S09-12",
+          "checked_location": "标签对齐三步及代码说明",
+          "sections": [
+            "9.2"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "-100为所引损失函数忽略标签的约定，和本例位置占位分开。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 204,
+          "citation_text": "[7] Hugging Face Transformers，[Token classification](https://github.com/huggingface/transformers/blob/main/docs/source/en/tasks/token_classification.md)，标签与子单元对齐，以及不计入损失的`-100`标签示例。该来源用于说明接口约定，不表示本章已经训练单元分类模型。"
+        }
+      ],
+      "id": "S0911-012",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://scikit-learn.org/1.8/modules/generated/sklearn.feature_extraction.text.TfidfTransformer.html",
+      "checks": [
+        {
+          "id": "S09-13",
+          "checked_location": "TF-IDF定义、smooth_idf与norm",
+          "sections": [
+            "9.3"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "词频及逆文档频率解释相符。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 291,
+          "citation_text": "[2] scikit-learn 1.8，[TfidfTransformer](https://scikit-learn.org/1.8/modules/generated/sklearn.feature_extraction.text.TfidfTransformer.html)，TF、IDF与平滑权重说明。"
+        }
+      ],
+      "id": "S0911-013",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://scikit-learn.org/1.8/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html",
+      "checks": [
+        {
+          "id": "S09-14",
+          "checked_location": "analyzer、ngram_range、fit_transform及transform",
+          "sections": [
+            "9.3"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "字符n元组和先拟合后转换的区别相符。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 293,
+          "citation_text": "[3] scikit-learn 1.8，[TfidfVectorizer](https://scikit-learn.org/1.8/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html)，字符n元组、`fit_transform`与`transform`。"
+        }
+      ],
+      "id": "S0911-014",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://scikit-learn.org/1.8/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html",
+      "checks": [
+        {
+          "id": "S09-15",
+          "checked_location": "定义、公式、返回形状",
+          "sections": [
+            "9.3"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "归一化点积及两批向量的比较矩阵相符。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 295,
+          "citation_text": "[4] scikit-learn 1.8，[cosine_similarity](https://scikit-learn.org/1.8/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html)，归一化点积及输出形状。"
+        }
+      ],
+      "id": "S0911-015",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://sbert.net/docs/sentence_transformer/usage/semantic_textual_similarity.html",
+      "checks": [
+        {
+          "id": "S09-16",
+          "checked_location": "开头、encode/similarity示例及默认指标",
+          "sections": [
+            "9.3"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "先编码再比较相似度有据，没有把候选模型视为已跑。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 297,
+          "citation_text": "[5] Sentence Transformers，[Semantic Textual Similarity](https://sbert.net/docs/sentence_transformer/usage/semantic_textual_similarity.html)，文本编码后比较相似度。"
+        }
+      ],
+      "id": "S0911-016",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://arxiv.org/abs/2005.14165",
+      "checks": [
+        {
+          "id": "S09-17",
+          "checked_location": "作者原摘要",
+          "sections": [
+            "9.3"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "以文本说明/示例、无任务内梯度更新的设置得到支持。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 299,
+          "citation_text": "[6] Brown等，2020，[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)，摘要中以文本任务说明和少量示例开展任务、不作任务内梯度更新的设置；本节不使用其模型或成绩。"
+        }
+      ],
+      "id": "S0911-017",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1301.3781",
+      "checks": [
+        {
+          "id": "S09-18",
+          "checked_location": "3.1—3.2",
+          "sections": [
+            "9.4"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "CBOW以语境预测中心词、Skip-gram以中心词预测附近词相符。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 381,
+          "citation_text": "[1] Mikolov等，2013，[Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/pdf/1301.3781)，第3.1—3.2节，CBOW与Skip-gram。"
+        }
+      ],
+      "id": "S0911-018",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://aclanthology.org/N19-1423.pdf",
+      "checks": [
+        {
+          "id": "S09-19",
+          "checked_location": "摘要、第3节输入表示、3.1遮蔽语言模型",
+          "sections": [
+            "9.4"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "输入嵌入与上下文化隐状态、双向条件及训练遮蔽区别相符。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 383,
+          "citation_text": "[2] Devlin等，2019，[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://aclanthology.org/N19-1423.pdf)，第3节及3.1节，输入表示、双向语境与遮蔽语言模型。"
+        }
+      ],
+      "id": "S0911-019",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://aclanthology.org/D19-1410/",
+      "checks": [
+        {
+          "id": "S09-20",
+          "checked_location": "作者摘要",
+          "sections": [
+            "9.4"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "SBERT以句表示支持余弦相似比较的目标相符。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 387,
+          "citation_text": "[4] Reimers与Gurevych，2019，[Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks](https://aclanthology.org/D19-1410/)，摘要所述句向量与余弦相似比较目标。"
+        }
+      ],
+      "id": "S0911-020",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf",
+      "checks": [
+        {
+          "id": "S09-21",
+          "checked_location": "3.1公式1及架构说明",
+          "sections": [
+            "9.4"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "按此前单元预测当前单元的目标相符。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 389,
+          "citation_text": "[5] Radford等，2018，[Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)，第3.1节的语言模型目标与第3.2节的任务表示使用。"
+        }
+      ],
+      "id": "S0911-021",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1804.07461",
+      "checks": [
+        {
+          "id": "S09-22",
+          "checked_location": "摘要、3节开头、3.4",
+          "sections": [
+            "9.5"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "九项英文任务和分任务指标汇总相符。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 469,
+          "citation_text": "[1] Wang等，[GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding](https://arxiv.org/pdf/1804.07461)，ICLR 2019论文，第3节、表1及第3.4节。"
+        }
+      ],
+      "id": "S0911-022",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1905.00537",
+      "checks": [
+        {
+          "id": "S09-23",
+          "checked_location": "第1节及3.2开头",
+          "sections": [
+            "9.5"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "八项英语理解任务及多类任务形式相符。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 471,
+          "citation_text": "[2] Wang等，[SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems](https://arxiv.org/pdf/1905.00537)，NeurIPS 2019论文，第1节、表1及第3节。"
+        }
+      ],
+      "id": "S0911-023",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2009.03300",
+      "checks": [
+        {
+          "id": "S09-24",
+          "checked_location": "摘要、第3节与选择题示例",
+          "sections": [
+            "9.5"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "57学科/任务和选择题评价相符。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 473,
+          "citation_text": "[3] Hendrycks等，[Measuring Massive Multitask Language Understanding](https://arxiv.org/pdf/2009.03300)，ICLR 2021论文，第3节、第4.1节及附录B示例。"
+        }
+      ],
+      "id": "S0911-024",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2107.03374",
+      "checks": [
+        {
+          "id": "S09-25",
+          "checked_location": "2.1—2.2及3.3相关说明",
+          "sections": [
+            "9.5"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "HumanEval164手写题；pass@k至少一份通过测试，不是第一份答案必正确。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 475,
+          "citation_text": "[4] Chen等，[Evaluating Large Language Models Trained on Code](https://arxiv.org/pdf/2107.03374)，2021，第2.1—2.3节。原始[HumanEval官方仓库](https://github.com/openai/human-eval)的Usage说明强调生成代码需要隔离执行；本节不执行外来代码，只运行自编评分脚本。"
+        }
+      ],
+      "id": "S0911-025",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://github.com/openai/human-eval",
+      "checks": [
+        {
+          "id": "S09-26",
+          "checked_location": "Usage首段",
+          "sections": [
+            "9.5"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "生成代码属于不可信代码，需隔离的提示与书中相合。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 475,
+          "citation_text": "[4] Chen等，[Evaluating Large Language Models Trained on Code](https://arxiv.org/pdf/2107.03374)，2021，第2.1—2.3节。原始[HumanEval官方仓库](https://github.com/openai/human-eval)的Usage说明强调生成代码需要隔离执行；本节不执行外来代码，只运行自编评分脚本。"
+        }
+      ],
+      "id": "S0911-026",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://aclanthology.org/J08-4004.pdf",
+      "checks": [
+        {
+          "id": "S09-27",
+          "checked_location": "2.1、2.3、2.4.3及4.3.2相应段",
+          "sections": [
+            "9.6"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "一致不能保证有效；κ逐标注者边际；单位识别另需评价。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 559,
+          "citation_text": "[1] Artstein与Poesio，2008，[Inter-Coder Agreement for Computational Linguistics](https://aclanthology.org/J08-4004.pdf)，第2.1、2.3、2.4.3节及第4.3.2节；分别讨论一致与有效性、观察一致率、κ的类别分布及标注单位识别。"
+        }
+      ],
+      "id": "S0911-027",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://scikit-learn.org/1.8/modules/generated/sklearn.metrics.cohen_kappa_score.html",
+      "checks": [
+        {
+          "id": "S09-28",
+          "checked_location": "定义、公式及weights",
+          "sections": [
+            "9.6"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "κ公式、逐标注者分布和None不加权相符。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 561,
+          "citation_text": "[2] scikit-learn 1.8官方文档，[cohen_kappa_score](https://scikit-learn.org/1.8/modules/generated/sklearn.metrics.cohen_kappa_score.html)，公式、逐标注者类别比例与`weights=None`的定义。配套主程序用标准库直接计算，不要求安装该库。"
+        }
+      ],
+      "id": "S0911-028",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://aclanthology.org/D18-1269.pdf",
+      "checks": [
+        {
+          "id": "S09-29",
+          "checked_location": "1、3.2及4.1—4.2",
+          "sections": [
+            "9.7"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "源语言训练/目标语言测试、译文标签核查及翻译/直接编码路线相符。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 642,
+          "citation_text": "[1] Conneau等，2018，[XNLI: Evaluating Cross-lingual Sentence Representations](https://aclanthology.org/D18-1269.pdf)，第1、3及4节：跨语言任务、翻译配对及不同迁移路线。本文借用评价思路，未使用或运行XNLI数据。"
+        }
+      ],
+      "id": "S0911-029",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://aclanthology.org/2020.emnlp-main.618.pdf",
+      "checks": [
+        {
+          "id": "S09-30",
+          "checked_location": "摘要与第1节",
+          "sections": [
+            "9.7"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "翻译可改变词语重叠等表面特征，原生/翻译材料区别有据。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 644,
+          "citation_text": "[2] Artetxe、Labaka与Agirre，2020，[Translation Artifacts in Cross-lingual Transfer Learning](https://aclanthology.org/2020.emnlp-main.618.pdf)，第1、3节：原生与翻译材料的区别，以及翻译过程改变表面特征的问题。"
+        }
+      ],
+      "id": "S0911-030",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://aclanthology.org/2020.acl-main.485.pdf",
+      "checks": [
+        {
+          "id": "S09-31",
+          "checked_location": "第4节三项建议",
+          "sections": [
+            "9.8"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "偏见分析应交代何种行为造成何种伤害、影响谁及理由；不由数值差异直接下歧视判断。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 733,
+          "citation_text": "[1] Blodgett等，2020，[Language (Technology) is Power: A Critical Survey of “Bias” in NLP](https://aclanthology.org/2020.acl-main.485.pdf)，第4节：明确偏见分析所指行为、影响及判断理由。"
+        }
+      ],
+      "id": "S0911-031",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1810.03993",
+      "checks": [
+        {
+          "id": "S09-32",
+          "checked_location": "4.3相关因素及4.7",
+          "sections": [
+            "9.8"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "按相关因素与交叉因素分解评价相符。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 735,
+          "citation_text": "[2] Mitchell等，2019，[Model Cards for Model Reporting](https://arxiv.org/pdf/1810.03993)，第4.3、4.7节：按相关条件及条件组合分解评价。本节只采用分组评价思路。"
+        }
+      ],
+      "id": "S0911-032",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://aclanthology.org/2020.acl-main.442.pdf",
+      "checks": [
+        {
+          "id": "S09-33",
+          "checked_location": "2.1与2.2",
+          "sections": [
+            "9.8"
+          ],
+          "status": "已核相关段落",
+          "limitation": "仅核所列原文位置，不等于论文全文、模型实验或全部接口已经验收。",
+          "claim_checked": "按任务能力设计最小功能、不变性与方向性测试；本书对照句借鉴合理。",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "source_record_file": "sources_ch09.json"
+        },
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "§2.1—2.2不变性、最小功能及方向性测试；正文只借任务相关扰动思路。本人已读引言与示例，精确§2.2同时复核父校对员本轮sources_ch09.json S09-33证据。",
+          "checked_url": "https://aclanthology.org/2020.acl-main.442.pdf",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            10
+          ],
+          "source_id": "S1011-06",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-06",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§2.1—2.2不变性、最小功能及方向性测试；正文只借任务相关扰动思路。本人已读引言与示例，精确§2.2同时复核父校对员本轮sources_ch09.json S09-33证据。",
+          "claim_checked": "§2.1—2.2不变性、最小功能及方向性测试；正文只借任务相关扰动思路。本人已读引言与示例，精确§2.2同时复核父校对员本轮sources_ch09.json S09-33证据。"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 9,
+          "baseline_line": 737,
+          "citation_text": "[3] Ribeiro等，2020，[Beyond Accuracy: Behavioral Testing of NLP Models with CheckList](https://aclanthology.org/2020.acl-main.442.pdf)，第2.1—2.2节：围绕具体语言能力和预期变化设计测试。"
+        },
+        {
+          "section": "10.3 Prompt敏感度分析",
+          "baseline_line": 311,
+          "citation_text": "[3] Ribeiro等，2020，[Beyond Accuracy](https://aclanthology.org/2020.acl-main.442.pdf)，第2.2节、PDF第3页：保持标签的扰动与预测不变检查。本节借用检查思路，没有运行CheckList软件。",
+          "chapter": 10
+        }
+      ],
+      "id": "S0911-033",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://arxiv.org/html/2107.13586v1",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "§2.2、表2与§2.2.1：模板输入槽与答案槽、填入材料后的prompt、answer及answered prompt区分。",
+          "checked_url": "https://arxiv.org/html/2107.13586v1",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            10
+          ],
+          "source_id": "S1011-01",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-01",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§2.2、表2与§2.2.1：模板输入槽与答案槽、填入材料后的prompt、answer及answered prompt区分。",
+          "claim_checked": "§2.2、表2与§2.2.1：模板输入槽与答案槽、填入材料后的prompt、answer及answered prompt区分。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "10.1 Prompt模板设计",
+          "baseline_line": 112,
+          "citation_text": "[1] Liu等，2021，[Pre-train, Prompt, and Predict](https://arxiv.org/html/2107.13586v1)，第2.2.1节与表2：模板、填入材料后的Prompt及回答的区分。",
+          "chapter": 10
+        }
+      ],
+      "id": "S0911-034",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2005.14165",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "原论文PDF6—7页§2：K个context/completion示范，无权重更新；zero-shot无示范但可含任务指令。",
+          "checked_url": "https://arxiv.org/pdf/2005.14165",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            10
+          ],
+          "source_id": "S1011-02",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-02",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "原论文PDF6—7页§2：K个context/completion示范，无权重更新；zero-shot无示范但可含任务指令。",
+          "claim_checked": "原论文PDF6—7页§2：K个context/completion示范，无权重更新；zero-shot无示范但可含任务指令。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "10.1 Prompt模板设计",
+          "baseline_line": 114,
+          "citation_text": "[2] Brown等，2020，[Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165)，第2节、PDF第7页：零样本设置不提供已作答示范。本节未运行论文模型或复用其实验材料。",
+          "chapter": 10
+        },
+        {
+          "section": "10.2 Few-shot示例选择与k-shot评测协议",
+          "baseline_line": 207,
+          "citation_text": "[1] Brown等，2020，[Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165)，第2节、PDF第6—7页：上下文示范、k的含义及不更新参数的设置。",
+          "chapter": 10
+        }
+      ],
+      "id": "S0911-035",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://proceedings.mlr.press/v139/zhao21c/zhao21c.pdf",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "原论文§2及图2：format、示例集合、排列三组件；固定集合换排列的区别，与本章说明相符。",
+          "checked_url": "https://proceedings.mlr.press/v139/zhao21c/zhao21c.pdf",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            10
+          ],
+          "source_id": "S1011-03",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-03",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "原论文§2及图2：format、示例集合、排列三组件；固定集合换排列的区别，与本章说明相符。",
+          "claim_checked": "原论文§2及图2：format、示例集合、排列三组件；固定集合换排列的区别，与本章说明相符。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "10.2 Few-shot示例选择与k-shot评测协议",
+          "baseline_line": 209,
+          "citation_text": "[2] Zhao等，2021，[Calibrate Before Use](https://proceedings.mlr.press/v139/zhao21c/zhao21c.pdf)，第2节与图2：示例集合、排列及选择变化。本节未复跑其模型或校准方法。",
+          "chapter": 10
+        },
+        {
+          "section": "10.3 Prompt敏感度分析",
+          "baseline_line": 307,
+          "citation_text": "[1] Zhao等，2021，[Calibrate Before Use](https://proceedings.mlr.press/v139/zhao21c/zhao21c.pdf)，第2节：模板、示例集合与排列的区分。",
+          "chapter": 10
+        }
+      ],
+      "id": "S0911-036",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://proceedings.neurips.cc/paper/2021/file/5c04925674920eb58467fb52ce4ef728-Paper.pdf",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "§1—2：额外held-out数据用于选择与true few-shot仅给定少量例的区别。",
+          "checked_url": "https://proceedings.neurips.cc/paper/2021/file/5c04925674920eb58467fb52ce4ef728-Paper.pdf",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            10
+          ],
+          "source_id": "S1011-04",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-04",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§1—2：额外held-out数据用于选择与true few-shot仅给定少量例的区别。",
+          "claim_checked": "§1—2：额外held-out数据用于选择与true few-shot仅给定少量例的区别。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "10.2 Few-shot示例选择与k-shot评测协议",
+          "baseline_line": 211,
+          "citation_text": "[3] Perez等，2021，[True Few-Shot Learning with Language Models](https://proceedings.neurips.cc/paper/2021/file/5c04925674920eb58467fb52ce4ef728-Paper.pdf)，第1—2节：使用额外开发材料选择方案与仅依赖少量示例的区别。",
+          "chapter": 10
+        }
+      ],
+      "id": "S0911-037",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://aclanthology.org/2022.acl-long.556.pdf",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "原论文PDF第2页§2：固定四例、24种排列，支持示例集合不变的换序检验。",
+          "checked_url": "https://aclanthology.org/2022.acl-long.556.pdf",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            10
+          ],
+          "source_id": "S1011-05",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-05",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "原论文PDF第2页§2：固定四例、24种排列，支持示例集合不变的换序检验。",
+          "claim_checked": "原论文PDF第2页§2：固定四例、24种排列，支持示例集合不变的换序检验。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "10.3 Prompt敏感度分析",
+          "baseline_line": 309,
+          "citation_text": "[2] Lu等，2022，[Fantastically Ordered Prompts and Where to Find Them](https://aclanthology.org/2022.acl-long.556.pdf)，第2节、PDF第2页：固定示例集合后比较排列。未复跑论文模型、排列全集或性能数字。",
+          "chapter": 10
+        }
+      ],
+      "id": "S0911-038",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://aclanthology.org/P02-1040.pdf",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "§2.1截断匹配计数、§2.3语料级长度惩罚与加权几何平均；正文字符化和短句null为明示的教学约定。",
+          "checked_url": "https://aclanthology.org/P02-1040.pdf",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            10
+          ],
+          "source_id": "S1011-07",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-07",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§2.1截断匹配计数、§2.3语料级长度惩罚与加权几何平均；正文字符化和短句null为明示的教学约定。",
+          "claim_checked": "§2.1截断匹配计数、§2.3语料级长度惩罚与加权几何平均；正文字符化和短句null为明示的教学约定。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "10.4 n-gram评测：BLEU与ROUGE",
+          "baseline_line": 407,
+          "citation_text": "[1] Papineni等，2002，[BLEU: a Method for Automatic Evaluation of Machine Translation](https://aclanthology.org/P02-1040.pdf)，第2.1、2.2、2.3节：截断计数、语料汇总、长度惩罚与等权几何平均。",
+          "chapter": 10
+        }
+      ],
+      "id": "S0911-039",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://aclanthology.org/W04-1013.pdf",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "§2 ROUGE-N召回分母，§3.1 LCS定义、P/R与F；摘要级与单序列区别另核官方实现README。本书F1不冒充原论文所有beta设置。",
+          "checked_url": "https://aclanthology.org/W04-1013.pdf",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            10
+          ],
+          "source_id": "S1011-08",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-08",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§2 ROUGE-N召回分母，§3.1 LCS定义、P/R与F；摘要级与单序列区别另核官方实现README。本书F1不冒充原论文所有beta设置。",
+          "claim_checked": "§2 ROUGE-N召回分母，§3.1 LCS定义、P/R与F；摘要级与单序列区别另核官方实现README。本书F1不冒充原论文所有beta设置。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "10.4 n-gram评测：BLEU与ROUGE",
+          "baseline_line": 409,
+          "citation_text": "[2] Lin，2004，[ROUGE: A Package for Automatic Evaluation of Summaries](https://aclanthology.org/W04-1013.pdf)，第2、3.1、3.2节：ROUGE-N、LCS及句级与摘要级的区别。",
+          "chapter": 10
+        }
+      ],
+      "id": "S0911-040",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://aclanthology.org/W14-3346.pdf",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "§1—2：高阶匹配为0使无平滑几何平均为0；不同平滑会改变句级BLEU。",
+          "checked_url": "https://aclanthology.org/W14-3346.pdf",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            10
+          ],
+          "source_id": "S1011-09",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-09",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§1—2：高阶匹配为0使无平滑几何平均为0；不同平滑会改变句级BLEU。",
+          "claim_checked": "§1—2：高阶匹配为0使无平滑几何平均为0；不同平滑会改变句级BLEU。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "10.4 n-gram评测：BLEU与ROUGE",
+          "baseline_line": 411,
+          "citation_text": "[3] Chen与Cherry，2014，[A Systematic Comparison of Smoothing Techniques for Sentence-Level BLEU](https://aclanthology.org/W14-3346.pdf)，第1、2节：高阶零匹配及平滑方法。",
+          "chapter": 10
+        }
+      ],
+      "id": "S0911-041",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://github.com/mjpost/sacrebleu/blob/master/sacrebleu/metrics/bleu.py",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "compute_bleu官方代码229—267行：短候选BP、无匹配返回0、total=0截断、effective_order选择有效阶数与平滑；本节null是自定约定。",
+          "checked_url": "https://raw.githubusercontent.com/mjpost/sacrebleu/master/sacrebleu/metrics/bleu.py",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            10
+          ],
+          "source_id": "S1011-10",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-10",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "compute_bleu官方代码229—267行：短候选BP、无匹配返回0、total=0截断、effective_order选择有效阶数与平滑；本节null是自定约定。",
+          "claim_checked": "compute_bleu官方代码229—267行：短候选BP、无匹配返回0、total=0截断、effective_order选择有效阶数与平滑；本节null是自定约定。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "10.4 n-gram评测：BLEU与ROUGE",
+          "baseline_line": 413,
+          "citation_text": "[4] SacreBLEU官方实现，[BLEU.compute_bleu](https://github.com/mjpost/sacrebleu/blob/master/sacrebleu/metrics/bleu.py)，`effective_order`与零计数处理，核读于2026年10月25日；本节没有运行该库。",
+          "chapter": 10
+        }
+      ],
+      "id": "S0911-042",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://github.com/google-research/google-research/blob/master/rouge/README.md",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "Two flavors of ROUGE-L：rougeL忽略换行，rougeLsum按句界计算union-LCS；支持正文自定单序列与标准摘要口径区别。",
+          "checked_url": "https://raw.githubusercontent.com/google-research/google-research/master/rouge/README.md",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            10
+          ],
+          "source_id": "S1011-11",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-11",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "Two flavors of ROUGE-L：rougeL忽略换行，rougeLsum按句界计算union-LCS；支持正文自定单序列与标准摘要口径区别。",
+          "claim_checked": "Two flavors of ROUGE-L：rougeL忽略换行，rougeLsum按句界计算union-LCS；支持正文自定单序列与标准摘要口径区别。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "10.4 n-gram评测：BLEU与ROUGE",
+          "baseline_line": 415,
+          "citation_text": "[5] Google Research，[ROUGE说明](https://github.com/google-research/google-research/blob/master/rouge/README.md)，两种ROUGE-L计算方式；本节未运行该软件包。",
+          "chapter": 10
+        }
+      ],
+      "id": "S0911-043",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://aclanthology.org/2021.tacl-1.24.pdf",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "§4.3：coherence/consistency/fluency/relevance四维、给评员来源与候选、随机排列，支持分维度及来源依据；本书三维量表为自编非照搬。",
+          "checked_url": "https://aclanthology.org/2021.tacl-1.24.pdf",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            10
+          ],
+          "source_id": "S1011-12",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-12",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§4.3：coherence/consistency/fluency/relevance四维、给评员来源与候选、随机排列，支持分维度及来源依据；本书三维量表为自编非照搬。",
+          "claim_checked": "§4.3：coherence/consistency/fluency/relevance四维、给评员来源与候选、随机排列，支持分维度及来源依据；本书三维量表为自编非照搬。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "10.5 人工评估金标准与质量控制",
+          "baseline_line": 505,
+          "citation_text": "[1] Fabbri等，2021，[SummEval](https://aclanthology.org/2021.tacl-1.24.pdf)，第4.3节及附录数据采集说明：区分评价维度，先读来源再评摘要。本节三维度和刻度为教学设计，并非照搬论文量表。",
+          "chapter": 10
+        }
+      ],
+      "id": "S0911-044",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://aclanthology.org/2021.tacl-1.87.pdf",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "§3.3、表1—2及§3.4末段：具体错误位置、全文上下文、评阅者能力、匿名系统和随机顺序；不照搬其加权分数。",
+          "checked_url": "https://aclanthology.org/2021.tacl-1.87.pdf",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            10
+          ],
+          "source_id": "S1011-13",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-13",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§3.3、表1—2及§3.4末段：具体错误位置、全文上下文、评阅者能力、匿名系统和随机顺序；不照搬其加权分数。",
+          "claim_checked": "§3.3、表1—2及§3.4末段：具体错误位置、全文上下文、评阅者能力、匿名系统和随机顺序；不照搬其加权分数。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "10.5 人工评估金标准与质量控制",
+          "baseline_line": 507,
+          "citation_text": "[2] Freitag等，2021，[Experts, Errors, and Context](https://aclanthology.org/2021.tacl-1.87.pdf)，第3.3节、表1及第3.4节：错误位置、上下文、评阅能力、匿名化和呈现安排；不复用其评分权重或研究数据。",
+          "chapter": 10
+        }
+      ],
+      "id": "S0911-045",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://aclanthology.org/2020.inlg-1.23.pdf",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "§4.2.3及§5：问题可能混入多个维度，定义与操作说明需明确；支持分别报告评价问题和指令。",
+          "checked_url": "https://aclanthology.org/2020.inlg-1.23.pdf",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            10
+          ],
+          "source_id": "S1011-14",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-14",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§4.2.3及§5：问题可能混入多个维度，定义与操作说明需明确；支持分别报告评价问题和指令。",
+          "claim_checked": "§4.2.3及§5：问题可能混入多个维度，定义与操作说明需明确；支持分别报告评价问题和指令。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "10.5 人工评估金标准与质量控制",
+          "baseline_line": 509,
+          "citation_text": "[3] Howcroft等，2020，[Twenty Years of Confusion in Human Evaluation](https://aclanthology.org/2020.inlg-1.23.pdf)，第4.2.3、5节及表7：维度定义、实际问题、指令与报告信息。",
+          "chapter": 10
+        }
+      ],
+      "id": "S0911-046",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://aclanthology.org/W19-8643.pdf",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "§4.4与表3 Design行：固定呈现顺序可造成疲劳/练习等效应，建议随机化/平衡并报告。",
+          "checked_url": "https://aclanthology.org/W19-8643.pdf",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            10
+          ],
+          "source_id": "S1011-15",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-15",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§4.4与表3 Design行：固定呈现顺序可造成疲劳/练习等效应，建议随机化/平衡并报告。",
+          "claim_checked": "§4.4与表3 Design行：固定呈现顺序可造成疲劳/练习等效应，建议随机化/平衡并报告。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "10.5 人工评估金标准与质量控制",
+          "baseline_line": 511,
+          "citation_text": "[4] van der Lee等，2019，[Best Practices for the Human Evaluation of Automatically Generated Text](https://aclanthology.org/W19-8643.pdf)，第4节、表3的Design项：呈现顺序及其报告。",
+          "chapter": 10
+        }
+      ],
+      "id": "S0911-047",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://arxiv.org/html/2306.05685v4",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "§3.1—3.4：单答评分、成对比较、参考引导；位置/冗长偏好与自偏好须区别，原文不确认普遍自偏好。正文亦保留此限。",
+          "checked_url": "https://arxiv.org/html/2306.05685v4",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            10
+          ],
+          "source_id": "S1011-16",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-16",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§3.1—3.4：单答评分、成对比较、参考引导；位置/冗长偏好与自偏好须区别，原文不确认普遍自偏好。正文亦保留此限。",
+          "claim_checked": "§3.1—3.4：单答评分、成对比较、参考引导；位置/冗长偏好与自偏好须区别，原文不确认普遍自偏好。正文亦保留此限。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "10.6 LLM-as-Judge协议",
+          "baseline_line": 592,
+          "citation_text": "[1] Zheng et al. (2023), *Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena*，§3.1–3.4。参见[原论文](https://arxiv.org/html/2306.05685v4)。",
+          "chapter": 10
+        }
+      ],
+      "id": "S0911-048",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://aclanthology.org/2023.emnlp-main.153.pdf",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "§2 Method及图1：任务定义、评价标准、步骤与评分函数分开；正文自编协议不是复刻概率加权G-Eval。",
+          "checked_url": "https://aclanthology.org/2023.emnlp-main.153.pdf",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            10
+          ],
+          "source_id": "S1011-17",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-17",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§2 Method及图1：任务定义、评价标准、步骤与评分函数分开；正文自编协议不是复刻概率加权G-Eval。",
+          "claim_checked": "§2 Method及图1：任务定义、评价标准、步骤与评分函数分开；正文自编协议不是复刻概率加权G-Eval。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "10.6 LLM-as-Judge协议",
+          "baseline_line": 594,
+          "citation_text": "[2] Liu et al. (2023), *G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment*，§2。参见[原论文](https://aclanthology.org/2023.emnlp-main.153.pdf)。",
+          "chapter": 10
+        }
+      ],
+      "id": "S0911-049",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://www.itl.nist.gov/div898/handbook/prc/section2/prc241.htm",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "NIST公式段及Terminology Note：Wilson分母、中心与半宽公式相符；与精确二项区间不同。",
+          "checked_url": "https://www.itl.nist.gov/div898/handbook/prc/section2/prc241.htm",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            10
+          ],
+          "source_id": "S1011-18",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-18",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "NIST公式段及Terminology Note：Wilson分母、中心与半宽公式相符；与精确二项区间不同。",
+          "claim_checked": "NIST公式段及Terminology Note：Wilson分母、中心与半宽公式相符；与精确二项区间不同。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "10.7 Bootstrap置信区间",
+          "baseline_line": 694,
+          "citation_text": "[1] [NIST 比例置信区间](https://www.itl.nist.gov/div898/handbook/prc/section2/prc241.htm)。",
+          "chapter": 10
+        }
+      ],
+      "id": "S0911-050",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.bootstrap.html",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "官方文档percentile步骤、paired参数与method：同索引成对抽样、百分位/basic/BCa区别；不保证本文少量来源穷举区间覆盖率。",
+          "checked_url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.bootstrap.html",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            10
+          ],
+          "source_id": "S1011-19",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-19",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "官方文档percentile步骤、paired参数与method：同索引成对抽样、百分位/basic/BCa区别；不保证本文少量来源穷举区间覆盖率。",
+          "claim_checked": "官方文档percentile步骤、paired参数与method：同索引成对抽样、百分位/basic/BCa区别；不保证本文少量来源穷举区间覆盖率。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "10.7 Bootstrap置信区间",
+          "baseline_line": 696,
+          "citation_text": "[2] [SciPy bootstrap官方文档](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.bootstrap.html)。",
+          "chapter": 10
+        }
+      ],
+      "id": "S0911-051",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://cameron.econ.ucdavis.edu/research/Cameron_Miller_JHR_2015_February.pdf",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "摘要与II.D/VI.C相关段：组内相关、整组有放回抽样、小组数bootstrap风险；支持本文整组抽样且不将6组穷举冒称精确覆盖保证。",
+          "checked_url": "https://cameron.econ.ucdavis.edu/research/Cameron_Miller_JHR_2015_February.pdf",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            10
+          ],
+          "source_id": "S1011-20",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-20",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "摘要与II.D/VI.C相关段：组内相关、整组有放回抽样、小组数bootstrap风险；支持本文整组抽样且不将6组穷举冒称精确覆盖保证。",
+          "claim_checked": "摘要与II.D/VI.C相关段：组内相关、整组有放回抽样、小组数bootstrap风险；支持本文整组抽样且不将6组穷举冒称精确覆盖保证。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "10.7 Bootstrap置信区间",
+          "baseline_line": 698,
+          "citation_text": "[3] [Cameron与Miller 聚类稳健推断作者稿](https://cameron.econ.ucdavis.edu/research/Cameron_Miller_JHR_2015_February.pdf)。",
+          "chapter": 10
+        }
+      ],
+      "id": "S0911-052",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://itl.nist.gov/div898/software/dataplot/refman1/auxillar/mcnemar.htm",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "Description及assumptions：二元配对、配对单位独立、比较两种不一致对概率；列出小样本二项与大样本近似。",
+          "checked_url": "https://itl.nist.gov/div898/software/dataplot/refman1/auxillar/mcnemar.htm",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            10
+          ],
+          "source_id": "S1011-21",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-21",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "Description及assumptions：二元配对、配对单位独立、比较两种不一致对概率；列出小样本二项与大样本近似。",
+          "claim_checked": "Description及assumptions：二元配对、配对单位独立、比较两种不一致对概率；列出小样本二项与大样本近似。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "10.8 McNemar检验",
+          "baseline_line": 788,
+          "citation_text": "[1] NIST Dataplot，McNemar Test。核对配对二元变量、配对单位相互独立及精确／近似检验的区分。https://itl.nist.gov/div898/software/dataplot/refman1/auxillar/mcnemar.htm",
+          "chapter": 10
+        }
+      ],
+      "id": "S0911-053",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/_modules/statsmodels/stats/contingency_tables.html",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "mcnemar函数1638—1709行：exact用min(n1,n2)、二项CDF乘2截1，correction仅近似分支。",
+          "checked_url": "https://www.statsmodels.org/stable/_modules/statsmodels/stats/contingency_tables.html",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            10
+          ],
+          "source_id": "S1011-22",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-22",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "mcnemar函数1638—1709行：exact用min(n1,n2)、二项CDF乘2截1，correction仅近似分支。",
+          "claim_checked": "mcnemar函数1638—1709行：exact用min(n1,n2)、二项CDF乘2截1，correction仅近似分支。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "10.8 McNemar检验",
+          "baseline_line": 790,
+          "citation_text": "[2] statsmodels官方源码，`mcnemar`函数。核对二项分布双侧计算、乘2后截到1及连续性校正仅用于近似版本。https://www.statsmodels.org/stable/_modules/statsmodels/stats/contingency_tables.html",
+          "chapter": 10
+        }
+      ],
+      "id": "S0911-054",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://aclanthology.org/2023.emnlp-main.741/",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "ACL原论文摘要：将长文本拆为atomic facts，并求可靠知识来源支持的比例；只支持方法定义，不为本章虚构渡口背书。",
+          "checked_url": "https://aclanthology.org/2023.emnlp-main.741/",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            10
+          ],
+          "source_id": "S1011-23",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-23",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "ACL原论文摘要：将长文本拆为atomic facts，并求可靠知识来源支持的比例；只支持方法定义，不为本章虚构渡口背书。",
+          "claim_checked": "ACL原论文摘要：将长文本拆为atomic facts，并求可靠知识来源支持的比例；只支持方法定义，不为本章虚构渡口背书。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "10.9 幻觉的评测与缓解",
+          "baseline_line": 873,
+          "citation_text": "[1] Min, S. 等，2023，FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation，EMNLP，12076–12100。https://aclanthology.org/2023.emnlp-main.741/",
+          "chapter": 10
+        }
+      ],
+      "id": "S0911-055",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://aclanthology.org/2023.emnlp-main.398/",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "原论文PDF§3.3 Citation Quality及图3已在同一校对轮6—8来源S16核读：引文位置与实质支持区分；无关引文与覆盖分别评价。",
+          "checked_url": "https://aclanthology.org/2023.emnlp-main.398.pdf",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            10
+          ],
+          "source_id": "S1011-24",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-24",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "原论文PDF§3.3 Citation Quality及图3已在同一校对轮6—8来源S16核读：引文位置与实质支持区分；无关引文与覆盖分别评价。",
+          "claim_checked": "原论文PDF§3.3 Citation Quality及图3已在同一校对轮6—8来源S16核读：引文位置与实质支持区分；无关引文与覆盖分别评价。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "10.9 幻觉的评测与缓解",
+          "baseline_line": 875,
+          "citation_text": "[2] Gao, T. 等，2023，Enabling Large Language Models to Generate Text with Citations，EMNLP，6465–6488。https://aclanthology.org/2023.emnlp-main.398/",
+          "chapter": 10
+        }
+      ],
+      "id": "S0911-056",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://arxiv.org/html/1810.03993v2",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "§4.3.4—4.7：评价因素、阈值、变异和置信区间、评价数据预处理、分组结果；支持正文卡片条件，不证明教学数据真实性。",
+          "checked_url": "https://arxiv.org/html/1810.03993v2",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            10
+          ],
+          "source_id": "S1011-25",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-25",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§4.3.4—4.7：评价因素、阈值、变异和置信区间、评价数据预处理、分组结果；支持正文卡片条件，不证明教学数据真实性。",
+          "claim_checked": "§4.3.4—4.7：评价因素、阈值、变异和置信区间、评价数据预处理、分组结果；支持正文卡片条件，不证明教学数据真实性。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "10.10 Model Card与Datasheet for Datasets",
+          "baseline_line": 945,
+          "citation_text": "[1] Mitchell等，Model Cards for Model Reporting，2019，§4。https://arxiv.org/html/1810.03993v2",
+          "chapter": 10
+        }
+      ],
+      "id": "S0911-057",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://arxiv.org/html/1803.09010v8",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "原论文PDF§1.1、§3.4、§3.7和§4同一轮已核：可按领域调整、原始处理记录、维护更新；不把填表当认证。",
+          "checked_url": "https://arxiv.org/pdf/1803.09010v8",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            10
+          ],
+          "source_id": "S1011-26",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-26",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "原论文PDF§1.1、§3.4、§3.7和§4同一轮已核：可按领域调整、原始处理记录、维护更新；不把填表当认证。",
+          "claim_checked": "原论文PDF§1.1、§3.4、§3.7和§4同一轮已核：可按领域调整、原始处理记录、维护更新；不把填表当认证。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "10.10 Model Card与Datasheet for Datasets",
+          "baseline_line": 947,
+          "citation_text": "[2] Gebru等，Datasheets for Datasets，2021版本，§1.1、§3、§4。https://arxiv.org/html/1803.09010v8",
+          "chapter": 10
+        }
+      ],
+      "id": "S0911-058",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://huggingface.co/docs/hub/model-cards",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "What are Model Cards：README形式、用途限制、训练参数/数据/评价结果，支持作为官方实现入口。",
+          "checked_url": "https://huggingface.co/docs/hub/model-cards",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            10
+          ],
+          "source_id": "S1011-27",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-27",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "What are Model Cards：README形式、用途限制、训练参数/数据/评价结果，支持作为官方实现入口。",
+          "claim_checked": "What are Model Cards：README形式、用途限制、训练参数/数据/评价结果，支持作为官方实现入口。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "10.10 Model Card与Datasheet for Datasets",
+          "baseline_line": 949,
+          "citation_text": "[3] Hugging Face，Model Cards，官方实现说明。https://huggingface.co/docs/hub/model-cards",
+          "chapter": 10
+        }
+      ],
+      "id": "S0911-059",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://huggingface.co/docs/hub/datasets-cards",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "What are Dataset Cards及metadata：README描述内容/用途背景/偏差、许可语言大小；支持官方数据卡入口，不产生新的使用许可。",
+          "checked_url": "https://huggingface.co/docs/hub/datasets-cards",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            10
+          ],
+          "source_id": "S1011-28",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-28",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "What are Dataset Cards及metadata：README描述内容/用途背景/偏差、许可语言大小；支持官方数据卡入口，不产生新的使用许可。",
+          "claim_checked": "What are Dataset Cards及metadata：README描述内容/用途背景/偏差、许可语言大小；支持官方数据卡入口，不产生新的使用许可。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "10.10 Model Card与Datasheet for Datasets",
+          "baseline_line": 951,
+          "citation_text": "[4] Hugging Face，Dataset Cards，官方实现说明。https://huggingface.co/docs/hub/datasets-cards",
+          "chapter": 10
+        }
+      ],
+      "id": "S0911-060",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://scikit-learn.org/stable/modules/cross_validation.html#cross-validation-iterators-for-grouped-data",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "§3.1首段/开发集段及§3.1.2.4：训练测试分开，调参可泄漏测试；相关组会破坏iid，验证组不得在训练中出现，GroupKFold保证组不跨界。",
+          "checked_url": "https://scikit-learn.org/stable/modules/cross_validation.html#cross-validation-iterators-for-grouped-data",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-29",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-29",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§3.1首段/开发集段及§3.1.2.4：训练测试分开，调参可泄漏测试；相关组会破坏iid，验证组不得在训练中出现，GroupKFold保证组不跨界。",
+          "claim_checked": "§3.1首段/开发集段及§3.1.2.4：训练测试分开，调参可泄漏测试；相关组会破坏iid，验证组不得在训练中出现，GroupKFold保证组不跨界。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.1 分类：从图片到类别概率向量",
+          "baseline_line": 85,
+          "citation_text": "[1] scikit-learn，Cross-validation，§3.1.2.4，分组材料的评价划分。https://scikit-learn.org/stable/modules/cross_validation.html#cross-validation-iterators-for-grouped-data",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-061",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.NearestCentroid.html",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "方法定义L638—650：每类由质心代表，测试样本归最近质心；欧氏质心为算术平均。正文只借思想，不称复刻软件所有先验/收缩细节。",
+          "checked_url": "https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.NearestCentroid.html",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-30",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-30",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "方法定义L638—650：每类由质心代表，测试样本归最近质心；欧氏质心为算术平均。正文只借思想，不称复刻软件所有先验/收缩细节。",
+          "claim_checked": "方法定义L638—650：每类由质心代表，测试样本归最近质心；欧氏质心为算术平均。正文只借思想，不称复刻软件所有先验/收缩细节。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.1 分类：从图片到类别概率向量",
+          "baseline_line": 87,
+          "citation_text": "[2] scikit-learn，NearestCentroid，方法定义。本节仅采用最近质心思想，不复刻该软件全部实现。https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.NearestCentroid.html",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-062",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://proceedings.mlr.press/v70/guo17a.html",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "原论文摘要：概率校准定义及现代神经网络可能未校准；网页入口访问失败，官方原论文PDF可读。",
+          "checked_url": "https://proceedings.mlr.press/v70/guo17a/guo17a.pdf",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-31",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-31",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "原论文摘要：概率校准定义及现代神经网络可能未校准；网页入口访问失败，官方原论文PDF可读。",
+          "claim_checked": "原论文摘要：概率校准定义及现代神经网络可能未校准；网页入口访问失败，官方原论文PDF可读。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.1 分类：从图片到类别概率向量",
+          "baseline_line": 89,
+          "citation_text": "[3] Guo等，On Calibration of Modern Neural Networks，2017，摘要与论文。https://proceedings.mlr.press/v70/guo17a.html",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-063",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://scikit-learn.org/stable/modules/model_evaluation.html#confusion-matrix",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "§3.4.4.6：混淆矩阵按真实类为行；正文已注明参考行/预测列，与表格一致。",
+          "checked_url": "https://scikit-learn.org/stable/modules/model_evaluation.html#confusion-matrix",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-32",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-32",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§3.4.4.6：混淆矩阵按真实类为行；正文已注明参考行/预测列，与表格一致。",
+          "claim_checked": "§3.4.4.6：混淆矩阵按真实类为行；正文已注明参考行/预测列，与表格一致。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.1 分类：从图片到类别概率向量",
+          "baseline_line": 91,
+          "citation_text": "[4] scikit-learn，Metrics and scoring，§3.4.4.6，Confusion matrix。https://scikit-learn.org/stable/modules/model_evaluation.html#confusion-matrix",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-064",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://guides.loc.gov/migrant-mother",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "Introduction第2段及rights入口：1936年3月系列照片、Lange、Florence Owens Thompson及无已知使用限制；未据此新授许可。",
+          "checked_url": "https://guides.loc.gov/migrant-mother",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-33",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-33",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "Introduction第2段及rights入口：1936年3月系列照片、Lange、Florence Owens Thompson及无已知使用限制；未据此新授许可。",
+          "claim_checked": "Introduction第2段及rights入口：1936年3月系列照片、Lange、Florence Owens Thompson及无已知使用限制；未据此新授许可。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.1 分类：从图片到类别概率向量",
+          "baseline_line": 93,
+          "citation_text": "[5] Library of Congress，Dorothea Lange's “Migrant Mother” Photographs，Introduction。馆方写无已知使用限制，不是本书新授予的许可；本包只提供链接，不收录照片。https://guides.loc.gov/migrant-mother",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-065",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://github.com/cocodataset/cocoapi/blob/master/PythonAPI/pycocotools/cocoeval.py",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "Params.setDetParams：十IoU及101召回点、maxDets/areaRng；_prepare与evaluateImg核ignore/crowd及普通框不重复匹配；accumulate L377—387右侧最大包络后在recThrs采样。正文明确教学全点面积不是完整COCO。",
+          "checked_url": "https://raw.githubusercontent.com/cocodataset/cocoapi/master/PythonAPI/pycocotools/cocoeval.py",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-34",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-34",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "Params.setDetParams：十IoU及101召回点、maxDets/areaRng；_prepare与evaluateImg核ignore/crowd及普通框不重复匹配；accumulate L377—387右侧最大包络后在recThrs采样。正文明确教学全点面积不是完整COCO。",
+          "claim_checked": "Params.setDetParams：十IoU及101召回点、maxDets/areaRng；_prepare与evaluateImg核ignore/crowd及普通框不重复匹配；accumulate L377—387右侧最大包络后在recThrs采样。正文明确教学全点面积不是完整COCO。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.2 检测：bbox回归与分类的联合任务",
+          "baseline_line": 171,
+          "citation_text": "[1] COCO官方工具，cocoeval.py，参数说明与检测评价实现。https://github.com/cocodataset/cocoapi/blob/master/PythonAPI/pycocotools/cocoeval.py",
+          "chapter": 11
+        },
+        {
+          "section": "11.7 Top-1/mAP/mIoU指标族",
+          "baseline_line": 610,
+          "citation_text": "[2] COCO官方工具，cocoeval.py，Params.setDetParams、evaluateImg、accumulate及_summarizeDets。https://github.com/cocodataset/cocoapi/blob/master/PythonAPI/pycocotools/cocoeval.py",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-066",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://arxiv.org/abs/2005.12872",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "摘要、图1、§3.1及3.2预测FFN：二分匹配、固定查询、不匹配槽用no-object；无需NMS不等于没有匹配评价。",
+          "checked_url": "https://arxiv.org/html/2005.12872v3",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-35",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-35",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "摘要、图1、§3.1及3.2预测FFN：二分匹配、固定查询、不匹配槽用no-object；无需NMS不等于没有匹配评价。",
+          "claim_checked": "摘要、图1、§3.1及3.2预测FFN：二分匹配、固定查询、不匹配槽用no-object；无需NMS不等于没有匹配评价。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.2 检测：bbox回归与分类的联合任务",
+          "baseline_line": 173,
+          "citation_text": "[2] Carion等，End-to-End Object Detection with Transformers，2020。https://arxiv.org/abs/2005.12872",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-067",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://arxiv.org/abs/2010.04159",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "摘要及§4.1式3：参考点附近稀疏采样、跨多尺度LK点聚合，慢收敛与小对象动机；不是简单名称扩写。",
+          "checked_url": "https://arxiv.org/html/2010.04159v4",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-36",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-36",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "摘要及§4.1式3：参考点附近稀疏采样、跨多尺度LK点聚合，慢收敛与小对象动机；不是简单名称扩写。",
+          "claim_checked": "摘要及§4.1式3：参考点附近稀疏采样、跨多尺度LK点聚合，慢收敛与小对象动机；不是简单名称扩写。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.2 检测：bbox回归与分类的联合任务",
+          "baseline_line": 175,
+          "citation_text": "[3] Zhu等，Deformable DETR: Deformable Transformers for End-to-End Object Detection，2020／ICLR 2021。https://arxiv.org/abs/2010.04159",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-068",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://arxiv.org/abs/2203.03605",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "作者原摘要：contrastive denoising、mixed query selection、look-forward-twice box prediction；不把论文排名推及历史图像。",
+          "checked_url": "https://arxiv.org/abs/2203.03605",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-37",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-37",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "作者原摘要：contrastive denoising、mixed query selection、look-forward-twice box prediction；不把论文排名推及历史图像。",
+          "claim_checked": "作者原摘要：contrastive denoising、mixed query selection、look-forward-twice box prediction；不把论文排名推及历史图像。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.2 检测：bbox回归与分类的联合任务",
+          "baseline_line": 177,
+          "citation_text": "[4] Zhang等，DINO: DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection，2022。https://arxiv.org/abs/2203.03605",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-069",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://arxiv.org/abs/2304.07193",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "§4图像/patch自监督目标、EMA教师；§7冻结特征分类/分割评估（表10），与表征提取及任务头区分相符。",
+          "checked_url": "https://arxiv.org/html/2304.07193v2",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-38",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-38",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§4图像/patch自监督目标、EMA教师；§7冻结特征分类/分割评估（表10），与表征提取及任务头区分相符。",
+          "claim_checked": "§4图像/patch自监督目标、EMA教师；§7冻结特征分类/分割评估（表10），与表征提取及任务头区分相符。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.2 检测：bbox回归与分类的联合任务",
+          "baseline_line": 179,
+          "citation_text": "[5] Oquab等，DINOv2: Learning Robust Visual Features without Supervision，2023。https://arxiv.org/abs/2304.07193",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-070",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://arxiv.org/abs/2304.02643",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "作者原摘要与2023投稿日期：SAM为promptable segmentation；具体点/框/掩膜接口另核官方代码。",
+          "checked_url": "https://arxiv.org/abs/2304.02643",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-39",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-39",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "作者原摘要与2023投稿日期：SAM为promptable segmentation；具体点/框/掩膜接口另核官方代码。",
+          "claim_checked": "作者原摘要与2023投稿日期：SAM为promptable segmentation；具体点/框/掩膜接口另核官方代码。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.3 分割：像素级分类与SAM提示分割",
+          "baseline_line": 253,
+          "citation_text": "[1] Kirillov等，Segment Anything，2023。https://arxiv.org/abs/2304.02643",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-071",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://github.com/facebookresearch/segment-anything",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "官方README首段与Getting Started：点/框可提示掩码、可自动全图生成；与原模型接口说明相符，不支撑本地连通域算法等于SAM。",
+          "checked_url": "https://raw.githubusercontent.com/facebookresearch/segment-anything/main/README.md",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-40",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-40",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "官方README首段与Getting Started：点/框可提示掩码、可自动全图生成；与原模型接口说明相符，不支撑本地连通域算法等于SAM。",
+          "claim_checked": "官方README首段与Getting Started：点/框可提示掩码、可自动全图生成；与原模型接口说明相符，不支撑本地连通域算法等于SAM。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.3 分割：像素级分类与SAM提示分割",
+          "baseline_line": 255,
+          "citation_text": "[2] Meta官方SAM仓库与提示接口。https://github.com/facebookresearch/segment-anything ；https://github.com/facebookresearch/segment-anything/blob/main/segment_anything/predictor.py",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-072",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://github.com/facebookresearch/segment-anything/blob/main/segment_anything/predictor.py",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "predict参数文档L82—107：点XY、1前景/0背景标签、框XYXY、可选低分辨率掩码；multimask_output为真时输出3个歧义候选。",
+          "checked_url": "https://raw.githubusercontent.com/facebookresearch/segment-anything/main/segment_anything/predictor.py",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-41",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-41",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "predict参数文档L82—107：点XY、1前景/0背景标签、框XYXY、可选低分辨率掩码；multimask_output为真时输出3个歧义候选。",
+          "claim_checked": "predict参数文档L82—107：点XY、1前景/0背景标签、框XYXY、可选低分辨率掩码；multimask_output为真时输出3个歧义候选。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.3 分割：像素级分类与SAM提示分割",
+          "baseline_line": 255,
+          "citation_text": "[2] Meta官方SAM仓库与提示接口。https://github.com/facebookresearch/segment-anything ；https://github.com/facebookresearch/segment-anything/blob/main/segment_anything/predictor.py",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-073",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://arxiv.org/abs/2408.00714",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "作者原摘要：图像与视频可提示分割、streaming memory；不把性能百分数转入本章。",
+          "checked_url": "https://arxiv.org/abs/2408.00714",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-42",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-42",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "作者原摘要：图像与视频可提示分割、streaming memory；不把性能百分数转入本章。",
+          "claim_checked": "作者原摘要：图像与视频可提示分割、streaming memory；不把性能百分数转入本章。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.3 分割：像素级分类与SAM提示分割",
+          "baseline_line": 257,
+          "citation_text": "[3] Ravi等，SAM 2: Segment Anything in Images and Videos，2024。https://arxiv.org/abs/2408.00714",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-074",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://github.com/facebookresearch/sam2",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "官方README Image prediction与Video prediction：图像predictor与视频state、add_new_points_or_box及propagate接口；与视频扩展说明相符。",
+          "checked_url": "https://raw.githubusercontent.com/facebookresearch/sam2/main/README.md",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-43",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-43",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "官方README Image prediction与Video prediction：图像predictor与视频state、add_new_points_or_box及propagate接口；与视频扩展说明相符。",
+          "claim_checked": "官方README Image prediction与Video prediction：图像predictor与视频state、add_new_points_or_box及propagate接口；与视频扩展说明相符。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.3 分割：像素级分类与SAM提示分割",
+          "baseline_line": 259,
+          "citation_text": "[4] Meta官方SAM 2仓库，Image prediction及Video prediction部分。https://github.com/facebookresearch/sam2",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-075",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://arxiv.org/abs/1512.03385",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "§3.2式1—2及图2：F(x)+x逐元素加法，维度不同时用投影Ws；支持残差连接解释。",
+          "checked_url": "https://arxiv.org/html/1512.03385v1",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-44",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-44",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§3.2式1—2及图2：F(x)+x逐元素加法，维度不同时用投影Ws；支持残差连接解释。",
+          "claim_checked": "§3.2式1—2及图2：F(x)+x逐元素加法，维度不同时用投影Ws；支持残差连接解释。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.4 从CNN到ViT：架构与迁移路线",
+          "baseline_line": 338,
+          "citation_text": "[1] He等，Deep Residual Learning for Image Recognition，2015，摘要及3.2节。https://arxiv.org/abs/1512.03385",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-076",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://arxiv.org/html/2010.11929v2",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "§3.1与图1、式1：P×P块、N=HW/P²、训练线性投影、CLS与位置嵌入；支持正文token和注意力长度口径，不证明总显存按L²增长。",
+          "checked_url": "https://arxiv.org/html/2010.11929v2",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-45",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-45",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§3.1与图1、式1：P×P块、N=HW/P²、训练线性投影、CLS与位置嵌入；支持正文token和注意力长度口径，不证明总显存按L²增长。",
+          "claim_checked": "§3.1与图1、式1：P×P块、N=HW/P²、训练线性投影、CLS与位置嵌入；支持正文token和注意力长度口径，不证明总显存按L²增长。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.4 从CNN到ViT：架构与迁移路线",
+          "baseline_line": 340,
+          "citation_text": "[2] Dosovitskiy等，An Image is Worth 16x16 Words，2021年v2，3.1、3.2节及附录A。https://arxiv.org/html/2010.11929v2",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-077",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://docs.pytorch.org/tutorials/beginner/transfer_learning_tutorial.html",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "Two major transfer learning scenarios及ConvNet as fixed feature extractor：预训练初始化微调，与冻结网络仅训末层区分；requires_grad=False不省前向计算。",
+          "checked_url": "https://docs.pytorch.org/tutorials/beginner/transfer_learning_tutorial.html",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-46",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-46",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "Two major transfer learning scenarios及ConvNet as fixed feature extractor：预训练初始化微调，与冻结网络仅训末层区分；requires_grad=False不省前向计算。",
+          "claim_checked": "Two major transfer learning scenarios及ConvNet as fixed feature extractor：预训练初始化微调，与冻结网络仅训末层区分；requires_grad=False不省前向计算。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.4 从CNN到ViT：架构与迁移路线",
+          "baseline_line": 342,
+          "citation_text": "[3] PyTorch，Transfer Learning for Computer Vision Tutorial，固定特征提取与微调说明。https://docs.pytorch.org/tutorials/beginner/transfer_learning_tutorial.html",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-078",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://keras.io/guides/transfer_learning/",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "Important notes about BatchNormalization：非训练权重均值方差、trainable=False与推断模式特例；微调应保持BN推断；小学习率及改trainable后重compile。",
+          "checked_url": "https://keras.io/guides/transfer_learning/",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-47",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-47",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "Important notes about BatchNormalization：非训练权重均值方差、trainable=False与推断模式特例；微调应保持BN推断；小学习率及改trainable后重compile。",
+          "claim_checked": "Important notes about BatchNormalization：非训练权重均值方差、trainable=False与推断模式特例；微调应保持BN推断；小学习率及改trainable后重compile。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.4 从CNN到ViT：架构与迁移路线",
+          "baseline_line": 344,
+          "citation_text": "[4] Keras，Transfer learning & fine-tuning，冻结、解冻及BatchNormalization注意事项。https://keras.io/guides/transfer_learning/",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-079",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://arxiv.org/html/2304.07193v2",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "§4图像/patch自监督目标、EMA教师；§7冻结特征分类/分割评估（表10），与表征提取及任务头区分相符。",
+          "checked_url": "https://arxiv.org/html/2304.07193v2",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-48",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-48",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§4图像/patch自监督目标、EMA教师；§7冻结特征分类/分割评估（表10），与表征提取及任务头区分相符。",
+          "claim_checked": "§4图像/patch自监督目标、EMA教师；§7冻结特征分类/分割评估（表10），与表征提取及任务头区分相符。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.5 DINOv2与特征质量评估",
+          "baseline_line": 418,
+          "citation_text": "[1] Oquab等，DINOv2原论文v2，2024，§4、§7.1、附录B.3：[论文全文](https://arxiv.org/html/2304.07193v2)。用于自监督、冻结评价概念；本文没有复现论文基准分数。",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-080",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://github.com/facebookresearch/dinov2",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "README Pretrained backbones、Pretrained heads与语义分割：无标签142M预训练、ViT特征及另接任务头；不与检测DINO混同。",
+          "checked_url": "https://raw.githubusercontent.com/facebookresearch/dinov2/main/README.md",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-49",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-49",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "README Pretrained backbones、Pretrained heads与语义分割：无标签142M预训练、ViT特征及另接任务头；不与检测DINO混同。",
+          "claim_checked": "README Pretrained backbones、Pretrained heads与语义分割：无标签142M预训练、ViT特征及另接任务头；不与检测DINO混同。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.5 DINOv2与特征质量评估",
+          "baseline_line": 420,
+          "citation_text": "[2] Meta官方仓库README，Pretrained backbones与Pretrained heads：[仓库](https://github.com/facebookresearch/dinov2)。用于骨干、任务头和模型命名区分。",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-081",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://github.com/facebookresearch/dinov2/blob/main/dinov2/models/vision_transformer.py",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "forward_features返回CLS和patch键；vit_small定义embed_dim=384；self.norm是网络归一化，不能推出单位L2长度。",
+          "checked_url": "https://github.com/facebookresearch/dinov2/blob/main/dinov2/models/vision_transformer.py",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-50",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-50",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "forward_features返回CLS和patch键；vit_small定义embed_dim=384；self.norm是网络归一化，不能推出单位L2长度。",
+          "claim_checked": "forward_features返回CLS和patch键；vit_small定义embed_dim=384；self.norm是网络归一化，不能推出单位L2长度。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.5 DINOv2与特征质量评估",
+          "baseline_line": 422,
+          "citation_text": "[3] Meta官方“旧例中的vision_transformer.py”，`forward_features`；“旧例中的hub/backbones.py”；“旧例中的data/transforms.py”：[特征接口](https://github.com/facebookresearch/dinov2/blob/main/dinov2/models/vision_transformer.py)、[骨干参数](https://github.com/facebookresearch/dinov2/blob/main/dinov2/hub/backbones.py)、[预处理](https://github.com/facebookresearch/dinov2/blob/main/dinov2/data/transforms.py)。用于提取示例的接口和形状核对。",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-082",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://github.com/facebookresearch/dinov2/blob/main/dinov2/hub/backbones.py",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "L27—41默认patch_size14、num_register_tokens0；dinov2_vits14使用vit_small；reg版另设4个register。",
+          "checked_url": "https://raw.githubusercontent.com/facebookresearch/dinov2/main/dinov2/hub/backbones.py",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-51",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-51",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "L27—41默认patch_size14、num_register_tokens0；dinov2_vits14使用vit_small；reg版另设4个register。",
+          "claim_checked": "L27—41默认patch_size14、num_register_tokens0；dinov2_vits14使用vit_small；reg版另设4个register。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.5 DINOv2与特征质量评估",
+          "baseline_line": 422,
+          "citation_text": "[3] Meta官方“旧例中的vision_transformer.py”，`forward_features`；“旧例中的hub/backbones.py”；“旧例中的data/transforms.py”：[特征接口](https://github.com/facebookresearch/dinov2/blob/main/dinov2/models/vision_transformer.py)、[骨干参数](https://github.com/facebookresearch/dinov2/blob/main/dinov2/hub/backbones.py)、[预处理](https://github.com/facebookresearch/dinov2/blob/main/dinov2/data/transforms.py)。用于提取示例的接口和形状核对。",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-083",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://github.com/facebookresearch/dinov2/blob/main/dinov2/data/transforms.py",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "make_classification_eval_transform：默认resize256、bicubic、center_crop224、ToTensor及Normalize。仅核实现，不证明旧例实际执行。",
+          "checked_url": "https://raw.githubusercontent.com/facebookresearch/dinov2/main/dinov2/data/transforms.py",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-52",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-52",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "make_classification_eval_transform：默认resize256、bicubic、center_crop224、ToTensor及Normalize。仅核实现，不证明旧例实际执行。",
+          "claim_checked": "make_classification_eval_transform：默认resize256、bicubic、center_crop224、ToTensor及Normalize。仅核实现，不证明旧例实际执行。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.5 DINOv2与特征质量评估",
+          "baseline_line": 422,
+          "citation_text": "[3] Meta官方“旧例中的vision_transformer.py”，`forward_features`；“旧例中的hub/backbones.py”；“旧例中的data/transforms.py”：[特征接口](https://github.com/facebookresearch/dinov2/blob/main/dinov2/models/vision_transformer.py)、[骨干参数](https://github.com/facebookresearch/dinov2/blob/main/dinov2/hub/backbones.py)、[预处理](https://github.com/facebookresearch/dinov2/blob/main/dinov2/data/transforms.py)。用于提取示例的接口和形状核对。",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-084",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://github.com/facebookresearch/dinov2/blob/main/MODEL_CARD.md",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "模型描述与Uses/Bias：CLS与patch特征，ViT-S384维、patch14、224输入256patch，register版另有4；卡片指出西方及富裕家庭偏差。",
+          "checked_url": "https://raw.githubusercontent.com/facebookresearch/dinov2/main/MODEL_CARD.md",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-53",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-53",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "模型描述与Uses/Bias：CLS与patch特征，ViT-S384维、patch14、224输入256patch，register版另有4；卡片指出西方及富裕家庭偏差。",
+          "claim_checked": "模型描述与Uses/Bias：CLS与patch特征，ViT-S384维、patch14、224输入256patch，register版另有4；卡片指出西方及富裕家庭偏差。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.5 DINOv2与特征质量评估",
+          "baseline_line": 424,
+          "citation_text": "[4] Meta官方MODEL_CARD，Bias, Risks, and Limitations：[模型卡](https://github.com/facebookresearch/dinov2/blob/main/MODEL_CARD.md)。公开来源查阅于2026年10月25日。",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-085",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://www.image-net.org/challenges/LSVRC/2012/",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "原URL两次直连超时；官方同页ftp主机索引正文Data与Task1完整可读：1000类、约1.2m训练、50k验证及剩余100k测试、最多5个排序标签。核验方式为官方同文搜索索引，非第三方转述。",
+          "checked_url": "https://ftp.image-net.org/challenges/LSVRC/2012/index.php",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-54",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-54",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "原URL两次直连超时；官方同页ftp主机索引正文Data与Task1完整可读：1000类、约1.2m训练、50k验证及剩余100k测试、最多5个排序标签。核验方式为官方同文搜索索引，非第三方转述。",
+          "claim_checked": "原URL两次直连超时；官方同页ftp主机索引正文Data与Task1完整可读：1000类、约1.2m训练、50k验证及剩余100k测试、最多5个排序标签。核验方式为官方同文搜索索引，非第三方转述。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.6 ImageNet/COCO/ADE20K：三大benchmark",
+          "baseline_line": 510,
+          "citation_text": "[1] ImageNet，ILSVRC2012，Data与Task 1。https://www.image-net.org/challenges/LSVRC/2012/ ；类别组织见官方介绍 https://www.image-net.org/about.php",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-086",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://www.image-net.org/about.php",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "直连超时；原URL的搜索索引完整正文What is ImageNet/Does ImageNet own images段可读：WordNet层级与synset、项目不拥有图片版权。核验方式为原站索引文本，不宣称直接页面成功。",
+          "checked_url": "https://www.image-net.org/about.php",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-55",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-55",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "直连超时；原URL的搜索索引完整正文What is ImageNet/Does ImageNet own images段可读：WordNet层级与synset、项目不拥有图片版权。核验方式为原站索引文本，不宣称直接页面成功。",
+          "claim_checked": "直连超时；原URL的搜索索引完整正文What is ImageNet/Does ImageNet own images段可读：WordNet层级与synset、项目不拥有图片版权。核验方式为原站索引文本，不宣称直接页面成功。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.6 ImageNet/COCO/ADE20K：三大benchmark",
+          "baseline_line": 510,
+          "citation_text": "[1] ImageNet，ILSVRC2012，Data与Task 1。https://www.image-net.org/challenges/LSVRC/2012/ ；类别组织见官方介绍 https://www.image-net.org/about.php",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-087",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/cocodataset/cocodataset.github.io/master/dataset/download.htm",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "Images表2017 Train118K、Val5K、Test41K；Overview指出split年份是划分发布年份、不是标注年份。",
+          "checked_url": "https://raw.githubusercontent.com/cocodataset/cocodataset.github.io/master/dataset/download.htm",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-56",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-56",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "Images表2017 Train118K、Val5K、Test41K；Overview指出split年份是划分发布年份、不是标注年份。",
+          "claim_checked": "Images表2017 Train118K、Val5K、Test41K；Overview指出split年份是划分发布年份、不是标注年份。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.6 ImageNet/COCO/ADE20K：三大benchmark",
+          "baseline_line": 512,
+          "citation_text": "[2] COCO官方网页源，download的2017 Update及detection-2017。https://raw.githubusercontent.com/cocodataset/cocodataset.github.io/master/dataset/download.htm ；https://raw.githubusercontent.com/cocodataset/cocodataset.github.io/master/dataset/detection-2017.htm",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-088",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/cocodataset/cocodataset.github.io/master/dataset/detection-2017.htm",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "§1 Overview：80对象类；bounding box与object segmentation两项挑战；训练验证标注可取得、2017重新安排train/val。",
+          "checked_url": "https://raw.githubusercontent.com/cocodataset/cocodataset.github.io/master/dataset/detection-2017.htm",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-57",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-57",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§1 Overview：80对象类；bounding box与object segmentation两项挑战；训练验证标注可取得、2017重新安排train/val。",
+          "claim_checked": "§1 Overview：80对象类；bounding box与object segmentation两项挑战；训练验证标注可取得、2017重新安排train/val。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.6 ImageNet/COCO/ADE20K：三大benchmark",
+          "baseline_line": 512,
+          "citation_text": "[2] COCO官方网页源，download的2017 Update及detection-2017。https://raw.githubusercontent.com/cocodataset/cocodataset.github.io/master/dataset/download.htm ；https://raw.githubusercontent.com/cocodataset/cocodataset.github.io/master/dataset/detection-2017.htm",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-089",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/cocodataset/cocodataset.github.io/master/dataset/format-data.htm",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "§1 Object Detection与annotation结构：左上角0索引、bbox[x,y,width,height]、category_id与iscrowd，区别多边形和RLE。",
+          "checked_url": "https://raw.githubusercontent.com/cocodataset/cocodataset.github.io/master/dataset/format-data.htm",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-58",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-58",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§1 Object Detection与annotation结构：左上角0索引、bbox[x,y,width,height]、category_id与iscrowd，区别多边形和RLE。",
+          "claim_checked": "§1 Object Detection与annotation结构：左上角0索引、bbox[x,y,width,height]、category_id与iscrowd，区别多边形和RLE。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.6 ImageNet/COCO/ADE20K：三大benchmark",
+          "baseline_line": 514,
+          "citation_text": "[3] COCO官方Data format，Object Detection。https://raw.githubusercontent.com/cocodataset/cocodataset.github.io/master/dataset/format-data.htm",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-090",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://cocodataset.org/dataset/detection-eval.htm",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "§2 Metrics及说明1—7：AP跨.50:.05:.95十IoU与80类平均，AP50/AP75区分、最多100检测、box/mask仅IoU不同；不把本地全点插值例称标准COCO。",
+          "checked_url": "https://cocodataset.org/dataset/detection-eval.htm",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-59",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-59",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§2 Metrics及说明1—7：AP跨.50:.05:.95十IoU与80类平均，AP50/AP75区分、最多100检测、box/mask仅IoU不同；不把本地全点插值例称标准COCO。",
+          "claim_checked": "§2 Metrics及说明1—7：AP跨.50:.05:.95十IoU与80类平均，AP50/AP75区分、最多100检测、box/mask仅IoU不同；不把本地全点插值例称标准COCO。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.6 ImageNet/COCO/ADE20K：三大benchmark",
+          "baseline_line": 516,
+          "citation_text": "[4] COCO，Detection Evaluation。https://cocodataset.org/dataset/detection-eval.htm",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-091",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/cocodataset/cocodataset.github.io/master/dataset/keypoints-eval.htm",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "§1.1—1.2：关键点评价以OKS作对象相似度、构成AP/AR；与box IoU不能混用。",
+          "checked_url": "https://raw.githubusercontent.com/cocodataset/cocodataset.github.io/master/dataset/keypoints-eval.htm",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-60",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-60",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§1.1—1.2：关键点评价以OKS作对象相似度、构成AP/AR；与box IoU不能混用。",
+          "claim_checked": "§1.1—1.2：关键点评价以OKS作对象相似度、构成AP/AR；与box IoU不能混用。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.6 ImageNet/COCO/ADE20K：三大benchmark",
+          "baseline_line": 518,
+          "citation_text": "[5] COCO官方Keypoint Evaluation与Caption Evaluation。https://raw.githubusercontent.com/cocodataset/cocodataset.github.io/master/dataset/keypoints-eval.htm ；https://raw.githubusercontent.com/cocodataset/cocodataset.github.io/master/dataset/captions-eval.htm",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-092",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/cocodataset/cocodataset.github.io/master/dataset/captions-eval.htm",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "§1 Caption Evaluation：BLEU、METEOR、ROUGE-L、CIDEr等描述指标，不是检测AP；逐图与全数据结果分开。",
+          "checked_url": "https://raw.githubusercontent.com/cocodataset/cocodataset.github.io/master/dataset/captions-eval.htm",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-61",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-61",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§1 Caption Evaluation：BLEU、METEOR、ROUGE-L、CIDEr等描述指标，不是检测AP；逐图与全数据结果分开。",
+          "claim_checked": "§1 Caption Evaluation：BLEU、METEOR、ROUGE-L、CIDEr等描述指标，不是检测AP；逐图与全数据结果分开。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.6 ImageNet/COCO/ADE20K：三大benchmark",
+          "baseline_line": 518,
+          "citation_text": "[5] COCO官方Keypoint Evaluation与Caption Evaluation。https://raw.githubusercontent.com/cocodataset/cocodataset.github.io/master/dataset/keypoints-eval.htm ；https://raw.githubusercontent.com/cocodataset/cocodataset.github.io/master/dataset/captions-eval.htm",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-093",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://github.com/CSAILVision/sceneparsing",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "官方README Data与Evaluation routines：20210/2000训练验证、150类、原标签0忽略、最终分数为pixel accuracy与mIoU均值。",
+          "checked_url": "https://raw.githubusercontent.com/CSAILVision/sceneparsing/master/README.md",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-62",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-62",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "官方README Data与Evaluation routines：20210/2000训练验证、150类、原标签0忽略、最终分数为pixel accuracy与mIoU均值。",
+          "claim_checked": "官方README Data与Evaluation routines：20210/2000训练验证、150类、原标签0忽略、最终分数为pixel accuracy与mIoU均值。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.6 ImageNet/COCO/ADE20K：三大benchmark",
+          "baseline_line": 520,
+          "citation_text": "[6] MIT官方Scene Parsing开发包，Overview、Data及Evaluation routines。https://github.com/CSAILVision/sceneparsing ；完整数据集入口 https://ade20k.csail.mit.edu/",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-094",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://ade20k.csail.mit.edu/",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "Full Dataset与Scene Parsing Benchmark入口明确分开，完整集首页列25574训练与2000验证；正文20210/2000专指Scene150开发包，未将两版混同。",
+          "checked_url": "https://ade20k.csail.mit.edu/",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-63",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-63",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "Full Dataset与Scene Parsing Benchmark入口明确分开，完整集首页列25574训练与2000验证；正文20210/2000专指Scene150开发包，未将两版混同。",
+          "claim_checked": "Full Dataset与Scene Parsing Benchmark入口明确分开，完整集首页列25574训练与2000验证；正文20210/2000专指Scene150开发包，未将两版混同。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.6 ImageNet/COCO/ADE20K：三大benchmark",
+          "baseline_line": 520,
+          "citation_text": "[6] MIT官方Scene Parsing开发包，Overview、Data及Evaluation routines。https://github.com/CSAILVision/sceneparsing ；完整数据集入口 https://ade20k.csail.mit.edu/",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-095",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/cocodataset/cocodataset.github.io/master/dataset/termsofuse.htm",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "Annotations & Website为CC BY4.0；Images明确COCO不拥有版权、图片须按原条款；支持正文分开数据标注/图片权利而非代授许可。",
+          "checked_url": "https://raw.githubusercontent.com/cocodataset/cocodataset.github.io/master/dataset/termsofuse.htm",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-64",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-64",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "Annotations & Website为CC BY4.0；Images明确COCO不拥有版权、图片须按原条款；支持正文分开数据标注/图片权利而非代授许可。",
+          "claim_checked": "Annotations & Website为CC BY4.0；Images明确COCO不拥有版权、图片须按原条款；支持正文分开数据标注/图片权利而非代授许可。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.6 ImageNet/COCO/ADE20K：三大benchmark",
+          "baseline_line": 522,
+          "citation_text": "[7] COCO官方Terms of Use。https://raw.githubusercontent.com/cocodataset/cocodataset.github.io/master/dataset/termsofuse.htm",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-096",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.top_k_accuracy_score.html",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "函数定义Top-k及Notes：真实类落前k即正确；并列分数优先较大索引。正文小编号优先明确为自定义，未假托库默认。",
+          "checked_url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.top_k_accuracy_score.html",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-65",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-65",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "函数定义Top-k及Notes：真实类落前k即正确；并列分数优先较大索引。正文小编号优先明确为自定义，未假托库默认。",
+          "claim_checked": "函数定义Top-k及Notes：真实类落前k即正确；并列分数优先较大索引。正文小编号优先明确为自定义，未假托库默认。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.7 Top-1/mAP/mIoU指标族",
+          "baseline_line": 608,
+          "citation_text": "[1] scikit-learn，top_k_accuracy_score，定义及Notes并列规则。https://scikit-learn.org/stable/modules/generated/sklearn.metrics.top_k_accuracy_score.html",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-097",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://lightning.ai/docs/torchmetrics/stable/segmentation/mean_iou.html",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "Module Interface定义IoU、include_background默认true；双方都缺席返回-1。支持空类处理有实现约定差异，不要求本地空值与库相同。",
+          "checked_url": "https://lightning.ai/docs/torchmetrics/stable/segmentation/mean_iou.html",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-66",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-66",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "Module Interface定义IoU、include_background默认true；双方都缺席返回-1。支持空类处理有实现约定差异，不要求本地空值与库相同。",
+          "claim_checked": "Module Interface定义IoU、include_background默认true；双方都缺席返回-1。支持空类处理有实现约定差异，不要求本地空值与库相同。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.7 Top-1/mAP/mIoU指标族",
+          "baseline_line": 612,
+          "citation_text": "[3] TorchMetrics，Mean Intersection over Union，include_background及双方均缺席类别的返回说明。https://lightning.ai/docs/torchmetrics/stable/segmentation/mean_iou.html",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-098",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://arxiv.org/abs/1901.05555",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "作者原摘要：少数类占多数数据/多数类欠代表的长尾定义，重采样/重加权路线；不声称本章三类构成幂律。",
+          "checked_url": "https://arxiv.org/abs/1901.05555",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-67",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-67",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "作者原摘要：少数类占多数数据/多数类欠代表的长尾定义，重采样/重加权路线；不声称本章三类构成幂律。",
+          "claim_checked": "作者原摘要：少数类占多数数据/多数类欠代表的长尾定义，重采样/重加权路线；不声称本章三类构成幂律。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.8 长尾分布与类别不平衡评测",
+          "baseline_line": 699,
+          "citation_text": "[1] Cui等，Class-Balanced Loss Based on Effective Number of Samples，2019，摘要中的长尾定义与重采样、重加权路线。https://arxiv.org/abs/1901.05555",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-099",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_recall_fscore_support.html",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "定义、binary及zero_division/Notes：TP/(TP+FP)、TP/(TP+FN)和无正预测时精确率未定义相符。 边界：核定义及零分母说明，不代表已执行软件。",
+          "checked_url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_recall_fscore_support.html",
+          "checked_on": "2026-10-30",
+          "carried_from": "同一独立校对员本轮6—8章原文核对记录，不继承作者旧核验结论",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-68",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-68",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "定义、binary及zero_division/Notes：TP/(TP+FP)、TP/(TP+FN)和无正预测时精确率未定义相符。 边界：核定义及零分母说明，不代表已执行软件。",
+          "claim_checked": "定义、binary及zero_division/Notes：TP/(TP+FP)、TP/(TP+FN)和无正预测时精确率未定义相符。 边界：核定义及零分母说明，不代表已执行软件。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.8 长尾分布与类别不平衡评测",
+          "baseline_line": 701,
+          "citation_text": "[2] scikit-learn官方precision_recall_fscore_support文档，指标定义、average、support及zero_division。https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_recall_fscore_support.html",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-100",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.balanced_accuracy_score.html",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "定义为逐类召回均值；adjusted=False默认0—1，True为机会校正。与正文采用未调整概念相符。",
+          "checked_url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.balanced_accuracy_score.html",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-69",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-69",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "定义为逐类召回均值；adjusted=False默认0—1，True为机会校正。与正文采用未调整概念相符。",
+          "claim_checked": "定义为逐类召回均值；adjusted=False默认0—1，True为机会校正。与正文采用未调整概念相符。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.8 长尾分布与类别不平衡评测",
+          "baseline_line": 703,
+          "citation_text": "[3] scikit-learn官方balanced_accuracy_score文档，定义及adjusted参数。本节采用adjusted=False的概念，不调用该库。https://scikit-learn.org/stable/modules/generated/sklearn.metrics.balanced_accuracy_score.html",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-101",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://imbalanced-learn.org/stable/common_pitfalls.html",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "§9.1：分割前全数据重采样造成泄漏并改变测试类分布；正确流程以pipeline在训练折中采样。",
+          "checked_url": "https://imbalanced-learn.org/stable/common_pitfalls.html",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-70",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-70",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§9.1：分割前全数据重采样造成泄漏并改变测试类分布；正确流程以pipeline在训练折中采样。",
+          "claim_checked": "§9.1：分割前全数据重采样造成泄漏并改变测试类分布；正确流程以pipeline在训练折中采样。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.8 长尾分布与类别不平衡评测",
+          "baseline_line": 705,
+          "citation_text": "[4] imbalanced-learn官方Common pitfalls，9.1 Data leakage。https://imbalanced-learn.org/stable/common_pitfalls.html",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-102",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://arxiv.org/html/1903.12261v1",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "§4.1图1与§4.2：15腐蚀类型×5强度，CE用对应AlexNet五级错误和归一化、mCE再平均15类；不是普通正确率下降。",
+          "checked_url": "https://arxiv.org/html/1903.12261v1",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-71",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-71",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§4.1图1与§4.2：15腐蚀类型×5强度，CE用对应AlexNet五级错误和归一化、mCE再平均15类；不是普通正确率下降。",
+          "claim_checked": "§4.1图1与§4.2：15腐蚀类型×5强度，CE用对应AlexNet五级错误和归一化、mCE再平均15类；不是普通正确率下降。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.9 分布偏移与鲁棒性评测",
+          "baseline_line": 783,
+          "citation_text": "[1] Hendrycks与Dietterich，Benchmarking Neural Network Robustness to Common Corruptions and Perturbations，2019，§4.1–4.2。https://arxiv.org/html/1903.12261v1",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-103",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://arxiv.org/html/1610.02136v3",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "§1—3：误分与类外检测是相关但不同问题，最高softmax分数可作基线；单个高分不等于可靠信心，§3.1表1—2显示高分错误/类外。",
+          "checked_url": "https://arxiv.org/html/1610.02136v3",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-72",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-72",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§1—3：误分与类外检测是相关但不同问题，最高softmax分数可作基线；单个高分不等于可靠信心，§3.1表1—2显示高分错误/类外。",
+          "claim_checked": "§1—3：误分与类外检测是相关但不同问题，最高softmax分数可作基线；单个高分不等于可靠信心，§3.1表1—2显示高分错误/类外。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.9 分布偏移与鲁棒性评测",
+          "baseline_line": 785,
+          "citation_text": "[2] Hendrycks与Gimpel，A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks，ICLR 2017，2018修订版，§1–3。https://arxiv.org/html/1610.02136v3",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-104",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://arxiv.org/html/2007.01434v1",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "§3及§3.1三选择方法：调参策略必须说明、oracle测试域访问受限且不可和无oracle直接比；§4初版9算法7数据3方法、§5.1同条件ERM比较。正文仅借划分与公平比较原则。",
+          "checked_url": "https://arxiv.org/html/2007.01434v1",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-73",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-73",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§3及§3.1三选择方法：调参策略必须说明、oracle测试域访问受限且不可和无oracle直接比；§4初版9算法7数据3方法、§5.1同条件ERM比较。正文仅借划分与公平比较原则。",
+          "claim_checked": "§3及§3.1三选择方法：调参策略必须说明、oracle测试域访问受限且不可和无oracle直接比；§4初版9算法7数据3方法、§5.1同条件ERM比较。正文仅借划分与公平比较原则。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.9 分布偏移与鲁棒性评测",
+          "baseline_line": 787,
+          "citation_text": "[3] Gulrajani与Lopez-Paz，In Search of Lost Domain Generalization，2020，§3–5。https://arxiv.org/html/2007.01434v1",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-105",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://www.jmlr.org/papers/v11/cawley10a.html",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "期刊原文摘要：有限样本模型选择指标的方差可导致选择过拟合，随后性能评价有选择偏差；直接支持开发阶段反复选取适应偶然差异。",
+          "checked_url": "https://www.jmlr.org/papers/v11/cawley10a.html",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-74",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-74",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "期刊原文摘要：有限样本模型选择指标的方差可导致选择过拟合，随后性能评价有选择偏差；直接支持开发阶段反复选取适应偶然差异。",
+          "claim_checked": "期刊原文摘要：有限样本模型选择指标的方差可导致选择过拟合，随后性能评价有选择偏差；直接支持开发阶段反复选取适应偶然差异。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.10 消融协议与控制变量",
+          "baseline_line": 872,
+          "citation_text": "[1] Cawley与Talbot，2010，On Over-fitting in Model Selection and Subsequent Selection Bias in Performance Evaluation，JMLR。https://www.jmlr.org/papers/v11/cawley10a.html",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-106",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://jmlr.org/papers/v13/bergstra12a.html",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "期刊原文摘要：同搜索域与计算预算比较随机/网格搜索，所找到方案随预算/重要参数覆盖改变；支持说明搜索预算，不推出次数相同=耗时相同。",
+          "checked_url": "https://jmlr.org/papers/v13/bergstra12a.html",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-75",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-75",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "期刊原文摘要：同搜索域与计算预算比较随机/网格搜索，所找到方案随预算/重要参数覆盖改变；支持说明搜索预算，不推出次数相同=耗时相同。",
+          "claim_checked": "期刊原文摘要：同搜索域与计算预算比较随机/网格搜索，所找到方案随预算/重要参数覆盖改变；支持说明搜索预算，不推出次数相同=耗时相同。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.10 消融协议与控制变量",
+          "baseline_line": 874,
+          "citation_text": "[2] Bergstra与Bengio，2012，Random Search for Hyper-Parameter Optimization，JMLR。https://jmlr.org/papers/v13/bergstra12a.html",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-107",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://www.itl.nist.gov/div898/handbook/pri/section3/pri333.htm",
+      "checks": [
+        {
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "Full factorial designs定义：每因素每取值与其余因素所有取值组合，k个二水平因素需2^k次；两因素四格是全因子结构而非自然史因果证明。",
+          "checked_url": "https://www.itl.nist.gov/div898/handbook/pri/section3/pri333.htm",
+          "checked_on": "2026-10-30",
+          "chapters": [
+            11
+          ],
+          "source_id": "S1011-76",
+          "claim_boundary": "仅核本书引用相关主张，不代表整篇论文或旧例执行记录已复核。",
+          "source_record_file": "sources_ch10_11.json",
+          "id": "S1011-76",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "Full factorial designs定义：每因素每取值与其余因素所有取值组合，k个二水平因素需2^k次；两因素四格是全因子结构而非自然史因果证明。",
+          "claim_checked": "Full factorial designs定义：每因素每取值与其余因素所有取值组合，k个二水平因素需2^k次；两因素四格是全因子结构而非自然史因果证明。"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "11.10 消融协议与控制变量",
+          "baseline_line": 876,
+          "citation_text": "[3] NIST/SEMATECH，e-Handbook of Statistical Methods，5.3.3.3 Full factorial designs。https://www.itl.nist.gov/div898/handbook/pri/section3/pri333.htm",
+          "chapter": 11
+        }
+      ],
+      "id": "S0911-108",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    }
+  ],
+  "note": "同URL不同主张分别保留checks。来源相关段已核不等于论文全文、历史原档或模型执行记录已核；ImageNet获取条件见逐项。"
+}

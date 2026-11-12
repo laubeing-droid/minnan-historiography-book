@@ -1,0 +1,4 @@
+﻿series_id,period,y,observed_mask,eligible_target,status,unit,measure,boundary_version,source_id,availability_year,data_kind,use_restriction
+DEMO_PORT_A,1921,30.0,1,1,observed,item,registered_items,B0,SYNTH_CH12,1921,SYNTHETIC_DEMO,EVALUATION_ONLY_AFTER_LABEL_AVAILABLE
+DEMO_PORT_A,1922,28.0,1,1,observed,item,registered_items,B0,SYNTH_CH12,1922,SYNTHETIC_DEMO,EVALUATION_ONLY_AFTER_LABEL_AVAILABLE
+DEMO_PORT_A,1923,31.0,1,1,observed,item,registered_items,B0,SYNTH_CH12,1923,SYNTHETIC_DEMO,EVALUATION_ONLY_AFTER_LABEL_AVAILABLE

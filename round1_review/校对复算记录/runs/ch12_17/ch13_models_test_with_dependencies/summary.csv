@@ -1,0 +1,2 @@
+﻿MAE,RMSE,candidate,coverage,eligible,failed,planned,predicted,scored
+0.26048041605287153,0.2784458981412329,holt_winters,1.0,True,0,16,16,16

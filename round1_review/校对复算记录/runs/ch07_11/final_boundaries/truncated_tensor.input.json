@@ -1,0 +1,27 @@
+{
+  "section": "9.2",
+  "title": "输入输出张量与数据格式",
+  "status": "NOT_RUN",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "tensor",
+  "rows": [
+    {
+      "id": "N01",
+      "text": "甲埠议迁。",
+      "label": 0
+    },
+    {
+      "id": "N02",
+      "text": "乙埠迁至东岸。",
+      "label": 1
+    },
+    {
+      "id": "N03",
+      "text": "丙埠未迁。",
+      "label": 0
+    }
+  ],
+  "config": {
+    "max_length": 3
+  }
+}

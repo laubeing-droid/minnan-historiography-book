@@ -1,0 +1,20 @@
+[
+  {
+    "source_id": "S1",
+    "version": "new-teaching-v1",
+    "page_label": "合成记录第1页",
+    "text": "[T1]林甲致书海东会。\n林甲未曾致书海东会。"
+  },
+  {
+    "source_id": "S2",
+    "version": "new-teaching-v1",
+    "page_label": "合成名录第1页",
+    "text": "林甲、陈乙同列名录。\n陈乙记事。\n陈乙记事。"
+  },
+  {
+    "source_id": "S3",
+    "version": "new-teaching-v1",
+    "page_label": "合成跨段记录第1页",
+    "text": "陈乙到场。\n\n翌日，海东会收函。"
+  }
+]

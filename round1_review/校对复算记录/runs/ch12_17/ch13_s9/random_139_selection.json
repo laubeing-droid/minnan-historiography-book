@@ -1,0 +1,87 @@
+{
+  "search": "random_139",
+  "selected": "C2",
+  "all_trials": [
+    {
+      "search": "random_139",
+      "seed": 139,
+      "trial": 0,
+      "candidate": "C0",
+      "validation_MAE": 1.5,
+      "status": "complete",
+      "error": null,
+      "elapsed_seconds": 4.7670000640209764e-06
+    },
+    {
+      "search": "random_139",
+      "seed": 139,
+      "trial": 1,
+      "candidate": "C4",
+      "validation_MAE": 1.654163029335115,
+      "status": "complete",
+      "error": null,
+      "elapsed_seconds": 8.042000445129815e-06
+    },
+    {
+      "search": "random_139",
+      "seed": 139,
+      "trial": 2,
+      "candidate": "C0",
+      "validation_MAE": 1.5,
+      "status": "complete",
+      "error": null,
+      "elapsed_seconds": 2.6230000003124587e-06
+    },
+    {
+      "search": "random_139",
+      "seed": 139,
+      "trial": 3,
+      "candidate": "C5",
+      "validation_MAE": 1.6666666666666667,
+      "status": "complete",
+      "error": null,
+      "elapsed_seconds": 2.9539996830862947e-06
+    },
+    {
+      "search": "random_139",
+      "seed": 139,
+      "trial": 4,
+      "candidate": "C4",
+      "validation_MAE": 1.654163029335115,
+      "status": "complete",
+      "error": null,
+      "elapsed_seconds": 4.6770001063123345e-06
+    },
+    {
+      "search": "random_139",
+      "seed": 139,
+      "trial": 5,
+      "candidate": "C5",
+      "validation_MAE": 1.6666666666666667,
+      "status": "complete",
+      "error": null,
+      "elapsed_seconds": 2.613999640743714e-06
+    },
+    {
+      "search": "random_139",
+      "seed": 139,
+      "trial": 6,
+      "candidate": "C2",
+      "validation_MAE": 1.010047048965036,
+      "status": "complete",
+      "error": null,
+      "elapsed_seconds": 4.597000042849686e-06
+    },
+    {
+      "search": "random_139",
+      "seed": 139,
+      "trial": 7,
+      "candidate": "C4",
+      "validation_MAE": 1.654163029335115,
+      "status": "complete",
+      "error": null,
+      "elapsed_seconds": 4.657000317820348e-06
+    }
+  ],
+  "development_sha256": "640a4a0677dd0cb35f13eccc72de412345fbc3d2e6a8f9bf6f1ff8899423b2bf"
+}

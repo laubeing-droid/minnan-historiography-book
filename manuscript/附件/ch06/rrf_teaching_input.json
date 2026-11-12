@@ -1,0 +1,66 @@
+{
+  "kind": "TEACHING_SET_NOT_ACTUAL_MODEL_OUTPUT",
+  "question_id": "H01",
+  "corpus_version": "ch06-new-20261030-v1",
+  "allowed_ids": [
+    "D1",
+    "D2",
+    "D3",
+    "D4"
+  ],
+  "c": 60,
+  "M": 3,
+  "k": 2,
+  "runs": [
+    {
+      "name": "sparse",
+      "question_id": "H01",
+      "corpus_version": "ch06-new-20261030-v1",
+      "allowed_ids": [
+        "D1",
+        "D2",
+        "D3",
+        "D4"
+      ],
+      "ranking": [
+        {
+          "id": "D1",
+          "score": 8.0
+        },
+        {
+          "id": "D3",
+          "score": 7.0
+        },
+        {
+          "id": "D2",
+          "score": 6.0
+        }
+      ]
+    },
+    {
+      "name": "dense",
+      "question_id": "H01",
+      "corpus_version": "ch06-new-20261030-v1",
+      "allowed_ids": [
+        "D1",
+        "D2",
+        "D3",
+        "D4"
+      ],
+      "ranking": [
+        {
+          "id": "D2",
+          "score": 0.9
+        },
+        {
+          "id": "D4",
+          "score": 0.8
+        },
+        {
+          "id": "D1",
+          "score": 0.7
+        }
+      ]
+    }
+  ]
+}

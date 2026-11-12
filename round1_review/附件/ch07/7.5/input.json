@@ -1,0 +1,41 @@
+{
+  "section": "7.5",
+  "title": "多语言 跨语言与资源不平等",
+  "status": "EXECUTED_PASS",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "coverage",
+  "rows": [
+    {
+      "id": "L01",
+      "language": "中文",
+      "script": "汉字",
+      "genre": "地方志",
+      "available": 12,
+      "readable": 10,
+      "evaluated": 6,
+      "correct": 5
+    },
+    {
+      "id": "L02",
+      "language": "日文",
+      "script": "汉字假名",
+      "genre": "调查报告",
+      "available": 6,
+      "readable": 4,
+      "evaluated": 3,
+      "correct": 1
+    },
+    {
+      "id": "L03",
+      "language": "英文",
+      "script": "拉丁字母",
+      "genre": "游记",
+      "available": 4,
+      "readable": 4,
+      "evaluated": 2,
+      "correct": 1
+    }
+  ],
+  "config": {},
+  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
+}

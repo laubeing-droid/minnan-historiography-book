@@ -1,0 +1,91 @@
+{
+  "checks": 185,
+  "passed": 185,
+  "failed": [],
+  "metrics": [
+    {
+      "phase": "validation",
+      "candidate": "arima",
+      "planned": 12,
+      "predicted": 12,
+      "scored": 12,
+      "MAE": 4.381947813789566,
+      "RMSE": 5.0280305940078325,
+      "interval_denominator": 12,
+      "interval_hits": 12,
+      "empirical_95_coverage": 1.0,
+      "mean_interval_width": 22.24192122430277,
+      "interpretation": "conditional intervals; not historical uncertainty; small overlapping sample"
+    },
+    {
+      "phase": "validation",
+      "candidate": "holt_winters",
+      "planned": 12,
+      "predicted": 12,
+      "scored": 12,
+      "MAE": 0.2650541445477792,
+      "RMSE": 0.3377726850853723,
+      "interval_denominator": 0,
+      "interval_hits": 0,
+      "empirical_95_coverage": null,
+      "mean_interval_width": null,
+      "interpretation": "conditional intervals; not historical uncertainty; small overlapping sample"
+    },
+    {
+      "phase": "validation",
+      "candidate": "last",
+      "planned": 12,
+      "predicted": 12,
+      "scored": 12,
+      "MAE": 4.416666666666667,
+      "RMSE": 5.057996968497839,
+      "interval_denominator": 0,
+      "interval_hits": 0,
+      "empirical_95_coverage": null,
+      "mean_interval_width": null,
+      "interpretation": "conditional intervals; not historical uncertainty; small overlapping sample"
+    },
+    {
+      "phase": "validation",
+      "candidate": "sarima",
+      "planned": 12,
+      "predicted": 12,
+      "scored": 12,
+      "MAE": 0.2742903663116927,
+      "RMSE": 0.37464972943743446,
+      "interval_denominator": 12,
+      "interval_hits": 12,
+      "empirical_95_coverage": 1.0,
+      "mean_interval_width": 2.9069885430667717,
+      "interpretation": "conditional intervals; not historical uncertainty; small overlapping sample"
+    },
+    {
+      "phase": "validation",
+      "candidate": "seasonal",
+      "planned": 12,
+      "predicted": 12,
+      "scored": 12,
+      "MAE": 1.5,
+      "RMSE": 1.5811388300841898,
+      "interval_denominator": 0,
+      "interval_hits": 0,
+      "empirical_95_coverage": null,
+      "mean_interval_width": null,
+      "interpretation": "conditional intervals; not historical uncertainty; small overlapping sample"
+    },
+    {
+      "phase": "test",
+      "candidate": "holt_winters",
+      "planned": 16,
+      "predicted": 16,
+      "scored": 16,
+      "MAE": 0.26048041605287153,
+      "RMSE": 0.2784458981412329,
+      "interval_denominator": 0,
+      "interval_hits": 0,
+      "empirical_95_coverage": null,
+      "mean_interval_width": null,
+      "interpretation": "conditional intervals; not historical uncertainty; small overlapping sample"
+    }
+  ]
+}

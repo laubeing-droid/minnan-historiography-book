@@ -1,0 +1,26 @@
+{
+  "issue": "Unicode word boundary treated adjacent Chinese characters as same word; valid 对应M1 and 按M1重新说明 falsely rejected",
+  "before": "three response_file missing_change_id reports",
+  "after": {
+    "scope": "ID and path checks only",
+    "rows": [
+      {
+        "comment_id": "R1",
+        "change_id": "M1",
+        "structural_errors": []
+      },
+      {
+        "comment_id": "R2",
+        "change_id": "M2",
+        "structural_errors": []
+      },
+      {
+        "comment_id": "R3",
+        "change_id": "M3",
+        "structural_errors": []
+      }
+    ]
+  },
+  "negative_control": "M10 does not match M1",
+  "scope": "No meaning/source judgment"
+}

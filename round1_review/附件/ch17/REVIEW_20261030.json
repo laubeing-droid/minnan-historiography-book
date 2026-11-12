@@ -1,0 +1,26 @@
+{
+  "review_date_utc": "2026-10-30",
+  "original_release_status": "NOT_RUN_PRESERVED",
+  "scope": "new synthetic teaching inputs and actual programs; no original 60-period recovery or historical truth claim",
+  "section_status": {
+    "17.1": "EXECUTED_PASS",
+    "17.2": "EXECUTED_PASS",
+    "17.3": "EXECUTED_PASS",
+    "17.4": "EXECUTED_PASS",
+    "17.5": "EXECUTED_PASS",
+    "17.6": "EXECUTED_PASS"
+  },
+  "report": "../../../reports/ch12_17_recomputation.md",
+  "command_manifest": "../../../runs/ch12_17/commands.jsonl",
+  "independent_numeric_assertions_after_fix": 754,
+  "independent_boundary_assertions": 149,
+  "independent_window_assertions": 18,
+  "blocked": [],
+  "not_claimed": [
+    "historical evidence validation",
+    "unimplemented diagnostics",
+    "new blind test for 13.10",
+    "GIS plotting in 14/15"
+  ],
+  "original_files_untouched": true
+}

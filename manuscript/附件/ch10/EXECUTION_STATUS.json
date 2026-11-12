@@ -1,0 +1,7 @@
+{
+  "status": "NOT_RUN",
+  "date": "2026-10-30",
+  "scope": "All newly authored scripts, model calls, scores and resampling calculations were not executed in this delivery.",
+  "inputs": "Synthetic fixtures or human-fillable plans. No newly collected historical records.",
+  "dependencies": "Python standard library only; no install required by the package."
+}

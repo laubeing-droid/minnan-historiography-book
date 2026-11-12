@@ -1,0 +1,7 @@
+relation_type,subject_type,object_type,directed,event_required,allow_self
+member,person,organization,true,false,false
+participate,person,event,true,true,false
+send_letter,person,person,true,true,false
+sibling,person,person,false,false,false
+father,person,person,true,false,false
+acquainted,person,person,false,false,false

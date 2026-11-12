@@ -1,0 +1,155 @@
+{
+  "status": "EXECUTED_PASS",
+  "date": "2026-10-30",
+  "scope": "只对本章下列实际输入/命令及报告中的边界有效；共享脚本其他章分支并非在每个副本逐一独立运行。",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "linux"
+  },
+  "script_sha256": "2573d9dc39a21faa129106521216a8ab6a75988af373b19c8938fae30351c58b",
+  "sections": [
+    {
+      "section": "9.1",
+      "title": "NLP任务谱系：理解/生成/检索/推理",
+      "mode": "tasks",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "NON_RUNNING_TEMPLATE",
+      "scope_note": "人工任务规格展示，不是NLP任务执行",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/9.1/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "c7286cdeb9954d02ca18f6a6b668fafe7890114bff1117d99a632823bcef0101"
+    },
+    {
+      "section": "9.2",
+      "title": "输入输出张量与数据格式",
+      "mode": "tensor",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "TEACHING_CALCULATION",
+      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/9.2/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "dbf63e34963bb114f2db8e4009a8a39f1c45cb2a3c28512dfa6d5e6e7f0148ae"
+    },
+    {
+      "section": "9.3",
+      "title": "统计→神经→LLM：方法路线与简单基线",
+      "mode": "baseline",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "TEACHING_CALCULATION",
+      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/9.3/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "98f7deacf6443483e6fcedbf1233f99a7946ecd1be89d8e7e5b6730b47936051"
+    },
+    {
+      "section": "9.4",
+      "title": "词表示演进：Word2Vec→BERT→GPT",
+      "mode": "vectors",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "TEACHING_CALCULATION",
+      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/9.4/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "38432f569ec755c025007aeca1d77aca5a2c52ed4d430c8df42bb02f599b96bb"
+    },
+    {
+      "section": "9.5",
+      "title": "GLUE/SuperGLUE/MMLU/HumanEval：基准选择与适用边界",
+      "mode": "benchmark",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "NON_RUNNING_TEMPLATE",
+      "scope_note": "基准审读模板，不是公开benchmark运行",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/9.5/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "4b7d64a61e711c935f9fe7e256184bd70746cf70c5a2faea80abe2a3f7ca5337"
+    },
+    {
+      "section": "9.6",
+      "title": "人工标注质量管控：指南 一致性与歧义样本",
+      "mode": "agreement",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "TEACHING_CALCULATION",
+      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/9.6/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "847844a05c309ed9fc76c7452c2b4a9bf9d80764b922002b20653fdea9c56e54"
+    },
+    {
+      "section": "9.7",
+      "title": "多语言与跨语言评测",
+      "mode": "multilingual",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "TEACHING_CALCULATION",
+      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/9.7/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "e43b124a667fb3d7ea66398d2e404364a70a8a38f38994727ec5f3848f5e5479"
+    },
+    {
+      "section": "9.8",
+      "title": "多语言公平性与偏见",
+      "mode": "coverage",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "TEACHING_CALCULATION",
+      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/9.8/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "be61b4171aa7429729803a18aea547f102911d8efcdd122a77c4122ea8aff3e2"
+    }
+  ],
+  "model_calls": "NOT_RUN",
+  "real_feature_extraction": "NOT_RUN",
+  "public_benchmark_runs": "NOT_RUN",
+  "blank_worksheets_and_result_templates": "NON_RUNNING_TEMPLATE",
+  "fixture_embedded_statuses": "教学追踪行、卡片、示例配置中的NOT_RUN保留其原对象含义，不因运行检查器而改成模型完成。",
+  "report": "../../../reports/recompute_ch07_11.md",
+  "raw_final_manifest": "../../../runs/ch07_11/verified/manifest.json"
+}

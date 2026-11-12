@@ -1,0 +1,143 @@
+{
+  "quantile_losses": [
+    {
+      "level": 0.1,
+      "prediction": 8,
+      "actual": 12,
+      "pinball_loss": 0.4
+    },
+    {
+      "level": 0.5,
+      "prediction": 10,
+      "actual": 12,
+      "pinball_loss": 1.0
+    },
+    {
+      "level": 0.9,
+      "prediction": 14,
+      "actual": 12,
+      "pinball_loss": 0.19999999999999996
+    }
+  ],
+  "mean_pinball": 0.5333333333333333,
+  "empirical_CRPS": 1.3333333333333333,
+  "interval_rows": [
+    {
+      "method": "A",
+      "row": 0,
+      "actual": 10,
+      "lower": 8,
+      "upper": 12,
+      "hit": true,
+      "width": 4,
+      "interval_score": 4.0
+    },
+    {
+      "method": "A",
+      "row": 1,
+      "actual": 12,
+      "lower": 10,
+      "upper": 14,
+      "hit": true,
+      "width": 4,
+      "interval_score": 4.0
+    },
+    {
+      "method": "A",
+      "row": 2,
+      "actual": 9,
+      "lower": 8,
+      "upper": 10,
+      "hit": true,
+      "width": 2,
+      "interval_score": 2.0
+    },
+    {
+      "method": "A",
+      "row": 3,
+      "actual": 15,
+      "lower": 11,
+      "upper": 13,
+      "hit": false,
+      "width": 2,
+      "interval_score": 22.000000000000004
+    },
+    {
+      "method": "A",
+      "row": 4,
+      "actual": 11,
+      "lower": 9,
+      "upper": 13,
+      "hit": true,
+      "width": 4,
+      "interval_score": 4.0
+    },
+    {
+      "method": "B",
+      "row": 0,
+      "actual": 10,
+      "lower": 0,
+      "upper": 20,
+      "hit": true,
+      "width": 20,
+      "interval_score": 20.0
+    },
+    {
+      "method": "B",
+      "row": 1,
+      "actual": 12,
+      "lower": 0,
+      "upper": 20,
+      "hit": true,
+      "width": 20,
+      "interval_score": 20.0
+    },
+    {
+      "method": "B",
+      "row": 2,
+      "actual": 9,
+      "lower": 0,
+      "upper": 20,
+      "hit": true,
+      "width": 20,
+      "interval_score": 20.0
+    },
+    {
+      "method": "B",
+      "row": 3,
+      "actual": 15,
+      "lower": 0,
+      "upper": 20,
+      "hit": true,
+      "width": 20,
+      "interval_score": 20.0
+    },
+    {
+      "method": "B",
+      "row": 4,
+      "actual": 11,
+      "lower": 0,
+      "upper": 20,
+      "hit": true,
+      "width": 20,
+      "interval_score": 20.0
+    }
+  ],
+  "interval_summary": [
+    {
+      "method": "A",
+      "n": 5,
+      "coverage": 0.8,
+      "width": 3.2,
+      "interval_score": 7.2
+    },
+    {
+      "method": "B",
+      "n": 5,
+      "coverage": 1.0,
+      "width": 20.0,
+      "interval_score": 20.0
+    }
+  ],
+  "PIT": "NOT_COMPUTED: finite quantiles do not specify full continuous CDF"
+}

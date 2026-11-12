@@ -1,0 +1,9 @@
+﻿MAE,MAPE,MASE,RMSE,mape_defined_rows,mase_training_scale,method,paired,planned,sMAPE,series,smape_defined_rows,status,unit
+3.0,30.0,3.0,4.242640687119285,2,1.0,P,2,2,23.076923076923077,A,2,complete,teaching_unit
+4.0,40.0,4.0,4.0,2,1.0,Q,2,2,33.333333333333336,A,2,complete,teaching_unit
+10.0,10.0,1.0,10.0,4,10.0,P,4,4,9.523809523809524,B,4,complete,teaching_unit
+5.0,5.0,0.5,5.0,4,10.0,Q,4,4,4.878048780487805,B,4,complete,teaching_unit
+0.6666666666666666,,1.0,0.816496580927726,1,0.6666666666666666,P,3,3,,C,2,complete,teaching_unit
+0.0,,0.0,0.0,1,0.6666666666666666,Q,3,3,,C,1,complete,teaching_unit
+,,,,1,0.0,P,1,2,,D,1,incomplete_targets,teaching_unit
+,,,,1,0.0,Q,1,2,,D,1,incomplete_targets,teaching_unit

@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py", line 347, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py", line 344, in main
+    result=run(data,path.parent)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py", line 312, in run
+    if mode=='bootstrap':return bootstrap(rows,cfg)
+                                ^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py", line 96, in bootstrap
+    if unit not in ('row','source'): raise ValueError('bootstrap unit must be row or source')
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: bootstrap unit must be row or source

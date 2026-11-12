@@ -1,0 +1,7 @@
+id,person,source,page,year,split
+R01,甲,书A,A1,1900,train
+R02,甲,书A,A1,1900,test
+R03,乙,书A,A2,1901,train
+R04,丙,书B,B1,1903,dev
+R05,丁,书C,C1,1905,test
+R06,丙,书D,D1,1907,test

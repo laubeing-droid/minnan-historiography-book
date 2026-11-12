@@ -1,0 +1,11 @@
+usage: workbook.py [-h] --input INPUT
+
+Locally exercised teaching implementation; see EXECUTION_STATUS.json.
+Execution checks do not validate historical claims or execute model calls.
+Only reads the requested local JSON and PGM files and prints JSON to stdout.
+No model, network, dependency install, external command, deletion or
+overwrite. Examples are synthetic. Do not cite outputs as historical findings.
+
+options:
+  -h, --help     show this help message and exit
+  --input INPUT

@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py", line 340, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py", line 337, in main
+    result=run(data,path.parent)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py", line 242, in run
+    if mode=='baseline':return {'all_negative':binary_metrics([r['gold'] for r in rows],[0]*len(rows)),'literal':rule_result(rows)}
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py", line 24, in binary_metrics
+    if not set(gold+pred)<= {0,1}: raise ValueError('binary values must be 0 or 1')
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: binary values must be 0 or 1

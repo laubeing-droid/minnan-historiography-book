@@ -1,0 +1,22 @@
+{
+  "section": "8.7",
+  "title": "科学调试与最小复现",
+  "status": "NOT_RUN",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "join",
+  "rows": [
+    {
+      "id": "J01",
+      "gold": 1,
+      "prediction_id": "J02",
+      "prediction": 0
+    },
+    {
+      "id": "J02",
+      "gold": 0,
+      "prediction_id": "J01",
+      "prediction": 1
+    }
+  ],
+  "config": {}
+}

@@ -1,0 +1,60 @@
+{
+  "section": "8.4",
+  "title": "随机种子 环境锁定与 YAML 配置",
+  "status": "EXECUTED_PASS",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "config",
+  "rows": [
+    {
+      "id": "T01",
+      "source": "教学甲册",
+      "text": "甲书院停讲。",
+      "gold": 1
+    },
+    {
+      "id": "T02",
+      "source": "教学甲册",
+      "text": "甲书院未停讲。",
+      "gold": 0
+    },
+    {
+      "id": "T03",
+      "source": "教学乙册",
+      "text": "拟停讲，尚未执行。",
+      "gold": 0
+    },
+    {
+      "id": "T04",
+      "source": "教学乙册",
+      "text": "乙书院罢讲。",
+      "gold": 1
+    },
+    {
+      "id": "T05",
+      "source": "教学丙册",
+      "text": "丙书院照常开讲。",
+      "gold": 0
+    },
+    {
+      "id": "T06",
+      "source": "教学丙册",
+      "text": "丁书院停讲，次年复课。",
+      "gold": 1
+    }
+  ],
+  "config": {
+    "seed": 17,
+    "dataset": "six-sentence-demo-v1",
+    "rule_version": "sampling-v1",
+    "status": "NOT_RUN",
+    "environment": {
+      "python": "待读者填写",
+      "platform": "待读者填写"
+    },
+    "tolerance": "确定性计数逐项相同，浮点另设容差",
+    "sample_size": 3,
+    "input_order": "as_read",
+    "population_order": "id_ascending"
+  },
+  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
+}

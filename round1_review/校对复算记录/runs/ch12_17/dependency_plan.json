@@ -1,0 +1,1062 @@
+{
+  "version": "1",
+  "pip_version": "25.0.1",
+  "install": [
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/41/c7/aeadca282baf51d7b9c135674bac79ded91f4db79c69c188575d22234342/statsmodels-0.15.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+        "archive_info": {
+          "hash": "sha256=c6f2bd48915cc9b3b95c3c7f6ac363b6f8aaa38172962ba5f7f6885f0dfe57f2",
+          "hashes": {
+            "sha256": "c6f2bd48915cc9b3b95c3c7f6ac363b6f8aaa38172962ba5f7f6885f0dfe57f2"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "statsmodels",
+        "version": "0.15.0",
+        "summary": "Statistical computations and models for Python",
+        "description": "![Statsmodels logo](docs/source/images/statsmodels-logo-v2-horizontal.svg)\n\n[![PyPI\nVersion](https://img.shields.io/pypi/v/statsmodels.svg)](https://pypi.org/project/statsmodels/)\n[![Conda\nVersion](https://anaconda.org/conda-forge/statsmodels/badges/version.svg)](https://anaconda.org/conda-forge/statsmodels/)\n[![License](https://img.shields.io/pypi/l/statsmodels.svg)](https://github.com/statsmodels/statsmodels/blob/main/LICENSE.txt)\n[![Azure CI Build\nStatus](https://dev.azure.com/statsmodels/statsmodels-testing/_apis/build/status/statsmodels.statsmodels?branchName=main)](https://dev.azure.com/statsmodels/statsmodels-testing/_build/latest?definitionId=1&branchName=main)\n[![Codecov\nCoverage](https://codecov.io/gh/statsmodels/statsmodels/branch/main/graph/badge.svg)](https://codecov.io/gh/statsmodels/statsmodels)\n[![PyPI - Downloads](https://img.shields.io/pypi/dm/statsmodels?label=PyPI%20Downloads)](https://pypi.org/project/statsmodels/)\n[![Conda\ndownloads](https://img.shields.io/conda/dn/conda-forge/statsmodels.svg?label=Conda%20downloads)](https://anaconda.org/conda-forge/statsmodels/)\n\n# About statsmodels\n\nstatsmodels is a Python package that provides a complement to scipy for\nstatistical computations including descriptive statistics and estimation\nand inference for statistical models.\n\n# Documentation\n\nThe documentation for the latest release is at\n\n<https://www.statsmodels.org/stable/>\n\nThe documentation for the development version is at\n\n<https://www.statsmodels.org/dev/>\n\nRecent improvements are highlighted in the release notes\n\n<https://www.statsmodels.org/stable/release/>\n\nBackups of documentation are available at\n<https://statsmodels.github.io/stable/> and\n<https://statsmodels.github.io/dev/>.\n\n# Main Features\n\n- Linear regression models:\n  - Ordinary least squares\n  - Generalized least squares\n  - Weighted least squares\n  - Least squares with autoregressive errors\n  - Quantile regression\n  - Recursive least squares\n- Mixed Linear Model with mixed effects and variance components\n- GLM: Generalized linear models with support for all of the\n  one-parameter exponential family distributions\n- Bayesian Mixed GLM for Binomial and Poisson\n- GEE: Generalized Estimating Equations for one-way clustered or\n  longitudinal data\n- Discrete models:\n  - Logit and Probit\n  - Multinomial logit (MNLogit)\n  - Poisson and Generalized Poisson regression\n  - Negative Binomial regression\n  - Zero-Inflated Count models\n- RLM: Robust linear models with support for several M-estimators.\n- Time Series Analysis: models for time series analysis\n  - Complete StateSpace modeling framework\n    - Seasonal ARIMA and ARIMAX models\n    - VARMA and VARMAX models\n    - Dynamic Factor models\n    - Unobserved Component models\n  - Markov switching models (MSAR), also known as Hidden Markov Models\n    (HMM)\n  - Univariate time series analysis: AR, ARIMA\n  - Vector autoregressive models, VAR and structural VAR\n  - Vector error correction model, VECM\n  - exponential smoothing, Holt-Winters\n  - Hypothesis tests for time series: unit root, cointegration and\n    others\n  - Descriptive statistics and process models for time series analysis\n- Survival analysis:\n  - Proportional hazards regression (Cox models)\n  - Survivor function estimation (Kaplan-Meier)\n  - Cumulative incidence function estimation\n- Multivariate:\n  - Principal Component Analysis with missing data\n  - Factor Analysis with rotation\n  - MANOVA\n  - Canonical Correlation\n- Nonparametric statistics: Univariate and multivariate kernel density\n  estimators\n- Datasets: Datasets used for examples and in testing\n- Statistics: a wide range of statistical tests\n  - diagnostics and specification tests\n  - goodness-of-fit and normality tests\n  - functions for multiple testing\n  - various additional statistical tests\n- Imputation with MICE, regression on order statistic and Gaussian\n  imputation\n- Mediation analysis\n- Graphics includes plot functions for visual analysis of data and model\n  results\n- I/O\n  - Tools for reading Stata .dta files, but pandas has a more recent\n    version\n  - Table output to ascii, latex, and html\n- Miscellaneous models\n- Sandbox: statsmodels contains a sandbox folder with code in various\n  stages of development and testing which is not considered \\\"production\n  ready\\\". This covers among others\n  - Generalized method of moments (GMM) estimators\n  - Kernel regression\n  - Various extensions to scipy.stats.distributions\n  - Panel data models\n  - Information theoretic measures\n\n# How to get it\n\nThe main branch on GitHub is the most up to date code\n\n<https://www.github.com/statsmodels/statsmodels>\n\nSource download of release tags are available on GitHub\n\n<https://github.com/statsmodels/statsmodels/tags>\n\nBinaries and source distributions are available from PyPi\n\n<https://pypi.org/project/statsmodels/>\n\nBinaries can be installed in Anaconda\n\nconda install statsmodels\n\n# Getting the latest code\n\n## Installing the most recent nightly wheel\n\nThe most recent nightly wheel can be installed using pip.\n\n``` bash\npython -m pip install -i https://pypi.anaconda.org/scientific-python-nightly-wheels/simple statsmodels --upgrade --use-deprecated=legacy-resolver\n```\n\n## Installing from sources\n\nSee INSTALL.txt for requirements or see the documentation\n\n<https://statsmodels.github.io/dev/install.html>\n\n# Contributing\n\nContributions in any form are welcome, including:\n\n- Documentation improvements\n- Additional tests\n- New features to existing models\n- New models\n\n<https://www.statsmodels.org/stable/dev/test_notes>\n\nfor instructions on installing statsmodels in *editable* mode.\n\n# License\n\nModified BSD (3-clause)\n\n# Discussion and Development\n\nDiscussions take place on the mailing list\n\n<https://groups.google.com/group/pystatsmodels>\n\nand in the issue tracker. We are very interested in feedback about\nusability and suggestions for improvements.\n\n# Bug Reports\n\nBug reports can be submitted to the issue tracker at\n\n<https://github.com/statsmodels/statsmodels/issues>",
+        "description_content_type": "text/markdown",
+        "keywords": [
+          "statistics",
+          "econometrics",
+          "time series",
+          "regression",
+          "anova",
+          "statistical tests",
+          "linear models",
+          "generalized linear models",
+          "discrete choice models",
+          "robust linear models",
+          "mixed linear models",
+          "time series analysis",
+          "state space models",
+          "vector autoregression",
+          "volatility modeling",
+          "unit root tests",
+          "cointegration tests",
+          "nonparametric methods",
+          "multivariate statistics"
+        ],
+        "maintainer_email": "statsmodels Developers <pystatsmodels@googlegroups.com>",
+        "license_expression": "BSD-3-Clause",
+        "license_file": [
+          "LICENSE.txt"
+        ],
+        "classifier": [
+          "Development Status :: 4 - Beta",
+          "Environment :: Console",
+          "Programming Language :: Cython",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Operating System :: OS Independent",
+          "Intended Audience :: End Users/Desktop",
+          "Intended Audience :: Developers",
+          "Intended Audience :: Science/Research",
+          "Natural Language :: English",
+          "Topic :: Office/Business :: Financial",
+          "Topic :: Scientific/Engineering"
+        ],
+        "requires_dist": [
+          "numpy<3,>=1.23.5",
+          "scipy!=1.9.2,>=1.8",
+          "pandas!=2.1.0,>=1.4",
+          "patsy>=0.5.6",
+          "packaging>=21.3",
+          "formulaic>=1.1.0",
+          "pytest<10,>=8.4.1; extra == \"test\"",
+          "pytest-randomly; extra == \"test\"",
+          "pytest-run-parallel; extra == \"test\"",
+          "pytest-xdist; extra == \"test\"",
+          "pytest-cov; extra == \"test\"",
+          "coverage[toml]; extra == \"test\"",
+          "meson; extra == \"test\"",
+          "ninja; sys_platform != \"emscripten\" and extra == \"test\"",
+          "sphinx; extra == \"doc\"",
+          "pandas!=2.1.0,>=2.2.2; extra == \"doc\"",
+          "pydata-sphinx-theme; extra == \"doc\"",
+          "jupyter; extra == \"doc\"",
+          "notebook; extra == \"doc\"",
+          "nbsphinx; extra == \"doc\"",
+          "nbconvert; extra == \"doc\"",
+          "pyyaml; extra == \"doc\"",
+          "pandas-datareader; extra == \"doc\"",
+          "simplegeneric; extra == \"doc\"",
+          "seaborn; extra == \"doc\"",
+          "numpydoc; extra == \"doc\"",
+          "pymc; os_name != \"nt\" and extra == \"doc\"",
+          "arviz; os_name != \"nt\" and extra == \"doc\"",
+          "jinja2; extra == \"doc\"",
+          "pickleshare; extra == \"doc\"",
+          "pytest<10,>=8.4.1; extra == \"doc\"",
+          "cython<4,>=3.0.10; extra == \"dev\"",
+          "setuptools_scm~=9.0; extra == \"dev\"",
+          "meson-python>=0.18.0; extra == \"dev\"",
+          "meson; extra == \"dev\"",
+          "ninja; extra == \"dev\"",
+          "matplotlib>=3; extra == \"dev\"",
+          "colorama; extra == \"dev\"",
+          "joblib; extra == \"dev\"",
+          "pywinpty; os_name == \"nt\" and extra == \"dev\"",
+          "ruff; extra == \"dev\"",
+          "polars>=1.0.0; extra == \"polars\""
+        ],
+        "requires_python": ">=3.10",
+        "project_url": [
+          "homepage, https://www.statsmodels.org",
+          "documentation, https://www.statsmodels.org/stable/index.html",
+          "repository, https://github.com/statsmodels/statsmodels",
+          "changelog, https://bashtage.github.io/arch/changes.html",
+          "bugtracker, https://github.com/statsmodels/statsmodels/issues"
+        ],
+        "provides_extra": [
+          "test",
+          "doc",
+          "dev",
+          "polars"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/90/e5/7c5e8cdda8c9f0cd8aca0a376dee9cff6b8c30692cf614960d9e80f59689/optuna-5.0.0-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=5fff892ae6baf4948c810c5b8635ec67e08efb0709b41cb73b14e30391d44720",
+          "hashes": {
+            "sha256": "5fff892ae6baf4948c810c5b8635ec67e08efb0709b41cb73b14e30391d44720"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "optuna",
+        "version": "5.0.0",
+        "dynamic": [
+          "license-file"
+        ],
+        "summary": "A hyperparameter optimization framework",
+        "description": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/optuna/optuna/master/docs/image/optuna-logo.png\" width=\"800\"/></div>\n\n# Optuna: A hyperparameter optimization framework\n\n[![Python](https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12%20%7C%203.13%20%7C%203.14-blue)](https://www.python.org)\n[![pypi](https://img.shields.io/pypi/v/optuna.svg)](https://pypi.python.org/pypi/optuna)\n[![conda](https://img.shields.io/conda/vn/conda-forge/optuna.svg)](https://anaconda.org/conda-forge/optuna)\n[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/optuna/optuna)\n[![Read the Docs](https://readthedocs.org/projects/optuna/badge/?version=stable)](https://optuna.readthedocs.io/en/stable/)\n\n:link: [**Website**](https://optuna.org/)\n| :page_with_curl: [**Docs**](https://optuna.readthedocs.io/en/stable/)\n| :gear: [**Install Guide**](https://optuna.readthedocs.io/en/stable/installation.html)\n| :pencil: [**Tutorial**](https://optuna.readthedocs.io/en/stable/tutorial/index.html)\n| :bulb: [**Examples**](https://github.com/optuna/optuna-examples)\n| [**Twitter**](https://twitter.com/OptunaAutoML)\n| [**LinkedIn**](https://www.linkedin.com/showcase/optuna/)\n| [**Medium**](https://medium.com/optuna)\n\n*Optuna* is an automatic hyperparameter optimization software framework, particularly designed\nfor machine learning. It features an imperative, *define-by-run* style user API. Thanks to our\n*define-by-run* API, the code written with Optuna enjoys high modularity, and the user of\nOptuna can dynamically construct the search spaces for the hyperparameters.\n\n## :loudspeaker: News\n\n<!-- TODO: when you add a new line, please delete the oldest line -->\n* **Aug 3, 2026**: Release candidate of Optuna v5 is available! Check out [the release note](https://github.com/optuna/optuna/releases/tag/v5.0.0-rc1) for details.\n* **Jun 1, 2026**: Optuna 4.9.0 is out! Check out [the release note](https://github.com/optuna/optuna/releases/tag/v4.9.0) for details.\n* **Mar 16, 2026**: Optuna 4.8.0 is out! Check out [the release note](https://github.com/optuna/optuna/releases/tag/v4.8.0) for details.\n* **Jan 19, 2026**: Optuna 4.7.0 is out! Check out [the release note](https://github.com/optuna/optuna/releases/tag/v4.7.0) for details.\n* **Nov 10, 2025**: A new article [Announcing Optuna 4.6](https://medium.com/optuna/announcing-optuna-4-6-a9e82183ab07) has been published.\n* **Oct 28, 2025**: A new article [AutoSampler: Full Support for Multi-Objective & Constrained Optimization](https://medium.com/optuna/autosampler-full-support-for-multi-objective-constrained-optimization-c1c4fc957ba2) has been published.\n\n## :fire: Key Features\n\nOptuna has modern functionalities as follows:\n\n- [Lightweight, versatile, and platform agnostic architecture](https://optuna.readthedocs.io/en/stable/tutorial/10_key_features/001_first.html)\n  - Handle a wide variety of tasks with a simple installation that has few requirements.\n- [Pythonic search spaces](https://optuna.readthedocs.io/en/stable/tutorial/10_key_features/002_configurations.html)\n  - Define search spaces using familiar Python syntax including conditionals and loops.\n- [Efficient optimization algorithms](https://optuna.readthedocs.io/en/stable/tutorial/10_key_features/003_efficient_optimization_algorithms.html)\n  - Adopt state-of-the-art algorithms for sampling hyperparameters and efficiently pruning unpromising trials.\n- [Easy parallelization](https://optuna.readthedocs.io/en/stable/tutorial/10_key_features/004_distributed.html)\n  - Scale studies to tens or hundreds of workers with little or no changes to the code.\n- [Quick visualization](https://optuna.readthedocs.io/en/stable/tutorial/10_key_features/005_visualization.html)\n  - Inspect optimization histories from a variety of plotting functions.\n\n\n## Basic Concepts\n\nWe use the terms *study* and *trial* as follows:\n\n- Study: optimization based on an objective function\n- Trial: a single execution of the objective function\n\nPlease refer to the sample code below. The goal of a *study* is to find out the optimal set of\nhyperparameter values (e.g., `regressor` and `svr_c`) through multiple *trials* (e.g.,\n`n_trials=100`). Optuna is a framework designed for automation and acceleration of\noptimization *studies*.\n\n<details open>\n<summary>Sample code with scikit-learn</summary>\n\n[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/optuna/optuna-examples/blob/main/quickstart.ipynb)\n\n```python\nimport optuna\nimport sklearn\n\n\n# Define an objective function to be minimized.\ndef objective(trial):\n\n    # Invoke suggest methods of a Trial object to generate hyperparameters.\n    regressor_name = trial.suggest_categorical(\"regressor\", [\"SVR\", \"RandomForest\"])\n    if regressor_name == \"SVR\":\n        svr_c = trial.suggest_float(\"svr_c\", 1e-10, 1e10, log=True)\n        regressor_obj = sklearn.svm.SVR(C=svr_c)\n    else:\n        rf_max_depth = trial.suggest_int(\"rf_max_depth\", 2, 32)\n        regressor_obj = sklearn.ensemble.RandomForestRegressor(max_depth=rf_max_depth)\n\n    X, y = sklearn.datasets.fetch_california_housing(return_X_y=True)\n    X_train, X_val, y_train, y_val = sklearn.model_selection.train_test_split(X, y, random_state=0)\n\n    regressor_obj.fit(X_train, y_train)\n    y_pred = regressor_obj.predict(X_val)\n\n    error = sklearn.metrics.mean_squared_error(y_val, y_pred)\n\n    return error  # An objective value linked with the Trial object.\n\n\nstudy = optuna.create_study()  # Create a new study.\nstudy.optimize(objective, n_trials=100)  # Invoke optimization of the objective function.\n```\n</details>\n\n> [!NOTE]\n> More examples can be found in [optuna/optuna-examples](https://github.com/optuna/optuna-examples).\n>\n> The examples cover diverse problem setups such as multi-objective optimization, constrained optimization, pruning, and distributed optimization.\n\n## Installation\n\nOptuna is available at [the Python Package Index](https://pypi.org/project/optuna/) and on [Anaconda Cloud](https://anaconda.org/conda-forge/optuna).\n\n```bash\n# PyPI\n$ pip install optuna\n```\n\n```bash\n# Anaconda Cloud\n$ conda install -c conda-forge optuna\n```\n\n> [!IMPORTANT]\n> Optuna supports Python 3.9 or newer.\n\n## Rustuna\n\n[Rustuna](https://github.com/optuna/rustuna) is a faster implementation of Optuna written in Rust.\nIt keeps the API you already know, and rewrites the parts that start to hurt at scale: sampling speed and memory efficiency.\n\n1. **Faster sampler implementations**: Rustuna supports TPE, MOTPE, NSGA-II, and CMA-ES, and finishes the same study several times to several hundred times faster for cheap objective functions.\n2. **Memory-efficient storage**: Several design choices to make Rustuna's storage memory-efficient. Furthermore, discarding unnecessary trial history prevents memory usage and runtime from increasing as the number of trials grows.\n3. **Zero Python runtime dependencies**: No Python runtime dependencies by default ー dramatically faster imports, and far less exposure to supply chain attacks.\n\n> [!NOTE]\n> Rustuna is currently experimental. Compared with Optuna, it still lacks some features and APIs, and it has not yet been optimized enough to deliver better performance for every use case. Since the project has not had the same level of maturity as Optuna, bugs and rough edges likely remain. We appreciate your understanding when using it.\n\n## Web Dashboard\n\n[Optuna Dashboard](https://github.com/optuna/optuna-dashboard) is a real-time web dashboard for Optuna.\nYou can check the optimization history, hyperparameter importance, etc. in graphs and tables.\nYou don't need to create a Python script to call [Optuna's visualization](https://optuna.readthedocs.io/en/stable/reference/visualization/index.html) functions.\nFeature requests and bug reports are welcome!\n\n![optuna-dashboard](https://user-images.githubusercontent.com/5564044/204975098-95c2cb8c-0fb5-4388-abc4-da32f56cb4e5.gif)\n\n`optuna-dashboard` can be installed via pip:\n\n```shell\n$ pip install optuna-dashboard\n```\n\n> [!TIP]\n> Please check out the convenience of Optuna Dashboard using the sample code below.\n\n<details>\n<summary>Sample code to launch Optuna Dashboard</summary>\n\nSave the following code as `optimize_toy.py`.\n\n```python\nimport optuna\n\n\ndef objective(trial):\n    x1 = trial.suggest_float(\"x1\", -100, 100)\n    x2 = trial.suggest_float(\"x2\", -100, 100)\n    return x1**2 + 0.01 * x2**2\n\n\nstudy = optuna.create_study(storage=\"sqlite:///db.sqlite3\")  # Create a new study with database.\nstudy.optimize(objective, n_trials=100)\n```\n\nThen try the commands below:\n\n```shell\n# Run the study specified above\n$ python optimize_toy.py\n\n# Launch the dashboard based on the storage `sqlite:///db.sqlite3`\n$ optuna-dashboard sqlite:///db.sqlite3\n...\nListening on http://localhost:8080/\nHit Ctrl-C to quit.\n```\n\n</details>\n\n\n## OptunaHub\n\n[OptunaHub](https://hub.optuna.org/) is a feature-sharing platform for Optuna.\nYou can use the registered features and publish your packages.\n\n### Use registered features\n\n`optunahub` can be installed via pip:\n\n```shell\n$ pip install optunahub\n# Install AutoSampler dependencies (CPU only is sufficient for PyTorch)\n$ pip install cmaes scipy torch --extra-index-url https://download.pytorch.org/whl/cpu\n```\n\nYou can load registered module with `optunahub.load_module`.\n\n```python\nimport optuna\nimport optunahub\n\n\ndef objective(trial: optuna.Trial) -> float:\n    x = trial.suggest_float(\"x\", -5, 5)\n    y = trial.suggest_float(\"y\", -5, 5)\n    return x**2 + y**2\n\n\nmodule = optunahub.load_module(package=\"samplers/auto_sampler\")\n# See https://hub.optuna.org/samplers/auto_sampler/ to know the ``AutoSampler`` API.\nstudy = optuna.create_study(sampler=module.AutoSampler())\nstudy.optimize(objective, n_trials=10)\n\nprint(study.best_trial.value, study.best_trial.params)\n```\n\nFor more details, please refer to [the optunahub documentation](https://optuna.github.io/optunahub/).\n\n### Publish your packages\n\nYou can publish your package via [optunahub-registry](https://github.com/optuna/optunahub-registry).\nSee the [Tutorials for Contributors](https://optuna.github.io/optunahub/tutorials_for_contributors.html) in OptunaHub.\n\n\n## Communication\n\n- [GitHub Discussions] for questions.\n- [GitHub Issues] for bug reports and feature requests.\n\n[GitHub Discussions]: https://github.com/optuna/optuna/discussions\n[GitHub issues]: https://github.com/optuna/optuna/issues\n\n\n## Contribution\n\nAny contributions to Optuna are more than welcome!\n\nIf you are new to Optuna, please check the [good first issues](https://github.com/optuna/optuna/labels/good%20first%20issue). They are relatively simple, well-defined, and often good starting points for you to get familiar with the contribution workflow and other developers.\n\nIf you already have contributed to Optuna, we recommend the other [contribution-welcome issues](https://github.com/optuna/optuna/labels/contribution-welcome).\n\nFor general guidelines on how to contribute to the project, take a look at [CONTRIBUTING.md](./CONTRIBUTING.md).\n\n\n## Reference\n\nIf you use Optuna in one of your research projects, please cite [our KDD paper](https://doi.org/10.1145/3292500.3330701) \"Optuna: A Next-generation Hyperparameter Optimization Framework\":\n\n<details open>\n<summary>BibTeX</summary>\n\n```bibtex\n@inproceedings{akiba2019optuna,\n  title={{O}ptuna: A Next-Generation Hyperparameter Optimization Framework},\n  author={Akiba, Takuya and Sano, Shotaro and Yanase, Toshihiko and Ohta, Takeru and Koyama, Masanori},\n  booktitle={The 25th ACM SIGKDD International Conference on Knowledge Discovery \\& Data Mining},\n  pages={2623--2631},\n  year={2019}\n}\n```\n</details>\n\n\n## License\n\nMIT License (see [LICENSE](./LICENSE)).\n\nOptuna uses the codes from SciPy and fdlibm projects (see [LICENSE_THIRD_PARTY](./LICENSE_THIRD_PARTY)).\n",
+        "description_content_type": "text/markdown",
+        "author": "Takuya Akiba",
+        "license_file": [
+          "LICENSE",
+          "LICENSE_THIRD_PARTY"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Science/Research",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: MIT License",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Programming Language :: Python :: 3 :: Only",
+          "Topic :: Scientific/Engineering",
+          "Topic :: Scientific/Engineering :: Mathematics",
+          "Topic :: Scientific/Engineering :: Artificial Intelligence",
+          "Topic :: Software Development",
+          "Topic :: Software Development :: Libraries",
+          "Topic :: Software Development :: Libraries :: Python Modules"
+        ],
+        "requires_dist": [
+          "alembic>=1.5.0",
+          "colorlog",
+          "numpy",
+          "packaging>=20.0",
+          "sqlalchemy>=1.4.2",
+          "tqdm",
+          "PyYAML",
+          "ase; extra == \"document\"",
+          "cmaes>=0.12.0; extra == \"document\"",
+          "fvcore; extra == \"document\"",
+          "kaleido!=0.2.1.post1,<0.4; extra == \"document\"",
+          "lightgbm; extra == \"document\"",
+          "matplotlib!=3.6.0; extra == \"document\"",
+          "pandas; extra == \"document\"",
+          "pillow; extra == \"document\"",
+          "plotly<7,>=4.9.0; extra == \"document\"",
+          "scikit-learn; extra == \"document\"",
+          "sphinx; extra == \"document\"",
+          "sphinx-copybutton; extra == \"document\"",
+          "sphinx-gallery; extra == \"document\"",
+          "sphinx-notfound-page; extra == \"document\"",
+          "sphinx_rtd_theme>=1.2.0; extra == \"document\"",
+          "torch; extra == \"document\"",
+          "torchvision; extra == \"document\"",
+          "boto3; extra == \"optional\"",
+          "cmaes>=0.12.0; extra == \"optional\"",
+          "google-cloud-storage; extra == \"optional\"",
+          "matplotlib!=3.6.0; extra == \"optional\"",
+          "pandas; extra == \"optional\"",
+          "plotly>=4.9.0; extra == \"optional\"",
+          "redis; extra == \"optional\"",
+          "scikit-learn>=0.24.2; extra == \"optional\"",
+          "scipy; extra == \"optional\"",
+          "torch; extra == \"optional\"",
+          "greenlet; extra == \"optional\"",
+          "grpcio; extra == \"optional\"",
+          "protobuf>=5.28.1; extra == \"optional\""
+        ],
+        "requires_python": ">=3.9",
+        "project_url": [
+          "homepage, https://optuna.org/",
+          "repository, https://github.com/optuna/optuna",
+          "documentation, https://optuna.readthedocs.io",
+          "bugtracker, https://github.com/optuna/optuna/issues"
+        ],
+        "provides_extra": [
+          "document",
+          "optional"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/11/3c/8740f5b4e1bd57333e4f84265b9b6363da4f7cf70f5622dd1e2fde7a0bd5/alembic-1.20.1-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=9970712cfb81ea26c8658d378aaa5b8f6ff9146e5bb111d70497c164016cf598",
+          "hashes": {
+            "sha256": "9970712cfb81ea26c8658d378aaa5b8f6ff9146e5bb111d70497c164016cf598"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "alembic",
+        "version": "1.20.1",
+        "dynamic": [
+          "license-file"
+        ],
+        "summary": "A database migration tool for SQLAlchemy.",
+        "description": "Alembic is a database migrations tool written by the author\nof `SQLAlchemy <http://www.sqlalchemy.org>`_.  A migrations tool\noffers the following functionality:\n\n* Can emit ALTER statements to a database in order to change\n  the structure of tables and other constructs\n* Provides a system whereby \"migration scripts\" may be constructed;\n  each script indicates a particular series of steps that can \"upgrade\" a\n  target database to a new version, and optionally a series of steps that can\n  \"downgrade\" similarly, doing the same steps in reverse.\n* Allows the scripts to execute in some sequential manner.\n\nThe goals of Alembic are:\n\n* Very open ended and transparent configuration and operation.   A new\n  Alembic environment is generated from a set of templates which is selected\n  among a set of options when setup first occurs. The templates then deposit a\n  series of scripts that define fully how database connectivity is established\n  and how migration scripts are invoked; the migration scripts themselves are\n  generated from a template within that series of scripts. The scripts can\n  then be further customized to define exactly how databases will be\n  interacted with and what structure new migration files should take.\n* Full support for transactional DDL.   The default scripts ensure that all\n  migrations occur within a transaction - for those databases which support\n  this (Postgresql, Microsoft SQL Server), migrations can be tested with no\n  need to manually undo changes upon failure.\n* Minimalist script construction.  Basic operations like renaming\n  tables/columns, adding/removing columns, changing column attributes can be\n  performed through one line commands like alter_column(), rename_table(),\n  add_constraint(). There is no need to recreate full SQLAlchemy Table\n  structures for simple operations like these - the functions themselves\n  generate minimalist schema structures behind the scenes to achieve the given\n  DDL sequence.\n* \"auto generation\" of migrations. While real world migrations are far more\n  complex than what can be automatically determined, Alembic can still\n  eliminate the initial grunt work in generating new migration directives\n  from an altered schema.  The ``--autogenerate`` feature will inspect the\n  current status of a database using SQLAlchemy's schema inspection\n  capabilities, compare it to the current state of the database model as\n  specified in Python, and generate a series of \"candidate\" migrations,\n  rendering them into a new migration script as Python directives. The\n  developer then edits the new file, adding additional directives and data\n  migrations as needed, to produce a finished migration. Table and column\n  level changes can be detected, with constraints and indexes to follow as\n  well.\n* Full support for migrations generated as SQL scripts.   Those of us who\n  work in corporate environments know that direct access to DDL commands on a\n  production database is a rare privilege, and DBAs want textual SQL scripts.\n  Alembic's usage model and commands are oriented towards being able to run a\n  series of migrations into a textual output file as easily as it runs them\n  directly to a database. Care must be taken in this mode to not invoke other\n  operations that rely upon in-memory SELECTs of rows - Alembic tries to\n  provide helper constructs like bulk_insert() to help with data-oriented\n  operations that are compatible with script-based DDL.\n* Non-linear, dependency-graph versioning.   Scripts are given UUID\n  identifiers similarly to a DVCS, and the linkage of one script to the next\n  is achieved via human-editable markers within the scripts themselves.\n  The structure of a set of migration files is considered as a\n  directed-acyclic graph, meaning any migration file can be dependent\n  on any other arbitrary set of migration files, or none at\n  all.  Through this open-ended system, migration files can be organized\n  into branches, multiple roots, and mergepoints, without restriction.\n  Commands are provided to produce new branches, roots, and merges of\n  branches automatically.\n* Provide a library of ALTER constructs that can be used by any SQLAlchemy\n  application. The DDL constructs build upon SQLAlchemy's own DDLElement base\n  and can be used standalone by any application or script.\n* At long last, bring SQLite and its inability to ALTER things into the fold,\n  but in such a way that SQLite's very special workflow needs are accommodated\n  in an explicit way that makes the most of a bad situation, through the\n  concept of a \"batch\" migration, where multiple changes to a table can\n  be batched together to form a series of instructions for a single, subsequent\n  \"move-and-copy\" workflow.   You can even use \"move-and-copy\" workflow for\n  other databases, if you want to recreate a table in the background\n  on a busy system.\n\nDocumentation and status of Alembic is at https://alembic.sqlalchemy.org/\n\nThe SQLAlchemy Project\n======================\n\nAlembic is part of the `SQLAlchemy Project <https://www.sqlalchemy.org>`_ and\nadheres to the same standards and conventions as the core project.\n\nDevelopment / Bug reporting / Pull requests\n___________________________________________\n\nPlease refer to the\n`SQLAlchemy Community Guide <https://www.sqlalchemy.org/develop.html>`_ for\nguidelines on coding and participating in this project.\n\nCode of Conduct\n_______________\n\nAbove all, SQLAlchemy places great emphasis on polite, thoughtful, and\nconstructive communication between users and developers.\nPlease see our current Code of Conduct at\n`Code of Conduct <https://www.sqlalchemy.org/codeofconduct.html>`_.\n\nLicense\n=======\n\nAlembic is distributed under the `MIT license\n<https://opensource.org/licenses/MIT>`_.\n",
+        "description_content_type": "text/x-rst",
+        "author_email": "Mike Bayer <mike_mp@zzzcomputing.com>",
+        "license_expression": "MIT",
+        "license_file": [
+          "LICENSE"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "Environment :: Console",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Programming Language :: Python :: 3.15",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy",
+          "Topic :: Database :: Front-Ends"
+        ],
+        "requires_dist": [
+          "SQLAlchemy>=2.0",
+          "Mako",
+          "typing-extensions>=4.12",
+          "tomli; python_version < \"3.11\"",
+          "tzdata; extra == \"tz\""
+        ],
+        "requires_python": ">=3.10",
+        "project_url": [
+          "Homepage, https://alembic.sqlalchemy.org",
+          "Documentation, https://alembic.sqlalchemy.org/en/latest/",
+          "Changelog, https://alembic.sqlalchemy.org/en/latest/changelog.html",
+          "Source, https://github.com/sqlalchemy/alembic/",
+          "Issue Tracker, https://github.com/sqlalchemy/alembic/issues/"
+        ],
+        "provides_extra": [
+          "tz"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/fc/75/0576b03f7889ad25b5385b4f6c69e0543713425a6f193b056c9b0a2e65ce/formulaic-1.2.2-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=0f84ff49e3fc9dc0e68ab08a0a9427874021aa6c558e66b44dc634a35739b09b",
+          "hashes": {
+            "sha256": "0f84ff49e3fc9dc0e68ab08a0a9427874021aa6c558e66b44dc634a35739b09b"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "formulaic",
+        "version": "1.2.2",
+        "summary": "An implementation of Wilkinson formulas.",
+        "description": "# <img src=\"https://raw.githubusercontent.com/matthewwardrop/formulaic/main/docsite/docs/assets/images/logo_with_text.png\" alt=\"Formulaic\" height=100/>\n\n[![PyPI - Version](https://img.shields.io/pypi/v/formulaic.svg)](https://pypi.org/project/formulaic/)\n![PyPI - Python Version](https://img.shields.io/pypi/pyversions/formulaic.svg)\n![PyPI - Status](https://img.shields.io/pypi/status/formulaic.svg)\n[![build](https://img.shields.io/github/actions/workflow/status/matthewwardrop/formulaic/tests.yml?branch=main)](https://github.com/matthewwardrop/formulaic/actions?query=workflow%3A%22Run+Tox+Tests%22)\n[![docs](https://img.shields.io/github/actions/workflow/status/matthewwardrop/formulaic/publish_docs.yml?label=docs)](https://matthewwardrop.github.io/formulaic/)\n[![codecov](https://codecov.io/gh/matthewwardrop/formulaic/branch/main/graph/badge.svg)](https://codecov.io/gh/matthewwardrop/formulaic)\n[![Code Style](https://img.shields.io/badge/code%20style-black-black)](https://github.com/psf/black)\n\nFormulaic is a high-performance implementation of Wilkinson formulas for Python.\n\n- **Documentation**: https://matthewwardrop.github.io/formulaic\n- **Source Code**: https://github.com/matthewwardrop/formulaic\n- **Issue tracker**: https://github.com/matthewwardrop/formulaic/issues\n\n\nIt provides:\n\n- high-performance dataframe to model-matrix conversions.\n- support for reusing the encoding choices made during conversion of one data-set on other datasets.\n- extensible formula parsing.\n- extensible data input/output plugins, with implementations for:\n  - input:\n    - `pandas.DataFrame`\n    - Any dataframe representation supported by [`narwhals`](https://narwhals-dev.github.io/narwhals/) including\n      - `pyarrow.Table`\n      - `polars.DataFrame`\n      - ...\n  - output:\n    - `pandas.DataFrame`\n    - `numpy.ndarray`\n    - `scipy.sparse.CSCMatrix`\n    - `narwhals` dataframe passthrough when using narwhals dataframes.\n- support for symbolic differentiation of formulas (and hence model matrices).\n- and much more.\n\n## Example code\n\n```python\nimport pandas\nfrom formulaic import Formula\n\ndf = pandas.DataFrame({\n    'y': [0, 1, 2],\n    'x': ['A', 'B', 'C'],\n    'z': [0.3, 0.1, 0.2],\n})\n\ny, X = Formula('y ~ x + z').get_model_matrix(df)\n```\n\n`y = `\n<table border=\"1\" class=\"dataframe\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th></th>\n      <th>y</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th>0</th>\n      <td>0</td>\n    </tr>\n    <tr>\n      <th>1</th>\n      <td>1</td>\n    </tr>\n    <tr>\n      <th>2</th>\n      <td>2</td>\n    </tr>\n  </tbody>\n</table>\n\n`X = `\n<table border=\"1\" class=\"dataframe\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th></th>\n      <th>Intercept</th>\n      <th>x[T.B]</th>\n      <th>x[T.C]</th>\n      <th>z</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th>0</th>\n      <td>1.0</td>\n      <td>0</td>\n      <td>0</td>\n      <td>0.3</td>\n    </tr>\n    <tr>\n      <th>1</th>\n      <td>1.0</td>\n      <td>1</td>\n      <td>0</td>\n      <td>0.1</td>\n    </tr>\n    <tr>\n      <th>2</th>\n      <td>1.0</td>\n      <td>0</td>\n      <td>1</td>\n      <td>0.2</td>\n    </tr>\n  </tbody>\n</table>\n\nNote that the above can be short-handed to:\n\n```python\nfrom formulaic import model_matrix\nmodel_matrix('y ~ x + z', df)\n```\n\n## Benchmarks\n\nFormulaic typically outperforms R for both dense and sparse model matrices, and vastly outperforms `patsy` (the existing implementation for Python) for dense matrices (`patsy` does not support sparse model matrix output).\n\n![Benchmarks](https://github.com/matthewwardrop/formulaic/raw/main/benchmarks/benchmarks.png)\n\nFor more details, see [here](benchmarks/README.md).\n\n## Related projects and prior art\n\n- [Patsy](https://github.com/pydata/patsy): a prior implementation of Wilkinson formulas for Python, which is widely used (e.g. in statsmodels). It has fantastic documentation (which helped bootstrap this project), and a rich array of features.\n- [StatsModels.jl `@formula`](https://juliastats.org/StatsModels.jl/stable/formula/): The implementation of Wilkinson formulas for Julia.\n- [R Formulas](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/formula): The implementation of Wilkinson formulas for R, which is thoroughly introduced [here](https://cran.r-project.org/web/packages/Formula/vignettes/Formula.pdf). [R itself is an implementation of [S](https://en.wikipedia.org/wiki/S_%28programming_language%29), in which formulas were first made popular].\n- The work that started it all: Wilkinson, G. N., and C. E. Rogers. Symbolic description of factorial models for analysis of variance. J. Royal Statistics Society 22, pp. 392–399, 1973.\n\n## Used by\n\nBelow are some of the projects that use Formulaic:\n\n- [Glum](https://github.com/Quantco/glum): High performance Python GLM's with all the features.\n- [Lifelines](https://github.com/camDavidsonPilon/lifelines): Survival analysis in Python.\n- [Linearmodels](https://github.com/bashtage/linearmodels): Additional linear models including instrumental variable and panel data models that are missing from statsmodels.\n- [Pyfixest](https://github.com/s3alfisc/pyfixest): Fast High-Dimensional Fixed Effects Regression in Python following fixest-syntax.\n- [Tabmat](https://github.com/Quantco/tabmat): Efficient matrix representations for working with tabular data.\n- Add your project here!\n",
+        "description_content_type": "text/markdown",
+        "author_email": "Matthew Wardrop <mpwardrop@gmail.com>",
+        "license_expression": "MIT",
+        "license_file": [
+          "LICENSE"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Environment :: Console",
+          "Intended Audience :: Developers",
+          "Intended Audience :: Information Technology",
+          "Intended Audience :: Science/Research",
+          "License :: OSI Approved :: MIT License",
+          "Natural Language :: English",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Topic :: Scientific/Engineering :: Mathematics"
+        ],
+        "requires_dist": [
+          "interface-meta>=1.2.0",
+          "narwhals>=1.17",
+          "numpy>=1.20.0",
+          "pandas>=1.3",
+          "scipy>=1.6",
+          "typing-extensions>=4.2.0",
+          "wrapt>=1.0; python_version < '3.13'",
+          "wrapt>=1.17.0rc1; python_version >= '3.13'",
+          "pyarrow>=1; extra == 'arrow'",
+          "sympy!=1.10,>=1.3; extra == 'calculus'",
+          "polars>=1; extra == 'polars'"
+        ],
+        "requires_python": ">=3.9",
+        "project_url": [
+          "repository, https://github.com/matthewwardrop/formulaic",
+          "documentation, https://matthewwardrop.github.io/formulaic"
+        ],
+        "provides_extra": [
+          "arrow",
+          "calculus",
+          "polars"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/20/70/cd3cf5cff538323076a879edef02cce6f13f7d75e03d12f211b0a0dbd178/patsy-1.0.3-py2.py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=d3dbebe8fd5f46e29912d030b63c6268647b59bf788a99e2af28a30234cf357c",
+          "hashes": {
+            "sha256": "d3dbebe8fd5f46e29912d030b63c6268647b59bf788a99e2af28a30234cf357c"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "patsy",
+        "version": "1.0.3",
+        "dynamic": [
+          "author",
+          "author-email",
+          "classifier",
+          "description",
+          "description-content-type",
+          "home-page",
+          "license",
+          "license-file",
+          "provides-extra",
+          "requires-dist",
+          "requires-python",
+          "summary"
+        ],
+        "summary": "A Python package for describing statistical models and for building design matrices.",
+        "description": "# Patsy\n\n**Notice:** `patsy` is no longer under active development. As of August 2021,\nMatthew Wardrop (@matthewwardrop) and Tomás Capretto (@tomicapretto) have taken\non responsibility from Nathaniel Smith (@njsmith) for keeping the lights on, but\nno new feature development is planned. The spiritual successor of this project\nis [Formulaic](https://github.com/matthewwardrop/formulaic), and we\nrecommend that users [migrate](https://matthewwardrop.github.io/formulaic/migration/)\nwhen possible. For the time being, until major software packages have successfully\ntransitioned, we will attempt to keep `patsy` working in its current state with\ncurrent releases in the Python ecosystem.\n\n---\n\nPatsy is a Python library for describing statistical models\n(especially linear models, or models that have a linear component) and\nbuilding design matrices. Patsy brings the convenience of [R](http://www.r-project.org/) \"formulas\" to Python.\n\n[![PyPI - Version](https://img.shields.io/pypi/v/patsy.svg)](https://pypi.org/project/spec-classes/)\n![PyPI - Python Version](https://img.shields.io/pypi/pyversions/patsy.svg)\n![https://patsy.readthedocs.io/](https://img.shields.io/badge/docs-read%20now-blue.svg)\n![PyPI - Status](https://img.shields.io/pypi/status/patsy.svg)\n[![https://coveralls.io/r/pydata/patsy?branch=master](https://coveralls.io/repos/pydata/patsy/badge.png?branch=master)](https://coveralls.io/github/pydata/patsy)\n![https://doi.org/10.5281/zenodo.592075](https://zenodo.org/badge/DOI/10.5281/zenodo.592075.svg)\n\n- **Documentation:** <https://patsy.readthedocs.io/>\n- **Downloads:** <http://pypi.python.org/pypi/patsy/>\n- **Code and issues:** <https://github.com/pydata/patsy>\n- **Mailing list:** <pydata@googlegroups.com> (<http://groups.google.com/group/pydata>)\n\n\n## Dependencies\n\n  * Python (3.6+)\n  * numpy\n  * Optional:\n    * pytest/pytest-cov: needed to run tests\n    * scipy: needed for spline-related functions like ``bs``\n\n## Installation\n  ``pip install patsy`` (or, for traditionalists: ``python setup.py install``)\n\n## License\n\n2-clause BSD, see LICENSE.txt for details.\n",
+        "description_content_type": "text/markdown",
+        "home_page": "https://github.com/pydata/patsy",
+        "author": "Nathaniel J. Smith",
+        "author_email": "njs@pobox.com",
+        "license": "2-clause BSD",
+        "license_file": [
+          "LICENSE.txt"
+        ],
+        "classifier": [
+          "Development Status :: 6 - Mature",
+          "Intended Audience :: Developers",
+          "Intended Audience :: Science/Research",
+          "Intended Audience :: Financial and Insurance Industry",
+          "License :: OSI Approved :: BSD License",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.6",
+          "Programming Language :: Python :: 3.7",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Topic :: Scientific/Engineering"
+        ],
+        "requires_dist": [
+          "numpy>=1.4",
+          "packaging",
+          "pytest; extra == \"test\"",
+          "pytest-cov; extra == \"test\"",
+          "scipy; extra == \"test\""
+        ],
+        "requires_python": ">=3.6",
+        "provides_extra": [
+          "test"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/ad/d8/8fbe61673b1bb9f5e98d9a9b28455d408ed8bbf6efaf0b03db13357c763d/sqlalchemy-2.1.6-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "archive_info": {
+          "hash": "sha256=d5e4b4dcf85d7f289def0e3167f15aaad101b7744a065fb2019476edf306712c",
+          "hashes": {
+            "sha256": "d5e4b4dcf85d7f289def0e3167f15aaad101b7744a065fb2019476edf306712c"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "SQLAlchemy",
+        "version": "2.1.6",
+        "dynamic": [
+          "license-file"
+        ],
+        "summary": "Database Abstraction Library",
+        "description": "SQLAlchemy\n==========\n\n|PyPI| |Python| |Downloads|\n\n.. |PyPI| image:: https://img.shields.io/pypi/v/sqlalchemy\n    :target: https://pypi.org/project/sqlalchemy\n    :alt: PyPI\n\n.. |Python| image:: https://img.shields.io/pypi/pyversions/sqlalchemy\n    :target: https://pypi.org/project/sqlalchemy\n    :alt: PyPI - Python Version\n\n.. |Downloads| image:: https://static.pepy.tech/badge/sqlalchemy/month\n    :target: https://pepy.tech/project/sqlalchemy\n    :alt: PyPI - Downloads\n\n\nThe Python SQL Toolkit and Object Relational Mapper\n\nIntroduction\n-------------\n\nSQLAlchemy is the Python SQL toolkit and Object Relational Mapper\nthat gives application developers the full power and\nflexibility of SQL. SQLAlchemy provides a full suite\nof well known enterprise-level persistence patterns,\ndesigned for efficient and high-performing database\naccess, adapted into a simple and Pythonic domain\nlanguage.\n\nMajor SQLAlchemy features include:\n\n* An industrial strength ORM, built\n  from the core on the identity map, unit of work,\n  and data mapper patterns.   These patterns\n  allow transparent persistence of objects\n  using a declarative configuration system.\n  Domain models\n  can be constructed and manipulated naturally,\n  and changes are synchronized with the\n  current transaction automatically.\n* A relationally-oriented query system, exposing\n  the full range of SQL's capabilities\n  explicitly, including joins, subqueries,\n  correlation, and most everything else,\n  in terms of the object model.\n  Writing queries with the ORM uses the same\n  techniques of relational composition you use\n  when writing SQL.  While you can drop into\n  literal SQL at any time, it's virtually never\n  needed.\n* A comprehensive and flexible system\n  of eager loading for related collections and objects.\n  Collections are cached within a session,\n  and can be loaded on individual access, all\n  at once using joins, or by query per collection\n  across the full result set.\n* A Core SQL construction system and DBAPI\n  interaction layer.  The SQLAlchemy Core is\n  separate from the ORM and is a full database\n  abstraction layer in its own right, and includes\n  an extensible Python-based SQL expression\n  language, schema metadata, connection pooling,\n  type coercion, and custom types.\n* Primary and foreign key constraints may be composite and natural. Surrogate\n  integer primary keys are of course still the\n  norm, but SQLAlchemy never assumes or hardcodes\n  to this model.\n* Database introspection and generation.  Database\n  schemas can be \"reflected\" in one step into\n  Python structures representing database metadata;\n  those same structures can then generate\n  CREATE statements right back out - all within\n  the Core, independent of the ORM.\n\nSQLAlchemy's philosophy:\n\n* SQL databases behave less and less like object\n  collections the more size and performance start to\n  matter; object collections behave less and less like\n  tables and rows the more abstraction starts to matter.\n  SQLAlchemy aims to accommodate both of these\n  principles.\n* An ORM doesn't need to hide the \"R\".   A relational\n  database provides rich, set-based functionality\n  that should be fully exposed.   SQLAlchemy's\n  ORM provides an open-ended set of patterns\n  that allow a developer to construct a custom\n  mediation layer between a domain model and\n  a relational schema, turning the so-called\n  \"object relational impedance\" issue into\n  a distant memory.\n* The developer, in all cases, makes all decisions\n  regarding the design, structure, and naming conventions\n  of both the object model as well as the relational\n  schema.   SQLAlchemy only provides the means\n  to automate the execution of these decisions.\n* With SQLAlchemy, there's no such thing as\n  \"the ORM generated a bad query\" - you\n  retain full control over the structure of\n  queries, including how joins are organized,\n  how subqueries and correlation is used, what\n  columns are requested.  Everything SQLAlchemy\n  does is ultimately the result of a developer-initiated \n  decision.\n* Don't use an ORM if the problem doesn't need one.\n  SQLAlchemy consists of a Core and separate ORM\n  component.   The Core offers a full SQL expression\n  language that allows Pythonic construction\n  of SQL constructs that render directly to SQL\n  strings for a target database, returning\n  result sets that are essentially enhanced DBAPI\n  cursors.\n* Transactions should be the norm.  With SQLAlchemy's\n  ORM, nothing goes to permanent storage until\n  commit() is called.  SQLAlchemy encourages applications\n  to create a consistent means of delineating\n  the start and end of a series of operations.\n* Never render a literal value in a SQL statement.\n  Bound parameters are used to the greatest degree\n  possible, allowing query optimizers to cache\n  query plans effectively and making SQL injection\n  attacks a non-issue.\n\nDocumentation\n-------------\n\nLatest documentation is at:\n\nhttps://www.sqlalchemy.org/docs/\n\nInstallation / Requirements\n---------------------------\n\nFull documentation for installation is at\n`Installation <https://www.sqlalchemy.org/docs/intro.html#installation>`_.\n\nGetting Help / Development / Bug reporting\n------------------------------------------\n\nPlease refer to the `SQLAlchemy Community Guide <https://www.sqlalchemy.org/support.html>`_.\n\nCode of Conduct\n---------------\n\nAbove all, SQLAlchemy places great emphasis on polite, thoughtful, and\nconstructive communication between users and developers.\nPlease see our current Code of Conduct at\n`Code of Conduct <https://www.sqlalchemy.org/codeofconduct.html>`_.\n\nLicense\n-------\n\nSQLAlchemy is distributed under the `MIT license\n<https://www.opensource.org/licenses/mit-license.php>`_.\n\n",
+        "description_content_type": "text/x-rst",
+        "author_email": "Mike Bayer <mike_mp@zzzcomputing.com>",
+        "license_expression": "MIT",
+        "license_file": [
+          "LICENSE",
+          "AUTHORS"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Programming Language :: Python :: 3.15",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy",
+          "Topic :: Database :: Front-Ends"
+        ],
+        "requires_dist": [
+          "typing-extensions>=4.6.0",
+          "greenlet>=1; extra == \"asyncio\"",
+          "mypy>=2.4; extra == \"mypy\"",
+          "types-greenlet>=2; extra == \"mypy\"",
+          "pyodbc; extra == \"mssql\"",
+          "pymssql; extra == \"mssql-pymssql\"",
+          "pyodbc; extra == \"mssql-pyodbc\"",
+          "mssql-python>=1.9.0; extra == \"mssql-python\"",
+          "mysqlclient>=1.4.0; extra == \"mysql\"",
+          "mysql-connector-python; extra == \"mysql-connector\"",
+          "mariadb!=1.1.10,!=1.1.2,!=1.1.5,>=1.0.1; extra == \"mariadb-connector\"",
+          "oracledb>=2.0.1; extra == \"oracle\"",
+          "cx_oracle>=8; extra == \"oracle-cxoracle\"",
+          "oracledb>=2.0.1; extra == \"oracle-oracledb\"",
+          "psycopg!=3.1.15,>=3.0.7; extra == \"postgresql\"",
+          "pg8000>=1.29.3; extra == \"postgresql-pg8000\"",
+          "sqlalchemy[asyncio]; extra == \"postgresql-asyncpg\"",
+          "asyncpg; extra == \"postgresql-asyncpg\"",
+          "psycopg2-binary; extra == \"postgresql-psycopg2binary\"",
+          "psycopg2cffi; extra == \"postgresql-psycopg2cffi\"",
+          "psycopg!=3.1.15,>=3.0.7; extra == \"postgresql-psycopg\"",
+          "psycopg[binary]!=3.1.15,>=3.0.7; extra == \"postgresql-psycopgbinary\"",
+          "pymysql; extra == \"pymysql\"",
+          "cymysql; extra == \"cymysql\"",
+          "sqlalchemy[asyncio]; extra == \"aiomysql\"",
+          "aiomysql; extra == \"aiomysql\"",
+          "sqlalchemy[asyncio]; extra == \"aioodbc\"",
+          "aioodbc; extra == \"aioodbc\"",
+          "sqlalchemy[asyncio]; extra == \"asyncmy\"",
+          "asyncmy>=0.2.12; extra == \"asyncmy\"",
+          "sqlalchemy[asyncio]; extra == \"aiosqlite\"",
+          "aiosqlite; extra == \"aiosqlite\"",
+          "sqlcipher3_binary; extra == \"sqlcipher\""
+        ],
+        "requires_python": ">=3.11",
+        "project_url": [
+          "Homepage, https://www.sqlalchemy.org",
+          "Documentation, https://docs.sqlalchemy.org",
+          "Changelog, https://docs.sqlalchemy.org/latest/changelog/index.html",
+          "Source Code, https://github.com/sqlalchemy/sqlalchemy",
+          "Issue Tracker, https://github.com/sqlalchemy/sqlalchemy/issues",
+          "Discussions, https://github.com/sqlalchemy/sqlalchemy/discussions"
+        ],
+        "provides_extra": [
+          "asyncio",
+          "mypy",
+          "mssql",
+          "mssql-pymssql",
+          "mssql-pyodbc",
+          "mssql-python",
+          "mysql",
+          "mysql-connector",
+          "mariadb-connector",
+          "oracle",
+          "oracle-cxoracle",
+          "oracle-oracledb",
+          "postgresql",
+          "postgresql-pg8000",
+          "postgresql-asyncpg",
+          "postgresql-psycopg2binary",
+          "postgresql-psycopg2cffi",
+          "postgresql-psycopg",
+          "postgresql-psycopgbinary",
+          "pymysql",
+          "cymysql",
+          "aiomysql",
+          "aioodbc",
+          "asyncmy",
+          "aiosqlite",
+          "sqlcipher"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/d4/19/0b6647bf5e331521e55d2b63bfbdc210bd9cd605189273f03614a05f702d/colorlog-6.12.0-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=30d392604e9110045a2c2aeefc27d7a017abbab63f3a8aee594eac0801df784e",
+          "hashes": {
+            "sha256": "30d392604e9110045a2c2aeefc27d7a017abbab63f3a8aee594eac0801df784e"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "colorlog",
+        "version": "6.12.0",
+        "dynamic": [
+          "author",
+          "author-email",
+          "classifier",
+          "description",
+          "description-content-type",
+          "home-page",
+          "license",
+          "license-file",
+          "provides-extra",
+          "requires-python",
+          "summary"
+        ],
+        "summary": "Add colours to the output of Python's logging module.",
+        "description": "# Log formatting with colors!\n\n[![](https://img.shields.io/pypi/v/colorlog.svg)](https://pypi.org/project/colorlog/)\n[![](https://img.shields.io/pypi/l/colorlog.svg)](https://pypi.org/project/colorlog/)\n\nAdd colours to the output of Python's `logging` module.\n\n- [Source on GitHub](https://github.com/borntyping/python-colorlog)\n- [Package on PyPI](https://pypi.org/pypi/colorlog/)\n\n## Status\n\ncolorlog currently requires Python 3.6 or higher. Older versions (below 5.x.x)\nsupport Python 2.6 and above.\n\n- colorlog 6.x requires Python 3.6 or higher.\n- colorlog 5.x is an interim version that will warn Python 2 users to downgrade.\n- colorlog 4.x is the final version supporting Python 2.\n\n[colorama] is included as a dependency on Windows, where it is automatically\ninitialised to support colored output.\n\nThis library is over a decade old and supported a wide set of Python versions\nfor most of its life, which has made it a difficult library to add new features\nto. colorlog 6 may break backwards compatibility so that newer features\ncan be added more easily, but may still not accept all changes or feature\nrequests. colorlog 4 might accept essential bugfixes but should not be\nconsidered actively maintained and will not accept any major changes or new\nfeatures.\n\n## Installation\n\nInstall from PyPI with:\n\n```bash\npip install colorlog\n```\n\nSeveral Linux distributions provide official packages ([Debian], [Arch],\n[Fedora], [Gentoo], [OpenSuse] and [Ubuntu]), and others have user provided\npackages ([BSD ports], [Conda]).\n\n## Usage\n\n```python\nimport colorlog\n\nhandler = colorlog.StreamHandler()\nhandler.setFormatter(colorlog.ColoredFormatter())\n\nlogger = colorlog.getLogger('example')\nlogger.addHandler(handler)\n```\n\n### Arguments\n\n`ColoredFormatter` extends [`logging.Formatter`][formatter] and accepts the\nfollowing arguments:\n\n- `fmt` *(default=`None`)*: A format string used to output the message. If\n  `None`, a default format string is selected based on `style` (e.g.\n  `%(log_color)s%(levelname)s:%(name)s:%(message)s` for `%` style).\n- `datefmt`, `style`, `validate`, `defaults`: see\n  [`logging.Formatter`][formatter].\n- `reset` *(default=`True`)*: Implicitly adds a color reset code to the\n  message output, unless the output already ends with one.\n- `log_colors` *(default=`None`)*: A mapping of record level names to color\n  names. If `None`, `colorlog.default_log_colors` is used.\n- `secondary_log_colors` *(default=`None`)*: A mapping of names to `log_colors`\n  style mappings, defining additional colors that can be used in format strings.\n  If `None`, an empty mapping is used.\n- `stream` *(default=`None`)*: The stream being written to (e.g. `sys.stderr`).\n  Used to detect whether the output is a TTY. Colors are disabled automatically\n  on non-TTY streams unless `force_color` is set.\n- `no_color` *(default=`False`)*: Disable color output. Can also be set via the\n  `NO_COLOR` environment variable.\n- `force_color` *(default=`False`)*: Force color output even on non-TTY streams.\n  Takes precedence over `no_color`. Can also be set via the `FORCE_COLOR`\n  environment variable.\n\n### Color escape codes\n\nColor escape codes can be selected based on the log records level, by adding\nparameters to the format string:\n\n- `log_color`: Return the color associated with the records level.\n- `<name>_log_color`: Return another color based on the records level if the\n  formatter has secondary colors configured (see `secondary_log_colors` below).\n\nMultiple escape codes can be used at once by joining them with commas when\nconfiguring the color for a log level (but can't be used directly in the format\nstring). For example, `black,bg_white` would use the escape codes for black\ntext on a white background.\n\nThe following escape codes are made available for use in the format string:\n\n- `{color}`, `fg_{color}`, `bg_{color}`: Foreground and background colors.\n- `bold`, `bold_{color}`, `fg_bold_{color}`, `bg_bold_{color}`: Bold/bright\n  colors.\n- `thin`, `thin_{color}`, `fg_thin_{color}`: Thin colors (terminal dependent).\n- `reset`: Clear all formatting (both foreground and background colors).\n\nThe available color names are:\n\n- `black`\n- `red`\n- `green`\n- `yellow`\n- `blue`\n- `purple`\n- `cyan`\n- `white`\n\nYou can also use \"bright\" colors. These aren't standard ANSI codes, and\nsupport for these varies wildly across different terminals.\n\n- `light_black`\n- `light_red`\n- `light_green`\n- `light_yellow`\n- `light_blue`\n- `light_purple`\n- `light_cyan`\n- `light_white`\n\nIn addition to pre-defined color names, you can use integers from 0 to 255 for\n256-color support (e.g. `fg_196`, `bg_42`).\n\n## Examples\n\n![Example output](docs/example.png)\n\nThe following snippet creates a `ColoredFormatter` for use in a logging setup,\nwith a custom format string and log colors:\n\n```python\nfrom colorlog import ColoredFormatter\n\nformatter = ColoredFormatter(\n\t\"%(log_color)s%(levelname)-8s%(reset)s %(blue)s%(message)s\",\n\tlog_colors={\n\t\t\"DEBUG\": \"cyan\",\n\t\t\"INFO\": \"green\",\n\t\t\"WARNING\": \"yellow\",\n\t\t\"ERROR\": \"red\",\n\t\t\"CRITICAL\": \"red,bg_white\",\n\t}\n)\n```\n\n*See `docs/example.py` for full example script.*\n\n### Using `secondary_log_colors`\n\nSecondary log colors are a way to have more than one color that is selected\nbased on the log level. Each key in `secondary_log_colors` adds an attribute\nthat can be used in format strings (`message` becomes `message_log_color`), and\nhas a corresponding value that is identical in format to the `log_colors`\nargument.\n\nThe following example highlights the level name using the default log colors,\nand highlights the message in red for `error` and `critical` level log messages.\n\n```python\nfrom colorlog import ColoredFormatter\n\nformatter = ColoredFormatter(\n\t\"%(log_color)s%(levelname)-8s%(reset)s %(message_log_color)s%(message)s\",\n\tsecondary_log_colors={\n\t\t'message': {\n\t\t\t'ERROR': 'red',\n\t\t\t'CRITICAL': 'red'\n\t\t}\n\t}\n)\n```\n\n### With [`dictConfig`][dictconfig]\n\n```python\nlogging.config.dictConfig({\n\t'formatters': {\n\t\t'colored': {\n\t\t\t'()': 'colorlog.ColoredFormatter',\n\t\t\t'format': \"%(log_color)s%(levelname)-8s%(reset)s %(blue)s%(message)s\"\n\t\t}\n\t}\n})\n```\n\nA full example dictionary can be found in `tests/test_colorlog.py`.\n\n### With [`fileConfig`][fileconfig]\n\n```ini\n...\n\n[formatters]\nkeys=color\n\n[formatter_color]\nclass=colorlog.ColoredFormatter\nformat=%(log_color)s%(levelname)-8s%(reset)s %(bg_blue)s[%(name)s]%(reset)s %(message)s from fileConfig\ndatefmt=%m-%d %H:%M:%S\n```\n\nAn instance of ColoredFormatter created with those arguments will then be used\nby any handlers that are configured to use the `color` formatter.\n\nA full example configuration can be found in `tests/test_config.ini`.\n\n### With custom log levels\n\nColoredFormatter will work with custom log levels added with\n[`logging.addLevelName`][addlevelname]:\n\n```python\nimport logging, colorlog\nTRACE = 5\nlogging.addLevelName(TRACE, 'TRACE')\nformatter = colorlog.ColoredFormatter(log_colors={'TRACE': 'yellow'})\nhandler = logging.StreamHandler()\nhandler.setFormatter(formatter)\nlogger = logging.getLogger('example')\nlogger.addHandler(handler)\nlogger.setLevel('TRACE')\nlogger.log(TRACE, 'a message using a custom level')\n```\n\n## Tests\n\nTests similar to the above examples are found in `tests/test_colorlog.py`.\n\n## Status\n\ncolorlog is in maintenance mode. I try and ensure bugfixes are published,\nbut compatibility a wide set of Python versions makes this a difficult\ncodebase to add features to. Any changes that might break backwards\ncompatibility for existing users will not be considered.\n\n## Alternatives\n\nThere are some more modern libraries for improving Python logging you may\nfind useful.\n\n- [structlog]\n- [jsonlog]\n\n## Projects using colorlog\n\nGitHub provides [a list of projects that depend on colorlog][dependents].\n\nSome early adopters included [Errbot], [Pythran], and [zenlog].\n\n## Licence\n\nCopyright (c) 2012-2025 Sam Clements <sam@borntyping.co.uk>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the \"Software\"), to deal in\nthe Software without restriction, including without limitation the rights to\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of\nthe Software, and to permit persons to whom the Software is furnished to do so,\nsubject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR\nCOPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER\nIN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN\nCONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n[addlevelname]: https://docs.python.org/3/library/logging.html#logging.addLevelName\n[arch]: https://archlinux.org/packages/extra/any/python-colorlog/\n[bsd ports]: https://www.freshports.org/devel/py-colorlog/\n[colorama]: https://pypi.python.org/pypi/colorama\n[conda]: https://anaconda.org/conda-forge/colorlog\n[debian]: https://packages.debian.org/trixie/python3-colorlog\n[dependents]: https://github.com/borntyping/python-colorlog/network/dependents?package_id=UGFja2FnZS01MDk3NDcyMQ%3D%3D\n[dictconfig]: http://docs.python.org/3/library/logging.config.html#logging.config.dictConfig\n[errbot]: http://errbot.io/\n[fedora]: https://src.fedoraproject.org/rpms/python-colorlog\n[fileconfig]: http://docs.python.org/3/library/logging.config.html#logging.config.fileConfig\n[formatter]: http://docs.python.org/3/library/logging.html#logging.Formatter\n[gentoo]: https://packages.gentoo.org/packages/dev-python/colorlog\n[jsonlog]: https://github.com/borntyping/jsonlog\n[opensuse]: http://rpm.pbone.net/index.php3?stat=3&search=python-colorlog&srodzaj=3\n[pythran]: https://github.com/serge-sans-paille/pythran\n[structlog]: https://www.structlog.org/en/stable/\n[ubuntu]: https://launchpad.net/python-colorlog\n[zenlog]: https://github.com/ManufacturaInd/python-zenlog\n",
+        "description_content_type": "text/markdown",
+        "home_page": "https://github.com/borntyping/python-colorlog",
+        "author": "Sam Clements",
+        "author_email": "sam@borntyping.co.uk",
+        "license": "MIT License",
+        "license_file": [
+          "LICENSE"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Environment :: Console",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: MIT License",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.6",
+          "Programming Language :: Python :: 3.7",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Topic :: Terminals",
+          "Topic :: Utilities"
+        ],
+        "requires_dist": [
+          "colorama; sys_platform == \"win32\"",
+          "black; extra == \"development\"",
+          "flake8; extra == \"development\"",
+          "mypy; extra == \"development\"",
+          "pytest; extra == \"development\"",
+          "types-colorama; extra == \"development\""
+        ],
+        "requires_python": ">=3.6",
+        "provides_extra": [
+          "development"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/a7/03/921a3d3c75785aca9ebfbfcabfbc3a1be12e2ab5265deb026d55a5a3f83e/tqdm-4.70.1-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=c293e525e6fef9c20e8728fd4612df02a0aa31bb5fe91ecd93e123b1b7bffa73",
+          "hashes": {
+            "sha256": "c293e525e6fef9c20e8728fd4612df02a0aa31bb5fe91ecd93e123b1b7bffa73"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "tqdm",
+        "version": "4.70.1",
+        "dynamic": [
+          "license-file"
+        ],
+        "summary": "Fast, Extensible Progress Meter",
+        "description": "|Logo|\n\ntqdm\n====\n\n|Py-Versions| |Versions| |Conda-Forge-Status| |Docker| |Snapcraft|\n\n|Build-Status| |Coverage-Status| |Branch-Coverage-Status| |Codacy-Grade| |Libraries-Rank| |PyPI-Downloads|\n\n|LICENCE| |OpenHub-Status| |colab-demo| |binder-demo| |awesome-python|\n\n``tqdm`` derives from the Arabic word *taqaddum* (تقدّم) which can mean \"progress,\"\nand is an abbreviation for \"I love you so much\" in Spanish (*te quiero demasiado*).\n\nInstantly make your loops show a smart progress meter - just wrap any\niterable with ``tqdm(iterable)``, and you're done!\n\n.. code:: python\n\n    from tqdm import tqdm\n    for i in tqdm(range(10000)):\n        ...\n\n``76%|████████████████████████        | 7568/10000 [00:33<00:10, 229.00it/s]``\n\n``trange(N)`` can also be used as a convenient shortcut for\n``tqdm(range(N))``.\n\n|Screenshot|\n    |Video| |Slides| |Merch|\n\nIt can also be executed as a module with pipes:\n\n.. code:: sh\n\n    $ seq 9999999 | tqdm --bytes | wc -l\n    75.2MB [00:00, 217MB/s]\n    9999999\n\n    $ tar -zcf - docs/ | tqdm --bytes --total `du -sb docs/ | cut -f1` \\\n        > backup.tgz\n     32%|██████████▍                      | 8.89G/27.9G [00:42<01:31, 223MB/s]\n\nOverhead is low -- about 60ns per iteration (80ns with ``tqdm.gui``), and is\nunit tested against performance regression.\nBy comparison, the well-established\n`ProgressBar <https://github.com/niltonvolpato/python-progressbar>`__ has\nan 800ns/iter overhead.\n\nIn addition to its low overhead, ``tqdm`` uses smart algorithms to predict\nthe remaining time and to skip unnecessary iteration displays, which allows\nfor a negligible overhead in most cases.\n\n``tqdm`` works on any platform\n(Linux, Windows, Mac, FreeBSD, NetBSD, Solaris/SunOS),\nin any console or in a GUI, and is also friendly with IPython/Jupyter notebooks.\n\n``tqdm`` does not require any dependencies (not even ``curses``!), just\nPython and an environment supporting ``carriage return \\r`` and\n``line feed \\n`` control characters.\n\n**Featured Sponsors**\n\n======== ================================================\n|OpenAI|                  Your Logo Here\n======== ================================================\nOpenAI   `Sponsors <https://github.com/sponsors/tqdm>`__\n======== ================================================\n\n.. |OpenAI| image:: https://avatars.githubusercontent.com/u/14957082?s=96\n   :target: https://openai.com\n\n------------------------------------------\n\n.. contents:: Table of contents\n   :backlinks: top\n   :local:\n\n\nInstallation\n------------\n\nLatest PyPI stable release\n~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n|Versions| |PyPI-Downloads| |Libraries-Dependents|\n\n.. code:: sh\n\n    pip install tqdm\n\nLatest development release on GitHub\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n|GitHub-Status| |GitHub-Stars| |GitHub-Commits| |GitHub-Forks| |GitHub-Updated|\n\nPull and install pre-release ``devel`` branch:\n\n.. code:: sh\n\n    pip install \"git+https://github.com/tqdm/tqdm.git@devel#egg=tqdm\"\n\nLatest Conda release\n~~~~~~~~~~~~~~~~~~~~\n\n|Conda-Forge-Status|\n\n.. code:: sh\n\n    conda install -c conda-forge tqdm\n\nLatest Snapcraft release\n~~~~~~~~~~~~~~~~~~~~~~~~\n\n|Snapcraft|\n\nThere are 3 channels to choose from:\n\n.. code:: sh\n\n    snap install tqdm  # implies --stable, i.e. latest tagged release\n    snap install tqdm  --candidate  # master branch\n    snap install tqdm  --edge  # devel branch\n\nNote that ``snap`` binaries are purely for CLI use (not ``import``-able), and\nautomatically set up ``bash`` tab-completion.\n\nLatest Docker release\n~~~~~~~~~~~~~~~~~~~~~\n\n|Docker|\n\n.. code:: sh\n\n    docker pull tqdm/tqdm\n    docker run -i --rm tqdm/tqdm --help\n\nOther\n~~~~~\n\nThere are other (unofficial) places where ``tqdm`` may be downloaded, particularly for CLI use:\n\n|Repology|\n\n.. |Repology| image:: https://repology.org/badge/tiny-repos/python:tqdm.svg\n   :target: https://repology.org/project/python:tqdm/versions\n\nChangelog\n---------\n\nThe list of all changes is available either on GitHub's Releases:\n|GitHub-Status|, on the\n`wiki <https://github.com/tqdm/tqdm/wiki/Releases>`__, or on the\n`website <https://tqdm.github.io/releases>`__.\n\n\nUsage\n-----\n\n``tqdm`` is very versatile and can be used in a number of ways.\nThe three main ones are given below.\n\nIterable-based\n~~~~~~~~~~~~~~\n\nWrap ``tqdm()`` around any iterable:\n\n.. code:: python\n\n    from tqdm import tqdm\n    from time import sleep\n\n    text = \"\"\n    for char in tqdm([\"a\", \"b\", \"c\", \"d\"]):\n        sleep(0.25)\n        text = text + char\n\n``trange(i)`` is a special optimised instance of ``tqdm(range(i))``:\n\n.. code:: python\n\n    from tqdm import trange\n\n    for i in trange(100):\n        sleep(0.01)\n\nInstantiation outside of the loop allows for manual control over ``tqdm()``:\n\n.. code:: python\n\n    pbar = tqdm([\"a\", \"b\", \"c\", \"d\"])\n    for char in pbar:\n        sleep(0.25)\n        pbar.set_description(\"Processing %s\" % char)\n\nManual\n~~~~~~\n\nManual control of ``tqdm()`` updates using a ``with`` statement:\n\n.. code:: python\n\n    with tqdm(total=100) as pbar:\n        for i in range(10):\n            sleep(0.1)\n            pbar.update(10)\n\nIf the optional variable ``total`` (or an iterable with ``len()``) is\nprovided, predictive stats are displayed.\n\n``with`` is also optional (you can just assign ``tqdm()`` to a variable,\nbut in this case don't forget to ``del`` or ``close()`` at the end:\n\n.. code:: python\n\n    pbar = tqdm(total=100)\n    for i in range(10):\n        sleep(0.1)\n        pbar.update(10)\n    pbar.close()\n\nModule\n~~~~~~\n\nPerhaps the most wonderful use of ``tqdm`` is in a script or on the command\nline. Simply inserting ``tqdm`` (or ``python -m tqdm``) between pipes will pass\nthrough all ``stdin`` to ``stdout`` while printing progress to ``stderr``.\n\nThe example below demonstrate counting the number of lines in all Python files\nin the current directory, with timing information included.\n\n.. code:: sh\n\n    $ time find . -name '*.py' -type f -exec cat \\{} \\; | wc -l\n    857365\n\n    real    0m3.458s\n    user    0m0.274s\n    sys     0m3.325s\n\n    $ time find . -name '*.py' -type f -exec cat \\{} \\; | tqdm | wc -l\n    857366it [00:03, 246471.31it/s]\n    857365\n\n    real    0m3.585s\n    user    0m0.862s\n    sys     0m3.358s\n\nNote that the usual arguments for ``tqdm`` can also be specified.\n\n.. code:: sh\n\n    $ find . -name '*.py' -type f -exec cat \\{} \\; |\n        tqdm --unit loc --unit_scale --total 857366 >> /dev/null\n    100%|█████████████████████████████████| 857K/857K [00:04<00:00, 246Kloc/s]\n\nBacking up a large directory?\n\n.. code:: sh\n\n    $ tar -zcf - docs/ | tqdm --bytes --total `du -sb docs/ | cut -f1` \\\n      > backup.tgz\n     44%|██████████████▊                   | 153M/352M [00:14<00:18, 11.0MB/s]\n\nThis can be beautified further:\n\n.. code:: sh\n\n    $ BYTES=$(du -sb docs/ | cut -f1)\n    $ tar -cf - docs/ \\\n      | tqdm --bytes --total \"$BYTES\" --desc Processing | gzip \\\n      | tqdm --bytes --total \"$BYTES\" --desc Compressed --position 1 \\\n      > ~/backup.tgz\n    Processing: 100%|██████████████████████| 352M/352M [00:14<00:00, 30.2MB/s]\n    Compressed:  42%|█████████▎            | 148M/352M [00:14<00:19, 10.9MB/s]\n\nOr done on a file level using 7-zip:\n\n.. code:: sh\n\n    $ 7z a -bd -r backup.7z docs/ | grep Compressing \\\n      | tqdm --total $(find docs/ -type f | wc -l) --unit files \\\n      | grep -v Compressing\n    100%|██████████████████████████▉| 15327/15327 [01:00<00:00, 712.96files/s]\n\nPre-existing CLI programs already outputting basic progress information will\nbenefit from ``tqdm``'s ``--update`` and ``--update_to`` flags:\n\n.. code:: sh\n\n    $ seq 3 0.1 5 | tqdm --total 5 --update_to --null\n    100%|████████████████████████████████████| 5.0/5 [00:00<00:00, 9673.21it/s]\n    $ seq 10 | tqdm --update --null  # 1 + 2 + ... + 10 = 55 iterations\n    55it [00:00, 90006.52it/s]\n\nFAQ and Known Issues\n--------------------\n\n|GitHub-Issues|\n\nThe most common issues relate to excessive output on multiple lines, instead\nof a neat one-line progress bar.\n\n- Consoles in general: require support for carriage return (``CR``, ``\\r``).\n\n  * Some cloud logging consoles which don't support ``\\r`` properly\n    (`cloudwatch <https://github.com/tqdm/tqdm/issues/966>`__,\n    `K8s <https://github.com/tqdm/tqdm/issues/1319>`__) may benefit from\n    ``export TQDM_POSITION=-1``.\n\n- Nested progress bars:\n\n  * Consoles in general: require support for moving cursors up to the\n    previous line. For example,\n    `IDLE <https://github.com/tqdm/tqdm/issues/191#issuecomment-230168030>`__,\n    `ConEmu <https://github.com/tqdm/tqdm/issues/254>`__ and\n    `PyCharm <https://github.com/tqdm/tqdm/issues/203>`__ (also\n    `here <https://github.com/tqdm/tqdm/issues/208>`__,\n    `here <https://github.com/tqdm/tqdm/issues/307>`__, and\n    `here <https://github.com/tqdm/tqdm/issues/454#issuecomment-335416815>`__)\n    lack full support.\n  * Windows: additionally may require the Python module ``colorama``\n    to ensure nested bars stay within their respective lines.\n\n- Unicode:\n\n  * Environments which report that they support unicode will have solid smooth\n    progress bars. The fallback is an ``ascii``-only bar.\n  * Windows consoles often only partially support unicode and thus\n    `often require explicit ascii=True <https://github.com/tqdm/tqdm/issues/454#issuecomment-335416815>`__\n    (also `here <https://github.com/tqdm/tqdm/issues/499>`__). This is due to\n    either normal-width unicode characters being incorrectly displayed as\n    \"wide\", or some unicode characters not rendering.\n\n- Wrapping generators:\n\n  * Generator wrapper functions tend to hide the length of iterables.\n    ``tqdm`` does not.\n  * Replace ``tqdm(enumerate(...))`` with ``enumerate(tqdm(...))`` or\n    ``tqdm(enumerate(x), total=len(x), ...)``.\n    The same applies to ``numpy.ndenumerate``.\n  * Replace ``tqdm(zip(a, b))`` with ``zip(tqdm(a), b)`` or even\n    ``zip(tqdm(a), tqdm(b))``.\n  * The same applies to ``itertools``.\n  * Some useful convenience functions can be found under ``tqdm.contrib``.\n\n- `No intermediate output in docker-compose <https://github.com/tqdm/tqdm/issues/771>`__:\n  use ``docker-compose run`` instead of ``docker-compose up`` and ``tty: true``.\n\n- Overriding defaults via environment variables:\n  e.g. in CI/cloud jobs, ``export TQDM_MININTERVAL=5`` to avoid log spam.\n  This override logic is handled by the ``tqdm.utils.envwrap`` decorator\n  (useful independent of ``tqdm``).\n\nIf you come across any other difficulties, browse and file |GitHub-Issues|.\n\nDocumentation\n-------------\n\n|Py-Versions| |README-Hits| (Since 19 May 2016)\n\n.. code:: python\n\n    class tqdm():\n      \"\"\"\n      Decorate an iterable object, returning an iterator which acts exactly\n      like the original iterable, but prints a dynamically updating\n      progress bar every time a value is requested.\n      \"\"\"\n\n      @envwrap(\"tqdm\")  # override defaults via env vars\n      def __init__(self, iterable=None, desc=None, total=None, leave=True,\n                   file=None, ncols=None, mininterval=0.1,\n                   maxinterval=10.0, miniters=None, ascii=None, disable=False,\n                   unit='it', unit_scale=False, dynamic_ncols=False,\n                   smoothing=0.3, bar_format=None, initial=0, position=None,\n                   postfix=None, unit_divisor=1000, write_bytes=False,\n                   lock_args=None, nrows=None, colour=None, delay=0):\n\nParameters\n~~~~~~~~~~\n\n* iterable  : iterable, optional  \n    Iterable to decorate with a progress bar.\n    Leave blank to manually manage the updates.\n* desc  : str, optional  \n    Prefix for the progress bar.\n* total  : int or float, optional  \n    The number of expected iterations. If unspecified,\n    len(iterable) is used if possible. If float(\"inf\") or as a last\n    resort, only basic progress statistics are displayed\n    (no ETA, no progress bar).\n    If ``gui`` is True and this parameter needs subsequent updating,\n    specify an initial arbitrary large positive number,\n    e.g. 9e9.\n* leave  : bool, optional  \n    If [default: True], keeps all traces of the progress bar\n    upon termination of iteration.\n    If ``None``, will leave only if ``position`` is ``0``.\n* file  : ``io.TextIOWrapper`` or ``io.StringIO``, optional  \n    Specifies where to output the progress messages\n    (default: sys.stderr). Uses ``file.write(str)`` and ``file.flush()``\n    methods.  For encoding, see ``write_bytes``.\n* ncols  : int, optional  \n    The width of the entire output message. If specified,\n    dynamically resizes the progress bar to stay within this bound.\n    If unspecified, attempts to use environment width. The\n    fallback is a meter width of 10 and no limit for the counter and\n    statistics. If 0, will not print any meter (only stats).\n* mininterval  : float, optional  \n    Minimum progress display update interval [default: 0.1] seconds.\n* maxinterval  : float, optional  \n    Maximum progress display update interval [default: 10] seconds.\n    Automatically adjusts ``miniters`` to correspond to ``mininterval``\n    after long display update lag. Only works if ``dynamic_miniters``\n    or monitor thread is enabled.\n* miniters  : int or float, optional  \n    Minimum progress display update interval, in iterations.\n    If 0 and ``dynamic_miniters``, will automatically adjust to equal\n    ``mininterval`` (more CPU efficient, good for tight loops).\n    If > 0, will skip display of specified number of iterations.\n    Tweak this and ``mininterval`` to get very efficient loops.\n    If your progress is erratic with both fast and slow iterations\n    (network, skipping items, etc) you should set miniters=1.\n* ascii  : bool or str, optional  \n    If unspecified or False, use unicode (smooth blocks) to fill\n    the meter. The fallback is to use ASCII characters \" 123456789#\".\n* disable  : bool, optional  \n    Whether to disable the entire progress bar wrapper\n    [default: False]. If set to None, disable on non-TTY.\n* unit  : str, optional  \n    String that will be used to define the unit of each iteration\n    [default: it].\n* unit_scale  : bool or int or float, optional  \n    If 1 or True, the number of iterations will be reduced/scaled\n    automatically and a metric prefix following the\n    International System of Units standard will be added\n    (kilo, mega, etc.) [default: False]. If any other non-zero\n    number, will scale ``total`` and ``n``.\n* dynamic_ncols  : bool, optional  \n    If set, constantly alters ``ncols`` and ``nrows`` to the\n    environment (allowing for window resizes) [default: False].\n* smoothing  : float, optional  \n    Exponential moving average smoothing factor for speed estimates\n    (ignored in GUI mode). Ranges from 0 (average speed) to 1\n    (current/instantaneous speed) [default: 0.3].\n* bar_format  : str, optional  \n    Specify a custom bar string formatting. May impact performance.\n    [default: '{l_bar}{bar}{r_bar}'], where\n    l_bar='{desc}: {percentage:3.0f}%|' and\n    r_bar='| {n_fmt}/{total_fmt} [{elapsed}<{remaining}, '\n    '{rate_fmt}{postfix}]'\n    Possible vars: l_bar, bar, r_bar, n, n_fmt, total, total_fmt,\n    percentage, elapsed, elapsed_s, ncols, nrows, desc, unit,\n    rate, rate_fmt, rate_noinv, rate_noinv_fmt,\n    rate_inv, rate_inv_fmt, postfix, unit_divisor,\n    remaining, remaining_s, eta.\n    Note that a trailing \": \" is automatically removed after {desc}\n    if the latter is empty.\n* initial  : int or float, optional  \n    The initial counter value. Useful when restarting a progress\n    bar [default: 0]. If using float, consider specifying ``{n:.3f}``\n    or similar in ``bar_format``, or specifying ``unit_scale``.\n* position  : int, optional  \n    Specify the line offset to print this bar (starting from 0)\n    Automatic if unspecified.\n    Useful to manage multiple bars at once (eg, from threads).\n* postfix  : dict or ``*``, optional  \n    Specify additional stats to display at the end of the bar.\n    Calls ``set_postfix(**postfix)`` if possible (dict).\n* unit_divisor  : float, optional  \n    [default: 1000], ignored unless ``unit_scale`` is True.\n* write_bytes  : bool, optional  \n    Whether to write bytes. If (default: False) will write unicode.\n* lock_args  : tuple, optional  \n    Passed to ``refresh`` for intermediate output\n    (initialisation, iterating, and updating).\n* nrows  : int, optional  \n    The screen height. If specified, hides nested bars outside this\n    bound. If unspecified, attempts to use environment height.\n    The fallback is 20.\n* colour  : str, optional  \n    Bar colour (e.g. 'green', '#00ff00').\n* delay  : float, optional  \n    Don't display until [default: 0] seconds have elapsed.\n\nExtra CLI Options\n~~~~~~~~~~~~~~~~~\n\n* delim  : chr, optional  \n    Delimiting character [default: '\\n']. Use '\\0' for null.\n    N.B.: on Windows systems, Python converts '\\n' to '\\r\\n'.\n* buf_size  : int, optional  \n    String buffer size in bytes [default: 256]\n    used when ``delim`` is specified.\n* bytes  : bool, optional  \n    If true, will count bytes, ignore ``delim``, and default\n    ``unit_scale`` to True, ``unit_divisor`` to 1024, and ``unit`` to 'B'.\n* tee  : bool, optional  \n    If true, passes ``stdin`` to both ``stderr`` and ``stdout``.\n* update  : bool, optional  \n    If true, will treat input as newly elapsed iterations,\n    i.e. numbers to pass to ``update()``. Note that this is slow\n    (~2e5 it/s) since every input must be decoded as a number.\n* update_to  : bool, optional  \n    If true, will treat input as total elapsed iterations,\n    i.e. numbers to assign to ``self.n``. Note that this is slow\n    (~2e5 it/s) since every input must be decoded as a number.\n* null  : bool, optional  \n    If true, will discard input (no stdout).\n* manpath  : str, optional  \n    Directory in which to install tqdm man pages.\n* comppath  : str, optional  \n    Directory in which to place tqdm completion.\n* log  : str, optional  \n    CRITICAL|FATAL|ERROR|WARN(ING)|[default: 'INFO']|DEBUG|NOTSET.\n\nReturns\n~~~~~~~\n\n* out  : decorated iterator.  \n\n.. code:: python\n\n    class tqdm():\n      def update(self, n=1):\n          \"\"\"\n          Manually update the progress bar, useful for streams\n          such as reading files.\n          E.g.:\n          >>> t = tqdm(total=filesize) # Initialise\n          >>> for current_buffer in stream:\n          ...    ...\n          ...    t.update(len(current_buffer))\n          >>> t.close()\n          The last line is highly recommended, but possibly not necessary if\n          `t.update()` will be called in such a way that `filesize` will be\n          exactly reached and printed.\n\n          Parameters\n          ----------\n          n  : int or float, optional\n              Increment to add to the internal counter of iterations\n              [default: 1]. If using float, consider specifying `{n:.3f}`\n              or similar in `bar_format`, or specifying `unit_scale`.\n\n          Returns\n          -------\n          out  : bool or None\n              True if a `display()` was triggered.\n          \"\"\"\n\n      def close(self):\n          \"\"\"Cleanup and (if leave=False) close the progress bar.\"\"\"\n\n      def clear(self, nomove=False):\n          \"\"\"Clear current bar display.\"\"\"\n\n      def refresh(self):\n          \"\"\"\n          Force refresh the display of this bar.\n\n          Parameters\n          ----------\n          nolock  : bool, optional\n              If `True`, does not lock.\n              If [default: `False`]: calls `acquire()` on internal lock.\n          lock_args  : tuple, optional\n              Passed to internal lock's `acquire()`.\n              If specified, will only `display()` if `acquire()` returns `True`.\n          \"\"\"\n\n      def unpause(self):\n          \"\"\"Restart tqdm timer from last print time.\"\"\"\n\n      def reset(self, total=None):\n          \"\"\"\n          Resets to 0 iterations for repeated use.\n\n          Consider combining with `leave=True`.\n\n          Parameters\n          ----------\n          total  : int or float, optional. Total to use for the new bar.\n          \"\"\"\n\n      def set_description(self, desc=None, refresh=True):\n          \"\"\"\n          Set/modify description of the progress bar.\n\n          Parameters\n          ----------\n          desc  : str, optional\n          refresh  : bool, optional\n              Forces refresh [default: True].\n          \"\"\"\n\n      def set_postfix(self, ordered_dict=None, refresh=True, **tqdm_kwargs):\n          \"\"\"\n          Set/modify postfix (additional stats)\n          with automatic formatting based on datatype.\n\n          Parameters\n          ----------\n          ordered_dict  : dict or OrderedDict, optional\n          refresh  : bool, optional\n              Forces refresh [default: True].\n          kwargs  : dict, optional\n          \"\"\"\n\n      @classmethod\n      def write(cls, s, file=sys.stdout, end=\"\\n\"):\n          \"\"\"Print a message via tqdm (without overlap with bars).\"\"\"\n\n      @property\n      def format_dict(self):\n          \"\"\"Public API for read-only member access.\"\"\"\n\n      def display(self, msg=None, pos=None):\n          \"\"\"\n          Use `self.sp` to display `msg` in the specified `pos`.\n\n          Consider overloading this function when inheriting to use e.g.:\n          `self.some_frontend(**self.format_dict)` instead of `self.sp`.\n\n          Parameters\n          ----------\n          msg  : str, optional. What to display (default: `repr(self)`).\n          pos  : int, optional. Position to `moveto`\n            (default: `abs(self.pos)`).\n          \"\"\"\n\n      @classmethod\n      @contextmanager\n      def wrapattr(cls, stream, method, total=None, bytes=True, **tqdm_kwargs):\n          \"\"\"\n          stream  : file-like object.\n          method  : str, \"read\" or \"write\". The result of `read()` and\n              the first argument of `write()` should have a `len()`.\n\n          >>> with tqdm.wrapattr(file_obj, \"read\", total=file_obj.size) as fobj:\n          ...     while True:\n          ...         chunk = fobj.read(chunk_size)\n          ...         if not chunk:\n          ...             break\n          \"\"\"\n\n      @classmethod\n      def pandas(cls, *targs, **tqdm_kwargs):\n          \"\"\"Registers the current `tqdm` class with `pandas`.\"\"\"\n\n    def trange(*args, **tqdm_kwargs):\n        \"\"\"Shortcut for `tqdm(range(*args), **tqdm_kwargs)`.\"\"\"\n\nConvenience Functions\n~~~~~~~~~~~~~~~~~~~~~\n\n.. code:: python\n\n    def tqdm.contrib.tenumerate(iterable, start=0, total=None,\n                                tqdm_class=tqdm.auto.tqdm, **tqdm_kwargs):\n        \"\"\"Equivalent of `numpy.ndenumerate` or builtin `enumerate`.\"\"\"\n\n    def tqdm.contrib.tzip(iter1, *iter2plus, **tqdm_kwargs):\n        \"\"\"Equivalent of builtin `zip`.\"\"\"\n\n    def tqdm.contrib.tmap(function, *sequences, **tqdm_kwargs):\n        \"\"\"Equivalent of builtin `map`.\"\"\"\n\nSubmodules\n~~~~~~~~~~\n\n.. code:: python\n\n    class tqdm.notebook.tqdm(tqdm.tqdm):\n        \"\"\"IPython/Jupyter Notebook widget.\"\"\"\n\n    class tqdm.auto.tqdm(tqdm.tqdm):\n        \"\"\"Automatically chooses between `tqdm.notebook` and `tqdm.tqdm`.\"\"\"\n\n    class tqdm.asyncio.tqdm(tqdm.tqdm):\n      \"\"\"Asynchronous version.\"\"\"\n      @classmethod\n      def as_completed(cls, fs, *, loop=None, timeout=None, total=None,\n                       **tqdm_kwargs):\n          \"\"\"Wrapper for `asyncio.as_completed`.\"\"\"\n\n    class tqdm.gui.tqdm(tqdm.tqdm):\n        \"\"\"Matplotlib GUI version.\"\"\"\n\n    class tqdm.tk.tqdm(tqdm.tqdm):\n        \"\"\"Tkinter GUI version.\"\"\"\n\n    class tqdm.rich.tqdm(tqdm.tqdm):\n        \"\"\"`rich.progress` version.\"\"\"\n\n    class tqdm.keras.TqdmCallback(keras.callbacks.Callback):\n        \"\"\"Keras callback for epoch and batch progress.\"\"\"\n\n    class tqdm.dask.TqdmCallback(dask.callbacks.Callback):\n        \"\"\"Dask callback for task progress.\"\"\"\n\n\n``contrib``\n+++++++++++\n\nThe ``tqdm.contrib`` package also contains experimental modules:\n\n- `tqdm.contrib.itertools <https://tqdm.github.io/docs/contrib.itertools/>`_: Thin wrappers around ``itertools``\n- `tqdm.contrib.concurrent <https://tqdm.github.io/docs/contrib.concurrent/>`_: Thin wrappers around ``concurrent.futures``\n- `tqdm.contrib.slack <https://tqdm.github.io/docs/contrib.slack/>`_: Posts to `Slack <https://slack.com>`__ bots\n- `tqdm.contrib.discord <https://tqdm.github.io/docs/contrib.discord/>`_: Posts to `Discord <https://discord.com>`__ bots\n- `tqdm.contrib.telegram <https://tqdm.github.io/docs/contrib.telegram/>`_: Posts to `Telegram <https://telegram.org>`__ bots\n- `tqdm.contrib.bells <https://tqdm.github.io/docs/shortcuts/>`_: Automagically enables all optional features\n\n  * ``auto``, ``pandas``, ``slack``, ``discord``, ``telegram``\n\n.. image:: https://tqdm.github.io/img/screenshot-discord.png\n   :alt: Screenshot of `tqdm.contrib.discord` in action\n\nExamples and Advanced Usage\n---------------------------\n\n- See the `examples <https://github.com/tqdm/tqdm/tree/master/examples>`__\n  folder;\n- import the module and run ``help()``;\n- consult the `wiki <https://github.com/tqdm/tqdm/wiki>`__;\n\n  * this has an\n    `excellent article <https://github.com/tqdm/tqdm/wiki/How-to-make-a-great-Progress-Bar>`__\n    on how to make a **great** progress bar;\n\n- check out the `slides from PyData London <https://tqdm.github.io/PyData2019/slides.html>`__, or\n- run the |binder-demo|.\n\nDescription and additional stats\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nCustom information can be displayed and updated dynamically on ``tqdm`` bars\nwith the ``desc`` and ``postfix`` arguments:\n\n.. code:: python\n\n    from tqdm import tqdm, trange\n    from random import random, randint\n    from time import sleep\n\n    with trange(10) as t:\n        for i in t:\n            # Description will be displayed on the left\n            t.set_description('GEN %i' % i)\n            # Postfix will be displayed on the right,\n            # formatted automatically based on argument's datatype\n            t.set_postfix(loss=random(), gen=randint(1,999), str='h',\n                          lst=[1, 2])\n            sleep(0.1)\n\n    with tqdm(total=10, bar_format=\"{postfix[0]} {postfix[1][value]:>8.2g}\",\n              postfix=[\"Batch\", {\"value\": 0}]) as t:\n        for i in range(10):\n            sleep(0.1)\n            t.postfix[1][\"value\"] = i / 2\n            t.update()\n\nPoints to remember when using ``{postfix[...]}`` in the ``bar_format`` string:\n\n- ``postfix`` also needs to be passed as an initial argument in a compatible\n  format, and\n- ``postfix`` will be auto-converted to a string if it is a ``dict``-like\n  object. To prevent this behaviour, insert an extra item into the dictionary\n  where the key is not a string.\n\nAdditional ``bar_format`` parameters may also be defined by overriding\n``format_dict``, and the bar itself may be modified using ``ascii``:\n\n.. code:: python\n\n    from tqdm import tqdm\n    class TqdmExtraFormat(tqdm):\n        \"\"\"Provides a `total_time` format parameter\"\"\"\n        @property\n        def format_dict(self):\n            d = super().format_dict\n            total_time = d[\"elapsed\"] * (d[\"total\"] or 0) / max(d[\"n\"], 1)\n            d.update(total_time=self.format_interval(total_time) + \" in total\")\n            return d\n\n    for i in TqdmExtraFormat(\n          range(9), ascii=\" .oO0\",\n          bar_format=\"{total_time}: {percentage:.0f}%|{bar}{r_bar}\"):\n        if i == 4:\n            break\n\n.. code::\n\n    00:00 in total: 44%|0000.     | 4/9 [00:00<00:00, 962.93it/s]\n\nNote that ``{bar}`` also supports a format specifier ``[width][type]``.\n\n- ``width``\n\n  * unspecified (default): automatic to fill ``ncols``\n  * ``int >= 0``: fixed width overriding ``ncols`` logic\n  * ``int < 0``: subtract from the automatic default\n\n- ``type``\n\n  * ``a``: ascii (``ascii=True`` override)\n  * ``u``: unicode (``ascii=False`` override)\n  * ``b``: blank (``ascii=\"  \"`` override)\n\nThis means a fixed bar with right-justified text may be created by using:\n``bar_format=\"{l_bar}{bar:10}|{bar:-10b}right-justified\"``\n\nNested progress bars\n~~~~~~~~~~~~~~~~~~~~\n\n``tqdm`` supports nested progress bars. Here's an example:\n\n.. code:: python\n\n    from tqdm.auto import trange\n    from time import sleep\n\n    for i in trange(4, desc='1st loop'):\n        for j in trange(5, desc='2nd loop'):\n            for k in trange(50, desc='3rd loop', leave=False):\n                sleep(0.01)\n\nFor manual control over positioning (e.g. for multi-processing use),\nyou may specify ``position=n`` where ``n=0`` for the outermost bar,\n``n=1`` for the next, and so on.\nHowever, it's best to check if ``tqdm`` can work without manual ``position``\nfirst.\n\n.. code:: python\n\n    from time import sleep\n    from tqdm import trange, tqdm\n    from multiprocessing import Pool, RLock, freeze_support\n\n    L = list(range(9))\n\n    def progresser(n):\n        interval = 0.001 / (n + 2)\n        total = 5000\n        text = f\"#{n}, est. {interval * total:<04.2}s\"\n        for _ in trange(total, desc=text, position=n):\n            sleep(interval)\n\n    if __name__ == '__main__':\n        freeze_support()  # for Windows support\n        tqdm.set_lock(RLock())  # for managing output contention\n        p = Pool(initializer=tqdm.set_lock, initargs=(tqdm.get_lock(),))\n        p.map(progresser, L)\n\nNote that in Python 3, ``tqdm.write`` is thread-safe:\n\n.. code:: python\n\n    from time import sleep\n    from tqdm import tqdm, trange\n    from concurrent.futures import ThreadPoolExecutor\n\n    L = list(range(9))\n\n    def progresser(n):\n        interval = 0.001 / (n + 2)\n        total = 5000\n        text = f\"#{n}, est. {interval * total:<04.2}s\"\n        for _ in trange(total, desc=text):\n            sleep(interval)\n        if n == 6:\n            tqdm.write(\"n == 6 completed.\")\n            tqdm.write(\"`tqdm.write()` is thread-safe in py3!\")\n\n    if __name__ == '__main__':\n        with ThreadPoolExecutor() as p:\n            p.map(progresser, L)\n\nHooks and callbacks\n~~~~~~~~~~~~~~~~~~~\n\n``tqdm`` can easily support callbacks/hooks and manual updates.\nHere's an example with ``urllib``:\n\n**``urllib.urlretrieve`` documentation**\n\n    | [...]\n    | If present, the hook function will be called once\n    | on establishment of the network connection and once after each block read\n    | thereafter. The hook will be passed three arguments; a count of blocks\n    | transferred so far, a block size in bytes, and the total size of the file.\n    | [...]\n\n.. code:: python\n\n    import urllib, os\n    from tqdm import tqdm\n    urllib = getattr(urllib, 'request', urllib)\n\n    class TqdmUpTo(tqdm):\n        \"\"\"Provides `update_to(n)` which uses `tqdm.update(delta_n)`.\"\"\"\n        def update_to(self, b=1, bsize=1, tsize=None):\n            \"\"\"\n            b  : int, optional\n                Number of blocks transferred so far [default: 1].\n            bsize  : int, optional\n                Size of each block (in tqdm units) [default: 1].\n            tsize  : int, optional\n                Total size (in tqdm units). If [default: None] remains unchanged.\n            \"\"\"\n            if tsize is not None:\n                self.total = tsize\n            return self.update(b * bsize - self.n)  # also sets self.n = b * bsize\n\n    eg_link = \"https://cgi.cdcl.ml/matryoshka.zip\"\n    with TqdmUpTo(unit='B', unit_scale=True, unit_divisor=1024, miniters=1,\n                  desc=eg_link.split('/')[-1]) as t:  # all optional kwargs\n        urllib.urlretrieve(eg_link, filename=os.devnull,\n                           reporthook=t.update_to, data=None)\n        t.total = t.n\n\nInspired by `twine#242 <https://github.com/pypa/twine/pull/242>`__.\nFunctional alternative in\n`examples/tqdm_wget.py <https://github.com/tqdm/tqdm/blob/master/examples/tqdm_wget.py>`__.\n\nIt is recommend to use ``miniters=1`` whenever there is potentially\nlarge differences in iteration speed (e.g. downloading a file over\na patchy connection).\n\n**Wrapping read/write methods**\n\nTo measure throughput through a file-like object's ``read`` or ``write``\nmethods, use ``CallbackIOWrapper``:\n\n.. code:: python\n\n    from tqdm.auto import tqdm\n    from tqdm.utils import CallbackIOWrapper\n\n    with tqdm(total=file_obj.size,\n              unit='B', unit_scale=True, unit_divisor=1024) as t:\n        fobj = CallbackIOWrapper(t.update, file_obj, \"read\")\n        while True:\n            chunk = fobj.read(chunk_size)\n            if not chunk:\n                break\n        t.reset()\n        # ... continue to use `t` for something else\n\nAlternatively, use the even simpler ``wrapattr`` convenience function,\nwhich would condense both the ``urllib`` and ``CallbackIOWrapper`` examples\ndown to:\n\n.. code:: python\n\n    import urllib, os\n    from tqdm import tqdm\n\n    eg_link = \"https://cgi.cdcl.ml/matryoshka.zip\"\n    response = getattr(urllib, 'request', urllib).urlopen(eg_link)\n    with tqdm.wrapattr(open(os.devnull, \"wb\"), \"write\",\n                       miniters=1, desc=eg_link.split('/')[-1],\n                       total=getattr(response, 'length', None)) as fout:\n        for chunk in response:\n            fout.write(chunk)\n\nThe ``requests`` equivalent is nearly identical:\n\n.. code:: python\n\n    import requests, os\n    from tqdm import tqdm\n\n    eg_link = \"https://cgi.cdcl.ml/matryoshka.zip\"\n    response = requests.get(eg_link, stream=True)\n    with tqdm.wrapattr(open(os.devnull, \"wb\"), \"write\",\n                       miniters=1, desc=eg_link.split('/')[-1],\n                       total=int(response.headers.get('content-length', 0))) as fout:\n        for chunk in response.iter_content(chunk_size=4096):\n            fout.write(chunk)\n\n**Custom callback**\n\n``tqdm`` is known for intelligently skipping unnecessary displays. To make a\ncustom callback take advantage of this, simply use the return value of\n``update()``. This is set to ``True`` if a ``display()`` was triggered.\n\n.. code:: python\n\n    from tqdm.auto import tqdm as std_tqdm\n\n    def external_callback(*args, **kwargs):\n        ...\n\n    class TqdmExt(std_tqdm):\n        def update(self, n=1):\n            displayed = super().update(n)\n            if displayed:\n                external_callback(**self.format_dict)\n            return displayed\n\n``asyncio``\n~~~~~~~~~~~\n\nNote that ``break`` isn't currently caught by asynchronous iterators.\nThis means that ``tqdm`` cannot clean up after itself in this case:\n\n.. code:: python\n\n    from tqdm.asyncio import tqdm\n\n    async for i in tqdm(range(9)):\n        if i == 2:\n            break\n\nInstead, either call ``pbar.close()`` manually or use the context manager syntax:\n\n.. code:: python\n\n    from tqdm.asyncio import tqdm\n\n    with tqdm(range(9)) as pbar:\n        async for i in pbar:\n            if i == 2:\n                break\n\nPandas Integration\n~~~~~~~~~~~~~~~~~~\n\nDue to popular demand we've added support for ``pandas`` -- here's an example\nfor ``DataFrame.progress_apply`` and ``DataFrameGroupBy.progress_apply``:\n\n.. code:: python\n\n    import pandas as pd\n    import numpy as np\n    from tqdm import tqdm\n\n    df = pd.DataFrame(np.random.randint(0, 100, (100000, 6)))\n\n    # Register `pandas.progress_apply` and `pandas.Series.map_apply` with `tqdm`\n    # (can use `tqdm.gui.tqdm`, `tqdm.notebook.tqdm`, optional kwargs, etc.)\n    tqdm.pandas(desc=\"my bar!\")\n\n    # Now you can use `progress_apply` instead of `apply`\n    # and `progress_map` instead of `map`\n    df.progress_apply(lambda x: x**2)\n    # can also groupby:\n    # df.groupby(0).progress_apply(lambda x: x**2)\n\nIn case you're interested in how this works (and how to modify it for your\nown callbacks), see the\n`examples <https://github.com/tqdm/tqdm/tree/master/examples>`__\nfolder or import the module and run ``help()``.\n\nKeras Integration\n~~~~~~~~~~~~~~~~~\n\nA ``keras`` callback is also available:\n\n.. code:: python\n\n    from tqdm.keras import TqdmCallback\n\n    ...\n\n    model.fit(..., verbose=0, callbacks=[TqdmCallback()])\n\nDask Integration\n~~~~~~~~~~~~~~~~\n\nA ``dask`` callback is also available:\n\n.. code:: python\n\n    from tqdm.dask import TqdmCallback\n\n    with TqdmCallback(desc=\"compute\"):\n        ...\n        arr.compute()\n\n    # or use callback globally\n    cb = TqdmCallback(desc=\"global\")\n    cb.register()\n    arr.compute()\n\nIPython/Jupyter Integration\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nIPython/Jupyter is supported via the ``tqdm.notebook`` submodule:\n\n.. code:: python\n\n    from tqdm.notebook import trange, tqdm\n    from time import sleep\n\n    for i in trange(3, desc='1st loop'):\n        for j in tqdm(range(100), desc='2nd loop'):\n            sleep(0.01)\n\nIn addition to ``tqdm`` features, the submodule provides a native Jupyter\nwidget (compatible with IPython v1-v4 and Jupyter), fully working nested bars\nand colour hints (blue: normal, green: completed, red: error/interrupt,\nlight blue: no ETA); as demonstrated below.\n\n|Screenshot-Jupyter1|\n|Screenshot-Jupyter2|\n|Screenshot-Jupyter3|\n\nThe ``notebook`` version supports percentage or pixels for overall width\n(e.g.: ``ncols='100%'`` or ``ncols='480px'``).\n\nIt is also possible to let ``tqdm`` automatically choose between\nconsole or notebook versions by using the ``autonotebook`` submodule:\n\n.. code:: python\n\n    from tqdm.autonotebook import tqdm\n    tqdm.pandas()\n\nNote that this will issue a ``TqdmExperimentalWarning`` if run in a notebook\nsince it is not meant to be possible to distinguish between ``jupyter notebook``\nand ``jupyter console``. Use ``auto`` instead of ``autonotebook`` to suppress\nthis warning.\n\nNote that notebooks will display the bar in the cell where it was created.\nThis may be a different cell from the one where it is used.\nIf this is not desired, either\n\n- delay the creation of the bar to the cell where it must be displayed, or\n- create the bar with ``display=False``, and in a later cell call\n  ``display(bar.container)``:\n\n.. code:: python\n\n    from tqdm.notebook import tqdm\n    pbar = tqdm(..., display=False)\n\n.. code:: python\n\n    # different cell\n    display(pbar.container)\n\nThe ``keras`` callback has a ``display()`` method which can be used likewise:\n\n.. code:: python\n\n    from tqdm.keras import TqdmCallback\n    cbk = TqdmCallback(display=False)\n\n.. code:: python\n\n    # different cell\n    cbk.display()\n    model.fit(..., verbose=0, callbacks=[cbk])\n\nAnother possibility is to have a single bar (near the top of the notebook)\nwhich is constantly re-used (using ``reset()`` rather than ``close()``).\nFor this reason, the notebook version (unlike the CLI version) does not\nautomatically call ``close()`` upon ``Exception``.\n\n.. code:: python\n\n    from tqdm.notebook import tqdm\n    pbar = tqdm()\n\n.. code:: python\n\n    # different cell\n    iterable = range(100)\n    pbar.reset(total=len(iterable))  # initialise with new `total`\n    for i in iterable:\n        pbar.update()\n    pbar.refresh()  # force print final status but don't `close()`\n\nCustom Integration\n~~~~~~~~~~~~~~~~~~\n\nTo change the default arguments (such as making ``dynamic_ncols=True``),\nsimply use built-in Python magic:\n\n.. code:: python\n\n    from functools import partial\n    from tqdm import tqdm as std_tqdm\n    tqdm = partial(std_tqdm, dynamic_ncols=True)\n\nFor further customisation,\n``tqdm`` may be inherited from to create custom callbacks (as with the\n``TqdmUpTo`` example `above <#hooks-and-callbacks>`__) or for custom frontends\n(e.g. GUIs such as notebook or plotting packages). In the latter case:\n\n1. ``def __init__()`` to call ``super().__init__(..., gui=True)`` to disable\n   terminal ``status_printer`` creation.\n2. Redefine: ``close()``, ``clear()``, ``display()``.\n\nConsider overloading ``display()`` to use e.g.\n``self.frontend(**self.format_dict)`` instead of ``self.sp(repr(self))``.\n\nSome submodule examples of inheritance:\n\n- `tqdm/notebook.py <https://github.com/tqdm/tqdm/blob/master/tqdm/notebook.py>`__\n- `tqdm/gui.py <https://github.com/tqdm/tqdm/blob/master/tqdm/gui.py>`__\n- `tqdm/tk.py <https://github.com/tqdm/tqdm/blob/master/tqdm/tk.py>`__\n- `tqdm/contrib/slack.py <https://github.com/tqdm/tqdm/blob/master/tqdm/contrib/slack.py>`__\n- `tqdm/contrib/discord.py <https://github.com/tqdm/tqdm/blob/master/tqdm/contrib/discord.py>`__\n- `tqdm/contrib/telegram.py <https://github.com/tqdm/tqdm/blob/master/tqdm/contrib/telegram.py>`__\n\nDynamic Monitor/Meter\n~~~~~~~~~~~~~~~~~~~~~\n\nYou can use a ``tqdm`` as a meter which is not monotonically increasing.\nThis could be because ``n`` decreases (e.g. a CPU usage monitor) or ``total``\nchanges.\n\nOne example would be recursively searching for files. The ``total`` is the\nnumber of objects found so far, while ``n`` is the number of those objects which\nare files (rather than folders):\n\n.. code:: python\n\n    from tqdm import tqdm\n    import os.path\n\n    def find_files_recursively(path, show_progress=True):\n        files = []\n        # total=1 assumes `path` is a file\n        t = tqdm(total=1, unit=\"file\", disable=not show_progress)\n        if not os.path.exists(path):\n            raise IOError(\"Cannot find:\" + path)\n\n        def append_found_file(f):\n            files.append(f)\n            t.update()\n\n        def list_found_dir(path):\n            \"\"\"returns os.listdir(path) assuming os.path.isdir(path)\"\"\"\n            listing = os.listdir(path)\n            # subtract 1 since a \"file\" we found was actually this directory\n            t.total += len(listing) - 1\n            # fancy way to give info without forcing a refresh\n            t.set_postfix(dir=path[-10:], refresh=False)\n            t.update(0)  # may trigger a refresh\n            return listing\n\n        def recursively_search(path):\n            if os.path.isdir(path):\n                for f in list_found_dir(path):\n                    recursively_search(os.path.join(path, f))\n            else:\n                append_found_file(path)\n\n        recursively_search(path)\n        t.set_postfix(dir=path)\n        t.close()\n        return files\n\nUsing ``update(0)`` is a handy way to let ``tqdm`` decide when to trigger a\ndisplay refresh to avoid console spamming.\n\nWriting messages\n~~~~~~~~~~~~~~~~\n\nThis is a work in progress (see\n`#737 <https://github.com/tqdm/tqdm/issues/737>`__).\n\nSince ``tqdm`` uses a simple printing mechanism to display progress bars,\nyou should not write any message in the terminal using ``print()`` while\na progress bar is open.\n\nTo write messages in the terminal without any collision with ``tqdm`` bar\ndisplay, a ``.write()`` method is provided:\n\n.. code:: python\n\n    from tqdm.auto import tqdm, trange\n    from time import sleep\n\n    bar = trange(10)\n    for i in bar:\n        # Print using tqdm class method .write()\n        sleep(0.1)\n        if not (i % 3):\n            tqdm.write(\"Done task %i\" % i)\n        # Can also use bar.write()\n\nBy default, this will print to standard output ``sys.stdout``. but you can\nspecify any file-like object using the ``file`` argument. For example, this\ncan be used to redirect the messages writing to a log file or class.\n\nRedirecting writing\n~~~~~~~~~~~~~~~~~~~\n\nIf using a library that can print messages to the console, editing the library\nby  replacing ``print()`` with ``tqdm.write()`` may not be desirable.\nIn that case, redirecting ``sys.stdout`` to ``tqdm.write()`` is an option.\n\nTo redirect ``sys.stdout``, create a file-like class that will write\nany input string to ``tqdm.write()``, and supply the arguments\n``file=sys.stdout, dynamic_ncols=True``.\n\nA reusable canonical example is given below:\n\n.. code:: python\n\n    from time import sleep\n    import contextlib\n    import sys\n    from tqdm import tqdm\n    from tqdm.contrib import DummyTqdmFile\n\n\n    @contextlib.contextmanager\n    def std_out_err_redirect_tqdm():\n        orig_out_err = sys.stdout, sys.stderr\n        try:\n            sys.stdout, sys.stderr = map(DummyTqdmFile, orig_out_err)\n            yield orig_out_err[0]\n        # Relay exceptions\n        except Exception as exc:\n            raise exc\n        # Always restore sys.stdout/err if necessary\n        finally:\n            sys.stdout, sys.stderr = orig_out_err\n\n    def some_fun(i):\n        print(\"Fee, fi, fo,\".split()[i])\n\n    # Redirect stdout to tqdm.write() (don't forget the `as save_stdout`)\n    with std_out_err_redirect_tqdm() as orig_stdout:\n        # tqdm needs the original stdout\n        # and dynamic_ncols=True to autodetect console width\n        for i in tqdm(range(3), file=orig_stdout, dynamic_ncols=True):\n            sleep(.5)\n            some_fun(i)\n\n    # After the `with`, printing is restored\n    print(\"Done!\")\n\nRedirecting ``logging``\n~~~~~~~~~~~~~~~~~~~~~~~\n\nSimilar to ``sys.stdout``/``sys.stderr`` as detailed above, console ``logging``\nmay also be redirected to ``tqdm.write()``.\n\nWarning: if also redirecting ``sys.stdout``/``sys.stderr``, make sure to\nredirect ``logging`` first if needed.\n\nHelper methods are available in ``tqdm.contrib.logging``. For example:\n\n.. code:: python\n\n    import logging\n    from tqdm import trange\n    from tqdm.contrib.logging import logging_redirect_tqdm\n\n    LOG = logging.getLogger(__name__)\n\n    if __name__ == '__main__':\n        logging.basicConfig(level=logging.INFO)\n        with logging_redirect_tqdm():\n            for i in trange(9):\n                if i == 4:\n                    LOG.info(\"console logging redirected to `tqdm.write()`\")\n        # logging restored\n\nMonitoring thread, intervals and miniters\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n``tqdm`` implements a few tricks to increase efficiency and reduce overhead.\n\n- Avoid unnecessary frequent bar refreshing: ``mininterval`` defines how long\n  to wait between each refresh. ``tqdm`` always gets updated in the background,\n  but it will display only every ``mininterval``.\n- Reduce number of calls to check system clock/time.\n- ``mininterval`` is more intuitive to configure than ``miniters``.\n  A clever adjustment system ``dynamic_miniters`` will automatically adjust\n  ``miniters`` to the amount of iterations that fit into time ``mininterval``.\n  Essentially, ``tqdm`` will check if it's time to print without actually\n  checking time. This behaviour can be still be bypassed by manually setting\n  ``miniters``.\n\nHowever, consider a case with a combination of fast and slow iterations.\nAfter a few fast iterations, ``dynamic_miniters`` will set ``miniters`` to a\nlarge number. When iteration rate subsequently slows, ``miniters`` will\nremain large and thus reduce display update frequency. To address this:\n\n- ``maxinterval`` defines the maximum time between display refreshes.\n  A concurrent monitoring thread checks for overdue updates and forces one\n  where necessary.\n\nThe monitoring thread should not have a noticeable overhead, and guarantees\nupdates at least every 10 seconds by default.\nThis value can be directly changed by setting the ``monitor_interval`` of\nany ``tqdm`` instance (i.e. ``t = tqdm.tqdm(...); t.monitor_interval = 2``).\nThe monitor thread may be disabled application-wide by setting\n``tqdm.tqdm.monitor_interval = 0`` before instantiation of any ``tqdm`` bar.\n\n\nMerch\n-----\n\nYou can buy `tqdm branded merch <https://tqdm.github.io/merch>`__ now!\n\nContributions\n-------------\n\n|GitHub-Commits| |GitHub-Issues| |GitHub-PRs| |OpenHub-Status| |GitHub-Contributions| |CII Best Practices|\n\nAll source code is hosted on `GitHub <https://github.com/tqdm/tqdm>`__.\nContributions are welcome.\n\nSee the\n`CONTRIBUTING <https://github.com/tqdm/tqdm/blob/master/CONTRIBUTING.md>`__\nfile for more information.\n\nDevelopers who have contributed more that 5 *loc* (surviving lines of code):\n\n|git-fame|\n\nHonourable mentions:\n\n- Casper da Costa-Luis `casperdcl <https://github.com/casperdcl>`__ primary maintainer |Gift-Casper|\n- Stephen Larroque `lrq3000 <https://github.com/lrq3000>`__ maintainer\n- Hadrien Mary `hadim <https://github.com/hadim>`__ maintainer\n- Mikhail Korobov `kmike <https://github.com/kmike>`__ maintainer\n- Noam Yorav-Raphael `noamraph <https://github.com/noamraph>`__ original author\n\nPorts to Other Languages\n~~~~~~~~~~~~~~~~~~~~~~~~\n\nA list is available on\n`this wiki page <https://github.com/tqdm/tqdm/wiki/tqdm-ports>`__.\n\n\nLICENCE\n-------\n\nOpen Source (OSI approved): |LICENCE|\n\nCitation information: |DOI|\n\n|README-Hits| (Since 19 May 2016)\n\n.. |Logo| image:: https://tqdm.github.io/img/logo.gif\n.. |Screenshot| image:: https://tqdm.github.io/img/tqdm.gif\n.. |Video| image:: https://tqdm.github.io/img/video.jpg\n   :target: https://tqdm.github.io/video\n.. |Slides| image:: https://tqdm.github.io/img/slides.jpg\n   :target: https://tqdm.github.io/PyData2019/slides.html\n.. |Merch| image:: https://tqdm.github.io/img/merch.jpg\n   :target: https://tqdm.github.io/merch\n.. |Build-Status| image:: https://img.shields.io/github/actions/workflow/status/tqdm/tqdm/test.yml?branch=master&label=tqdm&logo=GitHub\n   :target: https://github.com/tqdm/tqdm/actions/workflows/test.yml\n.. |Coverage-Status| image:: https://img.shields.io/coveralls/github/tqdm/tqdm/master?logo=coveralls\n   :target: https://coveralls.io/github/tqdm/tqdm\n.. |Branch-Coverage-Status| image:: https://codecov.io/gh/tqdm/tqdm/branch/master/graph/badge.svg\n   :target: https://codecov.io/gh/tqdm/tqdm\n.. |Codacy-Grade| image:: https://app.codacy.com/project/badge/Grade/3f965571598f44549c7818f29cdcf177\n   :target: https://app.codacy.com/gh/tqdm/tqdm/dashboard\n.. |CII Best Practices| image:: https://bestpractices.coreinfrastructure.org/projects/3264/badge\n   :target: https://bestpractices.coreinfrastructure.org/projects/3264\n.. |GitHub-Status| image:: https://img.shields.io/github/tag/tqdm/tqdm.svg?maxAge=86400&logo=github&logoColor=white\n   :target: https://github.com/tqdm/tqdm/releases\n.. |GitHub-Forks| image:: https://img.shields.io/github/forks/tqdm/tqdm.svg?logo=github&logoColor=white\n   :target: https://github.com/tqdm/tqdm/network\n.. |GitHub-Stars| image:: https://img.shields.io/github/stars/tqdm/tqdm.svg?logo=github&logoColor=white\n   :target: https://github.com/tqdm/tqdm/stargazers\n.. |GitHub-Commits| image:: https://img.shields.io/github/commit-activity/y/tqdm/tqdm.svg?logo=git&logoColor=white\n   :target: https://github.com/tqdm/tqdm/graphs/commit-activity\n.. |GitHub-Issues| image:: https://img.shields.io/github/issues-closed/tqdm/tqdm.svg?logo=github&logoColor=white\n   :target: https://github.com/tqdm/tqdm/issues?q=\n.. |GitHub-PRs| image:: https://img.shields.io/github/issues-pr-closed/tqdm/tqdm.svg?logo=github&logoColor=white\n   :target: https://github.com/tqdm/tqdm/pulls\n.. |GitHub-Contributions| image:: https://img.shields.io/github/contributors/tqdm/tqdm.svg?logo=github&logoColor=white\n   :target: https://github.com/tqdm/tqdm/graphs/contributors\n.. |GitHub-Updated| image:: https://img.shields.io/github/last-commit/tqdm/tqdm/master.svg?logo=github&logoColor=white&label=pushed\n   :target: https://github.com/tqdm/tqdm/pulse\n.. |git-fame| image:: https://git-fame.cdcl.ml/gh/tqdm/tqdm?min=5&w=1&M=1&C=1&excl=(png|gif|jpg)$&enum=1&auth=share\n   :alt: git-fame.cdcl.ml/gh/tqdm/tqdm\n   :target: https://git-fame.cdcl.ml/gh/tqdm/tqdm?w=1&M=1&C=1&excl=(png|gif|jpg)$&enum=1&auth=share\n.. |Gift-Casper| image:: https://img.shields.io/badge/sponsor-casper-ff69b4.svg\n   :target: https://cdcl.ml/sponsor\n.. |Versions| image:: https://img.shields.io/pypi/v/tqdm.svg\n   :target: https://tqdm.github.io/releases\n.. |PyPI-Downloads| image:: https://static.pepy.tech/personalized-badge/tqdm?left_text=downloads%2Fmonth\n   :target: https://pepy.tech/project/tqdm\n.. |Py-Versions| image:: https://img.shields.io/pypi/pyversions/tqdm.svg?logo=python&logoColor=white\n   :target: https://pypi.org/project/tqdm\n.. |Conda-Forge-Status| image:: https://img.shields.io/conda/v/conda-forge/tqdm.svg?label=conda-forge&logo=conda-forge\n   :target: https://anaconda.org/conda-forge/tqdm\n.. |Snapcraft| image:: https://img.shields.io/badge/snap-install-82BEA0.svg?logo=snapcraft\n   :target: https://snapcraft.io/tqdm\n.. |Docker| image:: https://img.shields.io/badge/docker-pull-blue.svg?logo=docker&logoColor=white\n   :target: https://hub.docker.com/r/tqdm/tqdm\n.. |Libraries-Rank| image:: https://img.shields.io/librariesio/sourcerank/pypi/tqdm.svg?logo=koding&logoColor=white\n   :target: https://libraries.io/pypi/tqdm\n.. |Libraries-Dependents| image:: https://img.shields.io/librariesio/dependent-repos/pypi/tqdm.svg?logo=koding&logoColor=white\n    :target: https://github.com/tqdm/tqdm/network/dependents\n.. |OpenHub-Status| image:: https://www.openhub.net/p/tqdm/widgets/project_thin_badge?format=gif\n   :target: https://www.openhub.net/p/tqdm?ref=Thin+badge\n.. |awesome-python| image:: https://awesome.re/mentioned-badge.svg\n   :target: https://github.com/vinta/awesome-python\n.. |LICENCE| image:: https://img.shields.io/pypi/l/tqdm.svg\n   :target: https://raw.githubusercontent.com/tqdm/tqdm/master/LICENCE\n.. |DOI| image:: https://img.shields.io/badge/DOI-10.5281/zenodo.595120-blue.svg\n   :target: https://doi.org/10.5281/zenodo.595120\n.. |colab-demo| image:: https://colab.research.google.com/assets/colab-badge.svg\n   :target: https://colab.research.google.com/github/tqdm/tqdm/blob/master/DEMO.ipynb\n.. |binder-demo| image:: https://mybinder.org/badge_logo.svg\n   :target: https://mybinder.org/v2/gh/tqdm/tqdm/master?filepath=DEMO.ipynb\n.. |Screenshot-Jupyter1| image:: https://tqdm.github.io/img/jupyter-1.gif\n.. |Screenshot-Jupyter2| image:: https://tqdm.github.io/img/jupyter-2.gif\n.. |Screenshot-Jupyter3| image:: https://tqdm.github.io/img/jupyter-3.gif\n.. |README-Hits| image:: https://cgi.cdcl.ml/hits?q=tqdm&style=social&r=https://github.com/tqdm/tqdm&l=https://tqdm.github.io/img/favicon.png&f=https://tqdm.github.io/img/logo.gif\n   :target: https://cgi.cdcl.ml/hits?q=tqdm&a=plot&r=https://github.com/tqdm/tqdm&l=https://tqdm.github.io/img/favicon.png&f=https://tqdm.github.io/img/logo.gif&style=social\n",
+        "description_content_type": "text/x-rst",
+        "keywords": [
+          "progressbar",
+          "progressmeter",
+          "progress",
+          "bar",
+          "meter",
+          "rate",
+          "eta",
+          "console",
+          "terminal",
+          "time"
+        ],
+        "maintainer_email": "tqdm developers <devs@tqdm.ml>",
+        "license": "MPL-2.0 AND MIT",
+        "license_file": [
+          "LICENCE"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Environment :: Console",
+          "Environment :: MacOS X",
+          "Environment :: Other Environment",
+          "Environment :: Win32 (MS Windows)",
+          "Environment :: X11 Applications",
+          "Framework :: IPython",
+          "Framework :: Jupyter",
+          "Intended Audience :: Developers",
+          "Intended Audience :: Education",
+          "Intended Audience :: End Users/Desktop",
+          "Intended Audience :: Other Audience",
+          "Intended Audience :: System Administrators",
+          "Operating System :: MacOS",
+          "Operating System :: MacOS :: MacOS X",
+          "Operating System :: Microsoft",
+          "Operating System :: Microsoft :: MS-DOS",
+          "Operating System :: Microsoft :: Windows",
+          "Operating System :: POSIX",
+          "Operating System :: POSIX :: BSD",
+          "Operating System :: POSIX :: BSD :: FreeBSD",
+          "Operating System :: POSIX :: Linux",
+          "Operating System :: POSIX :: SunOS/Solaris",
+          "Operating System :: Unix",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: Implementation",
+          "Programming Language :: Python :: Implementation :: IronPython",
+          "Programming Language :: Python :: Implementation :: PyPy",
+          "Programming Language :: Unix Shell",
+          "Topic :: Desktop Environment",
+          "Topic :: Education :: Computer Aided Instruction (CAI)",
+          "Topic :: Education :: Testing",
+          "Topic :: Office/Business",
+          "Topic :: Other/Nonlisted Topic",
+          "Topic :: Software Development :: Build Tools",
+          "Topic :: Software Development :: Libraries",
+          "Topic :: Software Development :: Libraries :: Python Modules",
+          "Topic :: Software Development :: Pre-processors",
+          "Topic :: Software Development :: User Interfaces",
+          "Topic :: System :: Installation/Setup",
+          "Topic :: System :: Logging",
+          "Topic :: System :: Monitoring",
+          "Topic :: System :: Shells",
+          "Topic :: Terminals",
+          "Topic :: Utilities"
+        ],
+        "requires_dist": [
+          "colorama; platform_system == \"Windows\"",
+          "requests; extra == \"discord\"",
+          "envwrap; extra == \"discord\"",
+          "slack-sdk; extra == \"slack\"",
+          "envwrap; extra == \"slack\"",
+          "requests; extra == \"telegram\"",
+          "envwrap; extra == \"telegram\"",
+          "ipywidgets>=6; extra == \"notebook\""
+        ],
+        "requires_python": ">=3.8",
+        "project_url": [
+          "homepage, https://tqdm.github.io",
+          "repository, https://github.com/tqdm/tqdm",
+          "changelog, https://tqdm.github.io/releases",
+          "wiki, https://github.com/tqdm/tqdm/wiki"
+        ],
+        "provides_extra": [
+          "discord",
+          "slack",
+          "telegram",
+          "notebook"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/a1/d3/20a61a248feb1249cd81f83ce731f0bdf5170ed96a08a298f7081cda9e90/interface_meta-2.0.1-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=f38016bef9a4429b6d0792d809be7b65e9781820c674bf7f463999086b6e6323",
+          "hashes": {
+            "sha256": "f38016bef9a4429b6d0792d809be7b65e9781820c674bf7f463999086b6e6323"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "interface_meta",
+        "version": "2.0.1",
+        "summary": "`interface_meta` provides a convenient way to expose an extensible API with enforced method signatures and consistent documentation.",
+        "description": "# InterfaceMeta\n\n[![PyPI - Version](https://img.shields.io/pypi/v/interface_meta.svg)](https://pypi.org/project/interface_meta/)\n![PyPI - Python Version](https://img.shields.io/pypi/pyversions/interface_meta.svg)\n![PyPI - Status](https://img.shields.io/pypi/status/interface_meta.svg)\n[![CI](https://github.com/matthewwardrop/interface_meta/actions/workflows/ci.yml/badge.svg)](https://github.com/matthewwardrop/interface_meta/actions/workflows/ci.yml)\n[![codecov](https://codecov.io/gh/matthewwardrop/interface_meta/branch/master/graph/badge.svg?token=W4LD72EQMM)](https://codecov.io/gh/matthewwardrop/interface_meta)\n[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)\n\n`interface_meta` provides a convenient way to expose an extensible API with\nenforced method signatures and consistent documentation.\n\n- **Documentation:** See below (full documentation will come at some point).\n- **Source:** https://github.com/matthewwardrop/interface_meta\n- **Bug reports:** https://github.com/matthewwardrop/interface_meta/issues\n\n## Overview\n\nThis library has been extracted (with some modifications) from\n[`omniduct`](https://github.com/airbnb/omniduct), a library also principally\nwritten by this author, where it was central to the extensible plugin\narchitecture. It places an emphasis on the functionality required to create a\nwell-documented extensible plugin system, whereby the act of subclassing is\nsufficient to register the plugin and ensure compliance to the parent API. As\nsuch, this library boasts the following features:\n\n- All subclasses of an interface must conform to the parent's API.\n- Hierarchical runtime property existence and method signature checking. Methods\n  are permitted to add additional *optional* arguments, but otherwise must\n  conform to the API of their parent class (which themselves may have extended\n  the API of the interface).\n- Subclass definition time hooks (e.g. for registration of subclasses into a\n  library of plugins, etc).\n- Optional requirement for methods in subclasses to explicity decorate methods\n  with an `override` decorator when replacing methods on an interface, making\n  it clearer as to when a class is introducing new methods versus replacing\n  those that form the part of the interface API.\n- Generation of clear docstrings on implementations that stitches together the\n  base interface documentation with any downstream extensions and quirks.\n- Support for extracting the quirks documentation for a method from other method\n  docstrings, in the event that subclass implementations are done in an internal\n  method.\n- Compatibility with ABCMeta from the standard library.\n\n## Example code\n\n```python\nfrom abc import abstractmethod\nfrom interface_meta import InterfaceMeta, inherit_docs, override\n\n\nclass MyInterface(metaclass=InterfaceMeta):\n    \"\"\"\n    An example interface.\n    \"\"\"\n\n    INTERFACE_EXPLICIT_OVERRIDES = True\n    INTERFACE_RAISE_ON_VIOLATION = False\n\n    @property\n    @abstractmethod\n    def name(self) -> str:\n        \"\"\"\n        The name of this interface.\n        \"\"\"\n\n    @inherit_docs(method=\"_do_stuff\")\n    def do_stuff(self, a, b, c=1):\n        \"\"\"\n        Do things with the parameters.\n        \"\"\"\n        return self._do_stuff(a, b, c)\n\n    @abstractmethod\n    def _do_stuff(self, a, b, c):\n        pass\n\n\nclass MyImplementation(MyInterface):\n    \"\"\"\n    This implementation of the example interface works nicely.\n    \"\"\"\n\n    @override\n    @property\n    def name(self) -> str:\n        return \"Peter\"\n\n    @override\n    def _do_stuff(self, a, b, c):\n        \"\"\"\n        In this implementation, we sum the parameters.\n        \"\"\"\n        return a + b + c\n```\n\nRunning `help(MyImplementation)` reveals how the documentation is generated:\n\n```python\nclass MyImplementation(MyInterface)\n |  This implementation of the example interface works nicely.\n |\n |  Method resolution order:\n |      MyImplementation\n |      MyInterface\n |      builtins.object\n |\n |  do_stuff(self, a, b, c=1)\n |      Do things with the parameters.\n |\n |      MyImplementation Quirks:\n |          In this implementation, we sum the parameters.\n ...\n```\n\n## Related projects and prior art\n\nThis library is released into an already crowded space, and the author would\nlike to recognise some of the already wonderful work done by others. The primary\ndifference between this and other libraries is typically these other libraries\nfocus more on abstracting interface definitions and compliance, and less on the\ndocumentation and plugin registration work. While this work overlaps with these\nprojects, its approach is sufficiently different (in the author's opinion)\nto warrant a separate library.\n\n- [`pure_interface`](https://github.com/seequent/pure_interface)\n- [`python-interface`](https://github.com/ssanderson/interface)\n\n`python-interface` has an emphasis on ensuring that implementations of various\ninterfaces *strictly* adhere to the methods and properties associated with\nthe interface, and that helpful errors are raised when this is violated.\n\nBy\ncomparison this library focusses on functional comformance to parent classes,\nwhereby methods on subclasses are allowed to include additional parameters. It\nalso focusses on ensuring that documentation for such quirks in method signatures are correctly composed into the final documentation rendered for that method.\n",
+        "description_content_type": "text/markdown",
+        "author_email": "Matthew Wardrop <mpwardrop@gmail.com>",
+        "license": "MIT",
+        "license_file": [
+          "LICENSE"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Environment :: Console",
+          "Intended Audience :: Developers",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14"
+        ],
+        "requires_python": ">=3.10",
+        "project_url": [
+          "Homepage, https://github.com/matthewwardrop/interface_meta",
+          "Repository, https://github.com/matthewwardrop/interface_meta"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/cf/82/8ef9c7e0f50493307a49c09cfa7f00c5a778b6d1921f7b2dabe1d3a5809e/narwhals-2.28.0-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=1f69d6385ec30e2fa6e1fdeb37c562ecabd0f713f6f3e3b58a668c5c9df9567f",
+          "hashes": {
+            "sha256": "1f69d6385ec30e2fa6e1fdeb37c562ecabd0f713f6f3e3b58a668c5c9df9567f"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "narwhals",
+        "version": "2.28.0",
+        "summary": "Extremely lightweight compatibility layer between dataframe libraries",
+        "description": "# Narwhals\n\n<h1 align=\"center\">\n\t<img\n\t\twidth=\"400\"\n\t\talt=\"narwhals_small\"\n\t\tsrc=\"https://github.com/user-attachments/assets/968545af-ea0f-48bb-8377-144e93f7abf8\">\n</h1>\n\n[![PyPI version](https://badge.fury.io/py/narwhals.svg)](https://badge.fury.io/py/narwhals)\n[![Downloads](https://static.pepy.tech/badge/narwhals/month)](https://pepy.tech/project/narwhals)\n[![Trusted publishing](https://img.shields.io/badge/Trusted_publishing-Provides_attestations-bright_green)](https://peps.python.org/pep-0740/)\n[![PYPI - Types](https://img.shields.io/pypi/types/narwhals)](https://pypi.org/project/narwhals)\n[![LFX Health Score](https://insights.linuxfoundation.org/api/badge/health-score?project=narwhals-dev-narwhals)](https://insights.linuxfoundation.org/project/narwhals-dev-narwhals)\n[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/narwhals-dev/narwhals/badge)](https://securityscorecards.dev/viewer/?uri=github.com/narwhals-dev/narwhals)\n\nExtremely lightweight and extensible compatibility layer between dataframe libraries!\n\n- **Full API support**: cuDF, Modin, pandas, Polars, PyArrow.\n- **Lazy-only support**: Dask, DuckDB, Ibis, PySpark, SQLFrame, Daft via the\n  [narwhals-daft](https://github.com/narwhals-dev/narwhals-daft) plugin, and Apache DataFusion via the\n  [narwhals-datafusion](https://github.com/s5dsn-eqee/narwhals-datafusion) plugin.\n\nSeamlessly support all, without depending on any!\n\n- ✅ **Just use** [a subset of **the Polars API**](https://narwhals-dev.github.io/narwhals/api-reference/), no need to learn anything new\n- ✅ **Zero dependencies**, Narwhals only uses what\n  the user passes in so your library can stay lightweight\n- ✅ Separate **lazy** and eager APIs, use **expressions**\n- ✅ Support pandas' complicated type system and index, without\n  either getting in the way\n- ✅ **100% branch coverage**, tested against pandas and Polars nightly builds\n- ✅ **Negligible overhead**, see [overhead](https://narwhals-dev.github.io/narwhals/overhead/)\n- ✅ Let your IDE help you thanks to **full static typing**, see [typing](https://narwhals-dev.github.io/narwhals/api-reference/typing/)\n- ✅ **Perfect backwards compatibility policy**,\n  see [stable api](https://narwhals-dev.github.io/narwhals/backcompat/) for how to opt-in\n\nGet started!\n\n- [Read the documentation](https://narwhals-dev.github.io/narwhals/)\n- [Chat with us on Discord!](https://discord.gg/V3PqtB4VA4)\n- [Join our community call](https://calendar.google.com/calendar/embed?src=27ff6dc5f598c1d94c1f6e627a1aaae680e2fac88f848bda1f2c7946ae74d5ab%40group.calendar.google.com)\n- [Read the contributing guide](https://github.com/narwhals-dev/narwhals/blob/main/CONTRIBUTING.md)\n\n<details>\n<summary>Table of contents</summary>\n\n- [Narwhals](#narwhals)\n  - [Installation](#installation)\n  - [Usage](#usage)\n  - [Example](#example)\n  - [Scope](#scope)\n  - [Roadmap](#roadmap)\n  - [Used by](#used-by)\n  - [Sponsors and institutional partners](#sponsors-and-institutional-partners)\n  - [Support](#support)\n  - [Appears on](#appears-on)\n  - [Why \"Narwhals\"?](#why-narwhals)\n\n</details>\n\n## Installation\n\n- pip (recommended, as it's the most up-to-date)\n  ```\n  pip install narwhals\n  ```\n- conda-forge (also fine, but the latest version may take longer to appear)\n  ```\n  conda install -c conda-forge narwhals\n  ```\n\n## Usage\n\nThere are three steps to writing dataframe-agnostic code using Narwhals:\n\n1. use `narwhals.from_native` to wrap a pandas/Polars/Modin/cuDF/PyArrow\n   DataFrame/LazyFrame in a Narwhals class\n2. use the [subset of the Polars API supported by Narwhals](https://narwhals-dev.github.io/narwhals/api-reference/)\n3. use `narwhals.to_native` to return an object to the user in its original\n   dataframe flavour. For example:\n\n   - if you started with pandas, you'll get pandas back\n   - if you started with Polars, you'll get Polars back\n   - if you started with Modin, you'll get Modin back (and compute will be distributed)\n   - if you started with cuDF, you'll get cuDF back (and compute will happen on GPU)\n   - if you started with PyArrow, you'll get PyArrow back\n\n<h1 align=\"left\">\n\t<img\n\t\twidth=\"600\"\n\t\talt=\"narwhals_gif\"\n\t\tsrc=\"https://github.com/user-attachments/assets/88292d3c-6359-4155-973d-d0f8e3fbf5ac\">\n\n</h1>\n\n## Example\n\nNarwhals allows you to define dataframe-agnostic functions. For example:\n\n```python\nimport narwhals as nw\nfrom narwhals.typing import IntoDataFrameT, IntoLazyFrameT\n\n\ndef agnostic_function(\n    df_native: IntoDataFrameT | IntoLazyFrameT,\n) -> IntoDataFrameT | IntoLazyFrameT:\n    return (\n        nw.from_native(df_native)\n        .with_columns(\n            category=nw.when(nw.col(\"animal\").str.contains(\"whale\"))\n            .then(nw.lit(\"whale\"))\n            .otherwise(nw.lit(\"other\"))\n        )\n        .to_native()\n    )\n```\n\nYou can then pass `pandas.DataFrame`, `polars.DataFrame`, `polars.LazyFrame`, `duckdb.DuckDBPyRelation`,\n`pyspark.sql.DataFrame`, `pyarrow.Table`, and more, to `agnostic_function`. In each case, no additional\ndependencies will be required, and computation will stay native to the input library:\n\n```python\nimport duckdb\nimport polars as pl\nimport pandas as pd\n\ndata = {\n    \"animal\": [\"blue whale\", \"orca\", \"dolphin\", \"humpback whale\", \"seal\"],\n    \"length_m\": [30.0, 8, 2.5, 17, 2.2],\n    \"weight_kg\": [150000, 4000, 200, 30000, 85],\n}\n\nprint(\"Polars result\")\ndf_pl = pl.DataFrame(data)\nprint(agnostic_function(df_pl))\n\nprint(\"DuckDB result\")\nprint(agnostic_function(duckdb.sql(\"select * from df_pl\")))\n\nprint(\"pandas result\")\ndf_pd = pd.DataFrame(data)\nprint(agnostic_function(df_pd))\n```\n\n```terminal\nPolars result\nshape: (5, 4)\n┌────────────────┬──────────┬───────────┬──────────┐\n│ animal         ┆ length_m ┆ weight_kg ┆ category │\n│ ---            ┆ ---      ┆ ---       ┆ ---      │\n│ str            ┆ f64      ┆ i64       ┆ str      │\n╞════════════════╪══════════╪═══════════╪══════════╡\n│ blue whale     ┆ 30.0     ┆ 150000    ┆ whale    │\n│ orca           ┆ 8.0      ┆ 4000      ┆ other    │\n│ dolphin        ┆ 2.5      ┆ 200       ┆ other    │\n│ humpback whale ┆ 17.0     ┆ 30000     ┆ whale    │\n│ seal           ┆ 2.2      ┆ 85        ┆ other    │\n└────────────────┴──────────┴───────────┴──────────┘\nDuckDB result\n┌────────────────┬──────────┬───────────┬──────────┐\n│     animal     │ length_m │ weight_kg │ category │\n│    varchar     │  double  │   int64   │ varchar  │\n├────────────────┼──────────┼───────────┼──────────┤\n│ blue whale     │     30.0 │    150000 │ whale    │\n│ orca           │      8.0 │      4000 │ other    │\n│ dolphin        │      2.5 │       200 │ other    │\n│ humpback whale │     17.0 │     30000 │ whale    │\n│ seal           │      2.2 │        85 │ other    │\n└────────────────┴──────────┴───────────┴──────────┘\n\npandas result\n           animal  length_m  weight_kg category\n0      blue whale      30.0     150000    whale\n1            orca       8.0       4000    other\n2         dolphin       2.5        200    other\n3  humpback whale      17.0      30000    whale\n4            seal       2.2         85    other\n```\n\nSee the [tutorial](https://narwhals-dev.github.io/narwhals/basics/dataframe/) for several examples!\n\n## Scope\n\n- Do you maintain a dataframe-consuming library?\n- Do you have a specific Polars function in mind that you would like Narwhals to have in order to make your work easier?\n\nIf you said yes to both, we'd love to hear from you!\n\n## Roadmap\n\nSee [roadmap discussion on GitHub](https://github.com/narwhals-dev/narwhals/discussions/1370)\nfor an up-to-date plan of future work.\n\n## Used by\n\nJoin the party!\n\n- [altair](https://github.com/vega/altair/)\n- [bokeh](https://github.com/bokeh/bokeh)\n- [darts](https://github.com/unit8co/darts)\n- [fairlearn](https://github.com/fairlearn/fairlearn)\n- [formulaic](https://github.com/matthewwardrop/formulaic)\n- [gt-extras](https://github.com/posit-dev/gt-extras)\n- [hierarchicalforecast](https://github.com/Nixtla/hierarchicalforecast)\n- [lightgbm](https://github.com/lightgbm-org/LightGBM)\n- [marimo](https://github.com/marimo-team/marimo)\n- [metalearners](https://github.com/Quantco/metalearners)\n- [mosaic](https://github.com/uwdata/mosaic)\n- [pandera](https://github.com/pandera-dev/pandera)\n- [panel-graphic-walker](https://github.com/panel-extensions/panel-graphic-walker)\n- [plotly](https://plotly.com)\n- [pointblank](https://github.com/posit-dev/pointblank)\n- [pymarginaleffects](https://github.com/vincentarelbundock/pymarginaleffects)\n- [pyreadr](https://github.com/ofajardo/pyreadr)\n- [pyreadstat](https://github.com/Roche/pyreadstat)\n- [py-shiny](https://github.com/posit-dev/py-shiny)\n- [pysummaries](https://github.com/Genentech/pysummaries)\n- [rio](https://github.com/rio-labs/rio)\n- [scikit-learn](https://github.com/scikit-learn/scikit-learn)\n- [scikit-lego](https://github.com/koaning/scikit-lego)\n- [scikit-playtime](https://github.com/koaning/scikit-playtime)\n- [tabmat](https://github.com/Quantco/tabmat)\n- [tea-tasting](https://github.com/e10v/tea-tasting)\n- [timebasedcv](https://github.com/FBruzzesi/timebasedcv)\n- [tubular](https://github.com/lvgig/tubular)\n- [Validoopsie](https://github.com/akmalsoliev/Validoopsie)\n- [vegafusion](https://github.com/vega/vegafusion)\n- [wimsey](https://github.com/benrutter/wimsey)\n\nFeel free to add your project to the list if it's missing, and/or\n[chat with us on Discord](https://discord.gg/V3PqtB4VA4) if you'd like any support.\n\n## Sponsors and institutional partners\n\nNarwhals is 100% independent, community-driven, and community-owned.\nWe are extremely grateful to the following organisations for having\nprovided some funding / development time:\n\n- [Quansight Labs](https://labs.quansight.org)\n- [Quansight Futures](https://www.qi.ventures)\n- [OpenTeams](https://www.openteams.com)\n- [POSSEE initiative](https://possee.org)\n- [BYU-Idaho](https://www.byui.edu)\n- [Intella](https://www.intella.tech/)\n\nIf you contribute to Narwhals on your organization's time, please let us know. We'd be happy to add your employer\nto this list!\n\n## Support\n\nIf you'd like to say \"thank you\", please give us a ⭐ star ⭐.\n\nPlease contact [hello_narwhals@proton.me](mailto:hello_narwhals@proton.me) if you would like to:\n\n- Receive professional support (e.g., if you're using or would like to use Narwhals at your company).\n- Have any Narwhals fixes / features prioritised.\n- Commission any Narwhals plugins for new backends.\n\n## Appears on\n\nNarwhals has been featured in several talks, podcasts, and blog posts:\n\n- [Inspiring Computing Podcast](https://www.inspiringcomputing.com/2107763/episodes/16702460-the-rise-of-narwhals-in-open-source)\n  The Rise of Narwhals in Open-Source\n\n- [PyCon DE & PyData 2025](https://youtu.be/DJk782DWcss)\n  How Narwhals is silently bringing pandas, Polars, DuckDB, PyArrow, and more together\n\n- [The Python Exchange March 2025](https://youtu.be/TvFWFlK-2po)\n  What Can Narwhals Do for You?\n\n- [PyData London 2025](https://youtu.be/r2PxJlO7_QA)\n  How Narwhals brings Polars, DuckDB, PyArrow, & pandas together\n\n- [Talk Python to me Podcast](https://youtu.be/FSH7BZ0tuE0)\n  Ahoy, Narwhals are bridging the data science APIs\n\n- [Python Bytes Podcast](https://www.youtube.com/live/N7w_ESVW40I?si=y-wN1uCsAuJOKlOT&t=382)\n  Episode 402, topic #2\n\n- [Super Data Science: ML & AI Podcast](https://www.youtube.com/watch?v=TeG4U8R0U8U)\n  Narwhals: For Pandas-to-Polars DataFrame Compatibility\n\n- [Sample Space Podcast | probabl](https://youtu.be/8hYdq4sWbbQ?si=WG0QP1CZ6gkFf18b)\n  How Narwhals has many end users ... that never use it directly. - Marco Gorelli\n\n- [The Real Python Podcast](https://www.youtube.com/watch?v=w5DFZbFYzCM)\n  Narwhals: Expanding DataFrame Compatibility Between Libraries\n\n- [Pycon Lithuania 2024](https://www.youtube.com/watch?v=-mdx7Cn6_6E)\n  Marco Gorelli - DataFrame interoperatiblity - what's been achieved, and what comes next?\n\n- [Pycon Italy 2024](https://www.youtube.com/watch?v=3IqUli9XsmQ)\n  How you can write a dataframe-agnostic library - Marco Gorelli\n\n- [Polars Blog Post](https://pola.rs/posts/lightweight_plotting/)\n  Polars has a new lightweight plotting backend\n\n- [Quansight Labs blog post (w/ Scikit-Lego)](https://labs.quansight.org/blog/scikit-lego-narwhals)\n  How Narwhals and scikit-lego came together to achieve dataframe-agnosticism\n\n## Why \"Narwhals\"?\n\n[Coz they are so awesome](https://youtu.be/ykwqXuMPsoc?si=A-i8LdR38teYsos4).\n\nThanks to [Olha Urdeichuk](https://www.fiverr.com/olhaurdeichuk) for the illustration!\n",
+        "description_content_type": "text/markdown",
+        "keywords": [
+          "dataframes",
+          "interoperability",
+          "pandas",
+          "polars",
+          "pyarrow",
+          "dask",
+          "modin",
+          "cudf"
+        ],
+        "author": "Marco Gorelli",
+        "author_email": "Marco Gorelli <hello_narwhals@proton.me>",
+        "license_expression": "MIT",
+        "license_file": [
+          "LICENSE.md"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Programming Language :: Python :: Free Threading :: 2 - Beta",
+          "Typing :: Typed"
+        ],
+        "requires_dist": [
+          "cudf-cu12>=24.10.0 ; sys_platform == 'linux' and extra == 'cudf'",
+          "dask[dataframe]>=2024.8 ; extra == 'dask'",
+          "duckdb>=1.1 ; extra == 'duckdb'",
+          "ibis-framework>=6.0.0 ; extra == 'ibis'",
+          "packaging>=21.3 ; extra == 'ibis'",
+          "pyarrow-hotfix>=0.7 ; extra == 'ibis'",
+          "modin>=0.22.0 ; extra == 'modin'",
+          "pandas>=1.3.4 ; extra == 'pandas'",
+          "polars>=0.20.4 ; extra == 'polars'",
+          "pyarrow>=13.0.0 ; extra == 'pyarrow'",
+          "pyspark>=3.5.0 ; extra == 'pyspark'",
+          "pyspark[connect]>=3.5.0 ; extra == 'pyspark-connect'",
+          "narwhals[duckdb] ; extra == 'sql'",
+          "sqlparse>=0.5.5 ; extra == 'sql'",
+          "sqlframe>=3.22.0,!=3.39.3 ; extra == 'sqlframe'"
+        ],
+        "requires_python": ">=3.10",
+        "project_url": [
+          "Homepage, https://github.com/narwhals-dev/narwhals",
+          "Documentation, https://narwhals-dev.github.io/narwhals/",
+          "Repository, https://github.com/narwhals-dev/narwhals",
+          "Bug Tracker, https://github.com/narwhals-dev/narwhals/issues"
+        ],
+        "provides_extra": [
+          "cudf",
+          "dask",
+          "duckdb",
+          "ibis",
+          "modin",
+          "pandas",
+          "polars",
+          "pyarrow",
+          "pyspark",
+          "pyspark-connect",
+          "sql",
+          "sqlframe"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/dd/26/a6caa9a84ef5db4a273787949cea7ab51f6001d2548768af4c8e3c49debd/wrapt-2.5.2-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+        "archive_info": {
+          "hash": "sha256=092472b7b1494deef40dac5e9f6295013a9d51b112b5fbc4350f64dc2574e46a",
+          "hashes": {
+            "sha256": "092472b7b1494deef40dac5e9f6295013a9d51b112b5fbc4350f64dc2574e46a"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "wrapt",
+        "version": "2.5.2",
+        "dynamic": [
+          "license-file"
+        ],
+        "summary": "Module for decorators, wrappers and monkey patching.",
+        "description": ".. image:: https://raw.githubusercontent.com/GrahamDumpleton/wrapt/develop/docs/_static/wrapt-logo.svg\n   :alt: wrapt\n   :width: 182px\n\nwrapt\n=====\n\n|PyPI| |Documentation|\n\nA Python module for decorators, wrappers and monkey patching.\n\nOverview\n--------\n\nThe **wrapt** module provides a transparent object proxy for Python, which can be used as the basis for the construction of function wrappers and decorator functions.\n\nThe **wrapt** module focuses very much on correctness. It goes way beyond existing mechanisms such as ``functools.wraps()`` to ensure that decorators preserve introspectability, signatures, type checking abilities etc. The decorators that can be constructed using this module will work in far more scenarios than typical decorators and provide more predictable and consistent behaviour.\n\nTo ensure that the overhead is as minimal as possible, a C extension module is used for performance critical components. An automatic fallback to a pure Python implementation is also provided where a target system does not have a compiler to allow the C extension to be compiled.\n\nKey Features\n------------\n\n* **Universal decorators** that work with functions, methods, classmethods, staticmethods, and classes\n* **Transparent object proxies** for advanced wrapping scenarios  \n* **Monkey patching utilities** for safe runtime modifications\n* **C extension** for optimal performance with Python fallback\n* **Comprehensive introspection preservation** (signatures, annotations, etc.)\n* **Thread-safe decorator implementations**\n\nInstallation\n------------\n\nInstall from PyPI using pip::\n\n    pip install wrapt\n\nSupported Python Versions\n--------------------------\n\n* Python 3.9+\n* CPython and PyPy implementations\n\nDocumentation\n-------------\n\nFor comprehensive documentation, examples, and advanced usage patterns, visit:\n\n* https://wrapt.readthedocs.io/\n\nQuick Start\n-----------\n\nTo implement your decorator you need to first define a wrapper function.\nThis will be called each time a decorated function is called. The wrapper\nfunction needs to take four positional arguments:\n\n* ``wrapped`` - The wrapped function which in turns needs to be called by your wrapper function.\n* ``instance`` - The object to which the wrapped function was bound when it was called.\n* ``args`` - The list of positional arguments supplied when the decorated function was called.\n* ``kwargs`` - The dictionary of keyword arguments supplied when the decorated function was called.\n\nThe wrapper function would do whatever it needs to, but would usually in\nturn call the wrapped function that is passed in via the ``wrapped``\nargument.\n\nThe decorator ``@wrapt.decorator`` then needs to be applied to the wrapper\nfunction to convert it into a decorator which can in turn be applied to\nother functions.\n\n.. code-block:: python\n\n    import wrapt\n\n    @wrapt.decorator\n    def pass_through(wrapped, instance, args, kwargs):\n        return wrapped(*args, **kwargs)\n\n    @pass_through\n    def function():\n        pass\n\nIf you wish to implement a decorator which accepts arguments, then wrap the\ndefinition of the decorator in a function closure. Any arguments supplied\nto the outer function when the decorator is applied, will be available to\nthe inner wrapper when the wrapped function is called.\n\n.. code-block:: python\n\n    import wrapt\n\n    def with_arguments(myarg1, myarg2):\n        @wrapt.decorator\n        def wrapper(wrapped, instance, args, kwargs):\n            return wrapped(*args, **kwargs)\n        return wrapper\n\n    @with_arguments(1, 2)\n    def function():\n        pass\n\nWhen applied to a normal function or static method, the wrapper function\nwhen called will be passed ``None`` as the ``instance`` argument.\n\nWhen applied to an instance method, the wrapper function when called will\nbe passed the instance of the class the method is being called on as the\n``instance`` argument. This will be the case even when the instance method\nwas called explicitly via the class and the instance passed as the first\nargument. That is, the instance will never be passed as part of ``args``.\n\nWhen applied to a class method, the wrapper function when called will be\npassed the class type as the ``instance`` argument.\n\nWhen applied to a class, the wrapper function when called will be passed\n``None`` as the ``instance`` argument. The ``wrapped`` argument in this\ncase will be the class.\n\nThe above rules can be summarised with the following example.\n\n.. code-block:: python\n\n    import inspect\n\n    @wrapt.decorator\n    def universal(wrapped, instance, args, kwargs):\n        if instance is None:\n            if inspect.isclass(wrapped):\n                # Decorator was applied to a class.\n                return wrapped(*args, **kwargs)\n            else:\n                # Decorator was applied to a function or staticmethod.\n                return wrapped(*args, **kwargs)\n        else:\n            if inspect.isclass(instance):\n                # Decorator was applied to a classmethod.\n                return wrapped(*args, **kwargs)\n            else:\n                # Decorator was applied to an instancemethod.\n                return wrapped(*args, **kwargs)\n\nUsing these checks it is therefore possible to create a universal decorator\nthat can be applied in all situations. It is no longer necessary to create\ndifferent variants of decorators for normal functions and instance methods,\nor use additional wrappers to convert a function decorator into one that\nwill work for instance methods.\n\nIn all cases, the wrapped function passed to the wrapper function is called\nin the same way, with ``args`` and ``kwargs`` being passed. The\n``instance`` argument doesn't need to be used in calling the wrapped\nfunction.\n\nLinks\n-----\n\n* **Documentation**: https://wrapt.readthedocs.io/\n* **Source Code**: https://github.com/GrahamDumpleton/wrapt\n* **Bug Reports**: https://github.com/GrahamDumpleton/wrapt/issues/\n* **Changelog**: https://wrapt.readthedocs.io/en/latest/changes.html\n\n.. |PyPI| image:: https://img.shields.io/pypi/v/wrapt.svg?logo=python&cacheSeconds=3600\n   :target: https://pypi.python.org/pypi/wrapt\n.. |Documentation| image:: https://img.shields.io/badge/docs-wrapt.readthedocs.io-blue.svg\n   :target: https://wrapt.readthedocs.io/\n",
+        "description_content_type": "text/x-rst",
+        "keywords": [
+          "wrapper",
+          "proxy",
+          "decorator"
+        ],
+        "author_email": "Graham Dumpleton <Graham.Dumpleton@gmail.com>",
+        "license_expression": "BSD-2-Clause",
+        "license_file": [
+          "LICENSE"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Programming Language :: Python :: 3.15",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy"
+        ],
+        "requires_dist": [
+          "pytest; extra == \"dev\"",
+          "setuptools; extra == \"dev\""
+        ],
+        "requires_python": ">=3.9",
+        "project_url": [
+          "Homepage, https://github.com/GrahamDumpleton/wrapt",
+          "Bug Tracker, https://github.com/GrahamDumpleton/wrapt/issues/",
+          "Changelog, https://wrapt.readthedocs.io/en/latest/changes.html",
+          "Documentation, https://wrapt.readthedocs.io/"
+        ],
+        "provides_extra": [
+          "dev"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/6d/a0/053d6af3e8f871e0073b4a36732d9e65be77a72e5434c31b94f6af78a6bb/mako-1.4.3-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=723296007c870bfd6b3f0c3230dba7198096e5269297ebf5e4eff9e7ffa39d4f",
+          "hashes": {
+            "sha256": "723296007c870bfd6b3f0c3230dba7198096e5269297ebf5e4eff9e7ffa39d4f"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "Mako",
+        "version": "1.4.3",
+        "dynamic": [
+          "license-file"
+        ],
+        "summary": "A super-fast templating language that borrows the best ideas from the existing templating languages.",
+        "description": "=========================\nMako Templates for Python\n=========================\n\nMako is a template library written in Python. It provides a familiar, non-XML \nsyntax which compiles into Python modules for maximum performance. Mako's \nsyntax and API borrows from the best ideas of many others, including Django\ntemplates, Cheetah, Myghty, and Genshi. Conceptually, Mako is an embedded \nPython (i.e. Python Server Page) language, which refines the familiar ideas\nof componentized layout and inheritance to produce one of the most \nstraightforward and flexible models available, while also maintaining close \nties to Python calling and scoping semantics.\n\nNutshell\n========\n\n::\n\n    <%inherit file=\"base.html\"/>\n    <%\n        rows = [[v for v in range(0,10)] for row in range(0,10)]\n    %>\n    <table>\n        % for row in rows:\n            ${makerow(row)}\n        % endfor\n    </table>\n\n    <%def name=\"makerow(row)\">\n        <tr>\n        % for name in row:\n            <td>${name}</td>\\\n        % endfor\n        </tr>\n    </%def>\n\nPhilosophy\n===========\n\nPython is a great scripting language. Don't reinvent the wheel...your templates can handle it !\n\nDocumentation\n==============\n\nSee documentation for Mako at https://docs.makotemplates.org/en/latest/\n\nLicense\n========\n\nMako is licensed under an MIT-style license (see LICENSE).\nOther incorporated projects may be licensed under different licenses.\nAll licenses allow for non-commercial and commercial use.\n",
+        "description_content_type": "text/x-rst",
+        "author_email": "Mike Bayer <mike@zzzcomputing.com>",
+        "license_expression": "MIT",
+        "license_file": [
+          "LICENSE"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Environment :: Web Environment",
+          "Intended Audience :: Developers",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Programming Language :: Python :: 3.15",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy",
+          "Topic :: Internet :: WWW/HTTP :: Dynamic Content"
+        ],
+        "requires_dist": [
+          "MarkupSafe>=2.0",
+          "pytest; extra == \"testing\"",
+          "Babel; extra == \"babel\"",
+          "lingua>=4.16; extra == \"lingua\""
+        ],
+        "requires_python": ">=3.10",
+        "project_url": [
+          "Homepage, https://www.makotemplates.org/",
+          "Documentation, https://docs.makotemplates.org",
+          "Issue Tracker, https://github.com/sqlalchemy/mako"
+        ],
+        "provides_extra": [
+          "testing",
+          "babel",
+          "lingua"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/4f/a7/aeedb5140afa41fc74c225e9184ab96723a6e873b6ee1c9fede7283456d8/markupsafe-3.0.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+        "archive_info": {
+          "hash": "sha256=8e124f974786f831d6043728e38296969d3579db8896fe004682f5758e613581",
+          "hashes": {
+            "sha256": "8e124f974786f831d6043728e38296969d3579db8896fe004682f5758e613581"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": false,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "MarkupSafe",
+        "version": "3.0.4",
+        "dynamic": [
+          "license-file"
+        ],
+        "summary": "Safely add untrusted strings to HTML/XML markup.",
+        "description": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/pallets/markupsafe/refs/heads/stable/docs/_static/markupsafe-name.svg\" alt=\"\" height=\"150\"></div>\n\n# MarkupSafe\n\nMarkupSafe implements a text object that escapes characters so it is\nsafe to use in HTML and XML. Characters that have special meanings are\nreplaced so that they display as the actual characters. This mitigates\ninjection attacks, meaning untrusted user input can safely be displayed\non a page.\n\n\n## Examples\n\n```pycon\n>>> from markupsafe import Markup, escape\n\n>>> # escape replaces special characters and wraps in Markup\n>>> escape(\"<script>alert(document.cookie);</script>\")\nMarkup('&lt;script&gt;alert(document.cookie);&lt;/script&gt;')\n\n>>> # wrap in Markup to mark text \"safe\" and prevent escaping\n>>> Markup(\"<strong>Hello</strong>\")\nMarkup('<strong>hello</strong>')\n\n>>> escape(Markup(\"<strong>Hello</strong>\"))\nMarkup('<strong>hello</strong>')\n\n>>> # Markup is a str subclass\n>>> # methods and operators escape their arguments\n>>> template = Markup(\"Hello <em>{name}</em>\")\n>>> template.format(name='\"World\"')\nMarkup('Hello <em>&#34;World&#34;</em>')\n```\n\n## Donate\n\nThe Pallets organization develops and supports MarkupSafe and other\npopular packages. In order to grow the community of contributors and\nusers, and allow the maintainers to devote more time to the projects,\n[please donate today][].\n\n[please donate today]: https://palletsprojects.com/donate\n\n## Contributing\n\nSee our [detailed contributing documentation][contrib] for many ways to\ncontribute, including reporting issues, requesting features, asking or answering\nquestions, and making PRs.\n\n[contrib]: https://palletsprojects.com/contributing/\n",
+        "description_content_type": "text/markdown",
+        "maintainer_email": "Pallets <contact@palletsprojects.com>",
+        "license_expression": "BSD-3-Clause",
+        "license_file": [
+          "LICENSE.txt"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Environment :: Web Environment",
+          "Intended Audience :: Developers",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python",
+          "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+          "Topic :: Text Processing :: Markup :: HTML",
+          "Typing :: Typed"
+        ],
+        "requires_python": ">=3.9",
+        "project_url": [
+          "Donate, https://palletsprojects.com/donate",
+          "Documentation, https://markupsafe.palletsprojects.com/",
+          "Changes, https://markupsafe.palletsprojects.com/page/changes/",
+          "Source, https://github.com/pallets/markupsafe/",
+          "Chat, https://discord.gg/pallets"
+        ]
+      }
+    }
+  ],
+  "environment": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.12.14",
+    "os_name": "posix",
+    "platform_machine": "x86_64",
+    "platform_release": "6.18.55",
+    "platform_system": "Linux",
+    "platform_version": "#1 SMP Wed Oct 14 19:45:18 UTC 2026",
+    "python_full_version": "3.12.14",
+    "platform_python_implementation": "CPython",
+    "python_version": "3.12",
+    "sys_platform": "linux"
+  }
+}

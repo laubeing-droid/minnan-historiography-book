@@ -1,0 +1,196 @@
+{
+  "scope": "string checks only; not transcription or definition verification",
+  "input_identity": "NEW_TEACHING_TRANSCRIPTION",
+  "plans": [
+    {
+      "plan": "fixed_120",
+      "block_count": 4,
+      "total_characters": 385,
+      "checks": [
+        {
+          "place": "漳州",
+          "complete_row_blocks": [],
+          "row_and_required_conditions_blocks": []
+        },
+        {
+          "place": "泉州",
+          "complete_row_blocks": [
+            2
+          ],
+          "row_and_required_conditions_blocks": []
+        },
+        {
+          "place": "厦门",
+          "complete_row_blocks": [
+            2
+          ],
+          "row_and_required_conditions_blocks": []
+        }
+      ],
+      "blocks": [
+        {
+          "id": "fixed_120/001",
+          "text": "统计时点2020年11月1日零时。表2-1各地区常住人口。单位：人、%。\n地区|常住人口数|占全省常住人口比重2020年|占全省常住人口比重2010年\n全省|41540086|100.00|100.00\n福州|8291268|19.96|1",
+          "source_id": "S1",
+          "source_locator": "表2-1及原注；十一行值从已有章节表格承接，不是本轮重抄原公报"
+        },
+        {
+          "id": "fixed_120/002",
+          "text": "9.29\n＃平潭|385981|0.93|0.97\n厦门|5163970|12.43|9.57\n莆田|3210714|7.73|7.53\n三明|2486450|5.99|6.78\n泉州|8782285|21.14|22.03\n漳州|5054",
+          "source_id": "S1",
+          "source_locator": "表2-1及原注；十一行值从已有章节表格承接，不是本轮重抄原公报"
+        },
+        {
+          "id": "fixed_120/003",
+          "text": "328|12.17|13.04\n南平|2680645|6.45|7.17\n龙岩|2723637|6.56|6.94\n宁德|3146789|7.57|7.65\n编者提示非逐字引文：初步汇总；不含金门、马祖等岛屿人口；常住人口完整定义返回原注[",
+          "source_id": "S1",
+          "source_locator": "表2-1及原注；十一行值从已有章节表格承接，不是本轮重抄原公报"
+        },
+        {
+          "id": "fixed_120/004",
+          "text": "3]。＃平潭原标记保留，不把十一行相加作全省合计。",
+          "source_id": "S1",
+          "source_locator": "表2-1及原注；十一行值从已有章节表格承接，不是本轮重抄原公报"
+        }
+      ]
+    },
+    {
+      "plan": "overlap_120_30",
+      "block_count": 4,
+      "total_characters": 475,
+      "checks": [
+        {
+          "place": "漳州",
+          "complete_row_blocks": [
+            3
+          ],
+          "row_and_required_conditions_blocks": []
+        },
+        {
+          "place": "泉州",
+          "complete_row_blocks": [
+            3
+          ],
+          "row_and_required_conditions_blocks": []
+        },
+        {
+          "place": "厦门",
+          "complete_row_blocks": [
+            2
+          ],
+          "row_and_required_conditions_blocks": []
+        }
+      ],
+      "blocks": [
+        {
+          "id": "overlap_120_30/001",
+          "text": "统计时点2020年11月1日零时。表2-1各地区常住人口。单位：人、%。\n地区|常住人口数|占全省常住人口比重2020年|占全省常住人口比重2010年\n全省|41540086|100.00|100.00\n福州|8291268|19.96|1",
+          "source_id": "S1",
+          "source_locator": "表2-1及原注；十一行值从已有章节表格承接，不是本轮重抄原公报"
+        },
+        {
+          "id": "overlap_120_30/002",
+          "text": "0.00|100.00\n福州|8291268|19.96|19.29\n＃平潭|385981|0.93|0.97\n厦门|5163970|12.43|9.57\n莆田|3210714|7.73|7.53\n三明|2486450|5.99|6.78\n",
+          "source_id": "S1",
+          "source_locator": "表2-1及原注；十一行值从已有章节表格承接，不是本轮重抄原公报"
+        },
+        {
+          "id": "overlap_120_30/003",
+          "text": ".73|7.53\n三明|2486450|5.99|6.78\n泉州|8782285|21.14|22.03\n漳州|5054328|12.17|13.04\n南平|2680645|6.45|7.17\n龙岩|2723637|6.56|6.94\n宁德",
+          "source_id": "S1",
+          "source_locator": "表2-1及原注；十一行值从已有章节表格承接，不是本轮重抄原公报"
+        },
+        {
+          "id": "overlap_120_30/004",
+          "text": "5|7.17\n龙岩|2723637|6.56|6.94\n宁德|3146789|7.57|7.65\n编者提示非逐字引文：初步汇总；不含金门、马祖等岛屿人口；常住人口完整定义返回原注[3]。＃平潭原标记保留，不把十一行相加作全省合计。",
+          "source_id": "S1",
+          "source_locator": "表2-1及原注；十一行值从已有章节表格承接，不是本轮重抄原公报"
+        }
+      ]
+    },
+    {
+      "plan": "structure_600",
+      "block_count": 1,
+      "total_characters": 385,
+      "checks": [
+        {
+          "place": "漳州",
+          "complete_row_blocks": [
+            1
+          ],
+          "row_and_required_conditions_blocks": [
+            1
+          ]
+        },
+        {
+          "place": "泉州",
+          "complete_row_blocks": [
+            1
+          ],
+          "row_and_required_conditions_blocks": [
+            1
+          ]
+        },
+        {
+          "place": "厦门",
+          "complete_row_blocks": [
+            1
+          ],
+          "row_and_required_conditions_blocks": [
+            1
+          ]
+        }
+      ],
+      "blocks": [
+        {
+          "id": "structure_600/001",
+          "text": "统计时点2020年11月1日零时。表2-1各地区常住人口。单位：人、%。\n地区|常住人口数|占全省常住人口比重2020年|占全省常住人口比重2010年\n全省|41540086|100.00|100.00\n福州|8291268|19.96|19.29\n＃平潭|385981|0.93|0.97\n厦门|5163970|12.43|9.57\n莆田|3210714|7.73|7.53\n三明|2486450|5.99|6.78\n泉州|8782285|21.14|22.03\n漳州|5054328|12.17|13.04\n南平|2680645|6.45|7.17\n龙岩|2723637|6.56|6.94\n宁德|3146789|7.57|7.65\n编者提示非逐字引文：初步汇总；不含金门、马祖等岛屿人口；常住人口完整定义返回原注[3]。＃平潭原标记保留，不把十一行相加作全省合计。",
+          "source_id": "S1",
+          "source_locator": "表2-1及原注；十一行值从已有章节表格承接，不是本轮重抄原公报"
+        }
+      ]
+    },
+    {
+      "plan": "fixed_600",
+      "block_count": 1,
+      "total_characters": 385,
+      "checks": [
+        {
+          "place": "漳州",
+          "complete_row_blocks": [
+            1
+          ],
+          "row_and_required_conditions_blocks": [
+            1
+          ]
+        },
+        {
+          "place": "泉州",
+          "complete_row_blocks": [
+            1
+          ],
+          "row_and_required_conditions_blocks": [
+            1
+          ]
+        },
+        {
+          "place": "厦门",
+          "complete_row_blocks": [
+            1
+          ],
+          "row_and_required_conditions_blocks": [
+            1
+          ]
+        }
+      ],
+      "blocks": [
+        {
+          "id": "fixed_600/001",
+          "text": "统计时点2020年11月1日零时。表2-1各地区常住人口。单位：人、%。\n地区|常住人口数|占全省常住人口比重2020年|占全省常住人口比重2010年\n全省|41540086|100.00|100.00\n福州|8291268|19.96|19.29\n＃平潭|385981|0.93|0.97\n厦门|5163970|12.43|9.57\n莆田|3210714|7.73|7.53\n三明|2486450|5.99|6.78\n泉州|8782285|21.14|22.03\n漳州|5054328|12.17|13.04\n南平|2680645|6.45|7.17\n龙岩|2723637|6.56|6.94\n宁德|3146789|7.57|7.65\n编者提示非逐字引文：初步汇总；不含金门、马祖等岛屿人口；常住人口完整定义返回原注[3]。＃平潭原标记保留，不把十一行相加作全省合计。",
+          "source_id": "S1",
+          "source_locator": "表2-1及原注；十一行值从已有章节表格承接，不是本轮重抄原公报"
+        }
+      ]
+    }
+  ]
+}

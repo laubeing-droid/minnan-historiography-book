@@ -1,0 +1,64 @@
+{
+  "review_date": "2026-10-30",
+  "scope": "Actual command execution and specified numerical/structural checks, not a certificate of historical facts.",
+  "file_names": "NOT_RUN suffix preserved from writing version; current status is recorded here.",
+  "results": [
+    {
+      "name": "catalog_normal",
+      "chapter": "ch19",
+      "script": "check_catalog_NOT_RUN.py",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch19/check_catalog_NOT_RUN.py",
+        "--input",
+        "catalog_input.csv",
+        "--output",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch05_06_19_23/catalog_normal.json"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "status": "EXECUTED_PASS",
+      "stdout": "catalog_normal.stdout",
+      "stderr": "catalog_normal.stderr"
+    },
+    {
+      "name": "catalog_anomalies",
+      "chapter": "ch19",
+      "script": "check_catalog_NOT_RUN.py",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch19/check_catalog_NOT_RUN.py",
+        "--input",
+        "catalog_anomalies.csv",
+        "--output",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch05_06_19_23/catalog_anomalies.json"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "status": "EXECUTED_PASS",
+      "stdout": "catalog_anomalies.stdout",
+      "stderr": "catalog_anomalies.stderr"
+    },
+    {
+      "name": "catalog_no_overwrite",
+      "chapter": "ch19",
+      "script": "check_catalog_NOT_RUN.py",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch19/check_catalog_NOT_RUN.py",
+        "--input",
+        "catalog_input.csv",
+        "--output",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch05_06_19_23/catalog_normal.json"
+      ],
+      "exit_code": 1,
+      "expected_exit": 1,
+      "status": "EXECUTED_PASS",
+      "stdout": "catalog_no_overwrite.stdout",
+      "stderr": "catalog_no_overwrite.stderr"
+    }
+  ]
+}

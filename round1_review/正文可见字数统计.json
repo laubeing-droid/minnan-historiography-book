@@ -1,0 +1,98 @@
+{
+  "method": "Count visible Han in chapter files incl titles/tables/notes; exclude fenced code, link targets, URLs, HTML tags and compiled duplicate.",
+  "chapters": [
+    {
+      "chapter": 1,
+      "han": 12976
+    },
+    {
+      "chapter": 2,
+      "han": 9368
+    },
+    {
+      "chapter": 3,
+      "han": 9043
+    },
+    {
+      "chapter": 4,
+      "han": 8701
+    },
+    {
+      "chapter": 5,
+      "han": 6378
+    },
+    {
+      "chapter": 6,
+      "han": 18163
+    },
+    {
+      "chapter": 7,
+      "han": 22883
+    },
+    {
+      "chapter": 8,
+      "han": 24315
+    },
+    {
+      "chapter": 9,
+      "han": 25932
+    },
+    {
+      "chapter": 10,
+      "han": 31733
+    },
+    {
+      "chapter": 11,
+      "han": 33244
+    },
+    {
+      "chapter": 12,
+      "han": 15661
+    },
+    {
+      "chapter": 13,
+      "han": 28454
+    },
+    {
+      "chapter": 14,
+      "han": 16401
+    },
+    {
+      "chapter": 15,
+      "han": 19478
+    },
+    {
+      "chapter": 16,
+      "han": 14058
+    },
+    {
+      "chapter": 17,
+      "han": 8424
+    },
+    {
+      "chapter": 18,
+      "han": 7233
+    },
+    {
+      "chapter": 19,
+      "han": 4248
+    },
+    {
+      "chapter": 20,
+      "han": 4509
+    },
+    {
+      "chapter": 21,
+      "han": 4917
+    },
+    {
+      "chapter": 22,
+      "han": 16646
+    },
+    {
+      "chapter": 23,
+      "han": 29285
+    }
+  ],
+  "total_han": 372050
+}

@@ -1,0 +1,24 @@
+{
+  "section": "10.1",
+  "title": "Prompt模板设计",
+  "status": "NOT_RUN",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "prompt",
+  "rows": [
+    {
+      "id": "Q01",
+      "source": "教学材料甲",
+      "text": "甲渡拟迁东岸，议未定。",
+      "gold": "拟议未定"
+    },
+    {
+      "id": "Q02",
+      "source": "教学材料乙",
+      "text": "乙渡已迁东岸。",
+      "gold": "已迁"
+    }
+  ],
+  "config": {
+    "template": "任务：仅依材料判断迁址状态。类别：已迁/拟议未定/未迁/无法判断。不要补充背景。输出JSON字段 id,status,evidence。\n材料编号：{id}\n材料：{text}"
+  }
+}

@@ -1,0 +1,4464 @@
+{
+  "scope": "新版43节独立计算和结构检查，非模型/历史有效性验证",
+  "checks": [
+    {
+      "section": "7.1",
+      "name": "单位与必填项",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        3,
+        2,
+        2,
+        0
+      ],
+      "expected": [
+        3,
+        2,
+        2,
+        0
+      ],
+      "basis": "E01/E02同机构同页、不同事件；E03另机构另页。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "7.2",
+      "name": "派生选择/input",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        "E01"
+      ],
+      "expected": [
+        "E01"
+      ],
+      "basis": "只改变select_event；原始三行不变。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "7.2",
+      "name": "派生选择/input_v2",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        "E02"
+      ],
+      "expected": [
+        "E02"
+      ],
+      "basis": "只改变select_event；原始三行不变。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "7.3",
+      "name": "明确零与缺失",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        4,
+        2,
+        3.0,
+        [
+          "U02",
+          "U03"
+        ]
+      ],
+      "expected": [
+        4,
+        2,
+        3.0,
+        [
+          "U02",
+          "U03"
+        ]
+      ],
+      "basis": "U01=0、U04=3，只有两条可计；未载、难辨不填零。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "7.4",
+      "name": "四条双人标签",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        4,
+        0.5,
+        0.3125,
+        0.2727272727272727
+      ],
+      "expected": [
+        4,
+        0.5,
+        0.3125,
+        0.2727272727272727
+      ],
+      "basis": "同判2/4；边际(3,1,0)和(1,2,1)，Pe=(3+2)/16，kappa=(8-5)/(16-5)=3/11。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "9.6",
+      "name": "四条双人标签",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        4,
+        0.5,
+        0.3125,
+        0.2727272727272727
+      ],
+      "expected": [
+        4,
+        0.5,
+        0.3125,
+        0.2727272727272727
+      ],
+      "basis": "同判2/4；边际(3,1,0)和(1,2,1)，Pe=(3+2)/16，kappa=(8-5)/(16-5)=3/11。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "7.5",
+      "name": "覆盖漏斗",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        [
+          0.8333333333333334,
+          0.5,
+          0.8333333333333334
+        ],
+        [
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        [
+          1.0,
+          0.5,
+          0.5
+        ]
+      ],
+      "expected": [
+        [
+          0.8333333333333334,
+          0.5,
+          0.8333333333333334
+        ],
+        [
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        [
+          1.0,
+          0.5,
+          0.5
+        ]
+      ],
+      "basis": "直接按每行correct/evaluated、evaluated/available、readable/available；三种分母不混用。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "9.8",
+      "name": "覆盖漏斗",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        [
+          0.8333333333333334,
+          0.5,
+          0.8333333333333334
+        ],
+        [
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        [
+          1.0,
+          0.5,
+          0.5
+        ]
+      ],
+      "expected": [
+        [
+          0.8333333333333334,
+          0.5,
+          0.8333333333333334
+        ],
+        [
+          0.6666666666666666,
+          0.5,
+          0.3333333333333333
+        ],
+        [
+          1.0,
+          0.5,
+          0.5
+        ]
+      ],
+      "basis": "直接按每行correct/evaluated、evaluated/available、readable/available；三种分母不混用。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "7.6",
+      "name": "关联组闭包",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        [
+          [
+            "R01",
+            "R02",
+            "R03"
+          ],
+          true
+        ],
+        [
+          [
+            "R04",
+            "R06"
+          ],
+          true
+        ],
+        [
+          [
+            "R05"
+          ],
+          false
+        ]
+      ],
+      "expected": [
+        [
+          [
+            "R01",
+            "R02",
+            "R03"
+          ],
+          true
+        ],
+        [
+          [
+            "R04",
+            "R06"
+          ],
+          true
+        ],
+        [
+          [
+            "R05"
+          ],
+          false
+        ]
+      ],
+      "basis": "R01-03由书A连通，R04/06由人物丙连通；两个组跨split。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "7.7",
+      "name": "卡片结构",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        6,
+        []
+      ],
+      "expected": [
+        6,
+        []
+      ],
+      "basis": "只查五个必要字段的存在；不证明数据/模型有效。",
+      "kind": "模板结构"
+    },
+    {
+      "section": "10.10",
+      "name": "卡片结构",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        6,
+        []
+      ],
+      "expected": [
+        6,
+        []
+      ],
+      "basis": "只查五个必要字段的存在；不证明数据/模型有效。",
+      "kind": "模板结构"
+    },
+    {
+      "section": "8.1",
+      "name": "关键词基线",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        2,
+        2,
+        1,
+        1,
+        0.5,
+        0.5,
+        0.6666666666666666,
+        0.5714285714285714
+      ],
+      "expected": [
+        2,
+        2,
+        1,
+        1,
+        0.5,
+        0.5,
+        0.6666666666666666,
+        0.5714285714285714
+      ],
+      "basis": "逐句手判T01,T02,T03,T06命中，T04漏；TP=2 FP=2 FN=1 TN=1。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "8.1",
+      "name": "全负类基线",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        0,
+        0,
+        3,
+        3,
+        0.5,
+        null,
+        0.0,
+        0.0
+      ],
+      "expected": [
+        0,
+        0,
+        3,
+        3,
+        0.5,
+        null,
+        0,
+        0
+      ],
+      "basis": "零候选精确率未定义，不得记满分。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "9.3",
+      "name": "关键词基线",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        2,
+        2,
+        1,
+        1,
+        0.5,
+        0.5,
+        0.6666666666666666,
+        0.5714285714285714
+      ],
+      "expected": [
+        2,
+        2,
+        1,
+        1,
+        0.5,
+        0.5,
+        0.6666666666666666,
+        0.5714285714285714
+      ],
+      "basis": "逐句手判T01,T02,T03,T06命中，T04漏；TP=2 FP=2 FN=1 TN=1。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "9.3",
+      "name": "全负类基线",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        0,
+        0,
+        3,
+        3,
+        0.5,
+        null,
+        0.0,
+        0.0
+      ],
+      "expected": [
+        0,
+        0,
+        3,
+        3,
+        0.5,
+        null,
+        0,
+        0
+      ],
+      "basis": "零候选精确率未定义，不得记满分。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "8.2",
+      "name": "组件(False, False)",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        2,
+        2,
+        1,
+        1,
+        0.5,
+        0.5,
+        0.6666666666666666,
+        0.5714285714285714
+      ],
+      "expected": [
+        2,
+        2,
+        1,
+        1,
+        0.5,
+        0.5,
+        0.6666666666666666,
+        0.5714285714285714
+      ],
+      "basis": "扩词只修T04；否定只排T02/T03。六句均为已见教学开发样本。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "8.2",
+      "name": "组件(True, False)",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        3,
+        2,
+        0,
+        1,
+        0.6666666666666666,
+        0.6,
+        1.0,
+        0.75
+      ],
+      "expected": [
+        3,
+        2,
+        0,
+        1,
+        0.6666666666666666,
+        0.6,
+        1,
+        0.75
+      ],
+      "basis": "扩词只修T04；否定只排T02/T03。六句均为已见教学开发样本。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "8.2",
+      "name": "组件(False, True)",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        2,
+        0,
+        1,
+        3,
+        0.8333333333333334,
+        1.0,
+        0.6666666666666666,
+        0.8
+      ],
+      "expected": [
+        2,
+        0,
+        1,
+        3,
+        0.8333333333333334,
+        1,
+        0.6666666666666666,
+        0.8
+      ],
+      "basis": "扩词只修T04；否定只排T02/T03。六句均为已见教学开发样本。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "8.2",
+      "name": "组件(True, True)",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        3,
+        0,
+        0,
+        3,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "expected": [
+        3,
+        0,
+        0,
+        3,
+        1,
+        1,
+        1,
+        1
+      ],
+      "basis": "扩词只修T04；否定只排T02/T03。六句均为已见教学开发样本。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "8.3",
+      "name": "组件(True, True)",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        3,
+        0,
+        0,
+        3,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "expected": [
+        3,
+        0,
+        0,
+        3,
+        1,
+        1,
+        1,
+        1
+      ],
+      "basis": "扩词只修T04；否定只排T02/T03。六句均为已见教学开发样本。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "8.3",
+      "name": "组件(False, True)",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        2,
+        0,
+        1,
+        3,
+        0.8333333333333334,
+        1.0,
+        0.6666666666666666,
+        0.8
+      ],
+      "expected": [
+        2,
+        0,
+        1,
+        3,
+        0.8333333333333334,
+        1,
+        0.6666666666666666,
+        0.8
+      ],
+      "basis": "扩词只修T04；否定只排T02/T03。六句均为已见教学开发样本。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "8.3",
+      "name": "组件(True, False)",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        3,
+        2,
+        0,
+        1,
+        0.6666666666666666,
+        0.6,
+        1.0,
+        0.75
+      ],
+      "expected": [
+        3,
+        2,
+        0,
+        1,
+        0.6666666666666666,
+        0.6,
+        1,
+        0.75
+      ],
+      "basis": "扩词只修T04；否定只排T02/T03。六句均为已见教学开发样本。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "8.3",
+      "name": "组件(False, False)",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        2,
+        2,
+        1,
+        1,
+        0.5,
+        0.5,
+        0.6666666666666666,
+        0.5714285714285714
+      ],
+      "expected": [
+        2,
+        2,
+        1,
+        1,
+        0.5,
+        0.5,
+        0.6666666666666666,
+        0.5714285714285714
+      ],
+      "basis": "扩词只修T04；否定只排T02/T03。六句均为已见教学开发样本。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "8.4",
+      "name": "顺序控制不变量",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        true,
+        true,
+        3,
+        3
+      ],
+      "expected": [
+        true,
+        true,
+        3,
+        3
+      ],
+      "basis": "固定排序消除反转；不排序时相同随机位置对应不同编号。此项是重现性检查，不是历史结果。",
+      "kind": "确定性不变量"
+    },
+    {
+      "section": "8.5",
+      "name": "运行登记排除",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        [
+          "E01",
+          "E02",
+          "E03"
+        ],
+        []
+      ],
+      "expected": [
+        [
+          "E01",
+          "E02",
+          "E03"
+        ],
+        []
+      ],
+      "basis": "NOT_RUN、FAILED、ILLUSTRATIVE均不得作为COMPLETED结果；原教学状态不因本次运行检查器而改写。",
+      "kind": "预置状态检查"
+    },
+    {
+      "section": "8.6",
+      "name": "字面位置",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        [
+          [
+            2,
+            4
+          ],
+          [
+            6,
+            8
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        [],
+        []
+      ],
+      "expected": [
+        [
+          [
+            2,
+            4
+          ],
+          [
+            6,
+            8
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        [],
+        []
+      ],
+      "basis": "从0数Unicode字符，左闭右开；字面命中不处理否定。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "8.7",
+      "name": "按编号而非行序",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        1,
+        0,
+        0,
+        1,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "expected": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "basis": "J01连接prediction_id=J01的1，J02连接0。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "8.8",
+      "name": "盲预测六句",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "expected": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "basis": "直接依固定词表/否定短语手判；预测入口不含gold。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "8.8",
+      "name": "独立评分计数",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        6,
+        {
+          "00": 3,
+          "01": 0,
+          "10": 0,
+          "11": 3
+        },
+        []
+      ],
+      "expected": [
+        6,
+        {
+          "00": 3,
+          "01": 0,
+          "10": 0,
+          "11": 3
+        },
+        []
+      ],
+      "basis": "reference.csv六项与手判一致；不是独立历史测试。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "9.1",
+      "name": "四类任务规格",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        "understanding",
+        "retrieval",
+        "generation",
+        "reasoning"
+      ],
+      "expected": [
+        "understanding",
+        "retrieval",
+        "generation",
+        "reasoning"
+      ],
+      "basis": "仅转写人工任务说明，未执行NLP模型。",
+      "kind": "非运行型任务模板的结构检查"
+    },
+    {
+      "section": "9.2",
+      "name": "张量长度/掩码",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        [
+          3,
+          7
+        ],
+        [
+          5,
+          7,
+          5
+        ],
+        [
+          false,
+          false,
+          false
+        ]
+      ],
+      "expected": [
+        [
+          3,
+          7
+        ],
+        [
+          5,
+          7,
+          5
+        ],
+        [
+          false,
+          false,
+          false
+        ]
+      ],
+      "basis": "三条原文字符数5、7、5，最长7，分别补2、0、2。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "9.2",
+      "name": "字表回取",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        "甲埠议迁。",
+        "乙埠迁至东岸。",
+        "丙埠未迁。"
+      ],
+      "expected": [
+        "甲埠议迁。",
+        "乙埠迁至东岸。",
+        "丙埠未迁。"
+      ],
+      "basis": "逆查字表必须无损恢复原文。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "9.4",
+      "name": "三组余弦",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        0.9938837346736189,
+        0.0703597544730292,
+        0.062159480485665
+      ],
+      "expected": [
+        0.993883734673619,
+        0.0703597544730292,
+        0.06215948048566499
+      ],
+      "basis": "手算点积1.8、0.1、0.08；平方范数2、1.64、1.01。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "9.5",
+      "name": "基准审读行数",
+      "status": "EXECUTED_PASS",
+      "observed": 4,
+      "expected": 4,
+      "basis": "只展示人工规格；没有下载基准或执行基准模型。",
+      "kind": "非运行型基准模板的结构检查"
+    },
+    {
+      "section": "11.6",
+      "name": "基准审读行数",
+      "status": "EXECUTED_PASS",
+      "observed": 3,
+      "expected": 3,
+      "basis": "只展示人工规格；没有下载基准或执行基准模型。",
+      "kind": "非运行型基准模板的结构检查"
+    },
+    {
+      "section": "9.7",
+      "name": "分语言正确数",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        2,
+        1,
+        1.0,
+        0.5
+      ],
+      "expected": [
+        2,
+        1,
+        1,
+        0.5
+      ],
+      "basis": "中文两题均对；英文P02将拟议误判已迁，不能把两语言当四个独立事件。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "10.1",
+      "name": "提示渲染",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        2,
+        true,
+        [
+          "NOT_RUN",
+          "NOT_RUN"
+        ]
+      ],
+      "expected": [
+        2,
+        true,
+        [
+          "NOT_RUN",
+          "NOT_RUN"
+        ]
+      ],
+      "basis": "两条完整提示仅含id/text；没有模型回答。",
+      "kind": "非运行型提示模板的渲染检查"
+    },
+    {
+      "section": "10.2",
+      "name": "示例数与测试答案隔离",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        [
+          0,
+          0,
+          "S03",
+          "NOT_RUN"
+        ],
+        [
+          2,
+          2,
+          "S03",
+          "NOT_RUN"
+        ]
+      ],
+      "expected": [
+        [
+          0,
+          0,
+          "S03",
+          "NOT_RUN"
+        ],
+        [
+          2,
+          2,
+          "S03",
+          "NOT_RUN"
+        ]
+      ],
+      "basis": "只渲染k=0和k=2提示，S03参考answer未拼入提示。",
+      "kind": "非运行型提示模板的渲染检查"
+    },
+    {
+      "section": "10.3",
+      "name": "预置敏感度计数",
+      "status": "EXECUTED_PASS",
+      "observed": {
+        "V1": 1.0,
+        "V2": 0.5
+      },
+      "expected": {
+        "V1": 1,
+        "V2": 0.5
+      },
+      "basis": "V1二次均对，V2两次一对；不是新模型运行。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "10.4",
+      "name": "G01重叠",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        [
+          0.6,
+          0.25
+        ],
+        0.3872983346207417,
+        0.6,
+        0.6
+      ],
+      "expected": [
+        [
+          0.6,
+          0.25
+        ],
+        0.3872983346207417,
+        0.6,
+        0.6
+      ],
+      "basis": "5词候选，命中甲/渡/迁3词，二元仅甲渡1项；LCS=3，BP=1。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "10.4",
+      "name": "G02重叠",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        [
+          0.8571428571428571,
+          0.6666666666666666
+        ],
+        0.7559289460184544,
+        0.9230769230769231,
+        0.9230769230769231
+      ],
+      "expected": [
+        [
+          0.8571428571428571,
+          0.6666666666666666
+        ],
+        0.7559289460184544,
+        0.9230769230769231,
+        0.9230769230769231
+      ],
+      "basis": "7词候选多一个已，参考6词全保留；二元4/6、LCS=6，BP=1。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "10.5",
+      "name": "人工分维度争议",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        [
+          "supported"
+        ],
+        []
+      ],
+      "expected": [
+        [
+          "supported"
+        ],
+        []
+      ],
+      "basis": "Q1只supported不同；Q2三维全同。预置评分不等于真人实验。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "10.6",
+      "name": "预置judge一致率",
+      "status": "EXECUTED_PASS",
+      "observed": 0.6666666666666666,
+      "expected": 0.6666666666666666,
+      "basis": "J1不一致，J2/J3一致；没有LLM-as-Judge调用。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "10.7",
+      "name": "来源组点估计",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        6,
+        3,
+        0.16666666666666666
+      ],
+      "expected": [
+        6,
+        3,
+        0.16666666666666666
+      ],
+      "basis": "A组差+1，B/C组总差0，六行合计差+1；来源抽样单位3而非6。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "10.7",
+      "name": "独立枚举来源重采样分布",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        [
+          0.0,
+          8
+        ],
+        [
+          0.16666666666666666,
+          12
+        ],
+        [
+          0.3333333333333333,
+          6
+        ],
+        [
+          0.5,
+          1
+        ]
+      ],
+      "expected": [
+        [
+          0,
+          8
+        ],
+        [
+          0.16666666666666666,
+          12
+        ],
+        [
+          0.3333333333333333,
+          6
+        ],
+        [
+          0.5,
+          1
+        ]
+      ],
+      "basis": "3^3有序来源抽样=27种；总体经验CDF在1/3为26/27<.975，.975阶梯分位点为.5。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "10.7",
+      "name": "已运行2000次区间",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        0.0,
+        0.5
+      ],
+      "expected": [
+        0,
+        0.5
+      ],
+      "basis": "独立枚举证实两尾支撑；本次2000次线性分位区间端点为0,.5。27行枚举本身的线性插值不等于总体阶梯分位，不能混用。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "10.8",
+      "name": "不一致对与精确p",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        2,
+        1,
+        2,
+        1,
+        3,
+        1.0
+      ],
+      "expected": [
+        2,
+        1,
+        2,
+        1,
+        3,
+        1
+      ],
+      "basis": "两个同对、一个A独对、两个B独对、一个同错；p=min(1,2*(1+3)/8)=1；共有来源，不能作普通独立对推断。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "10.9",
+      "name": "断言预置裁决",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        3,
+        {
+          "supported": 1,
+          "contradicted": 1,
+          "not_in_evidence": 1
+        },
+        [
+          "F02",
+          "F03"
+        ]
+      ],
+      "expected": [
+        3,
+        {
+          "supported": 1,
+          "contradicted": 1,
+          "not_in_evidence": 1
+        },
+        [
+          "F02",
+          "F03"
+        ]
+      ],
+      "basis": "仅计数已给人工裁决，不自动证明历史真伪。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "11.1",
+      "name": "像素直接计数",
+      "status": "EXECUTED_PASS",
+      "observed": {
+        "square": [
+          16,
+          4,
+          4
+        ],
+        "bar": [
+          12,
+          2,
+          6
+        ],
+        "square_shift": [
+          16,
+          4,
+          4
+        ],
+        "bar_shift": [
+          12,
+          2,
+          6
+        ]
+      },
+      "expected": {
+        "square": [
+          16,
+          4,
+          4
+        ],
+        "bar": [
+          12,
+          2,
+          6
+        ],
+        "square_shift": [
+          16,
+          4,
+          4
+        ],
+        "bar_shift": [
+          12,
+          2,
+          6
+        ]
+      },
+      "basis": "逐格计黑色像素及非空行列；方形16/(4*4)=1，条形12/(2*6)=1，宽高比1与3。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "11.1",
+      "name": "距离分数与评价",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        [
+          "square",
+          0.9820137900379085
+        ],
+        [
+          "bar",
+          0.9820137900379085
+        ]
+      ],
+      "expected": [
+        [
+          "square",
+          0.9820137900379085
+        ],
+        [
+          "bar",
+          0.9820137900379085
+        ]
+      ],
+      "basis": "正确类距离0、另一类平方距离(3-1)^2=4，得分1/(1+e^-4)，两张开发图全对。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "11.2",
+      "name": "检测匹配与AP",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        [
+          "D02",
+          1,
+          "D01"
+        ],
+        [
+          "D04",
+          0,
+          null
+        ],
+        [
+          "D03",
+          0,
+          null
+        ]
+      ],
+      "expected": [
+        [
+          "D02",
+          1,
+          "D01"
+        ],
+        [
+          "D04",
+          0,
+          null
+        ],
+        [
+          "D03",
+          0,
+          null
+        ]
+      ],
+      "basis": "D02占用唯一seal参考；D03重复不能再记TP；D04类别错误，不能匹配seal。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "11.2",
+      "name": "参考支持类AP",
+      "status": "EXECUTED_PASS",
+      "observed": {
+        "seal": 1.0
+      },
+      "expected": {
+        "seal": 1
+      },
+      "basis": "唯一有参考的类seal的第1名已召回全部；text无参考，不进入AP宏平均。两个FP仍列出，不得把AP=1解释为无误检。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "11.7",
+      "name": "检测匹配与AP",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        [
+          "D02",
+          1,
+          "D01"
+        ],
+        [
+          "D04",
+          0,
+          null
+        ],
+        [
+          "D03",
+          0,
+          null
+        ]
+      ],
+      "expected": [
+        [
+          "D02",
+          1,
+          "D01"
+        ],
+        [
+          "D04",
+          0,
+          null
+        ],
+        [
+          "D03",
+          0,
+          null
+        ]
+      ],
+      "basis": "D02占用唯一seal参考；D03重复不能再记TP；D04类别错误，不能匹配seal。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "11.7",
+      "name": "参考支持类AP",
+      "status": "EXECUTED_PASS",
+      "observed": {
+        "seal": 1.0
+      },
+      "expected": {
+        "seal": 1
+      },
+      "basis": "唯一有参考的类seal的第1名已召回全部；text无参考，不进入AP宏平均。两个FP仍列出，不得把AP=1解释为无误检。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "11.3",
+      "name": "二值像素交并",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        [
+          12,
+          13,
+          0.9230769230769231
+        ],
+        [
+          3,
+          4,
+          0.75
+        ]
+      ],
+      "expected": [
+        [
+          12,
+          13,
+          0.9230769230769231
+        ],
+        [
+          3,
+          4,
+          0.75
+        ]
+      ],
+      "basis": "16格：前景3个交集、4个并集，背景12交13并。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "11.3",
+      "name": "含背景mIoU",
+      "status": "EXECUTED_PASS",
+      "observed": 0.8365384615384616,
+      "expected": 0.8365384615384616,
+      "basis": "(12/13+3/4)/2=87/104，非单独前景0.75。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "11.7",
+      "name": "二值像素交并",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        [
+          12,
+          13,
+          0.9230769230769231
+        ],
+        [
+          3,
+          4,
+          0.75
+        ]
+      ],
+      "expected": [
+        [
+          12,
+          13,
+          0.9230769230769231
+        ],
+        [
+          3,
+          4,
+          0.75
+        ]
+      ],
+      "basis": "16格：前景3个交集、4个并集，背景12交13并。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "11.7",
+      "name": "含背景mIoU",
+      "status": "EXECUTED_PASS",
+      "observed": 0.8365384615384616,
+      "expected": 0.8365384615384616,
+      "basis": "(12/13+3/4)/2=87/104，非单独前景0.75。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "11.4",
+      "name": "patch与配对数",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        [
+          196,
+          38416
+        ],
+        [
+          784,
+          614656
+        ]
+      ],
+      "expected": [
+        [
+          196,
+          38416
+        ],
+        [
+          784,
+          614656
+        ]
+      ],
+      "basis": "新版明确不含CLS；不能拿旧文含CLS的197²/785²混比。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "11.5",
+      "name": "手设特征最近质心",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        [
+          "seal",
+          0.7685247834990178
+        ],
+        [
+          "photo",
+          0.7685247834990178
+        ]
+      ],
+      "expected": [
+        [
+          "seal",
+          0.7685247834990175
+        ],
+        [
+          "photo",
+          0.7685247834990175
+        ]
+      ],
+      "basis": "两距离分别.08和1.28，差1.2；只有两个训练向量，未提取DINOv2。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "11.7",
+      "name": "Top1",
+      "status": "EXECUTED_PASS",
+      "observed": {
+        "n": 2,
+        "top1": 0.5
+      },
+      "expected": {
+        "n": 2,
+        "top1": 0.5
+      },
+      "basis": "K1对、K2错，1/2。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "11.8",
+      "name": "宏微分母",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        0.6666666666666666,
+        0.8
+      ],
+      "expected": [
+        0.6666666666666666,
+        0.8
+      ],
+      "basis": "photo3/3、map1/1、seal0/1；宏召回(1+1+0)/3，微正确4/5。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "11.9",
+      "name": "分组拒识",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        [
+          "blur",
+          0.5,
+          0.0,
+          0.0
+        ],
+        [
+          "clean",
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "expected": [
+        [
+          "blur",
+          0.5,
+          0,
+          0
+        ],
+        [
+          "clean",
+          1,
+          1,
+          1
+        ]
+      ],
+      "basis": "模糊组1接受0对、另1拒识；清晰2接受2对。拒识不算正确。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "11.10",
+      "name": "四格零差异",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "expected": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "basis": "四张均为实心矩形，填充率相同；max_score≈.982高于.60和.85。无差异也是有效演示结果，不套旧12图结论。",
+      "kind": "独立手计/公式"
+    },
+    {
+      "section": "7.1",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "E01",
+          "source_id": "S01",
+          "page": "p1",
+          "entity": "甲书院",
+          "text": "甲书院于某年停讲，次年复课。",
+          "event": "停讲",
+          "year_start": "1901",
+          "year_end": "1901",
+          "date_status": "教学设定"
+        },
+        {
+          "id": "E02",
+          "source_id": "S01",
+          "page": "p1",
+          "entity": "甲书院",
+          "text": "甲书院于某年停讲，次年复课。",
+          "event": "复课",
+          "year_start": "1902",
+          "year_end": "1902",
+          "date_status": "教学设定"
+        },
+        {
+          "id": "E03",
+          "source_id": "S02",
+          "page": "p3",
+          "entity": "乙书院",
+          "text": "乙书院议停，尚未施行。",
+          "event": "议停",
+          "year_start": "1903",
+          "year_end": "1903",
+          "date_status": "教学设定"
+        }
+      ],
+      "expected": [
+        {
+          "id": "E01",
+          "source_id": "S01",
+          "page": "p1",
+          "entity": "甲书院",
+          "text": "甲书院于某年停讲，次年复课。",
+          "event": "停讲",
+          "year_start": "1901",
+          "year_end": "1901",
+          "date_status": "教学设定"
+        },
+        {
+          "id": "E02",
+          "source_id": "S01",
+          "page": "p1",
+          "entity": "甲书院",
+          "text": "甲书院于某年停讲，次年复课。",
+          "event": "复课",
+          "year_start": "1902",
+          "year_end": "1902",
+          "date_status": "教学设定"
+        },
+        {
+          "id": "E03",
+          "source_id": "S02",
+          "page": "p3",
+          "entity": "乙书院",
+          "text": "乙书院议停，尚未施行。",
+          "event": "议停",
+          "year_start": "1903",
+          "year_end": "1903",
+          "date_status": "教学设定"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "7.2",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "E01",
+          "source_id": "S01",
+          "page": "p1",
+          "entity": "甲书院",
+          "text": "甲书院于某年停讲，次年复课。",
+          "event": "停讲",
+          "year_start": "1901",
+          "year_end": "1901",
+          "date_status": "教学设定"
+        },
+        {
+          "id": "E02",
+          "source_id": "S01",
+          "page": "p1",
+          "entity": "甲书院",
+          "text": "甲书院于某年停讲，次年复课。",
+          "event": "复课",
+          "year_start": "1902",
+          "year_end": "1902",
+          "date_status": "教学设定"
+        },
+        {
+          "id": "E03",
+          "source_id": "S02",
+          "page": "p3",
+          "entity": "乙书院",
+          "text": "乙书院议停，尚未施行。",
+          "event": "议停",
+          "year_start": "1903",
+          "year_end": "1903",
+          "date_status": "教学设定"
+        }
+      ],
+      "expected": [
+        {
+          "id": "E01",
+          "source_id": "S01",
+          "page": "p1",
+          "entity": "甲书院",
+          "text": "甲书院于某年停讲，次年复课。",
+          "event": "停讲",
+          "year_start": "1901",
+          "year_end": "1901",
+          "date_status": "教学设定"
+        },
+        {
+          "id": "E02",
+          "source_id": "S01",
+          "page": "p1",
+          "entity": "甲书院",
+          "text": "甲书院于某年停讲，次年复课。",
+          "event": "复课",
+          "year_start": "1902",
+          "year_end": "1902",
+          "date_status": "教学设定"
+        },
+        {
+          "id": "E03",
+          "source_id": "S02",
+          "page": "p3",
+          "entity": "乙书院",
+          "text": "乙书院议停，尚未施行。",
+          "event": "议停",
+          "year_start": "1903",
+          "year_end": "1903",
+          "date_status": "教学设定"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "7.3",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "U01",
+          "amount": "0",
+          "state": "observed",
+          "year_start": "1901",
+          "year_end": "1901",
+          "time_kind": "exact",
+          "place": "教学甲乡",
+          "place_status": "region"
+        },
+        {
+          "id": "U02",
+          "amount": "",
+          "state": "not_recorded",
+          "year_start": "1900",
+          "year_end": "1905",
+          "time_kind": "interval",
+          "place": "",
+          "place_status": "unknown"
+        },
+        {
+          "id": "U03",
+          "amount": "",
+          "state": "illegible",
+          "year_start": "1902",
+          "year_end": "1902",
+          "time_kind": "exact",
+          "place": "教学乙乡或丙乡",
+          "place_status": "candidates"
+        },
+        {
+          "id": "U04",
+          "amount": "3",
+          "state": "observed",
+          "year_start": "1901",
+          "year_end": "1901",
+          "time_kind": "exact",
+          "place": "教学甲乡",
+          "place_status": "region"
+        }
+      ],
+      "expected": [
+        {
+          "id": "U01",
+          "amount": "0",
+          "state": "observed",
+          "year_start": "1901",
+          "year_end": "1901",
+          "time_kind": "exact",
+          "place": "教学甲乡",
+          "place_status": "region"
+        },
+        {
+          "id": "U02",
+          "amount": "",
+          "state": "not_recorded",
+          "year_start": "1900",
+          "year_end": "1905",
+          "time_kind": "interval",
+          "place": "",
+          "place_status": "unknown"
+        },
+        {
+          "id": "U03",
+          "amount": "",
+          "state": "illegible",
+          "year_start": "1902",
+          "year_end": "1902",
+          "time_kind": "exact",
+          "place": "教学乙乡或丙乡",
+          "place_status": "candidates"
+        },
+        {
+          "id": "U04",
+          "amount": "3",
+          "state": "observed",
+          "year_start": "1901",
+          "year_end": "1901",
+          "time_kind": "exact",
+          "place": "教学甲乡",
+          "place_status": "region"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "7.4",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "A01",
+          "text": "教学甲书院已经停讲。",
+          "a": "停讲",
+          "b": "停讲",
+          "final": "停讲"
+        },
+        {
+          "id": "A02",
+          "text": "有人建议停讲，仍照常授课。",
+          "a": "停讲",
+          "b": "未停讲",
+          "final": "未停讲"
+        },
+        {
+          "id": "A03",
+          "text": "讲席中断，原因不详。",
+          "a": "停讲",
+          "b": "待定",
+          "final": "待定"
+        },
+        {
+          "id": "A04",
+          "text": "讲席照常。",
+          "a": "未停讲",
+          "b": "未停讲",
+          "final": "未停讲"
+        }
+      ],
+      "expected": [
+        {
+          "id": "A01",
+          "text": "教学甲书院已经停讲。",
+          "a": "停讲",
+          "b": "停讲",
+          "final": "停讲"
+        },
+        {
+          "id": "A02",
+          "text": "有人建议停讲，仍照常授课。",
+          "a": "停讲",
+          "b": "未停讲",
+          "final": "未停讲"
+        },
+        {
+          "id": "A03",
+          "text": "讲席中断，原因不详。",
+          "a": "停讲",
+          "b": "待定",
+          "final": "待定"
+        },
+        {
+          "id": "A04",
+          "text": "讲席照常。",
+          "a": "未停讲",
+          "b": "未停讲",
+          "final": "未停讲"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "7.5",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "L01",
+          "language": "中文",
+          "script": "汉字",
+          "genre": "地方志",
+          "available": "12",
+          "readable": "10",
+          "evaluated": "6",
+          "correct": "5"
+        },
+        {
+          "id": "L02",
+          "language": "日文",
+          "script": "汉字假名",
+          "genre": "调查报告",
+          "available": "6",
+          "readable": "4",
+          "evaluated": "3",
+          "correct": "1"
+        },
+        {
+          "id": "L03",
+          "language": "英文",
+          "script": "拉丁字母",
+          "genre": "游记",
+          "available": "4",
+          "readable": "4",
+          "evaluated": "2",
+          "correct": "1"
+        }
+      ],
+      "expected": [
+        {
+          "id": "L01",
+          "language": "中文",
+          "script": "汉字",
+          "genre": "地方志",
+          "available": "12",
+          "readable": "10",
+          "evaluated": "6",
+          "correct": "5"
+        },
+        {
+          "id": "L02",
+          "language": "日文",
+          "script": "汉字假名",
+          "genre": "调查报告",
+          "available": "6",
+          "readable": "4",
+          "evaluated": "3",
+          "correct": "1"
+        },
+        {
+          "id": "L03",
+          "language": "英文",
+          "script": "拉丁字母",
+          "genre": "游记",
+          "available": "4",
+          "readable": "4",
+          "evaluated": "2",
+          "correct": "1"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "7.6",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "R01",
+          "person": "甲",
+          "source": "书A",
+          "page": "A1",
+          "year": "1900",
+          "split": "train"
+        },
+        {
+          "id": "R02",
+          "person": "甲",
+          "source": "书A",
+          "page": "A1",
+          "year": "1900",
+          "split": "test"
+        },
+        {
+          "id": "R03",
+          "person": "乙",
+          "source": "书A",
+          "page": "A2",
+          "year": "1901",
+          "split": "train"
+        },
+        {
+          "id": "R04",
+          "person": "丙",
+          "source": "书B",
+          "page": "B1",
+          "year": "1903",
+          "split": "dev"
+        },
+        {
+          "id": "R05",
+          "person": "丁",
+          "source": "书C",
+          "page": "C1",
+          "year": "1905",
+          "split": "test"
+        },
+        {
+          "id": "R06",
+          "person": "丙",
+          "source": "书D",
+          "page": "D1",
+          "year": "1907",
+          "split": "test"
+        }
+      ],
+      "expected": [
+        {
+          "id": "R01",
+          "person": "甲",
+          "source": "书A",
+          "page": "A1",
+          "year": "1900",
+          "split": "train"
+        },
+        {
+          "id": "R02",
+          "person": "甲",
+          "source": "书A",
+          "page": "A1",
+          "year": "1900",
+          "split": "test"
+        },
+        {
+          "id": "R03",
+          "person": "乙",
+          "source": "书A",
+          "page": "A2",
+          "year": "1901",
+          "split": "train"
+        },
+        {
+          "id": "R04",
+          "person": "丙",
+          "source": "书B",
+          "page": "B1",
+          "year": "1903",
+          "split": "dev"
+        },
+        {
+          "id": "R05",
+          "person": "丁",
+          "source": "书C",
+          "page": "C1",
+          "year": "1905",
+          "split": "test"
+        },
+        {
+          "id": "R06",
+          "person": "丙",
+          "source": "书D",
+          "page": "D1",
+          "year": "1907",
+          "split": "test"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "7.7",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "R01",
+          "person": "甲",
+          "source": "书A",
+          "page": "A1",
+          "year": "1900",
+          "split": "train"
+        },
+        {
+          "id": "R02",
+          "person": "甲",
+          "source": "书A",
+          "page": "A1",
+          "year": "1900",
+          "split": "test"
+        },
+        {
+          "id": "R03",
+          "person": "乙",
+          "source": "书A",
+          "page": "A2",
+          "year": "1901",
+          "split": "train"
+        },
+        {
+          "id": "R04",
+          "person": "丙",
+          "source": "书B",
+          "page": "B1",
+          "year": "1903",
+          "split": "dev"
+        },
+        {
+          "id": "R05",
+          "person": "丁",
+          "source": "书C",
+          "page": "C1",
+          "year": "1905",
+          "split": "test"
+        },
+        {
+          "id": "R06",
+          "person": "丙",
+          "source": "书D",
+          "page": "D1",
+          "year": "1907",
+          "split": "test"
+        }
+      ],
+      "expected": [
+        {
+          "id": "R01",
+          "person": "甲",
+          "source": "书A",
+          "page": "A1",
+          "year": "1900",
+          "split": "train"
+        },
+        {
+          "id": "R02",
+          "person": "甲",
+          "source": "书A",
+          "page": "A1",
+          "year": "1900",
+          "split": "test"
+        },
+        {
+          "id": "R03",
+          "person": "乙",
+          "source": "书A",
+          "page": "A2",
+          "year": "1901",
+          "split": "train"
+        },
+        {
+          "id": "R04",
+          "person": "丙",
+          "source": "书B",
+          "page": "B1",
+          "year": "1903",
+          "split": "dev"
+        },
+        {
+          "id": "R05",
+          "person": "丁",
+          "source": "书C",
+          "page": "C1",
+          "year": "1905",
+          "split": "test"
+        },
+        {
+          "id": "R06",
+          "person": "丙",
+          "source": "书D",
+          "page": "D1",
+          "year": "1907",
+          "split": "test"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "8.1",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "T01",
+          "source": "教学甲册",
+          "text": "甲书院停讲。",
+          "gold": "1"
+        },
+        {
+          "id": "T02",
+          "source": "教学甲册",
+          "text": "甲书院未停讲。",
+          "gold": "0"
+        },
+        {
+          "id": "T03",
+          "source": "教学乙册",
+          "text": "拟停讲，尚未执行。",
+          "gold": "0"
+        },
+        {
+          "id": "T04",
+          "source": "教学乙册",
+          "text": "乙书院罢讲。",
+          "gold": "1"
+        },
+        {
+          "id": "T05",
+          "source": "教学丙册",
+          "text": "丙书院照常开讲。",
+          "gold": "0"
+        },
+        {
+          "id": "T06",
+          "source": "教学丙册",
+          "text": "丁书院停讲，次年复课。",
+          "gold": "1"
+        }
+      ],
+      "expected": [
+        {
+          "id": "T01",
+          "source": "教学甲册",
+          "text": "甲书院停讲。",
+          "gold": "1"
+        },
+        {
+          "id": "T02",
+          "source": "教学甲册",
+          "text": "甲书院未停讲。",
+          "gold": "0"
+        },
+        {
+          "id": "T03",
+          "source": "教学乙册",
+          "text": "拟停讲，尚未执行。",
+          "gold": "0"
+        },
+        {
+          "id": "T04",
+          "source": "教学乙册",
+          "text": "乙书院罢讲。",
+          "gold": "1"
+        },
+        {
+          "id": "T05",
+          "source": "教学丙册",
+          "text": "丙书院照常开讲。",
+          "gold": "0"
+        },
+        {
+          "id": "T06",
+          "source": "教学丙册",
+          "text": "丁书院停讲，次年复课。",
+          "gold": "1"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "8.2",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "T01",
+          "source": "教学甲册",
+          "text": "甲书院停讲。",
+          "gold": "1"
+        },
+        {
+          "id": "T02",
+          "source": "教学甲册",
+          "text": "甲书院未停讲。",
+          "gold": "0"
+        },
+        {
+          "id": "T03",
+          "source": "教学乙册",
+          "text": "拟停讲，尚未执行。",
+          "gold": "0"
+        },
+        {
+          "id": "T04",
+          "source": "教学乙册",
+          "text": "乙书院罢讲。",
+          "gold": "1"
+        },
+        {
+          "id": "T05",
+          "source": "教学丙册",
+          "text": "丙书院照常开讲。",
+          "gold": "0"
+        },
+        {
+          "id": "T06",
+          "source": "教学丙册",
+          "text": "丁书院停讲，次年复课。",
+          "gold": "1"
+        }
+      ],
+      "expected": [
+        {
+          "id": "T01",
+          "source": "教学甲册",
+          "text": "甲书院停讲。",
+          "gold": "1"
+        },
+        {
+          "id": "T02",
+          "source": "教学甲册",
+          "text": "甲书院未停讲。",
+          "gold": "0"
+        },
+        {
+          "id": "T03",
+          "source": "教学乙册",
+          "text": "拟停讲，尚未执行。",
+          "gold": "0"
+        },
+        {
+          "id": "T04",
+          "source": "教学乙册",
+          "text": "乙书院罢讲。",
+          "gold": "1"
+        },
+        {
+          "id": "T05",
+          "source": "教学丙册",
+          "text": "丙书院照常开讲。",
+          "gold": "0"
+        },
+        {
+          "id": "T06",
+          "source": "教学丙册",
+          "text": "丁书院停讲，次年复课。",
+          "gold": "1"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "8.3",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "T01",
+          "source": "教学甲册",
+          "text": "甲书院停讲。",
+          "gold": "1"
+        },
+        {
+          "id": "T02",
+          "source": "教学甲册",
+          "text": "甲书院未停讲。",
+          "gold": "0"
+        },
+        {
+          "id": "T03",
+          "source": "教学乙册",
+          "text": "拟停讲，尚未执行。",
+          "gold": "0"
+        },
+        {
+          "id": "T04",
+          "source": "教学乙册",
+          "text": "乙书院罢讲。",
+          "gold": "1"
+        },
+        {
+          "id": "T05",
+          "source": "教学丙册",
+          "text": "丙书院照常开讲。",
+          "gold": "0"
+        },
+        {
+          "id": "T06",
+          "source": "教学丙册",
+          "text": "丁书院停讲，次年复课。",
+          "gold": "1"
+        }
+      ],
+      "expected": [
+        {
+          "id": "T01",
+          "source": "教学甲册",
+          "text": "甲书院停讲。",
+          "gold": "1"
+        },
+        {
+          "id": "T02",
+          "source": "教学甲册",
+          "text": "甲书院未停讲。",
+          "gold": "0"
+        },
+        {
+          "id": "T03",
+          "source": "教学乙册",
+          "text": "拟停讲，尚未执行。",
+          "gold": "0"
+        },
+        {
+          "id": "T04",
+          "source": "教学乙册",
+          "text": "乙书院罢讲。",
+          "gold": "1"
+        },
+        {
+          "id": "T05",
+          "source": "教学丙册",
+          "text": "丙书院照常开讲。",
+          "gold": "0"
+        },
+        {
+          "id": "T06",
+          "source": "教学丙册",
+          "text": "丁书院停讲，次年复课。",
+          "gold": "1"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "8.4",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "T01",
+          "source": "教学甲册",
+          "text": "甲书院停讲。",
+          "gold": "1"
+        },
+        {
+          "id": "T02",
+          "source": "教学甲册",
+          "text": "甲书院未停讲。",
+          "gold": "0"
+        },
+        {
+          "id": "T03",
+          "source": "教学乙册",
+          "text": "拟停讲，尚未执行。",
+          "gold": "0"
+        },
+        {
+          "id": "T04",
+          "source": "教学乙册",
+          "text": "乙书院罢讲。",
+          "gold": "1"
+        },
+        {
+          "id": "T05",
+          "source": "教学丙册",
+          "text": "丙书院照常开讲。",
+          "gold": "0"
+        },
+        {
+          "id": "T06",
+          "source": "教学丙册",
+          "text": "丁书院停讲，次年复课。",
+          "gold": "1"
+        }
+      ],
+      "expected": [
+        {
+          "id": "T01",
+          "source": "教学甲册",
+          "text": "甲书院停讲。",
+          "gold": "1"
+        },
+        {
+          "id": "T02",
+          "source": "教学甲册",
+          "text": "甲书院未停讲。",
+          "gold": "0"
+        },
+        {
+          "id": "T03",
+          "source": "教学乙册",
+          "text": "拟停讲，尚未执行。",
+          "gold": "0"
+        },
+        {
+          "id": "T04",
+          "source": "教学乙册",
+          "text": "乙书院罢讲。",
+          "gold": "1"
+        },
+        {
+          "id": "T05",
+          "source": "教学丙册",
+          "text": "丙书院照常开讲。",
+          "gold": "0"
+        },
+        {
+          "id": "T06",
+          "source": "教学丙册",
+          "text": "丁书院停讲，次年复课。",
+          "gold": "1"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "8.5",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "E01",
+          "status": "NOT_RUN",
+          "config": "rules_v1",
+          "metric": "",
+          "error": ""
+        },
+        {
+          "id": "E02",
+          "status": "FAILED",
+          "config": "rules_v2",
+          "metric": "",
+          "error": "教学预置：输入列名缺失"
+        },
+        {
+          "id": "E03",
+          "status": "ILLUSTRATIVE",
+          "config": "rules_v2",
+          "metric": "0.5",
+          "error": "教学计数，非运行结果"
+        }
+      ],
+      "expected": [
+        {
+          "id": "E01",
+          "status": "NOT_RUN",
+          "config": "rules_v1",
+          "metric": "",
+          "error": ""
+        },
+        {
+          "id": "E02",
+          "status": "FAILED",
+          "config": "rules_v2",
+          "metric": "",
+          "error": "教学预置：输入列名缺失"
+        },
+        {
+          "id": "E03",
+          "status": "ILLUSTRATIVE",
+          "config": "rules_v2",
+          "metric": "0.5",
+          "error": "教学计数，非运行结果"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "8.6",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "C01",
+          "text": "甲未停讲，乙停讲。",
+          "needle": "停讲"
+        },
+        {
+          "id": "C02",
+          "text": "停讲停讲",
+          "needle": "停讲"
+        },
+        {
+          "id": "C03",
+          "text": "无相关词",
+          "needle": "停讲"
+        },
+        {
+          "id": "C04",
+          "text": "甲停讲",
+          "needle": ""
+        }
+      ],
+      "expected": [
+        {
+          "id": "C01",
+          "text": "甲未停讲，乙停讲。",
+          "needle": "停讲"
+        },
+        {
+          "id": "C02",
+          "text": "停讲停讲",
+          "needle": "停讲"
+        },
+        {
+          "id": "C03",
+          "text": "无相关词",
+          "needle": "停讲"
+        },
+        {
+          "id": "C04",
+          "text": "甲停讲",
+          "needle": ""
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "8.7",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "J01",
+          "gold": "1",
+          "prediction_id": "J02",
+          "prediction": "0"
+        },
+        {
+          "id": "J02",
+          "gold": "0",
+          "prediction_id": "J01",
+          "prediction": "1"
+        }
+      ],
+      "expected": [
+        {
+          "id": "J01",
+          "gold": "1",
+          "prediction_id": "J02",
+          "prediction": "0"
+        },
+        {
+          "id": "J02",
+          "gold": "0",
+          "prediction_id": "J01",
+          "prediction": "1"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "8.8",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "T01",
+          "source": "教学甲册",
+          "text": "甲书院停讲。"
+        },
+        {
+          "id": "T02",
+          "source": "教学甲册",
+          "text": "甲书院未停讲。"
+        },
+        {
+          "id": "T03",
+          "source": "教学乙册",
+          "text": "拟停讲，尚未执行。"
+        },
+        {
+          "id": "T04",
+          "source": "教学乙册",
+          "text": "乙书院罢讲。"
+        },
+        {
+          "id": "T05",
+          "source": "教学丙册",
+          "text": "丙书院照常开讲。"
+        },
+        {
+          "id": "T06",
+          "source": "教学丙册",
+          "text": "丁书院停讲，次年复课。"
+        }
+      ],
+      "expected": [
+        {
+          "id": "T01",
+          "source": "教学甲册",
+          "text": "甲书院停讲。"
+        },
+        {
+          "id": "T02",
+          "source": "教学甲册",
+          "text": "甲书院未停讲。"
+        },
+        {
+          "id": "T03",
+          "source": "教学乙册",
+          "text": "拟停讲，尚未执行。"
+        },
+        {
+          "id": "T04",
+          "source": "教学乙册",
+          "text": "乙书院罢讲。"
+        },
+        {
+          "id": "T05",
+          "source": "教学丙册",
+          "text": "丙书院照常开讲。"
+        },
+        {
+          "id": "T06",
+          "source": "教学丙册",
+          "text": "丁书院停讲，次年复课。"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "9.1",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "N01",
+          "text": "教学材料：甲埠议迁，因反对暂缓。",
+          "task": "understanding",
+          "output": "事件状态=拟议未行"
+        },
+        {
+          "id": "N02",
+          "text": "教学材料：甲埠议迁，因反对暂缓。",
+          "task": "retrieval",
+          "output": "返回含甲埠迁移线索的材料编号"
+        },
+        {
+          "id": "N03",
+          "text": "教学材料：甲埠议迁，因反对暂缓。",
+          "task": "generation",
+          "output": "写一句保留暂缓的摘要"
+        },
+        {
+          "id": "N04",
+          "text": "教学材料：甲埠议迁，因反对暂缓。",
+          "task": "reasoning",
+          "output": "“甲埠已经迁址”不受该句支持"
+        }
+      ],
+      "expected": [
+        {
+          "id": "N01",
+          "text": "教学材料：甲埠议迁，因反对暂缓。",
+          "task": "understanding",
+          "output": "事件状态=拟议未行"
+        },
+        {
+          "id": "N02",
+          "text": "教学材料：甲埠议迁，因反对暂缓。",
+          "task": "retrieval",
+          "output": "返回含甲埠迁移线索的材料编号"
+        },
+        {
+          "id": "N03",
+          "text": "教学材料：甲埠议迁，因反对暂缓。",
+          "task": "generation",
+          "output": "写一句保留暂缓的摘要"
+        },
+        {
+          "id": "N04",
+          "text": "教学材料：甲埠议迁，因反对暂缓。",
+          "task": "reasoning",
+          "output": "“甲埠已经迁址”不受该句支持"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "9.2",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "N01",
+          "text": "甲埠议迁。",
+          "label": "0"
+        },
+        {
+          "id": "N02",
+          "text": "乙埠迁至东岸。",
+          "label": "1"
+        },
+        {
+          "id": "N03",
+          "text": "丙埠未迁。",
+          "label": "0"
+        }
+      ],
+      "expected": [
+        {
+          "id": "N01",
+          "text": "甲埠议迁。",
+          "label": "0"
+        },
+        {
+          "id": "N02",
+          "text": "乙埠迁至东岸。",
+          "label": "1"
+        },
+        {
+          "id": "N03",
+          "text": "丙埠未迁。",
+          "label": "0"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "9.3",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "T01",
+          "source": "教学甲册",
+          "text": "甲书院停讲。",
+          "gold": "1"
+        },
+        {
+          "id": "T02",
+          "source": "教学甲册",
+          "text": "甲书院未停讲。",
+          "gold": "0"
+        },
+        {
+          "id": "T03",
+          "source": "教学乙册",
+          "text": "拟停讲，尚未执行。",
+          "gold": "0"
+        },
+        {
+          "id": "T04",
+          "source": "教学乙册",
+          "text": "乙书院罢讲。",
+          "gold": "1"
+        },
+        {
+          "id": "T05",
+          "source": "教学丙册",
+          "text": "丙书院照常开讲。",
+          "gold": "0"
+        },
+        {
+          "id": "T06",
+          "source": "教学丙册",
+          "text": "丁书院停讲，次年复课。",
+          "gold": "1"
+        }
+      ],
+      "expected": [
+        {
+          "id": "T01",
+          "source": "教学甲册",
+          "text": "甲书院停讲。",
+          "gold": "1"
+        },
+        {
+          "id": "T02",
+          "source": "教学甲册",
+          "text": "甲书院未停讲。",
+          "gold": "0"
+        },
+        {
+          "id": "T03",
+          "source": "教学乙册",
+          "text": "拟停讲，尚未执行。",
+          "gold": "0"
+        },
+        {
+          "id": "T04",
+          "source": "教学乙册",
+          "text": "乙书院罢讲。",
+          "gold": "1"
+        },
+        {
+          "id": "T05",
+          "source": "教学丙册",
+          "text": "丙书院照常开讲。",
+          "gold": "0"
+        },
+        {
+          "id": "T06",
+          "source": "教学丙册",
+          "text": "丁书院停讲，次年复课。",
+          "gold": "1"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "9.4",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "V01",
+          "text": "教学码头",
+          "vector": "[1, 0, 1]"
+        },
+        {
+          "id": "V02",
+          "text": "教学港口",
+          "vector": "[1, 0, 0.8]"
+        },
+        {
+          "id": "V03",
+          "text": "教学讲席",
+          "vector": "[0, 1, 0.1]"
+        }
+      ],
+      "expected": [
+        {
+          "id": "V01",
+          "text": "教学码头",
+          "vector": "[1, 0, 1]"
+        },
+        {
+          "id": "V02",
+          "text": "教学港口",
+          "vector": "[1, 0, 0.8]"
+        },
+        {
+          "id": "V03",
+          "text": "教学讲席",
+          "vector": "[0, 1, 0.1]"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "9.5",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "B01",
+          "name": "GLUE",
+          "task": "language_understanding",
+          "local_task": "事件状态分类",
+          "transfer_check": "加入否定和拟议例"
+        },
+        {
+          "id": "B02",
+          "name": "SuperGLUE",
+          "task": "language_understanding",
+          "local_task": "依据判定",
+          "transfer_check": "保留证据边界"
+        },
+        {
+          "id": "B03",
+          "name": "MMLU",
+          "task": "knowledge_multiple_choice",
+          "local_task": "背景知识选择",
+          "transfer_check": "不能代替原文出处核对"
+        },
+        {
+          "id": "B04",
+          "name": "HumanEval",
+          "task": "code_generation",
+          "local_task": "生成小函数",
+          "transfer_check": "另设输入输出测试"
+        }
+      ],
+      "expected": [
+        {
+          "id": "B01",
+          "name": "GLUE",
+          "task": "language_understanding",
+          "local_task": "事件状态分类",
+          "transfer_check": "加入否定和拟议例"
+        },
+        {
+          "id": "B02",
+          "name": "SuperGLUE",
+          "task": "language_understanding",
+          "local_task": "依据判定",
+          "transfer_check": "保留证据边界"
+        },
+        {
+          "id": "B03",
+          "name": "MMLU",
+          "task": "knowledge_multiple_choice",
+          "local_task": "背景知识选择",
+          "transfer_check": "不能代替原文出处核对"
+        },
+        {
+          "id": "B04",
+          "name": "HumanEval",
+          "task": "code_generation",
+          "local_task": "生成小函数",
+          "transfer_check": "另设输入输出测试"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "9.6",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "A01",
+          "text": "教学甲书院已经停讲。",
+          "a": "停讲",
+          "b": "停讲",
+          "final": "停讲"
+        },
+        {
+          "id": "A02",
+          "text": "有人建议停讲，仍照常授课。",
+          "a": "停讲",
+          "b": "未停讲",
+          "final": "未停讲"
+        },
+        {
+          "id": "A03",
+          "text": "讲席中断，原因不详。",
+          "a": "停讲",
+          "b": "待定",
+          "final": "待定"
+        },
+        {
+          "id": "A04",
+          "text": "讲席照常。",
+          "a": "未停讲",
+          "b": "未停讲",
+          "final": "未停讲"
+        }
+      ],
+      "expected": [
+        {
+          "id": "A01",
+          "text": "教学甲书院已经停讲。",
+          "a": "停讲",
+          "b": "停讲",
+          "final": "停讲"
+        },
+        {
+          "id": "A02",
+          "text": "有人建议停讲，仍照常授课。",
+          "a": "停讲",
+          "b": "未停讲",
+          "final": "未停讲"
+        },
+        {
+          "id": "A03",
+          "text": "讲席中断，原因不详。",
+          "a": "停讲",
+          "b": "待定",
+          "final": "待定"
+        },
+        {
+          "id": "A04",
+          "text": "讲席照常。",
+          "a": "未停讲",
+          "b": "未停讲",
+          "final": "未停讲"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "9.7",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "P01",
+          "pair_id": "P1",
+          "language": "中文",
+          "text": "教学甲埠议迁，尚未施行。",
+          "gold": "拟议",
+          "pred": "拟议"
+        },
+        {
+          "id": "P02",
+          "pair_id": "P1",
+          "language": "English",
+          "text": "Teaching example: relocation was proposed but not carried out.",
+          "gold": "拟议",
+          "pred": "已迁"
+        },
+        {
+          "id": "P03",
+          "pair_id": "P2",
+          "language": "中文",
+          "text": "教学乙埠已迁东岸。",
+          "gold": "已迁",
+          "pred": "已迁"
+        },
+        {
+          "id": "P04",
+          "pair_id": "P2",
+          "language": "English",
+          "text": "Teaching example: the landing place moved to the east bank.",
+          "gold": "已迁",
+          "pred": "已迁"
+        }
+      ],
+      "expected": [
+        {
+          "id": "P01",
+          "pair_id": "P1",
+          "language": "中文",
+          "text": "教学甲埠议迁，尚未施行。",
+          "gold": "拟议",
+          "pred": "拟议"
+        },
+        {
+          "id": "P02",
+          "pair_id": "P1",
+          "language": "English",
+          "text": "Teaching example: relocation was proposed but not carried out.",
+          "gold": "拟议",
+          "pred": "已迁"
+        },
+        {
+          "id": "P03",
+          "pair_id": "P2",
+          "language": "中文",
+          "text": "教学乙埠已迁东岸。",
+          "gold": "已迁",
+          "pred": "已迁"
+        },
+        {
+          "id": "P04",
+          "pair_id": "P2",
+          "language": "English",
+          "text": "Teaching example: the landing place moved to the east bank.",
+          "gold": "已迁",
+          "pred": "已迁"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "9.8",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "L01",
+          "language": "中文",
+          "script": "汉字",
+          "genre": "地方志",
+          "available": "12",
+          "readable": "10",
+          "evaluated": "6",
+          "correct": "5"
+        },
+        {
+          "id": "L02",
+          "language": "日文",
+          "script": "汉字假名",
+          "genre": "调查报告",
+          "available": "6",
+          "readable": "4",
+          "evaluated": "3",
+          "correct": "1"
+        },
+        {
+          "id": "L03",
+          "language": "英文",
+          "script": "拉丁字母",
+          "genre": "游记",
+          "available": "4",
+          "readable": "4",
+          "evaluated": "2",
+          "correct": "1"
+        }
+      ],
+      "expected": [
+        {
+          "id": "L01",
+          "language": "中文",
+          "script": "汉字",
+          "genre": "地方志",
+          "available": "12",
+          "readable": "10",
+          "evaluated": "6",
+          "correct": "5"
+        },
+        {
+          "id": "L02",
+          "language": "日文",
+          "script": "汉字假名",
+          "genre": "调查报告",
+          "available": "6",
+          "readable": "4",
+          "evaluated": "3",
+          "correct": "1"
+        },
+        {
+          "id": "L03",
+          "language": "英文",
+          "script": "拉丁字母",
+          "genre": "游记",
+          "available": "4",
+          "readable": "4",
+          "evaluated": "2",
+          "correct": "1"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "10.1",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "Q01",
+          "source": "教学材料甲",
+          "text": "甲渡拟迁东岸，议未定。",
+          "gold": "拟议未定"
+        },
+        {
+          "id": "Q02",
+          "source": "教学材料乙",
+          "text": "乙渡已迁东岸。",
+          "gold": "已迁"
+        }
+      ],
+      "expected": [
+        {
+          "id": "Q01",
+          "source": "教学材料甲",
+          "text": "甲渡拟迁东岸，议未定。",
+          "gold": "拟议未定"
+        },
+        {
+          "id": "Q02",
+          "source": "教学材料乙",
+          "text": "乙渡已迁东岸。",
+          "gold": "已迁"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "10.10",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "P01",
+          "source": "A",
+          "a": "1",
+          "b": "1"
+        },
+        {
+          "id": "P02",
+          "source": "A",
+          "a": "0",
+          "b": "1"
+        },
+        {
+          "id": "P03",
+          "source": "B",
+          "a": "0",
+          "b": "1"
+        },
+        {
+          "id": "P04",
+          "source": "B",
+          "a": "1",
+          "b": "0"
+        },
+        {
+          "id": "P05",
+          "source": "C",
+          "a": "1",
+          "b": "1"
+        },
+        {
+          "id": "P06",
+          "source": "C",
+          "a": "0",
+          "b": "0"
+        }
+      ],
+      "expected": [
+        {
+          "id": "P01",
+          "source": "A",
+          "a": "1",
+          "b": "1"
+        },
+        {
+          "id": "P02",
+          "source": "A",
+          "a": "0",
+          "b": "1"
+        },
+        {
+          "id": "P03",
+          "source": "B",
+          "a": "0",
+          "b": "1"
+        },
+        {
+          "id": "P04",
+          "source": "B",
+          "a": "1",
+          "b": "0"
+        },
+        {
+          "id": "P05",
+          "source": "C",
+          "a": "1",
+          "b": "1"
+        },
+        {
+          "id": "P06",
+          "source": "C",
+          "a": "0",
+          "b": "0"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "10.2",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "S01",
+          "source": "demo_A",
+          "split": "example",
+          "text": "拟迁，尚在议。",
+          "answer": "拟议未定"
+        },
+        {
+          "id": "S02",
+          "source": "demo_B",
+          "split": "example",
+          "text": "现已迁至新岸。",
+          "answer": "已迁"
+        },
+        {
+          "id": "S03",
+          "source": "demo_C",
+          "split": "test",
+          "text": "尚未迁。",
+          "answer": "未迁"
+        }
+      ],
+      "expected": [
+        {
+          "id": "S01",
+          "source": "demo_A",
+          "split": "example",
+          "text": "拟迁，尚在议。",
+          "answer": "拟议未定"
+        },
+        {
+          "id": "S02",
+          "source": "demo_B",
+          "split": "example",
+          "text": "现已迁至新岸。",
+          "answer": "已迁"
+        },
+        {
+          "id": "S03",
+          "source": "demo_C",
+          "split": "test",
+          "text": "尚未迁。",
+          "answer": "未迁"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "10.3",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "H01",
+          "variant": "V1",
+          "repeat": "1",
+          "item": "Q1",
+          "answer": "拟议",
+          "gold": "拟议"
+        },
+        {
+          "id": "H02",
+          "variant": "V2",
+          "repeat": "1",
+          "item": "Q1",
+          "answer": "已迁",
+          "gold": "拟议"
+        },
+        {
+          "id": "H03",
+          "variant": "V1",
+          "repeat": "2",
+          "item": "Q1",
+          "answer": "拟议",
+          "gold": "拟议"
+        },
+        {
+          "id": "H04",
+          "variant": "V2",
+          "repeat": "2",
+          "item": "Q1",
+          "answer": "拟议",
+          "gold": "拟议"
+        }
+      ],
+      "expected": [
+        {
+          "id": "H01",
+          "variant": "V1",
+          "repeat": "1",
+          "item": "Q1",
+          "answer": "拟议",
+          "gold": "拟议"
+        },
+        {
+          "id": "H02",
+          "variant": "V2",
+          "repeat": "1",
+          "item": "Q1",
+          "answer": "已迁",
+          "gold": "拟议"
+        },
+        {
+          "id": "H03",
+          "variant": "V1",
+          "repeat": "2",
+          "item": "Q1",
+          "answer": "拟议",
+          "gold": "拟议"
+        },
+        {
+          "id": "H04",
+          "variant": "V2",
+          "repeat": "2",
+          "item": "Q1",
+          "answer": "拟议",
+          "gold": "拟议"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "10.4",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "G01",
+          "reference": "甲 渡 尚 未 迁",
+          "candidate": "甲 渡 已 经 迁"
+        },
+        {
+          "id": "G02",
+          "reference": "乙 渡 迁 至 东 岸",
+          "candidate": "乙 渡 已 迁 至 东 岸"
+        }
+      ],
+      "expected": [
+        {
+          "id": "G01",
+          "reference": "甲 渡 尚 未 迁",
+          "candidate": "甲 渡 已 经 迁"
+        },
+        {
+          "id": "G02",
+          "reference": "乙 渡 迁 至 东 岸",
+          "candidate": "乙 渡 已 迁 至 东 岸"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "10.5",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "A",
+          "item": "Q1",
+          "rater": "甲",
+          "supported": "0",
+          "complete": "1",
+          "readable": "1",
+          "reason": "把拟议写成已经"
+        },
+        {
+          "id": "B",
+          "item": "Q1",
+          "rater": "乙",
+          "supported": "1",
+          "complete": "1",
+          "readable": "1",
+          "reason": "误把流畅等同有据"
+        },
+        {
+          "id": "C",
+          "item": "Q2",
+          "rater": "甲",
+          "supported": "1",
+          "complete": "1",
+          "readable": "1",
+          "reason": "保留事件状态"
+        },
+        {
+          "id": "D",
+          "item": "Q2",
+          "rater": "乙",
+          "supported": "1",
+          "complete": "1",
+          "readable": "1",
+          "reason": "与材料相合"
+        }
+      ],
+      "expected": [
+        {
+          "id": "A",
+          "item": "Q1",
+          "rater": "甲",
+          "supported": "0",
+          "complete": "1",
+          "readable": "1",
+          "reason": "把拟议写成已经"
+        },
+        {
+          "id": "B",
+          "item": "Q1",
+          "rater": "乙",
+          "supported": "1",
+          "complete": "1",
+          "readable": "1",
+          "reason": "误把流畅等同有据"
+        },
+        {
+          "id": "C",
+          "item": "Q2",
+          "rater": "甲",
+          "supported": "1",
+          "complete": "1",
+          "readable": "1",
+          "reason": "保留事件状态"
+        },
+        {
+          "id": "D",
+          "item": "Q2",
+          "rater": "乙",
+          "supported": "1",
+          "complete": "1",
+          "readable": "1",
+          "reason": "与材料相合"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "10.6",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "J1",
+          "item": "Q1",
+          "order": "AB",
+          "human": "B",
+          "judge": "A",
+          "reason": "预置教学意见偏爱较长回答"
+        },
+        {
+          "id": "J2",
+          "item": "Q1",
+          "order": "BA",
+          "human": "B",
+          "judge": "B",
+          "reason": "预置教学意见随位置改变"
+        },
+        {
+          "id": "J3",
+          "item": "Q2",
+          "order": "AB",
+          "human": "tie",
+          "judge": "tie",
+          "reason": "两者均保留状态"
+        }
+      ],
+      "expected": [
+        {
+          "id": "J1",
+          "item": "Q1",
+          "order": "AB",
+          "human": "B",
+          "judge": "A",
+          "reason": "预置教学意见偏爱较长回答"
+        },
+        {
+          "id": "J2",
+          "item": "Q1",
+          "order": "BA",
+          "human": "B",
+          "judge": "B",
+          "reason": "预置教学意见随位置改变"
+        },
+        {
+          "id": "J3",
+          "item": "Q2",
+          "order": "AB",
+          "human": "tie",
+          "judge": "tie",
+          "reason": "两者均保留状态"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "10.7",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "P01",
+          "source": "A",
+          "a": "1",
+          "b": "1"
+        },
+        {
+          "id": "P02",
+          "source": "A",
+          "a": "0",
+          "b": "1"
+        },
+        {
+          "id": "P03",
+          "source": "B",
+          "a": "0",
+          "b": "1"
+        },
+        {
+          "id": "P04",
+          "source": "B",
+          "a": "1",
+          "b": "0"
+        },
+        {
+          "id": "P05",
+          "source": "C",
+          "a": "1",
+          "b": "1"
+        },
+        {
+          "id": "P06",
+          "source": "C",
+          "a": "0",
+          "b": "0"
+        }
+      ],
+      "expected": [
+        {
+          "id": "P01",
+          "source": "A",
+          "a": "1",
+          "b": "1"
+        },
+        {
+          "id": "P02",
+          "source": "A",
+          "a": "0",
+          "b": "1"
+        },
+        {
+          "id": "P03",
+          "source": "B",
+          "a": "0",
+          "b": "1"
+        },
+        {
+          "id": "P04",
+          "source": "B",
+          "a": "1",
+          "b": "0"
+        },
+        {
+          "id": "P05",
+          "source": "C",
+          "a": "1",
+          "b": "1"
+        },
+        {
+          "id": "P06",
+          "source": "C",
+          "a": "0",
+          "b": "0"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "10.8",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "P01",
+          "source": "A",
+          "a": "1",
+          "b": "1"
+        },
+        {
+          "id": "P02",
+          "source": "A",
+          "a": "0",
+          "b": "1"
+        },
+        {
+          "id": "P03",
+          "source": "B",
+          "a": "0",
+          "b": "1"
+        },
+        {
+          "id": "P04",
+          "source": "B",
+          "a": "1",
+          "b": "0"
+        },
+        {
+          "id": "P05",
+          "source": "C",
+          "a": "1",
+          "b": "1"
+        },
+        {
+          "id": "P06",
+          "source": "C",
+          "a": "0",
+          "b": "0"
+        }
+      ],
+      "expected": [
+        {
+          "id": "P01",
+          "source": "A",
+          "a": "1",
+          "b": "1"
+        },
+        {
+          "id": "P02",
+          "source": "A",
+          "a": "0",
+          "b": "1"
+        },
+        {
+          "id": "P03",
+          "source": "B",
+          "a": "0",
+          "b": "1"
+        },
+        {
+          "id": "P04",
+          "source": "B",
+          "a": "1",
+          "b": "0"
+        },
+        {
+          "id": "P05",
+          "source": "C",
+          "a": "1",
+          "b": "1"
+        },
+        {
+          "id": "P06",
+          "source": "C",
+          "a": "0",
+          "b": "0"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "10.9",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "F01",
+          "answer_id": "Q1",
+          "claim": "甲渡拟迁东岸",
+          "source": "甲渡拟迁东岸，议未定。",
+          "verdict": "supported",
+          "reason": "原句明确拟迁"
+        },
+        {
+          "id": "F02",
+          "answer_id": "Q1",
+          "claim": "甲渡已迁东岸",
+          "source": "甲渡拟迁东岸，议未定。",
+          "verdict": "contradicted",
+          "reason": "把拟议写成已发生"
+        },
+        {
+          "id": "F03",
+          "answer_id": "Q1",
+          "claim": "迁址导致商业繁荣",
+          "source": "甲渡拟迁东岸，议未定。",
+          "verdict": "not_in_evidence",
+          "reason": "材料未说明后果"
+        }
+      ],
+      "expected": [
+        {
+          "id": "F01",
+          "answer_id": "Q1",
+          "claim": "甲渡拟迁东岸",
+          "source": "甲渡拟迁东岸，议未定。",
+          "verdict": "supported",
+          "reason": "原句明确拟迁"
+        },
+        {
+          "id": "F02",
+          "answer_id": "Q1",
+          "claim": "甲渡已迁东岸",
+          "source": "甲渡拟迁东岸，议未定。",
+          "verdict": "contradicted",
+          "reason": "把拟议写成已发生"
+        },
+        {
+          "id": "F03",
+          "answer_id": "Q1",
+          "claim": "迁址导致商业繁荣",
+          "source": "甲渡拟迁东岸，议未定。",
+          "verdict": "not_in_evidence",
+          "reason": "材料未说明后果"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "11.1",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "I01",
+          "file": "images/square.pgm",
+          "label": "square",
+          "split": "train",
+          "source": "teaching_A"
+        },
+        {
+          "id": "I02",
+          "file": "images/bar.pgm",
+          "label": "bar",
+          "split": "train",
+          "source": "teaching_A"
+        },
+        {
+          "id": "I03",
+          "file": "images/square_shift.pgm",
+          "label": "square",
+          "split": "dev",
+          "source": "teaching_B"
+        },
+        {
+          "id": "I04",
+          "file": "images/bar_shift.pgm",
+          "label": "bar",
+          "split": "dev",
+          "source": "teaching_B"
+        }
+      ],
+      "expected": [
+        {
+          "id": "I01",
+          "file": "images/square.pgm",
+          "label": "square",
+          "split": "train",
+          "source": "teaching_A"
+        },
+        {
+          "id": "I02",
+          "file": "images/bar.pgm",
+          "label": "bar",
+          "split": "train",
+          "source": "teaching_A"
+        },
+        {
+          "id": "I03",
+          "file": "images/square_shift.pgm",
+          "label": "square",
+          "split": "dev",
+          "source": "teaching_B"
+        },
+        {
+          "id": "I04",
+          "file": "images/bar_shift.pgm",
+          "label": "bar",
+          "split": "dev",
+          "source": "teaching_B"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "11.10",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "I01",
+          "file": "images/square.pgm",
+          "label": "square",
+          "split": "train",
+          "source": "teaching_A"
+        },
+        {
+          "id": "I02",
+          "file": "images/bar.pgm",
+          "label": "bar",
+          "split": "train",
+          "source": "teaching_A"
+        },
+        {
+          "id": "I03",
+          "file": "images/square_shift.pgm",
+          "label": "square",
+          "split": "dev",
+          "source": "teaching_B"
+        },
+        {
+          "id": "I04",
+          "file": "images/bar_shift.pgm",
+          "label": "bar",
+          "split": "dev",
+          "source": "teaching_B"
+        }
+      ],
+      "expected": [
+        {
+          "id": "I01",
+          "file": "images/square.pgm",
+          "label": "square",
+          "split": "train",
+          "source": "teaching_A"
+        },
+        {
+          "id": "I02",
+          "file": "images/bar.pgm",
+          "label": "bar",
+          "split": "train",
+          "source": "teaching_A"
+        },
+        {
+          "id": "I03",
+          "file": "images/square_shift.pgm",
+          "label": "square",
+          "split": "dev",
+          "source": "teaching_B"
+        },
+        {
+          "id": "I04",
+          "file": "images/bar_shift.pgm",
+          "label": "bar",
+          "split": "dev",
+          "source": "teaching_B"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "11.2",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "D01",
+          "image": "teaching_page",
+          "kind": "reference",
+          "label": "seal",
+          "score": "1",
+          "box": "[1, 1, 5, 5]"
+        },
+        {
+          "id": "D02",
+          "image": "teaching_page",
+          "kind": "prediction",
+          "label": "seal",
+          "score": "0.9",
+          "box": "[1, 1, 5, 5]"
+        },
+        {
+          "id": "D03",
+          "image": "teaching_page",
+          "kind": "prediction",
+          "label": "seal",
+          "score": "0.7",
+          "box": "[2, 1, 6, 5]"
+        },
+        {
+          "id": "D04",
+          "image": "teaching_page",
+          "kind": "prediction",
+          "label": "text",
+          "score": "0.8",
+          "box": "[1, 1, 5, 5]"
+        }
+      ],
+      "expected": [
+        {
+          "id": "D01",
+          "image": "teaching_page",
+          "kind": "reference",
+          "label": "seal",
+          "score": "1",
+          "box": "[1, 1, 5, 5]"
+        },
+        {
+          "id": "D02",
+          "image": "teaching_page",
+          "kind": "prediction",
+          "label": "seal",
+          "score": "0.9",
+          "box": "[1, 1, 5, 5]"
+        },
+        {
+          "id": "D03",
+          "image": "teaching_page",
+          "kind": "prediction",
+          "label": "seal",
+          "score": "0.7",
+          "box": "[2, 1, 6, 5]"
+        },
+        {
+          "id": "D04",
+          "image": "teaching_page",
+          "kind": "prediction",
+          "label": "text",
+          "score": "0.8",
+          "box": "[1, 1, 5, 5]"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "11.3",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "M1",
+          "reference": "[[0, 0, 0, 0], [0, 1, 1, 0], [0, 1, 1, 0], [0, 0, 0, 0]]",
+          "prediction": "[[0, 0, 0, 0], [0, 1, 1, 0], [0, 1, 0, 0], [0, 0, 0, 0]]"
+        }
+      ],
+      "expected": [
+        {
+          "id": "M1",
+          "reference": "[[0, 0, 0, 0], [0, 1, 1, 0], [0, 1, 1, 0], [0, 0, 0, 0]]",
+          "prediction": "[[0, 0, 0, 0], [0, 1, 1, 0], [0, 1, 0, 0], [0, 0, 0, 0]]"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "11.4",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "A01",
+          "height": "224",
+          "width": "224",
+          "patch": "16"
+        },
+        {
+          "id": "A02",
+          "height": "448",
+          "width": "448",
+          "patch": "16"
+        }
+      ],
+      "expected": [
+        {
+          "id": "A01",
+          "height": "224",
+          "width": "224",
+          "patch": "16"
+        },
+        {
+          "id": "A02",
+          "height": "448",
+          "width": "448",
+          "patch": "16"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "11.5",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "V1",
+          "label": "seal",
+          "split": "train",
+          "vector": "[1, 0, 0.2]"
+        },
+        {
+          "id": "V2",
+          "label": "photo",
+          "split": "train",
+          "vector": "[0, 1, 0.2]"
+        },
+        {
+          "id": "V3",
+          "label": "seal",
+          "split": "dev",
+          "vector": "[0.8, 0.2, 0.2]"
+        },
+        {
+          "id": "V4",
+          "label": "photo",
+          "split": "dev",
+          "vector": "[0.2, 0.8, 0.2]"
+        }
+      ],
+      "expected": [
+        {
+          "id": "V1",
+          "label": "seal",
+          "split": "train",
+          "vector": "[1, 0, 0.2]"
+        },
+        {
+          "id": "V2",
+          "label": "photo",
+          "split": "train",
+          "vector": "[0, 1, 0.2]"
+        },
+        {
+          "id": "V3",
+          "label": "seal",
+          "split": "dev",
+          "vector": "[0.8, 0.2, 0.2]"
+        },
+        {
+          "id": "V4",
+          "label": "photo",
+          "split": "dev",
+          "vector": "[0.2, 0.8, 0.2]"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "11.6",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "V01",
+          "benchmark": "ImageNet",
+          "task": "classification",
+          "expected_output": "image_label",
+          "local_output": "image_label"
+        },
+        {
+          "id": "V02",
+          "benchmark": "COCO",
+          "task": "detection",
+          "expected_output": "bbox_class",
+          "local_output": "bbox_class"
+        },
+        {
+          "id": "V03",
+          "benchmark": "ADE20K",
+          "task": "semantic_segmentation",
+          "expected_output": "pixel_class",
+          "local_output": "pixel_class"
+        }
+      ],
+      "expected": [
+        {
+          "id": "V01",
+          "benchmark": "ImageNet",
+          "task": "classification",
+          "expected_output": "image_label",
+          "local_output": "image_label"
+        },
+        {
+          "id": "V02",
+          "benchmark": "COCO",
+          "task": "detection",
+          "expected_output": "bbox_class",
+          "local_output": "bbox_class"
+        },
+        {
+          "id": "V03",
+          "benchmark": "ADE20K",
+          "task": "semantic_segmentation",
+          "expected_output": "pixel_class",
+          "local_output": "pixel_class"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "11.7",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "K1",
+          "label": "seal",
+          "scores": "{\"seal\": 0.8, \"photo\": 0.2}"
+        },
+        {
+          "id": "K2",
+          "label": "photo",
+          "scores": "{\"seal\": 0.6, \"photo\": 0.4}"
+        }
+      ],
+      "expected": [
+        {
+          "id": "K1",
+          "label": "seal",
+          "scores": "{\"seal\": 0.8, \"photo\": 0.2}"
+        },
+        {
+          "id": "K2",
+          "label": "photo",
+          "scores": "{\"seal\": 0.6, \"photo\": 0.4}"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "11.8",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "L01",
+          "label": "photo",
+          "pred": "photo",
+          "source": "A"
+        },
+        {
+          "id": "L02",
+          "label": "photo",
+          "pred": "photo",
+          "source": "A"
+        },
+        {
+          "id": "L03",
+          "label": "photo",
+          "pred": "photo",
+          "source": "B"
+        },
+        {
+          "id": "L04",
+          "label": "seal",
+          "pred": "photo",
+          "source": "B"
+        },
+        {
+          "id": "L05",
+          "label": "map",
+          "pred": "map",
+          "source": "C"
+        }
+      ],
+      "expected": [
+        {
+          "id": "L01",
+          "label": "photo",
+          "pred": "photo",
+          "source": "A"
+        },
+        {
+          "id": "L02",
+          "label": "photo",
+          "pred": "photo",
+          "source": "A"
+        },
+        {
+          "id": "L03",
+          "label": "photo",
+          "pred": "photo",
+          "source": "B"
+        },
+        {
+          "id": "L04",
+          "label": "seal",
+          "pred": "photo",
+          "source": "B"
+        },
+        {
+          "id": "L05",
+          "label": "map",
+          "pred": "map",
+          "source": "C"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    },
+    {
+      "section": "11.9",
+      "name": "JSON/CSV阅读副本",
+      "status": "EXECUTED_PASS",
+      "observed": [
+        {
+          "id": "R1",
+          "source": "clean",
+          "original": "O1",
+          "label": "seal",
+          "pred": "seal",
+          "accepted": "1"
+        },
+        {
+          "id": "R2",
+          "source": "blur",
+          "original": "O1",
+          "label": "seal",
+          "pred": "photo",
+          "accepted": "1"
+        },
+        {
+          "id": "R3",
+          "source": "clean",
+          "original": "O2",
+          "label": "photo",
+          "pred": "photo",
+          "accepted": "1"
+        },
+        {
+          "id": "R4",
+          "source": "blur",
+          "original": "O2",
+          "label": "photo",
+          "pred": "photo",
+          "accepted": "0"
+        }
+      ],
+      "expected": [
+        {
+          "id": "R1",
+          "source": "clean",
+          "original": "O1",
+          "label": "seal",
+          "pred": "seal",
+          "accepted": "1"
+        },
+        {
+          "id": "R2",
+          "source": "blur",
+          "original": "O1",
+          "label": "seal",
+          "pred": "photo",
+          "accepted": "1"
+        },
+        {
+          "id": "R3",
+          "source": "clean",
+          "original": "O2",
+          "label": "photo",
+          "pred": "photo",
+          "accepted": "1"
+        },
+        {
+          "id": "R4",
+          "source": "blur",
+          "original": "O2",
+          "label": "photo",
+          "pred": "photo",
+          "accepted": "0"
+        }
+      ],
+      "basis": "确认本节实际JSON与CSV阅读副本同值。",
+      "kind": "输入一致性"
+    }
+  ],
+  "passed": 107,
+  "failed": 0
+}

@@ -1,0 +1,5 @@
+id,pair_id,language,text,gold,pred
+P01,P1,中文,教学甲埠议迁，尚未施行。,拟议,拟议
+P02,P1,English,Teaching example: relocation was proposed but not carried out.,拟议,已迁
+P03,P2,中文,教学乙埠已迁东岸。,已迁,已迁
+P04,P2,English,Teaching example: the landing place moved to the east bank.,已迁,已迁

@@ -1,0 +1,9 @@
+[I 2026-10-30 11:52:14,616] A new study created in memory with name: no-name-b77819dc-983b-4dae-90ee-dfc0a4dd5af6
+[I 2026-10-30 11:52:14,617] Trial 0 finished with value: 1.6111111111111114 and parameters: {'candidate': 'C3'}. Best is trial 0 with value: 1.6111111111111114.
+[I 2026-10-30 11:52:14,618] Trial 1 finished with value: 1.654163029335115 and parameters: {'candidate': 'C4'}. Best is trial 0 with value: 1.6111111111111114.
+[I 2026-10-30 11:52:14,618] Trial 2 finished with value: 1.654163029335115 and parameters: {'candidate': 'C4'}. Best is trial 0 with value: 1.6111111111111114.
+[I 2026-10-30 11:52:14,618] Trial 3 finished with value: 1.0 and parameters: {'candidate': 'C1'}. Best is trial 3 with value: 1.0.
+[I 2026-10-30 11:52:14,618] Trial 4 finished with value: 1.7000248598452696 and parameters: {'candidate': 'C6'}. Best is trial 3 with value: 1.0.
+[I 2026-10-30 11:52:14,619] Trial 5 finished with value: 1.6666666666666667 and parameters: {'candidate': 'C5'}. Best is trial 3 with value: 1.0.
+[I 2026-10-30 11:52:14,619] Trial 6 finished with value: 1.5 and parameters: {'candidate': 'C0'}. Best is trial 3 with value: 1.0.
+[I 2026-10-30 11:52:14,619] Trial 7 finished with value: 1.7000248598452696 and parameters: {'candidate': 'C6'}. Best is trial 3 with value: 1.0.

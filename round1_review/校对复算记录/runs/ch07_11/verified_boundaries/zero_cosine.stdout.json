@@ -1,0 +1,22 @@
+{
+  "execution": "reader_invoked",
+  "input_provenance": "编者新编教学数据 非史实 非模型输出",
+  "section": "9.4",
+  "result": [
+    {
+      "left": "V01",
+      "right": "V02",
+      "cosine": null
+    },
+    {
+      "left": "V01",
+      "right": "V03",
+      "cosine": null
+    },
+    {
+      "left": "V02",
+      "right": "V03",
+      "cosine": 0.062159480485665
+    }
+  ]
+}

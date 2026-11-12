@@ -1,0 +1,44 @@
+{
+  "kind": "ACTUAL_OUTPUT_TEMPLATE_NOT_RUN",
+  "question_id": "H01",
+  "corpus_version": "ch06-new-20261030-v1",
+  "allowed_ids": [
+    "D1",
+    "D2",
+    "D3",
+    "D4"
+  ],
+  "c": 60,
+  "M": 3,
+  "k": 2,
+  "runs": [
+    {
+      "name": "sparse",
+      "question_id": "H01",
+      "corpus_version": "ch06-new-20261030-v1",
+      "allowed_ids": [
+        "D1",
+        "D2",
+        "D3",
+        "D4"
+      ],
+      "ranking": [],
+      "model_or_rule": "填写实际模型版本或BM25参数",
+      "input_record": "填写实际输入保存位置"
+    },
+    {
+      "name": "dense",
+      "question_id": "H01",
+      "corpus_version": "ch06-new-20261030-v1",
+      "allowed_ids": [
+        "D1",
+        "D2",
+        "D3",
+        "D4"
+      ],
+      "ranking": [],
+      "model_or_rule": "填写实际模型版本或BM25参数",
+      "input_record": "填写实际输入保存位置"
+    }
+  ]
+}

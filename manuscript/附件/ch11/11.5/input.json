@@ -1,0 +1,50 @@
+{
+  "section": "11.5",
+  "title": "DINOv2与特征质量评估",
+  "status": "NOT_RUN",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "feature_eval",
+  "rows": [
+    {
+      "id": "V1",
+      "label": "seal",
+      "split": "train",
+      "vector": [
+        1,
+        0,
+        0.2
+      ]
+    },
+    {
+      "id": "V2",
+      "label": "photo",
+      "split": "train",
+      "vector": [
+        0,
+        1,
+        0.2
+      ]
+    },
+    {
+      "id": "V3",
+      "label": "seal",
+      "split": "dev",
+      "vector": [
+        0.8,
+        0.2,
+        0.2
+      ]
+    },
+    {
+      "id": "V4",
+      "label": "photo",
+      "split": "dev",
+      "vector": [
+        0.2,
+        0.8,
+        0.2
+      ]
+    }
+  ],
+  "config": {}
+}

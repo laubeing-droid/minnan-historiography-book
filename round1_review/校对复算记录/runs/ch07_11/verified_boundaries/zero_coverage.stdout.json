@@ -1,0 +1,17 @@
+{
+  "execution": "reader_invoked",
+  "input_provenance": "编者新编教学数据 非史实 非模型输出",
+  "section": "7.5",
+  "result": [
+    {
+      "id": "zero",
+      "available": 0,
+      "readable": 0,
+      "evaluated": 0,
+      "correct": 0,
+      "readable_fraction": null,
+      "evaluation_coverage": null,
+      "accuracy": null
+    }
+  ]
+}

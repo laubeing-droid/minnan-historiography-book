@@ -1,0 +1,24 @@
+{
+  "version": "new-teaching-v1",
+  "execution_status": "NOT_RUN",
+  "population": "fixed_roster_X0",
+  "start_year": 1701,
+  "end_year": 1705,
+  "interval": "closed_integer_year",
+  "event_inclusion": "confirmed_identity_and_accepted_event",
+  "directed_view": "one_edge_per_ordered_pair_with_event_lineage",
+  "undirected_view": "at_least_one_confirmed_event_in_either_direction",
+  "self_loops": "reject",
+  "parallel_event_rows": "preserve_unique_event_ids",
+  "weights": "event_counts_separate_from_binary_existence",
+  "betweenness": "undirected_no_endpoints_global_normalization",
+  "closeness": "reachable_fraction_times_reachable_count_over_distance_sum",
+  "isolate_partition": "display_separately_not_inferred_group",
+  "gamma": [
+    "0.1",
+    "0.5",
+    "1",
+    "2"
+  ],
+  "exhaustive_nonisolated_limit": 8
+}

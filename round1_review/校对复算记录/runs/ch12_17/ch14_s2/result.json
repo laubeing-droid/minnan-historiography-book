@@ -1,0 +1,169 @@
+{
+  "scenarios": [
+    {
+      "scenario": "base",
+      "coefficients": {
+        "x": [
+          1000.0,
+          2.0,
+          0.1
+        ],
+        "y": [
+          2000.0,
+          0.2,
+          -2.0
+        ]
+      },
+      "normal_matrix_condition_inf": 4.0,
+      "errors": [
+        {
+          "id": "G1",
+          "role": "fit",
+          "pred_x": 1210.0,
+          "pred_y": 1820.0,
+          "dx": 0.0,
+          "dy": 0.0,
+          "distance": 0.0
+        },
+        {
+          "id": "G2",
+          "role": "fit",
+          "pred_x": 2810.0,
+          "pred_y": 1980.0,
+          "dx": 0.0,
+          "dy": 0.0,
+          "distance": 0.0
+        },
+        {
+          "id": "G3",
+          "role": "fit",
+          "pred_x": 1290.0,
+          "pred_y": 220.0,
+          "dx": 0.0,
+          "dy": 0.0,
+          "distance": 0.0
+        },
+        {
+          "id": "G4",
+          "role": "fit",
+          "pred_x": 2890.0,
+          "pred_y": 380.0,
+          "dx": 0.0,
+          "dy": 0.0,
+          "distance": 0.0
+        },
+        {
+          "id": "C1",
+          "role": "check",
+          "pred_x": 2050.0,
+          "pred_y": 1100.0,
+          "dx": -3.0,
+          "dy": -4.0,
+          "distance": 5.0
+        },
+        {
+          "id": "C2",
+          "role": "check",
+          "pred_x": 1670.0,
+          "pred_y": 660.0,
+          "dx": -3.0,
+          "dy": -4.0,
+          "distance": 5.0
+        },
+        {
+          "id": "C3",
+          "role": "check",
+          "pred_x": 2430.0,
+          "pred_y": 1540.0,
+          "dx": -3.0,
+          "dy": -4.0,
+          "distance": 5.0
+        }
+      ],
+      "rmse_check": 5.0
+    },
+    {
+      "scenario": "wrong_G4",
+      "coefficients": {
+        "x": [
+          940.0,
+          2.1,
+          0.2
+        ],
+        "y": [
+          2030.0,
+          0.15,
+          -2.05
+        ]
+      },
+      "normal_matrix_condition_inf": 4.0,
+      "errors": [
+        {
+          "id": "G1",
+          "role": "fit",
+          "pred_x": 1170.0,
+          "pred_y": 1840.0,
+          "dx": -40.0,
+          "dy": 20.0,
+          "distance": 44.721359549995796
+        },
+        {
+          "id": "G2",
+          "role": "fit",
+          "pred_x": 2850.0,
+          "pred_y": 1960.0,
+          "dx": 40.0,
+          "dy": -20.0,
+          "distance": 44.721359549995796
+        },
+        {
+          "id": "G3",
+          "role": "fit",
+          "pred_x": 1330.0,
+          "pred_y": 200.00000000000023,
+          "dx": 40.0,
+          "dy": -19.999999999999773,
+          "distance": 44.72135954999569
+        },
+        {
+          "id": "G4",
+          "role": "fit",
+          "pred_x": 3010.0,
+          "pred_y": 320.0000000000002,
+          "dx": -40.0,
+          "dy": 20.000000000000227,
+          "distance": 44.721359549995896
+        },
+        {
+          "id": "C1",
+          "role": "check",
+          "pred_x": 2090.0,
+          "pred_y": 1080.0,
+          "dx": 37.0,
+          "dy": -24.0,
+          "distance": 44.10215414239989
+        },
+        {
+          "id": "C2",
+          "role": "check",
+          "pred_x": 1710.0,
+          "pred_y": 640.0000000000002,
+          "dx": 37.0,
+          "dy": -23.999999999999773,
+          "distance": 44.10215414239977
+        },
+        {
+          "id": "C3",
+          "role": "check",
+          "pred_x": 2470.0,
+          "pred_y": 1520.0,
+          "dx": 37.0,
+          "dy": -24.0,
+          "distance": 44.10215414239989
+        }
+      ],
+      "rmse_check": 44.102154142399854
+    }
+  ],
+  "method": "centered-scaled normal equations; small teaching example only, not general GIS raster georeferencing"
+}

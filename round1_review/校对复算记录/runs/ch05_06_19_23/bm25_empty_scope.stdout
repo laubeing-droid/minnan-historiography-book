@@ -1,0 +1,14 @@
+{
+  "corpus_version": "ch06-new-20261030-v1",
+  "allowed_ids": [],
+  "k1": 1.2,
+  "b": 0.75,
+  "queries": [
+    {
+      "id": "USER",
+      "status": "empty_index",
+      "results": [],
+      "empty_blocks": []
+    }
+  ]
+}

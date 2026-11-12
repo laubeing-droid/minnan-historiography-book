@@ -1,0 +1,64 @@
+{
+  "section": "11.2",
+  "title": "检测：bbox回归与分类的联合任务",
+  "status": "NOT_RUN",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "detection",
+  "rows": [
+    {
+      "id": "D01",
+      "image": "teaching_page",
+      "kind": "reference",
+      "label": "seal",
+      "score": 1,
+      "box": [
+        1,
+        1,
+        5,
+        5
+      ]
+    },
+    {
+      "id": "D02",
+      "image": "teaching_page",
+      "kind": "prediction",
+      "label": "seal",
+      "score": 0.9,
+      "box": [
+        1,
+        1,
+        5,
+        5
+      ]
+    },
+    {
+      "id": "D03",
+      "image": "teaching_page",
+      "kind": "prediction",
+      "label": "seal",
+      "score": 0.7,
+      "box": [
+        2,
+        1,
+        6,
+        5
+      ]
+    },
+    {
+      "id": "D04",
+      "image": "teaching_page",
+      "kind": "prediction",
+      "label": "text",
+      "score": 0.8,
+      "box": [
+        1,
+        1,
+        5,
+        5
+      ]
+    }
+  ],
+  "config": {
+    "iou_threshold": 0.5
+  }
+}

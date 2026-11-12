@@ -1,0 +1,26 @@
+{
+  "execution": "reader_invoked",
+  "input_provenance": "编者新编教学数据 非史实 非模型输出",
+  "section": "10.4",
+  "result": [
+    {
+      "id": "x",
+      "bleu_sentence_unsmoothed": null,
+      "ngram_precisions": [
+        1.0,
+        null
+      ],
+      "brevity_penalty": 0.36787944117144233,
+      "rouge1": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666
+      },
+      "rougeL": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666
+      }
+    }
+  ]
+}

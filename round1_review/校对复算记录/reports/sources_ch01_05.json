@@ -1,0 +1,1385 @@
+{
+  "scope": "ch01–ch05 all distinct cited URLs",
+  "url_count": 50,
+  "status_counts": {
+    "已核相关段落": 47,
+    "访问阻塞": 3
+  },
+  "ledger": [
+    {
+      "id": "S015-01",
+      "url": "https://cup.columbia.edu/book/southern-fujian/9789629962333/",
+      "occurrences": [
+        {
+          "chapter": 1,
+          "section_at_url": "1.1",
+          "baseline_line": 47,
+          "citation_text": "[1.1-1] Tan Chee-beng 编，*Southern Fujian: Reproduction of Traditions in Post-Mao China*，香港中文大学出版社，2006。研究主题见[出版社发行页面的内容介绍](https://cup.columbia.edu/book/southern-fujian/9789629962333/)，两段简介。",
+          "citation_marker": "[1.1-1]",
+          "in_text_citations": [
+            {
+              "section": "1.1",
+              "baseline_line": 13
+            }
+          ],
+          "cited_sections": [
+            "1.1"
+          ],
+          "section_mapping_note": "section_at_url为URL实体位置；cited_sections按正文引注标记回溯，章末注不自动归入最后一节。"
+        }
+      ],
+      "claim_checked": "论文集考察宗族、传统与女性等议题，可作地区研究入口；不据简介归纳每篇结论。",
+      "checked_location": "内容介绍两段",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "仅核所列引用主张及相关段落，不代表作品全文或全部原始历史证据已核。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-02",
+      "url": "https://xm.fjdsfzw.org.cn/2025-01-13/content_154060.html",
+      "occurrences": [
+        {
+          "chapter": 1,
+          "section_at_url": "1.1",
+          "baseline_line": 49,
+          "citation_text": "[1.1-2] 厦门史志网，《同安区概况》，2025年1月13日，来源标为厦门市人民政府官网，行政沿革段中1953年11月一项。[官方页面](https://xm.fjdsfzw.org.cn/2025-01-13/content_154060.html)。",
+          "citation_marker": "[1.1-2]",
+          "in_text_citations": [
+            {
+              "section": "1.1",
+              "baseline_line": 21
+            }
+          ],
+          "cited_sections": [
+            "1.1"
+          ],
+          "section_mapping_note": "section_at_url为URL实体位置；cited_sections按正文引注标记回溯，章末注不自动归入最后一节。"
+        }
+      ],
+      "claim_checked": "集美乡由同安划归厦门的日期符合页面；后编政府史志说明，不是1953年原文书。",
+      "checked_location": "行政沿革1953年11月项",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "仅核所列引用主张及相关段落，不代表作品全文或全部原始历史证据已核。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-03",
+      "url": "https://www.sino-platonic.org/complete/spp025_taiwanese.html",
+      "occurrences": [
+        {
+          "chapter": 1,
+          "section_at_url": "1.1",
+          "baseline_line": 51,
+          "citation_text": "[1.1-3] Jean DeBernardi，*Linguistic Nationalism: The Case of Southern Min*，*Sino-Platonic Papers*，第25号，1991年8月。参见[原文](https://www.sino-platonic.org/complete/spp025_taiwanese.html)“Introduction”及“Conclusion”中的台湾、马来西亚比较；访谈时期见注1。",
+          "citation_marker": "[1.1-3]",
+          "in_text_citations": [
+            {
+              "section": "1.1",
+              "baseline_line": 25
+            }
+          ],
+          "cited_sections": [
+            "1.1"
+          ],
+          "section_mapping_note": "section_at_url为URL实体位置；cited_sections按正文引注标记回溯，章末注不自动归入最后一节。"
+        }
+      ],
+      "claim_checked": "三处田野地点为槟城、台南、厦门；结论对比台湾和马来西亚，支持语言价值受历史经验和现实关系影响。",
+      "checked_location": "Introduction与Conclusion",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "注1所述田野细节不升级为本人取得原始访谈记录。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-04",
+      "url": "https://fass.nus.edu.sg/srn/2024/03/11/building-chinese-diaspora-resilience-and-sustaining-traditional-identities-through-promotion-of-hokkien-language/",
+      "occurrences": [
+        {
+          "chapter": 1,
+          "section_at_url": "1.1",
+          "baseline_line": 53,
+          "citation_text": "[1.1-4] 新加坡国立大学 Singapore Research Nexus，*Building Chinese Diaspora Resilience and Sustaining Traditional Identities through Promotion of Hokkien Language*，2024年3月11日，社团、会馆代际更替及方言教学相关段落。[研究介绍](https://fass.nus.edu.sg/srn/2024/03/11/building-chinese-diaspora-resilience-and-sustaining-traditional-identities-through-promotion-of-hokkien-language/)。",
+          "citation_marker": "[1.1-4]",
+          "in_text_citations": [
+            {
+              "section": "1.1",
+              "baseline_line": 31
+            }
+          ],
+          "cited_sections": [
+            "1.1"
+          ],
+          "section_mapping_note": "section_at_url为URL实体位置；cited_sections按正文引注标记回溯，章末注不自动归入最后一节。"
+        }
+      ],
+      "claim_checked": "项目2023—2024，研究社团/会馆代际更替及方言教学，与书中用途相符。",
+      "checked_location": "2024-03-11项目介绍及项目时段段落",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "研究计划不作既成实证成果。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-05",
+      "url": "https://tuningacademy.org/wp-content/uploads/2014/02/CLIOH_Guide-I.pdf",
+      "occurrences": [
+        {
+          "chapter": 1,
+          "section_at_url": "1.2",
+          "baseline_line": 112,
+          "citation_text": "[1.2-1] CLIOHWORLD，*A CLIOHWORLD Guide*，Pisa University Press，2011。“Regional and Transnational History”第Ⅰ、Ⅲ部分，印刷页79、81—83，PDF第89、91—93页。[公开原书](https://tuningacademy.org/wp-content/uploads/2014/02/CLIOH_Guide-I.pdf)。",
+          "citation_marker": "[1.2-1]",
+          "in_text_citations": [
+            {
+              "section": "1.2",
+              "baseline_line": 57
+            }
+          ],
+          "cited_sections": [
+            "1.2"
+          ],
+          "section_mapping_note": "section_at_url为URL实体位置；cited_sections按正文引注标记回溯，章末注不自动归入最后一节。"
+        }
+      ],
+      "claim_checked": "区域史工作定义和跨边界视角有据，原文同时说无统一通用定义；正文保持工作定义层次。",
+      "checked_location": "Regional and Transnational History印刷页79、81—83",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "仅核所列引用主张及相关段落，不代表作品全文或全部原始历史证据已核。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-06",
+      "url": "https://courses.ems.psu.edu/geog571/book/export/html/59",
+      "occurrences": [
+        {
+          "chapter": 1,
+          "section_at_url": "1.2",
+          "baseline_line": 114,
+          "citation_text": "[1.2-2] Pennsylvania State University，GEOG 571，*Lesson 1: Foundations of Cultural Geography*，第1.5节“Place”、第1.9节“Culture and Cultural Geography”。[公开课程正文](https://courses.ems.psu.edu/geog571/book/export/html/59)。",
+          "citation_marker": "[1.2-2]",
+          "in_text_citations": [
+            {
+              "section": "1.2",
+              "baseline_line": 57
+            },
+            {
+              "section": "1.2",
+              "baseline_line": 71
+            }
+          ],
+          "cited_sections": [
+            "1.2"
+          ],
+          "section_mapping_note": "section_at_url为URL实体位置；cited_sections按正文引注标记回溯，章末注不自动归入最后一节。"
+        }
+      ],
+      "claim_checked": "地方、文化和文化地理的课程定义支持对应概括。",
+      "checked_location": "1.5 Place与1.9 Culture and Cultural Geography",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "仅核所列引用主张及相关段落，不代表作品全文或全部原始历史证据已核。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-07",
+      "url": "https://www.cambridge.org/core/books/community-trade-and-networks/2FAC3D66401A5615648F06681ADF4F5B",
+      "occurrences": [
+        {
+          "chapter": 1,
+          "section_at_url": "1.2",
+          "baseline_line": 116,
+          "citation_text": "[1.2-3] Hugh R. Clark，*Community, Trade, and Networks: Southern Fujian Province from the Third to the Thirteenth Century*，Cambridge University Press，1991。研究问题见[出版社内容介绍](https://www.cambridge.org/core/books/community-trade-and-networks/2FAC3D66401A5615648F06681ADF4F5B)；人口扩展、聚落与交通网络的联系见[第7章公开节选首段](https://www.cambridge.org/core/books/abs/community-trade-and-networks/conclusions/4BDCCD974B73CE3506CF657F3058D179)。",
+          "citation_marker": "[1.2-3]",
+          "in_text_citations": [
+            {
+              "section": "1.2",
+              "baseline_line": 67
+            }
+          ],
+          "cited_sections": [
+            "1.2"
+          ],
+          "section_mapping_note": "section_at_url为URL实体位置；cited_sections按正文引注标记回溯，章末注不自动归入最后一节。"
+        }
+      ],
+      "claim_checked": "Clark以福建南部社区、贸易和网络为对象，标题、年代与研究范围相合。",
+      "checked_location": "出版社内容介绍",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "仅核所列引用主张及相关段落，不代表作品全文或全部原始历史证据已核。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-08",
+      "url": "https://www.cambridge.org/core/books/abs/community-trade-and-networks/conclusions/4BDCCD974B73CE3506CF657F3058D179",
+      "occurrences": [
+        {
+          "chapter": 1,
+          "section_at_url": "1.2",
+          "baseline_line": 116,
+          "citation_text": "[1.2-3] Hugh R. Clark，*Community, Trade, and Networks: Southern Fujian Province from the Third to the Thirteenth Century*，Cambridge University Press，1991。研究问题见[出版社内容介绍](https://www.cambridge.org/core/books/community-trade-and-networks/2FAC3D66401A5615648F06681ADF4F5B)；人口扩展、聚落与交通网络的联系见[第7章公开节选首段](https://www.cambridge.org/core/books/abs/community-trade-and-networks/conclusions/4BDCCD974B73CE3506CF657F3058D179)。",
+          "citation_marker": "[1.2-3]",
+          "in_text_citations": [
+            {
+              "section": "1.2",
+              "baseline_line": 67
+            }
+          ],
+          "cited_sections": [
+            "1.2"
+          ],
+          "section_mapping_note": "section_at_url为URL实体位置；cited_sections按正文引注标记回溯，章末注不自动归入最后一节。"
+        }
+      ],
+      "claim_checked": "人口扩展、社区/聚落与交通网络关系见原节选；不等于全章已读。",
+      "checked_location": "第7章Conclusions公开首段",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "仅核所列引用主张及相关段落，不代表作品全文或全部原始历史证据已核。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-09",
+      "url": "https://mdpi-res.com/d_attachment/urbansci/urbansci-04-00064/article_deploy/urbansci-04-00064-v2.pdf?version=1606205963",
+      "occurrences": [
+        {
+          "chapter": 1,
+          "section_at_url": "1.2",
+          "baseline_line": 118,
+          "citation_text": "[1.2-4] Samantha JingYi Yom、Francesco Cavallaro，〈Colonialism and Toponyms in Singapore〉，*Urban Science*，2020，4(4)，64，DOI：10.3390/urbansci4040064，第3节及第3.2节，PDF第3、4—5页。[论文原文](https://mdpi-res.com/d_attachment/urbansci/urbansci-04-00064/article_deploy/urbansci-04-00064-v2.pdf?version=1606205963)。",
+          "citation_marker": "[1.2-4]",
+          "in_text_citations": [
+            {
+              "section": "1.2",
+              "baseline_line": 75
+            }
+          ],
+          "cited_sections": [
+            "1.2"
+          ],
+          "section_mapping_note": "section_at_url为URL实体位置；cited_sections按正文引注标记回溯，章末注不自动归入最后一节。"
+        }
+      ],
+      "claim_checked": "酒类蒸馏与烈酒仓库相关地名确见原论文；未把语言名称自动当行政边界。",
+      "checked_location": "第3节及3.2 Havelock Road段",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "仅核所列引用主张及相关段落，不代表作品全文或全部原始历史证据已核。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-10",
+      "url": "https://www.unesco.org/en/memory-world/qiaopi-and-yinxin-correspondence-and-remittance-documents-overseas-chinese",
+      "occurrences": [
+        {
+          "chapter": 1,
+          "section_at_url": "1.3",
+          "baseline_line": 182,
+          "citation_text": "[1.3-1] UNESCO，〈Qiaopi and Yinxin Correspondence and Remittance Documents from Overseas Chinese〉，项目介绍首段。[官方原文](https://www.unesco.org/en/memory-world/qiaopi-and-yinxin-correspondence-and-remittance-documents-overseas-chinese)。",
+          "citation_marker": "[1.3-1]",
+          "in_text_citations": [
+            {
+              "section": "1.3",
+              "baseline_line": 140
+            }
+          ],
+          "cited_sections": [
+            "1.3"
+          ],
+          "section_mapping_note": "section_at_url为URL实体位置；cited_sections按正文引注标记回溯，章末注不自动归入最后一节。"
+        }
+      ],
+      "claim_checked": "侨批兼有汇款及家庭通信功能，对应材料可连结跨地生活关系的概括。",
+      "checked_location": "项目介绍首段",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "仅核所列引用主张及相关段落，不代表作品全文或全部原始历史证据已核。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-11",
+      "url": "https://content.ucpress.edu/title/9780520298415/9780520298415_chapterone.pdf",
+      "occurrences": [
+        {
+          "chapter": 1,
+          "section_at_url": "1.3",
+          "baseline_line": 184,
+          "citation_text": "[1.3-2] Gregor Benton、Hong Liu，*Dear China: Emigrant Letters and Remittances, 1820–1980*，University of California Press，2018，导论第3—4、6页；第6页说明研究起讫和不同结束节点。[出版社公开导论](https://content.ucpress.edu/title/9780520298415/9780520298415_chapterone.pdf)。",
+          "citation_marker": "[1.3-2]",
+          "in_text_citations": [
+            {
+              "section": "1.3",
+              "baseline_line": 140
+            },
+            {
+              "section": "1.3",
+              "baseline_line": 160
+            }
+          ],
+          "cited_sections": [
+            "1.3"
+          ],
+          "section_mapping_note": "section_at_url为URL实体位置；cited_sections按正文引注标记回溯，章末注不自动归入最后一节。"
+        }
+      ],
+      "claim_checked": "1820—1980范围、1973人民银行管理、1979人员归地方国有银行及约略1980界标相合。",
+      "checked_location": "出版社公开导论页3—4及6",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "未独立核历年业务原档。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-12",
+      "url": "https://phi.history.ucla.edu/nchs/alignment-common-core-standards/1-chronological-thinking/",
+      "occurrences": [
+        {
+          "chapter": 1,
+          "section_at_url": "1.3",
+          "baseline_line": 186,
+          "citation_text": "[1.3-3] University of California, Los Angeles，Public History Initiative，〈1. Chronological Thinking〉，“Standard One”第6—7项。[大学公开教学原文](https://phi.history.ucla.edu/nchs/alignment-common-core-standards/1-chronological-thinking/)。",
+          "citation_marker": "[1.3-3]",
+          "in_text_citations": [
+            {
+              "section": "1.3",
+              "baseline_line": 154
+            }
+          ],
+          "cited_sections": [
+            "1.3"
+          ],
+          "section_mapping_note": "section_at_url为URL实体位置；cited_sections按正文引注标记回溯，章末注不自动归入最后一节。"
+        }
+      ],
+      "claim_checked": "年代结构与分期选择属历史理解工作，支持本章年代推理教学用途。",
+      "checked_location": "Standard One第6—7项",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "仅核所列引用主张及相关段落，不代表作品全文或全部原始历史证据已核。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-13",
+      "url": "https://iahs.fudan.edu.cn/__local/1/6F/A7/F0C272B4E0E564BB3D46743C4F6_038F7BC1_445AA.pdf?e=.pdf",
+      "occurrences": [
+        {
+          "chapter": 1,
+          "section_at_url": "1.5",
+          "baseline_line": 280,
+          "citation_text": "[1.4–1.5-1] 郑莉、梁勇访谈郑振满，〈新史料与新史学——郑振满教授访谈〉，《学术月刊》，2012年第4期，复旦大学公开文本第1页。[访谈原文](https://iahs.fudan.edu.cn/__local/1/6F/A7/F0C272B4E0E564BB3D46743C4F6_038F7BC1_445AA.pdf?e=.pdf)。"
+        }
+      ],
+      "claim_checked": "郑振满回顾傅衣凌的社会科学及走向民间取向，支持正文对研究训练脉络的转述。",
+      "checked_location": "访谈PDF第1页；另对原刊/XMU本核题录",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "访谈的学术回顾不是对全部学术史的独立证明。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-14",
+      "url": "https://crlhd.xmu.edu.cn/info/1035/4151.htm",
+      "occurrences": [
+        {
+          "chapter": 1,
+          "section_at_url": "1.5",
+          "baseline_line": 282,
+          "citation_text": "[1.4–1.5-2] 郑振满，《明清福建家族组织与社会变迁》，中国人民大学出版社，2009年。材料与研究方向据厦门大学民间历史文献研究中心公开书介及目录。[大学研究中心书介](https://crlhd.xmu.edu.cn/info/1035/4151.htm)。"
+        }
+      ],
+      "claim_checked": "2009版题录及族谱、分家文书、家庭/宗族/区域差异的研究取向相符。",
+      "checked_location": "书介与目录",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "仅核所列引用主张及相关段落，不代表作品全文或全部原始历史证据已核。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-15",
+      "url": "https://www.jstor.org/stable/j.ctt1tg5j67",
+      "occurrences": [
+        {
+          "chapter": 1,
+          "section_at_url": "1.5",
+          "baseline_line": 284,
+          "citation_text": "[1.4–1.5-3] Billy K. L. So，*Prosperity, Region, and Institutions in Maritime China: The South Fukien Pattern, 946–1368*，Harvard University Asia Center，2000年，导论公开节选。[出版社授权电子版书介及导论节选](https://www.jstor.org/stable/j.ctt1tg5j67)。"
+        }
+      ],
+      "claim_checked": "So2000著作围绕经济表现、空间和制度三者的关系，支持正文的研究问题概括。",
+      "checked_location": "授权书介及Introduction公开节选",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "仅公开节选，非全书。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-16",
+      "url": "https://www.jstor.org/stable/j.ctt7zvxfp",
+      "occurrences": [
+        {
+          "chapter": 1,
+          "section_at_url": "1.5",
+          "baseline_line": 286,
+          "citation_text": "[1.4–1.5-4] Kenneth Dean，*Taoist Ritual and Popular Cults of Southeast China*，Princeton University Press，1993年，导论公开节选。[出版社授权电子版及导论节选](https://www.jstor.org/stable/j.ctt7zvxfp)；[出版社版权页](https://www.degruyterbrill.com/document/doi/10.1515/9781400863402.fm/pdf?licenseType=free)。"
+        }
+      ],
+      "claim_checked": "Dean结合历史文本和田野、沿节庆访问组织关系的概括受支持；Copyright Date为1993。",
+      "checked_location": "Book Info及Introduction Sources and Methodology节选",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "同页书介另有Originally published in 1995；未以此擅改原书年，版权页阻塞另列。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-17",
+      "url": "https://www.degruyterbrill.com/document/doi/10.1515/9781400863402.fm/pdf?licenseType=free",
+      "occurrences": [
+        {
+          "chapter": 1,
+          "section_at_url": "1.5",
+          "baseline_line": 286,
+          "citation_text": "[1.4–1.5-4] Kenneth Dean，*Taoist Ritual and Popular Cults of Southeast China*，Princeton University Press，1993年，导论公开节选。[出版社授权电子版及导论节选](https://www.jstor.org/stable/j.ctt7zvxfp)；[出版社版权页](https://www.degruyterbrill.com/document/doi/10.1515/9781400863402.fm/pdf?licenseType=free)。"
+        }
+      ],
+      "claim_checked": "核原书出版/版权年代的链接本轮返回405，不能标版权页已核。",
+      "checked_location": "版权页PDF访问",
+      "status": "访问阻塞",
+      "status_code": "ACCESS_BLOCKED",
+      "limitations": "JSTOR另列Copyright1993，Dean2015自引亦1993；未恢复版权页原文。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-18",
+      "url": "https://www.beacon.org/Silencing-the-Past-P2496.aspx",
+      "occurrences": [
+        {
+          "chapter": 1,
+          "section_at_url": "1.5",
+          "baseline_line": 288,
+          "citation_text": "[1.4–1.5-5] Michel-Rolph Trouillot，*Silencing the Past: Power and the Production of History*，Beacon Press。[出版社书介](https://www.beacon.org/Silencing-the-Past-P2496.aspx)。"
+        }
+      ],
+      "claim_checked": "权力如何影响历史记录、遗漏与记忆的概括受到书介支持。",
+      "checked_location": "出版社Description",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "未宣称已读Trouillot全书。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-19",
+      "url": "https://blogs.loc.gov/thesignal/2025/05/volunteers-ocr/",
+      "occurrences": [
+        {
+          "chapter": 1,
+          "section_at_url": "1.5",
+          "baseline_line": 290,
+          "citation_text": "[1.4–1.5-6] Lauren Algee，〈Volunteers Leverage OCR to Transcribe Library of Congress Digital Collections〉，Library of Congress，2025年5月19日，尤其“To OCR or not to OCR?”及“Incorporating OCR into a transcription workflow”两部分。[图书馆实践说明](https://blogs.loc.gov/thesignal/2025/05/volunteers-ocr/)。"
+        }
+      ],
+      "claim_checked": "OCR可辅助转录但需结合材料质量和人工工作流，适配正文用途。",
+      "checked_location": "To OCR or not to OCR?及Incorporating OCR into a transcription workflow",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "仅核所列引用主张及相关段落，不代表作品全文或全部原始历史证据已核。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-20",
+      "url": "https://chgis.fas.harvard.edu/pages/history/",
+      "occurrences": [
+        {
+          "chapter": 1,
+          "section_at_url": "1.5",
+          "baseline_line": 292,
+          "citation_text": "[1.4–1.5-7] China Historical GIS，〈Project History〉，Robert Hartwell 及 Hartwell GIS 数据介绍段。[项目官方说明](https://chgis.fas.harvard.edu/pages/history/)。"
+        }
+      ],
+      "claim_checked": "以现代县级单元近似历史边界是Hartwell部分的特性，正文未扩成整个CHGIS属性。",
+      "checked_location": "Robert Hartwell/Hartwell GIS说明",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "仅核所列引用主张及相关段落，不代表作品全文或全部原始历史证据已核。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-21",
+      "url": "https://www.historians.org/resource/statement-on-standards-of-professional-conduct/",
+      "occurrences": [
+        {
+          "chapter": 1,
+          "section_at_url": "1.5",
+          "baseline_line": 294,
+          "citation_text": "[1.4–1.5-8] American Historical Association，〈Statement on Standards of Professional Conduct〉，“Shared Values of Historians”部分有关证据路径与引注的说明。[专业团体公开规范](https://www.historians.org/resource/statement-on-standards-of-professional-conduct/)。"
+        }
+      ],
+      "claim_checked": "应保留读者能够追查的证据路径，支持本章可追溯性要求。",
+      "checked_location": "Shared Values of Historians证据与引注段",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "仅核所列引用主张及相关段落，不代表作品全文或全部原始历史证据已核。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-22",
+      "url": "https://writingcenter.fas.harvard.edu/asking-analytical-questions",
+      "occurrences": [
+        {
+          "chapter": 2,
+          "section_at_url": "2.5",
+          "baseline_line": 209,
+          "citation_text": "[2-1] Harvard College Writing Center，〈Asking Analytical Questions〉，重点参见“Properties of a strong analytical question”及“How to come up with an analytical question”。本章仅据其公开正文概括分析性问题与材料疑难、可用证据之间的关系。[大学写作中心原文](https://writingcenter.fas.harvard.edu/asking-analytical-questions)。",
+          "citation_marker": "[2-1]",
+          "in_text_citations": [
+            {
+              "section": "2.1",
+              "baseline_line": 15
+            }
+          ],
+          "cited_sections": [
+            "2.1"
+          ],
+          "section_mapping_note": "section_at_url为URL实体位置；cited_sections按正文引注标记回溯，章末注不自动归入最后一节。"
+        }
+      ],
+      "claim_checked": "分析问题从材料疑难产生、须可由证据讨论的概括相符。",
+      "checked_location": "Properties of a strong analytical question与How to come up...",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "仅核所列引用主张及相关段落，不代表作品全文或全部原始历史证据已核。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-23",
+      "url": "https://www.quanzhou.gov.cn/lyb/lytj/rmjdtj/202202/t20220224_2699966.htm",
+      "occurrences": [
+        {
+          "chapter": 2,
+          "section_at_url": "2.5",
+          "baseline_line": 211,
+          "citation_text": "[2-2] 泉州市人民政府，〈洛阳桥〉，页面标示来源为“泉州：宋元中国的世界海洋商贸中心”，页面日期2017年8月7日，重点参见“总体价值特征”“历史沿革”“万安桥碑刻”。此处仅以官方材料说明桥梁研究可涉及交通、建造参与者和碑刻记述，不将其现代说明冒充宋代碑文全文。[官方资料页](https://www.quanzhou.gov.cn/lyb/lytj/rmjdtj/202202/t20220224_2699966.htm)。",
+          "citation_marker": "[2-2]",
+          "in_text_citations": [
+            {
+              "section": "2.1",
+              "baseline_line": 48
+            }
+          ],
+          "cited_sections": [
+            "2.1"
+          ],
+          "section_mapping_note": "section_at_url为URL实体位置；cited_sections按正文引注标记回溯，章末注不自动归入最后一节。"
+        },
+        {
+          "chapter": 5,
+          "section_at_url": "5.1",
+          "baseline_line": 16,
+          "citation_text": "第一轮只需四条来源。S01是UNESCO泉州遗产整体说明，提供生产、运输、商贸与区域联系的背景。S02与S03分别是市政府网站的安平桥、洛阳桥介绍，支持同项目比较。S04是关于安平桥的另一篇网页，保留与S02不同的成桥年代说法。四条来源各有任务，不以数量证明研究充分。[S01](https://whc.unesco.org/en/list/1561/)、[S02](https://www.quanzhou.gov.cn/lyb/lytj/rmjdtj/202202/t20220224_2699965.htm)、[S03](https://www.quanzhou.gov.cn/lyb/lytj/rmjdtj/202202/t20220224_2699966.htm)、[S04](https://www.quanzhou.gov.cn/lyb/qzzz/200407/t20040726_3123.htm)。"
+        },
+        {
+          "chapter": 5,
+          "section_at_url": "5.8",
+          "baseline_line": 153,
+          "citation_text": "> 两座古桥为理解泉州交通叙述提供了不同入口。整体遗产说明将交通设施与生产、商贸及区域联系一并呈现，市政府网站的两桥介绍又分别强调向北及内陆、南部沿海的联系。把这些表达并列，可以提出路线、节点与腹地怎样组织的历史问题，但现代介绍本身尚不足以回答通行规模或建桥的独立经济效果。[S01](https://whc.unesco.org/en/list/1561/)、[S02](https://www.quanzhou.gov.cn/lyb/lytj/rmjdtj/202202/t20220224_2699965.htm)、[S03](https://www.quanzhou.gov.cn/lyb/lytj/rmjdtj/202202/t20220224_2699966.htm)。"
+        }
+      ],
+      "claim_checked": "2017-08-07页面、北向和内陆交通、桥梁参与者/碑刻介绍与正文吻合；不是宋碑全文。",
+      "checked_location": "页首日期、总体价值特征、历史沿革与万安桥碑刻",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "仅核所列引用主张及相关段落，不代表作品全文或全部原始历史证据已核。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-24",
+      "url": "https://reference-global.com/article/10.1515/cdc-2015-0002?tab=abstract",
+      "occurrences": [
+        {
+          "chapter": 2,
+          "section_at_url": "2.5",
+          "baseline_line": 213,
+          "citation_text": "[2-3] Kenneth Dean，〈Ritual revolutions: Temple and Trust networks linking Putian and Southeast Asia〉，*Cultural Diversity in China*，2015，1(1)：8—26，DOI：10.1515/cdc-2015-0002。本章只用已核实的研究题目与对象作为反向检索示例，不据书目信息推断全文结论。[出版社条目](https://reference-global.com/article/10.1515/cdc-2015-0002?tab=abstract)；[厦门大学民间历史文献研究中心收录页](https://crlhd.xmu.edu.cn/info/1037/5098.htm)。",
+          "citation_marker": "[2-3]",
+          "in_text_citations": [
+            {
+              "section": "2.2",
+              "baseline_line": 70
+            }
+          ],
+          "cited_sections": [
+            "2.2"
+          ],
+          "section_mapping_note": "section_at_url为URL实体位置；cited_sections按正文引注标记回溯，章末注不自动归入最后一节。"
+        }
+      ],
+      "claim_checked": "Dean2015题名、作者、对象为兴化/莆田和东南亚寺庙/信任网络；支持反向检索例。",
+      "checked_location": "出版题录和作者摘要",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "仅核所列引用主张及相关段落，不代表作品全文或全部原始历史证据已核。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-25",
+      "url": "https://crlhd.xmu.edu.cn/info/1037/5098.htm",
+      "occurrences": [
+        {
+          "chapter": 2,
+          "section_at_url": "2.5",
+          "baseline_line": 213,
+          "citation_text": "[2-3] Kenneth Dean，〈Ritual revolutions: Temple and Trust networks linking Putian and Southeast Asia〉，*Cultural Diversity in China*，2015，1(1)：8—26，DOI：10.1515/cdc-2015-0002。本章只用已核实的研究题目与对象作为反向检索示例，不据书目信息推断全文结论。[出版社条目](https://reference-global.com/article/10.1515/cdc-2015-0002?tab=abstract)；[厦门大学民间历史文献研究中心收录页](https://crlhd.xmu.edu.cn/info/1037/5098.htm)。",
+          "citation_marker": "[2-3]",
+          "in_text_citations": [
+            {
+              "section": "2.2",
+              "baseline_line": 70
+            }
+          ],
+          "cited_sections": [
+            "2.2"
+          ],
+          "section_mapping_note": "section_at_url为URL实体位置；cited_sections按正文引注标记回溯，章末注不自动归入最后一节。"
+        },
+        {
+          "chapter": 4,
+          "section_at_url": "4.5",
+          "baseline_line": 195,
+          "citation_text": "[4-3] Kenneth Dean，〈Ritual revolutions: Temple and Trust networks linking Putian and Southeast Asia〉，*Cultural Diversity in China*，1(1)，2015：8—26，DOI：10.1515/cdc-2015-0002。研究对象与三类网络见第8页；女性仪式实践及其流动见第13—14页第2.1节；本章所据PDF收入英文论文及中文译文，两者为同一研究。此处没有独立取得作者相关田野记录，正文采用“作者说明”的层次。[出版社书目信息](https://www.degruyterbrill.com/document/doi/10.1515/cdc-2015-0002/html)；[厦门大学全文收录页及PDF入口](https://crlhd.xmu.edu.cn/info/1037/5098.htm)。",
+          "citation_marker": "[4-3]",
+          "in_text_citations": [
+            {
+              "section": "4.引言",
+              "baseline_line": 5
+            },
+            {
+              "section": "4.1",
+              "baseline_line": 29
+            },
+            {
+              "section": "4.2",
+              "baseline_line": 61
+            },
+            {
+              "section": "4.4",
+              "baseline_line": 129
+            },
+            {
+              "section": "4.5",
+              "baseline_line": 185
+            }
+          ],
+          "cited_sections": [
+            "4.引言",
+            "4.1",
+            "4.2",
+            "4.4",
+            "4.5"
+          ],
+          "section_mapping_note": "section_at_url为URL实体位置；cited_sections按正文引注标记回溯，章末注不自动归入最后一节。"
+        }
+      ],
+      "claim_checked": "题录与三类网络相合；海外女性仪式实践及2008回流莆田见作者原文；英文和中译同一研究。",
+      "checked_location": "XMU收录页、其PDF入口内英文页8、13—14之2.1",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "未取得作者原始田野记录。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-26",
+      "url": "https://assets.press.princeton.edu/chapters/i11180.pdf",
+      "occurrences": [
+        {
+          "chapter": 2,
+          "section_at_url": "2.5",
+          "baseline_line": 215,
+          "citation_text": "[2-4] Michael Szonyi，*The Art of Being Governed: Everyday Politics in Late Imperial China*，Princeton University Press，2017，导论，印刷页2及15—19。正文所用概括对应第2页的研究问题和第16页的制度史、地方史结合说明；第18—19页另述材料获取及地方语境中的对读，可供后续阅读。[出版社公开导论](https://assets.press.princeton.edu/chapters/i11180.pdf)。",
+          "citation_marker": "[2-4]",
+          "in_text_citations": [
+            {
+              "section": "2.3",
+              "baseline_line": 115
+            }
+          ],
+          "cited_sections": [
+            "2.3"
+          ],
+          "section_mapping_note": "section_at_url为URL实体位置；cited_sections按正文引注标记回溯，章末注不自动归入最后一节。"
+        },
+        {
+          "chapter": 4,
+          "section_at_url": "4.5",
+          "baseline_line": 197,
+          "citation_text": "[4-4] Michael Szonyi，*The Art of Being Governed: Everyday Politics in Late Imperial China*，Princeton University Press，2017。此次阅读对象为出版社公开导论，第1—21页；问题见第2页，制度史与地方史关系见第15—16页，乡村卫所选择及材料形成条件见第18—19页。导论的章节介绍不作为已经读过各章的证明。[出版社公开导论](https://assets.press.princeton.edu/chapters/i11180.pdf)；[作者哈佛大学书目与原始资料索引](https://szonyi.scholars.harvard.edu/ABGreferences)。",
+          "citation_marker": "[4-4]",
+          "in_text_citations": [
+            {
+              "section": "4.引言",
+              "baseline_line": 5
+            },
+            {
+              "section": "4.2",
+              "baseline_line": 63
+            },
+            {
+              "section": "4.5",
+              "baseline_line": 185
+            }
+          ],
+          "cited_sections": [
+            "4.引言",
+            "4.2",
+            "4.5"
+          ],
+          "section_mapping_note": "section_at_url为URL实体位置；cited_sections按正文引注标记回溯，章末注不自动归入最后一节。"
+        }
+      ],
+      "claim_checked": "问题意识、制度史与地方史结合、乡村卫所选择与田野材料条件见相应段；支持第2/4章概括。",
+      "checked_location": "公开导论页2、15—19",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "仅本次所引导论段，不等于全书各章已读。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-27",
+      "url": "https://www.historians.org/resource/guiding-principles-for-artificial-intelligence-in-history-education/",
+      "occurrences": [
+        {
+          "chapter": 2,
+          "section_at_url": "2.5",
+          "baseline_line": 217,
+          "citation_text": "[2-5] American Historical Association，〈Guiding Principles for Artificial Intelligence in History Education〉，2025年8月5日发布，2025年7月29日通过。参见第Ⅱ部分“Generative AI and Its Limitations”及第Ⅴ部分“The Value of Historical Expertise”。文件开头说明其范围为历史教学，研究与出版由另一个委员会处理。[专业团体原文](https://www.historians.org/resource/guiding-principles-for-artificial-intelligence-in-history-education/)。",
+          "citation_marker": "[2-5]",
+          "in_text_citations": [
+            {
+              "section": "2.5",
+              "baseline_line": 195
+            }
+          ],
+          "cited_sections": [
+            "2.5"
+          ],
+          "section_mapping_note": "section_at_url为URL实体位置；cited_sections按正文引注标记回溯，章末注不自动归入最后一节。"
+        }
+      ],
+      "claim_checked": "2025-08-05发布、07-29通过、历史教育范围和专业知识价值相符；不当研究出版总规范。",
+      "checked_location": "发布/通过日期、范围说明、第II及V部分",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "仅核所列引用主张及相关段落，不代表作品全文或全部原始历史证据已核。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-28",
+      "url": "https://press.uchicago.edu/ucp/books/book/chicago/C/bo215874008",
+      "occurrences": [
+        {
+          "chapter": 2,
+          "section_at_url": "2.5",
+          "baseline_line": 219,
+          "citation_text": "延伸阅读：Wayne C. Booth、Gregory G. Colomb、Joseph M. Williams、Joseph Bizup、William T. FitzGerald，*The Craft of Research*，第5版，University of Chicago Press，2024。出版社公开目录中的第1—2章讨论从主题到问题，第9章讨论回应不同意见，可与本章配合阅读。此处为书目推荐，没有将目录当作已阅读全文的证明。[出版社书目及目录](https://press.uchicago.edu/ucp/books/book/chicago/C/bo215874008)。"
+        }
+      ],
+      "claim_checked": "第5版2024、作者表、第1—2章问题形成及第9章回应意见与书目推荐一致。",
+      "checked_location": "出版社题录及目录",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "目录只支持推荐定位，不作全书已读证明。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-29",
+      "url": "https://journals.sagepub.com/doi/10.1177/0097700419899038",
+      "occurrences": [
+        {
+          "chapter": 3,
+          "section_at_url": "3.1",
+          "baseline_line": 27,
+          "citation_text": "旧式拼写应从真实题录中逐步补入，而不是让模型任意生产。下文所用 Qu 的参考文献中，既有以 Fujian 表述地区的研究，也有书名中的 Fukien，以及神名的 Pao-Sheng Ta-Ti 写法。这些是可记录的检索入口，但外文形式与中文名称的对应仍须回查该文献。一个名称在不同年代可能指向不同范围，检索词相通也不代表研究对象完全一致。[Qu 的出版页及参考文献](https://journals.sagepub.com/doi/10.1177/0097700419899038)"
+        },
+        {
+          "chapter": 3,
+          "section_at_url": "3.3",
+          "baseline_line": 124,
+          "citation_text": "本章核验了一条具体关系：S1 的公开参考文献列有 Ashiwa 与 Wank 的2006年论文 S2。随后以题名和作者检索，找到了 Cambridge Core 的出版记录，核对了期刊、卷期、页码与 DOI。这一过程可以记录为“S1 向后引出 S2，出版记录已核”。它没有证明 S1 接受 S2 的全部观点，也没有证明已经读到 S1 使用该文的具体段落。[S1 参考文献](https://journals.sagepub.com/doi/10.1177/0097700419899038)；[S2 原出版记录](https://www.cambridge.org/core/journals/journal-of-asian-studies/article/abs/politics-of-a-reviving-buddhist-temple-state-association-and-religion-in-southeast-china/D97B2DDAE0B0BAE676D7544F13EBD99F)"
+        },
+        {
+          "chapter": 3,
+          "section_at_url": "3.5",
+          "baseline_line": 240,
+          "citation_text": "1. Qu, Ray X. L. 2021. “Popular Religion Temples in Fujian, Southeast China: The Politics of State Intervention, 1990s–2010s.” *Modern China* 47(4): 441–471. 首次在线发表于2020年。[出版方记录](https://journals.sagepub.com/doi/10.1177/0097700419899038)。DOI：10.1177/0097700419899038。"
+        }
+      ],
+      "claim_checked": "S1正式卷期47(4)441—471、2021，网上2020-01-22；References确列Ashiwa/Wank2006与Fukien、Pao-Sheng Ta-Ti写法。",
+      "checked_location": "出版信息及公开References",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "未据参考文献表推断S1接受S2所有观点或读过引文所在全文段。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-30",
+      "url": "https://webofscience.zendesk.com/hc/en-us/articles/26916347018257-Web-of-Science-Core-Collection-Advanced-Search-Field-Tags",
+      "occurrences": [
+        {
+          "chapter": 3,
+          "section_at_url": "3.1",
+          "baseline_line": 50,
+          "citation_text": "Web of Science Core Collection 的官方说明中，TS 为主题检索，覆盖题名、摘要、作者关键词和 Keywords Plus；TI 为题名，AU 为作者。以下是依据该平台字段规则编写的待执行示例，本章未登录数据库运行，也不保证所有相关书籍和中文地方期刊都被该数据库收录。[官方字段说明](https://webofscience.zendesk.com/hc/en-us/articles/26916347018257-Web-of-Science-Core-Collection-Advanced-Search-Field-Tags)"
+        }
+      ],
+      "claim_checked": "TS覆盖题名摘要作者关键词Keywords Plus，TI/AU含义相符。",
+      "checked_location": "TS/TI/AU字段条目",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "平台示例未登录执行。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-31",
+      "url": "https://webofscience.zendesk.com/hc/en-us/articles/26916258216209-Web-of-Science-Core-Collection-Search-Fields",
+      "occurrences": [
+        {
+          "chapter": 3,
+          "section_at_url": "3.1",
+          "baseline_line": 59,
+          "citation_text": "第一式用于较宽发现，第二式用于观察题名中明确标出地区与对象的研究。星号在这里用于截词，不能照搬到不支持同类通配符的平台。引号和运算规则也应以当前帮助页为准。换到中文数据库时，先查看实际可选的篇名、主题、关键词、作者及全文字段，通过高级检索界面的条件行组合，不凭记忆把某个平台的字段代码移植过去。[官方检索字段与运算说明](https://webofscience.zendesk.com/hc/en-us/articles/26916258216209-Web-of-Science-Core-Collection-Search-Fields)"
+        }
+      ],
+      "claim_checked": "引号短语、*等通配符与AND/OR/NOT等运算符规则支持书中教学检索式。",
+      "checked_location": "Topic、Title、Author及wildcards/operators段",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "未把字段语法通用于所有中文数据库。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-32",
+      "url": "https://scholar.google.com/intl/en/scholar/help.html",
+      "occurrences": [
+        {
+          "chapter": 3,
+          "section_at_url": "3.1",
+          "baseline_line": 61,
+          "citation_text": "Google Scholar 的官方帮助支持以引号检索题名，也支持 author: 作者限定。因而可以分别试用下列检索入口；它们是可执行的教学示例，不表示本章已在 Scholar 上完成检索。[Google Scholar 检索帮助](https://scholar.google.com/intl/en/scholar/help.html)"
+        },
+        {
+          "chapter": 3,
+          "section_at_url": "3.3",
+          "baseline_line": 130,
+          "citation_text": "前向引用追踪，是寻找后来哪些文献引用了某一文献。它有助于发现修正、争论、新材料和跨地区应用。Google Scholar 提供 Cited by 入口；使用时应记下平台、日期、选定版本和实际检查范围。不同平台的收录与识别方式不同，同一文献的被引集合可能不一致。[Google Scholar 官方帮助](https://scholar.google.com/intl/en/scholar/help.html)"
+        }
+      ],
+      "claim_checked": "题名/作者检索及前向引用入口存在且用途相符。",
+      "checked_location": "题名引号、author:和Cited by帮助段",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "不等于2026-10-26原检索过程已重演。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-33",
+      "url": "https://support.google.com/websearch/answer/2466433?hl=en",
+      "occurrences": [
+        {
+          "chapter": 3,
+          "section_at_url": "3.1",
+          "baseline_line": 68,
+          "citation_text": "一般网页搜索可帮助定位出版页和机构保存本，但它与学术数据库不是同一个检索范围。例如 Google Search 支持下式中的 site: 域名限定。它有助于查找特定出版方记录，却会主动排除其他站点，所以只能作为核验入口，不能用来代表全部学术成果。[Google Search 运算符说明](https://support.google.com/websearch/answer/2466433?hl=en)"
+        }
+      ],
+      "claim_checked": "site:主动限定站点而非覆盖所有学术成果，书中操作定位相符。",
+      "checked_location": "site:域名限定说明",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "仅核所列引用主张及相关段落，不代表作品全文或全部原始历史证据已核。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-34",
+      "url": "https://uhpress.hawaii.edu/title/family-lineage-organization-and-social-change-in-ming-and-qing-fujian/",
+      "occurrences": [
+        {
+          "chapter": 3,
+          "section_at_url": "3.2",
+          "baseline_line": 104,
+          "citation_text": "S4 的夏威夷大学出版社记录明确区分 Zheng Zhenman 的作者身份和 Michael Szonyi 的译者身份，给出 ISBN 9780824823337。这样的信息看似只属于书目整理，实际上直接关系到学术史：误把译者当作者，会把研究的产生与传播混为一谈。[S4 出版方记录](https://uhpress.hawaii.edu/title/family-lineage-organization-and-social-change-in-ming-and-qing-fujian/)"
+        },
+        {
+          "chapter": 3,
+          "section_at_url": "3.5",
+          "baseline_line": 246,
+          "citation_text": "4. Zheng Zhenman. 2001. *Family Lineage Organization and Social Change in Ming and Qing Fujian*. Translated by Michael Szonyi. University of Hawai‘i Press。[出版方记录](https://uhpress.hawaii.edu/title/family-lineage-organization-and-social-change-in-ming-and-qing-fujian/)。ISBN：9780824823337。"
+        }
+      ],
+      "claim_checked": "Zheng作者、Szonyi译者、ISBN9780824823337及2001出版相合。",
+      "checked_location": "出版社作者/译者、书号和出版日期栏",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "仅核所列引用主张及相关段落，不代表作品全文或全部原始历史证据已核。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-35",
+      "url": "https://cup.cuhk.edu.hk/index.php?product_id=154&route=product%2Fproduct",
+      "occurrences": [
+        {
+          "chapter": 3,
+          "section_at_url": "3.2",
+          "baseline_line": 106,
+          "citation_text": "S5 的香港中文大学出版社记录提供书名、年份和 ISBN 9789629962333，简介提及宗族、传统和女性地位等议题。这使它成为地区入口，但不能仅凭简介概括每篇文章的结论，更不能假定整部论文集都以同一时期和同一材料为基础。[S5 出版方记录](https://cup.cuhk.edu.hk/index.php?product_id=154&route=product%2Fproduct)"
+        },
+        {
+          "chapter": 3,
+          "section_at_url": "3.5",
+          "baseline_line": 248,
+          "citation_text": "5. Tan Chee-Beng, ed. 2006. *Southern Fujian: Reproduction of Traditions in Post-Mao China*. The Chinese University of Hong Kong Press。[出版方记录](https://cup.cuhk.edu.hk/index.php?product_id=154&route=product%2Fproduct)。ISBN：9789629962333。"
+        }
+      ],
+      "claim_checked": "Tan编2006、ISBN9789629962333及宗族传统女性等主题相合。",
+      "checked_location": "出版社题录与简介",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "仅核所列引用主张及相关段落，不代表作品全文或全部原始历史证据已核。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-36",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/0097700419899038",
+      "occurrences": [
+        {
+          "chapter": 3,
+          "section_at_url": "3.2",
+          "baseline_line": 110,
+          "citation_text": "S1 是一个很适合练习的例子。出版页显示其正式卷期为《Modern China》2021 年第47卷第4期，第441—471页，而首次在线发表日期为2020年1月22日；题名中的1990s—2010s 则是研究涉及的时段。三个时间都可以保留，不能因为网页显示2020年，就再建立一篇不同于2021年卷期论文的新文献。[S1 出版信息](https://journals.sagepub.com/doi/abs/10.1177/0097700419899038)"
+        }
+      ],
+      "claim_checked": "2021卷期和2020首次在线为不同字段，支持正文区分；未据此重复建立作品。",
+      "checked_location": "S1摘要版出版记录",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "仅核所列引用主张及相关段落，不代表作品全文或全部原始历史证据已核。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-37",
+      "url": "https://www.tandfonline.com/doi/abs/10.2753/CSA0009-4625340328",
+      "occurrences": [
+        {
+          "chapter": 3,
+          "section_at_url": "3.2",
+          "baseline_line": 112,
+          "citation_text": "S3 的卷期年份为2002年，出版网站另列2014年的上线日期。若把网站上线日期当作文章最初发表年份，就可能错误地判断它比后来的讨论还晚。S2 也有2006年卷期与2007年平台上线日期的差异。第一轮检索应保留这些原始信息，再根据所引版本确定参考文献年份。[S3 出版信息](https://www.tandfonline.com/doi/abs/10.2753/CSA0009-4625340328)；[S2 出版信息](https://www.cambridge.org/core/journals/journal-of-asian-studies/article/abs/politics-of-a-reviving-buddhist-temple-state-association-and-religion-in-southeast-china/D97B2DDAE0B0BAE676D7544F13EBD99F)"
+        },
+        {
+          "chapter": 3,
+          "section_at_url": "3.5",
+          "baseline_line": 244,
+          "citation_text": "3. Zhang Xiaojun. 2002. “Ancestral Hall and Buddhist Gongde Temple: A Study of Fenglin Ancestral Hall and Kaiyuan Temple in Fujian Province.” *Chinese Sociology & Anthropology* 34(3): 28–48。[出版方记录](https://www.tandfonline.com/doi/abs/10.2753/CSA0009-4625340328)。DOI：10.2753/CSA0009-4625340328。"
+        }
+      ],
+      "claim_checked": "T&F原URL返回403，全文/原页面未取得；此前出版方索引结果可见2002卷期、2014上线和题名摘要。",
+      "checked_location": "S3出版页访问",
+      "status": "访问阻塞",
+      "status_code": "ACCESS_BLOCKED",
+      "limitations": "只能记录索引可见题录支持，不能标该原页面/全文已核。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-38",
+      "url": "https://www.cambridge.org/core/journals/journal-of-asian-studies/article/abs/politics-of-a-reviving-buddhist-temple-state-association-and-religion-in-southeast-china/D97B2DDAE0B0BAE676D7544F13EBD99F",
+      "occurrences": [
+        {
+          "chapter": 3,
+          "section_at_url": "3.2",
+          "baseline_line": 112,
+          "citation_text": "S3 的卷期年份为2002年，出版网站另列2014年的上线日期。若把网站上线日期当作文章最初发表年份，就可能错误地判断它比后来的讨论还晚。S2 也有2006年卷期与2007年平台上线日期的差异。第一轮检索应保留这些原始信息，再根据所引版本确定参考文献年份。[S3 出版信息](https://www.tandfonline.com/doi/abs/10.2753/CSA0009-4625340328)；[S2 出版信息](https://www.cambridge.org/core/journals/journal-of-asian-studies/article/abs/politics-of-a-reviving-buddhist-temple-state-association-and-religion-in-southeast-china/D97B2DDAE0B0BAE676D7544F13EBD99F)"
+        },
+        {
+          "chapter": 3,
+          "section_at_url": "3.3",
+          "baseline_line": 124,
+          "citation_text": "本章核验了一条具体关系：S1 的公开参考文献列有 Ashiwa 与 Wank 的2006年论文 S2。随后以题名和作者检索，找到了 Cambridge Core 的出版记录，核对了期刊、卷期、页码与 DOI。这一过程可以记录为“S1 向后引出 S2，出版记录已核”。它没有证明 S1 接受 S2 的全部观点，也没有证明已经读到 S1 使用该文的具体段落。[S1 参考文献](https://journals.sagepub.com/doi/10.1177/0097700419899038)；[S2 原出版记录](https://www.cambridge.org/core/journals/journal-of-asian-studies/article/abs/politics-of-a-reviving-buddhist-temple-state-association-and-religion-in-southeast-china/D97B2DDAE0B0BAE676D7544F13EBD99F)"
+        },
+        {
+          "chapter": 3,
+          "section_at_url": "3.5",
+          "baseline_line": 242,
+          "citation_text": "2. Ashiwa, Yoshiko, and David L. Wank. 2006. “The Politics of a Reviving Buddhist Temple: State, Association, and Religion in Southeast China.” *The Journal of Asian Studies* 65(2): 337–359。[出版方记录](https://www.cambridge.org/core/journals/journal-of-asian-studies/article/abs/politics-of-a-reviving-buddhist-temple-state-association-and-religion-in-southeast-china/D97B2DDAE0B0BAE676D7544F13EBD99F)。DOI：10.1017/S0021911806000684。"
+        }
+      ],
+      "claim_checked": "2006卷期65(2)337—359、2007-03-02上线和DOI均与正文相符。",
+      "checked_location": "S2出版记录日期、卷期、页码和DOI",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "仅核所列引用主张及相关段落，不代表作品全文或全部原始历史证据已核。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-39",
+      "url": "https://cs.uwaterloo.ca/~Brecht/courses/856/readings/how-to-read/keshav-paper-reading.pdf",
+      "occurrences": [
+        {
+          "chapter": 4,
+          "section_at_url": "4.5",
+          "baseline_line": 191,
+          "citation_text": "[4-1] S. Keshav，〈How to Read a Paper〉，*ACM SIGCOMM Computer Communication Review*，37(3)，2007：83—84。参见第2节，尤其2.3。此处据2007年刊本，不混用后来的修订稿；本章的历史学任务与五元组均为适配设计。[滑铁卢大学保存的原文](https://cs.uwaterloo.ca/~Brecht/courses/856/readings/how-to-read/keshav-paper-reading.pdf)。",
+          "citation_marker": "[4-1]",
+          "in_text_citations": [
+            {
+              "section": "4.1",
+              "baseline_line": 11
+            }
+          ],
+          "cited_sections": [
+            "4.1"
+          ],
+          "section_mapping_note": "section_at_url为URL实体位置；cited_sections按正文引注标记回溯，章末注不自动归入最后一节。"
+        }
+      ],
+      "claim_checked": "三遍阅读和第三遍方法可作为教学启发；正文五元组明确是史学适配，不是五C原译。",
+      "checked_location": "2007刊本页83—84第2节，尤其2.3",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "仅核所列引用主张及相关段落，不代表作品全文或全部原始历史证据已核。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-40",
+      "url": "https://www1.ihp.sinica.edu.tw/en/Publications/AsiaMajor/641/Article/84",
+      "occurrences": [
+        {
+          "chapter": 4,
+          "section_at_url": "4.5",
+          "baseline_line": 193,
+          "citation_text": "[4-2] Hugh Clark，〈The Religious Culture of Southern Fujian, 750–1450: Preliminary Reflections on Contacts across a Maritime Frontier〉，*Asia Major*，第三辑19(1)，2006：211—240。研究问题见第211页，材料处理实例见第223页及注27，海疆解释见第232—240页。本章仅转述注27对年代不确定性的说明，未独立校定原碑年代。[期刊官方书目页](https://www1.ihp.sinica.edu.tw/en/Publications/AsiaMajor/641/Article/84)；[官方全文](https://www1.ihp.sinica.edu.tw/storage/w2_file/1442MqyEEuM.pdf)。",
+          "citation_marker": "[4-2]",
+          "in_text_citations": [
+            {
+              "section": "4.引言",
+              "baseline_line": 5
+            },
+            {
+              "section": "4.1",
+              "baseline_line": 39
+            },
+            {
+              "section": "4.2",
+              "baseline_line": 59
+            },
+            {
+              "section": "4.4",
+              "baseline_line": 129
+            },
+            {
+              "section": "4.5",
+              "baseline_line": 185
+            }
+          ],
+          "cited_sections": [
+            "4.引言",
+            "4.1",
+            "4.2",
+            "4.4",
+            "4.5"
+          ],
+          "section_mapping_note": "section_at_url为URL实体位置；cited_sections按正文引注标记回溯，章末注不自动归入最后一节。"
+        }
+      ],
+      "claim_checked": "Hugh Clark、Asia Major19.1、2006、211—240元数据相符。",
+      "checked_location": "官方条目题名、作者、页码、Date",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "仅核所列引用主张及相关段落，不代表作品全文或全部原始历史证据已核。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-41",
+      "url": "https://www1.ihp.sinica.edu.tw/storage/w2_file/1442MqyEEuM.pdf",
+      "occurrences": [
+        {
+          "chapter": 4,
+          "section_at_url": "4.5",
+          "baseline_line": 193,
+          "citation_text": "[4-2] Hugh Clark，〈The Religious Culture of Southern Fujian, 750–1450: Preliminary Reflections on Contacts across a Maritime Frontier〉，*Asia Major*，第三辑19(1)，2006：211—240。研究问题见第211页，材料处理实例见第223页及注27，海疆解释见第232—240页。本章仅转述注27对年代不确定性的说明，未独立校定原碑年代。[期刊官方书目页](https://www1.ihp.sinica.edu.tw/en/Publications/AsiaMajor/641/Article/84)；[官方全文](https://www1.ihp.sinica.edu.tw/storage/w2_file/1442MqyEEuM.pdf)。",
+          "citation_marker": "[4-2]",
+          "in_text_citations": [
+            {
+              "section": "4.引言",
+              "baseline_line": 5
+            },
+            {
+              "section": "4.1",
+              "baseline_line": 39
+            },
+            {
+              "section": "4.2",
+              "baseline_line": 59
+            },
+            {
+              "section": "4.4",
+              "baseline_line": 129
+            },
+            {
+              "section": "4.5",
+              "baseline_line": 185
+            }
+          ],
+          "cited_sections": [
+            "4.引言",
+            "4.1",
+            "4.2",
+            "4.4",
+            "4.5"
+          ],
+          "section_mapping_note": "section_at_url为URL实体位置；cited_sections按正文引注标记回溯，章末注不自动归入最后一节。"
+        }
+      ],
+      "claim_checked": "研究问题、注27的年代暂定性及海疆选择性吸收解释均有原文依据；这是对Clark论证的转述核对，未独立裁定碑刻年代或外来宗教史实。",
+      "checked_location": "原刊页211、223注27；232—240海疆作为膜的讨论，尤其235页筛选功能、237页伊斯兰教例、239—240页图像吸收与结论",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "核对作者实际主张及其初步探索限定；未独立核验所据碑刻、地方志、图像年代及其他被引研究。",
+      "checked_date": "2026-10-30",
+      "followup_evidence": "官方PDF原文：p232起海疆膜模型，p235说明仅特定影响穿过，p237讨论穆斯林社群的文化边缘性，p239—240区分外来宗教与被吸收的图像，并在结论重申初步探索性质。"
+    },
+    {
+      "id": "S015-42",
+      "url": "https://www.degruyterbrill.com/document/doi/10.1515/cdc-2015-0002/html",
+      "occurrences": [
+        {
+          "chapter": 4,
+          "section_at_url": "4.5",
+          "baseline_line": 195,
+          "citation_text": "[4-3] Kenneth Dean，〈Ritual revolutions: Temple and Trust networks linking Putian and Southeast Asia〉，*Cultural Diversity in China*，1(1)，2015：8—26，DOI：10.1515/cdc-2015-0002。研究对象与三类网络见第8页；女性仪式实践及其流动见第13—14页第2.1节；本章所据PDF收入英文论文及中文译文，两者为同一研究。此处没有独立取得作者相关田野记录，正文采用“作者说明”的层次。[出版社书目信息](https://www.degruyterbrill.com/document/doi/10.1515/cdc-2015-0002/html)；[厦门大学全文收录页及PDF入口](https://crlhd.xmu.edu.cn/info/1037/5098.htm)。",
+          "citation_marker": "[4-3]",
+          "in_text_citations": [
+            {
+              "section": "4.引言",
+              "baseline_line": 5
+            },
+            {
+              "section": "4.1",
+              "baseline_line": 29
+            },
+            {
+              "section": "4.2",
+              "baseline_line": 61
+            },
+            {
+              "section": "4.4",
+              "baseline_line": 129
+            },
+            {
+              "section": "4.5",
+              "baseline_line": 185
+            }
+          ],
+          "cited_sections": [
+            "4.引言",
+            "4.1",
+            "4.2",
+            "4.4",
+            "4.5"
+          ],
+          "section_mapping_note": "section_at_url为URL实体位置；cited_sections按正文引注标记回溯，章末注不自动归入最后一节。"
+        }
+      ],
+      "claim_checked": "原URL返回405，不能标该页面原文已读。",
+      "checked_location": "出版社HTML访问",
+      "status": "访问阻塞",
+      "status_code": "ACCESS_BLOCKED",
+      "limitations": "同DOI题录由ReferenceGlobal，具体论述由XMU原论文PDF支持。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-43",
+      "url": "https://szonyi.scholars.harvard.edu/ABGreferences",
+      "occurrences": [
+        {
+          "chapter": 4,
+          "section_at_url": "4.5",
+          "baseline_line": 197,
+          "citation_text": "[4-4] Michael Szonyi，*The Art of Being Governed: Everyday Politics in Late Imperial China*，Princeton University Press，2017。此次阅读对象为出版社公开导论，第1—21页；问题见第2页，制度史与地方史关系见第15—16页，乡村卫所选择及材料形成条件见第18—19页。导论的章节介绍不作为已经读过各章的证明。[出版社公开导论](https://assets.press.princeton.edu/chapters/i11180.pdf)；[作者哈佛大学书目与原始资料索引](https://szonyi.scholars.harvard.edu/ABGreferences)。",
+          "citation_marker": "[4-4]",
+          "in_text_citations": [
+            {
+              "section": "4.引言",
+              "baseline_line": 5
+            },
+            {
+              "section": "4.2",
+              "baseline_line": 63
+            },
+            {
+              "section": "4.5",
+              "baseline_line": 185
+            }
+          ],
+          "cited_sections": [
+            "4.引言",
+            "4.2",
+            "4.5"
+          ],
+          "section_mapping_note": "section_at_url为URL实体位置；cited_sections按正文引注标记回溯，章末注不自动归入最后一节。"
+        }
+      ],
+      "claim_checked": "2017年11月出版与原始资料索引性质相符。",
+      "checked_location": "作者书目页开头与Original sources索引",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "未打开索引下全部原档。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-44",
+      "url": "https://whc.unesco.org/en/list/1561/",
+      "occurrences": [
+        {
+          "chapter": 5,
+          "section_at_url": "5.1",
+          "baseline_line": 16,
+          "citation_text": "第一轮只需四条来源。S01是UNESCO泉州遗产整体说明，提供生产、运输、商贸与区域联系的背景。S02与S03分别是市政府网站的安平桥、洛阳桥介绍，支持同项目比较。S04是关于安平桥的另一篇网页，保留与S02不同的成桥年代说法。四条来源各有任务，不以数量证明研究充分。[S01](https://whc.unesco.org/en/list/1561/)、[S02](https://www.quanzhou.gov.cn/lyb/lytj/rmjdtj/202202/t20220224_2699965.htm)、[S03](https://www.quanzhou.gov.cn/lyb/lytj/rmjdtj/202202/t20220224_2699966.htm)、[S04](https://www.quanzhou.gov.cn/lyb/qzzz/200407/t20040726_3123.htm)。"
+        },
+        {
+          "chapter": 5,
+          "section_at_url": "5.8",
+          "baseline_line": 153,
+          "citation_text": "> 两座古桥为理解泉州交通叙述提供了不同入口。整体遗产说明将交通设施与生产、商贸及区域联系一并呈现，市政府网站的两桥介绍又分别强调向北及内陆、南部沿海的联系。把这些表达并列，可以提出路线、节点与腹地怎样组织的历史问题，但现代介绍本身尚不足以回答通行规模或建桥的独立经济效果。[S01](https://whc.unesco.org/en/list/1561/)、[S02](https://www.quanzhou.gov.cn/lyb/lytj/rmjdtj/202202/t20220224_2699965.htm)、[S03](https://www.quanzhou.gov.cn/lyb/lytj/rmjdtj/202202/t20220224_2699966.htm)。"
+        }
+      ],
+      "claim_checked": "生产、运输、商业与区域联系的整体背景相符，不把遗产说明当具体流量数据。",
+      "checked_location": "遗产Description",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "仅核所列引用主张及相关段落，不代表作品全文或全部原始历史证据已核。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-45",
+      "url": "https://www.quanzhou.gov.cn/lyb/lytj/rmjdtj/202202/t20220224_2699965.htm",
+      "occurrences": [
+        {
+          "chapter": 5,
+          "section_at_url": "5.1",
+          "baseline_line": 16,
+          "citation_text": "第一轮只需四条来源。S01是UNESCO泉州遗产整体说明，提供生产、运输、商贸与区域联系的背景。S02与S03分别是市政府网站的安平桥、洛阳桥介绍，支持同项目比较。S04是关于安平桥的另一篇网页，保留与S02不同的成桥年代说法。四条来源各有任务，不以数量证明研究充分。[S01](https://whc.unesco.org/en/list/1561/)、[S02](https://www.quanzhou.gov.cn/lyb/lytj/rmjdtj/202202/t20220224_2699965.htm)、[S03](https://www.quanzhou.gov.cn/lyb/lytj/rmjdtj/202202/t20220224_2699966.htm)、[S04](https://www.quanzhou.gov.cn/lyb/qzzz/200407/t20040726_3123.htm)。"
+        },
+        {
+          "chapter": 5,
+          "section_at_url": "5.8",
+          "baseline_line": 153,
+          "citation_text": "> 两座古桥为理解泉州交通叙述提供了不同入口。整体遗产说明将交通设施与生产、商贸及区域联系一并呈现，市政府网站的两桥介绍又分别强调向北及内陆、南部沿海的联系。把这些表达并列，可以提出路线、节点与腹地怎样组织的历史问题，但现代介绍本身尚不足以回答通行规模或建桥的独立经济效果。[S01](https://whc.unesco.org/en/list/1561/)、[S02](https://www.quanzhou.gov.cn/lyb/lytj/rmjdtj/202202/t20220224_2699965.htm)、[S03](https://www.quanzhou.gov.cn/lyb/lytj/rmjdtj/202202/t20220224_2699966.htm)。"
+        }
+      ],
+      "claim_checked": "2020-04-28、南部沿海联系和1138—1152建桥表述相符。",
+      "checked_location": "页首日期、总体价值特征及历史沿革",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "现代市政府后编说明。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-46",
+      "url": "https://www.quanzhou.gov.cn/lyb/qzzz/200407/t20040726_3123.htm",
+      "occurrences": [
+        {
+          "chapter": 5,
+          "section_at_url": "5.1",
+          "baseline_line": 16,
+          "citation_text": "第一轮只需四条来源。S01是UNESCO泉州遗产整体说明，提供生产、运输、商贸与区域联系的背景。S02与S03分别是市政府网站的安平桥、洛阳桥介绍，支持同项目比较。S04是关于安平桥的另一篇网页，保留与S02不同的成桥年代说法。四条来源各有任务，不以数量证明研究充分。[S01](https://whc.unesco.org/en/list/1561/)、[S02](https://www.quanzhou.gov.cn/lyb/lytj/rmjdtj/202202/t20220224_2699965.htm)、[S03](https://www.quanzhou.gov.cn/lyb/lytj/rmjdtj/202202/t20220224_2699966.htm)、[S04](https://www.quanzhou.gov.cn/lyb/qzzz/200407/t20040726_3123.htm)。"
+        },
+        {
+          "chapter": 5,
+          "section_at_url": "5.8",
+          "baseline_line": 155,
+          "citation_text": "> 年代差异进一步说明了材料辨析的必要。S02与S04关于安平桥成桥时间的表述不同，其中S04转引府志，却未给出足以定位原典的版本与卷页。当前札记因此保留差异，不选定建成年。下一步应先找到原段并辨认所述事件，再判断分歧是否涉及不同工程阶段、文本传承或纪年处理。未经查证的候选解释不写成已经确定的原因。[S04](https://www.quanzhou.gov.cn/lyb/qzzz/200407/t20040726_3123.htm)。"
+        }
+      ],
+      "claim_checked": "该页确写1138—1151且不列原典版本卷页；正文保留与1152差异合理。",
+      "checked_location": "页首2004-07-26、转引泉州府志段",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "未取得所引府志原段，不裁定完工年。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-47",
+      "url": "https://obsidian.md/help/data-storage",
+      "occurrences": [
+        {
+          "chapter": 5,
+          "section_at_url": "5.2",
+          "baseline_line": 36,
+          "citation_text": "原稿采用的Obsidian文档说明其笔记可存为本地Markdown文件；Zotero文档说明一条文献可进入多个集合而不等于复制多份原件。这里保留这些功能作为选型例子，不据此保证所有附件、插件结果和特殊格式都能原样迁移，实际功能须以所用版本为准。[Obsidian存储说明](https://obsidian.md/help/data-storage)、[Zotero集合与标签](https://www.zotero.org/support/collections_and_tags)。"
+        }
+      ],
+      "claim_checked": "本地Markdown存储支持选型示例，不保证所有插件/附件完全迁移。",
+      "checked_location": "官方数据存储说明",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "仅核所列引用主张及相关段落，不代表作品全文或全部原始历史证据已核。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-48",
+      "url": "https://www.zotero.org/support/collections_and_tags",
+      "occurrences": [
+        {
+          "chapter": 5,
+          "section_at_url": "5.2",
+          "baseline_line": 36,
+          "citation_text": "原稿采用的Obsidian文档说明其笔记可存为本地Markdown文件；Zotero文档说明一条文献可进入多个集合而不等于复制多份原件。这里保留这些功能作为选型例子，不据此保证所有附件、插件结果和特殊格式都能原样迁移，实际功能须以所用版本为准。[Obsidian存储说明](https://obsidian.md/help/data-storage)、[Zotero集合与标签](https://www.zotero.org/support/collections_and_tags)。"
+        }
+      ],
+      "claim_checked": "同一条文献可属于多个集合，不是多份实体文献。",
+      "checked_location": "官方Collections说明",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "仅核所列引用主张及相关段落，不代表作品全文或全部原始历史证据已核。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-49",
+      "url": "https://obsidian.md/help/plugins/backlinks",
+      "occurrences": [
+        {
+          "chapter": 5,
+          "section_at_url": "5.6",
+          "baseline_line": 101,
+          "citation_text": "双向链接使读者既能由问题找到来源，也能由来源看到它影响了哪些判断。N02连到S02、S04，来源卡再列出N02和后续写作位置，网页内容改变时就能知道哪些段落需要重新处理。工具可自动显示反向链接，也可在小课题中手工登记；这种功能首先改善导航，不证明两条笔记内容相互支持。[反向链接说明](https://obsidian.md/help/plugins/backlinks)。"
+        }
+      ],
+      "claim_checked": "反向链接用于显示哪些笔记链接当前笔记，支持导航用途而非内容互证。",
+      "checked_location": "官方Backlinks说明",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "仅核所列引用主张及相关段落，不代表作品全文或全部原始历史证据已核。",
+      "checked_date": "2026-10-30"
+    },
+    {
+      "id": "S015-50",
+      "url": "https://obsidian.md/help/Plugins/Graph%2Bview",
+      "occurrences": [
+        {
+          "chapter": 5,
+          "section_at_url": "5.6",
+          "baseline_line": 116,
+          "citation_text": "图中的节点大小也常反映笔记组织而不是历史重要性。原稿引用的Obsidian图谱说明以笔记及其内部链接组成节点和线，引用关系会影响显示；整理者为一座桥写十篇笔记、另一座只写一篇，就可能产生明显视觉差异。这不能说明前者的历史作用大十倍。[图谱视图说明](https://obsidian.md/help/Plugins/Graph%2Bview)。阅读图谱时，应先问图像由哪些组织动作产生，再问它是否有助于发现材料缺口。"
+        }
+      ],
+      "claim_checked": "笔记为节点、内部链接为连线，连结数影响图像组织；不代表历史重要性。",
+      "checked_location": "官方Graph view定义与显示设置",
+      "status": "已核相关段落",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "limitations": "仅核所列引用主张及相关段落，不代表作品全文或全部原始历史证据已核。",
+      "checked_date": "2026-10-30"
+    }
+  ],
+  "termination_note": "每个正文引用URL均有支持/不支持/阻塞/未核之一的明确结论；本表无未核项。已核不等于整部作品全文阅读。"
+}

@@ -1,0 +1,37 @@
+{
+  "execution": "reader_invoked",
+  "input_provenance": "编者新编教学数据 非史实 非模型输出",
+  "section": "7.2",
+  "result": {
+    "selected": [
+      {
+        "id": "E01",
+        "source_id": "S01",
+        "page": "p1",
+        "entity": "甲书院",
+        "text": "甲书院于某年停讲，次年复课。",
+        "event": "停讲",
+        "year_start": 1901,
+        "year_end": 1901,
+        "date_status": "教学设定"
+      }
+    ],
+    "mapping": [
+      {
+        "id": "E01",
+        "included": true,
+        "reason": "event matches"
+      },
+      {
+        "id": "E02",
+        "included": false,
+        "reason": "different event state"
+      },
+      {
+        "id": "E03",
+        "included": false,
+        "reason": "different event state"
+      }
+    ]
+  }
+}

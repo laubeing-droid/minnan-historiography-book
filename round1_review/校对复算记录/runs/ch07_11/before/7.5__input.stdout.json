@@ -1,0 +1,46 @@
+{
+  "execution": "reader_invoked",
+  "input_provenance": "编者新编教学数据 非史实 非模型输出",
+  "section": "7.5",
+  "result": [
+    {
+      "id": "L01",
+      "language": "中文",
+      "script": "汉字",
+      "genre": "地方志",
+      "available": 12,
+      "readable": 10,
+      "evaluated": 6,
+      "correct": 5,
+      "readable_fraction": 0.8333333333333334,
+      "evaluation_coverage": 0.5,
+      "accuracy": 0.8333333333333334
+    },
+    {
+      "id": "L02",
+      "language": "日文",
+      "script": "汉字假名",
+      "genre": "调查报告",
+      "available": 6,
+      "readable": 4,
+      "evaluated": 3,
+      "correct": 1,
+      "readable_fraction": 0.6666666666666666,
+      "evaluation_coverage": 0.5,
+      "accuracy": 0.3333333333333333
+    },
+    {
+      "id": "L03",
+      "language": "英文",
+      "script": "拉丁字母",
+      "genre": "游记",
+      "available": 4,
+      "readable": 4,
+      "evaluated": 2,
+      "correct": 1,
+      "readable_fraction": 1.0,
+      "evaluation_coverage": 0.5,
+      "accuracy": 0.5
+    }
+  ]
+}

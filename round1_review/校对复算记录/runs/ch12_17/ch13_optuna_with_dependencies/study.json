@@ -1,0 +1,82 @@
+{
+  "status": "EXECUTED_BY_READER",
+  "optuna_version": "5.0.0",
+  "python": "3.12.14",
+  "seed": 139,
+  "budget": 8,
+  "trials": [
+    {
+      "number": 0,
+      "params": {
+        "candidate": "C3"
+      },
+      "state": "COMPLETE",
+      "value": 1.6111111111111114
+    },
+    {
+      "number": 1,
+      "params": {
+        "candidate": "C4"
+      },
+      "state": "COMPLETE",
+      "value": 1.654163029335115
+    },
+    {
+      "number": 2,
+      "params": {
+        "candidate": "C4"
+      },
+      "state": "COMPLETE",
+      "value": 1.654163029335115
+    },
+    {
+      "number": 3,
+      "params": {
+        "candidate": "C1"
+      },
+      "state": "COMPLETE",
+      "value": 1.0
+    },
+    {
+      "number": 4,
+      "params": {
+        "candidate": "C6"
+      },
+      "state": "COMPLETE",
+      "value": 1.7000248598452696
+    },
+    {
+      "number": 5,
+      "params": {
+        "candidate": "C5"
+      },
+      "state": "COMPLETE",
+      "value": 1.6666666666666667
+    },
+    {
+      "number": 6,
+      "params": {
+        "candidate": "C0"
+      },
+      "state": "COMPLETE",
+      "value": 1.5
+    },
+    {
+      "number": 7,
+      "params": {
+        "candidate": "C6"
+      },
+      "state": "COMPLETE",
+      "value": 1.7000248598452696
+    }
+  ],
+  "selected": {
+    "number": 3,
+    "params": {
+      "candidate": "C1"
+    },
+    "state": "COMPLETE",
+    "value": 1.0
+  },
+  "test_status": "NOT_EVALUATED"
+}

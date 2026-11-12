@@ -1,0 +1,3106 @@
+{
+  "scope": "第6—8章全部原引用URL，按完整URL去重",
+  "url_count": 84,
+  "status_counts": {
+    "CHECKED_SUPPORTS_CITED_CLAIM": 83,
+    "ACCESS_BLOCKED": 1
+  },
+  "ledger": [
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview",
+      "checks": [
+        {
+          "id": "S06-01",
+          "sections": [
+            "6.1"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "Classic RAG／Content preparation and ingestion",
+          "claim_checked": "经典流程先取材料，再交生成模型；切块和向量化属于资料准备。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.1",
+          "baseline_line": 54,
+          "citation_text": "[1] Microsoft Learn，*Retrieval-augmented generation (RAG) in Azure AI Search*，“Classic RAG pattern”及资料准备相关段落。https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview 。",
+          "section_id": "6.1"
+        }
+      ],
+      "id": "S0608-001",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm",
+      "checks": [
+        {
+          "id": "S06-02",
+          "sections": [
+            "6.1",
+            "6.2",
+            "6.3",
+            "6.4",
+            "6.5",
+            "6.6",
+            "6.7",
+            "6.8"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "开头、第一部分第二段、表2-1、表2-2及注1—3",
+          "claim_checked": "2020统计时点、2021发布日期及初步汇总边界；泉州人数8782285、增量653755、份额22.03至21.14、女性47.78、性别比109.31及不含金门马祖相符。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组B（原通读核查，父校对员据记录汇编）",
+          "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+          "evidence_record": "coverage_ch06_08.json/source_checks",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.1",
+          "baseline_line": 56,
+          "citation_text": "[2] 福建省统计局、福建省第七次全国人口普查领导小组办公室，《福建省第七次全国人口普查公报（第二号）——地区人口情况》，2021年5月20日，正文开头、“一、地区常住人口”、表2-1及注[1]—[3]。官方网页：https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm 。年鉴收录PDF：https://tjj.fujian.gov.cn/tongjinianjian/rk2020/html/fu0202.pdf ，表2-1及人口增加段在PDF第1页，印刷页2887。",
+          "section_id": "6.1"
+        },
+        {
+          "chapter": 6,
+          "section": "6.2",
+          "baseline_line": 107,
+          "citation_text": "[2] 福建省统计局、福建省第七次全国人口普查领导小组办公室，《福建省第七次全国人口普查公报（第二号）——地区人口情况》，2021年5月20日。官方网页：https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm 。年鉴所收公报PDF：https://tjj.fujian.gov.cn/tongjinianjian/rk2020/html/fu0202.pdf 。本节使用表2-1及注[1]—[3]；表格在PDF第1页，相关注释在第3—4页，印刷页码2887、2889—2890。核读日期：2026年10月24日。",
+          "section_id": "6.2"
+        },
+        {
+          "chapter": 6,
+          "section": "6.3",
+          "baseline_line": 153,
+          "citation_text": "[3] 福建省统计局、福建省第七次全国人口普查领导小组办公室，《福建省第七次全国人口普查公报（第二号）——地区人口情况》，2021年5月20日，正文开头、“一、地区常住人口”第二段、表2-1及“二、性别构成”表2-2。https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm 。",
+          "section_id": "6.3"
+        },
+        {
+          "chapter": 6,
+          "section": "6.4",
+          "baseline_line": 261,
+          "citation_text": "[2] 福建省统计局、福建省第七次全国人口普查领导小组办公室，《福建省第七次全国人口普查公报（第二号）——地区人口情况》，2021年5月20日，“一、地区常住人口”第二段、表2-1泉州行、表2-2泉州行及注[1]—[3]。https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm 。",
+          "section_id": "6.4"
+        },
+        {
+          "chapter": 6,
+          "section": "6.5",
+          "baseline_line": 356,
+          "citation_text": "[1] 福建省统计局、福建省第七次全国人口普查领导小组办公室，《福建省第七次全国人口普查公报（第二号）——地区人口情况》，2021年5月20日，表2-1、人口增加段、表2-2及注[1]—[3]。https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm 。",
+          "section_id": "6.5"
+        },
+        {
+          "chapter": 6,
+          "section": "6.6",
+          "baseline_line": 454,
+          "citation_text": "[2] 福建省统计局、福建省第七次全国人口普查领导小组办公室，《福建省第七次全国人口普查公报（第二号）——地区人口情况》，2021年5月20日，开头、第一部分第二段、表2-1、表2-2及注[1]—[3]。https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm 。",
+          "section_id": "6.6"
+        },
+        {
+          "chapter": 6,
+          "section": "6.7",
+          "baseline_line": 510,
+          "citation_text": "这段回答把公报直接记载的增量与据表计算的百分点差分开了。首句的两个判断分别由D1、D2支持，后面再给出精确位置。来源S1链接到[福建省统计局原公报](https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm)，读者沿编号便可找到表或段落。两版拟答的差别落在可见的文字上：补齐时间与数值，把笼统出处拆成具体定位。原问题已得到回答，就在这里结束。",
+          "section_id": "6.7"
+        },
+        {
+          "chapter": 6,
+          "section": "6.7",
+          "baseline_line": 532,
+          "citation_text": "[1] 福建省统计局、福建省第七次全国人口普查领导小组办公室，《福建省第七次全国人口普查公报（第二号）——地区人口情况》，2021年5月20日，开头、“一、地区常住人口”第二段、表2-1及注[1]—[3]。https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm 。",
+          "section_id": "6.7"
+        },
+        {
+          "chapter": 6,
+          "section": "6.8",
+          "baseline_line": 611,
+          "citation_text": "[1] 福建省统计局、福建省第七次全国人口普查领导小组办公室，《福建省第七次全国人口普查公报（第二号）——地区人口情况》，2021年5月20日，开头、第一部分第二段、表2-1泉州行、表2-2泉州行及注[1]—[3]。https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm 。",
+          "section_id": "6.8"
+        }
+      ],
+      "id": "S0608-002",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://tjj.fujian.gov.cn/tongjinianjian/rk2020/html/fu0202.pdf",
+      "checks": [
+        {
+          "id": "S06-03",
+          "sections": [
+            "6.1",
+            "6.2"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "PDF第1—4页（印刷2887—2890），表2-1／2-2及注1—3",
+          "claim_checked": "年鉴PDF与网页统计数字和表头一致；表2-1的2010列是比重而非2010人数。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.1",
+          "baseline_line": 56,
+          "citation_text": "[2] 福建省统计局、福建省第七次全国人口普查领导小组办公室，《福建省第七次全国人口普查公报（第二号）——地区人口情况》，2021年5月20日，正文开头、“一、地区常住人口”、表2-1及注[1]—[3]。官方网页：https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm 。年鉴收录PDF：https://tjj.fujian.gov.cn/tongjinianjian/rk2020/html/fu0202.pdf ，表2-1及人口增加段在PDF第1页，印刷页2887。",
+          "section_id": "6.1"
+        },
+        {
+          "chapter": 6,
+          "section": "6.2",
+          "baseline_line": 107,
+          "citation_text": "[2] 福建省统计局、福建省第七次全国人口普查领导小组办公室，《福建省第七次全国人口普查公报（第二号）——地区人口情况》，2021年5月20日。官方网页：https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm 。年鉴所收公报PDF：https://tjj.fujian.gov.cn/tongjinianjian/rk2020/html/fu0202.pdf 。本节使用表2-1及注[1]—[3]；表格在PDF第1页，相关注释在第3—4页，印刷页码2887、2889—2890。核读日期：2026年10月24日。",
+          "section_id": "6.2"
+        }
+      ],
+      "id": "S0608-003",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://aclanthology.org/2020.emnlp-main.550/",
+      "checks": [
+        {
+          "id": "S06-04",
+          "sections": [
+            "6.1"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "ACL论文页面Abstract与书目信息",
+          "claim_checked": "2020年论文及双编码器稠密段落检索摘要相符。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.1",
+          "baseline_line": 58,
+          "citation_text": "[3] Vladimir Karpukhin et al.，*Dense Passage Retrieval for Open-Domain Question Answering*，EMNLP 2020，6769—6781页，第3.1节。出版社页面：https://aclanthology.org/2020.emnlp-main.550/ ，原文PDF：https://aclanthology.org/2020.emnlp-main.550.pdf 。",
+          "section_id": "6.1"
+        }
+      ],
+      "id": "S0608-004",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://aclanthology.org/2020.emnlp-main.550.pdf",
+      "checks": [
+        {
+          "id": "S06-05",
+          "sections": [
+            "6.1"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§3.1，印刷6770—6771，公式1",
+          "claim_checked": "问题与段落分别编码；以内积比较向量，段落可预先编码。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.1",
+          "baseline_line": 58,
+          "citation_text": "[3] Vladimir Karpukhin et al.，*Dense Passage Retrieval for Open-Domain Question Answering*，EMNLP 2020，6769—6781页，第3.1节。出版社页面：https://aclanthology.org/2020.emnlp-main.550/ ，原文PDF：https://aclanthology.org/2020.emnlp-main.550.pdf 。",
+          "section_id": "6.1"
+        }
+      ],
+      "id": "S0608-005",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://arxiv.org/html/2005.11401v4",
+      "checks": [
+        {
+          "id": "S06-06",
+          "sections": [
+            "6.1"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§2.1 RAG-Sequence／§2.2 Retriever／§2.4 Training",
+          "claim_checked": "原论文有检索加生成、top-k边缘化与联合微调；不能把所有RAG都定义为不更新参数。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组B（原通读核查，父校对员据记录汇编）",
+          "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+          "evidence_record": "coverage_ch06_08.json/source_checks",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.1",
+          "baseline_line": 60,
+          "citation_text": "[4] Patrick Lewis et al.，*Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks*，NeurIPS 2020，第2.1、2.2、2.4节。作者公开的arXiv v4版本：https://arxiv.org/html/2005.11401v4 。",
+          "section_id": "6.1"
+        }
+      ],
+      "id": "S0608-006",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://arxiv.org/html/2005.14165v4",
+      "checks": [
+        {
+          "id": "S06-07",
+          "sections": [
+            "6.1"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "Abstract及§1对few-shot/in-context learning的说明",
+          "claim_checked": "文中few-shot以文字示范和交互指定任务，不在该任务适配中更新梯度。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.1",
+          "baseline_line": 62,
+          "citation_text": "[5] Tom B. Brown et al.，*Language Models are Few-Shot Learners*，NeurIPS 2020，第1—2节。作者公开版本：https://arxiv.org/html/2005.14165v4 。",
+          "section_id": "6.1"
+        }
+      ],
+      "id": "S0608-007",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/search/vector-search-how-to-chunk-documents",
+      "checks": [
+        {
+          "id": "S06-08",
+          "sections": [
+            "6.2"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "Common chunking patterns／Content overlap considerations",
+          "claim_checked": "固定、结构与语义切块以及重叠的连贯性／成本权衡相符。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.2",
+          "baseline_line": 105,
+          "citation_text": "[1] Microsoft Learn，*Chunk large documents for RAG and vector search in Azure AI Search*，“Common chunking techniques”“Content overlap considerations”。https://learn.microsoft.com/en-us/azure/search/vector-search-how-to-chunk-documents 。核读日期：2026年10月24日。",
+          "section_id": "6.2"
+        }
+      ],
+      "id": "S0608-008",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://huggingface.co/docs/transformers/main/tokenizer_summary",
+      "checks": [
+        {
+          "id": "S06-09",
+          "sections": [
+            "6.2"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "Subword tokenization／SentencePiece",
+          "claim_checked": "子词词元并不等于汉字数，中文等无空格文本仍须由各模型词元器处理。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.2",
+          "baseline_line": 109,
+          "citation_text": "[3] Hugging Face Transformers，*Tokenization algorithms*，子词切分、BPE及SentencePiece的说明。https://huggingface.co/docs/transformers/main/tokenizer_summary 。核读日期：2026年10月24日。",
+          "section_id": "6.2"
+        }
+      ],
+      "id": "S0608-009",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://aclanthology.org/D19-1410.pdf",
+      "checks": [
+        {
+          "id": "S06-10",
+          "sections": [
+            "6.3"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§3 Model，印刷3984",
+          "claim_checked": "SBERT把输出汇聚成定长句向量；CLS、平均与最大汇聚均为论文比较项。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.3",
+          "baseline_line": 149,
+          "citation_text": "[1] Nils Reimers、Iryna Gurevych，*Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks*，EMNLP-IJCNLP 2019，第3节，3984页，关于句向量及汇聚方式。https://aclanthology.org/D19-1410.pdf 。",
+          "section_id": "6.3"
+        }
+      ],
+      "id": "S0608-010",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://sbert.net/examples/sentence_transformer/applications/semantic-search/README.html",
+      "checks": [
+        {
+          "id": "S06-11",
+          "sections": [
+            "6.3"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "Background／Symmetric vs. Asymmetric Semantic Search／Manual Implementation",
+          "claim_checked": "问题与长段落是非对称检索；查询和语料进入同一向量空间比较。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.3",
+          "baseline_line": 151,
+          "citation_text": "[2] Sentence Transformers，*Semantic Search*，“Symmetric vs. Asymmetric Semantic Search”及检索示例。https://sbert.net/examples/sentence_transformer/applications/semantic-search/README.html 。",
+          "section_id": "6.3"
+        }
+      ],
+      "id": "S0608-011",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://huggingface.co/BAAI/bge-small-zh-v1.5",
+      "checks": [
+        {
+          "id": "S06-12",
+          "sections": [
+            "6.3"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "Model List及脚注1／Usage",
+          "claim_checked": "bge-small-zh-v1.5为中文型号，检索查询指令见型号表；正文不加同一查询指令。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.3",
+          "baseline_line": 155,
+          "citation_text": "[4] BAAI，*bge-small-zh-v1.5*，官方模型说明中的型号表、查询指令及使用说明：https://huggingface.co/BAAI/bge-small-zh-v1.5 。编码器配置：https://huggingface.co/BAAI/bge-small-zh-v1.5/raw/main/config.json ；句向量长度配置：https://huggingface.co/BAAI/bge-small-zh-v1.5/blob/main/sentence_bert_config.json ；汇聚配置：https://huggingface.co/BAAI/bge-small-zh-v1.5/blob/main/1_Pooling/config.json 。",
+          "section_id": "6.3"
+        }
+      ],
+      "id": "S0608-012",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://huggingface.co/BAAI/bge-small-zh-v1.5/raw/main/config.json",
+      "checks": [
+        {
+          "id": "S06-13",
+          "sections": [
+            "6.3"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "config.json：hidden_size、max_position_embeddings",
+          "claim_checked": "隐藏向量维度512，位置上限512；与正文型号表相符。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.3",
+          "baseline_line": 155,
+          "citation_text": "[4] BAAI，*bge-small-zh-v1.5*，官方模型说明中的型号表、查询指令及使用说明：https://huggingface.co/BAAI/bge-small-zh-v1.5 。编码器配置：https://huggingface.co/BAAI/bge-small-zh-v1.5/raw/main/config.json ；句向量长度配置：https://huggingface.co/BAAI/bge-small-zh-v1.5/blob/main/sentence_bert_config.json ；汇聚配置：https://huggingface.co/BAAI/bge-small-zh-v1.5/blob/main/1_Pooling/config.json 。",
+          "section_id": "6.3"
+        }
+      ],
+      "id": "S0608-013",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://huggingface.co/BAAI/bge-small-zh-v1.5/blob/main/sentence_bert_config.json",
+      "checks": [
+        {
+          "id": "S06-14",
+          "sections": [
+            "6.3"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "sentence_bert_config.json：max_seq_length",
+          "claim_checked": "句向量封装的最大序列长度512。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.3",
+          "baseline_line": 155,
+          "citation_text": "[4] BAAI，*bge-small-zh-v1.5*，官方模型说明中的型号表、查询指令及使用说明：https://huggingface.co/BAAI/bge-small-zh-v1.5 。编码器配置：https://huggingface.co/BAAI/bge-small-zh-v1.5/raw/main/config.json ；句向量长度配置：https://huggingface.co/BAAI/bge-small-zh-v1.5/blob/main/sentence_bert_config.json ；汇聚配置：https://huggingface.co/BAAI/bge-small-zh-v1.5/blob/main/1_Pooling/config.json 。",
+          "section_id": "6.3"
+        }
+      ],
+      "id": "S0608-014",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://huggingface.co/BAAI/bge-small-zh-v1.5/blob/main/1_Pooling/config.json",
+      "checks": [
+        {
+          "id": "S06-15",
+          "sections": [
+            "6.3"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "1_Pooling/config.json",
+          "claim_checked": "word_embedding_dimension=512，CLS汇聚为true、均值与最大汇聚为false。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.3",
+          "baseline_line": 155,
+          "citation_text": "[4] BAAI，*bge-small-zh-v1.5*，官方模型说明中的型号表、查询指令及使用说明：https://huggingface.co/BAAI/bge-small-zh-v1.5 。编码器配置：https://huggingface.co/BAAI/bge-small-zh-v1.5/raw/main/config.json ；句向量长度配置：https://huggingface.co/BAAI/bge-small-zh-v1.5/blob/main/sentence_bert_config.json ；汇聚配置：https://huggingface.co/BAAI/bge-small-zh-v1.5/blob/main/1_Pooling/config.json 。",
+          "section_id": "6.3"
+        }
+      ],
+      "id": "S0608-015",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://huggingface.co/intfloat/multilingual-e5-small/raw/main/README.md",
+      "checks": [
+        {
+          "id": "S06-16",
+          "sections": [
+            "6.3"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "模型概要／Usage／Supported Languages／Limitations",
+          "claim_checked": "e5-small向量384维；query:/passage:前缀适用于非英语；attention_mask均值汇聚、L2归一化、512截断；100种语言并不保证低资源语表现相同。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.3",
+          "baseline_line": 157,
+          "citation_text": "[5] intfloat，*multilingual-e5-small*，官方模型说明，模型维度、支持语言、“Usage”中的前缀及编码示例，以及输入截断说明。https://huggingface.co/intfloat/multilingual-e5-small/raw/main/README.md 。",
+          "section_id": "6.3"
+        }
+      ],
+      "id": "S0608-016",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://github.com/facebookresearch/faiss/wiki/MetricType-and-distances",
+      "checks": [
+        {
+          "id": "S06-17",
+          "sections": [
+            "6.3"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "How can I index vectors for cosine similarity?",
+          "claim_checked": "查询和语料均归一化后，最大内积排序等价于余弦排序。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.3",
+          "baseline_line": 159,
+          "citation_text": "[6] Facebook Research，Faiss Wiki，*MetricType and distances*，“How can I index vectors for cosine similarity?”。https://github.com/facebookresearch/faiss/wiki/MetricType-and-distances 。",
+          "section_id": "6.3"
+        }
+      ],
+      "id": "S0608-017",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://sbert.net/docs/package_reference/sentence_transformer/model.html",
+      "checks": [
+        {
+          "id": "S06-18",
+          "sections": [
+            "6.3"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "构造函数local_files_only/token；encode的prompt、convert_to_numpy、normalize_embeddings；tokenizer属性",
+          "claim_checked": "限定本地读取、认证token、前缀、归一化与数组返回的参数含义相符；tokenizer属性仍可获取所用词元器。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.3",
+          "baseline_line": 161,
+          "citation_text": "[7] Sentence Transformers，*SentenceTransformer*，构造函数的`local_files_only`、`token`参数，`tokenizer`属性及`encode`方法的`prompt`、`normalize_embeddings`、`convert_to_numpy`参数。https://sbert.net/docs/package_reference/sentence_transformer/model.html 。",
+          "section_id": "6.3"
+        }
+      ],
+      "id": "S0608-018",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://huggingface.co/docs/transformers/main_classes/tokenizer",
+      "checks": [
+        {
+          "id": "S06-19",
+          "sections": [
+            "6.3"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "__call__参数表及Returns: BatchEncoding",
+          "claim_checked": "特殊词元、截断、补齐分开控制；input_ids是模型输入的词元ID而非字符位置。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.3",
+          "baseline_line": 163,
+          "citation_text": "[8] Hugging Face Transformers，*Tokenizer*，`__call__`方法的`add_special_tokens`、`truncation`、`padding`及`input_ids`。https://huggingface.co/docs/transformers/main_classes/tokenizer 。",
+          "section_id": "6.3"
+        }
+      ],
+      "id": "S0608-019",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://www.elastic.co/docs/solutions/search/full-text/how-full-text-works",
+      "checks": [
+        {
+          "id": "S06-20",
+          "sections": [
+            "6.4"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "开头Text analysis／Inverted index creation／Relevance scoring",
+          "claim_checked": "倒排索引由词项指向文档；BM25使用词频、文档频率和长度。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.4",
+          "baseline_line": 259,
+          "citation_text": "[1] Elastic，*How full-text search works*，词项分析、倒排索引及相关性计分。https://www.elastic.co/docs/solutions/search/full-text/how-full-text-works 。",
+          "section_id": "6.4"
+        }
+      ],
+      "id": "S0608-020",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://nlp.stanford.edu/IR-book/html/htmledition/tokenization-1.html",
+      "checks": [
+        {
+          "id": "S06-21",
+          "sections": [
+            "6.4"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§2.2.1：定义、O’Neill例后查询处理段、中文分词末段（同URL索引正文）",
+          "claim_checked": "查询和文档须一致词元化；中文词界存在歧义，词项不应机械等于逐字。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "SAME_PRIMARY_URL_INDEXED_BODY",
+          "access_status": "原URL直接open两次超时；站内精准搜索返回同URL完整相关段落，已核其索引正文。",
+          "limitation": "未声称本次成功直连实时页；来源是该原URL的索引正文，不是第三方转述。",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.4",
+          "baseline_line": 263,
+          "citation_text": "[3] Christopher D. Manning、Prabhakar Raghavan、Hinrich Schütze，*Introduction to Information Retrieval*，第2.2.1节“Tokenization”，中文词项边界及查询、文档采用一致处理的说明。https://nlp.stanford.edu/IR-book/html/htmledition/tokenization-1.html 。",
+          "section_id": "6.4"
+        }
+      ],
+      "id": "S0608-021",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://lucene.apache.org/__root/docs.lucene.apache.org/core/9_12_0/core/org/apache/lucene/search/similarities/BM25Similarity.html",
+      "checks": [
+        {
+          "id": "S06-22",
+          "sections": [
+            "6.4"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "BM25Similarity构造函数、idf、avgFieldLength",
+          "claim_checked": "默认k1=1.2、b=.75；Lucene的带1对数idf及平均长度说明相符。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组B（原通读核查，父校对员据记录汇编）",
+          "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+          "evidence_record": "coverage_ch06_08.json/source_checks",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.4",
+          "baseline_line": 265,
+          "citation_text": "[4] Apache Lucene 9.12.0，*BM25Similarity*，参数k₁、b、idf及avgFieldLength说明。https://lucene.apache.org/__root/docs.lucene.apache.org/core/9_12_0/core/org/apache/lucene/search/similarities/BM25Similarity.html 。",
+          "section_id": "6.4"
+        }
+      ],
+      "id": "S0608-022",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://www.staff.city.ac.uk/~sbrp622/papers/foundations_bm25_review.pdf",
+      "checks": [
+        {
+          "id": "S06-23",
+          "sections": [
+            "6.4"
+          ],
+          "status": "访问阻塞",
+          "status_code": "ACCESS_BLOCKED",
+          "checked_location": "未取得作者原PDF",
+          "claim_checked": "待核原论文§3.1公式3.3、§3.4.5—3.5.1及分子k1+1变体；不能把Lucene接口页等同原论文该页已核。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "NO_PRIMARY_TEXT_OBTAINED",
+          "access_status": "HTTPS两次及HTTP转HTTPS一次均Timeout fetching；精准搜索未返回原论文可核正文。",
+          "limitation": "该原论文所引页与公式本轮未独立核到；不据访问失败认定正文错误。",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.4",
+          "baseline_line": 267,
+          "citation_text": "[5] Stephen Robertson、Hugo Zaragoza，*The Probabilistic Relevance Framework: BM25 and Beyond*，2009，第3.1节公式3.3及第3.4.5—3.5.1节，尤其公式3.15及分子加入k₁＋1的变体说明，印刷页349、359—361。https://www.staff.city.ac.uk/~sbrp622/papers/foundations_bm25_review.pdf 。",
+          "section_id": "6.4"
+        }
+      ],
+      "id": "S0608-023",
+      "status_code": "ACCESS_BLOCKED",
+      "status": "访问阻塞"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/search/hybrid-search-overview",
+      "checks": [
+        {
+          "id": "S06-24",
+          "sections": [
+            "6.4"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "Why use hybrid search?／How does hybrid search work?",
+          "claim_checked": "精确人名数字等可受益于关键词；向量匹配概念相关材料；并行结果用RRF融合。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.4",
+          "baseline_line": 269,
+          "citation_text": "[6] Microsoft Learn，*Hybrid search using vectors and full-text search in Azure AI Search*，“Why use hybrid search?”。https://learn.microsoft.com/en-us/azure/search/hybrid-search-overview 。",
+          "section_id": "6.4"
+        }
+      ],
+      "id": "S0608-024",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/search/vector-search-filters",
+      "checks": [
+        {
+          "id": "S06-25",
+          "sections": [
+            "6.5"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "How filtering works／Set the filter mode",
+          "claim_checked": "后过滤与先取全库top-k后过滤均有漏掉范围内候选的风险；筛选字段来自非向量元数据。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.5",
+          "baseline_line": 358,
+          "citation_text": "[2] Microsoft Learn，*Filters in vector queries*，“How filtering works in vector queries”“Set the filter mode”，关于检索前筛选与截断后筛选的区别。https://learn.microsoft.com/en-us/azure/search/vector-search-filters 。",
+          "section_id": "6.5"
+        }
+      ],
+      "id": "S0608-025",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://www.elastic.co/docs/reference/elasticsearch/rest-apis/reciprocal-rank-fusion",
+      "checks": [
+        {
+          "id": "S06-26",
+          "sections": [
+            "6.5"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "开头公式／rank_constant／rank_window_size",
+          "claim_checked": "RRF按各榜名次加1/(常数+名次)，未入榜贡献0；名次自1、默认常数60；窗口可截断。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.5",
+          "baseline_line": 360,
+          "citation_text": "[3] Elastic，*Reciprocal rank fusion*，公式、`rank_constant`、`rank_window_size`及两路分别检索后融合的说明。https://www.elastic.co/docs/reference/elasticsearch/rest-apis/reciprocal-rank-fusion 。",
+          "section_id": "6.5"
+        }
+      ],
+      "id": "S0608-026",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://plg.uwaterloo.ca/~gvcormac/cormacksigir09-rrf.pdf",
+      "checks": [
+        {
+          "id": "S06-27",
+          "sections": [
+            "6.5"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§1公式及k=60说明",
+          "claim_checked": "原RRF公式与本书教学融合式相符，常数60不是取前60条的k。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组B（原通读核查，父校对员据记录汇编）",
+          "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+          "evidence_record": "coverage_ch06_08.json/source_checks",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.5",
+          "baseline_line": 362,
+          "citation_text": "[4] Gordon V. Cormack、Charles L. A. Clarke、Stefan Büttcher，*Reciprocal Rank Fusion outperforms Condorcet and individual Rank Learning Methods*，SIGIR 2009，第1节，公式及常数60的实验设置。https://plg.uwaterloo.ca/~gvcormac/cormacksigir09-rrf.pdf 。",
+          "section_id": "6.5"
+        }
+      ],
+      "id": "S0608-027",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/search/hybrid-search-ranking",
+      "checks": [
+        {
+          "id": "S06-28",
+          "sections": [
+            "6.5"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "How RRF ranking works／Scores in hybrid search results",
+          "claim_checked": "融合常数与近邻数不同；BM25、向量、RRF计分尺度不同，不能直接当同一概率。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.5",
+          "baseline_line": 364,
+          "citation_text": "[5] Microsoft Learn，*Relevance scoring in hybrid search using Reciprocal Rank Fusion (RRF)*，“Scores in hybrid search results”，关于各路相关性分数范围与量级不同。https://learn.microsoft.com/en-us/azure/search/hybrid-search-ranking 。",
+          "section_id": "6.5"
+        }
+      ],
+      "id": "S0608-028",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://www.elastic.co/docs/reference/elasticsearch/rest-apis/search-rank-eval",
+      "checks": [
+        {
+          "id": "S06-29",
+          "sections": [
+            "6.5",
+            "6.8"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "Precision at K／Recall at K／Mean reciprocal rank",
+          "claim_checked": "三种指标分别关注前k相关比例、全部相关召回和首个相关位置；本书短返回、重复证据和零相关约定另行明示。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组B（原通读核查，父校对员据记录汇编）",
+          "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+          "evidence_record": "coverage_ch06_08.json/source_checks",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.5",
+          "baseline_line": 366,
+          "citation_text": "[6] Elastic，*Ranking evaluation API*，“Precision at k”“Recall at k”及相关性判断说明。https://www.elastic.co/docs/reference/elasticsearch/rest-apis/search-rank-eval 。",
+          "section_id": "6.5"
+        },
+        {
+          "chapter": 6,
+          "section": "6.8",
+          "baseline_line": 617,
+          "citation_text": "[4] Elastic，*Ranking evaluation*，“Precision at K”“Recall at K”“Mean reciprocal rank”及其k参数。本节另外明确不足额、重复证据和零相关题的计算约定，便于复跑。https://www.elastic.co/docs/reference/elasticsearch/rest-apis/search-rank-eval 。",
+          "section_id": "6.8"
+        }
+      ],
+      "id": "S0608-029",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/search/semantic-how-to-query-rewrite",
+      "checks": [
+        {
+          "id": "S06-30",
+          "sections": [
+            "6.6"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "开头、精确词项警示、Test query rewrites with debug",
+          "claim_checked": "保留原问并共同检索；改写可能丢失精确词；debug可查看改写，须评估是否保持任务含义。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.6",
+          "baseline_line": 452,
+          "citation_text": "[1] Microsoft Learn，*Rewrite queries with semantic ranker in Azure AI Search*，开头关于查询改写、原查询与改写共同检索的说明及精确词项可能丢失的提示，“Test query rewrites with debug”。https://learn.microsoft.com/en-us/azure/search/semantic-how-to-query-rewrite 。",
+          "section_id": "6.6"
+        }
+      ],
+      "id": "S0608-030",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1561/",
+      "checks": [
+        {
+          "id": "S06-31",
+          "sections": [
+            "6.6"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "英文Description末句",
+          "claim_checked": "Zayton的历史用法限于10—14世纪阿拉伯与西方文本，不等同现代地域范围。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组B（原通读核查，父校对员据记录汇编）",
+          "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+          "evidence_record": "coverage_ch06_08.json/source_checks",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.6",
+          "baseline_line": 456,
+          "citation_text": "[3] UNESCO World Heritage Centre，*Quanzhou: Emporium of the World in Song-Yuan China*，英文Description末句，Zayton及10—14世纪文本的说明。https://whc.unesco.org/en/list/1561/ 。",
+          "section_id": "6.6"
+        }
+      ],
+      "id": "S0608-031",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://aclanthology.org/2023.emnlp-main.322.pdf",
+      "checks": [
+        {
+          "id": "S06-32",
+          "sections": [
+            "6.6"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§3.1，印刷5306；§6.2—6.3，5310—5311",
+          "claim_checked": "重写—检索—阅读流程；案例和检索指标表明命中改善与回答改善需分别看，改写可产生错误理解。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.6",
+          "baseline_line": 458,
+          "citation_text": "[4] Xinbei Ma、Yeyun Gong、Pengcheng He、Hai Zhao、Nan Duan，*Query Rewriting for Retrieval-Augmented Large Language Models*，EMNLP 2023，5303—5315页，第3.1节；第6.2—6.3节另讨论检索结果及改写案例。原论文PDF：https://aclanthology.org/2023.emnlp-main.322.pdf 。",
+          "section_id": "6.6"
+        }
+      ],
+      "id": "S0608-032",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+      "checks": [
+        {
+          "id": "S06-33",
+          "sections": [
+            "6.7"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "Be clear and direct／Structure prompts with XML tags",
+          "claim_checked": "明确输出要求、分开指令/上下文/输入的建议确有依据；不代表本书人工拟答由模型产生。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.7",
+          "baseline_line": 534,
+          "citation_text": "[2] Anthropic，*Prompting best practices*，“Be clear and direct”“Structure prompts with XML tags”，关于明确输出要求及区分指令、上下文和输入。https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices 。",
+          "section_id": "6.7"
+        }
+      ],
+      "id": "S0608-033",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://aclanthology.org/2023.emnlp-main.398.pdf",
+      "checks": [
+        {
+          "id": "S06-34",
+          "sections": [
+            "6.7",
+            "6.8"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§3.2—3.3，印刷6467—6469",
+          "claim_checked": "回答正确与覆盖、引文支持覆盖和无关引文分开评价；引用数量不能替代支持关系。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "PRIMARY_PAGE_OR_PDF_PASSAGE",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.7",
+          "baseline_line": 536,
+          "citation_text": "[3] Tianyu Gao、Howard Yen、Jiatong Yu、Danqi Chen，*Enabling Large Language Models to Generate Text with Citations*，EMNLP 2023，6465—6488页，第3.3节，印刷页6468—6469，分别讨论引文支持的覆盖及无关引文。https://aclanthology.org/2023.emnlp-main.398.pdf 。",
+          "section_id": "6.7"
+        },
+        {
+          "chapter": 6,
+          "section": "6.8",
+          "baseline_line": 619,
+          "citation_text": "[5] Tianyu Gao、Howard Yen、Jiatong Yu、Danqi Chen，*Enabling Large Language Models to Generate Text with Citations*，EMNLP 2023，6465—6488页，第3.2—3.3节，印刷页6467—6469，回答内容及引文支持分别评价。https://aclanthology.org/2023.emnlp-main.398.pdf 。",
+          "section_id": "6.8"
+        }
+      ],
+      "id": "S0608-034",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://nlp.stanford.edu/IR-book/html/htmledition/information-retrieval-system-evaluation-1.html",
+      "checks": [
+        {
+          "id": "S06-35",
+          "sections": [
+            "6.8"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§8.1全节（同URL索引正文）",
+          "claim_checked": "测试集合含文档、信息需要及相关性判断；按信息需要判定而非机械同词；开发集调参后在独立测试集评价。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "SAME_PRIMARY_URL_INDEXED_BODY",
+          "access_status": "原URL直接open两次超时；站内精准搜索返回同URL完整相关段落，已核其索引正文。",
+          "limitation": "未声称本次成功直连实时页；来源是该原URL的索引正文，不是第三方转述。",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.8",
+          "baseline_line": 613,
+          "citation_text": "[2] Christopher D. Manning、Prabhakar Raghavan、Hinrich Schütze，*Introduction to Information Retrieval*，第8.1节“Information retrieval system evaluation”，测试集合的组成、按信息需要判断相关性及开发集调参。https://nlp.stanford.edu/IR-book/html/htmledition/information-retrieval-system-evaluation-1.html 。",
+          "section_id": "6.8"
+        }
+      ],
+      "id": "S0608-035",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://nlp.stanford.edu/IR-book/html/htmledition/assessing-relevance-1.html",
+      "checks": [
+        {
+          "id": "S06-36",
+          "sections": [
+            "6.8"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§8.5第1—3段及分歧讨论（同URL索引正文）",
+          "claim_checked": "小型集合可穷尽判定，较大集合用pooling；评阅者有分歧，需记录和核对。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "SAME_PRIMARY_URL_INDEXED_BODY",
+          "access_status": "原URL直接open两次超时；站内精准搜索返回同URL完整相关段落，已核其索引正文。",
+          "limitation": "未声称本次成功直连实时页；来源是该原URL的索引正文，不是第三方转述。",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.8",
+          "baseline_line": 615,
+          "citation_text": "[3] 同书第8.5节“Assessing relevance”，逐项判断、小集合穷尽判断及评阅者分歧。https://nlp.stanford.edu/IR-book/html/htmledition/assessing-relevance-1.html ；第8.5.1节“Critiques and justifications of the concept of relevance”，重复材料与不同证据内容。https://nlp.stanford.edu/IR-book/html/htmledition/critiques-and-justifications-of-the-concept-of-relevance-1.html 。",
+          "section_id": "6.8"
+        }
+      ],
+      "id": "S0608-036",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://nlp.stanford.edu/IR-book/html/htmledition/critiques-and-justifications-of-the-concept-of-relevance-1.html",
+      "checks": [
+        {
+          "id": "S06-37",
+          "sections": [
+            "6.8"
+          ],
+          "status": "已核相关段落",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§8.5.1：marginal relevance段（同URL索引正文）",
+          "claim_checked": "高度相关但重复的信息可能无新增效用；不同事实可作评价单位，不等于史学上多个独立来源。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "SAME_PRIMARY_URL_INDEXED_BODY",
+          "access_status": "原URL直接open两次超时；站内精准搜索返回同URL完整相关段落，已核其索引正文。",
+          "limitation": "未声称本次成功直连实时页；来源是该原URL的索引正文，不是第三方转述。",
+          "source_record_file": "sources_ch06.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "chapter": 6,
+          "section": "6.8",
+          "baseline_line": 615,
+          "citation_text": "[3] 同书第8.5节“Assessing relevance”，逐项判断、小集合穷尽判断及评阅者分歧。https://nlp.stanford.edu/IR-book/html/htmledition/assessing-relevance-1.html ；第8.5.1节“Critiques and justifications of the concept of relevance”，重复材料与不同证据内容。https://nlp.stanford.edu/IR-book/html/htmledition/critiques-and-justifications-of-the-concept-of-relevance-1.html 。",
+          "section_id": "6.8"
+        }
+      ],
+      "id": "S0608-037",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://archives.sinica.edu.tw/collectionDetail/25/69",
+      "checks": [
+        {
+          "chapter": 7,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "本筆檔案說明首段：该页确记1932、1944两度出任教育部长。 边界：核的是馆方后编说明文字，不是任命文书，不裁决1931/1932孰为就任年。",
+          "checked_url": "https://archives.sinica.edu.tw/collectionDetail/25/69",
+          "checked_on": "2026-10-30",
+          "carried_from": "同一独立校对员本轮6—8章原文核对记录，不继承作者旧核验结论",
+          "id": "S07-01",
+          "sections": [
+            "7.1",
+            "7.2",
+            "7.3"
+          ],
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "claim_checked": "本筆檔案說明首段：该页确记1932、1944两度出任教育部长。 边界：核的是馆方后编说明文字，不是任命文书，不裁决1931/1932孰为就任年。",
+          "checked_location": "本筆檔案說明首段",
+          "reviewer": "独立校读分组B",
+          "source_record_file": "sources_ch07.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "7.1 观察单位 字段与数据字典",
+          "baseline_line": 91,
+          "citation_text": "[1] 中央研究院近代史研究所档案馆，〈朱家驊〉，馆藏介绍“本笔档案说明”首段，教育部长两度出任句。https://archives.sinica.edu.tw/collectionDetail/25/69 。",
+          "chapter": 7,
+          "section_id": "7.1"
+        },
+        {
+          "section": "7.2 原始数据 派生数据与版本化",
+          "baseline_line": 183,
+          "citation_text": "[1] 中央研究院近代史研究所档案馆，〈朱家驊〉，“本筆檔案說明”首段，教育部长两度出任句。https://archives.sinica.edu.tw/collectionDetail/25/69 。",
+          "chapter": 7,
+          "section_id": "7.2"
+        },
+        {
+          "section": "7.3 缺失 歧义与时空不确定性编码",
+          "baseline_line": 294,
+          "citation_text": "[3] 中央研究院近代史研究所档案馆，〈朱家驊〉，“本筆檔案說明”首段。https://archives.sinica.edu.tw/collectionDetail/25/69 。国立清华大学图书馆，〈朱家驊〉，“傳略”段首次教育部长年份。https://www.lib.nthu.edu.tw/library/project/jigang/dictionary/dictionary15.htm 。",
+          "chapter": 7,
+          "section_id": "7.3"
+        }
+      ],
+      "id": "S0608-038",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://lib.ihp.sinica.edu.tw/03-rare/MWSP/01/a.htm",
+      "checks": [
+        {
+          "chapter": 7,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "1945年秋句、1949年首句、文末来源说明：1945年秋代理北京大学校长、1949年一月二十日就任国立台湾大学校长；1995年专刊19—37页摘编说明与正文相符。 边界：核的是后编传略，未核原始任命档案。",
+          "checked_url": "https://lib.ihp.sinica.edu.tw/03-rare/MWSP/01/a.htm",
+          "checked_on": "2026-10-30",
+          "carried_from": "同一独立校对员本轮6—8章原文核对记录，不继承作者旧核验结论",
+          "id": "S07-02",
+          "sections": [
+            "7.1",
+            "7.2",
+            "7.3"
+          ],
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "claim_checked": "1945年秋句、1949年首句、文末来源说明：1945年秋代理北京大学校长、1949年一月二十日就任国立台湾大学校长；1995年专刊19—37页摘编说明与正文相符。 边界：核的是后编传略，未核原始任命档案。",
+          "checked_location": "1945年秋句、1949年首句、文末来源说明",
+          "reviewer": "独立校读分组B",
+          "source_record_file": "sources_ch07.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "7.1 观察单位 字段与数据字典",
+          "baseline_line": 93,
+          "citation_text": "[2] 中央研究院历史语言研究所傅斯年图书馆，“书汇傅图 嘉惠学界”贈書人纪念网站，〈生平传略〉，1945年、1949年段；网页末注明摘自《傅斯年董作賓先生百歲紀念專刊》，台北：中国上古秦汉学会，1995年，19—37页。https://lib.ihp.sinica.edu.tw/03-rare/MWSP/01/a.htm 。",
+          "chapter": 7,
+          "section_id": "7.1"
+        },
+        {
+          "section": "7.2 原始数据 派生数据与版本化",
+          "baseline_line": 185,
+          "citation_text": "[2] 中央研究院历史语言研究所傅斯年图书馆，“书汇傅图 嘉惠学界”贈書人纪念网站，〈生平傳略〉，1945年、1949年叙述及页末摘编来源说明。https://lib.ihp.sinica.edu.tw/03-rare/MWSP/01/a.htm 。",
+          "chapter": 7,
+          "section_id": "7.2"
+        },
+        {
+          "section": "7.3 缺失 歧义与时空不确定性编码",
+          "baseline_line": 296,
+          "citation_text": "[4] 中央研究院历史语言研究所傅斯年图书馆，〈生平傳略〉，1945年秋季任职句、1949年段首及页末摘编说明。https://lib.ihp.sinica.edu.tw/03-rare/MWSP/01/a.htm 。",
+          "chapter": 7,
+          "section_id": "7.3"
+        }
+      ],
+      "id": "S0608-039",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://www.lib.nthu.edu.tw/library/project/jigang/dictionary/dictionary15.htm",
+      "checks": [
+        {
+          "chapter": 7,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "傳略段：该页确写1931年出任教育部长，支持正文保留两来源差异。 边界：未据此裁定哪一记载为最终史实。",
+          "checked_url": "https://www.lib.nthu.edu.tw/library/project/jigang/dictionary/dictionary15.htm",
+          "checked_on": "2026-10-30",
+          "carried_from": "同一独立校对员本轮6—8章原文核对记录，不继承作者旧核验结论",
+          "id": "S07-03",
+          "sections": [
+            "7.1",
+            "7.3"
+          ],
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "claim_checked": "傳略段：该页确写1931年出任教育部长，支持正文保留两来源差异。 边界：未据此裁定哪一记载为最终史实。",
+          "checked_location": "傳略段",
+          "reviewer": "独立校读分组B",
+          "source_record_file": "sources_ch07.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "7.1 观察单位 字段与数据字典",
+          "baseline_line": 95,
+          "citation_text": "[3] 国立清华大学图书馆，“纪刚、《滚滚辽河》及‘满洲国’地工群体文献、文物、影音数字典藏计划”，〈朱家驊〉，“传略”段首次教育部长年份。https://www.lib.nthu.edu.tw/library/project/jigang/dictionary/dictionary15.htm 。",
+          "chapter": 7,
+          "section_id": "7.1"
+        },
+        {
+          "section": "7.3 缺失 歧义与时空不确定性编码",
+          "baseline_line": 294,
+          "citation_text": "[3] 中央研究院近代史研究所档案馆，〈朱家驊〉，“本筆檔案說明”首段。https://archives.sinica.edu.tw/collectionDetail/25/69 。国立清华大学图书馆，〈朱家驊〉，“傳略”段首次教育部长年份。https://www.lib.nthu.edu.tw/library/project/jigang/dictionary/dictionary15.htm 。",
+          "chapter": 7,
+          "section_id": "7.3"
+        }
+      ],
+      "id": "S0608-040",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://www.icpsr.umich.edu/sites/ICPSR/manage-data/prepare-deposit/guide",
+      "checks": [
+        {
+          "chapter": 7,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "缺失原因须分别编码；拒答、不知、不适用、无匹配等不能合并成无意义空格；标识变量可保留缺失状态。",
+          "checked_url": "https://www.icpsr.umich.edu/sites/ICPSR/manage-data/prepare-deposit/guide",
+          "id": "S07-04",
+          "sections": [
+            "7.3"
+          ],
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "Missing Data／Selecting Missing Data Codes",
+          "claim_checked": "缺失原因须分别编码；拒答、不知、不适用、无匹配等不能合并成无意义空格；标识变量可保留缺失状态。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "source_record_file": "sources_ch07.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "7.3 缺失 歧义与时空不确定性编码",
+          "baseline_line": 290,
+          "citation_text": "[1] ICPSR，*Guide to Social Science Data Preparation and Archiving*，“Missing Data”“Selecting Missing Data Codes”，缺失原因及状态说明。https://www.icpsr.umich.edu/sites/ICPSR/manage-data/prepare-deposit/guide 。",
+          "chapter": 7,
+          "section_id": "7.3"
+        }
+      ],
+      "id": "S0608-041",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://www.tei-c.org/release/doc/tei-p5-doc/en/html/CE.html",
+      "checks": [
+        {
+          "chapter": 7,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "不确定性与数值精度不同；可把起讫和上下限分开表达，保留各自精度。",
+          "checked_url": "https://www.tei-c.org/release/doc/tei-p5-doc/en/html/CE.html",
+          "id": "S07-05",
+          "sections": [
+            "7.3"
+          ],
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§22.1 Levels of Certainty；§22.2 Indications of Precision及上下限实例",
+          "claim_checked": "不确定性与数值精度不同；可把起讫和上下限分开表达，保留各自精度。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "source_record_file": "sources_ch07.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "7.3 缺失 歧义与时空不确定性编码",
+          "baseline_line": 292,
+          "citation_text": "[2] TEI Consortium，*TEI Guidelines*，第22.1、22.2节，精度、不确定性及上下限表达。https://www.tei-c.org/release/doc/tei-p5-doc/en/html/CE.html 。另参美国国会图书馆，*Extended Date/Time Format Specification*，“Level 0 Date”“Seasons”“Set representation”。https://www.loc.gov/standards/datetime/ 。",
+          "chapter": 7,
+          "section_id": "7.3"
+        }
+      ],
+      "id": "S0608-042",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://www.loc.gov/standards/datetime/",
+      "checks": [
+        {
+          "chapter": 7,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "年、月、日精度不同；季节有独立写法；单选集合与全包含集合分别表达，不把年份冲突改成连续区间。",
+          "checked_url": "https://www.loc.gov/standards/datetime/",
+          "id": "S07-06",
+          "sections": [
+            "7.3"
+          ],
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "Level 0 Date／Level 1 Seasons／Level 2 Set representation",
+          "claim_checked": "年、月、日精度不同；季节有独立写法；单选集合与全包含集合分别表达，不把年份冲突改成连续区间。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "source_record_file": "sources_ch07.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "7.3 缺失 歧义与时空不确定性编码",
+          "baseline_line": 292,
+          "citation_text": "[2] TEI Consortium，*TEI Guidelines*，第22.1、22.2节，精度、不确定性及上下限表达。https://www.tei-c.org/release/doc/tei-p5-doc/en/html/CE.html 。另参美国国会图书馆，*Extended Date/Time Format Specification*，“Level 0 Date”“Seasons”“Set representation”。https://www.loc.gov/standards/datetime/ 。",
+          "chapter": 7,
+          "section_id": "7.3"
+        }
+      ],
+      "id": "S0608-043",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://chgis.fas.harvard.edu/pages/database/",
+      "checks": [
+        {
+          "chapter": 7,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "同名行政单位随时间可改边界或治所；历史面对象与点对象不是同一项，不能用现今地点直接替代。",
+          "checked_url": "https://chgis.fas.harvard.edu/pages/database/",
+          "id": "S07-07",
+          "sections": [
+            "7.3"
+          ],
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§2 Overview、§2.2 Boundary Changes、§2.3 Point Location Changes",
+          "claim_checked": "同名行政单位随时间可改边界或治所；历史面对象与点对象不是同一项，不能用现今地点直接替代。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "source_record_file": "sources_ch07.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "7.3 缺失 歧义与时空不确定性编码",
+          "baseline_line": 298,
+          "citation_text": "[5] Harvard CHGIS，*Database Design*，第2节、2.2节“Boundary Changes”、2.3节“Point Location Changes”。https://chgis.fas.harvard.edu/pages/database/ 。",
+          "chapter": 7,
+          "section_id": "7.3"
+        }
+      ],
+      "id": "S0608-044",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://aclanthology.org/2024.cl-3.1/",
+      "checks": [
+        {
+          "chapter": 7,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "指南是迭代文件；试标、批次评价及修订相互衔接；标签定义与何时使用标签的指南作用不同。",
+          "checked_url": "https://aclanthology.org/2024.cl-3.1.pdf",
+          "id": "S07-08",
+          "sections": [
+            "7.4"
+          ],
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "原论文PDF§3.1，印刷823—825（由ACL页面进入）",
+          "claim_checked": "指南是迭代文件；试标、批次评价及修订相互衔接；标签定义与何时使用标签的指南作用不同。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "ACL原页面及其所链接原论文PDF",
+          "source_record_file": "sources_ch07.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "7.4 标注指南 一致性与歧义仲裁",
+          "baseline_line": 398,
+          "citation_text": "[1] Jan-Christoph Klie、Richard Eckart de Castilho、Iryna Gurevych，*Analyzing Dataset Annotation Quality Management in the Wild*，2024，第3.1节，刊页823—825，标注指南、试标与迭代改进。https://aclanthology.org/2024.cl-3.1/ 。",
+          "chapter": 7,
+          "section_id": "7.4"
+        }
+      ],
+      "id": "S0608-045",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://projects.csail.mit.edu/workbench/update/guides/00%20-%20Adjudicator%27s%20Guide_v1.2.0.pdf",
+      "checks": [
+        {
+          "chapter": 7,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "双人独立标注，合并前计算一致性；低一致可能促使修订指南而非强制只保留多数意见。",
+          "checked_url": "https://projects.csail.mit.edu/workbench/update/guides/00%20-%20Adjudicator%27s%20Guide_v1.2.0.pdf",
+          "id": "S07-09",
+          "sections": [
+            "7.4"
+          ],
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "PDF第1页What is Adjudication?及下方双人标注说明",
+          "claim_checked": "双人独立标注，合并前计算一致性；低一致可能促使修订指南而非强制只保留多数意见。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "source_record_file": "sources_ch07.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "7.4 标注指南 一致性与歧义仲裁",
+          "baseline_line": 400,
+          "citation_text": "[2] MIT CSAIL，*Adjudicator’s Guide*，Version 1.2，2013年8月15日，第1页“What is Adjudication?”，独立双人标注、合并前计算一致性及指南修订。https://projects.csail.mit.edu/workbench/update/guides/00%20-%20Adjudicator%27s%20Guide_v1.2.0.pdf 。",
+          "chapter": 7,
+          "section_id": "7.4"
+        }
+      ],
+      "id": "S0608-046",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://sklearn.org/stable/modules/generated/sklearn.metrics.cohen_kappa_score.html",
+      "checks": [
+        {
+          "chapter": 7,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "定义、weights与未定义值说明：(po-pe)/(1-pe)、每位标注者类别先验及不加权解释相符。 边界：sklearn.org原域一次429；scikit-learn.org官方同页成功。",
+          "checked_url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.cohen_kappa_score.html",
+          "checked_on": "2026-10-30",
+          "carried_from": "同一独立校对员本轮6—8章原文核对记录，不继承作者旧核验结论",
+          "id": "S07-10",
+          "sections": [
+            "7.4"
+          ],
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "claim_checked": "定义、weights与未定义值说明：(po-pe)/(1-pe)、每位标注者类别先验及不加权解释相符。 边界：sklearn.org原域一次429；scikit-learn.org官方同页成功。",
+          "checked_location": "定义、weights与未定义值说明",
+          "reviewer": "独立校读分组B",
+          "source_record_file": "sources_ch07.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "7.4 标注指南 一致性与歧义仲裁",
+          "baseline_line": 402,
+          "citation_text": "[3] scikit-learn，*cohen_kappa_score*官方说明，定义公式、按标注者分别计算类别比例、无权重选项。https://sklearn.org/stable/modules/generated/sklearn.metrics.cohen_kappa_score.html 。本例只按公式使用Python标准库计算，不调用该软件包。",
+          "chapter": 7,
+          "section_id": "7.4"
+        }
+      ],
+      "id": "S0608-047",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://aclanthology.org/J08-4004/",
+      "checks": [
+        {
+          "chapter": 7,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "一致与可靠性是有效性的必要条件，不保证标注捕捉真正目标；不能将高κ直接当正确率。",
+          "checked_url": "https://aclanthology.org/J08-4004.pdf",
+          "id": "S07-11",
+          "sections": [
+            "7.4"
+          ],
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "所链接原论文PDF§2.1，印刷556—557；复用本轮S09-27原文记录",
+          "claim_checked": "一致与可靠性是有效性的必要条件，不保证标注捕捉真正目标；不能将高κ直接当正确率。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "ACL原页面及其所链接原论文PDF",
+          "carried_from": "sources_ch09.json/S09-27；同一校对员本轮PDF相关原文，非作者旧记录",
+          "source_record_file": "sources_ch07.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "7.4 标注指南 一致性与歧义仲裁",
+          "baseline_line": 404,
+          "citation_text": "[4] Ron Artstein、Massimo Poesio，*Inter-Coder Agreement for Computational Linguistics*，2008，第2.1节，刊页556—557，一致、可靠性与有效性的关系。https://aclanthology.org/J08-4004/ 。",
+          "chapter": 7,
+          "section_id": "7.4"
+        }
+      ],
+      "id": "S0608-048",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://aclanthology.org/2020.acl-main.560/",
+      "checks": [
+        {
+          "chapter": 7,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "语言资源分布按已标注与未标注资源两轴观察；使用者规模不直接代表机器学习资源规模。",
+          "checked_url": "https://aclanthology.org/2020.acl-main.560.pdf",
+          "id": "S07-12",
+          "sections": [
+            "7.5"
+          ],
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "所链接原论文PDF§2.1 Features，印刷6283",
+          "claim_checked": "语言资源分布按已标注与未标注资源两轴观察；使用者规模不直接代表机器学习资源规模。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "ACL原页面及其所链接原论文PDF",
+          "source_record_file": "sources_ch07.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "7.5 多语言 跨语言与资源不平等",
+          "baseline_line": 500,
+          "citation_text": "[1] Pratik Joshi等，*The State and Fate of Linguistic Diversity and Inclusion in the NLP World*，2020，第2.1节，刊页6283，分别观察已标注与未标注资源。https://aclanthology.org/2020.acl-main.560/ 。",
+          "chapter": 7,
+          "section_id": "7.5"
+        }
+      ],
+      "id": "S0608-049",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6365.html",
+      "checks": [
+        {
+          "chapter": 7,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "语言、字符体系与书写体系不是同一对象；一个语言可用不同script，一套script可写多语言。",
+          "checked_url": "https://www.rfc-editor.org/rfc/rfc6365.html",
+          "id": "S07-13",
+          "sections": [
+            "7.5"
+          ],
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§2 Fundamental Terms，印刷5—6：language/script/writing system",
+          "claim_checked": "语言、字符体系与书写体系不是同一对象；一个语言可用不同script，一套script可写多语言。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "source_record_file": "sources_ch07.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "7.5 多语言 跨语言与资源不平等",
+          "baseline_line": 502,
+          "citation_text": "[2] RFC Editor，*RFC 6365: Terminology Used in Internationalization in the IETF*，第2节“language”“script”“writing system”。https://www.rfc-editor.org/rfc/rfc6365.html 。此处只采用术语区别，不要求按软件协议编制数据。",
+          "chapter": 7,
+          "section_id": "7.5"
+        }
+      ],
+      "id": "S0608-050",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://sutian.moe.edu.tw/zh-hant/su/6117/",
+      "checks": [
+        {
+          "chapter": 7,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "词目及音读：校長与hāu-tiúnn相符。 边界：仅核词条；台罗体例链接未另读。",
+          "checked_url": "https://sutian.moe.edu.tw/zh-hant/su/6117/",
+          "checked_on": "2026-10-30",
+          "carried_from": "同一独立校对员本轮6—8章原文核对记录，不继承作者旧核验结论",
+          "id": "S07-14",
+          "sections": [
+            "7.5"
+          ],
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "claim_checked": "词目及音读：校長与hāu-tiúnn相符。 边界：仅核词条；台罗体例链接未另读。",
+          "checked_location": "词目及音读",
+          "reviewer": "独立校读分组B",
+          "source_record_file": "sources_ch07.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "7.5 多语言 跨语言与资源不平等",
+          "baseline_line": 504,
+          "citation_text": "[3] 教育部《臺灣台語常用詞辭典》，“校長”词目与音读。https://sutian.moe.edu.tw/zh-hant/su/6117/ 。台罗体例参“臺羅標注說明”：https://sutian.moe.edu.tw/zh-hant/piantsip/tailo-phiautsu-suatbing/ 。",
+          "chapter": 7,
+          "section_id": "7.5"
+        }
+      ],
+      "id": "S0608-051",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://sutian.moe.edu.tw/zh-hant/piantsip/tailo-phiautsu-suatbing/",
+      "checks": [
+        {
+          "chapter": 7,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "采用台罗；表中带调符号与数字版有对应，词典标本调而非逐句连读变调，支持把罗马字记为文字形式而不是另造语言。",
+          "checked_url": "https://sutian.moe.edu.tw/zh-hant/piantsip/tailo-phiautsu-suatbing/",
+          "id": "S07-15",
+          "sections": [
+            "7.5"
+          ],
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "页首说明、一般声调表、变调末段",
+          "claim_checked": "采用台罗；表中带调符号与数字版有对应，词典标本调而非逐句连读变调，支持把罗马字记为文字形式而不是另造语言。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "source_record_file": "sources_ch07.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "7.5 多语言 跨语言与资源不平等",
+          "baseline_line": 504,
+          "citation_text": "[3] 教育部《臺灣台語常用詞辭典》，“校長”词目与音读。https://sutian.moe.edu.tw/zh-hant/su/6117/ 。台罗体例参“臺羅標注說明”：https://sutian.moe.edu.tw/zh-hant/piantsip/tailo-phiautsu-suatbing/ 。",
+          "chapter": 7,
+          "section_id": "7.5"
+        }
+      ],
+      "id": "S0608-052",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://tul.blog.ntu.edu.tw/archives/14535",
+      "checks": [
+        {
+          "chapter": 7,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "更新日期及开头两项介绍：2026-03-16更新；日文1898—1944、汉文1905—1911及同界面说明相符。 边界：资源说明，不等于逐篇报纸内容已核。",
+          "checked_url": "https://tul.blog.ntu.edu.tw/archives/14535",
+          "checked_on": "2026-10-30",
+          "carried_from": "同一独立校对员本轮6—8章原文核对记录，不继承作者旧核验结论",
+          "id": "S07-16",
+          "sections": [
+            "7.5"
+          ],
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "claim_checked": "更新日期及开头两项介绍：2026-03-16更新；日文1898—1944、汉文1905—1911及同界面说明相符。 边界：资源说明，不等于逐篇报纸内容已核。",
+          "checked_location": "更新日期及开头两项介绍",
+          "reviewer": "独立校读分组B",
+          "source_record_file": "sources_ch07.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "7.5 多语言 跨语言与资源不平等",
+          "baseline_line": 506,
+          "citation_text": "[4] 台大图书馆参考服务部落格，〈臺灣日日新報有兩個資料庫平台，有什麼差別呢？〉，2026年3月16日更新，开头两项数据库介绍。https://tul.blog.ntu.edu.tw/archives/14535 。这是机构公开的资源说明，本节未把它当作报纸正文。",
+          "chapter": 7,
+          "section_id": "7.5"
+        }
+      ],
+      "id": "S0608-053",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://aclanthology.org/2020.emnlp-main.618/",
+      "checks": [
+        {
+          "chapter": 7,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "翻译会改变表面线索如词语重叠；原生与翻译材料的评价条件不可混为同一资源。",
+          "checked_url": "https://aclanthology.org/2020.emnlp-main.618.pdf",
+          "id": "S07-17",
+          "sections": [
+            "7.5"
+          ],
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "所链接原论文PDF摘要与§1；复用本轮S09-30原文记录",
+          "claim_checked": "翻译会改变表面线索如词语重叠；原生与翻译材料的评价条件不可混为同一资源。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "ACL原页面及其所链接原论文PDF",
+          "carried_from": "sources_ch09.json/S09-30；同一校对员本轮PDF相关原文，非作者旧记录",
+          "source_record_file": "sources_ch07.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "7.5 多语言 跨语言与资源不平等",
+          "baseline_line": 508,
+          "citation_text": "[5] Mikel Artetxe、Gorka Labaka、Eneko Agirre，*Translation Artifacts in Cross-lingual Transfer Learning*，2020，摘要及第1节，刊页7674—7675。https://aclanthology.org/2020.emnlp-main.618/ 。这里采用其关于翻译改变评价条件的研究发现，不引用其模型成绩作为本例运行结果。",
+          "chapter": 7,
+          "section_id": "7.5"
+        }
+      ],
+      "id": "S0608-054",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://scikit-learn.org/stable/modules/cross_validation.html",
+      "checks": [
+        {
+          "chapter": 7,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "同数据训练和测试会高估；反复选择超参数可向测试泄漏；应保留验证及最终测试，评价新组需组间隔离。",
+          "checked_url": "https://scikit-learn.org/stable/modules/cross_validation.html",
+          "id": "S07-18",
+          "sections": [
+            "7.6"
+          ],
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§3.1开头及§3.1.2.4 grouped data",
+          "claim_checked": "同数据训练和测试会高估；反复选择超参数可向测试泄漏；应保留验证及最终测试，评价新组需组间隔离。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "source_record_file": "sources_ch07.json"
+        },
+        {
+          "chapter": 8,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "同数据训练及测试不当；反复调超参数可把测试信息引入选择；训练、验证选方案与最后测试应分开。",
+          "checked_url": "https://scikit-learn.org/stable/modules/cross_validation.html",
+          "id": "S08-06",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+          "source_title": "Cross-validation — scikit-learn 官方文档",
+          "claim_checked": "开发验证可用于选择方案，最终测试须隔离，反复据测试调设置会泄漏。",
+          "revision_claim_lines": [
+            114,
+            714
+          ],
+          "checked_location": "§3.1 开头，网页行 74、99—106（协作核对记录）",
+          "boundary": "支持第 8.2、8.8 节阶段区分；不证明本例有真正独立测试。",
+          "checked_on": "2026-10-30",
+          "reviewer": "来源核验分组",
+          "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+          "check_method": "REUSED_THIS_ROUND_INDEPENDENT_REVIEW",
+          "source_version": "协作核对页面标示 scikit-learn 1.9.1",
+          "evidence_path": "reports/sources_ch07_supplement.json#ledger/S07-18",
+          "carried_from": {
+            "report": "reports/sources_ch07_supplement.json",
+            "entry_id": "S07-18",
+            "reviewer": "独立校读分组A",
+            "checked_on": "2026-10-30",
+            "same_claim_assessment": "已与第 8 章实际引用主张比对，同一网页相同概念；本补核员未机械重开。",
+            "collaboration_message_received_utc": "2026-10-30T03:08:56Z"
+          },
+          "source_record_file": "sources_ch08.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "7.6 数据切分与泄漏检查",
+          "baseline_line": 606,
+          "citation_text": "[1] scikit-learn，*Cross-validation: evaluating estimator performance*，开头训练、验证与测试区别；第3.1.2.4节分组数据及未见组评价。https://scikit-learn.org/stable/modules/cross_validation.html 。",
+          "chapter": 7,
+          "section_id": "7.6"
+        },
+        {
+          "section": "8.2 对照原则 变量控制与实验矩阵",
+          "baseline_line": 196,
+          "citation_text": "[2] scikit-learn官方文档，3.1“Cross-validation: evaluating estimator performance”，开头关于在评价资料上反复选择设置及开发验证集的说明；本节不调用其模型示例。[公开文档](https://scikit-learn.org/stable/modules/cross_validation.html)。",
+          "chapter": 8,
+          "section_id": "8.2"
+        },
+        {
+          "section": "8.8 独立测试与方法复现",
+          "baseline_line": 791,
+          "citation_text": "[1] scikit-learn, [Cross-validation: evaluating estimator performance](https://scikit-learn.org/stable/modules/cross_validation.html)，开头关于训练、开发验证、最终测试及反复选择设置的说明。",
+          "chapter": 8,
+          "section_id": "8.8"
+        }
+      ],
+      "id": "S0608-055",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://scikit-learn.org/stable/common_pitfalls.html",
+      "checks": [
+        {
+          "chapter": 7,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "测试数据不能用于模型选择；预处理参数只由训练集学习，再对两侧同样transform；特征选择也适用。",
+          "checked_url": "https://scikit-learn.org/stable/common_pitfalls.html",
+          "id": "S07-19",
+          "sections": [
+            "7.6"
+          ],
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "§12.2、§12.2.1及§12.2.2",
+          "claim_checked": "测试数据不能用于模型选择；预处理参数只由训练集学习，再对两侧同样transform；特征选择也适用。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "source_record_file": "sources_ch07.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "7.6 数据切分与泄漏检查",
+          "baseline_line": 608,
+          "citation_text": "[2] scikit-learn，*Common pitfalls and recommended practices*，第12.2节“Data leakage”及预处理例。https://scikit-learn.org/stable/common_pitfalls.html 。",
+          "chapter": 7,
+          "section_id": "7.6"
+        }
+      ],
+      "id": "S0608-056",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://aclanthology.org/2021.eacl-main.113/",
+      "checks": [
+        {
+          "chapter": 7,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "随机拆分忽略相似记录来源会漏出训练信息；AIMed随机折与按来源文档ID隔离折明确对照。",
+          "checked_url": "https://aclanthology.org/2021.eacl-main.113.pdf",
+          "id": "S07-20",
+          "sections": [
+            "7.6"
+          ],
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "原论文PDF摘要、§1、§3、§4.1，印刷1325—1327",
+          "claim_checked": "随机拆分忽略相似记录来源会漏出训练信息；AIMed随机折与按来源文档ID隔离折明确对照。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "retrieval_mode": "ACL原页面及其所链接原论文PDF",
+          "source_record_file": "sources_ch07.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "7.6 数据切分与泄漏检查",
+          "baseline_line": 610,
+          "citation_text": "[3] Aparna Elangovan、Jiayuan He、Karin Verspoor，*Memorization vs. Generalization: Quantifying Data Leakage in NLP Performance Evaluation*，2021，摘要、第1节及第3节及第4.1节的文档隔离例，刊页1325—1327。https://aclanthology.org/2021.eacl-main.113/ 。",
+          "chapter": 7,
+          "section_id": "7.6"
+        }
+      ],
+      "id": "S0608-057",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2207.07048v1",
+      "checks": [
+        {
+          "chapter": 7,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "未来预测须阻止时间倒置；依赖单位跨训练测试的风险，应与科学主张要求的推广分布匹配。",
+          "checked_url": "https://arxiv.org/pdf/2207.07048v1",
+          "id": "S07-21",
+          "sections": [
+            "7.6"
+          ],
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "指定v1 PDF第5—6页，§2.4 L3.1/L3.2",
+          "claim_checked": "未来预测须阻止时间倒置；依赖单位跨训练测试的风险，应与科学主张要求的推广分布匹配。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "source_record_file": "sources_ch07.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "7.6 数据切分与泄漏检查",
+          "baseline_line": 612,
+          "citation_text": "[4] Sayash Kapoor、Arvind Narayanan，*Leakage and the Reproducibility Crisis in ML-based Science*，2022预印本v1，第2.4节L3.1、L3.2，PDF第5—6页，时间与样本依赖应对应所声称的推广任务。https://arxiv.org/pdf/2207.07048v1 。",
+          "chapter": 7,
+          "section_id": "7.6"
+        }
+      ],
+      "id": "S0608-058",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1803.09010v8",
+      "checks": [
+        {
+          "chapter": 7,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "原论文PDF§1.1、§3.4、§3.7和§4同一轮已核：可按领域调整、原始处理记录、维护更新；不把填表当认证。",
+          "checked_url": "https://arxiv.org/pdf/1803.09010v8",
+          "checked_on": "2026-10-30",
+          "carried_from": "同一独立校对员本轮6—8章原文核对记录，不继承作者旧核验结论",
+          "id": "S07-22",
+          "sections": [
+            "7.7"
+          ],
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "claim_checked": "原论文PDF§1.1、§3.4、§3.7和§4同一轮已核：可按领域调整、原始处理记录、维护更新；不把填表当认证。",
+          "checked_location": "原论文PDF§1.1、§3.4、§3.7和§4同一轮已核",
+          "reviewer": "独立校读分组B",
+          "source_record_file": "sources_ch07.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "7.7 数据卡与 Datasheet",
+          "baseline_line": 702,
+          "citation_text": "[1] Timnit Gebru等，*Datasheets for Datasets*，2021年版本，第1.1节及第3.1—3.7节，说明对象、组成、整理、用途与维护；第4节讨论随数据更新说明。https://arxiv.org/pdf/1803.09010v8 。",
+          "chapter": 7,
+          "section_id": "7.7"
+        }
+      ],
+      "id": "S0608-059",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://research.google/blog/the-data-cards-playbook-a-toolkit-for-transparency-in-dataset-documentation/",
+      "checks": [
+        {
+          "chapter": 7,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "Data Cards为结构化概要，列明上游来源、收集标注、训练评价、预期用途及影响性能的决策。",
+          "checked_url": "https://research.google/blog/the-data-cards-playbook-a-toolkit-for-transparency-in-dataset-documentation/",
+          "id": "S07-23",
+          "sections": [
+            "7.7"
+          ],
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "2022-11-17页首作者及开头第1—3段",
+          "claim_checked": "Data Cards为结构化概要，列明上游来源、收集标注、训练评价、预期用途及影响性能的决策。",
+          "checked_on": "2026-10-30",
+          "reviewer": "独立校读分组A",
+          "source_record_file": "sources_ch07.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "7.7 数据卡与 Datasheet",
+          "baseline_line": 704,
+          "citation_text": "[2] Mahima Pushkarna、Andrew Zaldivar，Google Research，*The Data Cards Playbook: A Toolkit for Transparency in Dataset Documentation*，2022年11月17日，开头关于结构化概要、来源、处理和用途的说明。https://research.google/blog/the-data-cards-playbook-a-toolkit-for-transparency-in-dataset-documentation/ 。",
+          "chapter": 7,
+          "section_id": "7.7"
+        }
+      ],
+      "id": "S0608-060",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html",
+      "checks": [
+        {
+          "chapter": 8,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "normalize=True 返回正确分类样本的比例；False 返回正确分类数量。",
+          "checked_url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html",
+          "id": "S08-01",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+          "source_title": "accuracy_score — scikit-learn 官方文档",
+          "claim_checked": "准确率是答对样本比例，即本例 (TP+TN)/总句数。",
+          "revision_claim_lines": [
+            35
+          ],
+          "checked_location": "normalize 参数及 Returns，网页行 655—669",
+          "boundary": "只支持二分类准确率的定义，不证明本书脚本已运行。",
+          "checked_on": "2026-10-30",
+          "reviewer": "来源核验分组",
+          "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+          "check_method": "DIRECT_WEB_CITED_PASSAGE",
+          "source_version": "本次页面标示 scikit-learn 1.9.1",
+          "evidence_path": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html",
+          "source_record_file": "sources_ch08.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "8.1 任务指标与简单基线",
+          "baseline_line": 90,
+          "citation_text": "[1] scikit-learn官方文档，`accuracy_score`，说明`normalize=True`返回判断相符的比例。[文档](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html)。",
+          "chapter": 8,
+          "section_id": "8.1"
+        }
+      ],
+      "id": "S0608-061",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_recall_fscore_support.html",
+      "checks": [
+        {
+          "chapter": 8,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "定义、binary及zero_division/Notes：TP/(TP+FP)、TP/(TP+FN)和无正预测时精确率未定义相符。 边界：核定义及零分母说明，不代表已执行软件。",
+          "checked_url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_recall_fscore_support.html",
+          "checked_on": "2026-10-30",
+          "carried_from": "同一独立校对员本轮6—8章原文核对记录，不继承作者旧核验结论",
+          "source_record_file": "sources_ch08.json",
+          "id": "S08-02",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "定义、binary及zero_division/Notes：TP/(TP+FP)、TP/(TP+FN)和无正预测时精确率未定义相符。 边界：核定义及零分母说明，不代表已执行软件。",
+          "claim_checked": "定义、binary及zero_division/Notes：TP/(TP+FP)、TP/(TP+FN)和无正预测时精确率未定义相符。 边界：核定义及零分母说明，不代表已执行软件。",
+          "reviewer": "独立校读分组B"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "8.1 任务指标与简单基线",
+          "baseline_line": 92,
+          "citation_text": "[2] scikit-learn官方文档，`precision_recall_fscore_support`，开头精确率与召回率定义及`zero_division`、Notes段。[文档](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_recall_fscore_support.html)。",
+          "chapter": 8,
+          "section_id": "8.1"
+        }
+      ],
+      "id": "S0608-062",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html",
+      "checks": [
+        {
+          "chapter": 8,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "公式与正文一致；average='binary' 返回 pos_label 指定类别的 F1，其他平均方式另有含义。",
+          "checked_url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html",
+          "id": "S08-03",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+          "source_title": "f1_score — scikit-learn 官方文档",
+          "claim_checked": "正类 F1=2TP/(2TP+FP+FN)，不是两类平均。",
+          "revision_claim_lines": [
+            39
+          ],
+          "checked_location": "开头公式与 binary 说明，网页行 635—643",
+          "boundary": "核定义与正类口径，不核案例运行结果。",
+          "checked_on": "2026-10-30",
+          "reviewer": "来源核验分组",
+          "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+          "check_method": "DIRECT_WEB_CITED_PASSAGE",
+          "source_version": "本次页面标示 scikit-learn 1.9.1",
+          "evidence_path": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html",
+          "source_record_file": "sources_ch08.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "8.1 任务指标与简单基线",
+          "baseline_line": 94,
+          "citation_text": "[3] scikit-learn官方文档，`f1_score`，公式及`average='binary'`、`pos_label`说明。[文档](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html)。",
+          "chapter": 8,
+          "section_id": "8.1"
+        }
+      ],
+      "id": "S0608-063",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.dummy.DummyClassifier.html",
+      "checks": [
+        {
+          "chapter": 8,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "不使用输入特征作判断；most_frequent 总返回传给 fit 的 y 中最常见类别，示例与此一致。",
+          "checked_url": "https://scikit-learn.org/stable/modules/generated/sklearn.dummy.DummyClassifier.html",
+          "id": "S08-04",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+          "source_title": "DummyClassifier — scikit-learn 官方文档",
+          "claim_checked": "most_frequent 按训练答案中的多数类固定作答。",
+          "revision_claim_lines": [
+            49
+          ],
+          "checked_location": "导言、strategy 参数及示例，网页行 638—656、714—726",
+          "boundary": "官方实现说明不等于书中调用或安装此库。",
+          "checked_on": "2026-10-30",
+          "reviewer": "来源核验分组",
+          "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+          "check_method": "DIRECT_WEB_CITED_PASSAGE",
+          "source_version": "本次页面标示 scikit-learn 1.9.1",
+          "evidence_path": "https://scikit-learn.org/stable/modules/generated/sklearn.dummy.DummyClassifier.html",
+          "source_record_file": "sources_ch08.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "8.1 任务指标与简单基线",
+          "baseline_line": 96,
+          "citation_text": "[4] scikit-learn官方文档，`DummyClassifier`，`strategy=\"most_frequent\"`说明与示例。[文档](https://scikit-learn.org/stable/modules/generated/sklearn.dummy.DummyClassifier.html)。",
+          "chapter": 8,
+          "section_id": "8.1"
+        }
+      ],
+      "id": "S0608-064",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://www.itl.nist.gov/div898/handbook/pri/section3/pri31.htm",
+      "checks": [
+        {
+          "chapter": 8,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "目标须先明确并排序，目标决定因素、响应和设计选择方向。",
+          "checked_url": "https://www.itl.nist.gov/div898/handbook/pri/section3/pri31.htm",
+          "id": "S08-05",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+          "source_title": "NIST/SEMATECH 5.3.1 What are the objectives?",
+          "claim_checked": "先明确实验目标，再选择因素和设计。",
+          "revision_claim_lines": [
+            112
+          ],
+          "checked_location": "5.3.1 开头与结尾，网页行 6—7、24—28",
+          "boundary": "只采用设计顺序，不以手册为教学例的实测证据。",
+          "checked_on": "2026-10-30",
+          "reviewer": "来源核验分组",
+          "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+          "check_method": "DIRECT_WEB_CITED_PASSAGE",
+          "source_version": "未额外锁定版本，以本次公开原页面为准",
+          "evidence_path": "https://www.itl.nist.gov/div898/handbook/pri/section3/pri31.htm",
+          "source_record_file": "sources_ch08.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "8.2 对照原则 变量控制与实验矩阵",
+          "baseline_line": 194,
+          "citation_text": "[1] NIST/SEMATECH，*e-Handbook of Statistical Methods*，5.3.1“ What are the objectives?”，开头目标与因素选择的关系。[公开原文](https://www.itl.nist.gov/div898/handbook/pri/section3/pri31.htm)。",
+          "chapter": 8,
+          "section_id": "8.2"
+        }
+      ],
+      "id": "S0608-065",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://docs.python.org/3.12/library/stdtypes.html#common-sequence-operations",
+      "checks": [
+        {
+          "chapter": 8,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "序列索引从零开始，切片右端不含；字符串是 Unicode 码点序列。",
+          "checked_url": "https://docs.python.org/3.12/library/stdtypes.html#common-sequence-operations",
+          "id": "S08-07",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+          "source_title": "Python 3.12 Built-in Types：序列与字符串",
+          "claim_checked": "text[:8] 取前八个 Unicode 码点，标点占位置，不按字节或词元计。",
+          "revision_claim_lines": [
+            134
+          ],
+          "checked_location": "Common Sequence Operations 表及注 4；Text Sequence Type — str，网页行 420—421、454—455、634—650",
+          "boundary": "八字符教学输入的具体内容仍属本书案例，不由文档证明。",
+          "checked_on": "2026-10-30",
+          "reviewer": "来源核验分组",
+          "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+          "check_method": "DIRECT_WEB_CITED_PASSAGE",
+          "source_version": "本次页面标示 Python 3.12.16",
+          "evidence_path": "https://docs.python.org/3.12/library/stdtypes.html#common-sequence-operations",
+          "source_record_file": "sources_ch08.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "8.2 对照原则 变量控制与实验矩阵",
+          "baseline_line": 198,
+          "citation_text": "[3] Python 3.12官方文档，*Built-in Types*，Common Sequence Operations的切片规则及Text Sequence Type中字符串为Unicode码点序列的定义。[公开文档](https://docs.python.org/3.12/library/stdtypes.html#common-sequence-operations)。",
+          "chapter": 8,
+          "section_id": "8.2"
+        }
+      ],
+      "id": "S0608-066",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://www.itl.nist.gov/div898/handbook/pri/section3/pri333.htm",
+      "checks": [
+        {
+          "chapter": 8,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "两水平 k 因素全因子设计有 2^k 次组合；表中两因素对应四次。",
+          "checked_url": "https://www.itl.nist.gov/div898/handbook/pri/section3/pri333.htm",
+          "id": "S08-08",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+          "source_title": "NIST/SEMATECH 5.3.3.3 Full factorial designs",
+          "claim_checked": "全因子设计含各因素所有设置组合；两个因素各两设置形成四格。",
+          "revision_claim_lines": [
+            140
+          ],
+          "checked_location": "5.3.3.3 定义及 Table 3.2，网页行 8—11",
+          "boundary": "只核组合安排，未把确定性教学矩阵写成随机化统计实验。",
+          "checked_on": "2026-10-30",
+          "reviewer": "来源核验分组",
+          "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+          "check_method": "DIRECT_WEB_CITED_PASSAGE",
+          "source_version": "未额外锁定版本，以本次公开原页面为准",
+          "evidence_path": "https://www.itl.nist.gov/div898/handbook/pri/section3/pri333.htm",
+          "source_record_file": "sources_ch08.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "8.2 对照原则 变量控制与实验矩阵",
+          "baseline_line": 200,
+          "citation_text": "[4] NIST/SEMATECH，*e-Handbook of Statistical Methods*，5.3.3.3“Full factorial designs”，所有设置组合及两因素四组合说明。[公开原文](https://www.itl.nist.gov/div898/handbook/pri/section3/pri333.htm)。",
+          "chapter": 8,
+          "section_id": "8.2"
+        }
+      ],
+      "id": "S0608-067",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/c55e6792923cc16fd6ed5c3f672420a5-Paper-Conference.pdf",
+      "checks": [
+        {
+          "chapter": 8,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "摘要、引言及2.1开头：停用及替代值选择影响组件重要性解释，作者与题名一致。 边界：仅核所引用的概念区别，不运行其最优消融方法。",
+          "checked_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/c55e6792923cc16fd6ed5c3f672420a5-Paper-Conference.pdf",
+          "checked_on": "2026-10-30",
+          "carried_from": "同一独立校对员本轮6—8章原文核对记录，不继承作者旧核验结论",
+          "source_record_file": "sources_ch08.json",
+          "id": "S08-09",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "摘要、引言及2.1开头：停用及替代值选择影响组件重要性解释，作者与题名一致。 边界：仅核所引用的概念区别，不运行其最优消融方法。",
+          "claim_checked": "摘要、引言及2.1开头：停用及替代值选择影响组件重要性解释，作者与题名一致。 边界：仅核所引用的概念区别，不运行其最优消融方法。",
+          "reviewer": "独立校读分组B"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "8.3 消融树与组件贡献",
+          "baseline_line": 301,
+          "citation_text": "[1] Maximilian Li、Lucas Janson，*Optimal ablation for interpretability*，NeurIPS 2024，摘要、第1节和第2.1节，PDF第1—3页；说明停用组件、替代方式及其对解释的影响。[公开论文](https://proceedings.neurips.cc/paper_files/paper/2024/file/c55e6792923cc16fd6ed5c3f672420a5-Paper-Conference.pdf)。本节采用方法区别，不运行该文的最优消融算法。",
+          "chapter": 8,
+          "section_id": "8.3"
+        }
+      ],
+      "id": "S0608-068",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://proceedings.mlsys.org/paper_files/paper/2021/file/0184b0cd3cfb185989f858a1d9f5c1eb-Paper.pdf",
+      "checks": [
+        {
+          "chapter": 8,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "PDF第1页摘要与引言：数据抽样、初始化与超参数选择会影响比较得到支持。 边界：仅核引用段，不核全篇结果。",
+          "checked_url": "https://proceedings.mlsys.org/paper_files/paper/2021/file/0184b0cd3cfb185989f858a1d9f5c1eb-Paper.pdf",
+          "checked_on": "2026-10-30",
+          "carried_from": "同一独立校对员本轮6—8章原文核对记录，不继承作者旧核验结论",
+          "source_record_file": "sources_ch08.json",
+          "id": "S08-10",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "PDF第1页摘要与引言：数据抽样、初始化与超参数选择会影响比较得到支持。 边界：仅核引用段，不核全篇结果。",
+          "claim_checked": "PDF第1页摘要与引言：数据抽样、初始化与超参数选择会影响比较得到支持。 边界：仅核引用段，不核全篇结果。",
+          "reviewer": "独立校读分组B"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "8.3 消融树与组件贡献",
+          "baseline_line": 303,
+          "citation_text": "[2] Xavier Bouthillier等，*Accounting for Variance in Machine Learning Benchmarks*，MLSys 2021，摘要和引言，PDF第1页；讨论数据抽样、初始化等变化对比较的影响。[公开论文](https://proceedings.mlsys.org/paper_files/paper/2021/file/0184b0cd3cfb185989f858a1d9f5c1eb-Paper.pdf)。",
+          "chapter": 8,
+          "section_id": "8.3"
+        }
+      ],
+      "id": "S0608-069",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://docs.python.org/3.12/library/random.html",
+      "checks": [
+        {
+          "chapter": 8,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "seed、独立Random对象说明：seed可接受不止整数；因此将正文普遍定义改成本例规定整数。 边界：只核种子与独立状态相关说明，未运行sample。",
+          "checked_url": "https://docs.python.org/3.12/library/random.html",
+          "checked_on": "2026-10-30",
+          "carried_from": "同一独立校对员本轮6—8章原文核对记录，不继承作者旧核验结论",
+          "source_record_file": "sources_ch08.json",
+          "id": "S08-11",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "seed、独立Random对象说明：seed可接受不止整数；因此将正文普遍定义改成本例规定整数。 边界：只核种子与独立状态相关说明，未运行sample。",
+          "claim_checked": "seed、独立Random对象说明：seed可接受不止整数；因此将正文普遍定义改成本例规定整数。 边界：只核种子与独立状态相关说明，未运行sample。",
+          "reviewer": "独立校读分组B"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "8.4 随机种子 环境锁定与 YAML 配置",
+          "baseline_line": 382,
+          "citation_text": "[1] Python官方文档，random模块，Random、sample及Notes on Reproducibility。https://docs.python.org/3.12/library/random.html 。",
+          "chapter": 8,
+          "section_id": "8.4"
+        }
+      ],
+      "id": "S0608-070",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://yaml.org/spec/1.2.2/",
+      "checks": [
+        {
+          "chapter": 8,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "规范说明 1.2 以包含 JSON 为目标；块结构用缩进，映射值使用冒号。",
+          "checked_url": "https://yaml.org/spec/1.2.2/",
+          "id": "S08-12",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+          "source_title": "YAML 1.2.2 规范",
+          "claim_checked": "YAML 常用冒号、缩进表达结构，YAML 1.2 兼容 JSON，兼容关系不能反向推成 JSON 解析器能读任意 YAML。",
+          "revision_claim_lines": [
+            345
+          ],
+          "checked_location": "历史说明、§6.1、§7.4.2 映射值说明，网页行 165、1516—1550、3002—3003",
+          "boundary": "与 Python json 文档合读支持兼容方向；本轮未安装解析器或解析展示用 YAML。",
+          "checked_on": "2026-10-30",
+          "reviewer": "来源核验分组",
+          "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+          "check_method": "DIRECT_WEB_CITED_PASSAGE",
+          "source_version": "YAML 1.2.2，2021-10-01",
+          "evidence_path": "https://yaml.org/spec/1.2.2/",
+          "source_record_file": "sources_ch08.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "8.4 随机种子 环境锁定与 YAML 配置",
+          "baseline_line": 384,
+          "citation_text": "[2] YAML 1.2.2规范，JSON兼容与集合写法。https://yaml.org/spec/1.2.2/ 。",
+          "chapter": 8,
+          "section_id": "8.4"
+        }
+      ],
+      "id": "S0608-071",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://docs.python.org/3.12/library/json.html",
+      "checks": [
+        {
+          "chapter": 8,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "文档明确 JSON 属于 YAML 1.2 子集，并把 json 的读写对象限定为 JSON 格式。",
+          "checked_url": "https://docs.python.org/3.12/library/json.html",
+          "id": "S08-13",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+          "source_title": "Python 3.12 json",
+          "claim_checked": "JSON 是 YAML 1.2 子集，不等于 json 模块能读取任意缩进式 YAML。",
+          "revision_claim_lines": [
+            345
+          ],
+          "checked_location": "导言示例后的 Note 与 Basic Usage，网页行 99—110",
+          "boundary": "支持正文兼容方向解释，不声称所有 YAML 都是 JSON。",
+          "checked_on": "2026-10-30",
+          "reviewer": "来源核验分组",
+          "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+          "check_method": "DIRECT_WEB_CITED_PASSAGE",
+          "source_version": "本次页面标示 Python 3.12.16",
+          "evidence_path": "https://docs.python.org/3.12/library/json.html",
+          "source_record_file": "sources_ch08.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "8.4 随机种子 环境锁定与 YAML 配置",
+          "baseline_line": 386,
+          "citation_text": "[3] Python官方文档，json模块，JSON与YAML子集说明。https://docs.python.org/3.12/library/json.html 。",
+          "chapter": 8,
+          "section_id": "8.4"
+        }
+      ],
+      "id": "S0608-072",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://docs.pytorch.org/docs/2.9/notes/randomness.html",
+      "checks": [
+        {
+          "chapter": 8,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "官方明确不保证跨发布、提交、平台的完全复现，CPU 与 GPU 即使种子相同也可能不同。",
+          "checked_url": "https://docs.pytorch.org/docs/2.9/notes/randomness.html",
+          "id": "S08-14",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+          "source_title": "PyTorch 2.9 Reproducibility",
+          "claim_checked": "相同种子不保证跨版本、平台或 CPU/GPU 完全复现。",
+          "revision_claim_lines": [
+            370
+          ],
+          "checked_location": "开头两段，网页行 68—71",
+          "boundary": "只引用复现限制；本例没有运行 PyTorch。",
+          "checked_on": "2026-10-30",
+          "reviewer": "来源核验分组",
+          "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+          "check_method": "DIRECT_WEB_CITED_PASSAGE",
+          "source_version": "PyTorch 2.9",
+          "evidence_path": "https://docs.pytorch.org/docs/2.9/notes/randomness.html",
+          "source_record_file": "sources_ch08.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "8.4 随机种子 环境锁定与 YAML 配置",
+          "baseline_line": 388,
+          "citation_text": "[4] PyTorch官方文档，Reproducibility。https://docs.pytorch.org/docs/2.9/notes/randomness.html 。",
+          "chapter": 8,
+          "section_id": "8.4"
+        }
+      ],
+      "id": "S0608-073",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://mlflow.org/docs/latest/ml/tracking/",
+      "checks": [
+        {
+          "chapter": 8,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "导言列明参数、代码版本、指标与输出文件；Runs 保存元数据和产物，Experiments 组织运行。",
+          "checked_url": "https://mlflow.org/docs/latest/ml/tracking/",
+          "id": "S08-15",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+          "source_title": "MLflow Tracking 官方文档",
+          "claim_checked": "围绕每次运行组织参数、代码版本、指标及输出文件。",
+          "revision_claim_lines": [
+            396
+          ],
+          "checked_location": "导言、Concepts—Runs、Experiments，网页行 37—60",
+          "boundary": "支持记录分工，不证明本书运行过 MLflow。",
+          "checked_on": "2026-10-30",
+          "reviewer": "来源核验分组",
+          "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+          "check_method": "DIRECT_WEB_CITED_PASSAGE",
+          "source_version": "滚动 latest 路径，核于 2026-10-30",
+          "evidence_path": "https://mlflow.org/docs/latest/ml/tracking/",
+          "source_record_file": "sources_ch08.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "8.5 实验追踪与结果汇总",
+          "baseline_line": 483,
+          "citation_text": "[1] MLflow官方文档，*MLflow Tracking*导言及“Concepts—Runs”“Experiments”，说明按运行组织参数、版本、指标与输出文件。本节使用记录分工，不运行MLflow。[文档](https://mlflow.org/docs/latest/ml/tracking/)。",
+          "chapter": 8,
+          "section_id": "8.5"
+        }
+      ],
+      "id": "S0608-074",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://docs.python.org/3.12/library/exceptions.html#FileNotFoundError",
+      "checks": [
+        {
+          "chapter": 8,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "该异常对应请求的文件或目录不存在的情况。",
+          "checked_url": "https://docs.python.org/3.12/library/exceptions.html#FileNotFoundError",
+          "id": "S08-16",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+          "source_title": "Python 3.12 Built-in Exceptions",
+          "claim_checked": "请求不存在的文件或目录会产生 FileNotFoundError。",
+          "revision_claim_lines": [
+            422
+          ],
+          "checked_location": "FileNotFoundError 定义，网页行 417—420",
+          "boundary": "文档支持异常含义，不能证明案例 E03 曾执行或产生某次实际异常。",
+          "checked_on": "2026-10-30",
+          "reviewer": "来源核验分组",
+          "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+          "check_method": "DIRECT_WEB_CITED_PASSAGE",
+          "source_version": "本次页面标示 Python 3.12.16",
+          "evidence_path": "https://docs.python.org/3.12/library/exceptions.html#FileNotFoundError",
+          "source_record_file": "sources_ch08.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "8.5 实验追踪与结果汇总",
+          "baseline_line": 485,
+          "citation_text": "[2] Python 3.12官方文档，内置异常`FileNotFoundError`，说明请求不存在的文件或目录时出现的异常。[文档](https://docs.python.org/3.12/library/exceptions.html#FileNotFoundError)。",
+          "chapter": 8,
+          "section_id": "8.5"
+        }
+      ],
+      "id": "S0608-075",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://scikit-learn.org/stable/common_pitfalls.html#data-leakage",
+      "checks": [
+        {
+          "chapter": 8,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "测试信息不得用于模型选择；预处理参数只在训练侧学习，fit/fit_transform 不用测试数据。",
+          "checked_url": "https://scikit-learn.org/stable/common_pitfalls.html",
+          "id": "S08-17",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+          "source_title": "Common pitfalls — Data leakage 官方文档",
+          "claim_checked": "测试材料不能供方法选择；学习所得预处理条件须只来自训练侧。",
+          "revision_claim_lines": [
+            469,
+            732
+          ],
+          "checked_location": "§12.2 Data leakage，网页行 122—141（协作核对记录）",
+          "boundary": "支持第 8.5、8.8 节信息隔离原则，不证明书中示范材料具有独立性。",
+          "checked_on": "2026-10-30",
+          "reviewer": "来源核验分组",
+          "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+          "check_method": "REUSED_THIS_ROUND_INDEPENDENT_REVIEW",
+          "source_version": "协作核对页面标示 scikit-learn 1.9.1",
+          "evidence_path": "reports/sources_ch07_supplement.json#ledger/S07-19",
+          "carried_from": {
+            "report": "reports/sources_ch07_supplement.json",
+            "entry_id": "S07-19",
+            "reviewer": "独立校读分组A",
+            "checked_on": "2026-10-30",
+            "same_claim_assessment": "已与第 8 章实际引用主张比对，同一网页相同概念；本补核员未机械重开。",
+            "collaboration_message_received_utc": "2026-10-30T03:08:56Z"
+          },
+          "source_record_file": "sources_ch08.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "8.5 实验追踪与结果汇总",
+          "baseline_line": 487,
+          "citation_text": "[3] scikit-learn官方文档，*Common pitfalls and recommended practices*第12.2节“Data leakage”，尤其测试材料不能用于方法选择的说明。本节只应用阶段区分，不运行该库。[文档](https://scikit-learn.org/stable/common_pitfalls.html#data-leakage)。",
+          "chapter": 8,
+          "section_id": "8.5"
+        },
+        {
+          "section": "8.8 独立测试与方法复现",
+          "baseline_line": 793,
+          "citation_text": "[2] scikit-learn, [Common pitfalls and recommended practices — Data leakage](https://scikit-learn.org/stable/common_pitfalls.html#data-leakage)，测试信息不能参与方案选择，预处理条件应在训练侧学习。",
+          "chapter": 8,
+          "section_id": "8.8"
+        }
+      ],
+      "id": "S0608-076",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://docs.github.com/en/copilot/get-started/best-practices",
+      "checks": [
+        {
+          "chapter": 8,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "建议拆分复杂任务、明确要求、提供示例；理解及审查建议代码，并用测试核验。",
+          "checked_url": "https://docs.github.com/en/copilot/get-started/best-practices",
+          "id": "S08-18",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+          "source_title": "GitHub Copilot Best practices",
+          "claim_checked": "拆小任务、明确要求、给出输入输出例，并阅读和测试生成代码。",
+          "revision_claim_lines": [
+            497
+          ],
+          "checked_location": "Create thoughtful prompts；Check Copilot's work，网页行 65—79",
+          "boundary": "文档不规定本书的三遍阅读顺序，正文已明确那是教学安排。",
+          "checked_on": "2026-10-30",
+          "reviewer": "来源核验分组",
+          "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+          "check_method": "DIRECT_WEB_CITED_PASSAGE",
+          "source_version": "未额外锁定版本，以本次公开原页面为准",
+          "evidence_path": "https://docs.github.com/en/copilot/get-started/best-practices",
+          "source_record_file": "sources_ch08.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "8.6 AI 结对编程 输入输出契约与三遍审查",
+          "baseline_line": 588,
+          "citation_text": "[1] GitHub官方文档，*Best practices for using GitHub Copilot*中的“Create thoughtful prompts”与“Check Copilot's work”，支持拆小任务、给出例子以及阅读和测试代码。[文档](https://docs.github.com/en/copilot/get-started/best-practices)。三遍阅读是本节的教学安排。",
+          "chapter": 8,
+          "section_id": "8.6"
+        }
+      ],
+      "id": "S0608-077",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://docs.python.org/3.12/library/stdtypes.html#str.find",
+      "checks": [
+        {
+          "chapter": 8,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "find 返回指定切片范围内的最低索引，未找到时为 -1；序列与字符串规则见同页。",
+          "checked_url": "https://docs.python.org/3.12/library/stdtypes.html#str.find",
+          "id": "S08-19",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+          "source_title": "Python 3.12 Built-in Types：str.find",
+          "claim_checked": "字符串位置从零开始且按码点计，切片右端不含；find 仅返回搜索范围内首处位置。",
+          "revision_claim_lines": [
+            507,
+            525
+          ],
+          "checked_location": "Common Sequence Operations、Text Sequence Type—str、str.find，网页行 420、455、636、722—725",
+          "boundary": "完整非重叠枚举仍须由书中循环实现，文档不证明循环已运行。",
+          "checked_on": "2026-10-30",
+          "reviewer": "来源核验分组",
+          "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+          "check_method": "DIRECT_WEB_CITED_PASSAGE",
+          "source_version": "本次页面标示 Python 3.12.16",
+          "evidence_path": "https://docs.python.org/3.12/library/stdtypes.html#str.find",
+          "source_record_file": "sources_ch08.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "8.6 AI 结对编程 输入输出契约与三遍审查",
+          "baseline_line": 590,
+          "citation_text": "[2] Python 3.12官方文档，*Built-in Types*中的“Text Sequence Type—str”、序列切片及`str.find`，说明Unicode码位、从0开始的位置、切片终点和首次查找行为。[文档](https://docs.python.org/3.12/library/stdtypes.html#str.find)。",
+          "chapter": 8,
+          "section_id": "8.6"
+        }
+      ],
+      "id": "S0608-078",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://docs.python.org/3.12/library/unittest.html",
+      "checks": [
+        {
+          "chapter": 8,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "测试用例检查特定输入的特定响应；示例使用 assertRaises 检查指定异常。",
+          "checked_url": "https://docs.python.org/3.12/library/unittest.html",
+          "id": "S08-20",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+          "source_title": "Python 3.12 unittest",
+          "claim_checked": "测试检查给定输入的特定响应，可检查预期异常。",
+          "revision_claim_lines": [
+            553
+          ],
+          "checked_location": "test case 定义及 Basic example，网页行 15—18、72—79",
+          "boundary": "本书只采用测试方法，未称调用 unittest 框架。",
+          "checked_on": "2026-10-30",
+          "reviewer": "来源核验分组",
+          "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+          "check_method": "DIRECT_WEB_CITED_PASSAGE",
+          "source_version": "本次页面标示 Python 3.12.16",
+          "evidence_path": "https://docs.python.org/3.12/library/unittest.html",
+          "source_record_file": "sources_ch08.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "8.6 AI 结对编程 输入输出契约与三遍审查",
+          "baseline_line": 592,
+          "citation_text": "[3] Python 3.12官方文档，`unittest`的“test case”与“Basic example”，说明按给定输入检查响应，包括预期异常。本节用标准库循环逐例比较，未调用`unittest`框架。[文档](https://docs.python.org/3.12/library/unittest.html)。",
+          "chapter": 8,
+          "section_id": "8.6"
+        }
+      ],
+      "id": "S0608-079",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://docs.python.org/3.12/library/stdtypes.html#text-sequence-type-str",
+      "checks": [
+        {
+          "chapter": 8,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "字符串是不可变的 Unicode 码点序列，单个索引得到长度一的字符串。",
+          "checked_url": "https://docs.python.org/3.12/library/stdtypes.html#text-sequence-type-str",
+          "id": "S08-21",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+          "source_title": "Python 3.12 Built-in Types：Text Sequence Type — str",
+          "claim_checked": "Python 字符串位置按 Unicode 码位，不按 UTF-8 字节计。",
+          "revision_claim_lines": [
+            620
+          ],
+          "checked_location": "Text Sequence Type — str，网页行 634—650",
+          "boundary": "只核字符串语义，不证明本书诊断表的执行。",
+          "checked_on": "2026-10-30",
+          "reviewer": "来源核验分组",
+          "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+          "check_method": "DIRECT_WEB_CITED_PASSAGE",
+          "source_version": "本次页面标示 Python 3.12.16",
+          "evidence_path": "https://docs.python.org/3.12/library/stdtypes.html#text-sequence-type-str",
+          "source_record_file": "sources_ch08.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "8.7 科学调试与最小复现",
+          "baseline_line": 696,
+          "citation_text": "[1] Python 3.12 Documentation, [Text Sequence Type — str](https://docs.python.org/3.12/library/stdtypes.html#text-sequence-type-str) 与 [str.strip](https://docs.python.org/3.12/library/stdtypes.html#str.strip)：字符串位置与首尾清理的定义。",
+          "chapter": 8,
+          "section_id": "8.7"
+        }
+      ],
+      "id": "S0608-080",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://docs.python.org/3.12/library/stdtypes.html#str.strip",
+      "checks": [
+        {
+          "chapter": 8,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "省略 chars 时清除首尾空白，返回副本；移除范围是两端而非内部。",
+          "checked_url": "https://docs.python.org/3.12/library/stdtypes.html#str.strip",
+          "id": "S08-22",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+          "source_title": "Python 3.12 Built-in Types：str.strip",
+          "claim_checked": "strip 默认清理首尾空白并返回新字符串，不删除中间空格。",
+          "revision_claim_lines": [
+            622
+          ],
+          "checked_location": "str.strip 定义、示例及外端说明，网页行 1002—1013",
+          "boundary": "本书坐标错配原因需要配套程序证明，本项只核 API 定义。",
+          "checked_on": "2026-10-30",
+          "reviewer": "来源核验分组",
+          "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+          "check_method": "DIRECT_WEB_CITED_PASSAGE",
+          "source_version": "本次页面标示 Python 3.12.16",
+          "evidence_path": "https://docs.python.org/3.12/library/stdtypes.html#str.strip",
+          "source_record_file": "sources_ch08.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "8.7 科学调试与最小复现",
+          "baseline_line": 696,
+          "citation_text": "[1] Python 3.12 Documentation, [Text Sequence Type — str](https://docs.python.org/3.12/library/stdtypes.html#text-sequence-type-str) 与 [str.strip](https://docs.python.org/3.12/library/stdtypes.html#str.strip)：字符串位置与首尾清理的定义。",
+          "chapter": 8,
+          "section_id": "8.7"
+        }
+      ],
+      "id": "S0608-081",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://www.debuggingbook.org/html/DeltaDebugger.html#Manual-Input-Reduction",
+      "checks": [
+        {
+          "chapter": 8,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "章节先说明剔除与失败无关的条件，再以分半输入且复查错误是否仍发生演示缩减。",
+          "checked_url": "https://www.debuggingbook.org/html/DeltaDebugger.html#Manual-Input-Reduction",
+          "id": "S08-23",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+          "source_title": "The Debugging Book：Manual Input Reduction",
+          "claim_checked": "缩减输入时去掉不相关部分，每次保持并核对同一种失败。",
+          "revision_claim_lines": [
+            639
+          ],
+          "checked_location": "Manual Input Reduction 开头与二分缩减说明，网页行 238—264",
+          "boundary": "支持手工缩减原则，不证明本书 R2 为全部可能输入中的全局最小值；正文已有条件限定。",
+          "checked_on": "2026-10-30",
+          "reviewer": "来源核验分组",
+          "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+          "check_method": "DIRECT_WEB_CITED_PASSAGE",
+          "source_version": "未额外锁定版本，以本次公开原页面为准",
+          "evidence_path": "https://www.debuggingbook.org/html/DeltaDebugger.html#Manual-Input-Reduction",
+          "source_record_file": "sources_ch08.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "8.7 科学调试与最小复现",
+          "baseline_line": 698,
+          "citation_text": "[2] Andreas Zeller, *The Debugging Book*, [Reducing Failure-Inducing Inputs — Manual Input Reduction](https://www.debuggingbook.org/html/DeltaDebugger.html#Manual-Input-Reduction)：保持失败现象的输入缩减。",
+          "chapter": 8,
+          "section_id": "8.7"
+        }
+      ],
+      "id": "S0608-082",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://docs.djangoproject.com/en/5.2/intro/contributing/#writing-some-tests-for-your-ticket",
+      "checks": [
+        {
+          "chapter": 8,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "教程明确要求回归例区分有无缺陷；改动及新测试通过后再跑已有测试以发现其他回归。",
+          "checked_url": "https://docs.djangoproject.com/en/5.2/intro/contributing/#writing-some-tests-for-your-ticket",
+          "id": "S08-24",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "support": "SUPPORTED_WITHIN_CITED_SCOPE",
+          "source_title": "Django 5.2：Writing your first contribution",
+          "claim_checked": "回归例应在缺陷存在时失败、修复后通过，并检查其他既有行为。",
+          "revision_claim_lines": [
+            666
+          ],
+          "checked_location": "Writing some tests for your ticket；Running Django’s test suite for the second time，网页行 213—217、278—280",
+          "boundary": "通过测试不保证无全部缺陷；本书仅采用方法，不安装或运行 Django。",
+          "checked_on": "2026-10-30",
+          "reviewer": "来源核验分组",
+          "source_type": "PRIMARY_OFFICIAL_DOCUMENTATION_OR_AUTHOR_BOOK",
+          "check_method": "DIRECT_WEB_CITED_PASSAGE",
+          "source_version": "Django 5.2",
+          "evidence_path": "https://docs.djangoproject.com/en/5.2/intro/contributing/#writing-some-tests-for-your-ticket",
+          "source_record_file": "sources_ch08.json"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "8.7 科学调试与最小复现",
+          "baseline_line": 700,
+          "citation_text": "[3] Django 5.2 Documentation, [Writing your first contribution](https://docs.djangoproject.com/en/5.2/intro/contributing/#writing-some-tests-for-your-ticket)，小节“Writing some tests for your ticket”及“Running Django’s test suite for the second time”：故障前后检查与回归检查。",
+          "chapter": 8,
+          "section_id": "8.7"
+        }
+      ],
+      "id": "S0608-083",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    },
+    {
+      "url": "https://book.the-turing-way.org/reproducible-research/overview/overview-definitions/",
+      "checks": [
+        {
+          "chapter": 8,
+          "status": "已核相关段落",
+          "status_zh": "已核相关段落",
+          "evidence": "Table of Definitions for Reproducibility：同数据同分析重做与换数据检验的区别相符。 边界：未将该定义强作跨学科唯一术语定义。",
+          "checked_url": "https://book.the-turing-way.org/reproducible-research/overview/overview-definitions/",
+          "checked_on": "2026-10-30",
+          "carried_from": "同一独立校对员本轮6—8章原文核对记录，不继承作者旧核验结论",
+          "source_record_file": "sources_ch08.json",
+          "id": "S08-25",
+          "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+          "checked_location": "Table of Definitions for Reproducibility：同数据同分析重做与换数据检验的区别相符。 边界：未将该定义强作跨学科唯一术语定义。",
+          "claim_checked": "Table of Definitions for Reproducibility：同数据同分析重做与换数据检验的区别相符。 边界：未将该定义强作跨学科唯一术语定义。",
+          "reviewer": "独立校读分组B"
+        }
+      ],
+      "occurrences": [
+        {
+          "section": "8.8 独立测试与方法复现",
+          "baseline_line": 795,
+          "citation_text": "[3] The Turing Way Community, [Definitions](https://book.the-turing-way.org/reproducible-research/overview/overview-definitions/)，小节“Table of Definitions for Reproducibility”，同数据与同分析步骤的计算复现。",
+          "chapter": 8,
+          "section_id": "8.8"
+        }
+      ],
+      "id": "S0608-084",
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "status": "已核相关段落"
+    }
+  ],
+  "note": "保留同URL不同主张的checks及所有引用位置；支持只指相关段落，不等于整篇研究或模型运行已核。原URL访问阻塞与同URL索引正文可核分别明示。",
+  "url_audit": {
+    "baseline_distinct_url_count": 84,
+    "ledger_distinct_url_count": 84,
+    "missing": [],
+    "extra": []
+  }
+}

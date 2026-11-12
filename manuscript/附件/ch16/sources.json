@@ -1,0 +1,75 @@
+[
+  {
+    "source_id": "S1",
+    "title": "教学名录",
+    "compiled_year": null,
+    "independent_group": "G1",
+    "material_kind": "new_synthetic_reconstruction",
+    "locations": {
+      "entry1": "甲于1701至1705年为O1成员。",
+      "entry2": "乙于1703至1704年为O1成员。",
+      "entry3": "另记甲于1708至1709年为O1成员。",
+      "entry4": "丁为O1成员之说在本练习判断中被否定。"
+    },
+    "provenance_note": "依据正文条件新写的教学摘录，不是原附件恢复件，不对应真实史料。"
+  },
+  {
+    "source_id": "S2",
+    "title": "教学活动记录",
+    "compiled_year": 1708,
+    "independent_group": "G2",
+    "material_kind": "new_synthetic_reconstruction",
+    "locations": {
+      "entry1": "甲参加1703年活动V1。",
+      "entry2": "乙参加1703年活动V1。",
+      "entry3": "丙参加1703年活动V1；丙身份仍待定。",
+      "entry4": "乙参加1708年活动V3。"
+    },
+    "provenance_note": "依据正文条件新写的教学摘录，不是原附件恢复件，不对应真实史料。"
+  },
+  {
+    "source_id": "S3",
+    "title": "教学寄信记录",
+    "compiled_year": 1704,
+    "independent_group": "G3",
+    "material_kind": "new_synthetic_reconstruction",
+    "locations": {
+      "letter1": "甲于1704年寄信给乙，本次寄信记为V2。"
+    },
+    "provenance_note": "依据正文条件新写的教学摘录，不是原附件恢复件，不对应真实史料。"
+  },
+  {
+    "source_id": "S4",
+    "title": "教学转抄本",
+    "compiled_year": 1730,
+    "independent_group": "G3",
+    "material_kind": "new_synthetic_reconstruction",
+    "locations": {
+      "copy1": "转抄S3的letter1：甲于1704年寄信给乙，非另一次寄出。"
+    },
+    "provenance_note": "依据正文条件新写的教学摘录，不是原附件恢复件，不对应真实史料。"
+  },
+  {
+    "source_id": "S5",
+    "title": "教学谱系记录",
+    "compiled_year": 1750,
+    "independent_group": "G5",
+    "material_kind": "new_synthetic_reconstruction",
+    "locations": {
+      "entry1": "甲乙为同胞；本练习证据支持范围记为1700至1710年。",
+      "entry2": "丙为甲父之说待查，日期未知。"
+    },
+    "provenance_note": "依据正文条件新写的教学摘录，不是原附件恢复件，不对应真实史料。"
+  },
+  {
+    "source_id": "H1",
+    "title": "分析假设",
+    "compiled_year": null,
+    "independent_group": "H1",
+    "material_kind": "new_synthetic_reconstruction",
+    "locations": {
+      "hypothesis1": "由甲乙共同参加V1提出二人可能熟识，仅为分析假设。"
+    },
+    "provenance_note": "依据正文条件新写的教学摘录，不是原附件恢复件，不对应真实史料。"
+  }
+]

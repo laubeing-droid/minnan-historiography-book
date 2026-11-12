@@ -1,0 +1,12 @@
+{
+  "status": "NOT_RUN",
+  "image_id": "reader_fill",
+  "width": null,
+  "height": null,
+  "positive_points": [],
+  "negative_points": [],
+  "box_xyxy": null,
+  "mask_version": null,
+  "model_identifier": null,
+  "manual_corrections": []
+}

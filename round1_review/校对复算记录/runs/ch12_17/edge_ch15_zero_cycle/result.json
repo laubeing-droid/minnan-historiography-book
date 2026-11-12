@@ -1,0 +1,802 @@
+{
+  "paths": [
+    {
+      "time": 1,
+      "source": "A",
+      "target": "A",
+      "straight_metres": 0.0,
+      "minutes": 0,
+      "path": [],
+      "status": "reachable",
+      "distance_min": 0,
+      "distance_max": 20.0,
+      "threshold_status": "inside"
+    },
+    {
+      "time": 1,
+      "source": "A",
+      "target": "B",
+      "straight_metres": 100.0,
+      "minutes": 0,
+      "path": [
+        "ZERO_AB"
+      ],
+      "status": "reachable",
+      "distance_min": 80.0,
+      "distance_max": 120.0,
+      "threshold_status": "uncertain"
+    },
+    {
+      "time": 1,
+      "source": "A",
+      "target": "C",
+      "straight_metres": 300.0,
+      "minutes": 5,
+      "path": [
+        "AC"
+      ],
+      "status": "reachable",
+      "distance_min": 290.0,
+      "distance_max": 310.0,
+      "threshold_status": "outside"
+    },
+    {
+      "time": 1,
+      "source": "A",
+      "target": "D",
+      "straight_metres": 100.0,
+      "minutes": null,
+      "path": [],
+      "status": "unreachable_in_known_edges",
+      "distance_min": 90.0,
+      "distance_max": 110.0,
+      "threshold_status": "uncertain"
+    },
+    {
+      "time": 1,
+      "source": "A",
+      "target": "E",
+      "straight_metres": 316.22776601683796,
+      "minutes": null,
+      "path": [],
+      "status": "unreachable_in_known_edges",
+      "distance_min": 306.22776601683796,
+      "distance_max": 326.22776601683796,
+      "threshold_status": "outside"
+    },
+    {
+      "time": 1,
+      "source": "B",
+      "target": "A",
+      "straight_metres": 100.0,
+      "minutes": 0,
+      "path": [
+        "ZERO_BA"
+      ],
+      "status": "reachable",
+      "distance_min": 80.0,
+      "distance_max": 120.0,
+      "threshold_status": "uncertain"
+    },
+    {
+      "time": 1,
+      "source": "B",
+      "target": "B",
+      "straight_metres": 0.0,
+      "minutes": 0,
+      "path": [],
+      "status": "reachable",
+      "distance_min": 0,
+      "distance_max": 20.0,
+      "threshold_status": "inside"
+    },
+    {
+      "time": 1,
+      "source": "B",
+      "target": "C",
+      "straight_metres": 200.0,
+      "minutes": 5,
+      "path": [
+        "ZERO_BA",
+        "AC"
+      ],
+      "status": "reachable",
+      "distance_min": 190.0,
+      "distance_max": 210.0,
+      "threshold_status": "outside"
+    },
+    {
+      "time": 1,
+      "source": "B",
+      "target": "D",
+      "straight_metres": 141.4213562373095,
+      "minutes": null,
+      "path": [],
+      "status": "unreachable_in_known_edges",
+      "distance_min": 131.4213562373095,
+      "distance_max": 151.4213562373095,
+      "threshold_status": "outside"
+    },
+    {
+      "time": 1,
+      "source": "B",
+      "target": "E",
+      "straight_metres": 223.60679774997897,
+      "minutes": null,
+      "path": [],
+      "status": "unreachable_in_known_edges",
+      "distance_min": 213.60679774997897,
+      "distance_max": 233.60679774997897,
+      "threshold_status": "outside"
+    },
+    {
+      "time": 1,
+      "source": "C",
+      "target": "A",
+      "straight_metres": 300.0,
+      "minutes": 1,
+      "path": [
+        "CB",
+        "ZERO_BA"
+      ],
+      "status": "reachable",
+      "distance_min": 290.0,
+      "distance_max": 310.0,
+      "threshold_status": "outside"
+    },
+    {
+      "time": 1,
+      "source": "C",
+      "target": "B",
+      "straight_metres": 200.0,
+      "minutes": 1,
+      "path": [
+        "CB"
+      ],
+      "status": "reachable",
+      "distance_min": 190.0,
+      "distance_max": 210.0,
+      "threshold_status": "outside"
+    },
+    {
+      "time": 1,
+      "source": "C",
+      "target": "C",
+      "straight_metres": 0.0,
+      "minutes": 0,
+      "path": [],
+      "status": "reachable",
+      "distance_min": 0,
+      "distance_max": 0.0,
+      "threshold_status": "inside"
+    },
+    {
+      "time": 1,
+      "source": "C",
+      "target": "D",
+      "straight_metres": 316.22776601683796,
+      "minutes": null,
+      "path": [],
+      "status": "unreachable_in_known_edges",
+      "distance_min": 316.22776601683796,
+      "distance_max": 316.22776601683796,
+      "threshold_status": "outside"
+    },
+    {
+      "time": 1,
+      "source": "C",
+      "target": "E",
+      "straight_metres": 100.0,
+      "minutes": null,
+      "path": [],
+      "status": "unreachable_in_known_edges",
+      "distance_min": 100.0,
+      "distance_max": 100.0,
+      "threshold_status": "inside"
+    },
+    {
+      "time": 1,
+      "source": "D",
+      "target": "A",
+      "straight_metres": 100.0,
+      "minutes": 5,
+      "path": [
+        "DC",
+        "CB",
+        "ZERO_BA"
+      ],
+      "status": "reachable",
+      "distance_min": 90.0,
+      "distance_max": 110.0,
+      "threshold_status": "uncertain"
+    },
+    {
+      "time": 1,
+      "source": "D",
+      "target": "B",
+      "straight_metres": 141.4213562373095,
+      "minutes": 5,
+      "path": [
+        "DC",
+        "CB"
+      ],
+      "status": "reachable",
+      "distance_min": 131.4213562373095,
+      "distance_max": 151.4213562373095,
+      "threshold_status": "outside"
+    },
+    {
+      "time": 1,
+      "source": "D",
+      "target": "C",
+      "straight_metres": 316.22776601683796,
+      "minutes": 4,
+      "path": [
+        "DC"
+      ],
+      "status": "reachable",
+      "distance_min": 316.22776601683796,
+      "distance_max": 316.22776601683796,
+      "threshold_status": "outside"
+    },
+    {
+      "time": 1,
+      "source": "D",
+      "target": "D",
+      "straight_metres": 0.0,
+      "minutes": 0,
+      "path": [],
+      "status": "reachable",
+      "distance_min": 0,
+      "distance_max": 0.0,
+      "threshold_status": "inside"
+    },
+    {
+      "time": 1,
+      "source": "D",
+      "target": "E",
+      "straight_metres": 300.0,
+      "minutes": null,
+      "path": [],
+      "status": "unreachable_in_known_edges",
+      "distance_min": 300.0,
+      "distance_max": 300.0,
+      "threshold_status": "outside"
+    },
+    {
+      "time": 1,
+      "source": "E",
+      "target": "A",
+      "straight_metres": 316.22776601683796,
+      "minutes": null,
+      "path": [],
+      "status": "unreachable_in_known_edges",
+      "distance_min": 306.22776601683796,
+      "distance_max": 326.22776601683796,
+      "threshold_status": "outside"
+    },
+    {
+      "time": 1,
+      "source": "E",
+      "target": "B",
+      "straight_metres": 223.60679774997897,
+      "minutes": null,
+      "path": [],
+      "status": "unreachable_in_known_edges",
+      "distance_min": 213.60679774997897,
+      "distance_max": 233.60679774997897,
+      "threshold_status": "outside"
+    },
+    {
+      "time": 1,
+      "source": "E",
+      "target": "C",
+      "straight_metres": 100.0,
+      "minutes": null,
+      "path": [],
+      "status": "unreachable_in_known_edges",
+      "distance_min": 100.0,
+      "distance_max": 100.0,
+      "threshold_status": "inside"
+    },
+    {
+      "time": 1,
+      "source": "E",
+      "target": "D",
+      "straight_metres": 300.0,
+      "minutes": null,
+      "path": [],
+      "status": "unreachable_in_known_edges",
+      "distance_min": 300.0,
+      "distance_max": 300.0,
+      "threshold_status": "outside"
+    },
+    {
+      "time": 1,
+      "source": "E",
+      "target": "E",
+      "straight_metres": 0.0,
+      "minutes": 0,
+      "path": [],
+      "status": "reachable",
+      "distance_min": 0,
+      "distance_max": 0.0,
+      "threshold_status": "inside"
+    },
+    {
+      "time": 1,
+      "source": "MULTI",
+      "target": "A",
+      "minutes": 0,
+      "selected_source": "A",
+      "path": []
+    },
+    {
+      "time": 1,
+      "source": "MULTI",
+      "target": "B",
+      "minutes": 0,
+      "selected_source": "A",
+      "path": [
+        "ZERO_AB"
+      ]
+    },
+    {
+      "time": 1,
+      "source": "MULTI",
+      "target": "C",
+      "minutes": 4,
+      "selected_source": "D",
+      "path": [
+        "DC"
+      ]
+    },
+    {
+      "time": 1,
+      "source": "MULTI",
+      "target": "D",
+      "minutes": 0,
+      "selected_source": "D",
+      "path": []
+    },
+    {
+      "time": 1,
+      "source": "MULTI",
+      "target": "E",
+      "minutes": null,
+      "selected_source": null,
+      "path": []
+    },
+    {
+      "time": 2,
+      "source": "A",
+      "target": "A",
+      "straight_metres": 0.0,
+      "minutes": 0,
+      "path": [],
+      "status": "reachable",
+      "distance_min": 0,
+      "distance_max": 20.0,
+      "threshold_status": "inside"
+    },
+    {
+      "time": 2,
+      "source": "A",
+      "target": "B",
+      "straight_metres": 100.0,
+      "minutes": 0,
+      "path": [
+        "ZERO_AB"
+      ],
+      "status": "reachable",
+      "distance_min": 80.0,
+      "distance_max": 120.0,
+      "threshold_status": "uncertain"
+    },
+    {
+      "time": 2,
+      "source": "A",
+      "target": "C",
+      "straight_metres": 300.0,
+      "minutes": 5,
+      "path": [
+        "AC"
+      ],
+      "status": "reachable",
+      "distance_min": 290.0,
+      "distance_max": 310.0,
+      "threshold_status": "outside"
+    },
+    {
+      "time": 2,
+      "source": "A",
+      "target": "D",
+      "straight_metres": 100.0,
+      "minutes": null,
+      "path": [],
+      "status": "unreachable_in_known_edges",
+      "distance_min": 90.0,
+      "distance_max": 110.0,
+      "threshold_status": "uncertain"
+    },
+    {
+      "time": 2,
+      "source": "A",
+      "target": "E",
+      "straight_metres": 316.22776601683796,
+      "minutes": 8,
+      "path": [
+        "AE"
+      ],
+      "status": "reachable",
+      "distance_min": 306.22776601683796,
+      "distance_max": 326.22776601683796,
+      "threshold_status": "outside"
+    },
+    {
+      "time": 2,
+      "source": "B",
+      "target": "A",
+      "straight_metres": 100.0,
+      "minutes": 0,
+      "path": [
+        "ZERO_BA"
+      ],
+      "status": "reachable",
+      "distance_min": 80.0,
+      "distance_max": 120.0,
+      "threshold_status": "uncertain"
+    },
+    {
+      "time": 2,
+      "source": "B",
+      "target": "B",
+      "straight_metres": 0.0,
+      "minutes": 0,
+      "path": [],
+      "status": "reachable",
+      "distance_min": 0,
+      "distance_max": 20.0,
+      "threshold_status": "inside"
+    },
+    {
+      "time": 2,
+      "source": "B",
+      "target": "C",
+      "straight_metres": 200.0,
+      "minutes": 5,
+      "path": [
+        "ZERO_BA",
+        "AC"
+      ],
+      "status": "reachable",
+      "distance_min": 190.0,
+      "distance_max": 210.0,
+      "threshold_status": "outside"
+    },
+    {
+      "time": 2,
+      "source": "B",
+      "target": "D",
+      "straight_metres": 141.4213562373095,
+      "minutes": null,
+      "path": [],
+      "status": "unreachable_in_known_edges",
+      "distance_min": 131.4213562373095,
+      "distance_max": 151.4213562373095,
+      "threshold_status": "outside"
+    },
+    {
+      "time": 2,
+      "source": "B",
+      "target": "E",
+      "straight_metres": 223.60679774997897,
+      "minutes": 8,
+      "path": [
+        "ZERO_BA",
+        "AE"
+      ],
+      "status": "reachable",
+      "distance_min": 213.60679774997897,
+      "distance_max": 233.60679774997897,
+      "threshold_status": "outside"
+    },
+    {
+      "time": 2,
+      "source": "C",
+      "target": "A",
+      "straight_metres": 300.0,
+      "minutes": 1,
+      "path": [
+        "CB",
+        "ZERO_BA"
+      ],
+      "status": "reachable",
+      "distance_min": 290.0,
+      "distance_max": 310.0,
+      "threshold_status": "outside"
+    },
+    {
+      "time": 2,
+      "source": "C",
+      "target": "B",
+      "straight_metres": 200.0,
+      "minutes": 1,
+      "path": [
+        "CB"
+      ],
+      "status": "reachable",
+      "distance_min": 190.0,
+      "distance_max": 210.0,
+      "threshold_status": "outside"
+    },
+    {
+      "time": 2,
+      "source": "C",
+      "target": "C",
+      "straight_metres": 0.0,
+      "minutes": 0,
+      "path": [],
+      "status": "reachable",
+      "distance_min": 0,
+      "distance_max": 0.0,
+      "threshold_status": "inside"
+    },
+    {
+      "time": 2,
+      "source": "C",
+      "target": "D",
+      "straight_metres": 316.22776601683796,
+      "minutes": null,
+      "path": [],
+      "status": "unreachable_in_known_edges",
+      "distance_min": 316.22776601683796,
+      "distance_max": 316.22776601683796,
+      "threshold_status": "outside"
+    },
+    {
+      "time": 2,
+      "source": "C",
+      "target": "E",
+      "straight_metres": 100.0,
+      "minutes": 9,
+      "path": [
+        "CB",
+        "ZERO_BA",
+        "AE"
+      ],
+      "status": "reachable",
+      "distance_min": 100.0,
+      "distance_max": 100.0,
+      "threshold_status": "inside"
+    },
+    {
+      "time": 2,
+      "source": "D",
+      "target": "A",
+      "straight_metres": 100.0,
+      "minutes": 5,
+      "path": [
+        "DC",
+        "CB",
+        "ZERO_BA"
+      ],
+      "status": "reachable",
+      "distance_min": 90.0,
+      "distance_max": 110.0,
+      "threshold_status": "uncertain"
+    },
+    {
+      "time": 2,
+      "source": "D",
+      "target": "B",
+      "straight_metres": 141.4213562373095,
+      "minutes": 5,
+      "path": [
+        "DC",
+        "CB"
+      ],
+      "status": "reachable",
+      "distance_min": 131.4213562373095,
+      "distance_max": 151.4213562373095,
+      "threshold_status": "outside"
+    },
+    {
+      "time": 2,
+      "source": "D",
+      "target": "C",
+      "straight_metres": 316.22776601683796,
+      "minutes": 4,
+      "path": [
+        "DC"
+      ],
+      "status": "reachable",
+      "distance_min": 316.22776601683796,
+      "distance_max": 316.22776601683796,
+      "threshold_status": "outside"
+    },
+    {
+      "time": 2,
+      "source": "D",
+      "target": "D",
+      "straight_metres": 0.0,
+      "minutes": 0,
+      "path": [],
+      "status": "reachable",
+      "distance_min": 0,
+      "distance_max": 0.0,
+      "threshold_status": "inside"
+    },
+    {
+      "time": 2,
+      "source": "D",
+      "target": "E",
+      "straight_metres": 300.0,
+      "minutes": 13,
+      "path": [
+        "DC",
+        "CB",
+        "ZERO_BA",
+        "AE"
+      ],
+      "status": "reachable",
+      "distance_min": 300.0,
+      "distance_max": 300.0,
+      "threshold_status": "outside"
+    },
+    {
+      "time": 2,
+      "source": "E",
+      "target": "A",
+      "straight_metres": 316.22776601683796,
+      "minutes": null,
+      "path": [],
+      "status": "unreachable_in_known_edges",
+      "distance_min": 306.22776601683796,
+      "distance_max": 326.22776601683796,
+      "threshold_status": "outside"
+    },
+    {
+      "time": 2,
+      "source": "E",
+      "target": "B",
+      "straight_metres": 223.60679774997897,
+      "minutes": null,
+      "path": [],
+      "status": "unreachable_in_known_edges",
+      "distance_min": 213.60679774997897,
+      "distance_max": 233.60679774997897,
+      "threshold_status": "outside"
+    },
+    {
+      "time": 2,
+      "source": "E",
+      "target": "C",
+      "straight_metres": 100.0,
+      "minutes": null,
+      "path": [],
+      "status": "unreachable_in_known_edges",
+      "distance_min": 100.0,
+      "distance_max": 100.0,
+      "threshold_status": "inside"
+    },
+    {
+      "time": 2,
+      "source": "E",
+      "target": "D",
+      "straight_metres": 300.0,
+      "minutes": null,
+      "path": [],
+      "status": "unreachable_in_known_edges",
+      "distance_min": 300.0,
+      "distance_max": 300.0,
+      "threshold_status": "outside"
+    },
+    {
+      "time": 2,
+      "source": "E",
+      "target": "E",
+      "straight_metres": 0.0,
+      "minutes": 0,
+      "path": [],
+      "status": "reachable",
+      "distance_min": 0,
+      "distance_max": 0.0,
+      "threshold_status": "inside"
+    },
+    {
+      "time": 2,
+      "source": "MULTI",
+      "target": "A",
+      "minutes": 0,
+      "selected_source": "A",
+      "path": []
+    },
+    {
+      "time": 2,
+      "source": "MULTI",
+      "target": "B",
+      "minutes": 0,
+      "selected_source": "A",
+      "path": [
+        "ZERO_AB"
+      ]
+    },
+    {
+      "time": 2,
+      "source": "MULTI",
+      "target": "C",
+      "minutes": 4,
+      "selected_source": "D",
+      "path": [
+        "DC"
+      ]
+    },
+    {
+      "time": 2,
+      "source": "MULTI",
+      "target": "D",
+      "minutes": 0,
+      "selected_source": "D",
+      "path": []
+    },
+    {
+      "time": 2,
+      "source": "MULTI",
+      "target": "E",
+      "minutes": 8,
+      "selected_source": "A",
+      "path": [
+        "AE"
+      ]
+    }
+  ],
+  "excluded_edges": [
+    {
+      "time": 1,
+      "edge": "AD",
+      "reason": "inactive"
+    },
+    {
+      "time": 1,
+      "edge": "BE",
+      "reason": "unknown_cost"
+    },
+    {
+      "time": 1,
+      "edge": "AE",
+      "reason": "outside_period"
+    },
+    {
+      "time": 2,
+      "edge": "AD",
+      "reason": "inactive"
+    },
+    {
+      "time": 2,
+      "edge": "BE",
+      "reason": "unknown_cost"
+    }
+  ],
+  "adjacency": [
+    {
+      "a": "P",
+      "b": "Q",
+      "rook": true,
+      "queen": true
+    },
+    {
+      "a": "P",
+      "b": "R",
+      "rook": false,
+      "queen": true
+    },
+    {
+      "a": "Q",
+      "b": "R",
+      "rook": true,
+      "queen": true
+    }
+  ],
+  "tie_rule": "strictly better distance; heap by node id; outgoing edges by edge id; one representative only"
+}

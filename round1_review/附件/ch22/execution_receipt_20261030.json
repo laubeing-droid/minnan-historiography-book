@@ -1,0 +1,29 @@
+{
+  "review_date": "2026-10-30",
+  "scope": "Actual command execution and specified numerical/structural checks, not a certificate of historical facts.",
+  "file_names": "NOT_RUN suffix preserved from writing version; current status is recorded here.",
+  "results": [
+    {
+      "name": "question_cards",
+      "chapter": "ch22",
+      "script": "inspect_question_cards_NOT_RUN.py",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch22/inspect_question_cards_NOT_RUN.py"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "status": "EXECUTED_PASS",
+      "stdout": "question_cards.stdout",
+      "stderr": "question_cards.stderr"
+    }
+  ],
+  "repairs": [
+    {
+      "issue": "null and empty list treated as populated required field",
+      "control": "next_step=null; materials=[]",
+      "after": "two missing fields detected; original 3 cards pass"
+    }
+  ]
+}

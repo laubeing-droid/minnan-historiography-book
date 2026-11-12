@@ -1,0 +1,5 @@
+node_a,node_b,event_count,event_ids,source_locations,status
+C,D,1,T04,X2/t04,derived_from_given_synthetic_events
+D,F,1,T07,X3/t07,derived_from_given_synthetic_events
+E,F,1,T06,X3/t06,derived_from_given_synthetic_events
+F,G,1,T08,X4/t08,derived_from_given_synthetic_events

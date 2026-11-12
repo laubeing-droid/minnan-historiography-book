@@ -1,0 +1,35 @@
+{
+  "section": "10.6",
+  "title": "LLM-as-Judge协议",
+  "status": "EXECUTED_PASS",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "judge",
+  "rows": [
+    {
+      "id": "J1",
+      "item": "Q1",
+      "order": "AB",
+      "human": "B",
+      "judge": "A",
+      "reason": "预置教学意见偏爱较长回答"
+    },
+    {
+      "id": "J2",
+      "item": "Q1",
+      "order": "BA",
+      "human": "B",
+      "judge": "B",
+      "reason": "预置教学意见随位置改变"
+    },
+    {
+      "id": "J3",
+      "item": "Q2",
+      "order": "AB",
+      "human": "tie",
+      "judge": "tie",
+      "reason": "两者均保留状态"
+    }
+  ],
+  "config": {},
+  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
+}

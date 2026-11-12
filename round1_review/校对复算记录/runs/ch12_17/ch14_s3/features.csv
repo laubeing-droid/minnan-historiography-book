@@ -1,0 +1,10 @@
+﻿area,id,length,reason,status,type
+,P1,,,accepted,Point
+,P2,,,accepted,Point
+,L1,7.0,,accepted,LineString
+12.0,A1,,,accepted,Polygon
+,bad_open,,unclosed ring,rejected,Polygon
+,bad_cross,,self intersection/contact,rejected,Polygon
+,bad_duplicate,,repeated node,rejected,LineString
+,unknown,,unknown geometry,rejected,Point
+,bad_range,,requires bounded integer 2D coordinates,rejected,Point

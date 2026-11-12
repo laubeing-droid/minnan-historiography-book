@@ -1,0 +1,6 @@
+﻿covered,event_per_opportunity,events,opportunities,region,sites,unresolved,valid_records
+True,0.5,2,4,A,1,0,3
+True,0.25,2,8,B,1,1,2
+True,0.5,1,2,C,1,0,1
+True,,0,0,D,0,0,0
+False,,,,E,,0,

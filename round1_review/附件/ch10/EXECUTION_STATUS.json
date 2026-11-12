@@ -1,0 +1,189 @@
+{
+  "status": "EXECUTED_PASS",
+  "date": "2026-10-30",
+  "scope": "只对本章下列实际输入/命令及报告中的边界有效；共享脚本其他章分支并非在每个副本逐一独立运行。",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "linux"
+  },
+  "script_sha256": "2573d9dc39a21faa129106521216a8ab6a75988af373b19c8938fae30351c58b",
+  "sections": [
+    {
+      "section": "10.1",
+      "title": "Prompt模板设计",
+      "mode": "prompt",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "NON_RUNNING_TEMPLATE",
+      "scope_note": "仅渲染提示，模型回答NOT_RUN",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.1/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "9150b9622cecc8f40dba4993b970b297550c67178e106a2c0fee578ff5f03719"
+    },
+    {
+      "section": "10.2",
+      "title": "Few-shot示例选择与k-shot评测协议",
+      "mode": "fewshot",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "NON_RUNNING_TEMPLATE",
+      "scope_note": "仅渲染few-shot提示，模型回答NOT_RUN",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.2/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "be76d3041cda4fd531c93a7e8f259fd84eb09f63f24da0ea2a1e47ea58a8420f"
+    },
+    {
+      "section": "10.3",
+      "title": "Prompt敏感度分析",
+      "mode": "sensitivity",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "TEACHING_CALCULATION",
+      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.3/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "ea5cb0297951356559a796f18166e91771285c0e21c69cee80ff33b923de48a0"
+    },
+    {
+      "section": "10.4",
+      "title": "n-gram评测：BLEU与ROUGE",
+      "mode": "overlap",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "TEACHING_CALCULATION",
+      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.4/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "c1722486c339108b0f7a712b08dc875cfe96df0be8e1eac2db680b2c0d7aeaac"
+    },
+    {
+      "section": "10.5",
+      "title": "人工评估金标准与质量控制",
+      "mode": "ratings",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "TEACHING_CALCULATION",
+      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.5/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "743f668d7e7c5c7472696f7701c2eee3635481d95e0b82ed7564e65a922222bd"
+    },
+    {
+      "section": "10.6",
+      "title": "LLM-as-Judge协议",
+      "mode": "judge",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "TEACHING_CALCULATION",
+      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.6/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "e5c22adbf46b47453f892058c3d219ef6181301f088bd94195eccb564de76860"
+    },
+    {
+      "section": "10.7",
+      "title": "Bootstrap置信区间",
+      "mode": "bootstrap",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "TEACHING_CALCULATION",
+      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.7/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "afe0563f5385fc9df3282a303ad025175d08f946c8baa839f031675907db22e0"
+    },
+    {
+      "section": "10.8",
+      "title": "McNemar检验",
+      "mode": "mcnemar",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "TEACHING_CALCULATION",
+      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.8/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "dbac8705a43889058460a6c7c975b35338d217896ffd6f238d6fefef3ec28b69"
+    },
+    {
+      "section": "10.9",
+      "title": "幻觉的评测与缓解",
+      "mode": "claims",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "TEACHING_CALCULATION",
+      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.9/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "52d354844f707c8f6c64c7349954b10df6f0dd0b6f3520b1cfb2a6e3dad1551c"
+    },
+    {
+      "section": "10.10",
+      "title": "Model Card与Datasheet for Datasets",
+      "mode": "card",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "NON_RUNNING_TEMPLATE",
+      "scope_note": "应用/数据卡结构检查，不是模型实验",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.10/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "041cc1d468982198f2d8217a95aa371d98fc52f3c22bfd4f1465c3cd9182b9f0"
+    }
+  ],
+  "model_calls": "NOT_RUN",
+  "real_feature_extraction": "NOT_RUN",
+  "public_benchmark_runs": "NOT_RUN",
+  "blank_worksheets_and_result_templates": "NON_RUNNING_TEMPLATE",
+  "fixture_embedded_statuses": "教学追踪行、卡片、示例配置中的NOT_RUN保留其原对象含义，不因运行检查器而改成模型完成。",
+  "report": "../../../reports/recompute_ch07_11.md",
+  "raw_final_manifest": "../../../runs/ch07_11/verified/manifest.json"
+}

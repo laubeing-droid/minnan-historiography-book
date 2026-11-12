@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch14/workflow.py", line 191, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch14/workflow.py", line 180, in main
+    result=[reconcile,affine,geometry,boundaries,uncertainty][args.section-1](d)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch14/workflow.py", line 67, in affine
+    q=solve(A,b);coef[key]=[q[0]-q[1]*mu/scale-q[2]*mv/scale,q[1]/scale,q[2]/scale]
+      ^^^^^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch14/workflow.py", line 45, in solve
+    if abs(a[p][i])<1e-12:raise ValueError('singular normal matrix / collinear controls')
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: singular normal matrix / collinear controls

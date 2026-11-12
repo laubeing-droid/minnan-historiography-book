@@ -1,0 +1,16 @@
+# ==== 源资产与归档（仅存本地，不上远端）====
+*.zip
+*.pdf
+
+# ==== 隐私（原始对话与内部线程，仅存本地）====
+用户观点原始记录与索引/
+slack*
+**/slack*
+
+# ==== 本机工件 ====
+__pycache__/
+_scratch_*/
+.zcode/*
+node_modules/
+Thumbs.db
+.DS_Store

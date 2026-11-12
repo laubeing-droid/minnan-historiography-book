@@ -1,0 +1,15 @@
+{
+  "section": "10.7",
+  "title": "Bootstrap置信区间",
+  "status": "NOT_RUN",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "bootstrap",
+  "rows": [],
+  "config": {
+    "seed": 17,
+    "resamples": 2000,
+    "confidence": 0.95,
+    "unit": "source",
+    "method": "percentile"
+  }
+}

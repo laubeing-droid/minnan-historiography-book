@@ -1,0 +1,213 @@
+{
+  "fiction": true,
+  "crs": "LOCAL_METRE_PLANE",
+  "window": [
+    1700,
+    1709
+  ],
+  "regions": [
+    {
+      "id": "A",
+      "rect": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "start": 1700,
+      "end": 1709,
+      "covered": true,
+      "opportunities": 4
+    },
+    {
+      "id": "B",
+      "rect": [
+        100,
+        0,
+        200,
+        100
+      ],
+      "start": 1700,
+      "end": 1709,
+      "covered": true,
+      "opportunities": 8
+    },
+    {
+      "id": "C",
+      "rect": [
+        200,
+        0,
+        300,
+        100
+      ],
+      "start": 1700,
+      "end": 1709,
+      "covered": true,
+      "opportunities": 2
+    },
+    {
+      "id": "D",
+      "rect": [
+        300,
+        0,
+        400,
+        100
+      ],
+      "start": 1700,
+      "end": 1709,
+      "covered": true,
+      "opportunities": 0
+    },
+    {
+      "id": "E",
+      "rect": [
+        400,
+        0,
+        500,
+        100
+      ],
+      "start": 1700,
+      "end": 1709,
+      "covered": false,
+      "opportunities": null
+    }
+  ],
+  "sites": [
+    {
+      "id": "S_A",
+      "x": 20,
+      "y": 20,
+      "start": 1700,
+      "end": 1709
+    },
+    {
+      "id": "S_B",
+      "x": 120,
+      "y": 20,
+      "start": 1700,
+      "end": 1709
+    },
+    {
+      "id": "S_C",
+      "x": 220,
+      "y": 20,
+      "start": 1700,
+      "end": 1709
+    },
+    {
+      "id": "S_old",
+      "x": 220,
+      "y": 30,
+      "start": 1700,
+      "end": 1699
+    }
+  ],
+  "records": [
+    {
+      "id": "R01",
+      "event": "E01",
+      "site": "S_A",
+      "year": 1701,
+      "source": "S1",
+      "status": "confirmed"
+    },
+    {
+      "id": "R02",
+      "event": "E01",
+      "site": "S_A",
+      "year": 1701,
+      "source": "S3",
+      "status": "confirmed"
+    },
+    {
+      "id": "R03",
+      "event": "E02",
+      "site": "S_A",
+      "year": 1702,
+      "source": "S1",
+      "status": "confirmed"
+    },
+    {
+      "id": "R04",
+      "event": "E03",
+      "site": "S_B",
+      "year": 1703,
+      "source": "S1",
+      "status": "confirmed"
+    },
+    {
+      "id": "R05",
+      "event": "E04",
+      "site": "S_B",
+      "year": 1704,
+      "source": "S2",
+      "status": "confirmed"
+    },
+    {
+      "id": "R06",
+      "event": null,
+      "site": "S_B",
+      "year": 1704,
+      "source": "S2",
+      "status": "unresolved"
+    },
+    {
+      "id": "R07",
+      "event": "E05",
+      "site": "S_C",
+      "year": 1705,
+      "source": "S2",
+      "status": "confirmed"
+    },
+    {
+      "id": "R08",
+      "event": "E06",
+      "site": "S_A",
+      "year": 1690,
+      "source": "S1",
+      "status": "confirmed"
+    },
+    {
+      "id": "R09",
+      "event": null,
+      "site": "S_C",
+      "year": null,
+      "source": "S2",
+      "status": "unresolved"
+    },
+    {
+      "id": "R10",
+      "event": "E07",
+      "site": "S_old",
+      "year": 1705,
+      "source": "S2",
+      "status": "confirmed"
+    }
+  ],
+  "coverage": [
+    {
+      "source": "S1",
+      "regions": [
+        "A",
+        "B",
+        "D"
+      ],
+      "copied_from": null
+    },
+    {
+      "source": "S2",
+      "regions": [
+        "B",
+        "C"
+      ],
+      "copied_from": null
+    },
+    {
+      "source": "S3",
+      "regions": [
+        "A"
+      ],
+      "copied_from": "S1"
+    }
+  ]
+}

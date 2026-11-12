@@ -1,0 +1,725 @@
+{
+  "phase": "before",
+  "tests": [
+    {
+      "name": "empty_binary",
+      "section": "8.1",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch07_11/before_boundaries/empty_binary.input.json"
+      ],
+      "exit_code": 0,
+      "status": "EXECUTED_PASS",
+      "reason": "空二分类分母不得虚构零分。",
+      "result": {
+        "all_negative": {
+          "n": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "tn": 0,
+          "accuracy": null,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "literal": {
+          "rows": [],
+          "metrics": {
+            "n": 0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "tn": 0,
+            "accuracy": null,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          }
+        }
+      },
+      "stderr": ""
+    },
+    {
+      "name": "invalid_binary",
+      "section": "8.1",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch07_11/before_boundaries/invalid_binary.input.json"
+      ],
+      "exit_code": 1,
+      "status": "EXECUTED_PASS",
+      "reason": "非0/1标签必须拒绝。",
+      "result": null,
+      "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py\", line 340, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py\", line 337, in main\n    result=run(data,path.parent)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py\", line 242, in run\n    if mode=='baseline':return {'all_negative':binary_metrics([r['gold'] for r in rows],[0]*len(rows)),'literal':rule_result(rows)}\n                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py\", line 24, in binary_metrics\n    if not set(gold+pred)<= {0,1}: raise ValueError('binary values must be 0 or 1')\n                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: binary values must be 0 or 1\n"
+    },
+    {
+      "name": "zero_coverage",
+      "section": "7.5",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch07_11/before_boundaries/zero_coverage.input.json"
+      ],
+      "exit_code": 0,
+      "status": "EXECUTED_PASS",
+      "reason": "覆盖和准确率零分母应为null。",
+      "result": [
+        {
+          "id": "zero",
+          "available": 0,
+          "readable": 0,
+          "evaluated": 0,
+          "correct": 0,
+          "readable_fraction": null,
+          "evaluation_coverage": null,
+          "accuracy": null
+        }
+      ],
+      "stderr": ""
+    },
+    {
+      "name": "invalid_coverage",
+      "section": "7.5",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch07_11/before_boundaries/invalid_coverage.input.json"
+      ],
+      "exit_code": 1,
+      "status": "EXECUTED_PASS",
+      "reason": "correct不得超过evaluated。",
+      "result": null,
+      "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py\", line 340, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py\", line 337, in main\n    result=run(data,path.parent)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py\", line 239, in run\n    if mode=='coverage':return coverage(rows)\n                               ^^^^^^^^^^^^^^\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py\", line 57, in coverage\n    if not 0<=r['correct']<=r['evaluated']<=r['readable']<=r['available']: raise ValueError('invalid coverage funnel')\n                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: invalid coverage funnel\n"
+    },
+    {
+      "name": "empty_agreement",
+      "section": "7.4",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch07_11/before_boundaries/empty_agreement.input.json"
+      ],
+      "exit_code": 0,
+      "status": "EXECUTED_PASS",
+      "reason": "无记录一致率及kappa未定义。",
+      "result": {
+        "n": 0,
+        "agreement": null,
+        "kappa": null
+      },
+      "stderr": ""
+    },
+    {
+      "name": "constant_agreement",
+      "section": "7.4",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch07_11/before_boundaries/constant_agreement.input.json"
+      ],
+      "exit_code": 0,
+      "status": "EXECUTED_PASS",
+      "reason": "完全同类机会一致=1时kappa未定义。",
+      "result": {
+        "n": 2,
+        "agreement": 1.0,
+        "expected_agreement": 1.0,
+        "kappa": null,
+        "disagreements": []
+      },
+      "stderr": ""
+    },
+    {
+      "name": "missing_observed_amount",
+      "section": "7.3",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch07_11/before_boundaries/missing_observed_amount.input.json"
+      ],
+      "exit_code": 1,
+      "status": "EXECUTED_PASS",
+      "reason": "observed缺值不得按零处理。",
+      "result": null,
+      "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py\", line 340, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py\", line 337, in main\n    result=run(data,path.parent)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py\", line 237, in run\n    observed=[r for r in rows if r['state']=='observed'];return {'states':dict(collections.Counter(r['state'] for r in rows)),'total_rows':len(rows),'observed_rows':len(observed),'observed_sum':sum(float(r['amount']) for r in observed),'unresolved_ids':[r['id'] for r in rows if r['state']!='observed']}\n                                                                                                                                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py\", line 237, in <genexpr>\n    observed=[r for r in rows if r['state']=='observed'];return {'states':dict(collections.Counter(r['state'] for r in rows)),'total_rows':len(rows),'observed_rows':len(observed),'observed_sum':sum(float(r['amount']) for r in observed),'unresolved_ids':[r['id'] for r in rows if r['state']!='observed']}\n                                                                                                                                                                                                      ^^^^^^^^^^^^^^^^^^\nValueError: could not convert string to float: ''\n"
+    },
+    {
+      "name": "transitive_split",
+      "section": "7.6",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch07_11/before_boundaries/transitive_split.input.json"
+      ],
+      "exit_code": 0,
+      "status": "EXECUTED_PASS",
+      "reason": "关联图传递闭包必须跨person/source检测。",
+      "result": [
+        {
+          "ids": [
+            "a",
+            "b",
+            "c"
+          ],
+          "splits": [
+            "dev",
+            "test",
+            "train"
+          ],
+          "crosses_split": true
+        }
+      ],
+      "stderr": ""
+    },
+    {
+      "name": "duplicate_prediction_id",
+      "section": "8.7",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch07_11/before_boundaries/duplicate_prediction_id.input.json"
+      ],
+      "exit_code": 1,
+      "status": "EXECUTED_PASS",
+      "reason": "预测编号重复必须报错，不覆盖字典。",
+      "result": null,
+      "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py\", line 340, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py\", line 337, in main\n    result=run(data,path.parent)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py\", line 268, in run\n    unique(rows,'prediction_id');pred={r['prediction_id']:r['prediction'] for r in rows}\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py\", line 18, in unique\n    raise ValueError('duplicate '+key)\nValueError: duplicate prediction_id\n"
+    },
+    {
+      "name": "overlapping_literal",
+      "section": "8.6",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch07_11/before_boundaries/overlapping_literal.input.json"
+      ],
+      "exit_code": 0,
+      "status": "EXECUTED_PASS",
+      "reason": "重叠字面命中、左闭右开位置。",
+      "result": [
+        {
+          "id": "a",
+          "spans": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ]
+        }
+      ],
+      "stderr": ""
+    },
+    {
+      "name": "missing_literal",
+      "section": "8.6",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch07_11/before_boundaries/missing_literal.input.json"
+      ],
+      "exit_code": 1,
+      "status": "EXECUTED_PASS",
+      "reason": "缺文字显式失败，不能补成空或零。",
+      "result": null,
+      "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py\", line 340, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py\", line 337, in main\n    result=run(data,path.parent)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py\", line 262, in run\n    i=s.find(q,start)\n      ^^^^^^\nAttributeError: 'NoneType' object has no attribute 'find'\n"
+    },
+    {
+      "name": "invalid_sampling_size",
+      "section": "8.4",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch07_11/before_boundaries/invalid_sampling_size.input.json"
+      ],
+      "exit_code": 1,
+      "status": "EXECUTED_PASS",
+      "reason": "样本量超过总体需明确拒绝。",
+      "result": null,
+      "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py\", line 340, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py\", line 337, in main\n    result=run(data,path.parent)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py\", line 251, in run\n    if not 0<=cfg['sample_size']<=len(ordered):raise ValueError('sample size out of range')\n                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: sample size out of range\n"
+    },
+    {
+      "name": "zero_cosine",
+      "section": "9.4",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch07_11/before_boundaries/zero_cosine.input.json"
+      ],
+      "exit_code": 0,
+      "status": "EXECUTED_PASS",
+      "reason": "零向量余弦未定义。",
+      "result": [
+        {
+          "left": "V01",
+          "right": "V02",
+          "cosine": null
+        },
+        {
+          "left": "V01",
+          "right": "V03",
+          "cosine": null
+        },
+        {
+          "left": "V02",
+          "right": "V03",
+          "cosine": 0.062159480485665
+        }
+      ],
+      "stderr": ""
+    },
+    {
+      "name": "dimension_mismatch",
+      "section": "9.4",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch07_11/before_boundaries/dimension_mismatch.input.json"
+      ],
+      "exit_code": 1,
+      "status": "EXECUTED_PASS",
+      "reason": "向量维数不符不得zip静默截断。",
+      "result": null,
+      "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/workbook.py\", line 340, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/workbook.py\", line 337, in main\n    result=run(data,path.parent)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/workbook.py\", line 280, in run\n    if mode=='vectors':return [{'left':a['id'],'right':b['id'],'cosine':cosine(a['vector'],b['vector'])} for i,a in enumerate(rows) for b in rows[i+1:]]\n                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/workbook.py\", line 81, in cosine\n    if len(a)!=len(b): raise ValueError('vector dimensions differ')\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: vector dimensions differ\n"
+    },
+    {
+      "name": "truncated_tensor",
+      "section": "9.2",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch07_11/before_boundaries/truncated_tensor.input.json"
+      ],
+      "exit_code": 0,
+      "status": "EXECUTED_PASS",
+      "reason": "截断必须保留标记与张量长度。",
+      "result": {
+        "pad_id": 0,
+        "vocabulary": {
+          "。": 1,
+          "丙": 2,
+          "东": 3,
+          "乙": 4,
+          "埠": 5,
+          "岸": 6,
+          "未": 7,
+          "甲": 8,
+          "至": 9,
+          "议": 10,
+          "迁": 11
+        },
+        "shape": [
+          3,
+          3
+        ],
+        "rows": [
+          {
+            "id": "N01",
+            "input_ids": [
+              8,
+              5,
+              10
+            ],
+            "attention_mask": [
+              1,
+              1,
+              1
+            ],
+            "label": 0,
+            "truncated": true
+          },
+          {
+            "id": "N02",
+            "input_ids": [
+              4,
+              5,
+              11
+            ],
+            "attention_mask": [
+              1,
+              1,
+              1
+            ],
+            "label": 1,
+            "truncated": true
+          },
+          {
+            "id": "N03",
+            "input_ids": [
+              2,
+              5,
+              7
+            ],
+            "attention_mask": [
+              1,
+              1,
+              1
+            ],
+            "label": 0,
+            "truncated": true
+          }
+        ],
+        "note": "Character teaching encoding, not a pretrained tokenizer."
+      },
+      "stderr": ""
+    },
+    {
+      "name": "fewshot_source_overlap",
+      "section": "10.2",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch07_11/before_boundaries/fewshot_source_overlap.input.json"
+      ],
+      "exit_code": 1,
+      "status": "EXECUTED_PASS",
+      "reason": "示例与测试来源重叠必须报错。",
+      "result": null,
+      "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py\", line 340, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py\", line 337, in main\n    result=run(data,path.parent)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py\", line 289, in run\n    if {r['source'] for r in examples}&{r['source'] for r in tests}:raise ValueError('example/test source overlap')\n                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: example/test source overlap\n"
+    },
+    {
+      "name": "fewshot_excess_k",
+      "section": "10.2",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch07_11/before_boundaries/fewshot_excess_k.input.json"
+      ],
+      "exit_code": 1,
+      "status": "EXECUTED_PASS",
+      "reason": "k不可超过示例池。",
+      "result": null,
+      "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py\", line 340, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py\", line 337, in main\n    result=run(data,path.parent)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py\", line 291, in run\n    if k>len(examples):raise ValueError('not enough eligible examples')\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: not enough eligible examples\n"
+    },
+    {
+      "name": "bootstrap_empty",
+      "section": "10.7",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch07_11/before_boundaries/bootstrap_empty.input.json"
+      ],
+      "exit_code": 1,
+      "status": "EXECUTED_PASS",
+      "reason": "空bootstrap样本明确拒绝。",
+      "result": null,
+      "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py\", line 340, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py\", line 337, in main\n    result=run(data,path.parent)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py\", line 305, in run\n    if mode=='bootstrap':return bootstrap(rows,cfg)\n                                ^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py\", line 93, in bootstrap\n    if not rows: raise ValueError('empty bootstrap sample')\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: empty bootstrap sample\n"
+    },
+    {
+      "name": "bootstrap_unknown_unit",
+      "section": "10.7",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch07_11/before_boundaries/bootstrap_unknown_unit.input.json"
+      ],
+      "exit_code": 0,
+      "status": "FAIL",
+      "reason": "拼错重采样单位不得静默退回逐行，避免违反来源相关性口径。",
+      "result": {
+        "n_rows": 6,
+        "n_sampling_units": 6,
+        "unit": "soruce",
+        "method": "percentile linear quantiles",
+        "difference_b_minus_a": 0.16666666666666666,
+        "interval": [
+          -0.3333333333333333,
+          0.6666666666666666
+        ],
+        "resamples": 2000,
+        "seed": 17
+      },
+      "stderr": ""
+    },
+    {
+      "name": "bootstrap_zero_resamples",
+      "section": "10.7",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch07_11/before_boundaries/bootstrap_zero_resamples.input.json"
+      ],
+      "exit_code": 0,
+      "status": "FAIL",
+      "reason": "零次重采样不应冒充完成区间。",
+      "result": {
+        "n_rows": 6,
+        "n_sampling_units": 3,
+        "unit": "source",
+        "method": "percentile linear quantiles",
+        "difference_b_minus_a": 0.16666666666666666,
+        "interval": [
+          null,
+          null
+        ],
+        "resamples": 0,
+        "seed": 17
+      },
+      "stderr": ""
+    },
+    {
+      "name": "mcnemar_no_discordance",
+      "section": "10.8",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch07_11/before_boundaries/mcnemar_no_discordance.input.json"
+      ],
+      "exit_code": 0,
+      "status": "EXECUTED_PASS",
+      "reason": "无不一致对精确p=1。",
+      "result": {
+        "both_correct": 1,
+        "only_a": 0,
+        "only_b": 0,
+        "both_wrong": 0,
+        "discordant": 0,
+        "two_sided_exact_p": 1.0,
+        "assumption": "Independent paired units required; this six-row fixture shares sources."
+      },
+      "stderr": ""
+    },
+    {
+      "name": "empty_foreground",
+      "section": "11.3",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch07_11/before_boundaries/empty_foreground.input.json"
+      ],
+      "exit_code": 0,
+      "status": "EXECUTED_PASS",
+      "reason": "空前景并集=0排除而非伪造前景满分。",
+      "result": [
+        {
+          "id": "x",
+          "classes": {
+            "0": {
+              "intersection": 2,
+              "union": 2,
+              "iou": 1.0
+            },
+            "1": {
+              "intersection": 0,
+              "union": 0,
+              "iou": null
+            }
+          },
+          "miou_including_background": 1.0,
+          "foreground_iou": null
+        }
+      ],
+      "stderr": ""
+    },
+    {
+      "name": "mask_shape_mismatch",
+      "section": "11.3",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch07_11/before_boundaries/mask_shape_mismatch.input.json"
+      ],
+      "exit_code": 1,
+      "status": "EXECUTED_PASS",
+      "reason": "掩膜shape不一致显式报错。",
+      "result": null,
+      "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py\", line 340, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py\", line 337, in main\n    result=run(data,path.parent)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py\", line 310, in run\n    if mode=='segmentation':return segmentation(rows)\n                                   ^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py\", line 219, in segmentation\n    if len(g)!=len(p) or any(len(a)!=len(b) for a,b in zip(g,p)):raise ValueError('mask shape mismatch')\n                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: mask shape mismatch\n"
+    },
+    {
+      "name": "duplicate_nested_detection_id",
+      "section": "11.7",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch07_11/before_boundaries/duplicate_nested_detection_id.input.json"
+      ],
+      "exit_code": 0,
+      "status": "FAIL",
+      "reason": "嵌套指标输入也应遵守本节编号唯一。",
+      "result": {
+        "classification": {
+          "n": 2,
+          "top1": 0.5
+        },
+        "detection": {
+          "matches": [
+            {
+              "id": "D01",
+              "label": "seal",
+              "score": 0.9,
+              "matched_id": "D01",
+              "best_iou": 1.0,
+              "tp": 1
+            },
+            {
+              "id": "D04",
+              "label": "text",
+              "score": 0.8,
+              "matched_id": null,
+              "best_iou": 0,
+              "tp": 0
+            },
+            {
+              "id": "D03",
+              "label": "seal",
+              "score": 0.7,
+              "matched_id": null,
+              "best_iou": 0,
+              "tp": 0
+            }
+          ],
+          "missed_ids": [],
+          "ap_noninterpolated_per_class": {
+            "seal": 1.0
+          },
+          "mean_ap_at_one_threshold": 1.0,
+          "protocol": "teaching non-interpolated AP at a single IoU threshold; not COCO AP"
+        },
+        "segmentation": [
+          {
+            "id": "M1",
+            "classes": {
+              "0": {
+                "intersection": 12,
+                "union": 13,
+                "iou": 0.9230769230769231
+              },
+              "1": {
+                "intersection": 3,
+                "union": 4,
+                "iou": 0.75
+              }
+            },
+            "miou_including_background": 0.8365384615384616,
+            "foreground_iou": 0.75
+          }
+        ]
+      },
+      "stderr": ""
+    },
+    {
+      "name": "empty_longtail",
+      "section": "11.8",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch07_11/before_boundaries/empty_longtail.input.json"
+      ],
+      "exit_code": 1,
+      "status": "FAIL",
+      "reason": "README通用承诺：零分母输出null。",
+      "result": null,
+      "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py\", line 340, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py\", line 337, in main\n    result=run(data,path.parent)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py\", line 323, in run\n    return {'per_class':per,'macro_recall':sum(r['recall'] for r in per)/len(per),'micro_accuracy':div(sum(r['label']==r['pred'] for r in rows),len(rows))}\n                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\nZeroDivisionError: division by zero\n"
+    },
+    {
+      "name": "all_rejected",
+      "section": "11.9",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch07_11/before_boundaries/all_rejected.input.json"
+      ],
+      "exit_code": 0,
+      "status": "EXECUTED_PASS",
+      "reason": "全拒识时覆盖为0，接受准确率未定义。",
+      "result": [
+        {
+          "source": "blur",
+          "n": 2,
+          "accepted": 0,
+          "correct_accepted": 0,
+          "coverage": 0.0,
+          "accepted_accuracy": null,
+          "correct_accepted_per_all": 0.0
+        },
+        {
+          "source": "clean",
+          "n": 2,
+          "accepted": 0,
+          "correct_accepted": 0,
+          "coverage": 0.0,
+          "accepted_accuracy": null,
+          "correct_accepted_per_all": 0.0
+        }
+      ],
+      "stderr": ""
+    },
+    {
+      "name": "score_fractional_prediction",
+      "section": "8.8",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.8/score_predictions.py",
+        "--predictions",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch07_11/before_boundaries/score_fractional_prediction.input.json",
+        "--reference",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.8/reference.csv"
+      ],
+      "exit_code": 0,
+      "status": "FAIL",
+      "reason": "非二值1.7不得先int截断为1再判合法。",
+      "stderr": ""
+    }
+  ],
+  "passed": 22,
+  "failed": 5
+}

@@ -1,0 +1,598 @@
+[
+  {
+    "check": "12/constant_scale_one",
+    "pass": true
+  },
+  {
+    "check": "12/no_original_observations",
+    "pass": true
+  },
+  {
+    "check": "13.7/future_values_do_not_change_validation",
+    "pass": true
+  },
+  {
+    "check": "13.7/duplicate_history",
+    "pass": true
+  },
+  {
+    "check": "13.7/duplicate_truth",
+    "pass": true
+  },
+  {
+    "check": "13.6/invalid_season",
+    "pass": true
+  },
+  {
+    "check": "15.3/bug_after_ch15_missing/status",
+    "pass": true
+  },
+  {
+    "check": "15.3/bug_after_ch15_missing/opportunity_status",
+    "pass": true
+  },
+  {
+    "check": "15.3/bug_after_ch15_missing/preserve_six_regions",
+    "pass": true
+  },
+  {
+    "check": "15.3/bug_after_ch15_missing/no_permutations",
+    "pass": true
+  },
+  {
+    "check": "15.3/edge_ch15_missing_opportunities/status",
+    "pass": true
+  },
+  {
+    "check": "15.3/edge_ch15_missing_opportunities/opportunity_status",
+    "pass": true
+  },
+  {
+    "check": "15.3/edge_ch15_missing_opportunities/preserve_six_regions",
+    "pass": true
+  },
+  {
+    "check": "15.3/edge_ch15_zero_opportunities/status",
+    "pass": true
+  },
+  {
+    "check": "15.3/edge_ch15_zero_opportunities/opportunity_status",
+    "pass": true
+  },
+  {
+    "check": "15.3/edge_ch15_zero_opportunities/preserve_six_regions",
+    "pass": true
+  },
+  {
+    "check": "15.3/edge_ch15_constant/status",
+    "pass": true
+  },
+  {
+    "check": "15.3/edge_ch15_constant/opportunity_status",
+    "pass": true
+  },
+  {
+    "check": "15.3/edge_ch15_constant/preserve_six_regions",
+    "pass": true
+  },
+  {
+    "check": "15.3/edge_ch15_constant/no_permutations",
+    "pass": true
+  },
+  {
+    "check": "15.3/edge_ch15_no_weights/status",
+    "pass": true
+  },
+  {
+    "check": "15.3/edge_ch15_no_weights/opportunity_status",
+    "pass": true
+  },
+  {
+    "check": "15.3/edge_ch15_no_weights/preserve_six_regions",
+    "pass": true
+  },
+  {
+    "check": "15.3/edge_ch15_no_weights/no_permutations",
+    "pass": true
+  },
+  {
+    "check": "15.4/no_weight_renormalization",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_cost/A/A",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/ZERO_AB",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/ZERO_AB",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_cost/A/B",
+    "pass": true
+  },
+  {
+    "check": "15.2/zero_AB",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/AC",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/AC",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_cost/A/C",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/ZERO_BA",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/ZERO_BA",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_cost/B/A",
+    "pass": true
+  },
+  {
+    "check": "15.2/zero_AB",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_cost/B/B",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/ZERO_BA",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/ZERO_BA",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/AC",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/AC",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_cost/B/C",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/CB",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/CB",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/ZERO_BA",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/ZERO_BA",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_cost/C/A",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/CB",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/CB",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_cost/C/B",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_cost/C/C",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/DC",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/DC",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/CB",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/CB",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/ZERO_BA",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/ZERO_BA",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_cost/D/A",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/DC",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/DC",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/CB",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/CB",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_cost/D/B",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/DC",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/DC",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_cost/D/C",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_cost/D/D",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_cost/E/E",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_cost/A/A",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/ZERO_AB",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/ZERO_AB",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_cost/A/B",
+    "pass": true
+  },
+  {
+    "check": "15.2/zero_AB",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/AC",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/AC",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_cost/A/C",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/AE",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/AE",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_cost/A/E",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/ZERO_BA",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/ZERO_BA",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_cost/B/A",
+    "pass": true
+  },
+  {
+    "check": "15.2/zero_AB",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_cost/B/B",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/ZERO_BA",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/ZERO_BA",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/AC",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/AC",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_cost/B/C",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/ZERO_BA",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/ZERO_BA",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/AE",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/AE",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_cost/B/E",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/CB",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/CB",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/ZERO_BA",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/ZERO_BA",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_cost/C/A",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/CB",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/CB",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_cost/C/B",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_cost/C/C",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/CB",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/CB",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/ZERO_BA",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/ZERO_BA",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/AE",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/AE",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_cost/C/E",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/DC",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/DC",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/CB",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/CB",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/ZERO_BA",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/ZERO_BA",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_cost/D/A",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/DC",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/DC",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/CB",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/CB",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_cost/D/B",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/DC",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/DC",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_cost/D/C",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_cost/D/D",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/DC",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/DC",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/CB",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/CB",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/ZERO_BA",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/ZERO_BA",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_endpoint/AE",
+    "pass": true
+  },
+  {
+    "check": "15.2/no_zero_cycle/AE",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_cost/D/E",
+    "pass": true
+  },
+  {
+    "check": "15.2/path_cost/E/E",
+    "pass": true
+  },
+  {
+    "check": "16/all_overlapping_quote_positions",
+    "pass": true
+  },
+  {
+    "check": "16/empty_quote_refused",
+    "pass": true
+  },
+  {
+    "check": "16/unknown_year_none",
+    "pass": true
+  },
+  {
+    "check": "17/isolates_preserved/0",
+    "pass": true
+  },
+  {
+    "check": "17/density_empty_or_small/0",
+    "pass": true
+  },
+  {
+    "check": "17/isolates_preserved/1",
+    "pass": true
+  },
+  {
+    "check": "17/density_empty_or_small/1",
+    "pass": true
+  },
+  {
+    "check": "17/isolates_preserved/2",
+    "pass": true
+  },
+  {
+    "check": "17/density_empty_or_small/2",
+    "pass": true
+  },
+  {
+    "check": "17/self_loop_refused",
+    "pass": true
+  },
+  {
+    "check": "17/absent_endpoint_refused",
+    "pass": true
+  },
+  {
+    "check": "17/community_limit",
+    "pass": true
+  }
+]

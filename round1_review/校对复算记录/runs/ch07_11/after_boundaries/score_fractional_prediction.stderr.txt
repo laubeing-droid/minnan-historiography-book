@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.8/score_predictions.py", line 16, in <module>
+    pred=index(rows,'prediction');gold=index(reference,'gold')
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.8/score_predictions.py", line 13, in index
+    if value not in (0,1,'0','1'): raise ValueError('binary values required')
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: binary values required

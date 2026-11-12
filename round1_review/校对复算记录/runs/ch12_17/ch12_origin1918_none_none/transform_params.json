@@ -1,0 +1,16 @@
+{
+  "method": "none",
+  "series_id": "DEMO_PORT_A",
+  "train_start": 1900,
+  "origin": 1918,
+  "n_original_available": 14,
+  "mean": 17.928571428571427,
+  "scale": 6.595066183078353,
+  "variance_denominator": "n",
+  "constant_train": false,
+  "imputation": "none",
+  "fit_includes_imputed_values": false,
+  "fit_includes_future_values": false,
+  "inverse_transform": "identity",
+  "seasonality": "none_assumed"
+}

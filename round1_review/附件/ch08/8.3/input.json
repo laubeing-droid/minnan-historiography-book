@@ -1,0 +1,47 @@
+{
+  "section": "8.3",
+  "title": "消融树与组件贡献",
+  "status": "EXECUTED_PASS",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "ablation",
+  "rows": [
+    {
+      "id": "T01",
+      "source": "教学甲册",
+      "text": "甲书院停讲。",
+      "gold": 1
+    },
+    {
+      "id": "T02",
+      "source": "教学甲册",
+      "text": "甲书院未停讲。",
+      "gold": 0
+    },
+    {
+      "id": "T03",
+      "source": "教学乙册",
+      "text": "拟停讲，尚未执行。",
+      "gold": 0
+    },
+    {
+      "id": "T04",
+      "source": "教学乙册",
+      "text": "乙书院罢讲。",
+      "gold": 1
+    },
+    {
+      "id": "T05",
+      "source": "教学丙册",
+      "text": "丙书院照常开讲。",
+      "gold": 0
+    },
+    {
+      "id": "T06",
+      "source": "教学丙册",
+      "text": "丁书院停讲，次年复课。",
+      "gold": 1
+    }
+  ],
+  "config": {},
+  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
+}

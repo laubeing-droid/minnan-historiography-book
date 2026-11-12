@@ -1,0 +1,102 @@
+{
+  "fiction": true,
+  "cards": [
+    {
+      "id": "M1",
+      "written": 0,
+      "narrated": 0,
+      "author": "请求者",
+      "locator": "教材虚构卡M1第1段",
+      "text": "近来赴东岸者众，请修旧桥。",
+      "depends_on": []
+    },
+    {
+      "id": "M2",
+      "written": 1,
+      "narrated": 1,
+      "author": "工程记录者",
+      "locator": "教材虚构卡M2第1段",
+      "text": "桥成，翌日准行。",
+      "depends_on": []
+    },
+    {
+      "id": "M3",
+      "written": 2,
+      "narrated": 2,
+      "author": "行旅者",
+      "locator": "教材虚构卡M3第1段",
+      "text": "今循新桥入市。",
+      "depends_on": []
+    },
+    {
+      "id": "M4",
+      "written": 1,
+      "narrated": 1,
+      "author": "登记编者",
+      "locator": "教材虚构卡M4第1段",
+      "text": "自本期兼录小市。",
+      "depends_on": []
+    },
+    {
+      "id": "M5",
+      "written": 2,
+      "narrated": 1,
+      "author": "补抄者",
+      "locator": "教材虚构卡M5第1段",
+      "text": "据工记录：桥成，翌日准行。",
+      "depends_on": [
+        "M2"
+      ]
+    },
+    {
+      "id": "M6",
+      "written": 2,
+      "narrated": 2,
+      "author": "整理者",
+      "locator": "教材虚构卡M6第1段",
+      "text": "西岸册中叶散失。",
+      "depends_on": []
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H1",
+      "claim": "交通改善促进部分活动",
+      "cards": [
+        "M2",
+        "M3",
+        "M5",
+        "M1"
+      ],
+      "needed": [
+        "连续出行记录",
+        "未改道者材料",
+        "实际行为变化"
+      ]
+    },
+    {
+      "id": "H2",
+      "claim": "登记范围扩大增加记录",
+      "cards": [
+        "M4",
+        "M6"
+      ],
+      "needed": [
+        "共同口径连续登记",
+        "缺页范围"
+      ]
+    },
+    {
+      "id": "H3",
+      "claim": "活动需求推动修桥",
+      "cards": [
+        "M1",
+        "M2"
+      ],
+      "needed": [
+        "决策过程",
+        "资金组织与回应材料"
+      ]
+    }
+  ]
+}

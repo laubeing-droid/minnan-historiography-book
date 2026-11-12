@@ -1,0 +1,189 @@
+{
+  "status": "EXECUTED_PASS",
+  "date": "2026-10-30",
+  "scope": "只对本章下列实际输入/命令及报告中的边界有效；共享脚本其他章分支并非在每个副本逐一独立运行。",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "linux"
+  },
+  "script_sha256": "2573d9dc39a21faa129106521216a8ab6a75988af373b19c8938fae30351c58b",
+  "sections": [
+    {
+      "section": "11.1",
+      "title": "分类：从图片到类别概率向量",
+      "mode": "vision_class",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "TEACHING_CALCULATION",
+      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.1/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "039c9bf447f947ce85b9c379ed2195c7c96f851552d9a1b1f3770f7dc172bd3a"
+    },
+    {
+      "section": "11.2",
+      "title": "检测：bbox回归与分类的联合任务",
+      "mode": "detection",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "TEACHING_CALCULATION",
+      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.2/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "619220d1e4d9581814d539136e66702c1d588624d929c1c3d251a03a6eac7a93"
+    },
+    {
+      "section": "11.3",
+      "title": "分割：像素级分类与SAM提示分割",
+      "mode": "segmentation",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "TEACHING_CALCULATION",
+      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.3/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "4702b97c94898d74c1ecc7201b0c6826450758dbcf1725762d1754982211693c"
+    },
+    {
+      "section": "11.4",
+      "title": "从CNN到ViT：架构与迁移路线",
+      "mode": "architecture",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "TEACHING_CALCULATION",
+      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.4/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "d086c99ce7da936aec56845b09013ac6579221fa95e49fb30e52c47465b06486"
+    },
+    {
+      "section": "11.5",
+      "title": "DINOv2与特征质量评估",
+      "mode": "feature_eval",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "TEACHING_CALCULATION",
+      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.5/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "38ac96f7e796ced5f4ebbf5d56d6a1d807a098ff0d20d3913a847a6412155926"
+    },
+    {
+      "section": "11.6",
+      "title": "ImageNet/COCO/ADE20K：三大benchmark",
+      "mode": "benchmark",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "NON_RUNNING_TEMPLATE",
+      "scope_note": "基准映射模板，不是公开benchmark运行",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.6/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "73c39e9cedf1b4d7b5b8583aca2a4ad6b8dfdeabda6013e8cb23d1265f1601a7"
+    },
+    {
+      "section": "11.7",
+      "title": "Top-1/mAP/mIoU指标族",
+      "mode": "vision_metrics",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "TEACHING_CALCULATION",
+      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.7/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "22a7a5c6dc5a45c22c76b1fb81f89c2a53a34c0753becde636c3f2a26bcf51af"
+    },
+    {
+      "section": "11.8",
+      "title": "长尾分布与类别不平衡评测",
+      "mode": "longtail",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "TEACHING_CALCULATION",
+      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.8/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "22708c19707f309d149be5a684aeb556d5b6fb252bcc4a41dc3ffe3c938377f3"
+    },
+    {
+      "section": "11.9",
+      "title": "分布偏移与鲁棒性评测",
+      "mode": "shift",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "TEACHING_CALCULATION",
+      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.9/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "69ec88cb271e6566cb4d6ef99b83bd45e58a7ffcc73b2aebcbd789a866609d16"
+    },
+    {
+      "section": "11.10",
+      "title": "消融协议与控制变量",
+      "mode": "vision_ablation",
+      "status": "EXECUTED_PASS",
+      "artifact_type": "TEACHING_CALCULATION",
+      "scope_note": "合成输入或预置判断的计算；不据此证实历史结论",
+      "main_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.10/input.json"
+      ],
+      "main_exit_code": 0,
+      "input_sha256": "65e555e10301126c42a088161bfc4f4bca2739e4dc9439986e11428cb30d86c8"
+    }
+  ],
+  "model_calls": "NOT_RUN",
+  "real_feature_extraction": "NOT_RUN",
+  "public_benchmark_runs": "NOT_RUN",
+  "blank_worksheets_and_result_templates": "NON_RUNNING_TEMPLATE",
+  "fixture_embedded_statuses": "教学追踪行、卡片、示例配置中的NOT_RUN保留其原对象含义，不因运行检查器而改成模型完成。",
+  "report": "../../../reports/recompute_ch07_11.md",
+  "raw_final_manifest": "../../../runs/ch07_11/verified/manifest.json"
+}

@@ -1,0 +1,4 @@
+id,item,order,human,judge,reason
+J1,Q1,AB,B,A,预置教学意见偏爱较长回答
+J2,Q1,BA,B,B,预置教学意见随位置改变
+J3,Q2,AB,tie,tie,两者均保留状态

@@ -1,0 +1,5 @@
+id,source,original,label,pred,accepted
+R1,clean,O1,seal,seal,1
+R2,blur,O1,seal,photo,1
+R3,clean,O2,photo,photo,1
+R4,blur,O2,photo,photo,0

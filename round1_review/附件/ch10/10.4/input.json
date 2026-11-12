@@ -1,0 +1,25 @@
+{
+  "section": "10.4",
+  "title": "n-gram评测：BLEU与ROUGE",
+  "status": "EXECUTED_PASS",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "overlap",
+  "rows": [
+    {
+      "id": "G01",
+      "reference": "甲 渡 尚 未 迁",
+      "candidate": "甲 渡 已 经 迁"
+    },
+    {
+      "id": "G02",
+      "reference": "乙 渡 迁 至 东 岸",
+      "candidate": "乙 渡 已 迁 至 东 岸"
+    }
+  ],
+  "config": {
+    "bleu_order": 2,
+    "tokenization": "whitespace_authored",
+    "aggregation": "per_sentence_not_corpus"
+  },
+  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
+}

@@ -1,0 +1,14 @@
+assertion_id,instance_id,subject,relation_type,object,start_year,end_year,temporal_kind,event_id,source_id,locator,layer,judgment,judgment_reason,directed,included,reasons
+C1,R1,P1,member,O1,1701,1705,continuous_support,,S1,entry1,statement,accepted,给定教学判断,True,True,
+C2,R2,P2,member,O1,1703,1704,continuous_support,,S1,entry2,statement,accepted,给定教学判断,True,True,
+C3,R3,P1,participate,V1,1703,1703,event_year,V1,S2,entry1,statement,accepted,给定教学判断,True,True,
+C4,R4,P2,participate,V1,1703,1703,event_year,V1,S2,entry2,statement,accepted,给定教学判断,True,True,
+C5,R5,P1,send_letter,P2,1704,1704,event_year,V2,S3,letter1,statement,accepted,与C11同一次寄信,True,True,
+C11,R5,P1,send_letter,P2,1704,1704,event_year,V2,S4,copy1,statement,accepted,与C5同一次寄信；转抄非独立发生,True,True,
+C6,R6,P1,sibling,P2,1700,1710,evidence_support,,S5,entry1,statement,accepted,终年仅是教学证据支持范围,False,True,
+C7,R7,P3,father,P1,,,unknown,,S5,entry2,statement,pending,日期及关系判断待查,True,False,identity_pending:P3;relation_pending;unknown_date
+C8,R8,P3,participate,V1,1703,1703,event_year,V1,S2,entry3,statement,accepted,关系接受但P3身份待定,True,False,identity_pending:P3
+C9,R9,P1,acquainted,P2,1703,1703,event_year,,H1,hypothesis1,hypothesis,pending,不由共同参加升级为熟识事实,False,False,analysis_hypothesis;relation_pending
+C10,R10,P1,member,O1,1708,1709,continuous_support,,S1,entry3,statement,accepted,与R1之间支持年份留空,True,True,
+C12,R12,P4,member,O1,1702,1702,event_year,,S1,entry4,statement,rejected,教学判断已否定,True,False,relation_rejected
+C13,R13,P2,participate,V3,1708,1708,event_year,V3,S2,entry4,statement,accepted,给定教学判断,True,True,

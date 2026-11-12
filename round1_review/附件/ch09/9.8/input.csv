@@ -1,0 +1,4 @@
+id,language,script,genre,available,readable,evaluated,correct
+L01,中文,汉字,地方志,12,10,6,5
+L02,日文,汉字假名,调查报告,6,4,3,1
+L03,英文,拉丁字母,游记,4,4,2,1

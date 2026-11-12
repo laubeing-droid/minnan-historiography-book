@@ -1,0 +1,18 @@
+{
+  "bridges": [
+    [
+      "C",
+      "D"
+    ],
+    [
+      "F",
+      "G"
+    ]
+  ],
+  "articulation_points": [
+    "C",
+    "D",
+    "F"
+  ],
+  "meaning": "structural_removal_not_historical_intervention"
+}

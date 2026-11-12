@@ -1,0 +1,3157 @@
+{
+  "sensitivity_ranges": [
+    {
+      "partition": "fine",
+      "window": "early",
+      "location_version": "fine",
+      "zone": "A",
+      "configurations": 2,
+      "count_min": 2,
+      "count_max": 2,
+      "rate_min": 1.0,
+      "rate_max": 1.0,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "fine",
+      "window": "early",
+      "location_version": "fine",
+      "zone": "B",
+      "configurations": 2,
+      "count_min": 2,
+      "count_max": 3,
+      "rate_min": 0.5,
+      "rate_max": 0.75,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "fine",
+      "window": "early",
+      "location_version": "fine",
+      "zone": "C",
+      "configurations": 2,
+      "count_min": 1,
+      "count_max": 2,
+      "rate_min": 0.5,
+      "rate_max": 1.0,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "fine",
+      "window": "early",
+      "location_version": "fine",
+      "zone": "D",
+      "configurations": 2,
+      "count_min": 0,
+      "count_max": 0,
+      "rate_min": null,
+      "rate_max": null,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "fine",
+      "window": "early",
+      "location_version": "coarse",
+      "zone": "A",
+      "configurations": 4,
+      "count_min": 2,
+      "count_max": 3,
+      "rate_min": 1.0,
+      "rate_max": 1.5,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "fine",
+      "window": "early",
+      "location_version": "coarse",
+      "zone": "B",
+      "configurations": 4,
+      "count_min": 1,
+      "count_max": 3,
+      "rate_min": 0.25,
+      "rate_max": 0.75,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "fine",
+      "window": "early",
+      "location_version": "coarse",
+      "zone": "C",
+      "configurations": 4,
+      "count_min": 1,
+      "count_max": 2,
+      "rate_min": 0.5,
+      "rate_max": 1.0,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "fine",
+      "window": "early",
+      "location_version": "coarse",
+      "zone": "D",
+      "configurations": 4,
+      "count_min": 0,
+      "count_max": 0,
+      "rate_min": null,
+      "rate_max": null,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "fine",
+      "window": "long",
+      "location_version": "fine",
+      "zone": "A",
+      "configurations": 2,
+      "count_min": 2,
+      "count_max": 2,
+      "rate_min": 0.5,
+      "rate_max": 0.5,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "fine",
+      "window": "long",
+      "location_version": "fine",
+      "zone": "B",
+      "configurations": 2,
+      "count_min": 2,
+      "count_max": 3,
+      "rate_min": 0.3333333333333333,
+      "rate_max": 0.5,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "fine",
+      "window": "long",
+      "location_version": "fine",
+      "zone": "C",
+      "configurations": 2,
+      "count_min": 3,
+      "count_max": 4,
+      "rate_min": 0.75,
+      "rate_max": 1.0,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "fine",
+      "window": "long",
+      "location_version": "fine",
+      "zone": "D",
+      "configurations": 2,
+      "count_min": 1,
+      "count_max": 1,
+      "rate_min": 0.5,
+      "rate_max": 0.5,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "fine",
+      "window": "long",
+      "location_version": "coarse",
+      "zone": "A",
+      "configurations": 4,
+      "count_min": 2,
+      "count_max": 3,
+      "rate_min": 0.5,
+      "rate_max": 0.75,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "fine",
+      "window": "long",
+      "location_version": "coarse",
+      "zone": "B",
+      "configurations": 4,
+      "count_min": 1,
+      "count_max": 3,
+      "rate_min": 0.16666666666666666,
+      "rate_max": 0.5,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "fine",
+      "window": "long",
+      "location_version": "coarse",
+      "zone": "C",
+      "configurations": 4,
+      "count_min": 3,
+      "count_max": 4,
+      "rate_min": 0.75,
+      "rate_max": 1.0,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "fine",
+      "window": "long",
+      "location_version": "coarse",
+      "zone": "D",
+      "configurations": 4,
+      "count_min": 1,
+      "count_max": 1,
+      "rate_min": 0.5,
+      "rate_max": 0.5,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "west_east",
+      "window": "early",
+      "location_version": "fine",
+      "zone": "W",
+      "configurations": 2,
+      "count_min": 3,
+      "count_max": 4,
+      "rate_min": 0.75,
+      "rate_max": 1.0,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "west_east",
+      "window": "early",
+      "location_version": "fine",
+      "zone": "E",
+      "configurations": 2,
+      "count_min": 2,
+      "count_max": 3,
+      "rate_min": 0.5,
+      "rate_max": 0.75,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "west_east",
+      "window": "early",
+      "location_version": "coarse",
+      "zone": "W",
+      "configurations": 4,
+      "count_min": 3,
+      "count_max": 5,
+      "rate_min": 0.75,
+      "rate_max": 1.25,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "west_east",
+      "window": "early",
+      "location_version": "coarse",
+      "zone": "E",
+      "configurations": 4,
+      "count_min": 1,
+      "count_max": 3,
+      "rate_min": 0.25,
+      "rate_max": 0.75,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "west_east",
+      "window": "long",
+      "location_version": "fine",
+      "zone": "W",
+      "configurations": 2,
+      "count_min": 5,
+      "count_max": 6,
+      "rate_min": 0.625,
+      "rate_max": 0.75,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "west_east",
+      "window": "long",
+      "location_version": "fine",
+      "zone": "E",
+      "configurations": 2,
+      "count_min": 3,
+      "count_max": 4,
+      "rate_min": 0.375,
+      "rate_max": 0.5,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "west_east",
+      "window": "long",
+      "location_version": "coarse",
+      "zone": "W",
+      "configurations": 4,
+      "count_min": 5,
+      "count_max": 7,
+      "rate_min": 0.625,
+      "rate_max": 0.875,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "west_east",
+      "window": "long",
+      "location_version": "coarse",
+      "zone": "E",
+      "configurations": 4,
+      "count_min": 2,
+      "count_max": 4,
+      "rate_min": 0.25,
+      "rate_max": 0.5,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "south_north",
+      "window": "early",
+      "location_version": "fine",
+      "zone": "S",
+      "configurations": 2,
+      "count_min": 4,
+      "count_max": 5,
+      "rate_min": 0.6666666666666666,
+      "rate_max": 0.8333333333333334,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "south_north",
+      "window": "early",
+      "location_version": "fine",
+      "zone": "N",
+      "configurations": 2,
+      "count_min": 1,
+      "count_max": 2,
+      "rate_min": 0.5,
+      "rate_max": 1.0,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "south_north",
+      "window": "early",
+      "location_version": "coarse",
+      "zone": "S",
+      "configurations": 4,
+      "count_min": 4,
+      "count_max": 5,
+      "rate_min": 0.6666666666666666,
+      "rate_max": 0.8333333333333334,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "south_north",
+      "window": "early",
+      "location_version": "coarse",
+      "zone": "N",
+      "configurations": 4,
+      "count_min": 1,
+      "count_max": 2,
+      "rate_min": 0.5,
+      "rate_max": 1.0,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "south_north",
+      "window": "long",
+      "location_version": "fine",
+      "zone": "S",
+      "configurations": 2,
+      "count_min": 4,
+      "count_max": 5,
+      "rate_min": 0.4,
+      "rate_max": 0.5,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "south_north",
+      "window": "long",
+      "location_version": "fine",
+      "zone": "N",
+      "configurations": 2,
+      "count_min": 4,
+      "count_max": 5,
+      "rate_min": 0.6666666666666666,
+      "rate_max": 0.8333333333333334,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "south_north",
+      "window": "long",
+      "location_version": "coarse",
+      "zone": "S",
+      "configurations": 4,
+      "count_min": 4,
+      "count_max": 5,
+      "rate_min": 0.4,
+      "rate_max": 0.5,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "south_north",
+      "window": "long",
+      "location_version": "coarse",
+      "zone": "N",
+      "configurations": 4,
+      "count_min": 4,
+      "count_max": 5,
+      "rate_min": 0.6666666666666666,
+      "rate_max": 0.8333333333333334,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "all",
+      "window": "early",
+      "location_version": "fine",
+      "zone": "ALL",
+      "configurations": 2,
+      "count_min": 6,
+      "count_max": 6,
+      "rate_min": 0.75,
+      "rate_max": 0.75,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "all",
+      "window": "early",
+      "location_version": "coarse",
+      "zone": "ALL",
+      "configurations": 4,
+      "count_min": 6,
+      "count_max": 6,
+      "rate_min": 0.75,
+      "rate_max": 0.75,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "all",
+      "window": "long",
+      "location_version": "fine",
+      "zone": "ALL",
+      "configurations": 2,
+      "count_min": 9,
+      "count_max": 9,
+      "rate_min": 0.5625,
+      "rate_max": 0.5625,
+      "unlocated": [
+        "U"
+      ]
+    },
+    {
+      "partition": "all",
+      "window": "long",
+      "location_version": "coarse",
+      "zone": "ALL",
+      "configurations": 4,
+      "count_min": 9,
+      "count_max": 9,
+      "rate_min": 0.5625,
+      "rate_max": 0.5625,
+      "unlocated": [
+        "U"
+      ]
+    }
+  ],
+  "joint_configurations": [
+    {
+      "partition": "fine",
+      "window": "early",
+      "location_version": "fine",
+      "configuration": 0,
+      "zone": "A",
+      "observed_located_count": 2,
+      "complete_count": 2,
+      "opportunities": 2,
+      "covered": true,
+      "rate": 1.0,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "B",
+        "E5": "C",
+        "Q": "B"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "early",
+      "location_version": "fine",
+      "configuration": 0,
+      "zone": "B",
+      "observed_located_count": 3,
+      "complete_count": 3,
+      "opportunities": 4,
+      "covered": true,
+      "rate": 0.75,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "B",
+        "E5": "C",
+        "Q": "B"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "early",
+      "location_version": "fine",
+      "configuration": 0,
+      "zone": "C",
+      "observed_located_count": 1,
+      "complete_count": 1,
+      "opportunities": 2,
+      "covered": true,
+      "rate": 0.5,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "B",
+        "E5": "C",
+        "Q": "B"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "early",
+      "location_version": "fine",
+      "configuration": 0,
+      "zone": "D",
+      "observed_located_count": 0,
+      "complete_count": 0,
+      "opportunities": 0,
+      "covered": true,
+      "rate": null,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "B",
+        "E5": "C",
+        "Q": "B"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "early",
+      "location_version": "fine",
+      "configuration": 1,
+      "zone": "A",
+      "observed_located_count": 2,
+      "complete_count": 2,
+      "opportunities": 2,
+      "covered": true,
+      "rate": 1.0,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "B",
+        "E5": "C",
+        "Q": "C"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "early",
+      "location_version": "fine",
+      "configuration": 1,
+      "zone": "B",
+      "observed_located_count": 2,
+      "complete_count": 2,
+      "opportunities": 4,
+      "covered": true,
+      "rate": 0.5,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "B",
+        "E5": "C",
+        "Q": "C"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "early",
+      "location_version": "fine",
+      "configuration": 1,
+      "zone": "C",
+      "observed_located_count": 2,
+      "complete_count": 2,
+      "opportunities": 2,
+      "covered": true,
+      "rate": 1.0,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "B",
+        "E5": "C",
+        "Q": "C"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "early",
+      "location_version": "fine",
+      "configuration": 1,
+      "zone": "D",
+      "observed_located_count": 0,
+      "complete_count": 0,
+      "opportunities": 0,
+      "covered": true,
+      "rate": null,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "B",
+        "E5": "C",
+        "Q": "C"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 0,
+      "zone": "A",
+      "observed_located_count": 3,
+      "complete_count": 3,
+      "opportunities": 2,
+      "covered": true,
+      "rate": 1.5,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "A",
+        "E5": "C",
+        "Q": "B"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 0,
+      "zone": "B",
+      "observed_located_count": 2,
+      "complete_count": 2,
+      "opportunities": 4,
+      "covered": true,
+      "rate": 0.5,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "A",
+        "E5": "C",
+        "Q": "B"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 0,
+      "zone": "C",
+      "observed_located_count": 1,
+      "complete_count": 1,
+      "opportunities": 2,
+      "covered": true,
+      "rate": 0.5,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "A",
+        "E5": "C",
+        "Q": "B"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 0,
+      "zone": "D",
+      "observed_located_count": 0,
+      "complete_count": 0,
+      "opportunities": 0,
+      "covered": true,
+      "rate": null,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "A",
+        "E5": "C",
+        "Q": "B"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 1,
+      "zone": "A",
+      "observed_located_count": 3,
+      "complete_count": 3,
+      "opportunities": 2,
+      "covered": true,
+      "rate": 1.5,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "A",
+        "E5": "C",
+        "Q": "C"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 1,
+      "zone": "B",
+      "observed_located_count": 1,
+      "complete_count": 1,
+      "opportunities": 4,
+      "covered": true,
+      "rate": 0.25,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "A",
+        "E5": "C",
+        "Q": "C"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 1,
+      "zone": "C",
+      "observed_located_count": 2,
+      "complete_count": 2,
+      "opportunities": 2,
+      "covered": true,
+      "rate": 1.0,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "A",
+        "E5": "C",
+        "Q": "C"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 1,
+      "zone": "D",
+      "observed_located_count": 0,
+      "complete_count": 0,
+      "opportunities": 0,
+      "covered": true,
+      "rate": null,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "A",
+        "E5": "C",
+        "Q": "C"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 2,
+      "zone": "A",
+      "observed_located_count": 2,
+      "complete_count": 2,
+      "opportunities": 2,
+      "covered": true,
+      "rate": 1.0,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "B",
+        "E5": "C",
+        "Q": "B"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 2,
+      "zone": "B",
+      "observed_located_count": 3,
+      "complete_count": 3,
+      "opportunities": 4,
+      "covered": true,
+      "rate": 0.75,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "B",
+        "E5": "C",
+        "Q": "B"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 2,
+      "zone": "C",
+      "observed_located_count": 1,
+      "complete_count": 1,
+      "opportunities": 2,
+      "covered": true,
+      "rate": 0.5,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "B",
+        "E5": "C",
+        "Q": "B"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 2,
+      "zone": "D",
+      "observed_located_count": 0,
+      "complete_count": 0,
+      "opportunities": 0,
+      "covered": true,
+      "rate": null,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "B",
+        "E5": "C",
+        "Q": "B"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 3,
+      "zone": "A",
+      "observed_located_count": 2,
+      "complete_count": 2,
+      "opportunities": 2,
+      "covered": true,
+      "rate": 1.0,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "B",
+        "E5": "C",
+        "Q": "C"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 3,
+      "zone": "B",
+      "observed_located_count": 2,
+      "complete_count": 2,
+      "opportunities": 4,
+      "covered": true,
+      "rate": 0.5,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "B",
+        "E5": "C",
+        "Q": "C"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 3,
+      "zone": "C",
+      "observed_located_count": 2,
+      "complete_count": 2,
+      "opportunities": 2,
+      "covered": true,
+      "rate": 1.0,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "B",
+        "E5": "C",
+        "Q": "C"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 3,
+      "zone": "D",
+      "observed_located_count": 0,
+      "complete_count": 0,
+      "opportunities": 0,
+      "covered": true,
+      "rate": null,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "B",
+        "E5": "C",
+        "Q": "C"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "long",
+      "location_version": "fine",
+      "configuration": 0,
+      "zone": "A",
+      "observed_located_count": 2,
+      "complete_count": 2,
+      "opportunities": 4,
+      "covered": true,
+      "rate": 0.5,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "B",
+        "E5": "C",
+        "Q": "B",
+        "E6": "C",
+        "E7": "C",
+        "E8": "D"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "long",
+      "location_version": "fine",
+      "configuration": 0,
+      "zone": "B",
+      "observed_located_count": 3,
+      "complete_count": 3,
+      "opportunities": 6,
+      "covered": true,
+      "rate": 0.5,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "B",
+        "E5": "C",
+        "Q": "B",
+        "E6": "C",
+        "E7": "C",
+        "E8": "D"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "long",
+      "location_version": "fine",
+      "configuration": 0,
+      "zone": "C",
+      "observed_located_count": 3,
+      "complete_count": 3,
+      "opportunities": 4,
+      "covered": true,
+      "rate": 0.75,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "B",
+        "E5": "C",
+        "Q": "B",
+        "E6": "C",
+        "E7": "C",
+        "E8": "D"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "long",
+      "location_version": "fine",
+      "configuration": 0,
+      "zone": "D",
+      "observed_located_count": 1,
+      "complete_count": 1,
+      "opportunities": 2,
+      "covered": true,
+      "rate": 0.5,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "B",
+        "E5": "C",
+        "Q": "B",
+        "E6": "C",
+        "E7": "C",
+        "E8": "D"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "long",
+      "location_version": "fine",
+      "configuration": 1,
+      "zone": "A",
+      "observed_located_count": 2,
+      "complete_count": 2,
+      "opportunities": 4,
+      "covered": true,
+      "rate": 0.5,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "B",
+        "E5": "C",
+        "Q": "C",
+        "E6": "C",
+        "E7": "C",
+        "E8": "D"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "long",
+      "location_version": "fine",
+      "configuration": 1,
+      "zone": "B",
+      "observed_located_count": 2,
+      "complete_count": 2,
+      "opportunities": 6,
+      "covered": true,
+      "rate": 0.3333333333333333,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "B",
+        "E5": "C",
+        "Q": "C",
+        "E6": "C",
+        "E7": "C",
+        "E8": "D"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "long",
+      "location_version": "fine",
+      "configuration": 1,
+      "zone": "C",
+      "observed_located_count": 4,
+      "complete_count": 4,
+      "opportunities": 4,
+      "covered": true,
+      "rate": 1.0,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "B",
+        "E5": "C",
+        "Q": "C",
+        "E6": "C",
+        "E7": "C",
+        "E8": "D"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "long",
+      "location_version": "fine",
+      "configuration": 1,
+      "zone": "D",
+      "observed_located_count": 1,
+      "complete_count": 1,
+      "opportunities": 2,
+      "covered": true,
+      "rate": 0.5,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "B",
+        "E5": "C",
+        "Q": "C",
+        "E6": "C",
+        "E7": "C",
+        "E8": "D"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 0,
+      "zone": "A",
+      "observed_located_count": 3,
+      "complete_count": 3,
+      "opportunities": 4,
+      "covered": true,
+      "rate": 0.75,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "A",
+        "E5": "C",
+        "Q": "B",
+        "E6": "C",
+        "E7": "C",
+        "E8": "D"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 0,
+      "zone": "B",
+      "observed_located_count": 2,
+      "complete_count": 2,
+      "opportunities": 6,
+      "covered": true,
+      "rate": 0.3333333333333333,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "A",
+        "E5": "C",
+        "Q": "B",
+        "E6": "C",
+        "E7": "C",
+        "E8": "D"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 0,
+      "zone": "C",
+      "observed_located_count": 3,
+      "complete_count": 3,
+      "opportunities": 4,
+      "covered": true,
+      "rate": 0.75,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "A",
+        "E5": "C",
+        "Q": "B",
+        "E6": "C",
+        "E7": "C",
+        "E8": "D"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 0,
+      "zone": "D",
+      "observed_located_count": 1,
+      "complete_count": 1,
+      "opportunities": 2,
+      "covered": true,
+      "rate": 0.5,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "A",
+        "E5": "C",
+        "Q": "B",
+        "E6": "C",
+        "E7": "C",
+        "E8": "D"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 1,
+      "zone": "A",
+      "observed_located_count": 3,
+      "complete_count": 3,
+      "opportunities": 4,
+      "covered": true,
+      "rate": 0.75,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "A",
+        "E5": "C",
+        "Q": "C",
+        "E6": "C",
+        "E7": "C",
+        "E8": "D"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 1,
+      "zone": "B",
+      "observed_located_count": 1,
+      "complete_count": 1,
+      "opportunities": 6,
+      "covered": true,
+      "rate": 0.16666666666666666,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "A",
+        "E5": "C",
+        "Q": "C",
+        "E6": "C",
+        "E7": "C",
+        "E8": "D"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 1,
+      "zone": "C",
+      "observed_located_count": 4,
+      "complete_count": 4,
+      "opportunities": 4,
+      "covered": true,
+      "rate": 1.0,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "A",
+        "E5": "C",
+        "Q": "C",
+        "E6": "C",
+        "E7": "C",
+        "E8": "D"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 1,
+      "zone": "D",
+      "observed_located_count": 1,
+      "complete_count": 1,
+      "opportunities": 2,
+      "covered": true,
+      "rate": 0.5,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "A",
+        "E5": "C",
+        "Q": "C",
+        "E6": "C",
+        "E7": "C",
+        "E8": "D"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 2,
+      "zone": "A",
+      "observed_located_count": 2,
+      "complete_count": 2,
+      "opportunities": 4,
+      "covered": true,
+      "rate": 0.5,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "B",
+        "E5": "C",
+        "Q": "B",
+        "E6": "C",
+        "E7": "C",
+        "E8": "D"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 2,
+      "zone": "B",
+      "observed_located_count": 3,
+      "complete_count": 3,
+      "opportunities": 6,
+      "covered": true,
+      "rate": 0.5,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "B",
+        "E5": "C",
+        "Q": "B",
+        "E6": "C",
+        "E7": "C",
+        "E8": "D"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 2,
+      "zone": "C",
+      "observed_located_count": 3,
+      "complete_count": 3,
+      "opportunities": 4,
+      "covered": true,
+      "rate": 0.75,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "B",
+        "E5": "C",
+        "Q": "B",
+        "E6": "C",
+        "E7": "C",
+        "E8": "D"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 2,
+      "zone": "D",
+      "observed_located_count": 1,
+      "complete_count": 1,
+      "opportunities": 2,
+      "covered": true,
+      "rate": 0.5,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "B",
+        "E5": "C",
+        "Q": "B",
+        "E6": "C",
+        "E7": "C",
+        "E8": "D"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 3,
+      "zone": "A",
+      "observed_located_count": 2,
+      "complete_count": 2,
+      "opportunities": 4,
+      "covered": true,
+      "rate": 0.5,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "B",
+        "E5": "C",
+        "Q": "C",
+        "E6": "C",
+        "E7": "C",
+        "E8": "D"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 3,
+      "zone": "B",
+      "observed_located_count": 2,
+      "complete_count": 2,
+      "opportunities": 6,
+      "covered": true,
+      "rate": 0.3333333333333333,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "B",
+        "E5": "C",
+        "Q": "C",
+        "E6": "C",
+        "E7": "C",
+        "E8": "D"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 3,
+      "zone": "C",
+      "observed_located_count": 4,
+      "complete_count": 4,
+      "opportunities": 4,
+      "covered": true,
+      "rate": 1.0,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "B",
+        "E5": "C",
+        "Q": "C",
+        "E6": "C",
+        "E7": "C",
+        "E8": "D"
+      }
+    },
+    {
+      "partition": "fine",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 3,
+      "zone": "D",
+      "observed_located_count": 1,
+      "complete_count": 1,
+      "opportunities": 2,
+      "covered": true,
+      "rate": 0.5,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "A",
+        "E2": "A",
+        "E3": "B",
+        "E4": "B",
+        "E5": "C",
+        "Q": "C",
+        "E6": "C",
+        "E7": "C",
+        "E8": "D"
+      }
+    },
+    {
+      "partition": "west_east",
+      "window": "early",
+      "location_version": "fine",
+      "configuration": 0,
+      "zone": "W",
+      "observed_located_count": 3,
+      "complete_count": 3,
+      "opportunities": 4,
+      "covered": true,
+      "rate": 0.75,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "W",
+        "E2": "W",
+        "E3": "E",
+        "E4": "E",
+        "E5": "W",
+        "Q": "E"
+      }
+    },
+    {
+      "partition": "west_east",
+      "window": "early",
+      "location_version": "fine",
+      "configuration": 0,
+      "zone": "E",
+      "observed_located_count": 3,
+      "complete_count": 3,
+      "opportunities": 4,
+      "covered": true,
+      "rate": 0.75,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "W",
+        "E2": "W",
+        "E3": "E",
+        "E4": "E",
+        "E5": "W",
+        "Q": "E"
+      }
+    },
+    {
+      "partition": "west_east",
+      "window": "early",
+      "location_version": "fine",
+      "configuration": 1,
+      "zone": "W",
+      "observed_located_count": 4,
+      "complete_count": 4,
+      "opportunities": 4,
+      "covered": true,
+      "rate": 1.0,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "W",
+        "E2": "W",
+        "E3": "E",
+        "E4": "E",
+        "E5": "W",
+        "Q": "W"
+      }
+    },
+    {
+      "partition": "west_east",
+      "window": "early",
+      "location_version": "fine",
+      "configuration": 1,
+      "zone": "E",
+      "observed_located_count": 2,
+      "complete_count": 2,
+      "opportunities": 4,
+      "covered": true,
+      "rate": 0.5,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "W",
+        "E2": "W",
+        "E3": "E",
+        "E4": "E",
+        "E5": "W",
+        "Q": "W"
+      }
+    },
+    {
+      "partition": "west_east",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 0,
+      "zone": "W",
+      "observed_located_count": 4,
+      "complete_count": 4,
+      "opportunities": 4,
+      "covered": true,
+      "rate": 1.0,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "W",
+        "E2": "W",
+        "E3": "E",
+        "E4": "W",
+        "E5": "W",
+        "Q": "E"
+      }
+    },
+    {
+      "partition": "west_east",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 0,
+      "zone": "E",
+      "observed_located_count": 2,
+      "complete_count": 2,
+      "opportunities": 4,
+      "covered": true,
+      "rate": 0.5,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "W",
+        "E2": "W",
+        "E3": "E",
+        "E4": "W",
+        "E5": "W",
+        "Q": "E"
+      }
+    },
+    {
+      "partition": "west_east",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 1,
+      "zone": "W",
+      "observed_located_count": 5,
+      "complete_count": 5,
+      "opportunities": 4,
+      "covered": true,
+      "rate": 1.25,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "W",
+        "E2": "W",
+        "E3": "E",
+        "E4": "W",
+        "E5": "W",
+        "Q": "W"
+      }
+    },
+    {
+      "partition": "west_east",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 1,
+      "zone": "E",
+      "observed_located_count": 1,
+      "complete_count": 1,
+      "opportunities": 4,
+      "covered": true,
+      "rate": 0.25,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "W",
+        "E2": "W",
+        "E3": "E",
+        "E4": "W",
+        "E5": "W",
+        "Q": "W"
+      }
+    },
+    {
+      "partition": "west_east",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 2,
+      "zone": "W",
+      "observed_located_count": 3,
+      "complete_count": 3,
+      "opportunities": 4,
+      "covered": true,
+      "rate": 0.75,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "W",
+        "E2": "W",
+        "E3": "E",
+        "E4": "E",
+        "E5": "W",
+        "Q": "E"
+      }
+    },
+    {
+      "partition": "west_east",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 2,
+      "zone": "E",
+      "observed_located_count": 3,
+      "complete_count": 3,
+      "opportunities": 4,
+      "covered": true,
+      "rate": 0.75,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "W",
+        "E2": "W",
+        "E3": "E",
+        "E4": "E",
+        "E5": "W",
+        "Q": "E"
+      }
+    },
+    {
+      "partition": "west_east",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 3,
+      "zone": "W",
+      "observed_located_count": 4,
+      "complete_count": 4,
+      "opportunities": 4,
+      "covered": true,
+      "rate": 1.0,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "W",
+        "E2": "W",
+        "E3": "E",
+        "E4": "E",
+        "E5": "W",
+        "Q": "W"
+      }
+    },
+    {
+      "partition": "west_east",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 3,
+      "zone": "E",
+      "observed_located_count": 2,
+      "complete_count": 2,
+      "opportunities": 4,
+      "covered": true,
+      "rate": 0.5,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "W",
+        "E2": "W",
+        "E3": "E",
+        "E4": "E",
+        "E5": "W",
+        "Q": "W"
+      }
+    },
+    {
+      "partition": "west_east",
+      "window": "long",
+      "location_version": "fine",
+      "configuration": 0,
+      "zone": "W",
+      "observed_located_count": 5,
+      "complete_count": 5,
+      "opportunities": 8,
+      "covered": true,
+      "rate": 0.625,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "W",
+        "E2": "W",
+        "E3": "E",
+        "E4": "E",
+        "E5": "W",
+        "Q": "E",
+        "E6": "W",
+        "E7": "W",
+        "E8": "E"
+      }
+    },
+    {
+      "partition": "west_east",
+      "window": "long",
+      "location_version": "fine",
+      "configuration": 0,
+      "zone": "E",
+      "observed_located_count": 4,
+      "complete_count": 4,
+      "opportunities": 8,
+      "covered": true,
+      "rate": 0.5,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "W",
+        "E2": "W",
+        "E3": "E",
+        "E4": "E",
+        "E5": "W",
+        "Q": "E",
+        "E6": "W",
+        "E7": "W",
+        "E8": "E"
+      }
+    },
+    {
+      "partition": "west_east",
+      "window": "long",
+      "location_version": "fine",
+      "configuration": 1,
+      "zone": "W",
+      "observed_located_count": 6,
+      "complete_count": 6,
+      "opportunities": 8,
+      "covered": true,
+      "rate": 0.75,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "W",
+        "E2": "W",
+        "E3": "E",
+        "E4": "E",
+        "E5": "W",
+        "Q": "W",
+        "E6": "W",
+        "E7": "W",
+        "E8": "E"
+      }
+    },
+    {
+      "partition": "west_east",
+      "window": "long",
+      "location_version": "fine",
+      "configuration": 1,
+      "zone": "E",
+      "observed_located_count": 3,
+      "complete_count": 3,
+      "opportunities": 8,
+      "covered": true,
+      "rate": 0.375,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "W",
+        "E2": "W",
+        "E3": "E",
+        "E4": "E",
+        "E5": "W",
+        "Q": "W",
+        "E6": "W",
+        "E7": "W",
+        "E8": "E"
+      }
+    },
+    {
+      "partition": "west_east",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 0,
+      "zone": "W",
+      "observed_located_count": 6,
+      "complete_count": 6,
+      "opportunities": 8,
+      "covered": true,
+      "rate": 0.75,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "W",
+        "E2": "W",
+        "E3": "E",
+        "E4": "W",
+        "E5": "W",
+        "Q": "E",
+        "E6": "W",
+        "E7": "W",
+        "E8": "E"
+      }
+    },
+    {
+      "partition": "west_east",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 0,
+      "zone": "E",
+      "observed_located_count": 3,
+      "complete_count": 3,
+      "opportunities": 8,
+      "covered": true,
+      "rate": 0.375,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "W",
+        "E2": "W",
+        "E3": "E",
+        "E4": "W",
+        "E5": "W",
+        "Q": "E",
+        "E6": "W",
+        "E7": "W",
+        "E8": "E"
+      }
+    },
+    {
+      "partition": "west_east",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 1,
+      "zone": "W",
+      "observed_located_count": 7,
+      "complete_count": 7,
+      "opportunities": 8,
+      "covered": true,
+      "rate": 0.875,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "W",
+        "E2": "W",
+        "E3": "E",
+        "E4": "W",
+        "E5": "W",
+        "Q": "W",
+        "E6": "W",
+        "E7": "W",
+        "E8": "E"
+      }
+    },
+    {
+      "partition": "west_east",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 1,
+      "zone": "E",
+      "observed_located_count": 2,
+      "complete_count": 2,
+      "opportunities": 8,
+      "covered": true,
+      "rate": 0.25,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "W",
+        "E2": "W",
+        "E3": "E",
+        "E4": "W",
+        "E5": "W",
+        "Q": "W",
+        "E6": "W",
+        "E7": "W",
+        "E8": "E"
+      }
+    },
+    {
+      "partition": "west_east",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 2,
+      "zone": "W",
+      "observed_located_count": 5,
+      "complete_count": 5,
+      "opportunities": 8,
+      "covered": true,
+      "rate": 0.625,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "W",
+        "E2": "W",
+        "E3": "E",
+        "E4": "E",
+        "E5": "W",
+        "Q": "E",
+        "E6": "W",
+        "E7": "W",
+        "E8": "E"
+      }
+    },
+    {
+      "partition": "west_east",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 2,
+      "zone": "E",
+      "observed_located_count": 4,
+      "complete_count": 4,
+      "opportunities": 8,
+      "covered": true,
+      "rate": 0.5,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "W",
+        "E2": "W",
+        "E3": "E",
+        "E4": "E",
+        "E5": "W",
+        "Q": "E",
+        "E6": "W",
+        "E7": "W",
+        "E8": "E"
+      }
+    },
+    {
+      "partition": "west_east",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 3,
+      "zone": "W",
+      "observed_located_count": 6,
+      "complete_count": 6,
+      "opportunities": 8,
+      "covered": true,
+      "rate": 0.75,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "W",
+        "E2": "W",
+        "E3": "E",
+        "E4": "E",
+        "E5": "W",
+        "Q": "W",
+        "E6": "W",
+        "E7": "W",
+        "E8": "E"
+      }
+    },
+    {
+      "partition": "west_east",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 3,
+      "zone": "E",
+      "observed_located_count": 3,
+      "complete_count": 3,
+      "opportunities": 8,
+      "covered": true,
+      "rate": 0.375,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "W",
+        "E2": "W",
+        "E3": "E",
+        "E4": "E",
+        "E5": "W",
+        "Q": "W",
+        "E6": "W",
+        "E7": "W",
+        "E8": "E"
+      }
+    },
+    {
+      "partition": "south_north",
+      "window": "early",
+      "location_version": "fine",
+      "configuration": 0,
+      "zone": "S",
+      "observed_located_count": 5,
+      "complete_count": 5,
+      "opportunities": 6,
+      "covered": true,
+      "rate": 0.8333333333333334,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "S",
+        "E2": "S",
+        "E3": "S",
+        "E4": "S",
+        "E5": "N",
+        "Q": "S"
+      }
+    },
+    {
+      "partition": "south_north",
+      "window": "early",
+      "location_version": "fine",
+      "configuration": 0,
+      "zone": "N",
+      "observed_located_count": 1,
+      "complete_count": 1,
+      "opportunities": 2,
+      "covered": true,
+      "rate": 0.5,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "S",
+        "E2": "S",
+        "E3": "S",
+        "E4": "S",
+        "E5": "N",
+        "Q": "S"
+      }
+    },
+    {
+      "partition": "south_north",
+      "window": "early",
+      "location_version": "fine",
+      "configuration": 1,
+      "zone": "S",
+      "observed_located_count": 4,
+      "complete_count": 4,
+      "opportunities": 6,
+      "covered": true,
+      "rate": 0.6666666666666666,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "S",
+        "E2": "S",
+        "E3": "S",
+        "E4": "S",
+        "E5": "N",
+        "Q": "N"
+      }
+    },
+    {
+      "partition": "south_north",
+      "window": "early",
+      "location_version": "fine",
+      "configuration": 1,
+      "zone": "N",
+      "observed_located_count": 2,
+      "complete_count": 2,
+      "opportunities": 2,
+      "covered": true,
+      "rate": 1.0,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "S",
+        "E2": "S",
+        "E3": "S",
+        "E4": "S",
+        "E5": "N",
+        "Q": "N"
+      }
+    },
+    {
+      "partition": "south_north",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 0,
+      "zone": "S",
+      "observed_located_count": 5,
+      "complete_count": 5,
+      "opportunities": 6,
+      "covered": true,
+      "rate": 0.8333333333333334,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "S",
+        "E2": "S",
+        "E3": "S",
+        "E4": "S",
+        "E5": "N",
+        "Q": "S"
+      }
+    },
+    {
+      "partition": "south_north",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 0,
+      "zone": "N",
+      "observed_located_count": 1,
+      "complete_count": 1,
+      "opportunities": 2,
+      "covered": true,
+      "rate": 0.5,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "S",
+        "E2": "S",
+        "E3": "S",
+        "E4": "S",
+        "E5": "N",
+        "Q": "S"
+      }
+    },
+    {
+      "partition": "south_north",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 1,
+      "zone": "S",
+      "observed_located_count": 4,
+      "complete_count": 4,
+      "opportunities": 6,
+      "covered": true,
+      "rate": 0.6666666666666666,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "S",
+        "E2": "S",
+        "E3": "S",
+        "E4": "S",
+        "E5": "N",
+        "Q": "N"
+      }
+    },
+    {
+      "partition": "south_north",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 1,
+      "zone": "N",
+      "observed_located_count": 2,
+      "complete_count": 2,
+      "opportunities": 2,
+      "covered": true,
+      "rate": 1.0,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "S",
+        "E2": "S",
+        "E3": "S",
+        "E4": "S",
+        "E5": "N",
+        "Q": "N"
+      }
+    },
+    {
+      "partition": "south_north",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 2,
+      "zone": "S",
+      "observed_located_count": 5,
+      "complete_count": 5,
+      "opportunities": 6,
+      "covered": true,
+      "rate": 0.8333333333333334,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "S",
+        "E2": "S",
+        "E3": "S",
+        "E4": "S",
+        "E5": "N",
+        "Q": "S"
+      }
+    },
+    {
+      "partition": "south_north",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 2,
+      "zone": "N",
+      "observed_located_count": 1,
+      "complete_count": 1,
+      "opportunities": 2,
+      "covered": true,
+      "rate": 0.5,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "S",
+        "E2": "S",
+        "E3": "S",
+        "E4": "S",
+        "E5": "N",
+        "Q": "S"
+      }
+    },
+    {
+      "partition": "south_north",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 3,
+      "zone": "S",
+      "observed_located_count": 4,
+      "complete_count": 4,
+      "opportunities": 6,
+      "covered": true,
+      "rate": 0.6666666666666666,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "S",
+        "E2": "S",
+        "E3": "S",
+        "E4": "S",
+        "E5": "N",
+        "Q": "N"
+      }
+    },
+    {
+      "partition": "south_north",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 3,
+      "zone": "N",
+      "observed_located_count": 2,
+      "complete_count": 2,
+      "opportunities": 2,
+      "covered": true,
+      "rate": 1.0,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "S",
+        "E2": "S",
+        "E3": "S",
+        "E4": "S",
+        "E5": "N",
+        "Q": "N"
+      }
+    },
+    {
+      "partition": "south_north",
+      "window": "long",
+      "location_version": "fine",
+      "configuration": 0,
+      "zone": "S",
+      "observed_located_count": 5,
+      "complete_count": 5,
+      "opportunities": 10,
+      "covered": true,
+      "rate": 0.5,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "S",
+        "E2": "S",
+        "E3": "S",
+        "E4": "S",
+        "E5": "N",
+        "Q": "S",
+        "E6": "N",
+        "E7": "N",
+        "E8": "N"
+      }
+    },
+    {
+      "partition": "south_north",
+      "window": "long",
+      "location_version": "fine",
+      "configuration": 0,
+      "zone": "N",
+      "observed_located_count": 4,
+      "complete_count": 4,
+      "opportunities": 6,
+      "covered": true,
+      "rate": 0.6666666666666666,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "S",
+        "E2": "S",
+        "E3": "S",
+        "E4": "S",
+        "E5": "N",
+        "Q": "S",
+        "E6": "N",
+        "E7": "N",
+        "E8": "N"
+      }
+    },
+    {
+      "partition": "south_north",
+      "window": "long",
+      "location_version": "fine",
+      "configuration": 1,
+      "zone": "S",
+      "observed_located_count": 4,
+      "complete_count": 4,
+      "opportunities": 10,
+      "covered": true,
+      "rate": 0.4,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "S",
+        "E2": "S",
+        "E3": "S",
+        "E4": "S",
+        "E5": "N",
+        "Q": "N",
+        "E6": "N",
+        "E7": "N",
+        "E8": "N"
+      }
+    },
+    {
+      "partition": "south_north",
+      "window": "long",
+      "location_version": "fine",
+      "configuration": 1,
+      "zone": "N",
+      "observed_located_count": 5,
+      "complete_count": 5,
+      "opportunities": 6,
+      "covered": true,
+      "rate": 0.8333333333333334,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "S",
+        "E2": "S",
+        "E3": "S",
+        "E4": "S",
+        "E5": "N",
+        "Q": "N",
+        "E6": "N",
+        "E7": "N",
+        "E8": "N"
+      }
+    },
+    {
+      "partition": "south_north",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 0,
+      "zone": "S",
+      "observed_located_count": 5,
+      "complete_count": 5,
+      "opportunities": 10,
+      "covered": true,
+      "rate": 0.5,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "S",
+        "E2": "S",
+        "E3": "S",
+        "E4": "S",
+        "E5": "N",
+        "Q": "S",
+        "E6": "N",
+        "E7": "N",
+        "E8": "N"
+      }
+    },
+    {
+      "partition": "south_north",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 0,
+      "zone": "N",
+      "observed_located_count": 4,
+      "complete_count": 4,
+      "opportunities": 6,
+      "covered": true,
+      "rate": 0.6666666666666666,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "S",
+        "E2": "S",
+        "E3": "S",
+        "E4": "S",
+        "E5": "N",
+        "Q": "S",
+        "E6": "N",
+        "E7": "N",
+        "E8": "N"
+      }
+    },
+    {
+      "partition": "south_north",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 1,
+      "zone": "S",
+      "observed_located_count": 4,
+      "complete_count": 4,
+      "opportunities": 10,
+      "covered": true,
+      "rate": 0.4,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "S",
+        "E2": "S",
+        "E3": "S",
+        "E4": "S",
+        "E5": "N",
+        "Q": "N",
+        "E6": "N",
+        "E7": "N",
+        "E8": "N"
+      }
+    },
+    {
+      "partition": "south_north",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 1,
+      "zone": "N",
+      "observed_located_count": 5,
+      "complete_count": 5,
+      "opportunities": 6,
+      "covered": true,
+      "rate": 0.8333333333333334,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "S",
+        "E2": "S",
+        "E3": "S",
+        "E4": "S",
+        "E5": "N",
+        "Q": "N",
+        "E6": "N",
+        "E7": "N",
+        "E8": "N"
+      }
+    },
+    {
+      "partition": "south_north",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 2,
+      "zone": "S",
+      "observed_located_count": 5,
+      "complete_count": 5,
+      "opportunities": 10,
+      "covered": true,
+      "rate": 0.5,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "S",
+        "E2": "S",
+        "E3": "S",
+        "E4": "S",
+        "E5": "N",
+        "Q": "S",
+        "E6": "N",
+        "E7": "N",
+        "E8": "N"
+      }
+    },
+    {
+      "partition": "south_north",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 2,
+      "zone": "N",
+      "observed_located_count": 4,
+      "complete_count": 4,
+      "opportunities": 6,
+      "covered": true,
+      "rate": 0.6666666666666666,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "S",
+        "E2": "S",
+        "E3": "S",
+        "E4": "S",
+        "E5": "N",
+        "Q": "S",
+        "E6": "N",
+        "E7": "N",
+        "E8": "N"
+      }
+    },
+    {
+      "partition": "south_north",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 3,
+      "zone": "S",
+      "observed_located_count": 4,
+      "complete_count": 4,
+      "opportunities": 10,
+      "covered": true,
+      "rate": 0.4,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "S",
+        "E2": "S",
+        "E3": "S",
+        "E4": "S",
+        "E5": "N",
+        "Q": "N",
+        "E6": "N",
+        "E7": "N",
+        "E8": "N"
+      }
+    },
+    {
+      "partition": "south_north",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 3,
+      "zone": "N",
+      "observed_located_count": 5,
+      "complete_count": 5,
+      "opportunities": 6,
+      "covered": true,
+      "rate": 0.8333333333333334,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "S",
+        "E2": "S",
+        "E3": "S",
+        "E4": "S",
+        "E5": "N",
+        "Q": "N",
+        "E6": "N",
+        "E7": "N",
+        "E8": "N"
+      }
+    },
+    {
+      "partition": "all",
+      "window": "early",
+      "location_version": "fine",
+      "configuration": 0,
+      "zone": "ALL",
+      "observed_located_count": 6,
+      "complete_count": 6,
+      "opportunities": 8,
+      "covered": true,
+      "rate": 0.75,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "ALL",
+        "E2": "ALL",
+        "E3": "ALL",
+        "E4": "ALL",
+        "E5": "ALL",
+        "Q": "ALL"
+      }
+    },
+    {
+      "partition": "all",
+      "window": "early",
+      "location_version": "fine",
+      "configuration": 1,
+      "zone": "ALL",
+      "observed_located_count": 6,
+      "complete_count": 6,
+      "opportunities": 8,
+      "covered": true,
+      "rate": 0.75,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "ALL",
+        "E2": "ALL",
+        "E3": "ALL",
+        "E4": "ALL",
+        "E5": "ALL",
+        "Q": "ALL"
+      }
+    },
+    {
+      "partition": "all",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 0,
+      "zone": "ALL",
+      "observed_located_count": 6,
+      "complete_count": 6,
+      "opportunities": 8,
+      "covered": true,
+      "rate": 0.75,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "ALL",
+        "E2": "ALL",
+        "E3": "ALL",
+        "E4": "ALL",
+        "E5": "ALL",
+        "Q": "ALL"
+      }
+    },
+    {
+      "partition": "all",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 1,
+      "zone": "ALL",
+      "observed_located_count": 6,
+      "complete_count": 6,
+      "opportunities": 8,
+      "covered": true,
+      "rate": 0.75,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "ALL",
+        "E2": "ALL",
+        "E3": "ALL",
+        "E4": "ALL",
+        "E5": "ALL",
+        "Q": "ALL"
+      }
+    },
+    {
+      "partition": "all",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 2,
+      "zone": "ALL",
+      "observed_located_count": 6,
+      "complete_count": 6,
+      "opportunities": 8,
+      "covered": true,
+      "rate": 0.75,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "ALL",
+        "E2": "ALL",
+        "E3": "ALL",
+        "E4": "ALL",
+        "E5": "ALL",
+        "Q": "ALL"
+      }
+    },
+    {
+      "partition": "all",
+      "window": "early",
+      "location_version": "coarse",
+      "configuration": 3,
+      "zone": "ALL",
+      "observed_located_count": 6,
+      "complete_count": 6,
+      "opportunities": 8,
+      "covered": true,
+      "rate": 0.75,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "ALL",
+        "E2": "ALL",
+        "E3": "ALL",
+        "E4": "ALL",
+        "E5": "ALL",
+        "Q": "ALL"
+      }
+    },
+    {
+      "partition": "all",
+      "window": "long",
+      "location_version": "fine",
+      "configuration": 0,
+      "zone": "ALL",
+      "observed_located_count": 9,
+      "complete_count": 9,
+      "opportunities": 16,
+      "covered": true,
+      "rate": 0.5625,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "ALL",
+        "E2": "ALL",
+        "E3": "ALL",
+        "E4": "ALL",
+        "E5": "ALL",
+        "Q": "ALL",
+        "E6": "ALL",
+        "E7": "ALL",
+        "E8": "ALL"
+      }
+    },
+    {
+      "partition": "all",
+      "window": "long",
+      "location_version": "fine",
+      "configuration": 1,
+      "zone": "ALL",
+      "observed_located_count": 9,
+      "complete_count": 9,
+      "opportunities": 16,
+      "covered": true,
+      "rate": 0.5625,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "ALL",
+        "E2": "ALL",
+        "E3": "ALL",
+        "E4": "ALL",
+        "E5": "ALL",
+        "Q": "ALL",
+        "E6": "ALL",
+        "E7": "ALL",
+        "E8": "ALL"
+      }
+    },
+    {
+      "partition": "all",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 0,
+      "zone": "ALL",
+      "observed_located_count": 9,
+      "complete_count": 9,
+      "opportunities": 16,
+      "covered": true,
+      "rate": 0.5625,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "ALL",
+        "E2": "ALL",
+        "E3": "ALL",
+        "E4": "ALL",
+        "E5": "ALL",
+        "Q": "ALL",
+        "E6": "ALL",
+        "E7": "ALL",
+        "E8": "ALL"
+      }
+    },
+    {
+      "partition": "all",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 1,
+      "zone": "ALL",
+      "observed_located_count": 9,
+      "complete_count": 9,
+      "opportunities": 16,
+      "covered": true,
+      "rate": 0.5625,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "ALL",
+        "E2": "ALL",
+        "E3": "ALL",
+        "E4": "ALL",
+        "E5": "ALL",
+        "Q": "ALL",
+        "E6": "ALL",
+        "E7": "ALL",
+        "E8": "ALL"
+      }
+    },
+    {
+      "partition": "all",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 2,
+      "zone": "ALL",
+      "observed_located_count": 9,
+      "complete_count": 9,
+      "opportunities": 16,
+      "covered": true,
+      "rate": 0.5625,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "ALL",
+        "E2": "ALL",
+        "E3": "ALL",
+        "E4": "ALL",
+        "E5": "ALL",
+        "Q": "ALL",
+        "E6": "ALL",
+        "E7": "ALL",
+        "E8": "ALL"
+      }
+    },
+    {
+      "partition": "all",
+      "window": "long",
+      "location_version": "coarse",
+      "configuration": 3,
+      "zone": "ALL",
+      "observed_located_count": 9,
+      "complete_count": 9,
+      "opportunities": 16,
+      "covered": true,
+      "rate": 0.5625,
+      "unlocated": [
+        "U"
+      ],
+      "assignment": {
+        "E1": "ALL",
+        "E2": "ALL",
+        "E3": "ALL",
+        "E4": "ALL",
+        "E5": "ALL",
+        "Q": "ALL",
+        "E6": "ALL",
+        "E7": "ALL",
+        "E8": "ALL"
+      }
+    }
+  ],
+  "probabilities_assumed": false
+}

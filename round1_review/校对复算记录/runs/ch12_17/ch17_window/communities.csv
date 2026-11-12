@@ -1,0 +1,7 @@
+gamma,optimum_id,Q_fraction,Q_decimal,active_partition,isolates_display_separately,candidate_partition_count,meaning
+1/10,1,9/10,0.9,"C,D,E,F,G",A;B;H,52,objective_optimum_not_historical_group
+1/2,1,1/2,0.5,"C,D,E,F,G",A;B;H,52,objective_optimum_not_historical_group
+1,1,7/32,0.21875,"C,D;E,F,G",A;B;H,52,objective_optimum_not_historical_group
+2,1,-5/16,-0.3125,"C,D;E,F,G",A;B;H,52,objective_optimum_not_historical_group
+2,2,-5/16,-0.3125,"C,D;E,F;G",A;B;H,52,objective_optimum_not_historical_group
+2,3,-5/16,-0.3125,"C,D;E;F,G",A;B;H,52,objective_optimum_not_historical_group

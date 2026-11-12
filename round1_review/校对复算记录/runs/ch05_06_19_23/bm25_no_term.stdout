@@ -1,0 +1,27 @@
+{
+  "corpus_version": "ch06-new-20261030-v1",
+  "allowed_ids": [
+    "D1",
+    "D2",
+    "D3",
+    "D4"
+  ],
+  "k1": 1.2,
+  "b": 0.75,
+  "queries": [
+    {
+      "id": "USER",
+      "status": "no_matching_term",
+      "query_tokens": [
+        "不存在词项"
+      ],
+      "N": 4,
+      "avgdl": 13.5,
+      "empty_blocks": [],
+      "unmatched_terms": [
+        "不存在词项"
+      ],
+      "results": []
+    }
+  ]
+}

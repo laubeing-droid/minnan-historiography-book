@@ -1,0 +1,3199 @@
+{
+  "reviewer": "独立校读分组C",
+  "independent_from_author": true,
+  "review_date_utc": "2026-10-30",
+  "original_assignment": "ch09—17",
+  "final_assignment": "ch12—17；统筹于02:39 UTC将ch09—11移交独立校读分组A",
+  "reassigned_chapters": {
+    "ch09": "未全文读，未改",
+    "ch10": "未全文读，未改",
+    "ch11": "仅标题与复算员提醒，未全文读，未改"
+  },
+  "section_count": 41,
+  "full_read_section_count": 41,
+  "baseline_modified_by_this_reviewer": false,
+  "files_modified": [
+    "revision/正文/ch12.md",
+    "revision/正文/ch14.md",
+    "revision/正文/ch15.md"
+  ],
+  "content_consistency_corrections": 18,
+  "math_delimiter_only_corrections": 45,
+  "confirmed_math_result_corrections": 0,
+  "sections": [
+    {
+      "section": "12.1",
+      "title": "时序问题分类：四类任务的数学定义",
+      "baseline_file": "ch12.md",
+      "line_start": 9,
+      "line_end": 61,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "四任务输入输出、原点信息集、历时预测与回顾切分、重叠分类窗口、生成不等于失落史料。",
+      "content_correction_count": 0,
+      "format_correction_count": 12,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 0,
+        "relevant_claim_checked": 0,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "12.2",
+      "title": "标准数据集族与统一数据加载",
+      "baseline_file": "ch12.md",
+      "line_start": 62,
+      "line_end": 100,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "年度主键、缺行/缺值/零/晚发布区分、存量流量聚合、地域版本、真实资料入口与演示表分离。",
+      "content_correction_count": 0,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 6,
+        "relevant_claim_checked": 6,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "12.3",
+      "title": "ACF与PACF：自相关的两把尺",
+      "baseline_file": "ch12.md",
+      "line_start": 101,
+      "line_end": 136,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "ACF分子分母、尺度变换、PACF中间滞后线性控制、短样本与多滞后解释、未运行诊断记录。",
+      "content_correction_count": 0,
+      "format_correction_count": 5,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 2,
+        "relevant_claim_checked": 2,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "12.4",
+      "title": "平稳性与ADF/KPSS双检验",
+      "baseline_file": "ch12.md",
+      "line_start": 137,
+      "line_end": 179,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "弱平稳与趋势/差分平稳、ADF/KPSS原假设相反、拒绝与不拒绝、确定性项与小样本边界。",
+      "content_correction_count": 0,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 2,
+        "relevant_claim_checked": 2,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "12.5",
+      "title": "STL分解与差分变换",
+      "baseline_file": "ch12.md",
+      "line_start": 180,
+      "line_end": 217,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "STL季节周期的证据、年度例不强设12、差分逆变换、非线性反变换、全段平滑泄漏。",
+      "content_correction_count": 0,
+      "format_correction_count": 7,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 2,
+        "relevant_claim_checked": 2,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "12.6",
+      "title": "缺失值处理：插补与掩码",
+      "baseline_file": "ch12.md",
+      "line_start": 218,
+      "line_end": 262,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "缺失机制、三掩码可得性遮蔽、输入插补与评分真值分离、ffill1及晚公布值。",
+      "content_correction_count": 0,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 1,
+        "relevant_claim_checked": 1,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "12.7",
+      "title": "归一化策略与训练区间拟合",
+      "baseline_file": "ch12.md",
+      "line_start": 263,
+      "line_end": 294,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "训练内估计尺度、总体标准差、常量退化处理、原点参数逆变换、跨对象缩放。",
+      "content_correction_count": 0,
+      "format_correction_count": 4,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 1,
+        "relevant_claim_checked": 1,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "12.8",
+      "title": "时间特征工程：把日历变成模型输入",
+      "baseline_file": "ch12.md",
+      "line_start": 295,
+      "line_end": 336,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "已知日历与事后事件变量、年精度不可造月份、周期编码、滞后信息时刻。",
+      "content_correction_count": 0,
+      "format_correction_count": 4,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 1,
+        "relevant_claim_checked": 1,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "12.9",
+      "title": "lookback、horizon、stride与窗口策略",
+      "baseline_file": "ch12.md",
+      "line_start": 337,
+      "line_end": 389,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "窗口数量公式、目标边界、共享过去非自动泄漏、L与W、12到13的缺失接口限制。",
+      "content_correction_count": 0,
+      "format_correction_count": 13,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 1,
+        "relevant_claim_checked": 1,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "13.1",
+      "title": "每类任务的基线清单",
+      "baseline_file": "ch13.md",
+      "line_start": 7,
+      "line_end": 93,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "预测/分类/异常/生成不同评价单位，MAD手算、点级与事件级匹配、生成种子与新输入区别。",
+      "content_correction_count": 0,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 4,
+        "relevant_claim_checked": 4,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "13.2",
+      "title": "ARIMA：差分自回归移动平均",
+      "baseline_file": "ch13.md",
+      "line_start": 94,
+      "line_end": 147,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "ARIMA阶数和创新、AR/MA手算、普通差分逆变换、信息准则边界、软件趋势参数化。",
+      "content_correction_count": 0,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 3,
+        "relevant_claim_checked": 3,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "13.3",
+      "title": "SARIMA与Holt-Winters：处理季节性",
+      "baseline_file": "ch13.md",
+      "line_start": 148,
+      "line_end": 201,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "季节滞后乘积、HW递推顺序及gamma约定、正值条件、同题比较与模型未运行。",
+      "content_correction_count": 0,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 4,
+        "relevant_claim_checked": 4,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "13.4",
+      "title": "statsmodels实操：拟合 诊断与预测",
+      "baseline_file": "ch13.md",
+      "line_start": 202,
+      "line_end": 292,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "构造/拟合/预测对象、当前前缀、收敛标志、预测区间与均值区间、验证先于测试。",
+      "content_correction_count": 0,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 5,
+        "relevant_claim_checked": 5,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "13.5",
+      "title": "M4/M5竞赛遗产与评测口径",
+      "baseline_file": "ch13.md",
+      "line_start": 293,
+      "line_end": 374,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "M4/M5声明口径、层级并非独立、尺度与权重、三节点手算和排名翻转；未重读竞赛原论文。",
+      "content_correction_count": 0,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 5,
+        "relevant_claim_checked": 4,
+        "access_blocked": [
+          "https://doi.org/10.1016/j.ijforecast.2021.11.013"
+        ],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "13.6",
+      "title": "MAE/RMSE/MAPE/sMAPE/MASE指标族",
+      "baseline_file": "ch13.md",
+      "line_start": 375,
+      "line_end": 460,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "MAE/RMSE单位与排序、MAPE/sMAPE零分母、MASE训练尺度、macro/pooled/weighted。",
+      "content_correction_count": 0,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 3,
+        "relevant_claim_checked": 3,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "13.7",
+      "title": "回测框架实现",
+      "baseline_file": "ch13.md",
+      "line_start": 461,
+      "line_end": 535,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "事件与可得时间双限制、日历窗口、失败分母、验证资格、滚动测试与参考答案隔离。",
+      "content_correction_count": 0,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 1,
+        "relevant_claim_checked": 1,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "13.8",
+      "title": "概率预测：Quantile Loss CRPS 覆盖率与校准",
+      "baseline_file": "ch13.md",
+      "line_start": 536,
+      "line_end": 613,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "pinball损失系数、经验CRPS与fair估计区别、闭区间覆盖/宽度/区间分数、校准锐度与PIT。",
+      "content_correction_count": 0,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 5,
+        "relevant_claim_checked": 4,
+        "access_blocked": [
+          "https://sites.stat.washington.edu/raftery/Research/PDF/Gneiting2007jrssb.pdf"
+        ],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "13.9",
+      "title": "公平比较 超参预算与Optuna搜索",
+      "baseline_file": "ch13.md",
+      "line_start": 614,
+      "line_end": 693,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "预算含失败重复、验证前缀、随机种子不是等同序列、Optuna可选依赖、时序相关比较条件。",
+      "content_correction_count": 0,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 6,
+        "relevant_claim_checked": 6,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "13.10",
+      "title": "消融树 控制变量与消融表",
+      "baseline_file": "ch13.md",
+      "line_start": 694,
+      "line_end": 774,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "二乘二因素和共同评分分母、补值改变权重、交互差中之差、已公开测试不冒充新盲测。",
+      "content_correction_count": 0,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 3,
+        "relevant_claim_checked": 3,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "14.1",
+      "title": "历史地名提取 异名同名与地点对照",
+      "baseline_file": "ch14.md",
+      "line_start": 7,
+      "line_end": 82,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "出现项/地点/行政单位、异名同名候选与人工裁定、闭区间到半开区间转换、合成九候选。",
+      "content_correction_count": 0,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 6,
+        "relevant_claim_checked": 6,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "14.2",
+      "title": "历史地图选择 控制点与配准",
+      "baseline_file": "ch14.md",
+      "line_start": 83,
+      "line_end": 156,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "仿射参数和控制/检查点、像素角点与中心、已附情景范围、原点与检查RMSE、图功能边界。",
+      "content_correction_count": 5,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 3,
+        "relevant_claim_checked": 3,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "14.3",
+      "title": "坐标参考 点线面与几何有效性",
+      "baseline_file": "ch14.md",
+      "line_start": 157,
+      "line_end": 231,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "CRS赋予不等于重投影、轴序/GeoJSON、线面整数几何限制、五七十二手算、图功能边界。",
+      "content_correction_count": 1,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 4,
+        "relevant_claim_checked": 4,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "14.4",
+      "title": "历史边界 时间有效性与分期图层",
+      "baseline_file": "ch14.md",
+      "line_start": 232,
+      "line_end": 305,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "有效/记载/研究可知时间、半开分期、共边双候选、迟到争议版本、输出是数表非已制图层。",
+      "content_correction_count": 1,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 2,
+        "relevant_claim_checked": 2,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "14.5",
+      "title": "候选位置 定位精度与不确定性记录",
+      "baseline_file": "ch14.md",
+      "line_start": 306,
+      "line_end": 377,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "五类位置状态、范围非概率、距离上下界、关联候选、阈值含等号与版本并存。",
+      "content_correction_count": 0,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 4,
+        "relevant_claim_checked": 4,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "15.1",
+      "title": "空间对象 观察单位与分布描述",
+      "baseline_file": "ch15.md",
+      "line_start": 7,
+      "line_end": 72,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "记录/事件/地点单位、机会分母非概率、未覆盖与零机会、身份一致性先于筛选、实际图输出边界。",
+      "content_correction_count": 1,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 2,
+        "relevant_claim_checked": 2,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "15.2",
+      "title": "距离 邻近 联系与可达性",
+      "baseline_file": "ch15.md",
+      "line_start": 73,
+      "line_end": 142,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "欧氏距离/网络时间/联系/可达性、方向与缺边、Dijkstra非负条件、单代表路径、图输出边界。",
+      "content_correction_count": 1,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 2,
+        "relevant_claim_checked": 2,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "15.3",
+      "title": "密度 聚集与空间关联",
+      "baseline_file": "ch15.md",
+      "line_start": 143,
+      "line_end": 214,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "Moran I双向权重、精确排列和组内交换、常量属性未定义、机会口径、无SVG输出。",
+      "content_correction_count": 4,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 3,
+        "relevant_claim_checked": 3,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "15.4",
+      "title": "跨区域 跨时期与人地关系比较",
+      "baseline_file": "ch15.md",
+      "line_start": 215,
+      "line_end": 284,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "共同结构加权与原总体、辛普森反转、跨期/层级解释、缺层null、数表与后续图/测试区分。",
+      "content_correction_count": 2,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 2,
+        "relevant_claim_checked": 2,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "15.5",
+      "title": "区域划分 分析尺度与敏感性",
+      "baseline_file": "ch15.md",
+      "line_start": 285,
+      "line_end": 356,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "MAUP尺度/分区、分子分母同换、半开方格唯一归属、联合候选上下界、16组合与无SVG。",
+      "content_correction_count": 2,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 2,
+        "relevant_claim_checked": 2,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "15.6",
+      "title": "空间结果 竞争解释与历史过程",
+      "baseline_file": "ch15.md",
+      "line_start": 357,
+      "line_end": 431,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "六卡来源依赖与时段、竞争解释可并存、过程和因果区分、流程图非当前输出。",
+      "content_correction_count": 1,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 2,
+        "relevant_claim_checked": 1,
+        "access_blocked": [
+          "https://blogs.loc.gov/teachers/2012/03/primary-source-analysis-tool-forming-good-questions/"
+        ],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "16.1",
+      "title": "实体 事件 关系类型与纳入规则",
+      "baseline_file": "ch16.md",
+      "line_start": 5,
+      "line_end": 74,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "材料/判断/假设、实体/事件/关系类型、13陈述12实例及6纳入、来源重复不是独立证言。",
+      "content_correction_count": 0,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 2,
+        "relevant_claim_checked": 2,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "16.2",
+      "title": "候选实体抽取 原文位置与证据表",
+      "baseline_file": "ch16.md",
+      "line_start": 75,
+      "line_end": 142,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "码点跨度左闭右开、输入候选非自动实体发现、否定与跨段提示、定位率不是召回率。",
+      "content_correction_count": 0,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 2,
+        "relevant_claim_checked": 2,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "16.3",
+      "title": "名称 时间 地点与实体消歧",
+      "baseline_file": "ch16.md",
+      "line_start": 143,
+      "line_end": 200,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "七卡四实体六定一未定、名字非实体、待定不能传递合并、版本拆分重审关系。",
+      "content_correction_count": 0,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 1,
+        "relevant_claim_checked": 1,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "16.4",
+      "title": "节点表 关系边表与时间有效性",
+      "baseline_file": "ch16.md",
+      "line_start": 201,
+      "line_end": 263,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "节点总表/边端点/事件引用口径、闭区间时间与14.4转换、事件发生与证据支持期。",
+      "content_correction_count": 0,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 2,
+        "relevant_claim_checked": 2,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "16.5",
+      "title": "重复记录 单层二模分层与数据验收",
+      "baseline_file": "ch16.md",
+      "line_start": 264,
+      "line_end": 325,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "三类重复、单层/二模/分层非互斥、B矩阵投影、候选身份敏感性与来源回查。",
+      "content_correction_count": 0,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 2,
+        "relevant_claim_checked": 2,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "17.1",
+      "title": "网络边界 关系类型与模型选择",
+      "baseline_file": "ch17.md",
+      "line_start": 7,
+      "line_end": 47,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "独立八人例不等于16章P例、9有向事件/8无向存在边、H名册孤立点。",
+      "content_correction_count": 0,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 1,
+        "relevant_claim_checked": 1,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "17.2",
+      "title": "网络规模 密度与连通结构",
+      "baseline_file": "ch17.md",
+      "line_start": 48,
+      "line_end": 94,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "有向无向密度分母、强弱连通、度和2M、手工结构图与程序图分离。",
+      "content_correction_count": 0,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 3,
+        "relevant_claim_checked": 3,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "17.3",
+      "title": "中心性 桥接位置与重要节点",
+      "baseline_file": "ch17.md",
+      "line_start": 95,
+      "line_end": 138,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "介数全图分母、WF接近修正、桥/割点、入向距离、次数不自动当距离。",
+      "content_correction_count": 0,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 4,
+        "relevant_claim_checked": 4,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "17.4",
+      "title": "社群识别 边界与划分稳定性",
+      "baseline_file": "ch17.md",
+      "line_start": 139,
+      "line_end": 174,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "模块度gamma与877分区、孤立点展示约定、共组不是概率、随机种子复现与稳定性不同。",
+      "content_correction_count": 0,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 2,
+        "relevant_claim_checked": 2,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "17.5",
+      "title": "时间 区域 群体比较与缺失敏感性",
+      "baseline_file": "ch17.md",
+      "line_start": 175,
+      "line_end": 217,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "等长窗同密度异结构、时间路径、补BE/缺D/缺H等敏感性、缺来源非独立缺边。",
+      "content_correction_count": 0,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 0,
+        "relevant_claim_checked": 0,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    },
+    {
+      "section": "17.6",
+      "title": "网络结构 来源核验与关系解释",
+      "baseline_file": "ch17.md",
+      "line_start": 218,
+      "line_end": 262,
+      "read_status": "FULL_SECTION_READ",
+      "review_scope": "结论到指标到边到事件到来源、潜在中介非控制信息、结构反事实非历史干预。",
+      "content_correction_count": 0,
+      "format_correction_count": 0,
+      "external_sources_fully_verified": false,
+      "cited_source_review": {
+        "cited_pages": 0,
+        "relevant_claim_checked": 0,
+        "access_blocked": [],
+        "all_cited_targets_attempted": true,
+        "note": "external_sources_fully_verified=false表示不宣称源全文、数据或史实已核；不表示尚未尝试所引具体主张。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://archive.blogs.harvard.edu/yenching/?p=190",
+      "cited_urls": [
+        "https://archive.blogs.harvard.edu/yenching/?p=190"
+      ],
+      "locations": [
+        {
+          "chapter": "ch12.md",
+          "section": "chapter_intro",
+          "baseline_line": 7
+        }
+      ],
+      "status": "REOPENED_RELEVANT_PASSAGES",
+      "checked_claim": "哈佛燕京官方项目介绍所列海关统计、规章及地方社会报告；只核入口性质，不核年度数据。",
+      "note": "仅核所述段落，不表示来源全文、数据集全部观测或教学人物史实均经核验。"
+    },
+    {
+      "url": "https://github.com/zhouhaoyi/ETDataset",
+      "cited_urls": [
+        "https://github.com/zhouhaoyi/ETDataset"
+      ],
+      "locations": [
+        {
+          "chapter": "ch12.md",
+          "section": "12.2",
+          "baseline_line": 66
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "ETT是变压器负荷与油温数据，提供较高频和小时变体",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "官方README ETT-small段，行199—210；原源每分钟文字与每小时4次算式不一致，本书只说较高频，无需沿用其矛盾",
+      "followup_id": 1
+    },
+    {
+      "url": "https://www.cs.ucr.edu/~eamonn/time_series_data_2018/",
+      "cited_urls": [
+        "https://www.cs.ucr.edu/~eamonn/time_series_data_2018/"
+      ],
+      "locations": [
+        {
+          "chapter": "ch12.md",
+          "section": "12.2",
+          "baseline_line": 66
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "UCR分类资料与UEA多变量资料入口",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "官方档案页第7—11行",
+      "followup_id": 2
+    },
+    {
+      "url": "https://www.timeseriesclassification.com/",
+      "cited_urls": [
+        "https://www.timeseriesclassification.com/"
+      ],
+      "locations": [
+        {
+          "chapter": "ch12.md",
+          "section": "12.2",
+          "baseline_line": 66
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "单变量与多变量时序分类任务集合",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "官方站点介绍及Univariate/Multivariate数据集段",
+      "followup_id": 3
+    },
+    {
+      "url": "https://chgis.fas.harvard.edu/pages/howto/",
+      "cited_urls": [
+        "https://chgis.fas.harvard.edu/pages/howto/"
+      ],
+      "locations": [
+        {
+          "chapter": "ch12.md",
+          "section": "12.2",
+          "baseline_line": 81
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "时间切片与异步时变对象的区别",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "HowTo time-series/time-slice段第37—69行",
+      "followup_id": 4
+    },
+    {
+      "url": "https://pandas.pydata.org/docs/user_guide/timeseries.html",
+      "cited_urls": [
+        "https://pandas.pydata.org/docs/user_guide/timeseries.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch12.md",
+          "section": "12.2",
+          "baseline_line": 97
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "resample闭合、标签及较晚信息前移风险",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "用户指南resampling closed/label段第2136—2163行",
+      "followup_id": 5
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/pub/data/ghcn/daily/readme.txt",
+      "cited_urls": [
+        "https://www.ncei.noaa.gov/pub/data/ghcn/daily/readme.txt"
+      ],
+      "locations": [
+        {
+          "chapter": "ch12.md",
+          "section": "12.2",
+          "baseline_line": 99
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "数值缺失编码和测量、质量、来源标记",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "GHCN-Daily README VALUE/MFLAG/QFLAG/SFLAG字段说明",
+      "followup_id": 6
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.acf.html",
+      "cited_urls": [
+        "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.acf.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch12.md",
+          "section": "12.3",
+          "baseline_line": 113
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "ACF分母修正、缺失处理、区间选项",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "acf参数adjusted、missing、alpha；adjusted真时n-k，否则n",
+      "followup_id": 7
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.pacf.html",
+      "cited_urls": [
+        "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.pacf.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch12.md",
+          "section": "12.3",
+          "baseline_line": 119
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "PACF可选Yule–Walker、OLS等估计法",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "pacf method参数及区间说明",
+      "followup_id": 8
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.adfuller.html",
+      "cited_urls": [
+        "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.adfuller.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch12.md",
+          "section": "12.4",
+          "baseline_line": 153
+        }
+      ],
+      "status": "REOPENED_RELEVANT_PASSAGES",
+      "checked_claim": "ADF单位根原假设及参数入口；当前页面显示0.15.0。",
+      "note": "仅核所述段落，不表示来源全文、数据集全部观测或教学人物史实均经核验。"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.kpss.html",
+      "cited_urls": [
+        "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.kpss.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch12.md",
+          "section": "12.4",
+          "baseline_line": 155
+        }
+      ],
+      "status": "REOPENED_RELEVANT_PASSAGES",
+      "checked_claim": "KPSS水平或趋势平稳原假设及c/ct含义。",
+      "note": "仅核所述段落，不表示来源全文、数据集全部观测或教学人物史实均经核验。"
+    },
+    {
+      "url": "https://otexts.com/fpp3/decomposition.html",
+      "cited_urls": [
+        "https://otexts.com/fpp3/decomposition.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch12.md",
+          "section": "12.5",
+          "baseline_line": 192
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "趋势季节余项与加法/乘法分解",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "FPP3第3章组成及STL段",
+      "followup_id": 9
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.seasonal.STL.html",
+      "cited_urls": [
+        "https://www.statsmodels.org/stable/generated/statsmodels.tsa.seasonal.STL.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch12.md",
+          "section": "12.5",
+          "baseline_line": 194
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "STL为LOESS分解，period与平滑窗及robust不同",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "STL参数period、seasonal和robust",
+      "followup_id": 10
+    },
+    {
+      "url": "https://otexts.com/fpp3/missing-outliers.html",
+      "cited_urls": [
+        "https://otexts.com/fpp3/missing-outliers.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch12.md",
+          "section": "12.6",
+          "baseline_line": 247
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "不同预测/分解程序对缺失处理不同",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "原链接跳转FPP3 practical.html Missing values段；ETS和STL不能直接处理空值",
+      "followup_id": 11
+    },
+    {
+      "url": "https://scikit-learn.org/stable/common_pitfalls.html",
+      "cited_urls": [
+        "https://scikit-learn.org/stable/common_pitfalls.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch12.md",
+          "section": "12.7",
+          "baseline_line": 277
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "只在训练资料拟合预处理并复用变换",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "Common pitfalls Data leakage段",
+      "followup_id": 12
+    },
+    {
+      "url": "https://scikit-learn.org/stable/auto_examples/applications/plot_cyclical_feature_engineering.html",
+      "cited_urls": [
+        "https://scikit-learn.org/stable/auto_examples/applications/plot_cyclical_feature_engineering.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch12.md",
+          "section": "12.8",
+          "baseline_line": 321
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "周期编码效果取决于模型表达能力",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "Cyclical feature engineering 正弦余弦及线性模型比较段",
+      "followup_id": 13
+    },
+    {
+      "url": "https://otexts.com/fpp3/toolbox.html",
+      "cited_urls": [
+        "https://otexts.com/fpp3/toolbox.html#time-series-cross-validation",
+        "https://otexts.com/fpp3/toolbox.html",
+        "https://otexts.com/fpp3/toolbox.html#evaluating-point-forecast-accuracy",
+        "https://otexts.com/fpp3/toolbox.html#distributional-forecasts-and-prediction-intervals",
+        "https://otexts.com/fpp3/toolbox.html#quantile-scores"
+      ],
+      "locations": [
+        {
+          "chapter": "ch12.md",
+          "section": "12.9",
+          "baseline_line": 357
+        },
+        {
+          "chapter": "ch13.md",
+          "section": "13.1",
+          "baseline_line": 77
+        },
+        {
+          "chapter": "ch13.md",
+          "section": "13.6",
+          "baseline_line": 447
+        },
+        {
+          "chapter": "ch13.md",
+          "section": "13.7",
+          "baseline_line": 525
+        },
+        {
+          "chapter": "ch13.md",
+          "section": "13.8",
+          "baseline_line": 544
+        },
+        {
+          "chapter": "ch13.md",
+          "section": "13.8",
+          "baseline_line": 552
+        },
+        {
+          "chapter": "ch13.md",
+          "section": "13.9",
+          "baseline_line": 676
+        },
+        {
+          "chapter": "ch13.md",
+          "section": "13.10",
+          "baseline_line": 764
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "Naive/seasonal naive、训练测试隔离、MAE/RMSE/MAPE/MASE、中央区间、2倍分位数评分、滚动原点",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "FPP3第5章§5.2、5.8—5.10；行231—244、735—792、881—900、944—952",
+      "followup_id": 14
+    },
+    {
+      "url": "https://scikit-learn.org/stable/modules/neighbors.html",
+      "cited_urls": [
+        "https://scikit-learn.org/stable/modules/neighbors.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.1",
+          "baseline_line": 79
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "近邻分类由最近样本及其类别作判断",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "Nearest Neighbors分类段；本文自写1NN非调用声明",
+      "followup_id": 15
+    },
+    {
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda356.htm",
+      "cited_urls": [
+        "https://www.itl.nist.gov/div898/handbook/eda/section3/eda356.htm"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.1",
+          "baseline_line": 81
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "MAD定义与抗重尾特性",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "NIST Measures of Scale Median Absolute Deviation段",
+      "followup_id": 16
+    },
+    {
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda35h.htm",
+      "cited_urls": [
+        "https://www.itl.nist.gov/div898/handbook/eda/section3/eda35h.htm"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.1",
+          "baseline_line": 83
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "异常标记、稳健处理、正式识别不同",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "NIST Detection of Outliers第11—17行；原页将accommodation拼为accomodation",
+      "followup_id": 17
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.html",
+      "cited_urls": [
+        "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.2",
+          "baseline_line": 110
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "ARIMA的p,d,q与季节阶数含义",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "ARIMA接口order、seasonal_order、Notes定义",
+      "followup_id": 18
+    },
+    {
+      "url": "https://otexts.com/fpp3/arima.html",
+      "cited_urls": [
+        "https://otexts.com/fpp3/arima.html#stationarity-and-differencing"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.2",
+          "baseline_line": 120
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "差分顺序及过度差分制造伪动态/自相关",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "FPP3 ARIMA第187—191行；信息准则可比性见433行",
+      "followup_id": 19
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMAResults.info_criteria.html",
+      "cited_urls": [
+        "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMAResults.info_criteria.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.2",
+          "baseline_line": 128
+        }
+      ],
+      "status": "SUPPORTED_WITH_SCOPE_LIMIT",
+      "checked_claim": "信息准则依赖似然、观测数及参数数，不等于样本外误差",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "info_criteria标准/替代公式；AICc不在该函数的criteria列表中，但正文未声称此函数直接返回AICc。比较限制另由本章既引FPP3 ARIMA第433行支持",
+      "followup_id": 20
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.html",
+      "cited_urls": [
+        "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.3",
+          "baseline_line": 164
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "SARIMA季节P,D,Q,s与普通差分",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "SARIMAX参数seasonal_order、simple_differencing；复合差分代数亦见FPP3第189行",
+      "followup_id": 21
+    },
+    {
+      "url": "https://otexts.com/fpp3/exponential-smoothing.html",
+      "cited_urls": [
+        "https://otexts.com/fpp3/exponential-smoothing.html#holt-winters-additive-method"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.3",
+          "baseline_line": 172
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "Holt-Winters新水平季节更新与另一gamma约定不同",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "FPP3指数平滑第343—346行明确两式及gamma转换；正文选用新水平约定正确",
+      "followup_id": 22
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/_modules/statsmodels/tsa/holtwinters/model.html",
+      "cited_urls": [
+        "https://www.statsmodels.org/stable/_modules/statsmodels/tsa/holtwinters/model.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.3",
+          "baseline_line": 180
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "乘法趋势或季节项要求严格正数",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "官方源码raise ValueError段第250—255行",
+      "followup_id": 23
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.holtwinters.ExponentialSmoothing.html",
+      "cited_urls": [
+        "https://www.statsmodels.org/stable/generated/statsmodels.tsa.holtwinters.ExponentialSmoothing.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.3",
+          "baseline_line": 182
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "趋势、阻尼、季节项为独立配置",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "ExponentialSmoothing参数trend/damped_trend/seasonal",
+      "followup_id": 24
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/examples/notebooks/generated/statespace_forecasting.html",
+      "cited_urls": [
+        "https://www.statsmodels.org/stable/examples/notebooks/generated/statespace_forecasting.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.4",
+          "baseline_line": 214
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "滚动加入观测并可重新拟合，区别append和extend",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "官方forecasting示例Cross validation段第286—356行",
+      "followup_id": 25
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.fit.html",
+      "cited_urls": [
+        "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.fit.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.4",
+          "baseline_line": 246
+        }
+      ],
+      "status": "SUPPORTED_WITH_SCOPE_LIMIT",
+      "checked_claim": "拟合返回后仍须看优化状态并保留警告",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "SARIMAX.fit full_output/mle_retvals及solver说明；具体Holt-Winters success字段属于本书脚本约定，不由此单个链接证明",
+      "followup_id": 26
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMAResults.get_forecast.html",
+      "cited_urls": [
+        "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMAResults.get_forecast.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.4",
+          "baseline_line": 250
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "get_forecast返回样本外预测及区间对象",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "get_forecast Returns/See also，默认预测观测y不是signal_only",
+      "followup_id": 27
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMAResults.plot_diagnostics.html",
+      "cited_urls": [
+        "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMAResults.plot_diagnostics.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.4",
+          "baseline_line": 265
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "诊断图四面板为残差序列、密度直方图、Q-Q、ACF",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "plot_diagnostics Notes 2x2 grid第292—299行",
+      "followup_id": 28
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.stats.diagnostic.acorr_ljungbox.html",
+      "cited_urls": [
+        "https://www.statsmodels.org/stable/generated/statsmodels.stats.diagnostic.acorr_ljungbox.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.4",
+          "baseline_line": 267
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "Ljung-Box扣model_df，非正剩余自由度给NaN",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "acorr_ljungbox参数和Returns第347—379行",
+      "followup_id": 29
+    },
+    {
+      "url": "https://www.researchgate.net/publication/334578434_The_M4_Competition_100000_time_series_and_61_forecasting_methods",
+      "cited_urls": [
+        "https://www.researchgate.net/publication/334578434_The_M4_Competition_100000_time_series_and_61_forecasting_methods"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.5",
+          "baseline_line": 357
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "M4六频率总100000序列及各预测长度",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "作者公开全文表1及§2预测长度段；不使用页面后部他文推荐摘录",
+      "followup_id": 30
+    },
+    {
+      "url": "https://github.com/Mcompetitions/M4-methods",
+      "cited_urls": [
+        "https://github.com/Mcompetitions/M4-methods"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.5",
+          "baseline_line": 359
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "M4 frequency用于MASE，Naive2，先聚合后相对比较OWA",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "官方README第217—226行；Benchmarks and Evaluation.R第694、709、743—760行",
+      "followup_id": 31
+    },
+    {
+      "url": "https://statmodeling.stat.columbia.edu/wp-content/uploads/2021/10/M5_accuracy_competition.pdf",
+      "cited_urls": [
+        "https://statmodeling.stat.columbia.edu/wp-content/uploads/2021/10/M5_accuracy_competition.pdf"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.5",
+          "baseline_line": 361
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "M5层级、3049产品10店3州、30490底层42840总量、28天验证测试及RMSSE初始零处理",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "作者预印本§3.1表1§3.3，第7—10页",
+      "followup_id": 32
+    },
+    {
+      "url": "https://doi.org/10.1016/j.ijforecast.2021.11.013",
+      "cited_urls": [
+        "https://doi.org/10.1016/j.ijforecast.2021.11.013"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.5",
+          "baseline_line": 363
+        }
+      ],
+      "status": "ACCESS_BLOCKED",
+      "checked_claim": "M5正式版§3.3；未读取正文，不能冒称正式版已核",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "2026-10-30 web打开DOI返回403 Forbidden；未重试或绕过",
+      "followup_id": 33
+    },
+    {
+      "url": "https://storage.googleapis.com/kaggle-forum-message-attachments/772349/15032/M5-Competitors-Guide-Final-10-March-2020.pdf",
+      "cited_urls": [
+        "https://storage.googleapis.com/kaggle-forum-message-attachments/772349/15032/M5-Competitors-Guide-Final-10-March-2020.pdf"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.5",
+          "baseline_line": 365
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "M5按最后28天金额权重，12层等权且各层内归一",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "官方Competitors Guide Weighting第7—8页（PDF零基页面；纸面标页8—9）",
+      "followup_id": 34
+    },
+    {
+      "url": "https://robjhyndman.com/publications/another-look-at-measures-of-forecast-accuracy/",
+      "cited_urls": [
+        "https://robjhyndman.com/publications/another-look-at-measures-of-forecast-accuracy/"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.6",
+          "baseline_line": 449
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "MASE以训练naive误差缩放用于跨尺度比较",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "作者官方页面及其PDF第11—12页缩放误差公式和解释",
+      "followup_id": 35
+    },
+    {
+      "url": "https://robjhyndman.com/hyndsight/smape/",
+      "cited_urls": [
+        "https://robjhyndman.com/hyndsight/smape/"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.6",
+          "baseline_line": 451
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "sMAPE多种定义，绝对值分母版本双零未定义",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "作者Errors on percentage errors第18—28行",
+      "followup_id": 36
+    },
+    {
+      "url": "https://scoringrules.readthedocs.io/en/latest/generated/scoringrules.crps_ensemble.html",
+      "cited_urls": [
+        "https://scoringrules.readthedocs.io/en/latest/generated/scoringrules.crps_ensemble.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.8",
+          "baseline_line": 564
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "CRPS积分和独立双抽样期望表达",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "crps_ensemble定义公式第114—117行",
+      "followup_id": 37
+    },
+    {
+      "url": "https://scoringrules.readthedocs.io/en/latest/crps_estimators.html",
+      "cited_urls": [
+        "https://scoringrules.readthedocs.io/en/latest/crps_estimators.html#energy-form-nrg"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.8",
+          "baseline_line": 566
+        }
+      ],
+      "status": "REOPENED_RELEVANT_PASSAGES",
+      "checked_claim": "经验CRPS的2M²分母与fair估计2M(M−1)分母、两种评价对象。",
+      "note": "仅核所述段落，不表示来源全文、数据集全部观测或教学人物史实均经核验。"
+    },
+    {
+      "url": "https://sites.stat.washington.edu/raftery/Research/PDF/Gneiting2007jasa.pdf",
+      "cited_urls": [
+        "https://sites.stat.washington.edu/raftery/Research/PDF/Gneiting2007jasa.pdf"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.8",
+          "baseline_line": 580
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "中央区间分数宽度+2/alpha外部距离",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "Gneiting/Raftery2007 JASA§6.2式43，PDF第12页",
+      "followup_id": 38
+    },
+    {
+      "url": "https://sites.stat.washington.edu/raftery/Research/PDF/Gneiting2007jrssb.pdf",
+      "cited_urls": [
+        "https://sites.stat.washington.edu/raftery/Research/PDF/Gneiting2007jrssb.pdf"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.8",
+          "baseline_line": 588
+        }
+      ],
+      "status": "ACCESS_BLOCKED",
+      "checked_claim": "校准与锐度定义；目标原PDF本轮未读取",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "2026-10-30 web获取Gneiting2007jrssb.pdf返回400 Timeout；未重复失败",
+      "followup_id": 39
+    },
+    {
+      "url": "https://scikit-learn.org/stable/modules/grid_search.html",
+      "cited_urls": [
+        "https://scikit-learn.org/stable/modules/grid_search.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.9",
+          "baseline_line": 674
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "网格穷举与固定预算随机搜索不同",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "scikit-learn Grid Search概览及Randomized Parameter Optimization段",
+      "followup_id": 40
+    },
+    {
+      "url": "https://optuna.readthedocs.io/en/v4.5.0/reference/samplers/index.html",
+      "cited_urls": [
+        "https://optuna.readthedocs.io/en/v4.5.0/reference/samplers/index.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.9",
+          "baseline_line": 678
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "Optuna为工具，TPE/Random/Grid/Gaussian process为不同sampler",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "固定4.5.0 samplers表及第66—75行；串行种子复现注意见50行",
+      "followup_id": 41
+    },
+    {
+      "url": "https://optuna.readthedocs.io/en/v4.5.0/reference/generated/optuna.pruners.SuccessiveHalvingPruner.html",
+      "cited_urls": [
+        "https://optuna.readthedocs.io/en/v4.5.0/reference/generated/optuna.pruners.SuccessiveHalvingPruner.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.9",
+          "baseline_line": 680
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "ASHA根据中间成绩晋级/剪枝，资源需声明",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "SuccessiveHalvingPruner min_resource/rung说明及目标函数report/should_prune示例；第19行明确最大资源由目标函数约束，不由pruner设置。",
+      "followup_id": 42
+    },
+    {
+      "url": "https://arch.readthedocs.io/en/stable/bootstrap/timeseries-bootstraps.html",
+      "cited_urls": [
+        "https://arch.readthedocs.io/en/stable/bootstrap/timeseries-bootstraps.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.9",
+          "baseline_line": 684
+        }
+      ],
+      "status": "REOPENED_RELEVANT_PASSAGES",
+      "checked_claim": "时间序列块重采样类型与依赖保留方法入口。",
+      "note": "仅核所述段落，不表示来源全文、数据集全部观测或教学人物史实均经核验。"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.diebold_mariano_test.html",
+      "cited_urls": [
+        "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.diebold_mariano_test.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.9",
+          "baseline_line": 684
+        }
+      ],
+      "status": "REOPENED_RELEVANT_PASSAGES",
+      "checked_claim": "接口实际存在；预测损失差、HAC及小样本调整说明。未据旧知识误删。",
+      "note": "仅核所述段落，不表示来源全文、数据集全部观测或教学人物史实均经核验。"
+    },
+    {
+      "url": "https://www.itl.nist.gov/div898/handbook/pri/section3/pri333.htm",
+      "cited_urls": [
+        "https://www.itl.nist.gov/div898/handbook/pri/section3/pri333.htm"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.10",
+          "baseline_line": 762
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "全因子设计覆盖因素全部水平组合",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "NIST Full factorial designs第8行",
+      "followup_id": 43
+    },
+    {
+      "url": "https://www.jmlr.org/papers/v11/cawley10a.html",
+      "cited_urls": [
+        "https://www.jmlr.org/papers/v11/cawley10a.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.10",
+          "baseline_line": 766
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "反复模型选择可过拟合有限样本标准并造成评估偏差",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "论文原站摘要第34—38行，主张范围未超出摘要",
+      "followup_id": 44
+    },
+    {
+      "url": "https://chgis.fas.harvard.edu/pages/database/",
+      "cited_urls": [
+        "https://chgis.fas.harvard.edu/pages/database/"
+      ],
+      "locations": [
+        {
+          "chapter": "ch14.md",
+          "section": "14.1",
+          "baseline_line": 70
+        },
+        {
+          "chapter": "ch14.md",
+          "section": "14.5",
+          "baseline_line": 368
+        },
+        {
+          "chapter": "ch15.md",
+          "section": "15.1",
+          "baseline_line": 63
+        },
+        {
+          "chapter": "ch15.md",
+          "section": "15.4",
+          "baseline_line": 273
+        }
+      ],
+      "status": "REOPENED_RELEVANT_PASSAGES",
+      "checked_claim": "名称、位置/边界、类型的时间变化、前后继、年度记录和点面来源分离。",
+      "note": "仅核所述段落，不表示来源全文、数据集全部观测或教学人物史实均经核验。"
+    },
+    {
+      "url": "https://chgis.fas.harvard.edu/",
+      "cited_urls": [
+        "https://chgis.fas.harvard.edu/"
+      ],
+      "locations": [
+        {
+          "chapter": "ch14.md",
+          "section": "14.1",
+          "baseline_line": 71
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "CHGIS是历史地名和行政单元资料入口，不是完整地方史实证明",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "官方首页介绍第27—29行",
+      "followup_id": 45
+    },
+    {
+      "url": "https://chgis.fas.harvard.edu/tools/",
+      "cited_urls": [
+        "https://chgis.fas.harvard.edu/tools/"
+      ],
+      "locations": [
+        {
+          "chapter": "ch14.md",
+          "section": "14.1",
+          "baseline_line": 71
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "CHGIS查询和时间地名服务入口",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "官方Tools列原搜索迁入Temporal Gazetteer API及地图索引",
+      "followup_id": 46
+    },
+    {
+      "url": "https://ascdc.sinica.edu.tw/databases/page/3",
+      "cited_urls": [
+        "https://ascdc.sinica.edu.tw/databases/page/3"
+      ],
+      "locations": [
+        {
+          "chapter": "ch14.md",
+          "section": "14.1",
+          "baseline_line": 72
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "中研院系统主要收明清至今政区地名，三种检索与层级浏览",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "数字文化中心资料库第3页：中国历史地名查询系统条目第59—61行",
+      "followup_id": 47
+    },
+    {
+      "url": "https://newarchive.ihp.sinica.edu.tw/hplname/",
+      "cited_urls": [
+        "https://newarchive.ihp.sinica.edu.tw/hplname/"
+      ],
+      "locations": [
+        {
+          "chapter": "ch14.md",
+          "section": "14.1",
+          "baseline_line": 72
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "系统建置范围及地名、地图、坐标查询和树状行政浏览",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "系统首页所链建置说明placename/build第32—35行及basic实际检索字段；未做用户资料查询",
+      "followup_id": 48
+    },
+    {
+      "url": "https://docs.whgazetteer.org/content/technical/apis.html",
+      "cited_urls": [
+        "https://docs.whgazetteer.org/content/technical/apis.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch14.md",
+          "section": "14.1",
+          "baseline_line": 73
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "WHG实体元数据与名称调和提供候选，非身份裁决",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "Entity API§2.1及Reconciliation§2.2；第371—372行明确candidate suggester而非adjudicator",
+      "followup_id": 49
+    },
+    {
+      "url": "https://gdal.org/en/stable/tutorials/geotransforms_tut.html",
+      "cited_urls": [
+        "https://gdal.org/en/stable/tutorials/geotransforms_tut.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch14.md",
+          "section": "14.2",
+          "baseline_line": 111
+        }
+      ],
+      "status": "REOPENED_RELEVANT_PASSAGES",
+      "checked_claim": "左上像元角点(0,0)与中心(0.5,0.5)坐标约定。",
+      "note": "仅核所述段落，不表示来源全文、数据集全部观测或教学人物史实均经核验。"
+    },
+    {
+      "url": "https://blogs.loc.gov/maps/2021/01/georeferencing-moving-analog-maps-into-modern-day-gis/",
+      "cited_urls": [
+        "https://blogs.loc.gov/maps/2021/01/georeferencing-moving-analog-maps-into-modern-day-gis/"
+      ],
+      "locations": [
+        {
+          "chapter": "ch14.md",
+          "section": "14.2",
+          "baseline_line": 145
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "配准以同地点控制点连接扫描图与有空间参考图层，控制点须分布合理",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "美国国会图书馆文章第214—220行",
+      "followup_id": 50
+    },
+    {
+      "url": "https://documentation.qgis.org/3.44/en/docs/user_manual/managing_data_source/georeferencer.html",
+      "cited_urls": [
+        "https://documentation.qgis.org/3.44/en/docs/user_manual/managing_data_source/georeferencer.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch14.md",
+          "section": "14.2",
+          "baseline_line": 147
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "GCP坐标记录、仿射最低3点、算法选择与残差、重采样",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "QGIS3.44 Georeferencer§11.3.1—11.3.2；Polynomial1第101行及Residual Units第193行",
+      "followup_id": 51
+    },
+    {
+      "url": "https://proj.org/en/stable/faq.html",
+      "cited_urls": [
+        "https://proj.org/en/stable/faq.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch14.md",
+          "section": "14.3",
+          "baseline_line": 219
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "EPSG4326正式轴序与常见GIS经纬顺序不能混同",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "PROJ FAQ轴序段第76—107行；4326 WKT latitude/longitude",
+      "followup_id": 52
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc7946.html",
+      "cited_urls": [
+        "https://www.rfc-editor.org/rfc/rfc7946.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch14.md",
+          "section": "14.3",
+          "baseline_line": 220
+        }
+      ],
+      "status": "REOPENED_RELEVANT_PASSAGES",
+      "checked_claim": "GeoJSON经度在前、纬度在后，WGS84及十进制度。",
+      "note": "仅核所述段落，不表示来源全文、数据集全部观测或教学人物史实均经核验。"
+    },
+    {
+      "url": "https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectorgeneral.html",
+      "cited_urls": [
+        "https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectorgeneral.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch14.md",
+          "section": "14.3",
+          "baseline_line": 221
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "Assign projection改解释不变几何，Reproject实际变换",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "QGIS Vector general Assign projection第69—73行与Reproject layer第1134—1136行",
+      "followup_id": 53
+    },
+    {
+      "url": "https://www.ogc.org/standards/sfa/",
+      "cited_urls": [
+        "https://www.ogc.org/standards/sfa/"
+      ],
+      "locations": [
+        {
+          "chapter": "ch14.md",
+          "section": "14.3",
+          "baseline_line": 222
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "简单要素提供点曲线表面集合与空间参考共同模型",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "OGC SFA Part1官方标准入口第523行；正文不声称课堂程序完整实现标准",
+      "followup_id": 54
+    },
+    {
+      "url": "https://chgis.fas.harvard.edu/pages/intro/",
+      "cited_urls": [
+        "https://chgis.fas.harvard.edu/pages/intro/"
+      ],
+      "locations": [
+        {
+          "chapter": "ch14.md",
+          "section": "14.4",
+          "baseline_line": 296
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "CHGIS追踪地名、行政状态及位置变化，时片与时序可连接用户数据",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "CHGIS Intro第36—39行",
+      "followup_id": 55
+    },
+    {
+      "url": "https://chgis.fas.harvard.edu/work/docs/papers/chgis_dbase_web_0806.pdf",
+      "cited_urls": [
+        "https://chgis.fas.harvard.edu/work/docs/papers/chgis_dbase_web_0806.pdf"
+      ],
+      "locations": [
+        {
+          "chapter": "ch14.md",
+          "section": "14.4",
+          "baseline_line": 298
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "时空实例、属性版本和时间查询的设计",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "Berman原PDF第1页row-versioned设计及第10—15页时空实例、属性变化、先后关系；不为S/T虚构输入背书",
+      "followup_id": 56
+    },
+    {
+      "url": "https://docs.whgazetteer.org/content/v4/data-model/overview.html",
+      "cited_urls": [
+        "https://docs.whgazetteer.org/content/v4/data-model/overview.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch14.md",
+          "section": "14.5",
+          "baseline_line": 366
+        }
+      ],
+      "status": "REOPENED_RELEVANT_PASSAGES",
+      "checked_claim": "geometry role、spatialPrecision及sourceCrs等字段和不同来源几何独立保留。",
+      "note": "仅核所述段落，不表示来源全文、数据集全部观测或教学人物史实均经核验。"
+    },
+    {
+      "url": "https://docs.qgis.org/3.44/en/docs/user_manual/managing_data_source/georeferencer.html",
+      "cited_urls": [
+        "https://docs.qgis.org/3.44/en/docs/user_manual/managing_data_source/georeferencer.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch14.md",
+          "section": "14.5",
+          "baseline_line": 367
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "残差及单位、GCP与地图配准不确定性",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "docs.qgis.org同版Georeferencer第109、193行；与ID51为不同主机URL的同一手册内容，不重复当独立证据",
+      "followup_id": 57
+    },
+    {
+      "url": "https://docs.gbif.org/georeferencing-best-practices/1.0/en/",
+      "cited_urls": [
+        "https://docs.gbif.org/georeferencing-best-practices/1.0/en/"
+      ],
+      "locations": [
+        {
+          "chapter": "ch14.md",
+          "section": "14.5",
+          "baseline_line": 369
+        }
+      ],
+      "status": "REOPENED_RELEVANT_PASSAGES",
+      "checked_claim": "§3.3点半径、包围框和形状表达，包括完整不确定范围；不是历史证据。",
+      "note": "仅核所述段落，不表示来源全文、数据集全部观测或教学人物史实均经核验。"
+    },
+    {
+      "url": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/spatial-statistics/average-nearest-neighbor.html",
+      "cited_urls": [
+        "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/spatial-statistics/average-nearest-neighbor.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch15.md",
+          "section": "15.1",
+          "baseline_line": 65
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "研究面积改变最近邻推断，shapefile空值有变零等风险",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "Esri Average Nearest Neighbor第20—25、39行；本章未实现该检验",
+      "followup_id": 58
+    },
+    {
+      "url": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/spatial-statistics/modeling-spatial-relationships.html",
+      "cited_urls": [
+        "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/spatial-statistics/modeling-spatial-relationships.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch15.md",
+          "section": "15.2",
+          "baseline_line": 133
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "空间关系、距离带、欧氏/曼哈顿、行标准化须声明",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "Esri Modeling spatial relationships对应标题与第18—28、69—109行",
+      "followup_id": 59
+    },
+    {
+      "url": "https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.shortest_paths.weighted.single_source_dijkstra.html",
+      "cited_urls": [
+        "https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.shortest_paths.weighted.single_source_dijkstra.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch15.md",
+          "section": "15.2",
+          "baseline_line": 135
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "Dijkstra边代价与最短距离/路径输出及负权限制",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "NetworkX single_source_dijkstra参数Returns/Notes，第155行负权及浮点数值风险",
+      "followup_id": 60
+    },
+    {
+      "url": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/spatial-analyst/how-kernel-density-works.html",
+      "cited_urls": [
+        "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/spatial-analyst/how-kernel-density-works.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch15.md",
+          "section": "15.3",
+          "baseline_line": 201
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "核密度位置、权重、搜索半径、面积单位不同",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "Esri How Kernel Density works第15—21、38—58行；此实现quartic核，不把工具结果当本章已运行",
+      "followup_id": 61
+    },
+    {
+      "url": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/spatial-statistics/h-how-spatial-autocorrelation-moran-s-i-spatial-st.html",
+      "cited_urls": [
+        "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/spatial-statistics/h-how-spatial-autocorrelation-moran-s-i-spatial-st.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch15.md",
+          "section": "15.3",
+          "baseline_line": 203
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "全局Moran描述属性关联，零假设与全局/局部意义不同",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "Esri Global Moran第34—43及69—72行；精确教学公式另由ID63直接支持",
+      "followup_id": 62
+    },
+    {
+      "url": "https://geodacenter.github.io/workbook/5a_global_auto/lab5a.html",
+      "cited_urls": [
+        "https://geodacenter.github.io/workbook/5a_global_auto/lab5a.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch15.md",
+          "section": "15.3",
+          "baseline_line": 205
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "Moran权重公式、置换零假设和抽样伪p值",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "GeoDa Workbook第87—100行；正文全部720枚举已含观察排列，区别于此页随机抽样+1修正",
+      "followup_id": 63
+    },
+    {
+      "url": "https://www.scotlandscensus.gov.uk/about/2022-census/statistical-methodology/age-standardisation/",
+      "cited_urls": [
+        "https://www.scotlandscensus.gov.uk/about/2022-census/statistical-methodology/age-standardisation/"
+      ],
+      "locations": [
+        {
+          "chapter": "ch15.md",
+          "section": "15.4",
+          "baseline_line": 275
+        }
+      ],
+      "status": "REOPENED_RELEVANT_PASSAGES",
+      "checked_claim": "将分层率应用于共同标准结构的描述性标准化原则。",
+      "note": "仅核所述段落，不表示来源全文、数据集全部观测或教学人物史实均经核验。"
+    },
+    {
+      "url": "https://support.esri.com/en-us/gis-dictionary/modifiable-areal-unit-problem",
+      "cited_urls": [
+        "https://support.esri.com/en-us/gis-dictionary/modifiable-areal-unit-problem"
+      ],
+      "locations": [
+        {
+          "chapter": "ch15.md",
+          "section": "15.5",
+          "baseline_line": 345
+        }
+      ],
+      "status": "REOPENED_RELEVANT_PASSAGES",
+      "checked_claim": "MAUP尺度效应和分区效应区分。",
+      "note": "仅核所述段落，不表示来源全文、数据集全部观测或教学人物史实均经核验。"
+    },
+    {
+      "url": "https://gistbok-ltb.ucgis.org/current/concept/FC-07-026",
+      "cited_urls": [
+        "https://gistbok-ltb.ucgis.org/current/concept/FC-07-026"
+      ],
+      "locations": [
+        {
+          "chapter": "ch15.md",
+          "section": "15.5",
+          "baseline_line": 347
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "MAUP尺度与分区不同，聚合结果不能当个体事实",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "Mennis2019原文摘要、定义及Scale vs Zoning第65—73行",
+      "followup_id": 64
+    },
+    {
+      "url": "https://blogs.loc.gov/teachers/2012/03/primary-source-analysis-tool-forming-good-questions/",
+      "cited_urls": [
+        "https://blogs.loc.gov/teachers/2012/03/primary-source-analysis-tool-forming-good-questions/"
+      ],
+      "locations": [
+        {
+          "chapter": "ch15.md",
+          "section": "15.6",
+          "baseline_line": 421
+        }
+      ],
+      "status": "ACCESS_BLOCKED",
+      "checked_claim": "国会图书馆由观察反思形成史料问题的教学主张；原页面本轮未读",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "2026-10-30 web返回403 Forbidden；未重复请求或绕过",
+      "followup_id": 65
+    },
+    {
+      "url": "https://www.historians.org/resource/statement-on-standards-of-professional-conduct/",
+      "cited_urls": [
+        "https://www.historians.org/resource/statement-on-standards-of-professional-conduct/"
+      ],
+      "locations": [
+        {
+          "chapter": "ch15.md",
+          "section": "15.6",
+          "baseline_line": 423
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "忠实处理记录、保留证据路径、不伪造歪曲隐去反例",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "AHA Statement第184—193及214—215行",
+      "followup_id": 66
+    },
+    {
+      "url": "https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html",
+      "cited_urls": [
+        "https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html",
+        "https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html#E41"
+      ],
+      "locations": [
+        {
+          "chapter": "ch16.md",
+          "section": "16.1",
+          "baseline_line": 69
+        },
+        {
+          "chapter": "ch16.md",
+          "section": "16.3",
+          "baseline_line": 151
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "人物群体事件、参与成员关系和称谓分开建模",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "CIDOC CRM7.1.3：E21/E74、E41 Scope note，P11与P107 Domain/Range/Scope note；仅借概念非合规实现",
+      "followup_id": 67
+    },
+    {
+      "url": "https://www.w3.org/TR/prov-primer/",
+      "cited_urls": [
+        "https://www.w3.org/TR/prov-primer/",
+        "https://www.w3.org/TR/prov-primer/#derivation-and-revision"
+      ],
+      "locations": [
+        {
+          "chapter": "ch16.md",
+          "section": "16.1",
+          "baseline_line": 71
+        },
+        {
+          "chapter": "ch16.md",
+          "section": "16.4",
+          "baseline_line": 234
+        }
+      ],
+      "status": "REOPENED_RELEVANT_PASSAGES",
+      "checked_claim": "来源派生与修订，新版本作为新实体保存及关联。",
+      "note": "仅核所述段落，不表示来源全文、数据集全部观测或教学人物史实均经核验。"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html",
+      "cited_urls": [
+        "https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str"
+      ],
+      "locations": [
+        {
+          "chapter": "ch16.md",
+          "section": "16.2",
+          "baseline_line": 137
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "Python str是不变Unicode码点序列、索引与片段",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "Python官方Text Sequence Type—str第904—918行；当前链接重定向/3/builtins/stdtypes.html",
+      "followup_id": 68
+    },
+    {
+      "url": "https://www.w3.org/TR/annotation-model/",
+      "cited_urls": [
+        "https://www.w3.org/TR/annotation-model/"
+      ],
+      "locations": [
+        {
+          "chapter": "ch16.md",
+          "section": "16.2",
+          "baseline_line": 139
+        }
+      ],
+      "status": "REOPENED_RELEVANT_PASSAGES",
+      "checked_claim": "Unicode码点、TextPosition左闭右开、文本改变造成位置脆弱；本书未声称完整标准合规。",
+      "note": "仅核所述段落，不表示来源全文、数据集全部观测或教学人物史实均经核验。"
+    },
+    {
+      "url": "https://www.loc.gov/standards/datetime/",
+      "cited_urls": [
+        "https://www.loc.gov/standards/datetime/"
+      ],
+      "locations": [
+        {
+          "chapter": "ch16.md",
+          "section": "16.4",
+          "baseline_line": 240
+        }
+      ],
+      "status": "REOPENED_RELEVANT_PASSAGES",
+      "checked_claim": "未知端点与开放端点的不同编码、日期精度。",
+      "note": "仅核所述段落，不表示来源全文、数据集全部观测或教学人物史实均经核验。"
+    },
+    {
+      "url": "https://networkx.org/documentation/stable/reference/algorithms/bipartite.html",
+      "cited_urls": [
+        "https://networkx.org/documentation/stable/reference/algorithms/bipartite.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch16.md",
+          "section": "16.5",
+          "baseline_line": 290
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "二模集合标记是约定，不自动强制跨集合边条件",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "NetworkX Bipartite第100行",
+      "followup_id": 69
+    },
+    {
+      "url": "https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.bipartite.projection.weighted_projected_graph.html",
+      "cited_urls": [
+        "https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.bipartite.projection.weighted_projected_graph.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch16.md",
+          "section": "16.5",
+          "baseline_line": 298
+        }
+      ],
+      "status": "REOPENED_RELEVANT_PASSAGES",
+      "checked_claim": "ratio=False默认按共享邻居数计权，输入二模性需自行保证。",
+      "note": "仅核所述段落，不表示来源全文、数据集全部观测或教学人物史实均经核验。"
+    },
+    {
+      "url": "https://transnationalhistory.net/interconnected/wp-content/uploads/2015/05/Lemlercier-Networks.pdf",
+      "cited_urls": [
+        "https://transnationalhistory.net/interconnected/wp-content/uploads/2015/05/Lemlercier-Networks.pdf"
+      ],
+      "locations": [
+        {
+          "chapter": "ch17.md",
+          "section": "17.1",
+          "baseline_line": 44
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "研究须定义对象关系时间，边界限定中心与孤立解释",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "Lemercier原PDF Networks and historical sources，第7页第289—309行；明确centrality/isolation相对于所观察节点与关系",
+      "followup_id": 70
+    },
+    {
+      "url": "https://networkx.org/documentation/stable/reference/generated/networkx.classes.function.density.html",
+      "cited_urls": [
+        "https://networkx.org/documentation/stable/reference/generated/networkx.classes.function.density.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch17.md",
+          "section": "17.2",
+          "baseline_line": 55
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "简单图无向和有向密度分母不同，多重图可超过1",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "NetworkX density第65—77行",
+      "followup_id": 71
+    },
+    {
+      "url": "https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.components.is_strongly_connected.html",
+      "cited_urls": [
+        "https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.components.is_strongly_connected.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch17.md",
+          "section": "17.2",
+          "baseline_line": 71
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "强连通要求任一顶点可从任一另一顶点到达",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "NetworkX is_strongly_connected第100行",
+      "followup_id": 72
+    },
+    {
+      "url": "https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.components.is_weakly_connected.html",
+      "cited_urls": [
+        "https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.components.is_weakly_connected.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch17.md",
+          "section": "17.2",
+          "baseline_line": 71
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "弱连通为忽略方向后的连通",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "NetworkX is_weakly_connected第100—102行",
+      "followup_id": 73
+    },
+    {
+      "url": "https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.centrality.degree_centrality.html",
+      "cited_urls": [
+        "https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.centrality.degree_centrality.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch17.md",
+          "section": "17.3",
+          "baseline_line": 102
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "度中心性按简单图最大度n-1归一",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "NetworkX degree_centrality第132—134行",
+      "followup_id": 74
+    },
+    {
+      "url": "https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.centrality.betweenness_centrality.html",
+      "cited_urls": [
+        "https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.centrality.betweenness_centrality.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch17.md",
+          "section": "17.3",
+          "baseline_line": 121
+        }
+      ],
+      "status": "REOPENED_RELEVANT_PASSAGES",
+      "checked_claim": "端点排除、无向/有向路径对与归一化分母、权重作为距离。",
+      "note": "仅核所述段落，不表示来源全文、数据集全部观测或教学人物史实均经核验。"
+    },
+    {
+      "url": "https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.centrality.closeness_centrality.html",
+      "cited_urls": [
+        "https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.centrality.closeness_centrality.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch17.md",
+          "section": "17.3",
+          "baseline_line": 123
+        }
+      ],
+      "status": "REOPENED_RELEVANT_PASSAGES",
+      "checked_claim": "WF可达比例修正、默认有向入向距离。",
+      "note": "仅核所述段落，不表示来源全文、数据集全部观测或教学人物史实均经核验。"
+    },
+    {
+      "url": "https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.bridges.bridges.html",
+      "cited_urls": [
+        "https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.bridges.bridges.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch17.md",
+          "section": "17.3",
+          "baseline_line": 129
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "桥为删边增加连通分量数的无向边",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "NetworkX bridges第100行",
+      "followup_id": 75
+    },
+    {
+      "url": "https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.community.quality.modularity.html",
+      "cited_urls": [
+        "https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.community.quality.modularity.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch17.md",
+          "section": "17.4",
+          "baseline_line": 148
+        }
+      ],
+      "status": "REOPENED_RELEVANT_PASSAGES",
+      "checked_claim": "模块度求和公式和分辨率gamma。",
+      "note": "仅核所述段落，不表示来源全文、数据集全部观测或教学人物史实均经核验。"
+    },
+    {
+      "url": "https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.community.louvain.louvain_communities.html",
+      "cited_urls": [
+        "https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.community.louvain.louvain_communities.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch17.md",
+          "section": "17.4",
+          "baseline_line": 171
+        }
+      ],
+      "status": "REOPENED_RELEVANT_PASSAGES",
+      "checked_claim": "默认算法节点访问随机次序会影响最终划分。",
+      "note": "仅核所述段落，不表示来源全文、数据集全部观测或教学人物史实均经核验。"
+    }
+  ],
+  "unverified_sources": [
+    {
+      "url": "https://doi.org/10.1016/j.ijforecast.2021.11.013",
+      "cited_urls": [
+        "https://doi.org/10.1016/j.ijforecast.2021.11.013"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.5",
+          "baseline_line": 363
+        }
+      ],
+      "status": "ACCESS_BLOCKED",
+      "checked_claim": "M5正式版§3.3；未读取正文，不能冒称正式版已核",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "2026-10-30 web打开DOI返回403 Forbidden；未重试或绕过",
+      "followup_id": 33
+    },
+    {
+      "url": "https://sites.stat.washington.edu/raftery/Research/PDF/Gneiting2007jrssb.pdf",
+      "cited_urls": [
+        "https://sites.stat.washington.edu/raftery/Research/PDF/Gneiting2007jrssb.pdf"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.8",
+          "baseline_line": 588
+        }
+      ],
+      "status": "ACCESS_BLOCKED",
+      "checked_claim": "校准与锐度定义；目标原PDF本轮未读取",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "2026-10-30 web获取Gneiting2007jrssb.pdf返回400 Timeout；未重复失败",
+      "followup_id": 39
+    },
+    {
+      "url": "https://blogs.loc.gov/teachers/2012/03/primary-source-analysis-tool-forming-good-questions/",
+      "cited_urls": [
+        "https://blogs.loc.gov/teachers/2012/03/primary-source-analysis-tool-forming-good-questions/"
+      ],
+      "locations": [
+        {
+          "chapter": "ch15.md",
+          "section": "15.6",
+          "baseline_line": 421
+        }
+      ],
+      "status": "ACCESS_BLOCKED",
+      "checked_claim": "国会图书馆由观察反思形成史料问题的教学主张；原页面本轮未读",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "evidence_locator": "2026-10-30 web返回403 Forbidden；未重复请求或绕过",
+      "followup_id": 65
+    }
+  ],
+  "source_verification_summary": {
+    "unique_cited_pages": 96,
+    "reopened_relevant_passages": 93,
+    "not_attempted": 0,
+    "access_blocked": 3,
+    "original_followup_scope": 75,
+    "followup_supported": 72,
+    "followup_access_blocked": 3,
+    "followup_evidence_file": "proofread_sources_followup.json",
+    "note": "93项含两项限定支持范围的接口引用；按URL去锚点计数，不将QGIS两主机镜像当独立研究。"
+  },
+  "definite_corrections": [
+    {
+      "chapter": "ch14.md",
+      "section": "14.2",
+      "old": "读者包的示意地图、点位和数字全部为本节自编",
+      "new": "本节的示意点位和数字全部为教学自编",
+      "reason": "读者包并未附示意地图，删除对已附图件的错误指称，保留教学点位和数字。"
+    },
+    {
+      "chapter": "ch14.md",
+      "section": "14.2",
+      "old": "三个检查点另存文件，不参与求解。",
+      "new": "三个检查点在同一输入文件的独立字段中保存，不参与求解。",
+      "reason": "检查点实际在input.json的check字段，不是另一个文件。"
+    },
+    {
+      "chapter": "ch14.md",
+      "section": "14.2",
+      "old": "输入为input.json中的控制点、检查点和两种错点情景。",
+      "new": "输入为input.json中的控制点、检查点以及基准、第四点错移两种情景。",
+      "reason": "实际提供base与wrong_G4，不是两种错点情景。"
+    },
+    {
+      "chapter": "ch14.md",
+      "section": "14.2",
+      "old": "反例二只用三个聚集在100至200像素范围的点，并加入小偏差，拟合仍可接近零，但远处C3的误差明显放大。",
+      "new": "扩展反例可另建练习副本，只用三个聚集在100至200像素范围的点，并加入小偏差，观察拟合仍接近零时，远处C3的误差是否明显放大；新附件未提供这一情景的完整输入或运行值。",
+      "reason": "聚集点情景未提供，改为明确的扩展练习，不冒称已附或已算。"
+    },
+    {
+      "chapter": "ch14.md",
+      "section": "14.2",
+      "old": "另两份输入分别共线和近共线，程序应拒绝求解，而不是输出看似完整的地图。这里的数值阈值是教学程序的防护约定，不是测绘验收规范。诊断图用不同颜色表示拟合点与检查点，并同时画出各情形的检查误差；读图时注意误差柱采用对数尺度，不能把柱高差直接解释为米数之差。",
+      "new": "还可另建共线和近共线的完整练习输入，核查程序是否按其奇异性与条件数阈值拒绝求解，而不是接受不稳定的参数；附件只给出一组共线坐标提示，未将这两种情况编成完整运行情景。这里的数值阈值是教学程序的防护约定，不是测绘验收规范。另行制作诊断图时，可用不同颜色区分拟合点与检查点，并并列各情形的检查误差；若误差柱采用对数尺度，不能把柱高差直接解释为米数之差。",
+      "reason": "区分提示坐标、未附完整情景与当前无图输出。"
+    },
+    {
+      "chapter": "ch14.md",
+      "section": "14.3",
+      "old": "默认输入的图示把矩形与蝴蝶结并列，帮助理解顶点顺序；右侧反例不计算面积。修改输入后，图形、比例和标签依据当次坐标与检查结果更新，不沿用默认面积或错误状态。",
+      "new": "若据默认输入另行作图，可把矩形与蝴蝶结并列，帮助理解顶点顺序；反例不应标注有效面积。修改输入后，所制图形、比例和标签也应依据当次坐标与检查结果更新，不沿用默认面积或错误状态。",
+      "reason": "脚本仅有CSV/JSON，图示应为后续制图要求。"
+    },
+    {
+      "chapter": "ch14.md",
+      "section": "14.4",
+      "old": "输出每期图层及逐事件关联表。",
+      "new": "输出各期边界版本与逐事件关联表，供后续制图使用。",
+      "reason": "避免把JSON/CSV边界版本输出称为已生成图层。"
+    },
+    {
+      "chapter": "ch15.md",
+      "section": "15.1",
+      "old": "未定项另画空心符号。图内区域标签、事件点、确认数、机会数及比率全部从本次输入计算，不能为得到预期图形手工改标签。",
+      "new": "若另行制图，未定项宜用空心符号；图内区域标签、事件点、确认数、机会数及比率应全部取自当次输入与计算结果，不能为得到预期图形手工改标签。",
+      "reason": "当前无制图功能，改为后续绘图准则。"
+    },
+    {
+      "chapter": "ch15.md",
+      "section": "15.2",
+      "old": "图中的点位置来自输入坐标，箭头表示方向，边旁标的是输入成本；下方文字从当次结果生成，列出A到各点的时间和路径。停用、未知和时期外的边不画成可通行实线，而在结果表中解释。改变边成本后必须重跑，不能手工改正文数字而沿用旧图。",
+      "new": "若另行绘制网络图，点位置应来自输入坐标，箭头表示方向，边旁标注输入成本；说明文字应取自当次结果，列出A到各点的时间和路径。停用、未知和时期外的边不应画成可通行实线，而须在结果表中解释。当前附件只输出数表，不生成该图；改变边成本后必须重跑，并同步更新另行制作的图。",
+      "reason": "明确当前数表输出与可选制图边界。"
+    },
+    {
+      "chapter": "ch15.md",
+      "section": "15.3",
+      "old": "图中的两层颜色还需要分别阅读。",
+      "new": "若另行制作两幅分布图，两层颜色还需要分别阅读。",
+      "reason": "没有已生成双面板图。"
+    },
+    {
+      "chapter": "ch15.md",
+      "section": "15.3",
+      "old": "本例在各面板内按本次最小值和最大值着色，所有值相同时使用统一颜色，缺失另用灰色。",
+      "new": "若各面板分别按当次最小值和最大值着色，所有值相同时应使用统一颜色，缺失另用灰色。",
+      "reason": "把当前并不存在的实现改为教学制图条件。"
+    },
+    {
+      "chapter": "ch15.md",
+      "section": "15.3",
+      "old": "图内数量、颜色、指数和比例都随本次输入生成。",
+      "new": "如另行制作结果图，图内数量、颜色、指数和比例也须随当次输入与结果更新。",
+      "reason": "当前程序无SVG输出。"
+    },
+    {
+      "chapter": "ch15.md",
+      "section": "15.3",
+      "old": "改变后需要把汇总结果与SVG标签同时核对，而不是只查看脚本有没有报错。",
+      "new": "改变后需要核对汇总结果，而不是只查看脚本有没有报错；若另行制图，还须同步核对图中标签。",
+      "reason": "SVG不属于实际输出。"
+    },
+    {
+      "chapter": "ch15.md",
+      "section": "15.4",
+      "old": "结果图用同一数值色阶并置两个时期，分别画原总体与统一结构值，避免每幅图自动拉伸颜色而夸大差异。图上区域只是虚构矩形，环境层不被画成未经给定边界的分区，完整分层数值另在表中列出。",
+      "new": "当前附件输出数表；若据此另行制图，应使用同一数值色阶并置两个时期，分别画原总体与统一结构值，避免每幅图自动拉伸颜色而夸大差异。图上区域只是虚构矩形，环境层不应画成未经给定边界的分区，完整分层数值仍在表中列出。",
+      "reason": "实际无图输出。"
+    },
+    {
+      "chapter": "ch15.md",
+      "section": "15.4",
+      "old": "练习包自动核对这些变化，以及重复行、窗口不一致和口径冲突的拒绝行为。图上的结果不是在程序外手工填写的答案。",
+      "new": "这些变化以及重复行、窗口不一致和口径冲突的拒绝行为，需要读者实际运行后核对，不能把练习要求写成已经通过的测试。另行制图时，应从当次结果读取数值，不在程序外手工填写预期答案。",
+      "reason": "附件没有已执行自动扰动测试的证据。"
+    },
+    {
+      "chapter": "ch15.md",
+      "section": "15.5",
+      "old": "输出十六种组合的区域结果、联合配置及总览图。图中标注计数与比率范围，不用候选的平均位置画一个确定点。",
+      "new": "输出十六种组合的区域结果与联合配置数表，不生成总览图。若据此另行制图，应标注计数与比率范围，不用候选的平均位置画一个确定点。",
+      "reason": "实际无总览图输出。"
+    },
+    {
+      "chapter": "ch15.md",
+      "section": "15.5",
+      "old": "练习包自动测试改变时间终点、改变定位版本候选、零机会和未覆盖状态，并核对JSON与SVG标签是否同步变化。",
+      "new": "读者还须实际测试改变时间终点、改变定位版本候选、零机会和未覆盖状态，并核对JSON与CSV数表；若另行制图，再检查标签是否同步变化。",
+      "reason": "无配套自动SVG测试功能。"
+    },
+    {
+      "chapter": "ch15.md",
+      "section": "15.6",
+      "old": "运行后，读者先看核对表，再打开流程图。图按输入实际生成，显示每种解释所连材料、来源根和待查问题数；箭头仅表示读者应沿哪些记录回查，不表示历史因果方向。",
+      "new": "运行后，读者先看核对表；如另行制作流程图，应根据当次输入与输出显示每种解释所连材料、来源根和待查问题数。箭头仅表示读者应沿哪些记录回查，不表示历史因果方向；该流程图不是当前附件的输出。",
+      "reason": "消除先称生成流程图后称无制图功能的矛盾。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.1",
+      "baseline_line": 13,
+      "old": "(t)",
+      "new": "\\(t\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.1",
+      "baseline_line": 13,
+      "old": "(x_t\\in\\mathbb{R}^{d})",
+      "new": "\\(x_t\\in\\mathbb{R}^{d}\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.1",
+      "baseline_line": 13,
+      "old": "(d=1)",
+      "new": "\\(d=1\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.1",
+      "baseline_line": 13,
+      "old": "(d>1)",
+      "new": "\\(d>1\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.1",
+      "baseline_line": 13,
+      "old": "(L)",
+      "new": "\\(L\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.1",
+      "baseline_line": 13,
+      "old": "(X_t=(x_{t-L+1},\\ldots,x_t))",
+      "new": "\\(X_t=(x_{t-L+1},\\ldots,x_t)\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.1",
+      "baseline_line": 15,
+      "old": "(t)",
+      "new": "\\(t\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.1",
+      "baseline_line": 15,
+      "old": "(\\mathcal I_t)",
+      "new": "\\(\\mathcal I_t\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.1",
+      "baseline_line": 15,
+      "old": "(H)",
+      "new": "\\(H\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.1",
+      "baseline_line": 21,
+      "old": "(H)",
+      "new": "\\(H\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.1",
+      "baseline_line": 39,
+      "old": "(\\tau)",
+      "new": "\\(\\tau\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.1",
+      "baseline_line": 41,
+      "old": "(c)",
+      "new": "\\(c\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.3",
+      "baseline_line": 107,
+      "old": "(y_1,\\ldots,y_n)",
+      "new": "\\(y_1,\\ldots,y_n\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.3",
+      "baseline_line": 107,
+      "old": "(\\bar y)",
+      "new": "\\(\\bar y\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.3",
+      "baseline_line": 113,
+      "old": "(k)",
+      "new": "\\(k\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.3",
+      "baseline_line": 119,
+      "old": "(k)",
+      "new": "\\(k\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.3",
+      "baseline_line": 119,
+      "old": "(1,\\ldots,k-1)",
+      "new": "\\(1,\\ldots,k-1\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.5",
+      "baseline_line": 192,
+      "old": "(T_t)",
+      "new": "\\(T_t\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.5",
+      "baseline_line": 192,
+      "old": "(S_t)",
+      "new": "\\(S_t\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.5",
+      "baseline_line": 192,
+      "old": "(R_t)",
+      "new": "\\(R_t\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.5",
+      "baseline_line": 204,
+      "old": "(\\Delta y_t=y_t-y_{t-1})",
+      "new": "\\(\\Delta y_t=y_t-y_{t-1}\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.5",
+      "baseline_line": 204,
+      "old": "(\\Delta_m y_t=y_t-y_{t-m})",
+      "new": "\\(\\Delta_m y_t=y_t-y_{t-m}\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.5",
+      "baseline_line": 204,
+      "old": "(m)",
+      "new": "\\(m\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.5",
+      "baseline_line": 206,
+      "old": "(m)",
+      "new": "\\(m\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.7",
+      "baseline_line": 271,
+      "old": "(z=(y-\\mu_{tr})/s_{tr})",
+      "new": "\\(z=(y-\\mu_{tr})/s_{tr}\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.7",
+      "baseline_line": 271,
+      "old": "(z=(y-a_{tr})/(b_{tr}-a_{tr}))",
+      "new": "\\(z=(y-a_{tr})/(b_{tr}-a_{tr})\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.7",
+      "baseline_line": 283,
+      "old": "(n)",
+      "new": "\\(n\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.7",
+      "baseline_line": 291,
+      "old": "(\\widehat y=\\mu_{tr}+s_{tr}\\widehat z)",
+      "new": "\\(\\widehat y=\\mu_{tr}+s_{tr}\\widehat z\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.8",
+      "baseline_line": 325,
+      "old": "(y_{t+1})",
+      "new": "\\(y_{t+1}\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.8",
+      "baseline_line": 325,
+      "old": "(y_{t-2},y_{t-1},y_t)",
+      "new": "\\(y_{t-2},y_{t-1},y_t\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.8",
+      "baseline_line": 325,
+      "old": "(t)",
+      "new": "\\(t\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.8",
+      "baseline_line": 325,
+      "old": "(y_{t+1})",
+      "new": "\\(y_{t+1}\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.9",
+      "baseline_line": 341,
+      "old": "(L)",
+      "new": "\\(L\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.9",
+      "baseline_line": 341,
+      "old": "(H)",
+      "new": "\\(H\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.9",
+      "baseline_line": 341,
+      "old": "(S)",
+      "new": "\\(S\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.9",
+      "baseline_line": 341,
+      "old": "(t)",
+      "new": "\\(t\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.9",
+      "baseline_line": 347,
+      "old": "(L=5,H=2,S=1)",
+      "new": "\\(L=5,H=2,S=1\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.9",
+      "baseline_line": 347,
+      "old": "(N)",
+      "new": "\\(N\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.9",
+      "baseline_line": 347,
+      "old": "(\\lfloor(N-L-H)/S\\rfloor+1)",
+      "new": "\\(\\lfloor(N-L-H)/S\\rfloor+1\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.9",
+      "baseline_line": 347,
+      "old": "(N<L+H)",
+      "new": "\\(N<L+H\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.9",
+      "baseline_line": 353,
+      "old": "(H=2)",
+      "new": "\\(H=2\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.9",
+      "baseline_line": 361,
+      "old": "(W)",
+      "new": "\\(W\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.9",
+      "baseline_line": 363,
+      "old": "(W)",
+      "new": "\\(W\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.9",
+      "baseline_line": 363,
+      "old": "(L)",
+      "new": "\\(L\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    },
+    {
+      "chapter": "ch12.md",
+      "section": "12.9",
+      "baseline_line": 365,
+      "old": "(L,H,S,W)",
+      "new": "\\(L,H,S,W\\)",
+      "reason": "仅把明显行内数学的普通圆括号替换为标准LaTeX行内定界符，不改公式内容；尚未做读者渲染器视觉验收。"
+    }
+  ],
+  "diff_files": [
+    "proofread_ch12.diff",
+    "proofread_ch14.diff",
+    "proofread_ch15.diff"
+  ],
+  "hashes": [
+    {
+      "file": "ch12.md",
+      "baseline_sha256": "039a95ad4049190038006210de173e8956036b823ce86dbcdfb27f3128872f6d",
+      "revision_sha256": "eee9bbc0951e8823151f50d260daf6e4ebf764cea6369bb8a171fce48ee27226"
+    },
+    {
+      "file": "ch13.md",
+      "baseline_sha256": "36bc459637b8ce371c554c395f890cd0f0b36881901bc6f3e69a577ebeee182b",
+      "revision_sha256": "36bc459637b8ce371c554c395f890cd0f0b36881901bc6f3e69a577ebeee182b"
+    },
+    {
+      "file": "ch14.md",
+      "baseline_sha256": "1f6eaedebe74a666f13a7b7a5ffbec95e233cda520305ede8fce7b7765ebce07",
+      "revision_sha256": "6529a5d8c7f2649bab32cb858c0a10ba2b8c641795f338303192011504bdb21a"
+    },
+    {
+      "file": "ch15.md",
+      "baseline_sha256": "db409735d0f7ff7fc0115d555e8cb57f770020418942bbcad32cceaa0c6973f6",
+      "revision_sha256": "3c16241ba842e3e14863faf2dce676ca311712a54d0074ca98e78bb895cfa493"
+    },
+    {
+      "file": "ch16.md",
+      "baseline_sha256": "9f017184eacc3663d99e85cd61d1d10fd232c84f1f07bc19f046e58d61c3cd72",
+      "revision_sha256": "9f017184eacc3663d99e85cd61d1d10fd232c84f1f07bc19f046e58d61c3cd72"
+    },
+    {
+      "file": "ch17.md",
+      "baseline_sha256": "d60c705e03290669901d54fb936919a337fd0aaed957a14ba267a88e00169ad7",
+      "revision_sha256": "d60c705e03290669901d54fb936919a337fd0aaed957a14ba267a88e00169ad7"
+    }
+  ],
+  "verification_limits": [
+    "本代理全文核读正文，不以程序抽检冒充全文校读。",
+    "数值运行由独立复算代理完成；本代理未把收到的摘要冒称亲自执行。",
+    "原始发布NOT_RUN是原编制阶段记录，本版运行状态须另看复算验收报告，未全局改写。",
+    "第12章45处仅改数学定界，逆替换逐字还原基线已断言通过；没有文档渲染器视觉验收。",
+    "13.2—13.4统计模型与13.9可选Optuna须依赖实际运行状态，不用基线成功代替模型成功。",
+    "全部96个原引用页面均已尝试按实际主张核对；93项相关段落已核，3项访问阻塞详列，不声称外部来源全文或真实历史原件已核。"
+  ],
+  "cross_chapter_checks": [
+    "12→13年度资料/四期周期例独立；字段转换不补缺值、不意味着模型已适用。",
+    "13.7已公布的测试段不能在13.10作为新盲测；正文保留此边界。",
+    "14.1与16.4整数年闭区间，14.4半开区间，均明确转换条件。",
+    "14.4边界点多候选与15.5方格唯一半开归属目的不同，正文明确不直接合并。",
+    "16章P编号与17章A—H八人例明确独立，不拼成同一历史样本。"
+  ],
+  "pending_artifact_issues": [
+    "需要由总协调者将本轮验收入口置于读者可见位置，避免旧NOT_RUN与新运行日志误读；本代理不统一改写历史状态。"
+  ],
+  "recomputation_evidence": {
+    "report": "ch12_17_recomputation.md",
+    "command_ledger": "../runs/ch12_17/commands.jsonl",
+    "reviewer_read_current_report": true,
+    "numeric_execution_by": "独立复核分组",
+    "current_assertions_passed": 1106,
+    "statsmodels_version": "0.15.0",
+    "optuna_version": "5.0.0",
+    "status": "批准依赖安装后已实际运行新增模型与Optuna；非旧60期模型复现。",
+    "limits": [
+      "第12章ADF/KPSS/STL等未实现诊断不称已运行",
+      "13.10无新独立测试；Optuna不评价test",
+      "ARIMA/SARIMA残差Ljung–Box显著，不称白噪声适配性通过",
+      "原NOT_RUN为历史发布状态，未全局改写"
+    ]
+  },
+  "final_artifact_checks": {
+    "json_parse": true,
+    "sections": 41,
+    "source_followup_items": 75,
+    "pending_followup_items": 0,
+    "baseline_and_revision_hashes_match_record": true,
+    "diffs_retained": true,
+    "math_delimiter_reverse_equals_baseline": true
+  }
+}

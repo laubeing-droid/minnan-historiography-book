@@ -1,0 +1,6 @@
+id,label,pred,source
+L01,photo,photo,A
+L02,photo,photo,A
+L03,photo,photo,B
+L04,seal,photo,B
+L05,map,map,C

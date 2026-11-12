@@ -1,0 +1,412 @@
+{
+  "scope": "原清单第7章16个未核URL补核",
+  "ledger": [
+    {
+      "url": "https://www.icpsr.umich.edu/sites/ICPSR/manage-data/prepare-deposit/guide",
+      "chapter": 7,
+      "occurrences": [
+        {
+          "section": "7.3 缺失 歧义与时空不确定性编码",
+          "baseline_line": 290,
+          "citation_text": "[1] ICPSR，*Guide to Social Science Data Preparation and Archiving*，“Missing Data”“Selecting Missing Data Codes”，缺失原因及状态说明。https://www.icpsr.umich.edu/sites/ICPSR/manage-data/prepare-deposit/guide 。",
+          "chapter": 7
+        }
+      ],
+      "status": "已核相关段落",
+      "status_zh": "已核相关段落",
+      "evidence": "缺失原因须分别编码；拒答、不知、不适用、无匹配等不能合并成无意义空格；标识变量可保留缺失状态。",
+      "checked_url": "https://www.icpsr.umich.edu/sites/ICPSR/manage-data/prepare-deposit/guide",
+      "id": "S07-04",
+      "sections": [
+        "7.3"
+      ],
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "Missing Data／Selecting Missing Data Codes",
+      "claim_checked": "缺失原因须分别编码；拒答、不知、不适用、无匹配等不能合并成无意义空格；标识变量可保留缺失状态。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A"
+    },
+    {
+      "url": "https://www.tei-c.org/release/doc/tei-p5-doc/en/html/CE.html",
+      "chapter": 7,
+      "occurrences": [
+        {
+          "section": "7.3 缺失 歧义与时空不确定性编码",
+          "baseline_line": 292,
+          "citation_text": "[2] TEI Consortium，*TEI Guidelines*，第22.1、22.2节，精度、不确定性及上下限表达。https://www.tei-c.org/release/doc/tei-p5-doc/en/html/CE.html 。另参美国国会图书馆，*Extended Date/Time Format Specification*，“Level 0 Date”“Seasons”“Set representation”。https://www.loc.gov/standards/datetime/ 。",
+          "chapter": 7
+        }
+      ],
+      "status": "已核相关段落",
+      "status_zh": "已核相关段落",
+      "evidence": "不确定性与数值精度不同；可把起讫和上下限分开表达，保留各自精度。",
+      "checked_url": "https://www.tei-c.org/release/doc/tei-p5-doc/en/html/CE.html",
+      "id": "S07-05",
+      "sections": [
+        "7.3"
+      ],
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "§22.1 Levels of Certainty；§22.2 Indications of Precision及上下限实例",
+      "claim_checked": "不确定性与数值精度不同；可把起讫和上下限分开表达，保留各自精度。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A"
+    },
+    {
+      "url": "https://www.loc.gov/standards/datetime/",
+      "chapter": 7,
+      "occurrences": [
+        {
+          "section": "7.3 缺失 歧义与时空不确定性编码",
+          "baseline_line": 292,
+          "citation_text": "[2] TEI Consortium，*TEI Guidelines*，第22.1、22.2节，精度、不确定性及上下限表达。https://www.tei-c.org/release/doc/tei-p5-doc/en/html/CE.html 。另参美国国会图书馆，*Extended Date/Time Format Specification*，“Level 0 Date”“Seasons”“Set representation”。https://www.loc.gov/standards/datetime/ 。",
+          "chapter": 7
+        }
+      ],
+      "status": "已核相关段落",
+      "status_zh": "已核相关段落",
+      "evidence": "年、月、日精度不同；季节有独立写法；单选集合与全包含集合分别表达，不把年份冲突改成连续区间。",
+      "checked_url": "https://www.loc.gov/standards/datetime/",
+      "id": "S07-06",
+      "sections": [
+        "7.3"
+      ],
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "Level 0 Date／Level 1 Seasons／Level 2 Set representation",
+      "claim_checked": "年、月、日精度不同；季节有独立写法；单选集合与全包含集合分别表达，不把年份冲突改成连续区间。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A"
+    },
+    {
+      "url": "https://chgis.fas.harvard.edu/pages/database/",
+      "chapter": 7,
+      "occurrences": [
+        {
+          "section": "7.3 缺失 歧义与时空不确定性编码",
+          "baseline_line": 298,
+          "citation_text": "[5] Harvard CHGIS，*Database Design*，第2节、2.2节“Boundary Changes”、2.3节“Point Location Changes”。https://chgis.fas.harvard.edu/pages/database/ 。",
+          "chapter": 7
+        }
+      ],
+      "status": "已核相关段落",
+      "status_zh": "已核相关段落",
+      "evidence": "同名行政单位随时间可改边界或治所；历史面对象与点对象不是同一项，不能用现今地点直接替代。",
+      "checked_url": "https://chgis.fas.harvard.edu/pages/database/",
+      "id": "S07-07",
+      "sections": [
+        "7.3"
+      ],
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "§2 Overview、§2.2 Boundary Changes、§2.3 Point Location Changes",
+      "claim_checked": "同名行政单位随时间可改边界或治所；历史面对象与点对象不是同一项，不能用现今地点直接替代。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A"
+    },
+    {
+      "url": "https://aclanthology.org/2024.cl-3.1/",
+      "chapter": 7,
+      "occurrences": [
+        {
+          "section": "7.4 标注指南 一致性与歧义仲裁",
+          "baseline_line": 398,
+          "citation_text": "[1] Jan-Christoph Klie、Richard Eckart de Castilho、Iryna Gurevych，*Analyzing Dataset Annotation Quality Management in the Wild*，2024，第3.1节，刊页823—825，标注指南、试标与迭代改进。https://aclanthology.org/2024.cl-3.1/ 。",
+          "chapter": 7
+        }
+      ],
+      "status": "已核相关段落",
+      "status_zh": "已核相关段落",
+      "evidence": "指南是迭代文件；试标、批次评价及修订相互衔接；标签定义与何时使用标签的指南作用不同。",
+      "checked_url": "https://aclanthology.org/2024.cl-3.1.pdf",
+      "id": "S07-08",
+      "sections": [
+        "7.4"
+      ],
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "原论文PDF§3.1，印刷823—825（由ACL页面进入）",
+      "claim_checked": "指南是迭代文件；试标、批次评价及修订相互衔接；标签定义与何时使用标签的指南作用不同。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "ACL原页面及其所链接原论文PDF"
+    },
+    {
+      "url": "https://projects.csail.mit.edu/workbench/update/guides/00%20-%20Adjudicator%27s%20Guide_v1.2.0.pdf",
+      "chapter": 7,
+      "occurrences": [
+        {
+          "section": "7.4 标注指南 一致性与歧义仲裁",
+          "baseline_line": 400,
+          "citation_text": "[2] MIT CSAIL，*Adjudicator’s Guide*，Version 1.2，2013年8月15日，第1页“What is Adjudication?”，独立双人标注、合并前计算一致性及指南修订。https://projects.csail.mit.edu/workbench/update/guides/00%20-%20Adjudicator%27s%20Guide_v1.2.0.pdf 。",
+          "chapter": 7
+        }
+      ],
+      "status": "已核相关段落",
+      "status_zh": "已核相关段落",
+      "evidence": "双人独立标注，合并前计算一致性；低一致可能促使修订指南而非强制只保留多数意见。",
+      "checked_url": "https://projects.csail.mit.edu/workbench/update/guides/00%20-%20Adjudicator%27s%20Guide_v1.2.0.pdf",
+      "id": "S07-09",
+      "sections": [
+        "7.4"
+      ],
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "PDF第1页What is Adjudication?及下方双人标注说明",
+      "claim_checked": "双人独立标注，合并前计算一致性；低一致可能促使修订指南而非强制只保留多数意见。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A"
+    },
+    {
+      "url": "https://aclanthology.org/J08-4004/",
+      "chapter": 7,
+      "occurrences": [
+        {
+          "section": "7.4 标注指南 一致性与歧义仲裁",
+          "baseline_line": 404,
+          "citation_text": "[4] Ron Artstein、Massimo Poesio，*Inter-Coder Agreement for Computational Linguistics*，2008，第2.1节，刊页556—557，一致、可靠性与有效性的关系。https://aclanthology.org/J08-4004/ 。",
+          "chapter": 7
+        }
+      ],
+      "status": "已核相关段落",
+      "status_zh": "已核相关段落",
+      "evidence": "一致与可靠性是有效性的必要条件，不保证标注捕捉真正目标；不能将高κ直接当正确率。",
+      "checked_url": "https://aclanthology.org/J08-4004.pdf",
+      "id": "S07-11",
+      "sections": [
+        "7.4"
+      ],
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "所链接原论文PDF§2.1，印刷556—557；复用本轮S09-27原文记录",
+      "claim_checked": "一致与可靠性是有效性的必要条件，不保证标注捕捉真正目标；不能将高κ直接当正确率。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "ACL原页面及其所链接原论文PDF",
+      "carried_from": "sources_ch09.json/S09-27；同一校对员本轮PDF相关原文，非作者旧记录"
+    },
+    {
+      "url": "https://aclanthology.org/2020.acl-main.560/",
+      "chapter": 7,
+      "occurrences": [
+        {
+          "section": "7.5 多语言 跨语言与资源不平等",
+          "baseline_line": 500,
+          "citation_text": "[1] Pratik Joshi等，*The State and Fate of Linguistic Diversity and Inclusion in the NLP World*，2020，第2.1节，刊页6283，分别观察已标注与未标注资源。https://aclanthology.org/2020.acl-main.560/ 。",
+          "chapter": 7
+        }
+      ],
+      "status": "已核相关段落",
+      "status_zh": "已核相关段落",
+      "evidence": "语言资源分布按已标注与未标注资源两轴观察；使用者规模不直接代表机器学习资源规模。",
+      "checked_url": "https://aclanthology.org/2020.acl-main.560.pdf",
+      "id": "S07-12",
+      "sections": [
+        "7.5"
+      ],
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "所链接原论文PDF§2.1 Features，印刷6283",
+      "claim_checked": "语言资源分布按已标注与未标注资源两轴观察；使用者规模不直接代表机器学习资源规模。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "ACL原页面及其所链接原论文PDF"
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6365.html",
+      "chapter": 7,
+      "occurrences": [
+        {
+          "section": "7.5 多语言 跨语言与资源不平等",
+          "baseline_line": 502,
+          "citation_text": "[2] RFC Editor，*RFC 6365: Terminology Used in Internationalization in the IETF*，第2节“language”“script”“writing system”。https://www.rfc-editor.org/rfc/rfc6365.html 。此处只采用术语区别，不要求按软件协议编制数据。",
+          "chapter": 7
+        }
+      ],
+      "status": "已核相关段落",
+      "status_zh": "已核相关段落",
+      "evidence": "语言、字符体系与书写体系不是同一对象；一个语言可用不同script，一套script可写多语言。",
+      "checked_url": "https://www.rfc-editor.org/rfc/rfc6365.html",
+      "id": "S07-13",
+      "sections": [
+        "7.5"
+      ],
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "§2 Fundamental Terms，印刷5—6：language/script/writing system",
+      "claim_checked": "语言、字符体系与书写体系不是同一对象；一个语言可用不同script，一套script可写多语言。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A"
+    },
+    {
+      "url": "https://sutian.moe.edu.tw/zh-hant/piantsip/tailo-phiautsu-suatbing/",
+      "chapter": 7,
+      "occurrences": [
+        {
+          "section": "7.5 多语言 跨语言与资源不平等",
+          "baseline_line": 504,
+          "citation_text": "[3] 教育部《臺灣台語常用詞辭典》，“校長”词目与音读。https://sutian.moe.edu.tw/zh-hant/su/6117/ 。台罗体例参“臺羅標注說明”：https://sutian.moe.edu.tw/zh-hant/piantsip/tailo-phiautsu-suatbing/ 。",
+          "chapter": 7
+        }
+      ],
+      "status": "已核相关段落",
+      "status_zh": "已核相关段落",
+      "evidence": "采用台罗；表中带调符号与数字版有对应，词典标本调而非逐句连读变调，支持把罗马字记为文字形式而不是另造语言。",
+      "checked_url": "https://sutian.moe.edu.tw/zh-hant/piantsip/tailo-phiautsu-suatbing/",
+      "id": "S07-15",
+      "sections": [
+        "7.5"
+      ],
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "页首说明、一般声调表、变调末段",
+      "claim_checked": "采用台罗；表中带调符号与数字版有对应，词典标本调而非逐句连读变调，支持把罗马字记为文字形式而不是另造语言。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A"
+    },
+    {
+      "url": "https://aclanthology.org/2020.emnlp-main.618/",
+      "chapter": 7,
+      "occurrences": [
+        {
+          "section": "7.5 多语言 跨语言与资源不平等",
+          "baseline_line": 508,
+          "citation_text": "[5] Mikel Artetxe、Gorka Labaka、Eneko Agirre，*Translation Artifacts in Cross-lingual Transfer Learning*，2020，摘要及第1节，刊页7674—7675。https://aclanthology.org/2020.emnlp-main.618/ 。这里采用其关于翻译改变评价条件的研究发现，不引用其模型成绩作为本例运行结果。",
+          "chapter": 7
+        }
+      ],
+      "status": "已核相关段落",
+      "status_zh": "已核相关段落",
+      "evidence": "翻译会改变表面线索如词语重叠；原生与翻译材料的评价条件不可混为同一资源。",
+      "checked_url": "https://aclanthology.org/2020.emnlp-main.618.pdf",
+      "id": "S07-17",
+      "sections": [
+        "7.5"
+      ],
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "所链接原论文PDF摘要与§1；复用本轮S09-30原文记录",
+      "claim_checked": "翻译会改变表面线索如词语重叠；原生与翻译材料的评价条件不可混为同一资源。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "ACL原页面及其所链接原论文PDF",
+      "carried_from": "sources_ch09.json/S09-30；同一校对员本轮PDF相关原文，非作者旧记录"
+    },
+    {
+      "url": "https://scikit-learn.org/stable/modules/cross_validation.html",
+      "chapter": 7,
+      "occurrences": [
+        {
+          "section": "7.6 数据切分与泄漏检查",
+          "baseline_line": 606,
+          "citation_text": "[1] scikit-learn，*Cross-validation: evaluating estimator performance*，开头训练、验证与测试区别；第3.1.2.4节分组数据及未见组评价。https://scikit-learn.org/stable/modules/cross_validation.html 。",
+          "chapter": 7
+        }
+      ],
+      "status": "已核相关段落",
+      "status_zh": "已核相关段落",
+      "evidence": "同数据训练和测试会高估；反复选择超参数可向测试泄漏；应保留验证及最终测试，评价新组需组间隔离。",
+      "checked_url": "https://scikit-learn.org/stable/modules/cross_validation.html",
+      "id": "S07-18",
+      "sections": [
+        "7.6"
+      ],
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "§3.1开头及§3.1.2.4 grouped data",
+      "claim_checked": "同数据训练和测试会高估；反复选择超参数可向测试泄漏；应保留验证及最终测试，评价新组需组间隔离。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A"
+    },
+    {
+      "url": "https://scikit-learn.org/stable/common_pitfalls.html",
+      "chapter": 7,
+      "occurrences": [
+        {
+          "section": "7.6 数据切分与泄漏检查",
+          "baseline_line": 608,
+          "citation_text": "[2] scikit-learn，*Common pitfalls and recommended practices*，第12.2节“Data leakage”及预处理例。https://scikit-learn.org/stable/common_pitfalls.html 。",
+          "chapter": 7
+        }
+      ],
+      "status": "已核相关段落",
+      "status_zh": "已核相关段落",
+      "evidence": "测试数据不能用于模型选择；预处理参数只由训练集学习，再对两侧同样transform；特征选择也适用。",
+      "checked_url": "https://scikit-learn.org/stable/common_pitfalls.html",
+      "id": "S07-19",
+      "sections": [
+        "7.6"
+      ],
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "§12.2、§12.2.1及§12.2.2",
+      "claim_checked": "测试数据不能用于模型选择；预处理参数只由训练集学习，再对两侧同样transform；特征选择也适用。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A"
+    },
+    {
+      "url": "https://aclanthology.org/2021.eacl-main.113/",
+      "chapter": 7,
+      "occurrences": [
+        {
+          "section": "7.6 数据切分与泄漏检查",
+          "baseline_line": 610,
+          "citation_text": "[3] Aparna Elangovan、Jiayuan He、Karin Verspoor，*Memorization vs. Generalization: Quantifying Data Leakage in NLP Performance Evaluation*，2021，摘要、第1节及第3节及第4.1节的文档隔离例，刊页1325—1327。https://aclanthology.org/2021.eacl-main.113/ 。",
+          "chapter": 7
+        }
+      ],
+      "status": "已核相关段落",
+      "status_zh": "已核相关段落",
+      "evidence": "随机拆分忽略相似记录来源会漏出训练信息；AIMed随机折与按来源文档ID隔离折明确对照。",
+      "checked_url": "https://aclanthology.org/2021.eacl-main.113.pdf",
+      "id": "S07-20",
+      "sections": [
+        "7.6"
+      ],
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "原论文PDF摘要、§1、§3、§4.1，印刷1325—1327",
+      "claim_checked": "随机拆分忽略相似记录来源会漏出训练信息；AIMed随机折与按来源文档ID隔离折明确对照。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A",
+      "retrieval_mode": "ACL原页面及其所链接原论文PDF"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2207.07048v1",
+      "chapter": 7,
+      "occurrences": [
+        {
+          "section": "7.6 数据切分与泄漏检查",
+          "baseline_line": 612,
+          "citation_text": "[4] Sayash Kapoor、Arvind Narayanan，*Leakage and the Reproducibility Crisis in ML-based Science*，2022预印本v1，第2.4节L3.1、L3.2，PDF第5—6页，时间与样本依赖应对应所声称的推广任务。https://arxiv.org/pdf/2207.07048v1 。",
+          "chapter": 7
+        }
+      ],
+      "status": "已核相关段落",
+      "status_zh": "已核相关段落",
+      "evidence": "未来预测须阻止时间倒置；依赖单位跨训练测试的风险，应与科学主张要求的推广分布匹配。",
+      "checked_url": "https://arxiv.org/pdf/2207.07048v1",
+      "id": "S07-21",
+      "sections": [
+        "7.6"
+      ],
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "指定v1 PDF第5—6页，§2.4 L3.1/L3.2",
+      "claim_checked": "未来预测须阻止时间倒置；依赖单位跨训练测试的风险，应与科学主张要求的推广分布匹配。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A"
+    },
+    {
+      "url": "https://research.google/blog/the-data-cards-playbook-a-toolkit-for-transparency-in-dataset-documentation/",
+      "chapter": 7,
+      "occurrences": [
+        {
+          "section": "7.7 数据卡与 Datasheet",
+          "baseline_line": 704,
+          "citation_text": "[2] Mahima Pushkarna、Andrew Zaldivar，Google Research，*The Data Cards Playbook: A Toolkit for Transparency in Dataset Documentation*，2022年11月17日，开头关于结构化概要、来源、处理和用途的说明。https://research.google/blog/the-data-cards-playbook-a-toolkit-for-transparency-in-dataset-documentation/ 。",
+          "chapter": 7
+        }
+      ],
+      "status": "已核相关段落",
+      "status_zh": "已核相关段落",
+      "evidence": "Data Cards为结构化概要，列明上游来源、收集标注、训练评价、预期用途及影响性能的决策。",
+      "checked_url": "https://research.google/blog/the-data-cards-playbook-a-toolkit-for-transparency-in-dataset-documentation/",
+      "id": "S07-23",
+      "sections": [
+        "7.7"
+      ],
+      "status_code": "CHECKED_SUPPORTS_CITED_CLAIM",
+      "checked_location": "2022-11-17页首作者及开头第1—3段",
+      "claim_checked": "Data Cards为结构化概要，列明上游来源、收集标注、训练评价、预期用途及影响性能的决策。",
+      "checked_on": "2026-10-30",
+      "reviewer": "独立校读分组A"
+    }
+  ]
+}

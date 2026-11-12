@@ -1,0 +1,12 @@
+{
+  "status": "NOT_RUN",
+  "model": "reader_fill",
+  "weights_version": null,
+  "preprocessing": null,
+  "layer": null,
+  "pooling": null,
+  "dimension": null,
+  "normalization": null,
+  "training_split": null,
+  "note": "本节输入向量为手设，导入真实特征时另存输入"
+}

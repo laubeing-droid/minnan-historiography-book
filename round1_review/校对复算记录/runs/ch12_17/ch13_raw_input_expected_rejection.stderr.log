@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch13/chapter12_adapter.py", line 23, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch13/chapter12_adapter.py", line 14, in main
+    year=int(r['period']);available=int(r['availability_year']) if r['availability_year'] else None;observed=str(r['observed_mask'])=='1';imputed=str(r['imputed_mask'])=='1';eligible=str(r['eligible_target'])=='1'
+                                                                                                                 ~^^^^^^^^^^^^^^^^^
+KeyError: 'observed_mask'

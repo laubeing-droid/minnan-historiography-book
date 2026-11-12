@@ -1,0 +1,17 @@
+{
+  "execution": "reader_invoked",
+  "input_provenance": "编者新编教学数据 非史实 非模型输出",
+  "section": "11.4",
+  "result": [
+    {
+      "id": "A01",
+      "patch_tokens_excluding_cls": 196,
+      "token_pairs_excluding_cls": 38416
+    },
+    {
+      "id": "A02",
+      "patch_tokens_excluding_cls": 784,
+      "token_pairs_excluding_cls": 614656
+    }
+  ]
+}

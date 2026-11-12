@@ -1,0 +1,18 @@
+{
+  "execution": "reader_invoked",
+  "input_provenance": "编者新编教学数据 非史实 非模型输出",
+  "section": "10.3",
+  "result": {
+    "variant_scores": {
+      "V1": 1.0,
+      "V2": 0.5
+    },
+    "items": {
+      "Q1": [
+        "已迁",
+        "拟议"
+      ]
+    },
+    "provenance": "Prewritten teaching answers, not model outputs."
+  }
+}

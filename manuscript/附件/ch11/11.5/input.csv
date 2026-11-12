@@ -1,0 +1,5 @@
+id,label,split,vector
+V1,seal,train,"[1, 0, 0.2]"
+V2,photo,train,"[0, 1, 0.2]"
+V3,seal,dev,"[0.8, 0.2, 0.2]"
+V4,photo,dev,"[0.2, 0.8, 0.2]"

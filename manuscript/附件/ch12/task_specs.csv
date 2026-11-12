@@ -1,0 +1,5 @@
+task_id,task,input_unit,output,information_cutoff,label_source,primary_evaluation,split_unit,status
+T12_FORECAST,forecast,单序列年度位置,原点后H年的数值,每个原点的availability_year,留出原始观测而非补值,同原点同预测长度的误差,按目标时间区间,DESIGN_ONLY
+T12_CLASSIFY,classify,有实体标识的完整片段,类别或类别概率,依实际部署情形定义,独立人工标签及指南,混淆矩阵和类别召回,实体或完整序列,DESIGN_ONLY
+T12_ANOMALY,anomaly,年度位置或连续事件区间,异常分数和报警,明确在线仅过去或离线全段,经材料核实的异常标签,误报漏报和检出延迟,时间段及异常事件,DESIGN_ONLY
+T12_GENERATE,generate,训练序列与生成条件,显式模拟序列,不使用留出对象资料,无天然逐点历史真值,分布依赖结构与预定用途,实体和来源组,DESIGN_ONLY

@@ -1,0 +1,38 @@
+[
+  {
+    "plan": "W01",
+    "calendar_pass": true,
+    "partition_pass": true,
+    "decision_pass": true
+  },
+  {
+    "plan": "W02",
+    "calendar_pass": true,
+    "partition_pass": true,
+    "decision_pass": true
+  },
+  {
+    "plan": "W03",
+    "calendar_pass": true,
+    "partition_pass": true,
+    "decision_pass": true
+  },
+  {
+    "plan": "W04",
+    "calendar_pass": true,
+    "partition_pass": true,
+    "decision_pass": true
+  },
+  {
+    "plan": "W05",
+    "calendar_pass": true,
+    "partition_pass": true,
+    "decision_pass": true
+  },
+  {
+    "plan": "W06",
+    "calendar_pass": true,
+    "partition_pass": true,
+    "decision_pass": true
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "status": "NOT_RUN",
+  "original_scripts_recovered": false,
+  "artifact_kind": "new_self_contained_teaching_reconstruction",
+  "model_calculation_executed": false,
+  "tests_executed": false,
+  "proofreading_or_independent_verification_executed": false,
+  "results_generated": false,
+  "notes": "旧例数字只保留在正文，不冒称新实现已重现。"
+}

@@ -1,0 +1,34 @@
+{
+  "section": "9.1",
+  "title": "NLP任务谱系：理解/生成/检索/推理",
+  "status": "NOT_RUN",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "tasks",
+  "rows": [
+    {
+      "id": "N01",
+      "text": "教学材料：甲埠议迁，因反对暂缓。",
+      "task": "understanding",
+      "output": "事件状态=拟议未行"
+    },
+    {
+      "id": "N02",
+      "text": "教学材料：甲埠议迁，因反对暂缓。",
+      "task": "retrieval",
+      "output": "返回含甲埠迁移线索的材料编号"
+    },
+    {
+      "id": "N03",
+      "text": "教学材料：甲埠议迁，因反对暂缓。",
+      "task": "generation",
+      "output": "写一句保留暂缓的摘要"
+    },
+    {
+      "id": "N04",
+      "text": "教学材料：甲埠议迁，因反对暂缓。",
+      "task": "reasoning",
+      "output": "“甲埠已经迁址”不受该句支持"
+    }
+  ],
+  "config": {}
+}

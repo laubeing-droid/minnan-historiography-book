@@ -1,0 +1,5 @@
+{
+  "status": "FAILED",
+  "error": "ModuleNotFoundError(\"No module named 'optuna'\")",
+  "installation": "never automatic"
+}

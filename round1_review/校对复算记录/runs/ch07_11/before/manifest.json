@@ -1,0 +1,955 @@
+{
+  "executed_at": "2026-10-30T02:35:31.515312+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "runs": [
+    {
+      "section": "7.1",
+      "mode": "units",
+      "input": "book_review_20261030/revision/附件/ch07/7.1/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/7.1/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/7.1",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "43ac9989ddcf251966264b97dc81ded145b07d744cc97be1848e20f7dfda8ce1",
+      "stdout": "book_review_20261030/runs/ch07_11/before/7.1__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/7.1__input.stderr.txt"
+    },
+    {
+      "section": "7.2",
+      "mode": "derive",
+      "input": "book_review_20261030/revision/附件/ch07/7.2/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/7.2/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/7.2",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "01edfab333c3326a989c5666a7f5edd36462055f755c122fd737e615f1d3f092",
+      "stdout": "book_review_20261030/runs/ch07_11/before/7.2__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/7.2__input.stderr.txt"
+    },
+    {
+      "section": "7.2",
+      "mode": "derive",
+      "input": "book_review_20261030/revision/附件/ch07/7.2/input_v2.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/7.2/input_v2.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/7.2",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "d1cd32e7ff20445f1698c4f57403c7b45240285f4f4b61fca2db6317dcca4be4",
+      "stdout": "book_review_20261030/runs/ch07_11/before/7.2__input_v2.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/7.2__input_v2.stderr.txt"
+    },
+    {
+      "section": "7.3",
+      "mode": "missing",
+      "input": "book_review_20261030/revision/附件/ch07/7.3/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/7.3/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/7.3",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "a7b792bbd81c4ed4671f5d3e4776e3318345a23f78c4d7d0156bd8bd0b63c56b",
+      "stdout": "book_review_20261030/runs/ch07_11/before/7.3__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/7.3__input.stderr.txt"
+    },
+    {
+      "section": "7.4",
+      "mode": "agreement",
+      "input": "book_review_20261030/revision/附件/ch07/7.4/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/7.4/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/7.4",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "e87351cf659ba27abe70c608394d91ee6dc88f4f774af7be819374f98cff91d9",
+      "stdout": "book_review_20261030/runs/ch07_11/before/7.4__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/7.4__input.stderr.txt"
+    },
+    {
+      "section": "7.5",
+      "mode": "coverage",
+      "input": "book_review_20261030/revision/附件/ch07/7.5/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/7.5/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/7.5",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "1209e0eefd29d3123da8153990e28d7126690365bafd689d4b84ced3f47477a8",
+      "stdout": "book_review_20261030/runs/ch07_11/before/7.5__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/7.5__input.stderr.txt"
+    },
+    {
+      "section": "7.6",
+      "mode": "split",
+      "input": "book_review_20261030/revision/附件/ch07/7.6/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/7.6/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/7.6",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "e96dd3d56464b892b65a6e9d0c7e3504ce64196840c7b178a5fecf5c8756add3",
+      "stdout": "book_review_20261030/runs/ch07_11/before/7.6__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/7.6__input.stderr.txt"
+    },
+    {
+      "section": "7.7",
+      "mode": "card",
+      "input": "book_review_20261030/revision/附件/ch07/7.7/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/7.7/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch07/7.7",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "2dc797ed0209d56dd00083830d4f19ed312cbb9b50012d8362e9c5f44594cd0e",
+      "stdout": "book_review_20261030/runs/ch07_11/before/7.7__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/7.7__input.stderr.txt"
+    },
+    {
+      "section": "8.1",
+      "mode": "baseline",
+      "input": "book_review_20261030/revision/附件/ch08/8.1/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.1/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.1",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "f20f83d7ed381d2207c701e0b73e72021219504c5e2649f3849c32503842bb86",
+      "stdout": "book_review_20261030/runs/ch07_11/before/8.1__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/8.1__input.stderr.txt"
+    },
+    {
+      "section": "8.2",
+      "mode": "matrix",
+      "input": "book_review_20261030/revision/附件/ch08/8.2/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.2/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.2",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "27d248f74927d0d9dc1e03e3eade549527106795dd92c80ab58d766643fa49b3",
+      "stdout": "book_review_20261030/runs/ch07_11/before/8.2__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/8.2__input.stderr.txt"
+    },
+    {
+      "section": "8.3",
+      "mode": "ablation",
+      "input": "book_review_20261030/revision/附件/ch08/8.3/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.3/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.3",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "f0aea5fad7ccdd612076d79b8dc82f3b10f6c15a3b597fc1ace036f9493e520b",
+      "stdout": "book_review_20261030/runs/ch07_11/before/8.3__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/8.3__input.stderr.txt"
+    },
+    {
+      "section": "8.4",
+      "mode": "config",
+      "input": "book_review_20261030/revision/附件/ch08/8.4/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.4/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.4",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "e47c5df3cf7cd49d64cce6ddfdc95519b376b26afd8316732da0c52927cc98a3",
+      "stdout": "book_review_20261030/runs/ch07_11/before/8.4__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/8.4__input.stderr.txt"
+    },
+    {
+      "section": "8.4",
+      "mode": "config",
+      "input": "book_review_20261030/revision/附件/ch08/8.4/input_reverse_sort.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.4/input_reverse_sort.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.4",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "a5519ee49394f859eb2b67ff7800473ea0bbadcbc937b1a620059839a66114f3",
+      "stdout": "book_review_20261030/runs/ch07_11/before/8.4__input_reverse_sort.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/8.4__input_reverse_sort.stderr.txt"
+    },
+    {
+      "section": "8.4",
+      "mode": "config",
+      "input": "book_review_20261030/revision/附件/ch08/8.4/input_reverse_unsorted.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.4/input_reverse_unsorted.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.4",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "943c36dea334896543d8cdfb1713af716400c448a9102b3724471240cde378f5",
+      "stdout": "book_review_20261030/runs/ch07_11/before/8.4__input_reverse_unsorted.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/8.4__input_reverse_unsorted.stderr.txt"
+    },
+    {
+      "section": "8.4",
+      "mode": "config",
+      "input": "book_review_20261030/revision/附件/ch08/8.4/input_seed29.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.4/input_seed29.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.4",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "35178575464417e5e44049adf76a44e12c00e69194a18c4c1ef5b95a6fe5b197",
+      "stdout": "book_review_20261030/runs/ch07_11/before/8.4__input_seed29.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/8.4__input_seed29.stderr.txt"
+    },
+    {
+      "section": "8.5",
+      "mode": "tracking",
+      "input": "book_review_20261030/revision/附件/ch08/8.5/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.5/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.5",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "a50503327974fa2bcd8003acd5f4ebeb325bae15f2a522437838726668e6d42c",
+      "stdout": "book_review_20261030/runs/ch07_11/before/8.5__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/8.5__input.stderr.txt"
+    },
+    {
+      "section": "8.6",
+      "mode": "literal",
+      "input": "book_review_20261030/revision/附件/ch08/8.6/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.6/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.6",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "44591d2015b4a6a83f0a55bd1d8c62d316f361cb539f4990c548c3f7ad78ba19",
+      "stdout": "book_review_20261030/runs/ch07_11/before/8.6__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/8.6__input.stderr.txt"
+    },
+    {
+      "section": "8.7",
+      "mode": "join",
+      "input": "book_review_20261030/revision/附件/ch08/8.7/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.7/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.7",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "54a5b476a5ec6d3ea7fca6a87fde5d55048e83724f306662d1dae2ffd4f48326",
+      "stdout": "book_review_20261030/runs/ch07_11/before/8.7__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/8.7__input.stderr.txt"
+    },
+    {
+      "section": "8.7",
+      "mode": "join",
+      "input": "book_review_20261030/revision/附件/ch08/8.7/regression_duplicate_input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.7/regression_duplicate_input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.7",
+      "exit_code": 1,
+      "expected_error": true,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "704c3fd907c9fe135e8c94c8746578bede3d69ecb63aab1e2db878981eea046a",
+      "stdout": "book_review_20261030/runs/ch07_11/before/8.7__regression_duplicate_input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/8.7__regression_duplicate_input.stderr.txt"
+    },
+    {
+      "section": "8.7",
+      "mode": "join",
+      "input": "book_review_20261030/revision/附件/ch08/8.7/regression_missing_input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.7/regression_missing_input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.7",
+      "exit_code": 1,
+      "expected_error": true,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "f61bea21d6b0443af0797ae6fa44cc436ae314b658087309c68eb51200745d94",
+      "stdout": "book_review_20261030/runs/ch07_11/before/8.7__regression_missing_input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/8.7__regression_missing_input.stderr.txt"
+    },
+    {
+      "section": "8.8",
+      "mode": "independent",
+      "input": "book_review_20261030/revision/附件/ch08/8.8/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.8/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.8",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "52099931d78f64ad1753e783ebbc86ffddd2fc5757def5e6b85c591d8128d093",
+      "stdout": "book_review_20261030/runs/ch07_11/before/8.8__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/8.8__input.stderr.txt"
+    },
+    {
+      "section": "9.1",
+      "mode": "tasks",
+      "input": "book_review_20261030/revision/附件/ch09/9.1/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/9.1/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/9.1",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "b82661a6e8f7a5b7c7765d5d6ed2d60a34e8cf44f7be782beff19b71630cd370",
+      "stdout": "book_review_20261030/runs/ch07_11/before/9.1__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/9.1__input.stderr.txt"
+    },
+    {
+      "section": "9.2",
+      "mode": "tensor",
+      "input": "book_review_20261030/revision/附件/ch09/9.2/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/9.2/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/9.2",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "7af1fdbe67c9167ecfd50b80ba42a75552645ae229863c136a0314886ad2ac7e",
+      "stdout": "book_review_20261030/runs/ch07_11/before/9.2__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/9.2__input.stderr.txt"
+    },
+    {
+      "section": "9.3",
+      "mode": "baseline",
+      "input": "book_review_20261030/revision/附件/ch09/9.3/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/9.3/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/9.3",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "2be1184f983cc7bafc78bdcca99212ccbecc3b4eb5f7f8f87940127facf47093",
+      "stdout": "book_review_20261030/runs/ch07_11/before/9.3__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/9.3__input.stderr.txt"
+    },
+    {
+      "section": "9.4",
+      "mode": "vectors",
+      "input": "book_review_20261030/revision/附件/ch09/9.4/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/9.4/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/9.4",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "bc455e58079b7a607cf54e035a655a9bcb6d058807da3cdf0303750c294f44ee",
+      "stdout": "book_review_20261030/runs/ch07_11/before/9.4__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/9.4__input.stderr.txt"
+    },
+    {
+      "section": "9.5",
+      "mode": "benchmark",
+      "input": "book_review_20261030/revision/附件/ch09/9.5/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/9.5/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/9.5",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "a24af68d96f6492b2eb84ad5c201a319e9bf0c9cbff866fa683f6a8ea1990067",
+      "stdout": "book_review_20261030/runs/ch07_11/before/9.5__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/9.5__input.stderr.txt"
+    },
+    {
+      "section": "9.6",
+      "mode": "agreement",
+      "input": "book_review_20261030/revision/附件/ch09/9.6/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/9.6/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/9.6",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "292dd8705c0bf57c986c945371806391c37c2b7b6e09cdf0de0c0be52d3e4aba",
+      "stdout": "book_review_20261030/runs/ch07_11/before/9.6__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/9.6__input.stderr.txt"
+    },
+    {
+      "section": "9.7",
+      "mode": "multilingual",
+      "input": "book_review_20261030/revision/附件/ch09/9.7/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/9.7/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/9.7",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "962c53836ffaecee5cd00998a9f40fc3dbeb2799d500943a3e4e273e64bd9fdc",
+      "stdout": "book_review_20261030/runs/ch07_11/before/9.7__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/9.7__input.stderr.txt"
+    },
+    {
+      "section": "9.8",
+      "mode": "coverage",
+      "input": "book_review_20261030/revision/附件/ch09/9.8/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/9.8/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch09/9.8",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "b6d03c1bbd2442771017ccc5365505c426370d0a86310d345a3a13f2053d2973",
+      "stdout": "book_review_20261030/runs/ch07_11/before/9.8__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/9.8__input.stderr.txt"
+    },
+    {
+      "section": "10.1",
+      "mode": "prompt",
+      "input": "book_review_20261030/revision/附件/ch10/10.1/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.1/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.1",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "d548665536f22ef8d3c82b48c19519e4ff92d229f216eae9f9e1f75500a81ab7",
+      "stdout": "book_review_20261030/runs/ch07_11/before/10.1__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/10.1__input.stderr.txt"
+    },
+    {
+      "section": "10.2",
+      "mode": "fewshot",
+      "input": "book_review_20261030/revision/附件/ch10/10.2/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.2/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.2",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "3e2564eaad92d648ad7ae09c6a9619943686986aebc0b22b6ded8f73b6a132e9",
+      "stdout": "book_review_20261030/runs/ch07_11/before/10.2__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/10.2__input.stderr.txt"
+    },
+    {
+      "section": "10.3",
+      "mode": "sensitivity",
+      "input": "book_review_20261030/revision/附件/ch10/10.3/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.3/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.3",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "9c1bddb6705cf7172c132c401ba054f4b7070b4e99a6a60f0d0a18704daa15d9",
+      "stdout": "book_review_20261030/runs/ch07_11/before/10.3__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/10.3__input.stderr.txt"
+    },
+    {
+      "section": "10.4",
+      "mode": "overlap",
+      "input": "book_review_20261030/revision/附件/ch10/10.4/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.4/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.4",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "ea131af2ba1157ce2766a92e7575b81810ae07e6abc17d1d4b70f63367d862b2",
+      "stdout": "book_review_20261030/runs/ch07_11/before/10.4__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/10.4__input.stderr.txt"
+    },
+    {
+      "section": "10.5",
+      "mode": "ratings",
+      "input": "book_review_20261030/revision/附件/ch10/10.5/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.5/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.5",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "93b59b1be44473823f0dc7e5e93dca299c31801bc0e325516921c95d4d7dccce",
+      "stdout": "book_review_20261030/runs/ch07_11/before/10.5__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/10.5__input.stderr.txt"
+    },
+    {
+      "section": "10.6",
+      "mode": "judge",
+      "input": "book_review_20261030/revision/附件/ch10/10.6/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.6/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.6",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "49d0c036a6238b37e7469dde8460b7c2c2e79c626c558d4cbedfe51fd25bc618",
+      "stdout": "book_review_20261030/runs/ch07_11/before/10.6__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/10.6__input.stderr.txt"
+    },
+    {
+      "section": "10.7",
+      "mode": "bootstrap",
+      "input": "book_review_20261030/revision/附件/ch10/10.7/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.7/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.7",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "2f0f9f15d8cb615743da8fd1bb95f62f813571a67f6d7588dace5916259d19c5",
+      "stdout": "book_review_20261030/runs/ch07_11/before/10.7__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/10.7__input.stderr.txt"
+    },
+    {
+      "section": "10.8",
+      "mode": "mcnemar",
+      "input": "book_review_20261030/revision/附件/ch10/10.8/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.8/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.8",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "73fba0a618d0fad4081dde4778daceb0d8ffcc35cadd35b424359ec606f9df19",
+      "stdout": "book_review_20261030/runs/ch07_11/before/10.8__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/10.8__input.stderr.txt"
+    },
+    {
+      "section": "10.9",
+      "mode": "claims",
+      "input": "book_review_20261030/revision/附件/ch10/10.9/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.9/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.9",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "f058c2f7177ddb970ffd1bddf32be2c2164bf640352a800deb861c6b2dbee255",
+      "stdout": "book_review_20261030/runs/ch07_11/before/10.9__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/10.9__input.stderr.txt"
+    },
+    {
+      "section": "10.10",
+      "mode": "card",
+      "input": "book_review_20261030/revision/附件/ch10/10.10/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.10/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch10/10.10",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "cf00bd248fa40552fee0b40f43bb3083435a9e2b5a0843006adfb3dee94cde5f",
+      "stdout": "book_review_20261030/runs/ch07_11/before/10.10__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/10.10__input.stderr.txt"
+    },
+    {
+      "section": "11.1",
+      "mode": "vision_class",
+      "input": "book_review_20261030/revision/附件/ch11/11.1/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.1/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.1",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "1a4747e31d48e08853f4b22049f29e7a533d7d452218b69b55a29cf923d3f6a4",
+      "stdout": "book_review_20261030/runs/ch07_11/before/11.1__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/11.1__input.stderr.txt"
+    },
+    {
+      "section": "11.2",
+      "mode": "detection",
+      "input": "book_review_20261030/revision/附件/ch11/11.2/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.2/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.2",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "badab8c24a9b1370bd43b127e2636c67f759385eebf01104a02fd893b1606df2",
+      "stdout": "book_review_20261030/runs/ch07_11/before/11.2__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/11.2__input.stderr.txt"
+    },
+    {
+      "section": "11.3",
+      "mode": "segmentation",
+      "input": "book_review_20261030/revision/附件/ch11/11.3/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.3/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.3",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "364afe7a01fa7ec7012aea4baf4efd323f218f0590b6bccb5c5928820bb2182c",
+      "stdout": "book_review_20261030/runs/ch07_11/before/11.3__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/11.3__input.stderr.txt"
+    },
+    {
+      "section": "11.4",
+      "mode": "architecture",
+      "input": "book_review_20261030/revision/附件/ch11/11.4/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.4/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.4",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "b07a132fdbdd54fe3412393d88c7e96e913bb168aba3b16834114694c5ed0a8b",
+      "stdout": "book_review_20261030/runs/ch07_11/before/11.4__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/11.4__input.stderr.txt"
+    },
+    {
+      "section": "11.5",
+      "mode": "feature_eval",
+      "input": "book_review_20261030/revision/附件/ch11/11.5/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.5/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.5",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "b5866c3d9529ddb4e3134fe0bbb51f6fb688bcd194f59831346b618258cad7fe",
+      "stdout": "book_review_20261030/runs/ch07_11/before/11.5__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/11.5__input.stderr.txt"
+    },
+    {
+      "section": "11.6",
+      "mode": "benchmark",
+      "input": "book_review_20261030/revision/附件/ch11/11.6/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.6/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.6",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "0b595835a2748299d497731bc102f2d824652923c1f95e1b20fb5ac2012ebd62",
+      "stdout": "book_review_20261030/runs/ch07_11/before/11.6__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/11.6__input.stderr.txt"
+    },
+    {
+      "section": "11.7",
+      "mode": "vision_metrics",
+      "input": "book_review_20261030/revision/附件/ch11/11.7/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.7/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.7",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "054076f5264fdaf2629af145d0c29b0834ef1aa49836958be30657964eacb819",
+      "stdout": "book_review_20261030/runs/ch07_11/before/11.7__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/11.7__input.stderr.txt"
+    },
+    {
+      "section": "11.8",
+      "mode": "longtail",
+      "input": "book_review_20261030/revision/附件/ch11/11.8/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.8/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.8",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "36e83d56e3fbf9127a9688e48c1ca432518c73a8dc7b3dc7a8878562e95962e9",
+      "stdout": "book_review_20261030/runs/ch07_11/before/11.8__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/11.8__input.stderr.txt"
+    },
+    {
+      "section": "11.9",
+      "mode": "shift",
+      "input": "book_review_20261030/revision/附件/ch11/11.9/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.9/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.9",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "5ba4856d0260383397fd82f15592434a73e92a525046205d55abd4d5a5f5e702",
+      "stdout": "book_review_20261030/runs/ch07_11/before/11.9__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/11.9__input.stderr.txt"
+    },
+    {
+      "section": "11.10",
+      "mode": "vision_ablation",
+      "input": "book_review_20261030/revision/附件/ch11/11.10/input.json",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py",
+        "--input",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.10/input.json"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/11.10",
+      "exit_code": 0,
+      "expected_error": false,
+      "status": "EXECUTED_PASS",
+      "sha256_input": "dad318bef1d608440e848fb16eda1de1068166b52f28440cc35f5b4521a61c9e",
+      "stdout": "book_review_20261030/runs/ch07_11/before/11.10__input.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/11.10__input.stderr.txt"
+    },
+    {
+      "section": "8.8",
+      "mode": "score_predictions",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.8/score_predictions.py",
+        "--predictions",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch07_11/before/8.8__input.stdout.json",
+        "--reference",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.8/reference.csv"
+      ],
+      "cwd": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.8",
+      "exit_code": 0,
+      "status": "EXECUTED_PASS",
+      "stdout": "book_review_20261030/runs/ch07_11/before/8.8__score.stdout.json",
+      "stderr": "book_review_20261030/runs/ch07_11/before/8.8__score.stderr.txt"
+    }
+  ]
+}

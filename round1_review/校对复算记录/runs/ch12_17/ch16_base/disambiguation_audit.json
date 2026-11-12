@@ -1,0 +1,133 @@
+{
+  "mapping": [
+    {
+      "mention_id": "M1",
+      "entity_id": "P-A",
+      "status": "confirmed",
+      "candidate_entities": "",
+      "judgment_version": "teaching-v1",
+      "reason": "材料明示身份"
+    },
+    {
+      "mention_id": "M2",
+      "entity_id": "P-A",
+      "status": "confirmed",
+      "candidate_entities": "",
+      "judgment_version": "teaching-v1",
+      "reason": "D2明确指向D1字号对应"
+    },
+    {
+      "mention_id": "M3",
+      "entity_id": "P-B",
+      "status": "confirmed",
+      "candidate_entities": "",
+      "judgment_version": "teaching-v1",
+      "reason": "D3明确区分二人"
+    },
+    {
+      "mention_id": "M4",
+      "entity_id": "",
+      "status": "pending",
+      "candidate_entities": "P-A;P-B",
+      "judgment_version": "teaching-v1",
+      "reason": "缺少限定；不默认选材料较多者"
+    },
+    {
+      "mention_id": "M5",
+      "entity_id": "O-A",
+      "status": "confirmed",
+      "candidate_entities": "",
+      "judgment_version": "teaching-v1",
+      "reason": "旧会对象"
+    },
+    {
+      "mention_id": "M6",
+      "entity_id": "O-A",
+      "status": "confirmed",
+      "candidate_entities": "",
+      "judgment_version": "teaching-v1",
+      "reason": "D6明示更名与资料成员承接"
+    },
+    {
+      "mention_id": "M7",
+      "entity_id": "O-B",
+      "status": "confirmed",
+      "candidate_entities": "",
+      "judgment_version": "teaching-v1",
+      "reason": "D7明示不是东港旧会"
+    }
+  ],
+  "pair_decisions": [
+    {
+      "left_mention": "M1",
+      "right_mention": "M2",
+      "decision": "same",
+      "evidence": "D2明确指向D1；时间地点无另见冲突",
+      "judgment_author": "教学给定",
+      "judgment_date": "unknown",
+      "status": "given_not_newly_verified"
+    },
+    {
+      "left_mention": "M1",
+      "right_mention": "M3",
+      "decision": "different",
+      "evidence": "D3明示二人分别列名",
+      "judgment_author": "教学给定",
+      "judgment_date": "unknown",
+      "status": "given_not_newly_verified"
+    },
+    {
+      "left_mention": "M4",
+      "right_mention": "M1",
+      "decision": "pending",
+      "evidence": "只有同名与相容时期",
+      "judgment_author": "教学给定",
+      "judgment_date": "unknown",
+      "status": "given_not_newly_verified"
+    },
+    {
+      "left_mention": "M4",
+      "right_mention": "M3",
+      "decision": "pending",
+      "evidence": "只有同名与相容时期",
+      "judgment_author": "教学给定",
+      "judgment_date": "unknown",
+      "status": "given_not_newly_verified"
+    },
+    {
+      "left_mention": "M5",
+      "right_mention": "M6",
+      "decision": "same",
+      "evidence": "D6明示更名与账册成员承接",
+      "judgment_author": "教学给定",
+      "judgment_date": "unknown",
+      "status": "given_not_newly_verified"
+    },
+    {
+      "left_mention": "M5",
+      "right_mention": "M7",
+      "decision": "different",
+      "evidence": "D7明确另立并非旧会",
+      "judgment_author": "教学给定",
+      "judgment_date": "unknown",
+      "status": "given_not_newly_verified"
+    }
+  ],
+  "note": "Given teaching decisions only. No automatic string matching or transitive merge.",
+  "impact_template": [
+    {
+      "change_id": "EXAMPLE_NOT_EXECUTED",
+      "old_version": "teaching-v1",
+      "new_version": "proposal-v2",
+      "change_kind": "merge_proposal",
+      "old_entity_ids": "P3;P1",
+      "new_entity_ids": "P1",
+      "affected_mentions": "需逐条列出",
+      "affected_instances": "R7;R8;R3",
+      "self_loop_review": "R7可能自身为自身之父",
+      "duplicate_review": "R8与R3须重审",
+      "derived_outputs_to_regenerate": "确认边;参加二模表;投影;图;计数",
+      "status": "NOT_RUN_PENDING_REVIEW"
+    }
+  ]
+}

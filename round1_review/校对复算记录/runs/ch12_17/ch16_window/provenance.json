@@ -1,0 +1,55 @@
+{
+  "implementation": "new_teaching_not_original_recovery",
+  "created_utc": "2026-10-30T02:36:19.927754+00:00",
+  "python": "3.12.14",
+  "argv": [
+    "relations.py",
+    "--data",
+    ".",
+    "--out",
+    "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch12_17/ch16_window",
+    "--end-year",
+    "1709"
+  ],
+  "input_sha256": {
+    "README.md": "61832a9847f9477a5c24fd7eb9510de5f60eb9e8950dfbb01ee1b33a06804611",
+    "assertions.csv": "b7b89071eb99d570a926c6d9955639dd6357215884d81978e0c220e3bcc5b72e",
+    "candidate_sources.json": "121354657aff5cc53ba00460e334bf60717f5591444eb2b207186a759656a182",
+    "candidates.json": "9329503889666ba6588db079581519f9e186c045fd5d1c8bd4cb516c40dc07b5",
+    "data_dictionary.md": "686359b61228a5ff9d18b97dd3492365217e98d5ebd49682f9ccfa73ba61543e",
+    "disambiguation_cards.csv": "1c1aa0404f7ddbcc0c70279b7df5daddd9ca8ea3a2a92d764c6e11361d29a9ec",
+    "entities.csv": "4570f9336621f27aefac5848ce519f295d03b56dd7f745a2ee1ee8916e95aec5",
+    "entity_mapping.csv": "f9c29bd89c9b06063db9264f13e22185242043a1afe0dec03ee633f152e4a75c",
+    "events.csv": "76acead2572f9a8e651ddc33e4ada26468e53323199acc59e8e11dc850fc544f",
+    "execution_status.json": "f39b0b613b93ec00552501cac4a788cabdbc1c60d88267f56573c0066ebc9c2b",
+    "pair_decisions.csv": "3cd56d8290fdc2b889aea3949589c389ce077331c210f607a5e6531982b7927a",
+    "provenance_path.svg": "8e8aae664ae75f818a52662a6da8cc383d589284f4329f53460e4efaa21511e3",
+    "relation_types.csv": "a1d82b59e9f3041986e733f9eec543b9992db4ae604f1a577fa8472bd10bbb9d",
+    "relations.py": "502ca905f65111ed5a0ce2fb3f0bc54ed41ad6c5fa2009f4c5acf2698a7ecbe3",
+    "rules.json": "882ff3ef493067e9b7578c7662b0c7b76c8a04f152ea95677b7b73f81e919c2c",
+    "source_extracts.md": "55ce1e58d09c94ab1703bc63ac30db510e95e74476cfced2fc4ec8d2030cacfb",
+    "sources.json": "bd05106978c6aff430764523a2945c2eec461a85031df87d7792996ef0e2352d",
+    "version_impact_template.csv": "ce8017753074e247a48f17bd732f8e59b66577543da4d5cc418520c4fcbc7bf4"
+  },
+  "window": [
+    1700,
+    1709
+  ],
+  "interval": "closed_integer_year",
+  "identity_assumptions": [],
+  "deferred_instances": [],
+  "counts": {
+    "assertions": 13,
+    "instances": 12,
+    "included_instances": 8,
+    "excluded_instances": 4,
+    "included_assertions": 9
+  },
+  "limitations": [
+    "No historical truth validation",
+    "No original-script recovery",
+    "No identity inference",
+    "Projection is shared participation, not acquaintance"
+  ],
+  "run_status": "READER_EXECUTED_NO_AUTOMATIC_HISTORICAL_VALIDATION"
+}

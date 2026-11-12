@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py", line 349, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py", line 346, in main
+    result=run(data,path.parent)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py", line 327, in run
+    if mode=='vision_metrics':return {'classification':{'n':len(rows),'top1':div(sum(max(r['scores'],key=r['scores'].get)==r['label'] for r in rows),len(rows))},'detection':detection(cfg['boxes'],cfg['iou_threshold']),'segmentation':segmentation(cfg['masks'])}
+                                                                                                                                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py", line 202, in detection
+    unique(rows,'id')
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py", line 19, in unique
+    raise ValueError('duplicate '+key)
+ValueError: duplicate id

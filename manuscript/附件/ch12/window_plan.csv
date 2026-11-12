@@ -1,0 +1,7 @@
+plan_id,series_id,origin,input_start,input_end,target_start,target_end,lookback,horizon,stride,split,decision,artifact_status,note
+W01,DEMO_PORT_A,1913,1909,1913,1914,1915,5,2,2,train,candidate,MANUAL_PLAN_NOT_RUN,缺失尚需按原点规则处理
+W02,DEMO_PORT_A,1914,1910,1914,1915,1916,5,2,1,cross_boundary,reject,MANUAL_PLAN_NOT_RUN,目标跨训练验证边界
+W03,DEMO_PORT_A,1915,1911,1915,1916,1917,5,2,2,validation,candidate,MANUAL_PLAN_NOT_RUN,使用训练信息拟合预处理
+W04,DEMO_PORT_A,1917,1913,1917,1918,1919,5,2,2,validation,candidate,MANUAL_PLAN_NOT_RUN,1918真值到1920才可评价
+W05,DEMO_PORT_A,1919,1915,1919,1920,1921,5,2,2,test,candidate,MANUAL_PLAN_NOT_RUN,1918记录在该原点仍不可用
+W06,DEMO_PORT_A,1921,1917,1921,1922,1923,5,2,2,test,candidate,MANUAL_PLAN_NOT_RUN,不得据测试结果重新选模型

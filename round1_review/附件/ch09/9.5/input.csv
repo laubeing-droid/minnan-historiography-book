@@ -1,0 +1,5 @@
+id,name,task,local_task,transfer_check
+B01,GLUE,language_understanding,事件状态分类,加入否定和拟议例
+B02,SuperGLUE,language_understanding,依据判定,保留证据边界
+B03,MMLU,knowledge_multiple_choice,背景知识选择,不能代替原文出处核对
+B04,HumanEval,code_generation,生成小函数,另设输入输出测试

@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py", line 340, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py", line 337, in main
+    result=run(data,path.parent)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch11/workbook.py", line 323, in run
+    return {'per_class':per,'macro_recall':sum(r['recall'] for r in per)/len(per),'micro_accuracy':div(sum(r['label']==r['pred'] for r in rows),len(rows))}
+                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+ZeroDivisionError: division by zero

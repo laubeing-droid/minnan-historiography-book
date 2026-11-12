@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch17/network_analysis.py", line 406, in <module>
+    main()
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch17/network_analysis.py", line 323, in main
+    raise FileExistsError("Output exists; choose a new --out directory. No overwrite is supported.")
+FileExistsError: Output exists; choose a new --out directory. No overwrite is supported.

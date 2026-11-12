@@ -1,0 +1,45 @@
+{
+  "section": "11.10",
+  "title": "消融协议与控制变量",
+  "status": "EXECUTED_PASS",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "vision_ablation",
+  "rows": [
+    {
+      "id": "I01",
+      "file": "images/square.pgm",
+      "label": "square",
+      "split": "train",
+      "source": "teaching_A"
+    },
+    {
+      "id": "I02",
+      "file": "images/bar.pgm",
+      "label": "bar",
+      "split": "train",
+      "source": "teaching_A"
+    },
+    {
+      "id": "I03",
+      "file": "images/square_shift.pgm",
+      "label": "square",
+      "split": "dev",
+      "source": "teaching_B"
+    },
+    {
+      "id": "I04",
+      "file": "images/bar_shift.pgm",
+      "label": "bar",
+      "split": "dev",
+      "source": "teaching_B"
+    }
+  ],
+  "config": {
+    "threshold": 128,
+    "accept_values": [
+      0.6,
+      0.85
+    ]
+  },
+  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
+}

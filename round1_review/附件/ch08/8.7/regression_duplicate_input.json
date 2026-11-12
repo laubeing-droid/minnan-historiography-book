@@ -1,0 +1,23 @@
+{
+  "section": "8.7",
+  "title": "科学调试与最小复现",
+  "status": "EXECUTED_PASS",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "join",
+  "rows": [
+    {
+      "id": "J01",
+      "gold": 1,
+      "prediction_id": "J01",
+      "prediction": 1
+    },
+    {
+      "id": "J01",
+      "gold": 0,
+      "prediction_id": "J02",
+      "prediction": 0
+    }
+  ],
+  "config": {},
+  "execution_scope": "2026-10-30错误探针已执行，预期非零退出并明确报错；不表示坏输入被接受。"
+}

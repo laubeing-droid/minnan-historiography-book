@@ -1,0 +1,18 @@
+{
+  "execution": "reader_invoked",
+  "input_provenance": "编者新编教学数据 非史实 非模型输出",
+  "section": "7.7",
+  "result": {
+    "card": {
+      "name": "六行关联切分教学输入",
+      "unit": "教学输入行",
+      "source": "编者构造 非史实",
+      "version": "2026-10-30",
+      "status": "NOT_RUN",
+      "scope": "用于理解分组，不估计历史总体"
+    },
+    "rows": 6,
+    "required_missing": [],
+    "note": "Checks presence only, not truth or historical validity."
+  }
+}

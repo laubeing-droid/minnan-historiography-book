@@ -1,0 +1,17 @@
+{
+  "status": "NOT_RUN",
+  "cases": [
+    {
+      "name": "reversed_order",
+      "expected_behavior": "按编号相连，不按行号相连"
+    },
+    {
+      "name": "duplicate_id",
+      "expected_behavior": "明确报错，不覆盖同名键"
+    },
+    {
+      "name": "missing_id",
+      "expected_behavior": "明确报错，不截断或补零"
+    }
+  ]
+}

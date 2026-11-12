@@ -1,0 +1,44 @@
+[
+  {
+    "fit_id": "last_o1915",
+    "candidate": "last",
+    "origin": 1915,
+    "training_ids": [
+      "SYNTH_CH12",
+      "SYNTH_CH12",
+      "SYNTH_CH12",
+      "SYNTH_CH12",
+      "SYNTH_CH12",
+      "SYNTH_CH12",
+      "SYNTH_CH12",
+      "SYNTH_CH12",
+      "SYNTH_CH12",
+      "SYNTH_CH12",
+      "SYNTH_CH12",
+      "SYNTH_CH12"
+    ],
+    "status": "failed",
+    "reason": "ValueError('incomplete or unavailable training prefix; do not compress calendar')"
+  },
+  {
+    "fit_id": "arima_o1915",
+    "candidate": "arima",
+    "origin": 1915,
+    "training_ids": [
+      "SYNTH_CH12",
+      "SYNTH_CH12",
+      "SYNTH_CH12",
+      "SYNTH_CH12",
+      "SYNTH_CH12",
+      "SYNTH_CH12",
+      "SYNTH_CH12",
+      "SYNTH_CH12",
+      "SYNTH_CH12",
+      "SYNTH_CH12",
+      "SYNTH_CH12",
+      "SYNTH_CH12"
+    ],
+    "status": "failed",
+    "reason": "ValueError('incomplete or unavailable training prefix; do not compress calendar')"
+  }
+]

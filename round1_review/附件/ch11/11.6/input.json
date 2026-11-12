@@ -1,0 +1,32 @@
+{
+  "section": "11.6",
+  "title": "ImageNet/COCO/ADE20K：三大benchmark",
+  "status": "EXECUTED_PASS",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "benchmark",
+  "rows": [
+    {
+      "id": "V01",
+      "benchmark": "ImageNet",
+      "task": "classification",
+      "expected_output": "image_label",
+      "local_output": "image_label"
+    },
+    {
+      "id": "V02",
+      "benchmark": "COCO",
+      "task": "detection",
+      "expected_output": "bbox_class",
+      "local_output": "bbox_class"
+    },
+    {
+      "id": "V03",
+      "benchmark": "ADE20K",
+      "task": "semantic_segmentation",
+      "expected_output": "pixel_class",
+      "local_output": "pixel_class"
+    }
+  ],
+  "config": {},
+  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
+}

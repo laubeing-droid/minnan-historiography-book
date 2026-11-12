@@ -1,0 +1,364 @@
+{
+  "implementation": "new_teaching_not_original_script_recovery",
+  "run_status": "READER_EXECUTED_NOT_HISTORICALLY_VERIFIED",
+  "created_utc": "2026-10-30T02:36:20.205148+00:00",
+  "python": "3.12.14",
+  "argv": [
+    "network_analysis.py",
+    "--data",
+    ".",
+    "--out",
+    "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch12_17/ch17_gamma",
+    "--gamma",
+    "0.5",
+    "--gamma",
+    "1",
+    "--gamma",
+    "2"
+  ],
+  "input_sha256": {
+    "README.md": "1a41e7db35d7e3acf8f064fd46c3fbcd4fc8870bb034f7b3e26bc905929dace8",
+    "data_dictionary.md": "dd77907a6561de33883329fd6777cdb53e8069ef7311dc8409586eac974ef2ee",
+    "events.csv": "5b3613019c54c886305a4207e418af7748d7ed13c23f78b51d6707e72abfa215",
+    "execution_status.json": "f39b0b613b93ec00552501cac4a788cabdbc1c60d88267f56573c0066ebc9c2b",
+    "interpretation_register.csv": "9527f216f513cb01c5901f07dba110e78030db9eb9d515b6a2a4717d22b28338",
+    "model_spec.json": "546aa3adb248a1e64ebd0d3d9a61bc48978c85bf6b259ef6679e49e48e11bcaa",
+    "network_analysis.py": "6d098694a653d4493b6a3d2b7e01b4a09b983dd31f8301a3e2cc6ae3b7395240",
+    "network_structure.svg": "ec30f7b0df7940db3a9222df8b248700c0ed793811df14f018151b748c90a58f",
+    "nodes.csv": "08c5fbe10715f4acc324a7f606a06ada36ef605a7157744bd6aba030d410b91a",
+    "source_extracts.md": "5841416466277cda6a65806aad9ce7a2a157eeeddf043c50ef358064f505cff1",
+    "sources.json": "52425afacee61037e6d2f7ee0b2d186f3446287bb7a71e126f573933852df6ca"
+  },
+  "model_spec": {
+    "version": "new-teaching-v1",
+    "execution_status": "NOT_RUN",
+    "population": "fixed_roster_X0",
+    "start_year": 1701,
+    "end_year": 1705,
+    "interval": "closed_integer_year",
+    "event_inclusion": "confirmed_identity_and_accepted_event",
+    "directed_view": "one_edge_per_ordered_pair_with_event_lineage",
+    "undirected_view": "at_least_one_confirmed_event_in_either_direction",
+    "self_loops": "reject",
+    "parallel_event_rows": "preserve_unique_event_ids",
+    "weights": "event_counts_separate_from_binary_existence",
+    "betweenness": "undirected_no_endpoints_global_normalization",
+    "closeness": "reachable_fraction_times_reachable_count_over_distance_sum",
+    "isolate_partition": "display_separately_not_inferred_group",
+    "gamma": [
+      "0.1",
+      "0.5",
+      "1",
+      "2"
+    ],
+    "exhaustive_nonisolated_limit": 8
+  },
+  "actual_window": [
+    1701,
+    1705
+  ],
+  "actual_gamma": [
+    "1/2",
+    "1",
+    "2"
+  ],
+  "node_roster_lineage": [
+    {
+      "node_id": "A",
+      "display_name": "A",
+      "roster_source": "X0",
+      "roster_locator": "roster1",
+      "identity_status": "confirmed"
+    },
+    {
+      "node_id": "B",
+      "display_name": "B",
+      "roster_source": "X0",
+      "roster_locator": "roster1",
+      "identity_status": "confirmed"
+    },
+    {
+      "node_id": "C",
+      "display_name": "C",
+      "roster_source": "X0",
+      "roster_locator": "roster1",
+      "identity_status": "confirmed"
+    },
+    {
+      "node_id": "D",
+      "display_name": "D",
+      "roster_source": "X0",
+      "roster_locator": "roster1",
+      "identity_status": "confirmed"
+    },
+    {
+      "node_id": "E",
+      "display_name": "E",
+      "roster_source": "X0",
+      "roster_locator": "roster1",
+      "identity_status": "confirmed"
+    },
+    {
+      "node_id": "F",
+      "display_name": "F",
+      "roster_source": "X0",
+      "roster_locator": "roster1",
+      "identity_status": "confirmed"
+    },
+    {
+      "node_id": "G",
+      "display_name": "G",
+      "roster_source": "X0",
+      "roster_locator": "roster1",
+      "identity_status": "confirmed"
+    },
+    {
+      "node_id": "H",
+      "display_name": "H",
+      "roster_source": "X0",
+      "roster_locator": "roster1",
+      "identity_status": "confirmed"
+    }
+  ],
+  "event_lineage": [
+    {
+      "event_id": "T01",
+      "sender": "A",
+      "recipient": "B",
+      "event_year": 1701,
+      "source_id": "X1",
+      "locator": "t01",
+      "identity_status": "confirmed",
+      "event_status": "accepted",
+      "excerpt": "1701年，A向B寄信；教学独立事件编号T01。"
+    },
+    {
+      "event_id": "T02",
+      "sender": "B",
+      "recipient": "C",
+      "event_year": 1701,
+      "source_id": "X1",
+      "locator": "t02",
+      "identity_status": "confirmed",
+      "event_status": "accepted",
+      "excerpt": "1701年，B向C寄信；教学独立事件编号T02。"
+    },
+    {
+      "event_id": "T03",
+      "sender": "C",
+      "recipient": "A",
+      "event_year": 1702,
+      "source_id": "X1",
+      "locator": "t03",
+      "identity_status": "confirmed",
+      "event_status": "accepted",
+      "excerpt": "1702年，C向A寄信；教学独立事件编号T03。"
+    },
+    {
+      "event_id": "T04",
+      "sender": "C",
+      "recipient": "D",
+      "event_year": 1704,
+      "source_id": "X2",
+      "locator": "t04",
+      "identity_status": "confirmed",
+      "event_status": "accepted",
+      "excerpt": "1704年，C向D寄信；教学独立事件编号T04。"
+    },
+    {
+      "event_id": "T05",
+      "sender": "D",
+      "recipient": "E",
+      "event_year": 1702,
+      "source_id": "X3",
+      "locator": "t05",
+      "identity_status": "confirmed",
+      "event_status": "accepted",
+      "excerpt": "1702年，D向E寄信；教学独立事件编号T05。"
+    },
+    {
+      "event_id": "T06",
+      "sender": "E",
+      "recipient": "F",
+      "event_year": 1703,
+      "source_id": "X3",
+      "locator": "t06",
+      "identity_status": "confirmed",
+      "event_status": "accepted",
+      "excerpt": "1703年，E向F寄信；教学独立事件编号T06。"
+    },
+    {
+      "event_id": "T07",
+      "sender": "F",
+      "recipient": "D",
+      "event_year": 1703,
+      "source_id": "X3",
+      "locator": "t07",
+      "identity_status": "confirmed",
+      "event_status": "accepted",
+      "excerpt": "1703年，F向D寄信；教学独立事件编号T07。"
+    },
+    {
+      "event_id": "T08",
+      "sender": "F",
+      "recipient": "G",
+      "event_year": 1705,
+      "source_id": "X4",
+      "locator": "t08",
+      "identity_status": "confirmed",
+      "event_status": "accepted",
+      "excerpt": "1705年，F向G寄信；教学独立事件编号T08。"
+    },
+    {
+      "event_id": "T09",
+      "sender": "B",
+      "recipient": "A",
+      "event_year": 1702,
+      "source_id": "X1",
+      "locator": "t09",
+      "identity_status": "confirmed",
+      "event_status": "accepted",
+      "excerpt": "1702年，B向A寄信；教学独立事件编号T09。"
+    }
+  ],
+  "derived_edge_lineage": [
+    {
+      "node_a": "A",
+      "node_b": "B",
+      "event_count": 2,
+      "event_ids": "T01;T09",
+      "source_locations": "X1/t01;X1/t09",
+      "status": "derived_from_given_synthetic_events"
+    },
+    {
+      "node_a": "A",
+      "node_b": "C",
+      "event_count": 1,
+      "event_ids": "T03",
+      "source_locations": "X1/t03",
+      "status": "derived_from_given_synthetic_events"
+    },
+    {
+      "node_a": "B",
+      "node_b": "C",
+      "event_count": 1,
+      "event_ids": "T02",
+      "source_locations": "X1/t02",
+      "status": "derived_from_given_synthetic_events"
+    },
+    {
+      "node_a": "C",
+      "node_b": "D",
+      "event_count": 1,
+      "event_ids": "T04",
+      "source_locations": "X2/t04",
+      "status": "derived_from_given_synthetic_events"
+    },
+    {
+      "node_a": "D",
+      "node_b": "E",
+      "event_count": 1,
+      "event_ids": "T05",
+      "source_locations": "X3/t05",
+      "status": "derived_from_given_synthetic_events"
+    },
+    {
+      "node_a": "D",
+      "node_b": "F",
+      "event_count": 1,
+      "event_ids": "T07",
+      "source_locations": "X3/t07",
+      "status": "derived_from_given_synthetic_events"
+    },
+    {
+      "node_a": "E",
+      "node_b": "F",
+      "event_count": 1,
+      "event_ids": "T06",
+      "source_locations": "X3/t06",
+      "status": "derived_from_given_synthetic_events"
+    },
+    {
+      "node_a": "F",
+      "node_b": "G",
+      "event_count": 1,
+      "event_ids": "T08",
+      "source_locations": "X4/t08",
+      "status": "derived_from_given_synthetic_events"
+    }
+  ],
+  "source_catalog": [
+    {
+      "source_id": "X0",
+      "title": "教学观察名册",
+      "compiled_year": 1701,
+      "independent_group": "X0",
+      "locations": {
+        "roster1": "预先列定观察对象A、B、C、D、E、F、G、H。H有名册依据，本窗未给寄信事件。"
+      },
+      "material_kind": "new_synthetic_reconstruction"
+    },
+    {
+      "source_id": "X1",
+      "title": "教学寄信登记组X1",
+      "compiled_year": 1706,
+      "independent_group": "X1",
+      "locations": {
+        "t01": "1701年，A向B寄信；教学独立事件编号T01。",
+        "t02": "1701年，B向C寄信；教学独立事件编号T02。",
+        "t03": "1702年，C向A寄信；教学独立事件编号T03。",
+        "t09": "1702年，B向A寄信；教学独立事件编号T09。"
+      },
+      "material_kind": "new_synthetic_reconstruction"
+    },
+    {
+      "source_id": "X2",
+      "title": "教学寄信登记组X2",
+      "compiled_year": 1706,
+      "independent_group": "X2",
+      "locations": {
+        "t04": "1704年，C向D寄信；教学独立事件编号T04。"
+      },
+      "material_kind": "new_synthetic_reconstruction"
+    },
+    {
+      "source_id": "X3",
+      "title": "教学寄信登记组X3",
+      "compiled_year": 1706,
+      "independent_group": "X3",
+      "locations": {
+        "t05": "1702年，D向E寄信；教学独立事件编号T05。",
+        "t06": "1703年，E向F寄信；教学独立事件编号T06。",
+        "t07": "1703年，F向D寄信；教学独立事件编号T07。"
+      },
+      "material_kind": "new_synthetic_reconstruction"
+    },
+    {
+      "source_id": "X4",
+      "title": "教学寄信登记组X4",
+      "compiled_year": 1706,
+      "independent_group": "X4",
+      "locations": {
+        "t08": "1705年，F向G寄信；教学独立事件编号T08。"
+      },
+      "material_kind": "new_synthetic_reconstruction"
+    }
+  ],
+  "transformations": [
+    "validate_all_inputs_before_window_filter",
+    "select_events_by_occurrence_year",
+    "preserve_fixed_roster_isolates",
+    "collapse_events_by_ordered_pair_for_directed_view",
+    "collapse_both_directions_for_undirected_existence",
+    "exact_unweighted_shortest_path_fractions",
+    "enumerate_nonisolated_set_partitions",
+    "derived_only_missingness_scenarios"
+  ],
+  "limitations": [
+    "No original-script recovery",
+    "No historical truth or source independence validation",
+    "No temporal propagation inference",
+    "No LLM or model evaluation",
+    "No causal identification from structural removal"
+  ]
+}

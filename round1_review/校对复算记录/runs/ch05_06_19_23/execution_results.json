@@ -1,0 +1,323 @@
+[
+  {
+    "name": "links",
+    "chapter": "ch05",
+    "script": "check_links_NOT_RUN.py",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch05/check_links_NOT_RUN.py"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "EXECUTED_PASS",
+    "stdout": "links.stdout",
+    "stderr": "links.stderr"
+  },
+  {
+    "name": "chunk",
+    "chapter": "ch06",
+    "script": "chunk_NOT_RUN.py",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch06/chunk_NOT_RUN.py"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "EXECUTED_PASS",
+    "stdout": "chunk.stdout",
+    "stderr": "chunk.stderr"
+  },
+  {
+    "name": "bm25_default",
+    "chapter": "ch06",
+    "script": "bm25_NOT_RUN.py",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch06/bm25_NOT_RUN.py"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "EXECUTED_PASS",
+    "stdout": "bm25_default.stdout",
+    "stderr": "bm25_default.stderr"
+  },
+  {
+    "name": "bm25_queries",
+    "chapter": "ch06",
+    "script": "bm25_NOT_RUN.py",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch06/bm25_NOT_RUN.py",
+      "--queries",
+      "query_plan.json"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "EXECUTED_PASS",
+    "stdout": "bm25_queries.stdout",
+    "stderr": "bm25_queries.stderr"
+  },
+  {
+    "name": "bm25_empty_query",
+    "chapter": "ch06",
+    "script": "bm25_NOT_RUN.py",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch06/bm25_NOT_RUN.py",
+      "--query",
+      ""
+    ],
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "EXECUTED_PASS",
+    "stdout": "bm25_empty_query.stdout",
+    "stderr": "bm25_empty_query.stderr"
+  },
+  {
+    "name": "bm25_no_term",
+    "chapter": "ch06",
+    "script": "bm25_NOT_RUN.py",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch06/bm25_NOT_RUN.py",
+      "--query",
+      "不存在词项"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "EXECUTED_PASS",
+    "stdout": "bm25_no_term.stdout",
+    "stderr": "bm25_no_term.stderr"
+  },
+  {
+    "name": "bm25_empty_scope",
+    "chapter": "ch06",
+    "script": "bm25_NOT_RUN.py",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch06/bm25_NOT_RUN.py",
+      "--year",
+      "1800"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "EXECUTED_PASS",
+    "stdout": "bm25_empty_scope.stdout",
+    "stderr": "bm25_empty_scope.stderr"
+  },
+  {
+    "name": "bm25_invalid_parameter",
+    "chapter": "ch06",
+    "script": "bm25_NOT_RUN.py",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch06/bm25_NOT_RUN.py",
+      "--k1",
+      "-1"
+    ],
+    "exit_code": 1,
+    "expected_exit": 1,
+    "status": "EXECUTED_PASS",
+    "stdout": "bm25_invalid_parameter.stdout",
+    "stderr": "bm25_invalid_parameter.stderr"
+  },
+  {
+    "name": "rrf",
+    "chapter": "ch06",
+    "script": "rrf_NOT_RUN.py",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch06/rrf_NOT_RUN.py"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "EXECUTED_PASS",
+    "stdout": "rrf.stdout",
+    "stderr": "rrf.stderr"
+  },
+  {
+    "name": "rrf_unfilled",
+    "chapter": "ch06",
+    "script": "rrf_NOT_RUN.py",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch06/rrf_NOT_RUN.py",
+      "--input",
+      "rankings_template.json"
+    ],
+    "exit_code": 1,
+    "expected_exit": 1,
+    "status": "EXECUTED_PASS",
+    "stdout": "rrf_unfilled.stdout",
+    "stderr": "rrf_unfilled.stderr"
+  },
+  {
+    "name": "eval_dev",
+    "chapter": "ch06",
+    "script": "evaluate_NOT_RUN.py",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch06/evaluate_NOT_RUN.py",
+      "--split",
+      "development"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "EXECUTED_PASS",
+    "stdout": "eval_dev.stdout",
+    "stderr": "eval_dev.stderr"
+  },
+  {
+    "name": "eval_holdout",
+    "chapter": "ch06",
+    "script": "evaluate_NOT_RUN.py",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch06/evaluate_NOT_RUN.py",
+      "--split",
+      "holdout_exercise"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "EXECUTED_PASS",
+    "stdout": "eval_holdout.stdout",
+    "stderr": "eval_holdout.stderr"
+  },
+  {
+    "name": "catalog_normal",
+    "chapter": "ch19",
+    "script": "check_catalog_NOT_RUN.py",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch19/check_catalog_NOT_RUN.py",
+      "--input",
+      "catalog_input.csv",
+      "--output",
+      "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch05_06_19_23/catalog_normal.json"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "EXECUTED_PASS",
+    "stdout": "catalog_normal.stdout",
+    "stderr": "catalog_normal.stderr"
+  },
+  {
+    "name": "catalog_anomalies",
+    "chapter": "ch19",
+    "script": "check_catalog_NOT_RUN.py",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch19/check_catalog_NOT_RUN.py",
+      "--input",
+      "catalog_anomalies.csv",
+      "--output",
+      "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch05_06_19_23/catalog_anomalies.json"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "EXECUTED_PASS",
+    "stdout": "catalog_anomalies.stdout",
+    "stderr": "catalog_anomalies.stderr"
+  },
+  {
+    "name": "catalog_no_overwrite",
+    "chapter": "ch19",
+    "script": "check_catalog_NOT_RUN.py",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch19/check_catalog_NOT_RUN.py",
+      "--input",
+      "catalog_input.csv",
+      "--output",
+      "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch05_06_19_23/catalog_normal.json"
+    ],
+    "exit_code": 1,
+    "expected_exit": 1,
+    "status": "EXECUTED_PASS",
+    "stdout": "catalog_no_overwrite.stdout",
+    "stderr": "catalog_no_overwrite.stderr"
+  },
+  {
+    "name": "population",
+    "chapter": "ch20",
+    "script": "calculate_population_NOT_RUN.py",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch20/calculate_population_NOT_RUN.py"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "EXECUTED_PASS",
+    "stdout": "population.stdout",
+    "stderr": "population.stderr"
+  },
+  {
+    "name": "responses",
+    "chapter": "ch21",
+    "script": "check_response_NOT_RUN.py",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch21/check_response_NOT_RUN.py"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "EXECUTED_PASS",
+    "stdout": "responses.stdout",
+    "stderr": "responses.stderr"
+  },
+  {
+    "name": "question_cards",
+    "chapter": "ch22",
+    "script": "inspect_question_cards_NOT_RUN.py",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch22/inspect_question_cards_NOT_RUN.py"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "EXECUTED_PASS",
+    "stdout": "question_cards.stdout",
+    "stderr": "question_cards.stderr"
+  },
+  {
+    "name": "source_chain",
+    "chapter": "ch23",
+    "script": "inspect_source_chain_NOT_RUN.py",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-B",
+      "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch23/inspect_source_chain_NOT_RUN.py"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0,
+    "status": "EXECUTED_PASS",
+    "stdout": "source_chain.stdout",
+    "stderr": "source_chain.stderr"
+  },
+  {
+    "name": "embedding_models",
+    "chapter": "ch06",
+    "script": "embedding_compare_NOT_RUN.py",
+    "status": "BLOCKED",
+    "reason": "No supplied local e5/bge model directory. No installation or model download authorized/performed.",
+    "sentence_transformers_installed": false
+  }
+]

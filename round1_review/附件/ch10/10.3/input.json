@@ -1,0 +1,43 @@
+{
+  "section": "10.3",
+  "title": "Prompt敏感度分析",
+  "status": "EXECUTED_PASS",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "sensitivity",
+  "rows": [
+    {
+      "id": "H01",
+      "variant": "V1",
+      "repeat": 1,
+      "item": "Q1",
+      "answer": "拟议",
+      "gold": "拟议"
+    },
+    {
+      "id": "H02",
+      "variant": "V2",
+      "repeat": 1,
+      "item": "Q1",
+      "answer": "已迁",
+      "gold": "拟议"
+    },
+    {
+      "id": "H03",
+      "variant": "V1",
+      "repeat": 2,
+      "item": "Q1",
+      "answer": "拟议",
+      "gold": "拟议"
+    },
+    {
+      "id": "H04",
+      "variant": "V2",
+      "repeat": 2,
+      "item": "Q1",
+      "answer": "拟议",
+      "gold": "拟议"
+    }
+  ],
+  "config": {},
+  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
+}

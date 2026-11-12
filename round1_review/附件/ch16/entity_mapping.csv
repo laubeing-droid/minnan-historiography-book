@@ -1,0 +1,8 @@
+mention_id,entity_id,status,candidate_entities,judgment_version,reason
+M1,P-A,confirmed,,teaching-v1,材料明示身份
+M2,P-A,confirmed,,teaching-v1,D2明确指向D1字号对应
+M3,P-B,confirmed,,teaching-v1,D3明确区分二人
+M4,,pending,P-A;P-B,teaching-v1,缺少限定；不默认选材料较多者
+M5,O-A,confirmed,,teaching-v1,旧会对象
+M6,O-A,confirmed,,teaching-v1,D6明示更名与资料成员承接
+M7,O-B,confirmed,,teaching-v1,D7明示不是东港旧会

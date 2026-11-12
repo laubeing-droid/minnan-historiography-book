@@ -1,0 +1,200 @@
+{
+  "fiction": true,
+  "year_interval": "closed",
+  "names": [
+    {
+      "id": "N1",
+      "entity": "P001",
+      "name": "\u4e91\u6c40",
+      "start": 1600,
+      "end": 1699,
+      "parent": "\u7532\u5e9c",
+      "source": "F1"
+    },
+    {
+      "id": "N2",
+      "entity": "P001",
+      "name": "\u9752\u6c40",
+      "start": 1700,
+      "end": 1799,
+      "parent": "\u7532\u5e9c",
+      "source": "F2"
+    },
+    {
+      "id": "N3",
+      "entity": "P002",
+      "name": "\u4e91\u6c40",
+      "start": 1600,
+      "end": 1799,
+      "parent": "\u4e59\u5e9c",
+      "source": "F3"
+    },
+    {
+      "id": "N4",
+      "entity": "P003",
+      "name": "\u77f3\u6c40",
+      "start": null,
+      "end": null,
+      "parent": null,
+      "source": "F4"
+    },
+    {
+      "id": "N1",
+      "entity": "P001",
+      "name": "\u4e91\u6c40",
+      "start": 1600,
+      "end": 1699,
+      "parent": "\u7532\u5e9c",
+      "source": "F1"
+    }
+  ],
+  "mentions": [
+    {
+      "id": "M01",
+      "name": "\u4e91\u6c40",
+      "year": 1650,
+      "parent": "\u7532\u5e9c",
+      "source": "F5",
+      "quote": "\u7532\u5e9c\u4e91\u6c40\u6709\u6e21\u3002"
+    },
+    {
+      "id": "M02",
+      "name": "\u4e91\u6c40",
+      "year": 1650,
+      "parent": null,
+      "source": "F6",
+      "quote": "\u4e91\u6c40\u6709\u6e21\u3002"
+    },
+    {
+      "id": "M03",
+      "name": "\u9752\u6c40",
+      "year": 1750,
+      "parent": "\u7532\u5e9c",
+      "source": "F7",
+      "quote": "\u7532\u5e9c\u9752\u6c40\u5efa\u6865\u3002"
+    },
+    {
+      "id": "M04",
+      "name": "\u9752\u6c40",
+      "year": 1650,
+      "parent": "\u7532\u5e9c",
+      "source": "F8",
+      "quote": "\u7532\u5e9c\u9752\u6c40\u3002"
+    },
+    {
+      "id": "M05",
+      "name": "\u77f3\u6c40",
+      "year": null,
+      "parent": null,
+      "source": "F9",
+      "quote": "\u77f3\u6c40\u3002"
+    },
+    {
+      "id": "M06",
+      "name": "\u6d77\u6c40",
+      "year": 1650,
+      "parent": null,
+      "source": "F10",
+      "quote": "\u6d77\u6c40\u3002"
+    },
+    {
+      "id": "M07",
+      "name": "\u4e91\u6c40",
+      "year": 1650,
+      "parent": "\u4e59\u5e9c",
+      "source": "F11",
+      "quote": "\u4e59\u5e9c\u4e91\u6c40\u3002"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "J0",
+      "mention": "M07",
+      "entity": "P001",
+      "status": "superseded",
+      "supersedes": null,
+      "reason": "\u65e7\u6559\u5b66\u8bef\u5224\uff0c\u4fdd\u7559\u4e0d\u91c7\u7528"
+    },
+    {
+      "id": "J1",
+      "mention": "M01",
+      "entity": "P001",
+      "status": "confirmed",
+      "supersedes": null,
+      "reason": "F5\u6240\u8bb0\u5730\u57df\u4e0eF1\u76f8\u5bb9"
+    },
+    {
+      "id": "J2",
+      "mention": "M03",
+      "entity": "P001",
+      "status": "confirmed",
+      "supersedes": null,
+      "reason": "F7\u4e0eF2\u65f6\u671f\u5730\u57df\u76f8\u5bb9"
+    },
+    {
+      "id": "J3",
+      "mention": "M07",
+      "entity": "P002",
+      "status": "confirmed",
+      "supersedes": "J0",
+      "reason": "F11\u5730\u57df\u4e0eF3\u76f8\u5bb9"
+    }
+  ],
+  "sources": [
+    {
+      "id": "F1",
+      "locator": "\u6559\u6750\u865a\u6784\u53611",
+      "independent_history_evidence": false
+    },
+    {
+      "id": "F2",
+      "locator": "\u6559\u6750\u865a\u6784\u53612",
+      "independent_history_evidence": false
+    },
+    {
+      "id": "F3",
+      "locator": "\u6559\u6750\u865a\u6784\u53613",
+      "independent_history_evidence": false
+    },
+    {
+      "id": "F4",
+      "locator": "\u6559\u6750\u865a\u6784\u53614",
+      "independent_history_evidence": false
+    },
+    {
+      "id": "F5",
+      "locator": "\u6559\u6750\u865a\u6784\u53615",
+      "independent_history_evidence": false
+    },
+    {
+      "id": "F6",
+      "locator": "\u6559\u6750\u865a\u6784\u53616",
+      "independent_history_evidence": false
+    },
+    {
+      "id": "F7",
+      "locator": "\u6559\u6750\u865a\u6784\u53617",
+      "independent_history_evidence": false
+    },
+    {
+      "id": "F8",
+      "locator": "\u6559\u6750\u865a\u6784\u53618",
+      "independent_history_evidence": false
+    },
+    {
+      "id": "F9",
+      "locator": "\u6559\u6750\u865a\u6784\u53619",
+      "independent_history_evidence": false
+    },
+    {
+      "id": "F10",
+      "locator": "\u6559\u6750\u865a\u6784\u536110",
+      "independent_history_evidence": false
+    },
+    {
+      "id": "F11",
+      "locator": "\u6559\u6750\u865a\u6784\u536111",
+      "independent_history_evidence": false
+    }
+  ]
+}

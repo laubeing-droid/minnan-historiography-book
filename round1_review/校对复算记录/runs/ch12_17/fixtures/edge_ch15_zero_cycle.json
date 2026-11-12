@@ -1,0 +1,155 @@
+{
+  "fiction": true,
+  "crs": "LOCAL_METRE_PLANE",
+  "nodes": [
+    {
+      "id": "A",
+      "x": 0,
+      "y": 0,
+      "radius": 10
+    },
+    {
+      "id": "B",
+      "x": 100,
+      "y": 0,
+      "radius": 10
+    },
+    {
+      "id": "C",
+      "x": 300,
+      "y": 0,
+      "radius": 0
+    },
+    {
+      "id": "D",
+      "x": 0,
+      "y": 100,
+      "radius": 0
+    },
+    {
+      "id": "E",
+      "x": 300,
+      "y": 100,
+      "radius": 0
+    }
+  ],
+  "edges": [
+    {
+      "id": "AB",
+      "from": "A",
+      "to": "B",
+      "minutes": 20,
+      "start": 1,
+      "end": 2,
+      "active": true,
+      "source": "fiction:AB"
+    },
+    {
+      "id": "AC",
+      "from": "A",
+      "to": "C",
+      "minutes": 5,
+      "start": 1,
+      "end": 2,
+      "active": true,
+      "source": "fiction:AC"
+    },
+    {
+      "id": "CB",
+      "from": "C",
+      "to": "B",
+      "minutes": 1,
+      "start": 1,
+      "end": 2,
+      "active": true,
+      "source": "fiction:CB"
+    },
+    {
+      "id": "AD",
+      "from": "A",
+      "to": "D",
+      "minutes": 3,
+      "start": 1,
+      "end": 2,
+      "active": false,
+      "source": "fiction:AD"
+    },
+    {
+      "id": "BE",
+      "from": "B",
+      "to": "E",
+      "minutes": null,
+      "start": 1,
+      "end": 2,
+      "active": true,
+      "source": "fiction:BE"
+    },
+    {
+      "id": "AE",
+      "from": "A",
+      "to": "E",
+      "minutes": 8,
+      "start": 2,
+      "end": 2,
+      "active": true,
+      "source": "fiction:AE"
+    },
+    {
+      "id": "DC",
+      "from": "D",
+      "to": "C",
+      "minutes": 4,
+      "start": 1,
+      "end": 2,
+      "active": true,
+      "source": "fiction:DC"
+    },
+    {
+      "id": "ZERO_AB",
+      "from": "A",
+      "to": "B",
+      "minutes": 0,
+      "start": 1,
+      "end": 2,
+      "active": true
+    },
+    {
+      "id": "ZERO_BA",
+      "from": "B",
+      "to": "A",
+      "minutes": 0,
+      "start": 1,
+      "end": 2,
+      "active": true
+    }
+  ],
+  "times": [
+    1,
+    2
+  ],
+  "sources": [
+    "A",
+    "D"
+  ],
+  "threshold": 100,
+  "rectangles": {
+    "P": [
+      0,
+      0,
+      100,
+      100
+    ],
+    "Q": [
+      100,
+      0,
+      200,
+      100
+    ],
+    "R": [
+      100,
+      100,
+      200,
+      200
+    ]
+  }
+}

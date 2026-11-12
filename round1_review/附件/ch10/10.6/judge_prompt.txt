@@ -1,0 +1,8 @@
+任务：只根据下面证据比较两份候选，不使用外部知识。
+先分别检查有据、完整、可读；有据优先，较长不自动较好。材料不足时输出undetermined。
+返回JSON：candidate_a_id,candidate_b_id,choice,dimensions,evidence,reason,undetermined_items。
+choice必须使用真实候选编号或tie，不使用当前呈现位置代替候选身份。
+每个实质评分给出原文片段；不要求展示内部推理，只写简短可核依据。
+证据：{{evidence}}
+候选一（编号{{candidate_a_id}}）：{{candidate_a}}
+候选二（编号{{candidate_b_id}}）：{{candidate_b}}

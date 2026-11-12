@@ -1,0 +1,26 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "reviewed_scripts": [
+    "/workspace/scratch/b06bda80e898/book_review_20261030/revision/\u9644\u4ef6/ch12/preprocess_annual.py",
+    "/workspace/scratch/b06bda80e898/book_review_20261030/revision/\u9644\u4ef6/ch13/optuna_search.py",
+    "/workspace/scratch/b06bda80e898/book_review_20261030/revision/\u9644\u4ef6/ch13/chapter12_adapter.py",
+    "/workspace/scratch/b06bda80e898/book_review_20261030/revision/\u9644\u4ef6/ch13/models.py",
+    "/workspace/scratch/b06bda80e898/book_review_20261030/revision/\u9644\u4ef6/ch13/workflow.py",
+    "/workspace/scratch/b06bda80e898/book_review_20261030/revision/\u9644\u4ef6/ch14/workflow.py",
+    "/workspace/scratch/b06bda80e898/book_review_20261030/revision/\u9644\u4ef6/ch15/workflow.py",
+    "/workspace/scratch/b06bda80e898/book_review_20261030/revision/\u9644\u4ef6/ch16/relations.py",
+    "/workspace/scratch/b06bda80e898/book_review_20261030/revision/\u9644\u4ef6/ch17/network_analysis.py"
+  ],
+  "network_calls": false,
+  "installation": false,
+  "deletion": false,
+  "writes": "new output dirs and logs only under runs/ch12_17",
+  "dependencies": {
+    "statsmodels": false,
+    "optuna": false,
+    "numpy": true,
+    "scipy": true,
+    "pandas": true,
+    "networkx": false
+  }
+}

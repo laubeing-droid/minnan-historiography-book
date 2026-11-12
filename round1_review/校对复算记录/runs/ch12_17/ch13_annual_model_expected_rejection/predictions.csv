@@ -1,0 +1,3 @@
+﻿actual,candidate,error,fit_id,horizon,interval_status,lower95,origin,prediction,reason,score_status,status,target,upper95
+,last,,last_o1915,1,failed,,1915,,ValueError('incomplete or unavailable training prefix; do not compress calendar'),prediction_failed,failed,1916,
+,arima,,arima_o1915,1,failed,,1915,,ValueError('incomplete or unavailable training prefix; do not compress calendar'),prediction_failed,failed,1916,

@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch12/preprocess_annual.py", line 273, in <module>
+    main()
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch12/preprocess_annual.py", line 241, in main
+    records = read_selected(args.input, args.series_id)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch12/preprocess_annual.py", line 69, in read_selected
+    raise ValueError(f"Duplicate series/year key: {series_id}/{period}")
+ValueError: Duplicate series/year key: DEMO_PORT_A/1900

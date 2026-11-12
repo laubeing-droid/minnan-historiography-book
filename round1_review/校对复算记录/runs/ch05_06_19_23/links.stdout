@@ -1,0 +1,95 @@
+{
+  "scope": "file existence only",
+  "links": [
+    {
+      "file": "N01_transport.md",
+      "target": "sources.csv",
+      "exists": true
+    },
+    {
+      "file": "N01_transport.md",
+      "target": "N02_dates.md",
+      "exists": true
+    },
+    {
+      "file": "N02_dates.md",
+      "target": "start_here.md",
+      "exists": true
+    },
+    {
+      "file": "N02_dates.md",
+      "target": "sources.csv",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "start_here.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "sources.csv",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "N01_transport.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "N02_dates.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "question_card_template.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "migration_template.csv",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "links.csv",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "input_manifest.csv",
+      "exists": true
+    },
+    {
+      "file": "question_card_template.md",
+      "target": "N02_dates.md",
+      "exists": true
+    },
+    {
+      "file": "start_here.md",
+      "target": "N01_transport.md",
+      "exists": true
+    },
+    {
+      "file": "start_here.md",
+      "target": "N02_dates.md",
+      "exists": true
+    },
+    {
+      "file": "start_here.md",
+      "target": "sources.csv",
+      "exists": true
+    },
+    {
+      "file": "start_here.md",
+      "target": "question_card_template.md",
+      "exists": true
+    },
+    {
+      "file": "start_here.md",
+      "target": "migration_template.csv",
+      "exists": true
+    }
+  ]
+}

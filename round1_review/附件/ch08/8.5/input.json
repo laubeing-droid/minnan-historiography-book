@@ -1,0 +1,32 @@
+{
+  "section": "8.5",
+  "title": "实验追踪与结果汇总",
+  "status": "EXECUTED_PASS",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "tracking",
+  "rows": [
+    {
+      "id": "E01",
+      "status": "NOT_RUN",
+      "config": "rules_v1",
+      "metric": "",
+      "error": ""
+    },
+    {
+      "id": "E02",
+      "status": "FAILED",
+      "config": "rules_v2",
+      "metric": "",
+      "error": "教学预置：输入列名缺失"
+    },
+    {
+      "id": "E03",
+      "status": "ILLUSTRATIVE",
+      "config": "rules_v2",
+      "metric": "0.5",
+      "error": "教学计数，非运行结果"
+    }
+  ],
+  "config": {},
+  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
+}

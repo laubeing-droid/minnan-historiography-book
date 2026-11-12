@@ -1,0 +1,157 @@
+{
+  "status": "EXECUTED_BY_READER",
+  "origin": 1915,
+  "frequency": "annual",
+  "seasonal_period": 1,
+  "compatible_models": [
+    "last",
+    "arima"
+  ],
+  "rows": [
+    {
+      "period": 1900,
+      "status_at_origin": "available_observation",
+      "observed_mask": true,
+      "imputed_mask": false,
+      "eligible_target": true,
+      "measure": "registered_items",
+      "boundary_version": "B0"
+    },
+    {
+      "period": 1901,
+      "status_at_origin": "available_observation",
+      "observed_mask": true,
+      "imputed_mask": false,
+      "eligible_target": true,
+      "measure": "registered_items",
+      "boundary_version": "B0"
+    },
+    {
+      "period": 1902,
+      "status_at_origin": "available_observation",
+      "observed_mask": true,
+      "imputed_mask": false,
+      "eligible_target": true,
+      "measure": "registered_items",
+      "boundary_version": "B0"
+    },
+    {
+      "period": 1903,
+      "status_at_origin": "missing_or_imputed_or_unavailable",
+      "observed_mask": false,
+      "imputed_mask": false,
+      "eligible_target": false,
+      "measure": "registered_items",
+      "boundary_version": "B0"
+    },
+    {
+      "period": 1904,
+      "status_at_origin": "available_observation",
+      "observed_mask": true,
+      "imputed_mask": false,
+      "eligible_target": true,
+      "measure": "registered_items",
+      "boundary_version": "B0"
+    },
+    {
+      "period": 1905,
+      "status_at_origin": "available_observation",
+      "observed_mask": true,
+      "imputed_mask": false,
+      "eligible_target": true,
+      "measure": "registered_items",
+      "boundary_version": "B0"
+    },
+    {
+      "period": 1906,
+      "status_at_origin": "available_observation",
+      "observed_mask": true,
+      "imputed_mask": false,
+      "eligible_target": true,
+      "measure": "registered_items",
+      "boundary_version": "B0"
+    },
+    {
+      "period": 1907,
+      "status_at_origin": "missing_or_imputed_or_unavailable",
+      "observed_mask": false,
+      "imputed_mask": false,
+      "eligible_target": false,
+      "measure": "registered_items",
+      "boundary_version": "B0"
+    },
+    {
+      "period": 1908,
+      "status_at_origin": "available_observation",
+      "observed_mask": true,
+      "imputed_mask": false,
+      "eligible_target": true,
+      "measure": "registered_items",
+      "boundary_version": "B0"
+    },
+    {
+      "period": 1909,
+      "status_at_origin": "available_observation",
+      "observed_mask": true,
+      "imputed_mask": false,
+      "eligible_target": true,
+      "measure": "registered_items",
+      "boundary_version": "B0"
+    },
+    {
+      "period": 1910,
+      "status_at_origin": "missing_or_imputed_or_unavailable",
+      "observed_mask": false,
+      "imputed_mask": false,
+      "eligible_target": false,
+      "measure": "registered_items",
+      "boundary_version": "B0"
+    },
+    {
+      "period": 1911,
+      "status_at_origin": "missing_or_imputed_or_unavailable",
+      "observed_mask": false,
+      "imputed_mask": false,
+      "eligible_target": false,
+      "measure": "registered_items",
+      "boundary_version": "B0"
+    },
+    {
+      "period": 1912,
+      "status_at_origin": "available_observation",
+      "observed_mask": true,
+      "imputed_mask": false,
+      "eligible_target": true,
+      "measure": "registered_items",
+      "boundary_version": "B0"
+    },
+    {
+      "period": 1913,
+      "status_at_origin": "available_observation",
+      "observed_mask": true,
+      "imputed_mask": false,
+      "eligible_target": true,
+      "measure": "registered_items",
+      "boundary_version": "B0"
+    },
+    {
+      "period": 1914,
+      "status_at_origin": "available_observation",
+      "observed_mask": true,
+      "imputed_mask": false,
+      "eligible_target": true,
+      "measure": "registered_items",
+      "boundary_version": "B0"
+    },
+    {
+      "period": 1915,
+      "status_at_origin": "available_observation",
+      "observed_mask": true,
+      "imputed_mask": false,
+      "eligible_target": true,
+      "measure": "registered_items",
+      "boundary_version": "B0"
+    }
+  ],
+  "warning": "models.py requires complete contiguous training; missing/unavailable values stop fitting. Establish a separate authorized preprocessing protocol before proceeding."
+}

@@ -1,0 +1,21 @@
+{
+  "execution": "reader_invoked",
+  "input_provenance": "编者新编教学数据 非史实 非模型输出",
+  "section": "9.7",
+  "result": {
+    "中文": {
+      "n": 2,
+      "correct": 2,
+      "accuracy": 1.0,
+      "errors": []
+    },
+    "English": {
+      "n": 2,
+      "correct": 1,
+      "accuracy": 0.5,
+      "errors": [
+        "P02"
+      ]
+    }
+  }
+}

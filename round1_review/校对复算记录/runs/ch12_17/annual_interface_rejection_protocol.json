@@ -1,0 +1,15 @@
+{
+  "seasonal_period": 1,
+  "validation_origins": [
+    1915
+  ],
+  "test_origins": [],
+  "horizon": 1,
+  "validation_score_cutoff": 1916,
+  "test_score_cutoff": 1916,
+  "models": [
+    "last",
+    "arima"
+  ],
+  "purpose": "review interface contract rejection only; not a new forecasting analysis"
+}

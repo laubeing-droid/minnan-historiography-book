@@ -1,0 +1,36 @@
+{
+  "execution": "reader_invoked",
+  "input_provenance": "编者新编教学数据 非史实 非模型输出",
+  "section": "11.8",
+  "result": {
+    "per_class": [
+      {
+        "label": "map",
+        "support": 1,
+        "recall": 1.0,
+        "sources": [
+          "C"
+        ]
+      },
+      {
+        "label": "photo",
+        "support": 3,
+        "recall": 1.0,
+        "sources": [
+          "A",
+          "B"
+        ]
+      },
+      {
+        "label": "seal",
+        "support": 1,
+        "recall": 0.0,
+        "sources": [
+          "B"
+        ]
+      }
+    ],
+    "macro_recall": 0.6666666666666666,
+    "micro_accuracy": 0.8
+  }
+}

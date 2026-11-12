@@ -1,0 +1,26 @@
+{
+  "status": "PREPROCESSING_COMPLETED_BY_THIS_INVOCATION",
+  "statistical_diagnostics": "NOT_RUN",
+  "models": "NOT_RUN",
+  "evaluation": "NOT_RUN",
+  "source_release_status": "NOT_RUN",
+  "executed_at_utc": "2026-10-30T02:36:18.485004+00:00",
+  "python_version": "3.12.14",
+  "input_path": "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch12/data/demo_annual_observations.csv",
+  "input_sha256": "a438f3b9dc8d1590ec8d0cc25bdd8c8ab4bc803559abae8d8049f0a04bcc5d79",
+  "program_sha256": "6b1b8a97f4f1012e34658408a9c86aa3fcd6485264ae61d4db6e61405b670b21",
+  "arguments": {
+    "input": "data/demo_annual_observations.csv",
+    "output": "/workspace/scratch/b06bda80e898/book_review_20261030/runs/ch12_17/ch12_origin1915_ffill1_standard",
+    "series_id": "DEMO_PORT_A",
+    "origin": 1915,
+    "train_start": 1900,
+    "evaluation_end": 1923,
+    "impute": "ffill1",
+    "scale": "standard"
+  },
+  "train_rows": 16,
+  "evaluation_rows": 8,
+  "data_kind": "SYNTHETIC_DEMO",
+  "warning": "This is preprocessing only; no forecast or statistical result is established."
+}

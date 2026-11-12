@@ -1,0 +1,120 @@
+[
+  {
+    "event_id": "T01",
+    "sender": "A",
+    "recipient": "B",
+    "event_year": 1701,
+    "source_id": "X1",
+    "locator": "t01",
+    "identity_status": "confirmed",
+    "event_status": "accepted",
+    "included": false,
+    "all_reasons": [
+      "outside_window"
+    ]
+  },
+  {
+    "event_id": "T02",
+    "sender": "B",
+    "recipient": "C",
+    "event_year": 1701,
+    "source_id": "X1",
+    "locator": "t02",
+    "identity_status": "confirmed",
+    "event_status": "accepted",
+    "included": false,
+    "all_reasons": [
+      "outside_window"
+    ]
+  },
+  {
+    "event_id": "T03",
+    "sender": "C",
+    "recipient": "A",
+    "event_year": 1702,
+    "source_id": "X1",
+    "locator": "t03",
+    "identity_status": "confirmed",
+    "event_status": "accepted",
+    "included": false,
+    "all_reasons": [
+      "outside_window"
+    ]
+  },
+  {
+    "event_id": "T04",
+    "sender": "C",
+    "recipient": "D",
+    "event_year": 1704,
+    "source_id": "X2",
+    "locator": "t04",
+    "identity_status": "confirmed",
+    "event_status": "accepted",
+    "included": true,
+    "all_reasons": []
+  },
+  {
+    "event_id": "T05",
+    "sender": "D",
+    "recipient": "E",
+    "event_year": 1702,
+    "source_id": "X3",
+    "locator": "t05",
+    "identity_status": "confirmed",
+    "event_status": "accepted",
+    "included": false,
+    "all_reasons": [
+      "outside_window"
+    ]
+  },
+  {
+    "event_id": "T06",
+    "sender": "E",
+    "recipient": "F",
+    "event_year": 1703,
+    "source_id": "X3",
+    "locator": "t06",
+    "identity_status": "confirmed",
+    "event_status": "accepted",
+    "included": true,
+    "all_reasons": []
+  },
+  {
+    "event_id": "T07",
+    "sender": "F",
+    "recipient": "D",
+    "event_year": 1703,
+    "source_id": "X3",
+    "locator": "t07",
+    "identity_status": "confirmed",
+    "event_status": "accepted",
+    "included": true,
+    "all_reasons": []
+  },
+  {
+    "event_id": "T08",
+    "sender": "F",
+    "recipient": "G",
+    "event_year": 1705,
+    "source_id": "X4",
+    "locator": "t08",
+    "identity_status": "confirmed",
+    "event_status": "accepted",
+    "included": true,
+    "all_reasons": []
+  },
+  {
+    "event_id": "T09",
+    "sender": "B",
+    "recipient": "A",
+    "event_year": 1702,
+    "source_id": "X1",
+    "locator": "t09",
+    "identity_status": "confirmed",
+    "event_status": "accepted",
+    "included": false,
+    "all_reasons": [
+      "outside_window"
+    ]
+  }
+]

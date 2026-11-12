@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch14/workflow.py", line 191, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch14/workflow.py", line 180, in main
+    result=[reconcile,affine,geometry,boundaries,uncertainty][args.section-1](d)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch14/workflow.py", line 85, in geometry
+    if d['crs']!='LOCAL_TEACHING_METRE' or d['unit']!='metre':raise ValueError('CRS/unit mismatch')
+                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: CRS/unit mismatch

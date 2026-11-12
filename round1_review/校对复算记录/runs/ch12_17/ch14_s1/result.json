@@ -1,0 +1,168 @@
+{
+  "candidates": [
+    {
+      "mention": "M01",
+      "entity": "P001",
+      "retained": true,
+      "checks": [
+        {
+          "name_row": "N1",
+          "time": "pass",
+          "parent": "pass",
+          "retain": true,
+          "source": "F1"
+        }
+      ]
+    },
+    {
+      "mention": "M01",
+      "entity": "P002",
+      "retained": false,
+      "checks": [
+        {
+          "name_row": "N3",
+          "time": "pass",
+          "parent": "conflict",
+          "retain": false,
+          "source": "F3"
+        }
+      ]
+    },
+    {
+      "mention": "M02",
+      "entity": "P001",
+      "retained": true,
+      "checks": [
+        {
+          "name_row": "N1",
+          "time": "pass",
+          "parent": "unknown",
+          "retain": true,
+          "source": "F1"
+        }
+      ]
+    },
+    {
+      "mention": "M02",
+      "entity": "P002",
+      "retained": true,
+      "checks": [
+        {
+          "name_row": "N3",
+          "time": "pass",
+          "parent": "unknown",
+          "retain": true,
+          "source": "F3"
+        }
+      ]
+    },
+    {
+      "mention": "M03",
+      "entity": "P001",
+      "retained": true,
+      "checks": [
+        {
+          "name_row": "N2",
+          "time": "pass",
+          "parent": "pass",
+          "retain": true,
+          "source": "F2"
+        }
+      ]
+    },
+    {
+      "mention": "M04",
+      "entity": "P001",
+      "retained": false,
+      "checks": [
+        {
+          "name_row": "N2",
+          "time": "conflict",
+          "parent": "pass",
+          "retain": false,
+          "source": "F2"
+        }
+      ]
+    },
+    {
+      "mention": "M05",
+      "entity": "P003",
+      "retained": true,
+      "checks": [
+        {
+          "name_row": "N4",
+          "time": "unknown",
+          "parent": "unknown",
+          "retain": true,
+          "source": "F4"
+        }
+      ]
+    },
+    {
+      "mention": "M07",
+      "entity": "P001",
+      "retained": false,
+      "checks": [
+        {
+          "name_row": "N1",
+          "time": "pass",
+          "parent": "conflict",
+          "retain": false,
+          "source": "F1"
+        }
+      ]
+    },
+    {
+      "mention": "M07",
+      "entity": "P002",
+      "retained": true,
+      "checks": [
+        {
+          "name_row": "N3",
+          "time": "pass",
+          "parent": "pass",
+          "retain": true,
+          "source": "F3"
+        }
+      ]
+    }
+  ],
+  "current_decisions": [
+    {
+      "id": "J1",
+      "mention": "M01",
+      "entity": "P001",
+      "status": "confirmed",
+      "supersedes": null,
+      "reason": "F5所记地域与F1相容"
+    },
+    {
+      "id": "J2",
+      "mention": "M03",
+      "entity": "P001",
+      "status": "confirmed",
+      "supersedes": null,
+      "reason": "F7与F2时期地域相容"
+    },
+    {
+      "id": "J3",
+      "mention": "M07",
+      "entity": "P002",
+      "status": "confirmed",
+      "supersedes": "J0",
+      "reason": "F11地域与F3相容"
+    }
+  ],
+  "unresolved": [
+    "M02",
+    "M04",
+    "M05",
+    "M06"
+  ],
+  "summary": {
+    "mentions": 7,
+    "candidate_pairs": 9,
+    "retained_pairs": 6,
+    "confirmed": 3
+  }
+}

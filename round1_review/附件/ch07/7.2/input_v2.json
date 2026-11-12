@@ -1,0 +1,47 @@
+{
+  "section": "7.2",
+  "title": "原始数据 派生数据与版本化",
+  "status": "EXECUTED_PASS",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "derive",
+  "rows": [
+    {
+      "id": "E01",
+      "source_id": "S01",
+      "page": "p1",
+      "entity": "甲书院",
+      "text": "甲书院于某年停讲，次年复课。",
+      "event": "停讲",
+      "year_start": 1901,
+      "year_end": 1901,
+      "date_status": "教学设定"
+    },
+    {
+      "id": "E02",
+      "source_id": "S01",
+      "page": "p1",
+      "entity": "甲书院",
+      "text": "甲书院于某年停讲，次年复课。",
+      "event": "复课",
+      "year_start": 1902,
+      "year_end": 1902,
+      "date_status": "教学设定"
+    },
+    {
+      "id": "E03",
+      "source_id": "S02",
+      "page": "p3",
+      "entity": "乙书院",
+      "text": "乙书院议停，尚未施行。",
+      "event": "议停",
+      "year_start": 1903,
+      "year_end": 1903,
+      "date_status": "教学设定"
+    }
+  ],
+  "config": {
+    "select_event": "复课"
+  },
+  "version": "v2_reopening_question",
+  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
+}

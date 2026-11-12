@@ -1,0 +1,56 @@
+{
+  "section": "10.10",
+  "title": "Model Card与Datasheet for Datasets",
+  "status": "EXECUTED_PASS",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "card",
+  "rows": [
+    {
+      "id": "P01",
+      "source": "A",
+      "a": 1,
+      "b": 1
+    },
+    {
+      "id": "P02",
+      "source": "A",
+      "a": 0,
+      "b": 1
+    },
+    {
+      "id": "P03",
+      "source": "B",
+      "a": 0,
+      "b": 1
+    },
+    {
+      "id": "P04",
+      "source": "B",
+      "a": 1,
+      "b": 0
+    },
+    {
+      "id": "P05",
+      "source": "C",
+      "a": 1,
+      "b": 1
+    },
+    {
+      "id": "P06",
+      "source": "C",
+      "a": 0,
+      "b": 0
+    }
+  ],
+  "config": {
+    "card": {
+      "name": "配对评价教学示例",
+      "unit": "一条材料的一对正确标记",
+      "source": "编者预置 非模型预测",
+      "version": "2026-10-30",
+      "status": "NOT_RUN",
+      "model": "not_applicable"
+    }
+  },
+  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
+}

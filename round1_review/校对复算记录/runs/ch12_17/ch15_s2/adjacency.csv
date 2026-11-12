@@ -1,0 +1,4 @@
+﻿a,b,queen,rook
+P,Q,True,True
+P,R,True,False
+Q,R,True,True

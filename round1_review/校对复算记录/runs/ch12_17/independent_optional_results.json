@@ -1,0 +1,1438 @@
+{
+  "checks": [
+    {
+      "check": "validation/last_o32/success",
+      "pass": true,
+      "actual": "success",
+      "expected": "success"
+    },
+    {
+      "check": "validation/last_o32/training_origin_safe",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "validation/last_o36/success",
+      "pass": true,
+      "actual": "success",
+      "expected": "success"
+    },
+    {
+      "check": "validation/last_o36/training_origin_safe",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "validation/last_o40/success",
+      "pass": true,
+      "actual": "success",
+      "expected": "success"
+    },
+    {
+      "check": "validation/last_o40/training_origin_safe",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "validation/seasonal_o32/success",
+      "pass": true,
+      "actual": "success",
+      "expected": "success"
+    },
+    {
+      "check": "validation/seasonal_o32/training_origin_safe",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "validation/seasonal_o36/success",
+      "pass": true,
+      "actual": "success",
+      "expected": "success"
+    },
+    {
+      "check": "validation/seasonal_o36/training_origin_safe",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "validation/seasonal_o40/success",
+      "pass": true,
+      "actual": "success",
+      "expected": "success"
+    },
+    {
+      "check": "validation/seasonal_o40/training_origin_safe",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "validation/arima_o32/success",
+      "pass": true,
+      "actual": "success",
+      "expected": "success"
+    },
+    {
+      "check": "validation/arima_o32/training_origin_safe",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "validation/arima_o32/LB_Q",
+      "pass": true,
+      "actual": 82.31316772515841,
+      "expected": 82.3131677251584
+    },
+    {
+      "check": "validation/arima_o32/LB_p",
+      "pass": true,
+      "actual": 2.7521720766262567e-16,
+      "expected": 2.752172076626276e-16
+    },
+    {
+      "check": "validation/arima_o32/state_mean_h1",
+      "pass": true,
+      "actual": 110.0441843268603,
+      "expected": 110.0441843268603
+    },
+    {
+      "check": "validation/arima_o32/lower95_h1",
+      "pass": true,
+      "actual": 102.77084187809862,
+      "expected": 102.77084187809862
+    },
+    {
+      "check": "validation/arima_o32/upper95_h1",
+      "pass": true,
+      "actual": 117.31752677562199,
+      "expected": 117.31752677562199
+    },
+    {
+      "check": "validation/arima_o32/state_mean_h2",
+      "pass": true,
+      "actual": 110.04353357528026,
+      "expected": 110.04353357528026
+    },
+    {
+      "check": "validation/arima_o32/lower95_h2",
+      "pass": true,
+      "actual": 99.83294017509998,
+      "expected": 99.83294017509998
+    },
+    {
+      "check": "validation/arima_o32/upper95_h2",
+      "pass": true,
+      "actual": 120.25412697546055,
+      "expected": 120.25412697546055
+    },
+    {
+      "check": "validation/arima_o32/state_mean_h3",
+      "pass": true,
+      "actual": 110.04354315962044,
+      "expected": 110.04354315962044
+    },
+    {
+      "check": "validation/arima_o32/lower95_h3",
+      "pass": true,
+      "actual": 97.56822593893386,
+      "expected": 97.56822593893386
+    },
+    {
+      "check": "validation/arima_o32/upper95_h3",
+      "pass": true,
+      "actual": 122.51886038030702,
+      "expected": 122.51886038030702
+    },
+    {
+      "check": "validation/arima_o32/state_mean_h4",
+      "pass": true,
+      "actual": 110.04354301846124,
+      "expected": 110.04354301846124
+    },
+    {
+      "check": "validation/arima_o32/lower95_h4",
+      "pass": true,
+      "actual": 95.65568255145965,
+      "expected": 95.65568255145965
+    },
+    {
+      "check": "validation/arima_o32/upper95_h4",
+      "pass": true,
+      "actual": 124.43140348546282,
+      "expected": 124.43140348546282
+    },
+    {
+      "check": "validation/arima_o36/success",
+      "pass": true,
+      "actual": "success",
+      "expected": "success"
+    },
+    {
+      "check": "validation/arima_o36/training_origin_safe",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "validation/arima_o36/LB_Q",
+      "pass": true,
+      "actual": 92.58810817801657,
+      "expected": 92.58810817801657
+    },
+    {
+      "check": "validation/arima_o36/LB_p",
+      "pass": true,
+      "actual": 8.780615859149895e-18,
+      "expected": 8.780615859149895e-18
+    },
+    {
+      "check": "validation/arima_o36/state_mean_h1",
+      "pass": true,
+      "actual": 111.02603760249632,
+      "expected": 111.02603760249632
+    },
+    {
+      "check": "validation/arima_o36/lower95_h1",
+      "pass": true,
+      "actual": 103.72254383415255,
+      "expected": 103.72254383415255
+    },
+    {
+      "check": "validation/arima_o36/upper95_h1",
+      "pass": true,
+      "actual": 118.32953137084009,
+      "expected": 118.32953137084009
+    },
+    {
+      "check": "validation/arima_o36/state_mean_h2",
+      "pass": true,
+      "actual": 111.02586811331038,
+      "expected": 111.02586811331038
+    },
+    {
+      "check": "validation/arima_o36/lower95_h2",
+      "pass": true,
+      "actual": 100.73073011149872,
+      "expected": 100.73073011149872
+    },
+    {
+      "check": "validation/arima_o36/upper95_h2",
+      "pass": true,
+      "actual": 121.32100611512205,
+      "expected": 121.32100611512205
+    },
+    {
+      "check": "validation/arima_o36/state_mean_h3",
+      "pass": true,
+      "actual": 111.02586921658339,
+      "expected": 111.02586921658339
+    },
+    {
+      "check": "validation/arima_o36/lower95_h3",
+      "pass": true,
+      "actual": 98.43050488034827,
+      "expected": 98.43050488034827
+    },
+    {
+      "check": "validation/arima_o36/upper95_h3",
+      "pass": true,
+      "actual": 123.62123355281851,
+      "expected": 123.62123355281851
+    },
+    {
+      "check": "validation/arima_o36/state_mean_h4",
+      "pass": true,
+      "actual": 111.02586920940175,
+      "expected": 111.02586920940175
+    },
+    {
+      "check": "validation/arima_o36/lower95_h4",
+      "pass": true,
+      "actual": 96.48982745746318,
+      "expected": 96.48982745746318
+    },
+    {
+      "check": "validation/arima_o36/upper95_h4",
+      "pass": true,
+      "actual": 125.56191096134032,
+      "expected": 125.56191096134032
+    },
+    {
+      "check": "validation/arima_o40/success",
+      "pass": true,
+      "actual": "success",
+      "expected": "success"
+    },
+    {
+      "check": "validation/arima_o40/training_origin_safe",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "validation/arima_o40/LB_Q",
+      "pass": true,
+      "actual": 105.4247343249166,
+      "expected": 105.4247343249166
+    },
+    {
+      "check": "validation/arima_o40/LB_p",
+      "pass": true,
+      "actual": 1.847476450360997e-20,
+      "expected": 1.847476450360997e-20
+    },
+    {
+      "check": "validation/arima_o40/state_mean_h1",
+      "pass": true,
+      "actual": 113.03484572228476,
+      "expected": 113.03484572228476
+    },
+    {
+      "check": "validation/arima_o40/lower95_h1",
+      "pass": true,
+      "actual": 105.76929469592925,
+      "expected": 105.76929469592925
+    },
+    {
+      "check": "validation/arima_o40/upper95_h1",
+      "pass": true,
+      "actual": 120.30039674864027,
+      "expected": 120.30039674864027
+    },
+    {
+      "check": "validation/arima_o40/state_mean_h2",
+      "pass": true,
+      "actual": 113.03444098083091,
+      "expected": 113.03444098083091
+    },
+    {
+      "check": "validation/arima_o40/lower95_h2",
+      "pass": true,
+      "actual": 102.81889942624349,
+      "expected": 102.81889942624349
+    },
+    {
+      "check": "validation/arima_o40/upper95_h2",
+      "pass": true,
+      "actual": 123.24998253541833,
+      "expected": 123.24998253541833
+    },
+    {
+      "check": "validation/arima_o40/state_mean_h3",
+      "pass": true,
+      "actual": 113.03444568200034,
+      "expected": 113.03444568200034
+    },
+    {
+      "check": "validation/arima_o40/lower95_h3",
+      "pass": true,
+      "actual": 100.54683478036056,
+      "expected": 100.54683478036056
+    },
+    {
+      "check": "validation/arima_o40/upper95_h3",
+      "pass": true,
+      "actual": 125.52205658364012,
+      "expected": 125.52205658364012
+    },
+    {
+      "check": "validation/arima_o40/state_mean_h4",
+      "pass": true,
+      "actual": 113.03444562739513,
+      "expected": 113.03444562739513
+    },
+    {
+      "check": "validation/arima_o40/lower95_h4",
+      "pass": true,
+      "actual": 98.62877315912047,
+      "expected": 98.62877315912047
+    },
+    {
+      "check": "validation/arima_o40/upper95_h4",
+      "pass": true,
+      "actual": 127.44011809566979,
+      "expected": 127.44011809566979
+    },
+    {
+      "check": "validation/sarima_o32/success",
+      "pass": true,
+      "actual": "success",
+      "expected": "success"
+    },
+    {
+      "check": "validation/sarima_o32/training_origin_safe",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "validation/sarima_o32/LB_Q",
+      "pass": true,
+      "actual": 38.22594474126949,
+      "expected": 38.22594474126946
+    },
+    {
+      "check": "validation/sarima_o32/LB_p",
+      "pass": true,
+      "actual": 2.5316659964262507e-08,
+      "expected": 2.5316659964262848e-08
+    },
+    {
+      "check": "validation/sarima_o32/state_mean_h1",
+      "pass": true,
+      "actual": 113.55207236793767,
+      "expected": 113.55207236793767
+    },
+    {
+      "check": "validation/sarima_o32/lower95_h1",
+      "pass": true,
+      "actual": 112.58842602573883,
+      "expected": 112.58842602573883
+    },
+    {
+      "check": "validation/sarima_o32/upper95_h1",
+      "pass": true,
+      "actual": 114.51571871013651,
+      "expected": 114.51571871013651
+    },
+    {
+      "check": "validation/sarima_o32/state_mean_h2",
+      "pass": true,
+      "actual": 118.03472221149698,
+      "expected": 118.03472221149698
+    },
+    {
+      "check": "validation/sarima_o32/lower95_h2",
+      "pass": true,
+      "actual": 116.6780326123164,
+      "expected": 116.6780326123164
+    },
+    {
+      "check": "validation/sarima_o32/upper95_h2",
+      "pass": true,
+      "actual": 119.39141181067757,
+      "expected": 119.39141181067757
+    },
+    {
+      "check": "validation/sarima_o32/state_mean_h3",
+      "pass": true,
+      "actual": 115.01769261547831,
+      "expected": 115.01769261547831
+    },
+    {
+      "check": "validation/sarima_o32/lower95_h3",
+      "pass": true,
+      "actual": 113.35926258949507,
+      "expected": 113.35926258949507
+    },
+    {
+      "check": "validation/sarima_o32/upper95_h3",
+      "pass": true,
+      "actual": 116.67612264146155,
+      "expected": 116.67612264146155
+    },
+    {
+      "check": "validation/sarima_o32/state_mean_h4",
+      "pass": true,
+      "actual": 111.50098350036056,
+      "expected": 111.50098350036056
+    },
+    {
+      "check": "validation/sarima_o32/lower95_h4",
+      "pass": true,
+      "actual": 109.58840285729839,
+      "expected": 109.58840285729839
+    },
+    {
+      "check": "validation/sarima_o32/upper95_h4",
+      "pass": true,
+      "actual": 113.41356414342273,
+      "expected": 113.41356414342273
+    },
+    {
+      "check": "validation/sarima_o36/success",
+      "pass": true,
+      "actual": "success",
+      "expected": "success"
+    },
+    {
+      "check": "validation/sarima_o36/training_origin_safe",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "validation/sarima_o36/LB_Q",
+      "pass": true,
+      "actual": 45.496501427564475,
+      "expected": 45.49650142756447
+    },
+    {
+      "check": "validation/sarima_o36/LB_p",
+      "pass": true,
+      "actual": 3.1346702864751553e-09,
+      "expected": 3.1346702864751672e-09
+    },
+    {
+      "check": "validation/sarima_o36/state_mean_h1",
+      "pass": true,
+      "actual": 114.48219968679153,
+      "expected": 114.48219968679153
+    },
+    {
+      "check": "validation/sarima_o36/lower95_h1",
+      "pass": true,
+      "actual": 113.5330169594956,
+      "expected": 113.5330169594956
+    },
+    {
+      "check": "validation/sarima_o36/upper95_h1",
+      "pass": true,
+      "actual": 115.43138241408747,
+      "expected": 115.43138241408747
+    },
+    {
+      "check": "validation/sarima_o36/state_mean_h2",
+      "pass": true,
+      "actual": 119.02233472811383,
+      "expected": 119.02233472811383
+    },
+    {
+      "check": "validation/sarima_o36/lower95_h2",
+      "pass": true,
+      "actual": 117.68479216875114,
+      "expected": 117.68479216875114
+    },
+    {
+      "check": "validation/sarima_o36/upper95_h2",
+      "pass": true,
+      "actual": 120.35987728747652,
+      "expected": 120.35987728747652
+    },
+    {
+      "check": "validation/sarima_o36/state_mean_h3",
+      "pass": true,
+      "actual": 116.00679369663901,
+      "expected": 116.00679369663901
+    },
+    {
+      "check": "validation/sarima_o36/lower95_h3",
+      "pass": true,
+      "actual": 114.37117712157604,
+      "expected": 114.37117712157604
+    },
+    {
+      "check": "validation/sarima_o36/upper95_h3",
+      "pass": true,
+      "actual": 117.64241027170198,
+      "expected": 117.64241027170198
+    },
+    {
+      "check": "validation/sarima_o36/state_mean_h4",
+      "pass": true,
+      "actual": 112.43557652288442,
+      "expected": 112.43557652288442
+    },
+    {
+      "check": "validation/sarima_o36/lower95_h4",
+      "pass": true,
+      "actual": 110.54888304105428,
+      "expected": 110.54888304105428
+    },
+    {
+      "check": "validation/sarima_o36/upper95_h4",
+      "pass": true,
+      "actual": 114.32227000471455,
+      "expected": 114.32227000471455
+    },
+    {
+      "check": "validation/sarima_o40/success",
+      "pass": true,
+      "actual": "success",
+      "expected": "success"
+    },
+    {
+      "check": "validation/sarima_o40/training_origin_safe",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "validation/sarima_o40/LB_Q",
+      "pass": true,
+      "actual": 60.38520492755131,
+      "expected": 60.38520492755133
+    },
+    {
+      "check": "validation/sarima_o40/LB_p",
+      "pass": true,
+      "actual": 1.0118735051391759e-11,
+      "expected": 1.0118735051391683e-11
+    },
+    {
+      "check": "validation/sarima_o40/state_mean_h1",
+      "pass": true,
+      "actual": 116.53990122618926,
+      "expected": 116.53990122618926
+    },
+    {
+      "check": "validation/sarima_o40/lower95_h1",
+      "pass": true,
+      "actual": 115.60250576027414,
+      "expected": 115.60250576027414
+    },
+    {
+      "check": "validation/sarima_o40/upper95_h1",
+      "pass": true,
+      "actual": 117.47729669210437,
+      "expected": 117.47729669210437
+    },
+    {
+      "check": "validation/sarima_o40/state_mean_h2",
+      "pass": true,
+      "actual": 121.02567435446853,
+      "expected": 121.02567435446853
+    },
+    {
+      "check": "validation/sarima_o40/lower95_h2",
+      "pass": true,
+      "actual": 119.70385045559802,
+      "expected": 119.70385045559802
+    },
+    {
+      "check": "validation/sarima_o40/upper95_h2",
+      "pass": true,
+      "actual": 122.34749825333905,
+      "expected": 122.34749825333905
+    },
+    {
+      "check": "validation/sarima_o40/state_mean_h3",
+      "pass": true,
+      "actual": 118.01155195095394,
+      "expected": 118.01155195095394
+    },
+    {
+      "check": "validation/sarima_o40/lower95_h3",
+      "pass": true,
+      "actual": 116.39467599523498,
+      "expected": 116.39467599523498
+    },
+    {
+      "check": "validation/sarima_o40/upper95_h3",
+      "pass": true,
+      "actual": 119.62842790667291,
+      "expected": 119.62842790667291
+    },
+    {
+      "check": "validation/sarima_o40/state_mean_h4",
+      "pass": true,
+      "actual": 114.49753395377816,
+      "expected": 114.49753395377816
+    },
+    {
+      "check": "validation/sarima_o40/lower95_h4",
+      "pass": true,
+      "actual": 112.6320799698587,
+      "expected": 112.6320799698587
+    },
+    {
+      "check": "validation/sarima_o40/upper95_h4",
+      "pass": true,
+      "actual": 116.36298793769762,
+      "expected": 116.36298793769762
+    },
+    {
+      "check": "validation/holt_winters_o32/success",
+      "pass": true,
+      "actual": "success",
+      "expected": "success"
+    },
+    {
+      "check": "validation/holt_winters_o32/training_origin_safe",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "validation/holt_winters_o32/HW_recurrence_h1",
+      "pass": true,
+      "actual": 113.07571644102835,
+      "expected": 113.07571644102835
+    },
+    {
+      "check": "validation/holt_winters_o32/HW_recurrence_h2",
+      "pass": true,
+      "actual": 117.54282282697443,
+      "expected": 117.54282282697443
+    },
+    {
+      "check": "validation/holt_winters_o32/HW_recurrence_h3",
+      "pass": true,
+      "actual": 114.51010261163832,
+      "expected": 114.51010261163832
+    },
+    {
+      "check": "validation/holt_winters_o32/HW_recurrence_h4",
+      "pass": true,
+      "actual": 110.97755074605288,
+      "expected": 110.97755074605288
+    },
+    {
+      "check": "validation/holt_winters_o36/success",
+      "pass": true,
+      "actual": "success",
+      "expected": "success"
+    },
+    {
+      "check": "validation/holt_winters_o36/training_origin_safe",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "validation/holt_winters_o36/HW_recurrence_h1",
+      "pass": true,
+      "actual": 114.50358073095451,
+      "expected": 114.50358073095451
+    },
+    {
+      "check": "validation/holt_winters_o36/HW_recurrence_h2",
+      "pass": true,
+      "actual": 119.0227314330147,
+      "expected": 119.0227314330147
+    },
+    {
+      "check": "validation/holt_winters_o36/HW_recurrence_h3",
+      "pass": true,
+      "actual": 115.9865032299298,
+      "expected": 115.9865032299298
+    },
+    {
+      "check": "validation/holt_winters_o36/HW_recurrence_h4",
+      "pass": true,
+      "actual": 112.3949054892972,
+      "expected": 112.3949054892972
+    },
+    {
+      "check": "validation/holt_winters_o40/success",
+      "pass": true,
+      "actual": "success",
+      "expected": "success"
+    },
+    {
+      "check": "validation/holt_winters_o40/training_origin_safe",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "validation/holt_winters_o40/HW_recurrence_h1",
+      "pass": true,
+      "actual": 116.16071645121959,
+      "expected": 116.16071645121959
+    },
+    {
+      "check": "validation/holt_winters_o40/HW_recurrence_h2",
+      "pass": true,
+      "actual": 120.64611804368955,
+      "expected": 120.64611804368955
+    },
+    {
+      "check": "validation/holt_winters_o40/HW_recurrence_h3",
+      "pass": true,
+      "actual": 117.63035057120686,
+      "expected": 117.63035057120686
+    },
+    {
+      "check": "validation/holt_winters_o40/HW_recurrence_h4",
+      "pass": true,
+      "actual": 114.11341965905427,
+      "expected": 114.11341965905427
+    },
+    {
+      "check": "validation/arima/MAE",
+      "pass": true,
+      "actual": 4.381947813789566,
+      "expected": 4.381947813789566
+    },
+    {
+      "check": "validation/arima/RMSE",
+      "pass": true,
+      "actual": 5.0280305940078325,
+      "expected": 5.0280305940078325
+    },
+    {
+      "check": "validation/arima/all_planned",
+      "pass": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "validation/arima/scored",
+      "pass": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "validation/holt_winters/MAE",
+      "pass": true,
+      "actual": 0.2650541445477792,
+      "expected": 0.2650541445477792
+    },
+    {
+      "check": "validation/holt_winters/RMSE",
+      "pass": true,
+      "actual": 0.3377726850853723,
+      "expected": 0.3377726850853723
+    },
+    {
+      "check": "validation/holt_winters/all_planned",
+      "pass": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "validation/holt_winters/scored",
+      "pass": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "validation/last/MAE",
+      "pass": true,
+      "actual": 4.416666666666667,
+      "expected": 4.416666666666667
+    },
+    {
+      "check": "validation/last/RMSE",
+      "pass": true,
+      "actual": 5.057996968497839,
+      "expected": 5.057996968497839
+    },
+    {
+      "check": "validation/last/all_planned",
+      "pass": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "validation/last/scored",
+      "pass": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "validation/sarima/MAE",
+      "pass": true,
+      "actual": 0.2742903663116927,
+      "expected": 0.2742903663116927
+    },
+    {
+      "check": "validation/sarima/RMSE",
+      "pass": true,
+      "actual": 0.37464972943743446,
+      "expected": 0.37464972943743446
+    },
+    {
+      "check": "validation/sarima/all_planned",
+      "pass": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "validation/sarima/scored",
+      "pass": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "validation/seasonal/MAE",
+      "pass": true,
+      "actual": 1.5,
+      "expected": 1.5
+    },
+    {
+      "check": "validation/seasonal/RMSE",
+      "pass": true,
+      "actual": 1.5811388300841898,
+      "expected": 1.5811388300841898
+    },
+    {
+      "check": "validation/seasonal/all_planned",
+      "pass": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "validation/seasonal/scored",
+      "pass": true,
+      "actual": 12,
+      "expected": 12
+    },
+    {
+      "check": "test/holt_winters_o44/success",
+      "pass": true,
+      "actual": "success",
+      "expected": "success"
+    },
+    {
+      "check": "test/holt_winters_o44/training_origin_safe",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "test/holt_winters_o44/HW_recurrence_h1",
+      "pass": true,
+      "actual": 117.6504438007828,
+      "expected": 117.6504438007828
+    },
+    {
+      "check": "test/holt_winters_o44/HW_recurrence_h2",
+      "pass": true,
+      "actual": 122.18214232869087,
+      "expected": 122.18214232869087
+    },
+    {
+      "check": "test/holt_winters_o44/HW_recurrence_h3",
+      "pass": true,
+      "actual": 119.16711083950665,
+      "expected": 119.16711083950665
+    },
+    {
+      "check": "test/holt_winters_o44/HW_recurrence_h4",
+      "pass": true,
+      "actual": 115.60536335429018,
+      "expected": 115.60536335429018
+    },
+    {
+      "check": "test/holt_winters_o48/success",
+      "pass": true,
+      "actual": "success",
+      "expected": "success"
+    },
+    {
+      "check": "test/holt_winters_o48/training_origin_safe",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "test/holt_winters_o48/HW_recurrence_h1",
+      "pass": true,
+      "actual": 119.17460923689728,
+      "expected": 119.17460923689728
+    },
+    {
+      "check": "test/holt_winters_o48/HW_recurrence_h2",
+      "pass": true,
+      "actual": 123.66102796998138,
+      "expected": 123.66102796998138
+    },
+    {
+      "check": "test/holt_winters_o48/HW_recurrence_h3",
+      "pass": true,
+      "actual": 120.64612801794271,
+      "expected": 120.64612801794271
+    },
+    {
+      "check": "test/holt_winters_o48/HW_recurrence_h4",
+      "pass": true,
+      "actual": 117.12991319513232,
+      "expected": 117.12991319513232
+    },
+    {
+      "check": "test/holt_winters_o52/success",
+      "pass": true,
+      "actual": "success",
+      "expected": "success"
+    },
+    {
+      "check": "test/holt_winters_o52/training_origin_safe",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "test/holt_winters_o52/HW_recurrence_h1",
+      "pass": true,
+      "actual": 120.65911046892555,
+      "expected": 120.65911046892555
+    },
+    {
+      "check": "test/holt_winters_o52/HW_recurrence_h2",
+      "pass": true,
+      "actual": 125.18389184324573,
+      "expected": 125.18389184324573
+    },
+    {
+      "check": "test/holt_winters_o52/HW_recurrence_h3",
+      "pass": true,
+      "actual": 122.16885574070648,
+      "expected": 122.16885574070648
+    },
+    {
+      "check": "test/holt_winters_o52/HW_recurrence_h4",
+      "pass": true,
+      "actual": 118.61400880950222,
+      "expected": 118.61400880950222
+    },
+    {
+      "check": "test/holt_winters_o56/success",
+      "pass": true,
+      "actual": "success",
+      "expected": "success"
+    },
+    {
+      "check": "test/holt_winters_o56/training_origin_safe",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "test/holt_winters_o56/HW_recurrence_h1",
+      "pass": true,
+      "actual": 122.1761765773252,
+      "expected": 122.1761765773252
+    },
+    {
+      "check": "test/holt_winters_o56/HW_recurrence_h2",
+      "pass": true,
+      "actual": 126.66245008682058,
+      "expected": 126.66245008682058
+    },
+    {
+      "check": "test/holt_winters_o56/HW_recurrence_h3",
+      "pass": true,
+      "actual": 123.64734802748913,
+      "expected": 123.64734802748913
+    },
+    {
+      "check": "test/holt_winters_o56/HW_recurrence_h4",
+      "pass": true,
+      "actual": 120.13086743107597,
+      "expected": 120.13086743107597
+    },
+    {
+      "check": "test/holt_winters/MAE",
+      "pass": true,
+      "actual": 0.26048041605287153,
+      "expected": 0.26048041605287153
+    },
+    {
+      "check": "test/holt_winters/RMSE",
+      "pass": true,
+      "actual": 0.2784458981412329,
+      "expected": 0.2784458981412329
+    },
+    {
+      "check": "test/holt_winters/all_planned",
+      "pass": true,
+      "actual": 16,
+      "expected": 16
+    },
+    {
+      "check": "test/holt_winters/scored",
+      "pass": true,
+      "actual": 16,
+      "expected": 16
+    },
+    {
+      "check": "Optuna/budget",
+      "pass": true,
+      "actual": 8,
+      "expected": 8
+    },
+    {
+      "check": "Optuna/no_test",
+      "pass": true,
+      "actual": "NOT_EVALUATED",
+      "expected": "NOT_EVALUATED"
+    },
+    {
+      "check": "Optuna/trial_0",
+      "pass": true,
+      "actual": 1.6111111111111114,
+      "expected": 1.6111111111111114
+    },
+    {
+      "check": "Optuna/trial_1",
+      "pass": true,
+      "actual": 1.654163029335115,
+      "expected": 1.654163029335118
+    },
+    {
+      "check": "Optuna/trial_2",
+      "pass": true,
+      "actual": 1.654163029335115,
+      "expected": 1.654163029335118
+    },
+    {
+      "check": "Optuna/trial_3",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "Optuna/trial_4",
+      "pass": true,
+      "actual": 1.7000248598452696,
+      "expected": 1.7000248598452703
+    },
+    {
+      "check": "Optuna/trial_5",
+      "pass": true,
+      "actual": 1.6666666666666667,
+      "expected": 1.6666666666666667
+    },
+    {
+      "check": "Optuna/trial_6",
+      "pass": true,
+      "actual": 1.5,
+      "expected": 1.5
+    },
+    {
+      "check": "Optuna/trial_7",
+      "pass": true,
+      "actual": 1.7000248598452696,
+      "expected": 1.7000248598452703
+    },
+    {
+      "check": "Optuna/selection",
+      "pass": true,
+      "actual": {
+        "number": 3,
+        "params": {
+          "candidate": "C1"
+        },
+        "state": "COMPLETE",
+        "value": 1.0
+      },
+      "expected": {
+        "number": 3,
+        "params": {
+          "candidate": "C1"
+        },
+        "state": "COMPLETE",
+        "value": 1.0
+      }
+    }
+  ],
+  "metrics": [
+    {
+      "phase": "validation",
+      "candidate": "arima",
+      "planned": 12,
+      "predicted": 12,
+      "scored": 12,
+      "MAE": 4.381947813789566,
+      "RMSE": 5.0280305940078325,
+      "interval_denominator": 12,
+      "interval_hits": 12,
+      "empirical_95_coverage": 1.0,
+      "mean_interval_width": 22.24192122430277,
+      "interpretation": "conditional intervals; not historical uncertainty; small overlapping sample"
+    },
+    {
+      "phase": "validation",
+      "candidate": "holt_winters",
+      "planned": 12,
+      "predicted": 12,
+      "scored": 12,
+      "MAE": 0.2650541445477792,
+      "RMSE": 0.3377726850853723,
+      "interval_denominator": 0,
+      "interval_hits": 0,
+      "empirical_95_coverage": null,
+      "mean_interval_width": null,
+      "interpretation": "conditional intervals; not historical uncertainty; small overlapping sample"
+    },
+    {
+      "phase": "validation",
+      "candidate": "last",
+      "planned": 12,
+      "predicted": 12,
+      "scored": 12,
+      "MAE": 4.416666666666667,
+      "RMSE": 5.057996968497839,
+      "interval_denominator": 0,
+      "interval_hits": 0,
+      "empirical_95_coverage": null,
+      "mean_interval_width": null,
+      "interpretation": "conditional intervals; not historical uncertainty; small overlapping sample"
+    },
+    {
+      "phase": "validation",
+      "candidate": "sarima",
+      "planned": 12,
+      "predicted": 12,
+      "scored": 12,
+      "MAE": 0.2742903663116927,
+      "RMSE": 0.37464972943743446,
+      "interval_denominator": 12,
+      "interval_hits": 12,
+      "empirical_95_coverage": 1.0,
+      "mean_interval_width": 2.9069885430667717,
+      "interpretation": "conditional intervals; not historical uncertainty; small overlapping sample"
+    },
+    {
+      "phase": "validation",
+      "candidate": "seasonal",
+      "planned": 12,
+      "predicted": 12,
+      "scored": 12,
+      "MAE": 1.5,
+      "RMSE": 1.5811388300841898,
+      "interval_denominator": 0,
+      "interval_hits": 0,
+      "empirical_95_coverage": null,
+      "mean_interval_width": null,
+      "interpretation": "conditional intervals; not historical uncertainty; small overlapping sample"
+    },
+    {
+      "phase": "test",
+      "candidate": "holt_winters",
+      "planned": 16,
+      "predicted": 16,
+      "scored": 16,
+      "MAE": 0.26048041605287153,
+      "RMSE": 0.2784458981412329,
+      "interval_denominator": 0,
+      "interval_hits": 0,
+      "empirical_95_coverage": null,
+      "mean_interval_width": null,
+      "interpretation": "conditional intervals; not historical uncertainty; small overlapping sample"
+    }
+  ],
+  "refit_details": [
+    {
+      "phase": "validation",
+      "fit_id": "arima_o32",
+      "method": "same-library optimizer refit plus independent forecast recursion",
+      "warnings": [],
+      "parameters": {
+        "ar.L1": -0.014728108953435952,
+        "sigma2": 13.771203297032752
+      },
+      "mle_retvals": {
+        "fopt": "2.644913737326219",
+        "gopt": "[ 1.54987134e-08 -4.40980585e-08]",
+        "fcalls": "21",
+        "warnflag": "0",
+        "converged": true,
+        "iterations": "4"
+      }
+    },
+    {
+      "phase": "validation",
+      "fit_id": "arima_o36",
+      "method": "same-library optimizer refit plus independent forecast recursion",
+      "warnings": [],
+      "parameters": {
+        "ar.L1": -0.006509400624080167,
+        "sigma2": 13.885615781402034
+      },
+      "mle_retvals": {
+        "fopt": "2.658394599474233",
+        "gopt": "[-7.23621163e-06  9.68181091e-06]",
+        "fcalls": "18",
+        "warnflag": "0",
+        "converged": true,
+        "iterations": "3"
+      }
+    },
+    {
+      "phase": "validation",
+      "fit_id": "arima_o40",
+      "method": "same-library optimizer refit plus independent forecast recursion",
+      "warnings": [],
+      "parameters": {
+        "ar.L1": -0.011615240761585155,
+        "sigma2": 13.741714848589002
+      },
+      "mle_retvals": {
+        "fopt": "2.66093082740944",
+        "gopt": "[ 3.24185123e-09 -1.83408844e-08]",
+        "fcalls": "21",
+        "warnflag": "0",
+        "converged": true,
+        "iterations": "4"
+      }
+    },
+    {
+      "phase": "validation",
+      "fit_id": "sarima_o32",
+      "method": "same-library optimizer refit plus independent forecast recursion",
+      "warnings": [
+        "Non-invertible starting seasonal moving average Using zeros as starting parameters."
+      ],
+      "parameters": {
+        "ar.L1": 0.9999855851792435,
+        "ma.S.L4": -0.9823154600578551,
+        "sigma2": 0.2154855846563967
+      },
+      "mle_retvals": {
+        "fopt": "0.7285741541401426",
+        "gopt": "[-7.87758747e-07 -1.33855149e-06 -4.38018510e-06]",
+        "fcalls": "272",
+        "warnflag": "0",
+        "converged": true,
+        "iterations": "41"
+      }
+    },
+    {
+      "phase": "validation",
+      "fit_id": "sarima_o36",
+      "method": "same-library optimizer refit plus independent forecast recursion",
+      "warnings": [
+        "Non-invertible starting seasonal moving average Using zeros as starting parameters."
+      ],
+      "parameters": {
+        "ar.L1": 0.9999838771031379,
+        "ma.S.L4": -0.9819428978694814,
+        "sigma2": 0.21237986870498402
+      },
+      "mle_retvals": {
+        "fopt": "0.7168315134832626",
+        "gopt": "[1.06195053e-06 9.43661926e-05 6.02495813e-03]",
+        "fcalls": "224",
+        "warnflag": "0",
+        "converged": true,
+        "iterations": "33"
+      }
+    },
+    {
+      "phase": "validation",
+      "fit_id": "sarima_o40",
+      "method": "same-library optimizer refit plus independent forecast recursion",
+      "warnings": [
+        "Non-invertible starting seasonal moving average Using zeros as starting parameters."
+      ],
+      "parameters": {
+        "ar.L1": 0.9999961399697358,
+        "ma.S.L4": -0.9909899071787526,
+        "sigma2": 0.20789646013171714
+      },
+      "mle_retvals": {
+        "fopt": "0.7115036195265676",
+        "gopt": "[ 4.97324405e-06 -3.91379174e-04 -6.51145778e-03]",
+        "fcalls": "252",
+        "warnflag": "0",
+        "converged": true,
+        "iterations": "34"
+      }
+    },
+    {
+      "phase": "validation",
+      "fit_id": "holt_winters_o32",
+      "method": "same-library optimizer refit plus independent forecast recursion",
+      "warnings": [],
+      "level": 113.34759201336186,
+      "trend": 0.34746735827310443,
+      "phi": 0.995,
+      "seasonal_tail": [
+        -0.6176055938152488,
+        3.505499420756497,
+        0.13049784090293393,
+        -3.742623982377383
+      ]
+    },
+    {
+      "phase": "validation",
+      "fit_id": "holt_winters_o36",
+      "method": "same-library optimizer refit plus independent forecast recursion",
+      "warnings": [],
+      "level": 114.81570804750379,
+      "trend": 0.34390328266954523,
+      "phi": 0.995,
+      "seasonal_tail": [
+        -0.6543110828054765,
+        3.5243667718297833,
+        0.14936808555710115,
+        -3.779306285847348
+      ]
+    },
+    {
+      "phase": "validation",
+      "fit_id": "holt_winters_o40",
+      "method": "same-library optimizer refit plus independent forecast recursion",
+      "warnings": [],
+      "level": 116.39866567936528,
+      "trend": 0.3646275715686078,
+      "phi": 0.995,
+      "seasonal_tail": [
+        -0.6007536618564608,
+        3.523657519071299,
+        0.14870458710410078,
+        -3.72561585723556
+      ]
+    },
+    {
+      "phase": "test",
+      "fit_id": "holt_winters_o44",
+      "method": "same-library optimizer refit plus independent forecast recursion",
+      "warnings": [],
+      "level": 117.90813713186941,
+      "trend": 0.36542300582671183,
+      "phi": 0.995,
+      "seasonal_tail": [
+        -0.621289221884199,
+        3.548631394680302,
+        0.1736308837091977,
+        -3.7462857781852157
+      ]
+    },
+    {
+      "phase": "test",
+      "fit_id": "holt_winters_o48",
+      "method": "same-library optimizer refit plus independent forecast recursion",
+      "warnings": [],
+      "level": 119.40887187307786,
+      "trend": 0.3655108905468796,
+      "phi": 0.995,
+      "seasonal_tail": [
+        -0.5979459722747089,
+        3.526607841395698,
+        0.15165229454042017,
+        -3.722817845112489
+      ]
+    },
+    {
+      "phase": "test",
+      "fit_id": "holt_winters_o52",
+      "method": "same-library optimizer refit plus independent forecast recursion",
+      "warnings": [],
+      "level": 120.91230780871004,
+      "trend": 0.3654167459103312,
+      "phi": 0.995,
+      "seasonal_tail": [
+        -0.6167870019652804,
+        3.5462226584850325,
+        0.17122370064525685,
+        -3.741786271583024
+      ]
+    },
+    {
+      "phase": "test",
+      "fit_id": "holt_winters_o56",
+      "method": "same-library optimizer refit plus independent forecast recursion",
+      "warnings": [],
+      "level": 122.41031686689489,
+      "trend": 0.3653075768528374,
+      "phi": 0.995,
+      "seasonal_tail": [
+        -0.5976213285382602,
+        3.5269885471833966,
+        0.1520311722470823,
+        -3.722505463192914
+      ]
+    }
+  ]
+}

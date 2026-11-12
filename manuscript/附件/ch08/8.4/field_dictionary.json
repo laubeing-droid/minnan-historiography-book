@@ -1,0 +1,22 @@
+{
+  "provenance": "教学字段模板，非历史事实",
+  "fields": {
+    "id": "唯一句子编号，用于对齐抽样名单",
+    "source": "教学来源组，不是真实书名",
+    "text": "编者教学句，抽样时保留原文",
+    "gold": "预置标签，不用于挑选抽样结果"
+  },
+  "common_rules": {
+    "id": "本节输入唯一编号，不与其他节编号合并",
+    "empty": "空白不是零，注明未载、难辨、不适用或尚未填写",
+    "source": "教学来源代号不能作为真实馆藏引用",
+    "prediction": "若有预置答案或正确标记，仅用于练习计数，不是实测"
+  },
+  "configuration_fields": {
+    "seed": "整数随机种子，每次抽样新建生成器",
+    "sample_size": "不放回抽取条数，0至输入行数",
+    "input_order": "as_read保持或reversed反转",
+    "population_order": "id_ascending按编号排序或as_read保持",
+    "rule_version": "sampling-v1"
+  }
+}

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.8/score_predictions.py", line 16, in <module>
+    pred=index(rows,'prediction');gold=index(reference,'gold')
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch08/8.8/score_predictions.py", line 11, in index
+    if r['id'] in result:raise ValueError('duplicate id')
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: duplicate id

@@ -1,0 +1,4 @@
+comment_id,change_id,action,response_file,manuscript_file,actual_status
+R1,M1,分离机构和日期,response_teaching.md,revised_passages_teaching.md,TEACHING_NOT_SUBMITTED
+R2,M2,撤回总体代表性,response_teaching.md,revised_passages_teaching.md,TEACHING_NOT_SUBMITTED
+R3,M3,解释为何不做无条件回归,response_teaching.md,revised_passages_teaching.md,TEACHING_NOT_SUBMITTED

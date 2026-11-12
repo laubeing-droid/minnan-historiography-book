@@ -1,0 +1,5 @@
+id,amount,state,year_start,year_end,time_kind,place,place_status
+U01,0,observed,1901,1901,exact,教学甲乡,region
+U02,,not_recorded,1900,1905,interval,,unknown
+U03,,illegible,1902,1902,exact,教学乙乡或丙乡,candidates
+U04,3,observed,1901,1901,exact,教学甲乡,region

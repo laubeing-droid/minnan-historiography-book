@@ -1,0 +1,51 @@
+{
+  "section": "7.3",
+  "title": "缺失 歧义与时空不确定性编码",
+  "status": "EXECUTED_PASS",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "missing",
+  "rows": [
+    {
+      "id": "U01",
+      "amount": "0",
+      "state": "observed",
+      "year_start": "1901",
+      "year_end": "1901",
+      "time_kind": "exact",
+      "place": "教学甲乡",
+      "place_status": "region"
+    },
+    {
+      "id": "U02",
+      "amount": "",
+      "state": "not_recorded",
+      "year_start": "1900",
+      "year_end": "1905",
+      "time_kind": "interval",
+      "place": "",
+      "place_status": "unknown"
+    },
+    {
+      "id": "U03",
+      "amount": "",
+      "state": "illegible",
+      "year_start": "1902",
+      "year_end": "1902",
+      "time_kind": "exact",
+      "place": "教学乙乡或丙乡",
+      "place_status": "candidates"
+    },
+    {
+      "id": "U04",
+      "amount": "3",
+      "state": "observed",
+      "year_start": "1901",
+      "year_end": "1901",
+      "time_kind": "exact",
+      "place": "教学甲乡",
+      "place_status": "region"
+    }
+  ],
+  "config": {},
+  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
+}

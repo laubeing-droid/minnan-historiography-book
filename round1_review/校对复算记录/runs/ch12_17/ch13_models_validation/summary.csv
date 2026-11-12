@@ -1,0 +1,6 @@
+﻿MAE,RMSE,candidate,coverage,eligible,failed,planned,predicted,scored
+,,arima,0.0,False,12,12,0,0
+,,holt_winters,0.0,False,12,12,0,0
+4.416666666666667,5.057996968497839,last,1.0,True,0,12,12,12
+,,sarima,0.0,False,12,12,0,0
+1.5,1.5811388300841898,seasonal,1.0,True,0,12,12,12

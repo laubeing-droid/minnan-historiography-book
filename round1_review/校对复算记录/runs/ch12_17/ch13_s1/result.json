@@ -1,0 +1,268 @@
+{
+  "forecast": [
+    {
+      "method": "last",
+      "predictions": [
+        41,
+        41,
+        41,
+        41
+      ],
+      "planned": 4,
+      "paired": 4,
+      "MAE": 14.5,
+      "RMSE": 17.916472867168917,
+      "MAPE": 89.63406385281385,
+      "sMAPE": 49.204648845600865,
+      "MASE": 14.5,
+      "mape_defined_rows": 4,
+      "smape_defined_rows": 4,
+      "mase_training_scale": 1.0,
+      "status": "complete"
+    },
+    {
+      "method": "seasonal",
+      "predictions": [
+        11,
+        21,
+        31,
+        41
+      ],
+      "planned": 4,
+      "paired": 4,
+      "MAE": 1.0,
+      "RMSE": 1.0,
+      "MAPE": 4.596185064935065,
+      "sMAPE": 4.73276417335769,
+      "MASE": 1.0,
+      "mape_defined_rows": 4,
+      "smape_defined_rows": 4,
+      "mase_training_scale": 1.0,
+      "status": "complete"
+    }
+  ],
+  "classification_rows": [
+    {
+      "id": "F",
+      "actual": 1,
+      "majority": 0,
+      "nearest": 1,
+      "nearest_id": "A"
+    },
+    {
+      "id": "G",
+      "actual": 0,
+      "majority": 0,
+      "nearest": 0,
+      "nearest_id": "C"
+    },
+    {
+      "id": "H",
+      "actual": 1,
+      "majority": 0,
+      "nearest": 1,
+      "nearest_id": "B"
+    },
+    {
+      "id": "I",
+      "actual": 0,
+      "majority": 0,
+      "nearest": 0,
+      "nearest_id": "E"
+    }
+  ],
+  "classification_scores": {
+    "majority": {
+      "TP": 0,
+      "FP": 0,
+      "FN": 2,
+      "TN": 2,
+      "accuracy": 0.5,
+      "precision": null,
+      "recall": 0.0,
+      "false_alarms_per_100_normal": 0.0
+    },
+    "nearest": {
+      "TP": 2,
+      "FP": 0,
+      "FN": 0,
+      "TN": 2,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "false_alarms_per_100_normal": 0.0
+    }
+  },
+  "anomaly": [
+    {
+      "method": "fixed",
+      "flags": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "point_scores": {
+        "TP": 0,
+        "FP": 1,
+        "FN": 3,
+        "TN": 4,
+        "accuracy": 0.5,
+        "precision": 0.0,
+        "recall": 0.0,
+        "false_alarms_per_100_normal": 20.0
+      },
+      "alarm_events": [
+        [
+          4,
+          4
+        ]
+      ],
+      "event_hits": 0,
+      "event_missed": 2,
+      "false_alarm_events": 1
+    },
+    {
+      "method": "mad",
+      "flags": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "point_scores": {
+        "TP": 3,
+        "FP": 1,
+        "FN": 0,
+        "TN": 4,
+        "accuracy": 0.875,
+        "precision": 0.75,
+        "recall": 1.0,
+        "false_alarms_per_100_normal": 20.0
+      },
+      "alarm_events": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "event_hits": 2,
+      "event_missed": 0,
+      "false_alarm_events": 1
+    }
+  ],
+  "generation": [
+    {
+      "method": "empirical",
+      "values": [
+        12,
+        12,
+        11,
+        10,
+        10,
+        12,
+        10,
+        10,
+        10,
+        12,
+        11,
+        11,
+        10,
+        12,
+        11,
+        11,
+        12,
+        12,
+        11,
+        12,
+        12,
+        10,
+        10,
+        12
+      ],
+      "mean": 11.083333333333334,
+      "population_variance": 0.7430555555555556,
+      "lag1_summary": 0.05568535825545178
+    },
+    {
+      "method": "normal",
+      "values": [
+        10.440652381908095,
+        12.28294000134086,
+        11.57222279242767,
+        11.351089140848698,
+        9.65910742088098,
+        12.102580288063546,
+        10.366417359386068,
+        11.894394421269578,
+        11.40506656131532,
+        11.295585085064593,
+        10.674665369707045,
+        10.016214041051663,
+        10.836867553392034,
+        10.133605436758293,
+        10.455106828011036,
+        11.037707379625436,
+        11.043884462899285,
+        11.26013203431216,
+        11.441246801073955,
+        11.77719331055739,
+        9.88038799772687,
+        10.271784591985558,
+        10.063485175524036,
+        9.826655682469292
+      ],
+      "mean": 10.878708004899977,
+      "population_variance": 0.5657553030246615,
+      "lag1_summary": 0.03692709311046507
+    },
+    {
+      "method": "reference",
+      "values": [
+        11,
+        13,
+        12,
+        11,
+        13,
+        12,
+        11,
+        13,
+        12,
+        11,
+        13,
+        12,
+        11,
+        13,
+        12,
+        11,
+        13,
+        12,
+        11,
+        13,
+        12,
+        11,
+        13,
+        12
+      ],
+      "mean": 12,
+      "population_variance": 0.6666666666666666,
+      "lag1_summary": -0.5
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "section": "7.7",
+  "title": "数据卡与 Datasheet",
+  "status": "NOT_RUN",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "card",
+  "rows": [
+    {
+      "id": "R01",
+      "person": "甲",
+      "source": "书A",
+      "page": "A1",
+      "year": 1900,
+      "split": "train"
+    },
+    {
+      "id": "R02",
+      "person": "甲",
+      "source": "书A",
+      "page": "A1",
+      "year": 1900,
+      "split": "test"
+    },
+    {
+      "id": "R03",
+      "person": "乙",
+      "source": "书A",
+      "page": "A2",
+      "year": 1901,
+      "split": "train"
+    },
+    {
+      "id": "R04",
+      "person": "丙",
+      "source": "书B",
+      "page": "B1",
+      "year": 1903,
+      "split": "dev"
+    },
+    {
+      "id": "R05",
+      "person": "丁",
+      "source": "书C",
+      "page": "C1",
+      "year": 1905,
+      "split": "test"
+    },
+    {
+      "id": "R06",
+      "person": "丙",
+      "source": "书D",
+      "page": "D1",
+      "year": 1907,
+      "split": "test"
+    }
+  ],
+  "config": {
+    "card": {
+      "name": "六行关联切分教学输入",
+      "unit": "教学输入行",
+      "source": "编者构造 非史实",
+      "version": "2026-10-30",
+      "status": "NOT_RUN",
+      "scope": "用于理解分组，不估计历史总体"
+    }
+  }
+}

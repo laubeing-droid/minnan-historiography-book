@@ -1,0 +1,95 @@
+{
+  "fiction": true,
+  "crs": "LOCAL_TEACHING_METRE",
+  "pixel_origin": "top-left corner; u right; v down; no half-pixel shift",
+  "control": [
+    {
+      "id": "G1",
+      "u": 100,
+      "v": 100,
+      "x": 1210,
+      "y": 1820,
+      "source": "fiction:G1"
+    },
+    {
+      "id": "G2",
+      "u": 900,
+      "v": 100,
+      "x": 2810,
+      "y": 1980,
+      "source": "fiction:G2"
+    },
+    {
+      "id": "G3",
+      "u": 100,
+      "v": 900,
+      "x": 1290,
+      "y": 220,
+      "source": "fiction:G3"
+    },
+    {
+      "id": "G4",
+      "u": 900,
+      "v": 900,
+      "x": 2890,
+      "y": 380,
+      "source": "fiction:G4"
+    }
+  ],
+  "check": [
+    {
+      "id": "C1",
+      "u": 500,
+      "v": 500,
+      "x": 2053,
+      "y": 1104,
+      "source": "fiction:C1"
+    },
+    {
+      "id": "C2",
+      "u": 300,
+      "v": 700,
+      "x": 1673,
+      "y": 664,
+      "source": "fiction:C2"
+    },
+    {
+      "id": "C3",
+      "u": 700,
+      "v": 300,
+      "x": 2433,
+      "y": 1544,
+      "source": "fiction:C3"
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "base",
+      "control_override": {}
+    },
+    {
+      "name": "wrong_G4",
+      "control_override": {
+        "G4": [
+          3050,
+          300
+        ]
+      }
+    }
+  ],
+  "collinear_negative_example": [
+    [
+      100,
+      100
+    ],
+    [
+      200,
+      200
+    ],
+    [
+      300,
+      300
+    ]
+  ],
+  "note": "重编输入保留正文可手算关系；不是原包恢复。未附原文聚集三点运行值。"
+}

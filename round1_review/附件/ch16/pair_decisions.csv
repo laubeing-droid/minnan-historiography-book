@@ -1,0 +1,7 @@
+left_mention,right_mention,decision,evidence,judgment_author,judgment_date,status
+M1,M2,same,D2明确指向D1；时间地点无另见冲突,教学给定,unknown,given_not_newly_verified
+M1,M3,different,D3明示二人分别列名,教学给定,unknown,given_not_newly_verified
+M4,M1,pending,只有同名与相容时期,教学给定,unknown,given_not_newly_verified
+M4,M3,pending,只有同名与相容时期,教学给定,unknown,given_not_newly_verified
+M5,M6,same,D6明示更名与账册成员承接,教学给定,unknown,given_not_newly_verified
+M5,M7,different,D7明确另立并非旧会,教学给定,unknown,given_not_newly_verified

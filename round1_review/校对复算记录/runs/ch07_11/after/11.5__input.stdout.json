@@ -1,0 +1,41 @@
+{
+  "execution": "reader_invoked",
+  "input_provenance": "编者新编教学数据 非史实 非模型输出",
+  "section": "11.5",
+  "result": {
+    "centroids": {
+      "photo": [
+        0.0,
+        1.0,
+        0.2
+      ],
+      "seal": [
+        1.0,
+        0.0,
+        0.2
+      ]
+    },
+    "rows": [
+      {
+        "id": "V3",
+        "label": "seal",
+        "prediction": "seal",
+        "scores": {
+          "photo": 0.23147521650098232,
+          "seal": 0.7685247834990178
+        },
+        "max_score": 0.7685247834990178
+      },
+      {
+        "id": "V4",
+        "label": "photo",
+        "prediction": "photo",
+        "scores": {
+          "photo": 0.7685247834990178,
+          "seal": 0.23147521650098232
+        },
+        "max_score": 0.7685247834990178
+      }
+    ]
+  }
+}

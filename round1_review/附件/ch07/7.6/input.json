@@ -1,0 +1,65 @@
+{
+  "section": "7.6",
+  "title": "数据切分与泄漏检查",
+  "status": "EXECUTED_PASS",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "split",
+  "rows": [
+    {
+      "id": "R01",
+      "person": "甲",
+      "source": "书A",
+      "page": "A1",
+      "year": 1900,
+      "split": "train"
+    },
+    {
+      "id": "R02",
+      "person": "甲",
+      "source": "书A",
+      "page": "A1",
+      "year": 1900,
+      "split": "test"
+    },
+    {
+      "id": "R03",
+      "person": "乙",
+      "source": "书A",
+      "page": "A2",
+      "year": 1901,
+      "split": "train"
+    },
+    {
+      "id": "R04",
+      "person": "丙",
+      "source": "书B",
+      "page": "B1",
+      "year": 1903,
+      "split": "dev"
+    },
+    {
+      "id": "R05",
+      "person": "丁",
+      "source": "书C",
+      "page": "C1",
+      "year": 1905,
+      "split": "test"
+    },
+    {
+      "id": "R06",
+      "person": "丙",
+      "source": "书D",
+      "page": "D1",
+      "year": 1907,
+      "split": "test"
+    }
+  ],
+  "config": {
+    "group_keys": [
+      "person",
+      "source",
+      "page"
+    ]
+  },
+  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
+}

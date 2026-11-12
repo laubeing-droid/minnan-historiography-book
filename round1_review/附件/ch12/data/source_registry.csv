@@ -1,0 +1,8 @@
+source_id,title,source_type,url,access_date,used_for,observations_copied
+SYNTH_CH12,本章人工编写的教学资料,synthetic,,2026-10-30,演示缺失与可用时间和字段结构,not_applicable
+HARVARD_CMC,Chinese Maritime Customs,official_collection_intro,https://archive.blogs.harvard.edu/yenching/?p=190,2026-10-30,真实海关文献入口与材料类型,none
+CHGIS,CHGIS How To,official_project_documentation,https://chgis.fas.harvard.edu/pages/howto/,2026-10-30,历史对象时间有效性与时间切片,none
+NOAA_GHCND,GHCN-Daily readme,official_data_documentation,https://www.ncei.noaa.gov/pub/data/ghcn/daily/readme.txt,2026-10-30,质量标志和缺失编码的真实设计例,none
+ETT,ETDataset,official_dataset_repository,https://github.com/zhouhaoyi/ETDataset,2026-10-30,数值预测数据族介绍,none
+UCR,UCR Time Series Classification Archive,official_archive,https://www.cs.ucr.edu/~eamonn/time_series_data_2018/,2026-10-30,分类数据族介绍,none
+UEA,Time Series Classification Website,official_archive,https://www.timeseriesclassification.com/,2026-10-30,多变量分类数据族介绍,none

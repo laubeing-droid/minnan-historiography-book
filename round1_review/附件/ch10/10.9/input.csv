@@ -1,0 +1,4 @@
+id,answer_id,claim,source,verdict,reason
+F01,Q1,甲渡拟迁东岸,甲渡拟迁东岸，议未定。,supported,原句明确拟迁
+F02,Q1,甲渡已迁东岸,甲渡拟迁东岸，议未定。,contradicted,把拟议写成已发生
+F03,Q1,迁址导致商业繁荣,甲渡拟迁东岸，议未定。,not_in_evidence,材料未说明后果

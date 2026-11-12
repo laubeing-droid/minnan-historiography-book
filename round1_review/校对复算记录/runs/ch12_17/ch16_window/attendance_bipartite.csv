@@ -1,0 +1,4 @@
+instance_id,subject,relation_type,object,directed,start_year,end_year,temporal_kind,event_id,assertion_ids,source_ids,reasons,scenario_identity_assumptions
+R3,P1,participate,V1,True,1703,1703,event_year,V1,C3,S2,,
+R4,P2,participate,V1,True,1703,1703,event_year,V1,C4,S2,,
+R13,P2,participate,V3,True,1708,1708,event_year,V3,C13,S2,,

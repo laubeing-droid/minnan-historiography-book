@@ -1,0 +1,61 @@
+﻿distance_max,distance_min,minutes,path,selected_source,source,status,straight_metres,target,threshold_status,time
+20.0,0,0,[],,A,reachable,0.0,A,inside,1
+120.0,80.0,6,"[""AC"", ""CB""]",,A,reachable,100.0,B,uncertain,1
+310.0,290.0,5,"[""AC""]",,A,reachable,300.0,C,outside,1
+110.0,90.0,,[],,A,unreachable_in_known_edges,100.0,D,uncertain,1
+326.22776601683796,306.22776601683796,,[],,A,unreachable_in_known_edges,316.22776601683796,E,outside,1
+120.0,80.0,,[],,B,unreachable_in_known_edges,100.0,A,uncertain,1
+20.0,0,0,[],,B,reachable,0.0,B,inside,1
+210.0,190.0,,[],,B,unreachable_in_known_edges,200.0,C,outside,1
+151.4213562373095,131.4213562373095,,[],,B,unreachable_in_known_edges,141.4213562373095,D,outside,1
+233.60679774997897,213.60679774997897,,[],,B,unreachable_in_known_edges,223.60679774997897,E,outside,1
+310.0,290.0,,[],,C,unreachable_in_known_edges,300.0,A,outside,1
+210.0,190.0,1,"[""CB""]",,C,reachable,200.0,B,outside,1
+0.0,0,0,[],,C,reachable,0.0,C,inside,1
+316.22776601683796,316.22776601683796,,[],,C,unreachable_in_known_edges,316.22776601683796,D,outside,1
+100.0,100.0,,[],,C,unreachable_in_known_edges,100.0,E,inside,1
+110.0,90.0,,[],,D,unreachable_in_known_edges,100.0,A,uncertain,1
+151.4213562373095,131.4213562373095,5,"[""DC"", ""CB""]",,D,reachable,141.4213562373095,B,outside,1
+316.22776601683796,316.22776601683796,4,"[""DC""]",,D,reachable,316.22776601683796,C,outside,1
+0.0,0,0,[],,D,reachable,0.0,D,inside,1
+300.0,300.0,,[],,D,unreachable_in_known_edges,300.0,E,outside,1
+326.22776601683796,306.22776601683796,,[],,E,unreachable_in_known_edges,316.22776601683796,A,outside,1
+233.60679774997897,213.60679774997897,,[],,E,unreachable_in_known_edges,223.60679774997897,B,outside,1
+100.0,100.0,,[],,E,unreachable_in_known_edges,100.0,C,inside,1
+300.0,300.0,,[],,E,unreachable_in_known_edges,300.0,D,outside,1
+0.0,0,0,[],,E,reachable,0.0,E,inside,1
+,,0,[],A,MULTI,,,A,,1
+,,5,"[""DC"", ""CB""]",D,MULTI,,,B,,1
+,,4,"[""DC""]",D,MULTI,,,C,,1
+,,0,[],D,MULTI,,,D,,1
+,,,[],,MULTI,,,E,,1
+20.0,0,0,[],,A,reachable,0.0,A,inside,2
+120.0,80.0,6,"[""AC"", ""CB""]",,A,reachable,100.0,B,uncertain,2
+310.0,290.0,5,"[""AC""]",,A,reachable,300.0,C,outside,2
+110.0,90.0,,[],,A,unreachable_in_known_edges,100.0,D,uncertain,2
+326.22776601683796,306.22776601683796,8,"[""AE""]",,A,reachable,316.22776601683796,E,outside,2
+120.0,80.0,,[],,B,unreachable_in_known_edges,100.0,A,uncertain,2
+20.0,0,0,[],,B,reachable,0.0,B,inside,2
+210.0,190.0,,[],,B,unreachable_in_known_edges,200.0,C,outside,2
+151.4213562373095,131.4213562373095,,[],,B,unreachable_in_known_edges,141.4213562373095,D,outside,2
+233.60679774997897,213.60679774997897,,[],,B,unreachable_in_known_edges,223.60679774997897,E,outside,2
+310.0,290.0,,[],,C,unreachable_in_known_edges,300.0,A,outside,2
+210.0,190.0,1,"[""CB""]",,C,reachable,200.0,B,outside,2
+0.0,0,0,[],,C,reachable,0.0,C,inside,2
+316.22776601683796,316.22776601683796,,[],,C,unreachable_in_known_edges,316.22776601683796,D,outside,2
+100.0,100.0,,[],,C,unreachable_in_known_edges,100.0,E,inside,2
+110.0,90.0,,[],,D,unreachable_in_known_edges,100.0,A,uncertain,2
+151.4213562373095,131.4213562373095,5,"[""DC"", ""CB""]",,D,reachable,141.4213562373095,B,outside,2
+316.22776601683796,316.22776601683796,4,"[""DC""]",,D,reachable,316.22776601683796,C,outside,2
+0.0,0,0,[],,D,reachable,0.0,D,inside,2
+300.0,300.0,,[],,D,unreachable_in_known_edges,300.0,E,outside,2
+326.22776601683796,306.22776601683796,,[],,E,unreachable_in_known_edges,316.22776601683796,A,outside,2
+233.60679774997897,213.60679774997897,,[],,E,unreachable_in_known_edges,223.60679774997897,B,outside,2
+100.0,100.0,,[],,E,unreachable_in_known_edges,100.0,C,inside,2
+300.0,300.0,,[],,E,unreachable_in_known_edges,300.0,D,outside,2
+0.0,0,0,[],,E,reachable,0.0,E,inside,2
+,,0,[],A,MULTI,,,A,,2
+,,5,"[""DC"", ""CB""]",D,MULTI,,,B,,2
+,,4,"[""DC""]",D,MULTI,,,C,,2
+,,0,[],D,MULTI,,,D,,2
+,,8,"[""AE""]",A,MULTI,,,E,,2

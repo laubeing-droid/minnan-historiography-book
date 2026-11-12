@@ -1,0 +1,24 @@
+{
+  "section": "11.3",
+  "title": "分割：像素级分类与SAM提示分割",
+  "status": "NOT_RUN",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "segmentation",
+  "rows": [
+    {
+      "id": "x",
+      "reference": [
+        [
+          0,
+          0
+        ]
+      ],
+      "prediction": [
+        [
+          0
+        ]
+      ]
+    }
+  ],
+  "config": {}
+}

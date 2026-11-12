@@ -1,0 +1,24 @@
+{
+  "execution": "reader_invoked",
+  "input_provenance": "编者新编教学数据 非史实 非模型输出",
+  "section": "7.1",
+  "result": {
+    "rows": 3,
+    "entities": 2,
+    "source_pages": 2,
+    "missing_required": [
+      {
+        "id": "E01",
+        "fields": []
+      },
+      {
+        "id": "E02",
+        "fields": []
+      },
+      {
+        "id": "E03",
+        "fields": []
+      }
+    ]
+  }
+}

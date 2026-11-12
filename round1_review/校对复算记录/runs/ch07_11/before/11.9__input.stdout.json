@@ -1,0 +1,25 @@
+{
+  "execution": "reader_invoked",
+  "input_provenance": "编者新编教学数据 非史实 非模型输出",
+  "section": "11.9",
+  "result": [
+    {
+      "source": "blur",
+      "n": 2,
+      "accepted": 1,
+      "correct_accepted": 0,
+      "coverage": 0.5,
+      "accepted_accuracy": 0.0,
+      "correct_accepted_per_all": 0.0
+    },
+    {
+      "source": "clean",
+      "n": 2,
+      "accepted": 2,
+      "correct_accepted": 2,
+      "coverage": 1.0,
+      "accepted_accuracy": 1.0,
+      "correct_accepted_per_all": 1.0
+    }
+  ]
+}

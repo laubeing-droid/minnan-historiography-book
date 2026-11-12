@@ -1,0 +1,16 @@
+{
+  "method": "standard",
+  "series_id": "DEMO_PORT_A",
+  "train_start": 1900,
+  "origin": 1915,
+  "n_original_available": 12,
+  "mean": 16.75,
+  "scale": 6.391726423014886,
+  "variance_denominator": "n",
+  "constant_train": false,
+  "imputation": "ffill1",
+  "fit_includes_imputed_values": false,
+  "fit_includes_future_values": false,
+  "inverse_transform": "y = mean + scale * z",
+  "seasonality": "none_assumed"
+}

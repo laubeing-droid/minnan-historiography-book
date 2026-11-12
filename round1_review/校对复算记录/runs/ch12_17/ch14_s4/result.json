@@ -1,0 +1,499 @@
+{
+  "assignments": [
+    {
+      "event": "T1",
+      "known_at": 2020,
+      "periods": [
+        "P1"
+      ],
+      "versions": [
+        "A1"
+      ],
+      "status": "matched",
+      "wrong_last_period_versions": [
+        "E1"
+      ]
+    },
+    {
+      "event": "T2",
+      "known_at": 2020,
+      "periods": [
+        "P2"
+      ],
+      "versions": [
+        "B1"
+      ],
+      "status": "matched",
+      "wrong_last_period_versions": [
+        "E1"
+      ]
+    },
+    {
+      "event": "T3",
+      "known_at": 2020,
+      "periods": [
+        "P2"
+      ],
+      "versions": [
+        "C1"
+      ],
+      "status": "matched",
+      "wrong_last_period_versions": [
+        "E1"
+      ]
+    },
+    {
+      "event": "T4",
+      "known_at": 2020,
+      "periods": [
+        "P2"
+      ],
+      "versions": [
+        "B1",
+        "C1"
+      ],
+      "status": "conflict",
+      "wrong_last_period_versions": [
+        "E1"
+      ]
+    },
+    {
+      "event": "T5",
+      "known_at": 2020,
+      "periods": [
+        "P3"
+      ],
+      "versions": [
+        "E1"
+      ],
+      "status": "matched",
+      "wrong_last_period_versions": [
+        "E1"
+      ]
+    },
+    {
+      "event": "T6",
+      "known_at": 2020,
+      "periods": [
+        "P2"
+      ],
+      "versions": [
+        "D1"
+      ],
+      "status": "matched",
+      "wrong_last_period_versions": [
+        "D2"
+      ]
+    },
+    {
+      "event": "T7",
+      "known_at": 2020,
+      "periods": [
+        "P2"
+      ],
+      "versions": [],
+      "status": "unknown_space",
+      "wrong_last_period_versions": []
+    },
+    {
+      "event": "T8",
+      "known_at": 2020,
+      "periods": [
+        "P1",
+        "P2"
+      ],
+      "versions": [],
+      "status": "cross_period",
+      "wrong_last_period_versions": [
+        "E1"
+      ]
+    },
+    {
+      "event": "T9",
+      "known_at": 2020,
+      "periods": [],
+      "versions": [],
+      "status": "unknown_time",
+      "wrong_last_period_versions": []
+    },
+    {
+      "event": "T10",
+      "known_at": 2020,
+      "periods": [
+        "P2"
+      ],
+      "versions": [
+        "C1"
+      ],
+      "status": "matched",
+      "wrong_last_period_versions": [
+        "E1"
+      ]
+    },
+    {
+      "event": "T1",
+      "known_at": 2022,
+      "periods": [
+        "P1"
+      ],
+      "versions": [
+        "A1"
+      ],
+      "status": "matched",
+      "wrong_last_period_versions": [
+        "E1"
+      ]
+    },
+    {
+      "event": "T2",
+      "known_at": 2022,
+      "periods": [
+        "P2"
+      ],
+      "versions": [
+        "B1"
+      ],
+      "status": "matched",
+      "wrong_last_period_versions": [
+        "E1"
+      ]
+    },
+    {
+      "event": "T3",
+      "known_at": 2022,
+      "periods": [
+        "P2"
+      ],
+      "versions": [
+        "C1"
+      ],
+      "status": "matched",
+      "wrong_last_period_versions": [
+        "E1"
+      ]
+    },
+    {
+      "event": "T4",
+      "known_at": 2022,
+      "periods": [
+        "P2"
+      ],
+      "versions": [
+        "B1",
+        "C1",
+        "X1"
+      ],
+      "status": "conflict",
+      "wrong_last_period_versions": [
+        "E1"
+      ]
+    },
+    {
+      "event": "T5",
+      "known_at": 2022,
+      "periods": [
+        "P3"
+      ],
+      "versions": [
+        "E1"
+      ],
+      "status": "matched",
+      "wrong_last_period_versions": [
+        "E1"
+      ]
+    },
+    {
+      "event": "T6",
+      "known_at": 2022,
+      "periods": [
+        "P2"
+      ],
+      "versions": [
+        "D1"
+      ],
+      "status": "matched",
+      "wrong_last_period_versions": [
+        "D2"
+      ]
+    },
+    {
+      "event": "T7",
+      "known_at": 2022,
+      "periods": [
+        "P2"
+      ],
+      "versions": [],
+      "status": "unknown_space",
+      "wrong_last_period_versions": []
+    },
+    {
+      "event": "T8",
+      "known_at": 2022,
+      "periods": [
+        "P1",
+        "P2"
+      ],
+      "versions": [],
+      "status": "cross_period",
+      "wrong_last_period_versions": [
+        "E1"
+      ]
+    },
+    {
+      "event": "T9",
+      "known_at": 2022,
+      "periods": [],
+      "versions": [],
+      "status": "unknown_time",
+      "wrong_last_period_versions": []
+    },
+    {
+      "event": "T10",
+      "known_at": 2022,
+      "periods": [
+        "P2"
+      ],
+      "versions": [
+        "C1",
+        "X1"
+      ],
+      "status": "conflict",
+      "wrong_last_period_versions": [
+        "E1"
+      ]
+    }
+  ],
+  "period_layers": [
+    {
+      "known_at": 2020,
+      "period": "P1",
+      "versions": [
+        {
+          "id": "A1",
+          "unit": "A",
+          "name": "甲县",
+          "start": 1800,
+          "end": 1850,
+          "known_at": 2020,
+          "rect": [
+            0,
+            0,
+            10,
+            10
+          ],
+          "source": "S1"
+        }
+      ]
+    },
+    {
+      "known_at": 2020,
+      "period": "P2",
+      "versions": [
+        {
+          "id": "B1",
+          "unit": "B",
+          "name": "西县",
+          "start": 1850,
+          "end": 1900,
+          "known_at": 2020,
+          "rect": [
+            0,
+            0,
+            5,
+            10
+          ],
+          "source": "S2"
+        },
+        {
+          "id": "C1",
+          "unit": "C",
+          "name": "东县",
+          "start": 1850,
+          "end": 1900,
+          "known_at": 2020,
+          "rect": [
+            5,
+            0,
+            10,
+            10
+          ],
+          "source": "S2"
+        },
+        {
+          "id": "D1",
+          "unit": "D",
+          "name": "甲县",
+          "start": 1850,
+          "end": 1900,
+          "known_at": 2020,
+          "rect": [
+            20,
+            0,
+            30,
+            10
+          ],
+          "source": "S3"
+        }
+      ]
+    },
+    {
+      "known_at": 2020,
+      "period": "P3",
+      "versions": [
+        {
+          "id": "E1",
+          "unit": "E",
+          "name": "合县",
+          "start": 1900,
+          "end": 1950,
+          "known_at": 2020,
+          "rect": [
+            0,
+            0,
+            10,
+            10
+          ],
+          "source": "S4"
+        },
+        {
+          "id": "D2",
+          "unit": "D",
+          "name": "远县",
+          "start": 1900,
+          "end": 1950,
+          "known_at": 2020,
+          "rect": [
+            20,
+            0,
+            30,
+            10
+          ],
+          "source": "S4"
+        }
+      ]
+    },
+    {
+      "known_at": 2022,
+      "period": "P1",
+      "versions": [
+        {
+          "id": "A1",
+          "unit": "A",
+          "name": "甲县",
+          "start": 1800,
+          "end": 1850,
+          "known_at": 2020,
+          "rect": [
+            0,
+            0,
+            10,
+            10
+          ],
+          "source": "S1"
+        }
+      ]
+    },
+    {
+      "known_at": 2022,
+      "period": "P2",
+      "versions": [
+        {
+          "id": "B1",
+          "unit": "B",
+          "name": "西县",
+          "start": 1850,
+          "end": 1900,
+          "known_at": 2020,
+          "rect": [
+            0,
+            0,
+            5,
+            10
+          ],
+          "source": "S2"
+        },
+        {
+          "id": "C1",
+          "unit": "C",
+          "name": "东县",
+          "start": 1850,
+          "end": 1900,
+          "known_at": 2020,
+          "rect": [
+            5,
+            0,
+            10,
+            10
+          ],
+          "source": "S2"
+        },
+        {
+          "id": "D1",
+          "unit": "D",
+          "name": "甲县",
+          "start": 1850,
+          "end": 1900,
+          "known_at": 2020,
+          "rect": [
+            20,
+            0,
+            30,
+            10
+          ],
+          "source": "S3"
+        },
+        {
+          "id": "X1",
+          "unit": "X",
+          "name": "争议区",
+          "start": 1850,
+          "end": 1900,
+          "known_at": 2022,
+          "rect": [
+            4,
+            0,
+            7,
+            10
+          ],
+          "source": "S5"
+        }
+      ]
+    },
+    {
+      "known_at": 2022,
+      "period": "P3",
+      "versions": [
+        {
+          "id": "E1",
+          "unit": "E",
+          "name": "合县",
+          "start": 1900,
+          "end": 1950,
+          "known_at": 2020,
+          "rect": [
+            0,
+            0,
+            10,
+            10
+          ],
+          "source": "S4"
+        },
+        {
+          "id": "D2",
+          "unit": "D",
+          "name": "远县",
+          "start": 1900,
+          "end": 1950,
+          "known_at": 2020,
+          "rect": [
+            20,
+            0,
+            30,
+            10
+          ],
+          "source": "S4"
+        }
+      ]
+    }
+  ]
+}

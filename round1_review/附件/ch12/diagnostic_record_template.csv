@@ -1,0 +1,6 @@
+record_id,series_id,origin,method,input_interval,missing_policy,deterministic_term,lag_rule,statistic,p_value,warning,interpretation,status
+D001,DEMO_PORT_A,1915,ACF,,,,,,,,,NOT_RUN
+D002,DEMO_PORT_A,1915,PACF,,,,,,,,,NOT_RUN
+D003,DEMO_PORT_A,1915,ADF,,,,,,,,,NOT_RUN
+D004,DEMO_PORT_A,1915,KPSS,,,,,,,,,NOT_RUN
+D005,DEMO_PORT_A,1915,STL,,,,,,,年度主例无季节依据,默认不使用,NOT_APPLICABLE

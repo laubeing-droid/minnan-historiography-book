@@ -1,0 +1,3 @@
+version,field_or_rule,reason,affected_batches,actual_test,status
+v1,五字段形式检查,教材初版,本包两条输入,未执行,NOT_RUN
+,,,,,

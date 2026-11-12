@@ -1,0 +1,58 @@
+--- baseline/ch13/workflow.py
++++ revision/ch13/workflow.py
+@@ -138,6 +138,11 @@
+  return out
+ 
+ def backtest(d,section,out,phase,selection):
++ # A candidate id alone is not a frozen configuration. Bind the declared
++ # windows, filling rules, task plan and score cutoffs to the validation lock.
++ # Truth is deliberately excluded: it is evaluator data, never a predictor input.
++ protocol_keys=['candidates','validation_origins','test_origins','horizons','validation_cutoff','test_cutoff','min_train']
++ protocol_hash=hashlib.sha256(json.dumps({k:d[k] for k in protocol_keys},sort_keys=True).encode()).hexdigest()
+  candidates=d['candidates'];origins=d['validation_origins'];cutoff=d['validation_cutoff']
+  if phase=='test':
+   if section==10:raise ValueError('ablation test is intentionally NOT_RUN; old test cannot be a new blind test')
+@@ -145,6 +150,7 @@
+   lock=json.loads(Path(selection).read_text());candidates=[c for c in candidates if c['id']==lock['selected']]
+   if not candidates:raise ValueError('selected candidate absent')
+   if lock['history_sha256']!=hashlib.sha256(json.dumps(d['history'],sort_keys=True).encode()).hexdigest():raise ValueError('history changed after selection')
++  if lock.get('protocol_sha256')!=protocol_hash:raise ValueError('protocol changed or legacy lock lacks protocol digest; rerun validation in a new directory')
+   origins=d['test_origins'];cutoff=d['test_cutoff']
+  fits=[];rows=[]
+  for c in candidates:
+@@ -153,7 +159,7 @@
+  if phase=='validation':
+   eligible=[r for r in summary if r['eligible']]
+   selected=min(eligible,key=lambda r:(r['MAE'],r['candidate']))['candidate'] if eligible else None
+-  lock={'selected':selected,'selection_basis':'validation only','history_sha256':hashlib.sha256(json.dumps(d['history'],sort_keys=True).encode()).hexdigest()}
++  lock={'selected':selected,'selection_basis':'validation only','history_sha256':hashlib.sha256(json.dumps(d['history'],sort_keys=True).encode()).hexdigest(),'protocol_sha256':protocol_hash}
+   (out/'selection.json').write_text(json.dumps(lock,indent=2),encoding='utf8');result['selection']=lock
+  if section==10:
+   keys=set.intersection(*[{(r['origin'],r['horizon']) for r in rows if r['candidate']==c['id'] and r['error'] is not None} for c in candidates])
+--- baseline/ch15/workflow.py
++++ revision/ch15/workflow.py
+@@ -103,8 +103,13 @@
+  rows=[]
+  for r in rs.values():
+   x1,y1,x2,y2=r['rect'];area=(x2-x1)*(y2-y1)/1000000
+-  if area<=0 or r['events']<0 or r['opportunities']<0:raise ValueError('invalid denominator or counts')
+-  rows.append({'id':r['id'],'area_km2':area,'events':r['events'],'density':r['events']/area,'opportunities':r['opportunities'],'rate':ratio(r['events'],r['opportunities'])})
++  if not math.isfinite(area) or area<=0:raise ValueError('invalid area denominator')
++  for key in ('events','opportunities'):
++   value=r[key]
++   if value is not None and (type(value) not in (int,float) or not math.isfinite(value) or value<0):raise ValueError('invalid denominator or counts')
++  # Unknown attributes remain unknown; keep the fixed region roster and let
++  # moran_values report missing_attribute rather than silently omit a region.
++  rows.append({'id':r['id'],'area_km2':area,'events':r['events'],'density':r['events']/area if r['events'] is not None else None,'opportunities':r['opportunities'],'rate':ratio(r['events'],r['opportunities'])})
+  vals=[r['events'] for r in rs.values()];obs,status=moran_values(vals,edges);perms=[];group_perms=[]
+  if obs is not None:
+   for perm in itertools.permutations(range(n)):
+@@ -116,7 +121,7 @@
+    for indices,perm in zip(groups.values(),gp):
+     for i,j in zip(indices,perm):new[i]=vals[j]
+    v,_=moran_values(new,edges);group_perms.append({'values':new,'I':str(v),'at_least_observed':v>=obs})
+- rate,rate_status=moran_values([F(r['events'],r['opportunities']) if r['opportunities'] else None for r in rs.values()],edges)
++ rate,rate_status=moran_values([F(str(r['events']))/F(str(r['opportunities'])) if r['events'] is not None and r['opportunities'] is not None and r['opportunities']>0 else None for r in rs.values()],edges)
+  return {'regions':rows,'global':{'I':str(obs) if obs is not None else None,'status':status,'exact_upper_tail':sum(x['at_least_observed'] for x in perms)/len(perms) if perms else None,'opportunity_I':str(rate) if rate is not None else None,'opportunity_status':rate_status,'within_group_upper_tail':sum(x['at_least_observed'] for x in group_perms)/len(group_perms) if group_perms else None,'group_reference_degenerate':len({p['I'] for p in group_perms})==1 if group_perms else None},'permutations':perms,'within_group_permutations':group_perms}
+ 
+ def compare(d):

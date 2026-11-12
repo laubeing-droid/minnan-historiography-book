@@ -1,0 +1,1408 @@
+{
+  "scope": "原校对记录中75个未重开的引用；仅核各章实际引用的具体主张",
+  "date_utc": "2026-10-30",
+  "items": [
+    {
+      "url": "https://github.com/zhouhaoyi/ETDataset",
+      "cited_urls": [
+        "https://github.com/zhouhaoyi/ETDataset"
+      ],
+      "locations": [
+        {
+          "chapter": "ch12.md",
+          "section": "12.2",
+          "baseline_line": 66
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "ETT是变压器负荷与油温数据，提供较高频和小时变体",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 1,
+      "evidence_locator": "官方README ETT-small段，行199—210；原源每分钟文字与每小时4次算式不一致，本书只说较高频，无需沿用其矛盾"
+    },
+    {
+      "url": "https://www.cs.ucr.edu/~eamonn/time_series_data_2018/",
+      "cited_urls": [
+        "https://www.cs.ucr.edu/~eamonn/time_series_data_2018/"
+      ],
+      "locations": [
+        {
+          "chapter": "ch12.md",
+          "section": "12.2",
+          "baseline_line": 66
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "UCR分类资料与UEA多变量资料入口",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 2,
+      "evidence_locator": "官方档案页第7—11行"
+    },
+    {
+      "url": "https://www.timeseriesclassification.com/",
+      "cited_urls": [
+        "https://www.timeseriesclassification.com/"
+      ],
+      "locations": [
+        {
+          "chapter": "ch12.md",
+          "section": "12.2",
+          "baseline_line": 66
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "单变量与多变量时序分类任务集合",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 3,
+      "evidence_locator": "官方站点介绍及Univariate/Multivariate数据集段"
+    },
+    {
+      "url": "https://chgis.fas.harvard.edu/pages/howto/",
+      "cited_urls": [
+        "https://chgis.fas.harvard.edu/pages/howto/"
+      ],
+      "locations": [
+        {
+          "chapter": "ch12.md",
+          "section": "12.2",
+          "baseline_line": 81
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "时间切片与异步时变对象的区别",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 4,
+      "evidence_locator": "HowTo time-series/time-slice段第37—69行"
+    },
+    {
+      "url": "https://pandas.pydata.org/docs/user_guide/timeseries.html",
+      "cited_urls": [
+        "https://pandas.pydata.org/docs/user_guide/timeseries.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch12.md",
+          "section": "12.2",
+          "baseline_line": 97
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "resample闭合、标签及较晚信息前移风险",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 5,
+      "evidence_locator": "用户指南resampling closed/label段第2136—2163行"
+    },
+    {
+      "url": "https://www.ncei.noaa.gov/pub/data/ghcn/daily/readme.txt",
+      "cited_urls": [
+        "https://www.ncei.noaa.gov/pub/data/ghcn/daily/readme.txt"
+      ],
+      "locations": [
+        {
+          "chapter": "ch12.md",
+          "section": "12.2",
+          "baseline_line": 99
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "数值缺失编码和测量、质量、来源标记",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 6,
+      "evidence_locator": "GHCN-Daily README VALUE/MFLAG/QFLAG/SFLAG字段说明"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.acf.html",
+      "cited_urls": [
+        "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.acf.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch12.md",
+          "section": "12.3",
+          "baseline_line": 113
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "ACF分母修正、缺失处理、区间选项",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 7,
+      "evidence_locator": "acf参数adjusted、missing、alpha；adjusted真时n-k，否则n"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.pacf.html",
+      "cited_urls": [
+        "https://www.statsmodels.org/stable/generated/statsmodels.tsa.stattools.pacf.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch12.md",
+          "section": "12.3",
+          "baseline_line": 119
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "PACF可选Yule–Walker、OLS等估计法",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 8,
+      "evidence_locator": "pacf method参数及区间说明"
+    },
+    {
+      "url": "https://otexts.com/fpp3/decomposition.html",
+      "cited_urls": [
+        "https://otexts.com/fpp3/decomposition.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch12.md",
+          "section": "12.5",
+          "baseline_line": 192
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "趋势季节余项与加法/乘法分解",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 9,
+      "evidence_locator": "FPP3第3章组成及STL段"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.seasonal.STL.html",
+      "cited_urls": [
+        "https://www.statsmodels.org/stable/generated/statsmodels.tsa.seasonal.STL.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch12.md",
+          "section": "12.5",
+          "baseline_line": 194
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "STL为LOESS分解，period与平滑窗及robust不同",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 10,
+      "evidence_locator": "STL参数period、seasonal和robust"
+    },
+    {
+      "url": "https://otexts.com/fpp3/missing-outliers.html",
+      "cited_urls": [
+        "https://otexts.com/fpp3/missing-outliers.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch12.md",
+          "section": "12.6",
+          "baseline_line": 247
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "不同预测/分解程序对缺失处理不同",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 11,
+      "evidence_locator": "原链接跳转FPP3 practical.html Missing values段；ETS和STL不能直接处理空值"
+    },
+    {
+      "url": "https://scikit-learn.org/stable/common_pitfalls.html",
+      "cited_urls": [
+        "https://scikit-learn.org/stable/common_pitfalls.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch12.md",
+          "section": "12.7",
+          "baseline_line": 277
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "只在训练资料拟合预处理并复用变换",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 12,
+      "evidence_locator": "Common pitfalls Data leakage段"
+    },
+    {
+      "url": "https://scikit-learn.org/stable/auto_examples/applications/plot_cyclical_feature_engineering.html",
+      "cited_urls": [
+        "https://scikit-learn.org/stable/auto_examples/applications/plot_cyclical_feature_engineering.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch12.md",
+          "section": "12.8",
+          "baseline_line": 321
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "周期编码效果取决于模型表达能力",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 13,
+      "evidence_locator": "Cyclical feature engineering 正弦余弦及线性模型比较段"
+    },
+    {
+      "url": "https://otexts.com/fpp3/toolbox.html",
+      "cited_urls": [
+        "https://otexts.com/fpp3/toolbox.html#time-series-cross-validation",
+        "https://otexts.com/fpp3/toolbox.html",
+        "https://otexts.com/fpp3/toolbox.html#evaluating-point-forecast-accuracy",
+        "https://otexts.com/fpp3/toolbox.html#distributional-forecasts-and-prediction-intervals",
+        "https://otexts.com/fpp3/toolbox.html#quantile-scores"
+      ],
+      "locations": [
+        {
+          "chapter": "ch12.md",
+          "section": "12.9",
+          "baseline_line": 357
+        },
+        {
+          "chapter": "ch13.md",
+          "section": "13.1",
+          "baseline_line": 77
+        },
+        {
+          "chapter": "ch13.md",
+          "section": "13.6",
+          "baseline_line": 447
+        },
+        {
+          "chapter": "ch13.md",
+          "section": "13.7",
+          "baseline_line": 525
+        },
+        {
+          "chapter": "ch13.md",
+          "section": "13.8",
+          "baseline_line": 544
+        },
+        {
+          "chapter": "ch13.md",
+          "section": "13.8",
+          "baseline_line": 552
+        },
+        {
+          "chapter": "ch13.md",
+          "section": "13.9",
+          "baseline_line": 676
+        },
+        {
+          "chapter": "ch13.md",
+          "section": "13.10",
+          "baseline_line": 764
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "Naive/seasonal naive、训练测试隔离、MAE/RMSE/MAPE/MASE、中央区间、2倍分位数评分、滚动原点",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 14,
+      "evidence_locator": "FPP3第5章§5.2、5.8—5.10；行231—244、735—792、881—900、944—952"
+    },
+    {
+      "url": "https://scikit-learn.org/stable/modules/neighbors.html",
+      "cited_urls": [
+        "https://scikit-learn.org/stable/modules/neighbors.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.1",
+          "baseline_line": 79
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "近邻分类由最近样本及其类别作判断",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 15,
+      "evidence_locator": "Nearest Neighbors分类段；本文自写1NN非调用声明"
+    },
+    {
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda356.htm",
+      "cited_urls": [
+        "https://www.itl.nist.gov/div898/handbook/eda/section3/eda356.htm"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.1",
+          "baseline_line": 81
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "MAD定义与抗重尾特性",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 16,
+      "evidence_locator": "NIST Measures of Scale Median Absolute Deviation段"
+    },
+    {
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda35h.htm",
+      "cited_urls": [
+        "https://www.itl.nist.gov/div898/handbook/eda/section3/eda35h.htm"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.1",
+          "baseline_line": 83
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "异常标记、稳健处理、正式识别不同",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 17,
+      "evidence_locator": "NIST Detection of Outliers第11—17行；原页将accommodation拼为accomodation"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.html",
+      "cited_urls": [
+        "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMA.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.2",
+          "baseline_line": 110
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "ARIMA的p,d,q与季节阶数含义",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 18,
+      "evidence_locator": "ARIMA接口order、seasonal_order、Notes定义"
+    },
+    {
+      "url": "https://otexts.com/fpp3/arima.html",
+      "cited_urls": [
+        "https://otexts.com/fpp3/arima.html#stationarity-and-differencing"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.2",
+          "baseline_line": 120
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "差分顺序及过度差分制造伪动态/自相关",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 19,
+      "evidence_locator": "FPP3 ARIMA第187—191行；信息准则可比性见433行"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMAResults.info_criteria.html",
+      "cited_urls": [
+        "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMAResults.info_criteria.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.2",
+          "baseline_line": 128
+        }
+      ],
+      "status": "SUPPORTED_WITH_SCOPE_LIMIT",
+      "checked_claim": "信息准则依赖似然、观测数及参数数，不等于样本外误差",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 20,
+      "evidence_locator": "info_criteria标准/替代公式；AICc不在该函数的criteria列表中，但正文未声称此函数直接返回AICc。比较限制另由本章既引FPP3 ARIMA第433行支持"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.html",
+      "cited_urls": [
+        "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.3",
+          "baseline_line": 164
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "SARIMA季节P,D,Q,s与普通差分",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 21,
+      "evidence_locator": "SARIMAX参数seasonal_order、simple_differencing；复合差分代数亦见FPP3第189行"
+    },
+    {
+      "url": "https://otexts.com/fpp3/exponential-smoothing.html",
+      "cited_urls": [
+        "https://otexts.com/fpp3/exponential-smoothing.html#holt-winters-additive-method"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.3",
+          "baseline_line": 172
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "Holt-Winters新水平季节更新与另一gamma约定不同",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 22,
+      "evidence_locator": "FPP3指数平滑第343—346行明确两式及gamma转换；正文选用新水平约定正确"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/_modules/statsmodels/tsa/holtwinters/model.html",
+      "cited_urls": [
+        "https://www.statsmodels.org/stable/_modules/statsmodels/tsa/holtwinters/model.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.3",
+          "baseline_line": 180
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "乘法趋势或季节项要求严格正数",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 23,
+      "evidence_locator": "官方源码raise ValueError段第250—255行"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.holtwinters.ExponentialSmoothing.html",
+      "cited_urls": [
+        "https://www.statsmodels.org/stable/generated/statsmodels.tsa.holtwinters.ExponentialSmoothing.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.3",
+          "baseline_line": 182
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "趋势、阻尼、季节项为独立配置",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 24,
+      "evidence_locator": "ExponentialSmoothing参数trend/damped_trend/seasonal"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/examples/notebooks/generated/statespace_forecasting.html",
+      "cited_urls": [
+        "https://www.statsmodels.org/stable/examples/notebooks/generated/statespace_forecasting.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.4",
+          "baseline_line": 214
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "滚动加入观测并可重新拟合，区别append和extend",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 25,
+      "evidence_locator": "官方forecasting示例Cross validation段第286—356行"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.fit.html",
+      "cited_urls": [
+        "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.fit.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.4",
+          "baseline_line": 246
+        }
+      ],
+      "status": "SUPPORTED_WITH_SCOPE_LIMIT",
+      "checked_claim": "拟合返回后仍须看优化状态并保留警告",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 26,
+      "evidence_locator": "SARIMAX.fit full_output/mle_retvals及solver说明；具体Holt-Winters success字段属于本书脚本约定，不由此单个链接证明"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMAResults.get_forecast.html",
+      "cited_urls": [
+        "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMAResults.get_forecast.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.4",
+          "baseline_line": 250
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "get_forecast返回样本外预测及区间对象",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 27,
+      "evidence_locator": "get_forecast Returns/See also，默认预测观测y不是signal_only"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMAResults.plot_diagnostics.html",
+      "cited_urls": [
+        "https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima.model.ARIMAResults.plot_diagnostics.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.4",
+          "baseline_line": 265
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "诊断图四面板为残差序列、密度直方图、Q-Q、ACF",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 28,
+      "evidence_locator": "plot_diagnostics Notes 2x2 grid第292—299行"
+    },
+    {
+      "url": "https://www.statsmodels.org/stable/generated/statsmodels.stats.diagnostic.acorr_ljungbox.html",
+      "cited_urls": [
+        "https://www.statsmodels.org/stable/generated/statsmodels.stats.diagnostic.acorr_ljungbox.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.4",
+          "baseline_line": 267
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "Ljung-Box扣model_df，非正剩余自由度给NaN",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 29,
+      "evidence_locator": "acorr_ljungbox参数和Returns第347—379行"
+    },
+    {
+      "url": "https://www.researchgate.net/publication/334578434_The_M4_Competition_100000_time_series_and_61_forecasting_methods",
+      "cited_urls": [
+        "https://www.researchgate.net/publication/334578434_The_M4_Competition_100000_time_series_and_61_forecasting_methods"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.5",
+          "baseline_line": 357
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "M4六频率总100000序列及各预测长度",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 30,
+      "evidence_locator": "作者公开全文表1及§2预测长度段；不使用页面后部他文推荐摘录"
+    },
+    {
+      "url": "https://github.com/Mcompetitions/M4-methods",
+      "cited_urls": [
+        "https://github.com/Mcompetitions/M4-methods"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.5",
+          "baseline_line": 359
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "M4 frequency用于MASE，Naive2，先聚合后相对比较OWA",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 31,
+      "evidence_locator": "官方README第217—226行；Benchmarks and Evaluation.R第694、709、743—760行"
+    },
+    {
+      "url": "https://statmodeling.stat.columbia.edu/wp-content/uploads/2021/10/M5_accuracy_competition.pdf",
+      "cited_urls": [
+        "https://statmodeling.stat.columbia.edu/wp-content/uploads/2021/10/M5_accuracy_competition.pdf"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.5",
+          "baseline_line": 361
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "M5层级、3049产品10店3州、30490底层42840总量、28天验证测试及RMSSE初始零处理",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 32,
+      "evidence_locator": "作者预印本§3.1表1§3.3，第7—10页"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.ijforecast.2021.11.013",
+      "cited_urls": [
+        "https://doi.org/10.1016/j.ijforecast.2021.11.013"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.5",
+          "baseline_line": 363
+        }
+      ],
+      "status": "ACCESS_BLOCKED",
+      "checked_claim": "M5正式版§3.3；未读取正文，不能冒称正式版已核",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 33,
+      "evidence_locator": "2026-10-30 web打开DOI返回403 Forbidden；未重试或绕过"
+    },
+    {
+      "url": "https://storage.googleapis.com/kaggle-forum-message-attachments/772349/15032/M5-Competitors-Guide-Final-10-March-2020.pdf",
+      "cited_urls": [
+        "https://storage.googleapis.com/kaggle-forum-message-attachments/772349/15032/M5-Competitors-Guide-Final-10-March-2020.pdf"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.5",
+          "baseline_line": 365
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "M5按最后28天金额权重，12层等权且各层内归一",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 34,
+      "evidence_locator": "官方Competitors Guide Weighting第7—8页（PDF零基页面；纸面标页8—9）"
+    },
+    {
+      "url": "https://robjhyndman.com/publications/another-look-at-measures-of-forecast-accuracy/",
+      "cited_urls": [
+        "https://robjhyndman.com/publications/another-look-at-measures-of-forecast-accuracy/"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.6",
+          "baseline_line": 449
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "MASE以训练naive误差缩放用于跨尺度比较",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 35,
+      "evidence_locator": "作者官方页面及其PDF第11—12页缩放误差公式和解释"
+    },
+    {
+      "url": "https://robjhyndman.com/hyndsight/smape/",
+      "cited_urls": [
+        "https://robjhyndman.com/hyndsight/smape/"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.6",
+          "baseline_line": 451
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "sMAPE多种定义，绝对值分母版本双零未定义",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 36,
+      "evidence_locator": "作者Errors on percentage errors第18—28行"
+    },
+    {
+      "url": "https://scoringrules.readthedocs.io/en/latest/generated/scoringrules.crps_ensemble.html",
+      "cited_urls": [
+        "https://scoringrules.readthedocs.io/en/latest/generated/scoringrules.crps_ensemble.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.8",
+          "baseline_line": 564
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "CRPS积分和独立双抽样期望表达",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 37,
+      "evidence_locator": "crps_ensemble定义公式第114—117行"
+    },
+    {
+      "url": "https://sites.stat.washington.edu/raftery/Research/PDF/Gneiting2007jasa.pdf",
+      "cited_urls": [
+        "https://sites.stat.washington.edu/raftery/Research/PDF/Gneiting2007jasa.pdf"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.8",
+          "baseline_line": 580
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "中央区间分数宽度+2/alpha外部距离",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 38,
+      "evidence_locator": "Gneiting/Raftery2007 JASA§6.2式43，PDF第12页"
+    },
+    {
+      "url": "https://sites.stat.washington.edu/raftery/Research/PDF/Gneiting2007jrssb.pdf",
+      "cited_urls": [
+        "https://sites.stat.washington.edu/raftery/Research/PDF/Gneiting2007jrssb.pdf"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.8",
+          "baseline_line": 588
+        }
+      ],
+      "status": "ACCESS_BLOCKED",
+      "checked_claim": "校准与锐度定义；目标原PDF本轮未读取",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 39,
+      "evidence_locator": "2026-10-30 web获取Gneiting2007jrssb.pdf返回400 Timeout；未重复失败"
+    },
+    {
+      "url": "https://scikit-learn.org/stable/modules/grid_search.html",
+      "cited_urls": [
+        "https://scikit-learn.org/stable/modules/grid_search.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.9",
+          "baseline_line": 674
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "网格穷举与固定预算随机搜索不同",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 40,
+      "evidence_locator": "scikit-learn Grid Search概览及Randomized Parameter Optimization段"
+    },
+    {
+      "url": "https://optuna.readthedocs.io/en/v4.5.0/reference/samplers/index.html",
+      "cited_urls": [
+        "https://optuna.readthedocs.io/en/v4.5.0/reference/samplers/index.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.9",
+          "baseline_line": 678
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "Optuna为工具，TPE/Random/Grid/Gaussian process为不同sampler",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 41,
+      "evidence_locator": "固定4.5.0 samplers表及第66—75行；串行种子复现注意见50行"
+    },
+    {
+      "url": "https://optuna.readthedocs.io/en/v4.5.0/reference/generated/optuna.pruners.SuccessiveHalvingPruner.html",
+      "cited_urls": [
+        "https://optuna.readthedocs.io/en/v4.5.0/reference/generated/optuna.pruners.SuccessiveHalvingPruner.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.9",
+          "baseline_line": 680
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "ASHA根据中间成绩晋级/剪枝，资源需声明",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 42,
+      "evidence_locator": "SuccessiveHalvingPruner min_resource/rung说明及目标函数report/should_prune示例；第19行明确最大资源由目标函数约束，不由pruner设置。"
+    },
+    {
+      "url": "https://www.itl.nist.gov/div898/handbook/pri/section3/pri333.htm",
+      "cited_urls": [
+        "https://www.itl.nist.gov/div898/handbook/pri/section3/pri333.htm"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.10",
+          "baseline_line": 762
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "全因子设计覆盖因素全部水平组合",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 43,
+      "evidence_locator": "NIST Full factorial designs第8行"
+    },
+    {
+      "url": "https://www.jmlr.org/papers/v11/cawley10a.html",
+      "cited_urls": [
+        "https://www.jmlr.org/papers/v11/cawley10a.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch13.md",
+          "section": "13.10",
+          "baseline_line": 766
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "反复模型选择可过拟合有限样本标准并造成评估偏差",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 44,
+      "evidence_locator": "论文原站摘要第34—38行，主张范围未超出摘要"
+    },
+    {
+      "url": "https://chgis.fas.harvard.edu/",
+      "cited_urls": [
+        "https://chgis.fas.harvard.edu/"
+      ],
+      "locations": [
+        {
+          "chapter": "ch14.md",
+          "section": "14.1",
+          "baseline_line": 71
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "CHGIS是历史地名和行政单元资料入口，不是完整地方史实证明",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 45,
+      "evidence_locator": "官方首页介绍第27—29行"
+    },
+    {
+      "url": "https://chgis.fas.harvard.edu/tools/",
+      "cited_urls": [
+        "https://chgis.fas.harvard.edu/tools/"
+      ],
+      "locations": [
+        {
+          "chapter": "ch14.md",
+          "section": "14.1",
+          "baseline_line": 71
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "CHGIS查询和时间地名服务入口",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 46,
+      "evidence_locator": "官方Tools列原搜索迁入Temporal Gazetteer API及地图索引"
+    },
+    {
+      "url": "https://ascdc.sinica.edu.tw/databases/page/3",
+      "cited_urls": [
+        "https://ascdc.sinica.edu.tw/databases/page/3"
+      ],
+      "locations": [
+        {
+          "chapter": "ch14.md",
+          "section": "14.1",
+          "baseline_line": 72
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "中研院系统主要收明清至今政区地名，三种检索与层级浏览",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 47,
+      "evidence_locator": "数字文化中心资料库第3页：中国历史地名查询系统条目第59—61行"
+    },
+    {
+      "url": "https://newarchive.ihp.sinica.edu.tw/hplname/",
+      "cited_urls": [
+        "https://newarchive.ihp.sinica.edu.tw/hplname/"
+      ],
+      "locations": [
+        {
+          "chapter": "ch14.md",
+          "section": "14.1",
+          "baseline_line": 72
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "系统建置范围及地名、地图、坐标查询和树状行政浏览",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 48,
+      "evidence_locator": "系统首页所链建置说明placename/build第32—35行及basic实际检索字段；未做用户资料查询"
+    },
+    {
+      "url": "https://docs.whgazetteer.org/content/technical/apis.html",
+      "cited_urls": [
+        "https://docs.whgazetteer.org/content/technical/apis.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch14.md",
+          "section": "14.1",
+          "baseline_line": 73
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "WHG实体元数据与名称调和提供候选，非身份裁决",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 49,
+      "evidence_locator": "Entity API§2.1及Reconciliation§2.2；第371—372行明确candidate suggester而非adjudicator"
+    },
+    {
+      "url": "https://blogs.loc.gov/maps/2021/01/georeferencing-moving-analog-maps-into-modern-day-gis/",
+      "cited_urls": [
+        "https://blogs.loc.gov/maps/2021/01/georeferencing-moving-analog-maps-into-modern-day-gis/"
+      ],
+      "locations": [
+        {
+          "chapter": "ch14.md",
+          "section": "14.2",
+          "baseline_line": 145
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "配准以同地点控制点连接扫描图与有空间参考图层，控制点须分布合理",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 50,
+      "evidence_locator": "美国国会图书馆文章第214—220行"
+    },
+    {
+      "url": "https://documentation.qgis.org/3.44/en/docs/user_manual/managing_data_source/georeferencer.html",
+      "cited_urls": [
+        "https://documentation.qgis.org/3.44/en/docs/user_manual/managing_data_source/georeferencer.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch14.md",
+          "section": "14.2",
+          "baseline_line": 147
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "GCP坐标记录、仿射最低3点、算法选择与残差、重采样",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 51,
+      "evidence_locator": "QGIS3.44 Georeferencer§11.3.1—11.3.2；Polynomial1第101行及Residual Units第193行"
+    },
+    {
+      "url": "https://proj.org/en/stable/faq.html",
+      "cited_urls": [
+        "https://proj.org/en/stable/faq.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch14.md",
+          "section": "14.3",
+          "baseline_line": 219
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "EPSG4326正式轴序与常见GIS经纬顺序不能混同",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 52,
+      "evidence_locator": "PROJ FAQ轴序段第76—107行；4326 WKT latitude/longitude"
+    },
+    {
+      "url": "https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectorgeneral.html",
+      "cited_urls": [
+        "https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectorgeneral.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch14.md",
+          "section": "14.3",
+          "baseline_line": 221
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "Assign projection改解释不变几何，Reproject实际变换",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 53,
+      "evidence_locator": "QGIS Vector general Assign projection第69—73行与Reproject layer第1134—1136行"
+    },
+    {
+      "url": "https://www.ogc.org/standards/sfa/",
+      "cited_urls": [
+        "https://www.ogc.org/standards/sfa/"
+      ],
+      "locations": [
+        {
+          "chapter": "ch14.md",
+          "section": "14.3",
+          "baseline_line": 222
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "简单要素提供点曲线表面集合与空间参考共同模型",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 54,
+      "evidence_locator": "OGC SFA Part1官方标准入口第523行；正文不声称课堂程序完整实现标准"
+    },
+    {
+      "url": "https://chgis.fas.harvard.edu/pages/intro/",
+      "cited_urls": [
+        "https://chgis.fas.harvard.edu/pages/intro/"
+      ],
+      "locations": [
+        {
+          "chapter": "ch14.md",
+          "section": "14.4",
+          "baseline_line": 296
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "CHGIS追踪地名、行政状态及位置变化，时片与时序可连接用户数据",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 55,
+      "evidence_locator": "CHGIS Intro第36—39行"
+    },
+    {
+      "url": "https://chgis.fas.harvard.edu/work/docs/papers/chgis_dbase_web_0806.pdf",
+      "cited_urls": [
+        "https://chgis.fas.harvard.edu/work/docs/papers/chgis_dbase_web_0806.pdf"
+      ],
+      "locations": [
+        {
+          "chapter": "ch14.md",
+          "section": "14.4",
+          "baseline_line": 298
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "时空实例、属性版本和时间查询的设计",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 56,
+      "evidence_locator": "Berman原PDF第1页row-versioned设计及第10—15页时空实例、属性变化、先后关系；不为S/T虚构输入背书"
+    },
+    {
+      "url": "https://docs.qgis.org/3.44/en/docs/user_manual/managing_data_source/georeferencer.html",
+      "cited_urls": [
+        "https://docs.qgis.org/3.44/en/docs/user_manual/managing_data_source/georeferencer.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch14.md",
+          "section": "14.5",
+          "baseline_line": 367
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "残差及单位、GCP与地图配准不确定性",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 57,
+      "evidence_locator": "docs.qgis.org同版Georeferencer第109、193行；与ID51为不同主机URL的同一手册内容，不重复当独立证据"
+    },
+    {
+      "url": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/spatial-statistics/average-nearest-neighbor.html",
+      "cited_urls": [
+        "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/spatial-statistics/average-nearest-neighbor.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch15.md",
+          "section": "15.1",
+          "baseline_line": 65
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "研究面积改变最近邻推断，shapefile空值有变零等风险",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 58,
+      "evidence_locator": "Esri Average Nearest Neighbor第20—25、39行；本章未实现该检验"
+    },
+    {
+      "url": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/spatial-statistics/modeling-spatial-relationships.html",
+      "cited_urls": [
+        "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/spatial-statistics/modeling-spatial-relationships.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch15.md",
+          "section": "15.2",
+          "baseline_line": 133
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "空间关系、距离带、欧氏/曼哈顿、行标准化须声明",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 59,
+      "evidence_locator": "Esri Modeling spatial relationships对应标题与第18—28、69—109行"
+    },
+    {
+      "url": "https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.shortest_paths.weighted.single_source_dijkstra.html",
+      "cited_urls": [
+        "https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.shortest_paths.weighted.single_source_dijkstra.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch15.md",
+          "section": "15.2",
+          "baseline_line": 135
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "Dijkstra边代价与最短距离/路径输出及负权限制",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 60,
+      "evidence_locator": "NetworkX single_source_dijkstra参数Returns/Notes，第155行负权及浮点数值风险"
+    },
+    {
+      "url": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/spatial-analyst/how-kernel-density-works.html",
+      "cited_urls": [
+        "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/spatial-analyst/how-kernel-density-works.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch15.md",
+          "section": "15.3",
+          "baseline_line": 201
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "核密度位置、权重、搜索半径、面积单位不同",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 61,
+      "evidence_locator": "Esri How Kernel Density works第15—21、38—58行；此实现quartic核，不把工具结果当本章已运行"
+    },
+    {
+      "url": "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/spatial-statistics/h-how-spatial-autocorrelation-moran-s-i-spatial-st.html",
+      "cited_urls": [
+        "https://doc.esri.com/en/arcgis-pro/latest/tool-reference/spatial-statistics/h-how-spatial-autocorrelation-moran-s-i-spatial-st.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch15.md",
+          "section": "15.3",
+          "baseline_line": 203
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "全局Moran描述属性关联，零假设与全局/局部意义不同",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 62,
+      "evidence_locator": "Esri Global Moran第34—43及69—72行；精确教学公式另由ID63直接支持"
+    },
+    {
+      "url": "https://geodacenter.github.io/workbook/5a_global_auto/lab5a.html",
+      "cited_urls": [
+        "https://geodacenter.github.io/workbook/5a_global_auto/lab5a.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch15.md",
+          "section": "15.3",
+          "baseline_line": 205
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "Moran权重公式、置换零假设和抽样伪p值",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 63,
+      "evidence_locator": "GeoDa Workbook第87—100行；正文全部720枚举已含观察排列，区别于此页随机抽样+1修正"
+    },
+    {
+      "url": "https://gistbok-ltb.ucgis.org/current/concept/FC-07-026",
+      "cited_urls": [
+        "https://gistbok-ltb.ucgis.org/current/concept/FC-07-026"
+      ],
+      "locations": [
+        {
+          "chapter": "ch15.md",
+          "section": "15.5",
+          "baseline_line": 347
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "MAUP尺度与分区不同，聚合结果不能当个体事实",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 64,
+      "evidence_locator": "Mennis2019原文摘要、定义及Scale vs Zoning第65—73行"
+    },
+    {
+      "url": "https://blogs.loc.gov/teachers/2012/03/primary-source-analysis-tool-forming-good-questions/",
+      "cited_urls": [
+        "https://blogs.loc.gov/teachers/2012/03/primary-source-analysis-tool-forming-good-questions/"
+      ],
+      "locations": [
+        {
+          "chapter": "ch15.md",
+          "section": "15.6",
+          "baseline_line": 421
+        }
+      ],
+      "status": "ACCESS_BLOCKED",
+      "checked_claim": "国会图书馆由观察反思形成史料问题的教学主张；原页面本轮未读",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 65,
+      "evidence_locator": "2026-10-30 web返回403 Forbidden；未重复请求或绕过"
+    },
+    {
+      "url": "https://www.historians.org/resource/statement-on-standards-of-professional-conduct/",
+      "cited_urls": [
+        "https://www.historians.org/resource/statement-on-standards-of-professional-conduct/"
+      ],
+      "locations": [
+        {
+          "chapter": "ch15.md",
+          "section": "15.6",
+          "baseline_line": 423
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "忠实处理记录、保留证据路径、不伪造歪曲隐去反例",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 66,
+      "evidence_locator": "AHA Statement第184—193及214—215行"
+    },
+    {
+      "url": "https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html",
+      "cited_urls": [
+        "https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html",
+        "https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html#E41"
+      ],
+      "locations": [
+        {
+          "chapter": "ch16.md",
+          "section": "16.1",
+          "baseline_line": 69
+        },
+        {
+          "chapter": "ch16.md",
+          "section": "16.3",
+          "baseline_line": 151
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "人物群体事件、参与成员关系和称谓分开建模",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 67,
+      "evidence_locator": "CIDOC CRM7.1.3：E21/E74、E41 Scope note，P11与P107 Domain/Range/Scope note；仅借概念非合规实现"
+    },
+    {
+      "url": "https://docs.python.org/3/library/stdtypes.html",
+      "cited_urls": [
+        "https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str"
+      ],
+      "locations": [
+        {
+          "chapter": "ch16.md",
+          "section": "16.2",
+          "baseline_line": 137
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "Python str是不变Unicode码点序列、索引与片段",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 68,
+      "evidence_locator": "Python官方Text Sequence Type—str第904—918行；当前链接重定向/3/builtins/stdtypes.html"
+    },
+    {
+      "url": "https://networkx.org/documentation/stable/reference/algorithms/bipartite.html",
+      "cited_urls": [
+        "https://networkx.org/documentation/stable/reference/algorithms/bipartite.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch16.md",
+          "section": "16.5",
+          "baseline_line": 290
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "二模集合标记是约定，不自动强制跨集合边条件",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 69,
+      "evidence_locator": "NetworkX Bipartite第100行"
+    },
+    {
+      "url": "https://transnationalhistory.net/interconnected/wp-content/uploads/2015/05/Lemlercier-Networks.pdf",
+      "cited_urls": [
+        "https://transnationalhistory.net/interconnected/wp-content/uploads/2015/05/Lemlercier-Networks.pdf"
+      ],
+      "locations": [
+        {
+          "chapter": "ch17.md",
+          "section": "17.1",
+          "baseline_line": 44
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "研究须定义对象关系时间，边界限定中心与孤立解释",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 70,
+      "evidence_locator": "Lemercier原PDF Networks and historical sources，第7页第289—309行；明确centrality/isolation相对于所观察节点与关系"
+    },
+    {
+      "url": "https://networkx.org/documentation/stable/reference/generated/networkx.classes.function.density.html",
+      "cited_urls": [
+        "https://networkx.org/documentation/stable/reference/generated/networkx.classes.function.density.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch17.md",
+          "section": "17.2",
+          "baseline_line": 55
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "简单图无向和有向密度分母不同，多重图可超过1",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 71,
+      "evidence_locator": "NetworkX density第65—77行"
+    },
+    {
+      "url": "https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.components.is_strongly_connected.html",
+      "cited_urls": [
+        "https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.components.is_strongly_connected.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch17.md",
+          "section": "17.2",
+          "baseline_line": 71
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "强连通要求任一顶点可从任一另一顶点到达",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 72,
+      "evidence_locator": "NetworkX is_strongly_connected第100行"
+    },
+    {
+      "url": "https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.components.is_weakly_connected.html",
+      "cited_urls": [
+        "https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.components.is_weakly_connected.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch17.md",
+          "section": "17.2",
+          "baseline_line": 71
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "弱连通为忽略方向后的连通",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 73,
+      "evidence_locator": "NetworkX is_weakly_connected第100—102行"
+    },
+    {
+      "url": "https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.centrality.degree_centrality.html",
+      "cited_urls": [
+        "https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.centrality.degree_centrality.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch17.md",
+          "section": "17.3",
+          "baseline_line": 102
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "度中心性按简单图最大度n-1归一",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 74,
+      "evidence_locator": "NetworkX degree_centrality第132—134行"
+    },
+    {
+      "url": "https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.bridges.bridges.html",
+      "cited_urls": [
+        "https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.bridges.bridges.html"
+      ],
+      "locations": [
+        {
+          "chapter": "ch17.md",
+          "section": "17.3",
+          "baseline_line": 129
+        }
+      ],
+      "status": "SUPPORTED",
+      "checked_claim": "桥为删边增加连通分量数的无向边",
+      "note": "仅核实际所引主张；非全文审查、资料集观测复现或教学史实认证。",
+      "followup_id": 75,
+      "evidence_locator": "NetworkX bridges第100行"
+    }
+  ],
+  "summary": {
+    "SUPPORTED": 70,
+    "SUPPORTED_WITH_SCOPE_LIMIT": 2,
+    "ACCESS_BLOCKED": 3
+  },
+  "complete": true,
+  "new_manuscript_corrections_from_followup": 0
+}

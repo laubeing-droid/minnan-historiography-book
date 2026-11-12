@@ -1,0 +1,301 @@
+--- baseline/ch12/README.md
++++ revision/ch12/README.md
+@@ -1,4 +1,6 @@
+ # 第12章操作材料
++
++> **2026-10-30 复算更新：** 本页下文的 `NOT_RUN`、未运行、尚未生成等文字保留为初次编制交付的历史状态，不代表本次验收结论。当前逐项状态见 [REVIEW_20261030.json](REVIEW_20261030.json)，实际命令、结果与限制见 [复算报告](../../../reports/ch12_17_recomputation.md)。 预处理与接口已实跑；ACF 四数公式、窗口计划已独立核算；未提供实现的 ADF/KPSS/STL 等诊断仍未运行。
+ 
+ 本包配合《时间序列任务 数据条件与预处理》。先用小型人工资料看清加载、缺失、时间可用性、尺度变换和窗口边界，再决定真实材料是否适合进入第13章。**所有观测数值都是人工编写的教学数据，不是海关统计或其他历史实测；脚本发布状态为NOT_RUN。** 本次完成的是写作与附件，不含预处理运行结果、统计检验、模型拟合或预测分数。
+ 
+--- baseline/ch13/13.1/README.md
++++ revision/ch13/13.1/README.md
+@@ -1,4 +1,6 @@
+ # 第13.1节附件说明
++
++> **2026-10-30 复算更新：** 本节当前状态为 `EXECUTED_PASS`。下文 `NOT_RUN` 等为原始编制状态；本次记录见 [章节验收状态](../REVIEW_20261030.json) 与 [复算报告](../../../../reports/ch12_17_recomputation.md)。
+ 
+ 状态：NOT_RUN。新编教学附件，不是原程序恢复。没有执行学术计算、模型拟合、回测、测试或校对验收。
+ 
+--- baseline/ch13/13.10/README.md
++++ revision/ch13/13.10/README.md
+@@ -1,4 +1,6 @@
+ # 第13.10节附件说明
++
++> **2026-10-30 复算更新：** 本节当前状态为 `DEVELOPMENT_PASS_TEST_INTENTIONALLY_NOT_RUN`。下文 `NOT_RUN` 等为原始编制状态；本次记录见 [章节验收状态](../REVIEW_20261030.json) 与 [复算报告](../../../../reports/ch12_17_recomputation.md)。
+ 
+ 状态：NOT_RUN。新编教学附件，不是原程序恢复。没有执行学术计算、模型拟合、回测、测试或校对验收。
+ 
+--- baseline/ch13/13.2/README.md
++++ revision/ch13/13.2/README.md
+@@ -1,4 +1,6 @@
+ # 第13.2节附件说明
++
++> **2026-10-30 复算更新：** 本节当前状态为 `EXECUTED_PASS_WITH_DIAGNOSTIC_LIMITATIONS`。下文 `NOT_RUN` 等为原始编制状态；本次记录见 [章节验收状态](../REVIEW_20261030.json) 与 [复算报告](../../../../reports/ch12_17_recomputation.md)。
+ 
+ 状态：NOT_RUN。新编教学附件，不是原程序恢复。没有执行学术计算、模型拟合、回测、测试或校对验收。
+ 
+--- baseline/ch13/13.3/README.md
++++ revision/ch13/13.3/README.md
+@@ -1,4 +1,6 @@
+ # 第13.3节附件说明
++
++> **2026-10-30 复算更新：** 本节当前状态为 `EXECUTED_PASS_WITH_SARIMA_START_WARNING`。下文 `NOT_RUN` 等为原始编制状态；本次记录见 [章节验收状态](../REVIEW_20261030.json) 与 [复算报告](../../../../reports/ch12_17_recomputation.md)。
+ 
+ 状态：NOT_RUN。新编教学附件，不是原程序恢复。没有执行学术计算、模型拟合、回测、测试或校对验收。
+ 
+--- baseline/ch13/13.4/README.md
++++ revision/ch13/13.4/README.md
+@@ -1,4 +1,6 @@
+ # 第13.4节附件说明
++
++> **2026-10-30 复算更新：** 本节当前状态为 `EXECUTED_PASS_POINT_TEST_ONLY`。下文 `NOT_RUN` 等为原始编制状态；本次记录见 [章节验收状态](../REVIEW_20261030.json) 与 [复算报告](../../../../reports/ch12_17_recomputation.md)。
+ 
+ 状态：NOT_RUN。新编教学附件，不是原程序恢复。没有执行学术计算、模型拟合、回测、测试或校对验收。
+ 
+--- baseline/ch13/13.5/README.md
++++ revision/ch13/13.5/README.md
+@@ -1,4 +1,6 @@
+ # 第13.5节附件说明
++
++> **2026-10-30 复算更新：** 本节当前状态为 `EXECUTED_PASS`。下文 `NOT_RUN` 等为原始编制状态；本次记录见 [章节验收状态](../REVIEW_20261030.json) 与 [复算报告](../../../../reports/ch12_17_recomputation.md)。
+ 
+ 状态：NOT_RUN。新编教学附件，不是原程序恢复。没有执行学术计算、模型拟合、回测、测试或校对验收。
+ 
+--- baseline/ch13/13.6/README.md
++++ revision/ch13/13.6/README.md
+@@ -1,4 +1,6 @@
+ # 第13.6节附件说明
++
++> **2026-10-30 复算更新：** 本节当前状态为 `EXECUTED_PASS`。下文 `NOT_RUN` 等为原始编制状态；本次记录见 [章节验收状态](../REVIEW_20261030.json) 与 [复算报告](../../../../reports/ch12_17_recomputation.md)。
+ 
+ 状态：NOT_RUN。新编教学附件，不是原程序恢复。没有执行学术计算、模型拟合、回测、测试或校对验收。
+ 
+--- baseline/ch13/13.7/README.md
++++ revision/ch13/13.7/README.md
+@@ -1,4 +1,6 @@
+ # 第13.7节附件说明
++
++> **2026-10-30 复算更新：** 本节当前状态为 `EXECUTED_PASS_AFTER_FIX`。下文 `NOT_RUN` 等为原始编制状态；本次记录见 [章节验收状态](../REVIEW_20261030.json) 与 [复算报告](../../../../reports/ch12_17_recomputation.md)。
+ 
+ 状态：NOT_RUN。新编教学附件，不是原程序恢复。没有执行学术计算、模型拟合、回测、测试或校对验收。
+ 
+--- baseline/ch13/13.8/README.md
++++ revision/ch13/13.8/README.md
+@@ -1,4 +1,6 @@
+ # 第13.8节附件说明
++
++> **2026-10-30 复算更新：** 本节当前状态为 `EXECUTED_PASS`。下文 `NOT_RUN` 等为原始编制状态；本次记录见 [章节验收状态](../REVIEW_20261030.json) 与 [复算报告](../../../../reports/ch12_17_recomputation.md)。
+ 
+ 状态：NOT_RUN。新编教学附件，不是原程序恢复。没有执行学术计算、模型拟合、回测、测试或校对验收。
+ 
+--- baseline/ch13/13.9/README.md
++++ revision/ch13/13.9/README.md
+@@ -1,4 +1,6 @@
+ # 第13.9节附件说明
++
++> **2026-10-30 复算更新：** 本节当前状态为 `EXECUTED_PASS_OPTUNA_TEST_NOT_EVALUATED`。下文 `NOT_RUN` 等为原始编制状态；本次记录见 [章节验收状态](../REVIEW_20261030.json) 与 [复算报告](../../../../reports/ch12_17_recomputation.md)。
+ 
+ 状态：NOT_RUN。新编教学附件，不是原程序恢复。没有执行学术计算、模型拟合、回测、测试或校对验收。
+ 
+--- baseline/ch13/README.md
++++ revision/ch13/README.md
+@@ -1,4 +1,6 @@
+ # 第13章教学附件
++
++> **2026-10-30 复算更新：** 本页下文的 `NOT_RUN`、未运行、尚未生成等文字保留为初次编制交付的历史状态，不代表本次验收结论。当前逐项状态见 [REVIEW_20261030.json](REVIEW_20261030.json)，实际命令、结果与限制见 [复算报告](../../../reports/ch12_17_recomputation.md)。 标准库及获准隔离安装后的 statsmodels、Optuna 流程均已实跑；统计模型保留实际诊断警告，Holt-Winters 仅点预测。13.10 测试及 Optuna 最终测试仍按协议不评价。
+ 
+ 全部新程序状态为NOT_RUN。新编输入、代码与说明已实交；不存在未运行却声称生成的结果。原13章精确60期输入与程序未恢复，本包明确提供替代教学实现，不对旧模型结果作恢复承诺。
+ 
+--- baseline/ch13/workflow.py
++++ revision/ch13/workflow.py
+@@ -138,6 +138,11 @@
+  return out
+ 
+ def backtest(d,section,out,phase,selection):
++ # A candidate id alone is not a frozen configuration. Bind the declared
++ # windows, filling rules, task plan and score cutoffs to the validation lock.
++ # Truth is deliberately excluded: it is evaluator data, never a predictor input.
++ protocol_keys=['candidates','validation_origins','test_origins','horizons','validation_cutoff','test_cutoff','min_train']
++ protocol_hash=hashlib.sha256(json.dumps({k:d[k] for k in protocol_keys},sort_keys=True).encode()).hexdigest()
+  candidates=d['candidates'];origins=d['validation_origins'];cutoff=d['validation_cutoff']
+  if phase=='test':
+   if section==10:raise ValueError('ablation test is intentionally NOT_RUN; old test cannot be a new blind test')
+@@ -145,6 +150,7 @@
+   lock=json.loads(Path(selection).read_text());candidates=[c for c in candidates if c['id']==lock['selected']]
+   if not candidates:raise ValueError('selected candidate absent')
+   if lock['history_sha256']!=hashlib.sha256(json.dumps(d['history'],sort_keys=True).encode()).hexdigest():raise ValueError('history changed after selection')
++  if lock.get('protocol_sha256')!=protocol_hash:raise ValueError('protocol changed or legacy lock lacks protocol digest; rerun validation in a new directory')
+   origins=d['test_origins'];cutoff=d['test_cutoff']
+  fits=[];rows=[]
+  for c in candidates:
+@@ -153,7 +159,7 @@
+  if phase=='validation':
+   eligible=[r for r in summary if r['eligible']]
+   selected=min(eligible,key=lambda r:(r['MAE'],r['candidate']))['candidate'] if eligible else None
+-  lock={'selected':selected,'selection_basis':'validation only','history_sha256':hashlib.sha256(json.dumps(d['history'],sort_keys=True).encode()).hexdigest()}
++  lock={'selected':selected,'selection_basis':'validation only','history_sha256':hashlib.sha256(json.dumps(d['history'],sort_keys=True).encode()).hexdigest(),'protocol_sha256':protocol_hash}
+   (out/'selection.json').write_text(json.dumps(lock,indent=2),encoding='utf8');result['selection']=lock
+  if section==10:
+   keys=set.intersection(*[{(r['origin'],r['horizon']) for r in rows if r['candidate']==c['id'] and r['error'] is not None} for c in candidates])
+--- baseline/ch14/14.1/README.md
++++ revision/ch14/14.1/README.md
+@@ -1,4 +1,6 @@
+ # 第14.1节教学附件
++
++> **2026-10-30 复算更新：** 本节当前状态为 `EXECUTED_PASS`。下文 `NOT_RUN` 等为原始编制状态；本次记录见 [章节验收状态](../REVIEW_20261030.json) 与 [复算报告](../../../../reports/ch12_17_recomputation.md)。
+ 
+ 状态：`NOT_RUN`。数据和程序均依据本节可见教材例重新编制；不是找回的原始附件，也不是真实历史观察。未运行脚本、未生成成绩、未执行测试。
+ 
+--- baseline/ch14/14.2/README.md
++++ revision/ch14/14.2/README.md
+@@ -1,4 +1,6 @@
+ # 第14.2节教学附件
++
++> **2026-10-30 复算更新：** 本节当前状态为 `EXECUTED_PASS`。下文 `NOT_RUN` 等为原始编制状态；本次记录见 [章节验收状态](../REVIEW_20261030.json) 与 [复算报告](../../../../reports/ch12_17_recomputation.md)。
+ 
+ 状态：`NOT_RUN`。数据和程序均依据本节可见教材例重新编制；不是找回的原始附件，也不是真实历史观察。未运行脚本、未生成成绩、未执行测试。
+ 
+--- baseline/ch14/14.3/README.md
++++ revision/ch14/14.3/README.md
+@@ -1,4 +1,6 @@
+ # 第14.3节教学附件
++
++> **2026-10-30 复算更新：** 本节当前状态为 `EXECUTED_PASS`。下文 `NOT_RUN` 等为原始编制状态；本次记录见 [章节验收状态](../REVIEW_20261030.json) 与 [复算报告](../../../../reports/ch12_17_recomputation.md)。
+ 
+ 状态：`NOT_RUN`。数据和程序均依据本节可见教材例重新编制；不是找回的原始附件，也不是真实历史观察。未运行脚本、未生成成绩、未执行测试。
+ 
+--- baseline/ch14/14.4/README.md
++++ revision/ch14/14.4/README.md
+@@ -1,4 +1,6 @@
+ # 第14.4节教学附件
++
++> **2026-10-30 复算更新：** 本节当前状态为 `EXECUTED_PASS`。下文 `NOT_RUN` 等为原始编制状态；本次记录见 [章节验收状态](../REVIEW_20261030.json) 与 [复算报告](../../../../reports/ch12_17_recomputation.md)。
+ 
+ 状态：`NOT_RUN`。数据和程序均依据本节可见教材例重新编制；不是找回的原始附件，也不是真实历史观察。未运行脚本、未生成成绩、未执行测试。
+ 
+--- baseline/ch14/14.5/README.md
++++ revision/ch14/14.5/README.md
+@@ -1,4 +1,6 @@
+ # 第14.5节教学附件
++
++> **2026-10-30 复算更新：** 本节当前状态为 `EXECUTED_PASS`。下文 `NOT_RUN` 等为原始编制状态；本次记录见 [章节验收状态](../REVIEW_20261030.json) 与 [复算报告](../../../../reports/ch12_17_recomputation.md)。
+ 
+ 状态：`NOT_RUN`。数据和程序均依据本节可见教材例重新编制；不是找回的原始附件，也不是真实历史观察。未运行脚本、未生成成绩、未执行测试。
+ 
+--- baseline/ch14/README.md
++++ revision/ch14/README.md
+@@ -1,4 +1,6 @@
+ # 第14章附件索引
++
++> **2026-10-30 复算更新：** 本页下文的 `NOT_RUN`、未运行、尚未生成等文字保留为初次编制交付的历史状态，不代表本次验收结论。当前逐项状态见 [REVIEW_20261030.json](REVIEW_20261030.json)，实际命令、结果与限制见 [复算报告](../../../reports/ch12_17_recomputation.md)。 教学计算已实跑并独立核验，不等于真实史事或人工裁定已获验证。
+ 
+ 本包由独立教学小例组成，不是一份真实地方史样本。新编工作流workflow.py与逐节input.json配套；全部为NOT_RUN，未执行学术计算或校对。
+ 
+--- baseline/ch15/15.1/README.md
++++ revision/ch15/15.1/README.md
+@@ -1,4 +1,6 @@
+ # 第15.1节教学附件
++
++> **2026-10-30 复算更新：** 本节当前状态为 `EXECUTED_PASS`。下文 `NOT_RUN` 等为原始编制状态；本次记录见 [章节验收状态](../REVIEW_20261030.json) 与 [复算报告](../../../../reports/ch12_17_recomputation.md)。
+ 
+ 状态：`NOT_RUN`。数据和程序均依据本节可见教材例重新编制；不是找回的原始附件，也不是真实历史观察。未运行脚本、未生成成绩、未执行测试。
+ 
+--- baseline/ch15/15.2/README.md
++++ revision/ch15/15.2/README.md
+@@ -1,4 +1,6 @@
+ # 第15.2节教学附件
++
++> **2026-10-30 复算更新：** 本节当前状态为 `EXECUTED_PASS`。下文 `NOT_RUN` 等为原始编制状态；本次记录见 [章节验收状态](../REVIEW_20261030.json) 与 [复算报告](../../../../reports/ch12_17_recomputation.md)。
+ 
+ 状态：`NOT_RUN`。数据和程序均依据本节可见教材例重新编制；不是找回的原始附件，也不是真实历史观察。未运行脚本、未生成成绩、未执行测试。
+ 
+--- baseline/ch15/15.3/README.md
++++ revision/ch15/15.3/README.md
+@@ -1,4 +1,6 @@
+ # 第15.3节教学附件
++
++> **2026-10-30 复算更新：** 本节当前状态为 `EXECUTED_PASS_AFTER_FIX`。下文 `NOT_RUN` 等为原始编制状态；本次记录见 [章节验收状态](../REVIEW_20261030.json) 与 [复算报告](../../../../reports/ch12_17_recomputation.md)。
+ 
+ 状态：`NOT_RUN`。数据和程序均依据本节可见教材例重新编制；不是找回的原始附件，也不是真实历史观察。未运行脚本、未生成成绩、未执行测试。
+ 
+--- baseline/ch15/15.4/README.md
++++ revision/ch15/15.4/README.md
+@@ -1,4 +1,6 @@
+ # 第15.4节教学附件
++
++> **2026-10-30 复算更新：** 本节当前状态为 `EXECUTED_PASS`。下文 `NOT_RUN` 等为原始编制状态；本次记录见 [章节验收状态](../REVIEW_20261030.json) 与 [复算报告](../../../../reports/ch12_17_recomputation.md)。
+ 
+ 状态：`NOT_RUN`。数据和程序均依据本节可见教材例重新编制；不是找回的原始附件，也不是真实历史观察。未运行脚本、未生成成绩、未执行测试。
+ 
+--- baseline/ch15/15.5/README.md
++++ revision/ch15/15.5/README.md
+@@ -1,4 +1,6 @@
+ # 第15.5节教学附件
++
++> **2026-10-30 复算更新：** 本节当前状态为 `EXECUTED_PASS`。下文 `NOT_RUN` 等为原始编制状态；本次记录见 [章节验收状态](../REVIEW_20261030.json) 与 [复算报告](../../../../reports/ch12_17_recomputation.md)。
+ 
+ 状态：`NOT_RUN`。数据和程序均依据本节可见教材例重新编制；不是找回的原始附件，也不是真实历史观察。未运行脚本、未生成成绩、未执行测试。
+ 
+--- baseline/ch15/15.6/README.md
++++ revision/ch15/15.6/README.md
+@@ -1,4 +1,6 @@
+ # 第15.6节教学附件
++
++> **2026-10-30 复算更新：** 本节当前状态为 `EXECUTED_PASS`。下文 `NOT_RUN` 等为原始编制状态；本次记录见 [章节验收状态](../REVIEW_20261030.json) 与 [复算报告](../../../../reports/ch12_17_recomputation.md)。
+ 
+ 状态：`NOT_RUN`。数据和程序均依据本节可见教材例重新编制；不是找回的原始附件，也不是真实历史观察。未运行脚本、未生成成绩、未执行测试。
+ 
+--- baseline/ch15/README.md
++++ revision/ch15/README.md
+@@ -1,4 +1,6 @@
+ # 第15章附件索引
++
++> **2026-10-30 复算更新：** 本页下文的 `NOT_RUN`、未运行、尚未生成等文字保留为初次编制交付的历史状态，不代表本次验收结论。当前逐项状态见 [REVIEW_20261030.json](REVIEW_20261030.json)，实际命令、结果与限制见 [复算报告](../../../reports/ch12_17_recomputation.md)。 教学计算已实跑并独立核验，不等于真实史事或人工裁定已获验证。
+ 
+ 本包由独立教学小例组成，不是一份真实地方史样本。新编工作流workflow.py与逐节input.json配套；全部为NOT_RUN，未执行学术计算或校对。
+ 
+--- baseline/ch15/workflow.py
++++ revision/ch15/workflow.py
+@@ -103,8 +103,13 @@
+  rows=[]
+  for r in rs.values():
+   x1,y1,x2,y2=r['rect'];area=(x2-x1)*(y2-y1)/1000000
+-  if area<=0 or r['events']<0 or r['opportunities']<0:raise ValueError('invalid denominator or counts')
+-  rows.append({'id':r['id'],'area_km2':area,'events':r['events'],'density':r['events']/area,'opportunities':r['opportunities'],'rate':ratio(r['events'],r['opportunities'])})
++  if not math.isfinite(area) or area<=0:raise ValueError('invalid area denominator')
++  for key in ('events','opportunities'):
++   value=r[key]
++   if value is not None and (type(value) not in (int,float) or not math.isfinite(value) or value<0):raise ValueError('invalid denominator or counts')
++  # Unknown attributes remain unknown; keep the fixed region roster and let
++  # moran_values report missing_attribute rather than silently omit a region.
++  rows.append({'id':r['id'],'area_km2':area,'events':r['events'],'density':r['events']/area if r['events'] is not None else None,'opportunities':r['opportunities'],'rate':ratio(r['events'],r['opportunities'])})
+  vals=[r['events'] for r in rs.values()];obs,status=moran_values(vals,edges);perms=[];group_perms=[]
+  if obs is not None:
+   for perm in itertools.permutations(range(n)):
+@@ -116,7 +121,7 @@
+    for indices,perm in zip(groups.values(),gp):
+     for i,j in zip(indices,perm):new[i]=vals[j]
+    v,_=moran_values(new,edges);group_perms.append({'values':new,'I':str(v),'at_least_observed':v>=obs})
+- rate,rate_status=moran_values([F(r['events'],r['opportunities']) if r['opportunities'] else None for r in rs.values()],edges)
++ rate,rate_status=moran_values([F(str(r['events']))/F(str(r['opportunities'])) if r['events'] is not None and r['opportunities'] is not None and r['opportunities']>0 else None for r in rs.values()],edges)
+  return {'regions':rows,'global':{'I':str(obs) if obs is not None else None,'status':status,'exact_upper_tail':sum(x['at_least_observed'] for x in perms)/len(perms) if perms else None,'opportunity_I':str(rate) if rate is not None else None,'opportunity_status':rate_status,'within_group_upper_tail':sum(x['at_least_observed'] for x in group_perms)/len(group_perms) if group_perms else None,'group_reference_degenerate':len({p['I'] for p in group_perms})==1 if group_perms else None},'permutations':perms,'within_group_permutations':group_perms}
+ 
+ def compare(d):
+--- baseline/ch16/README.md
++++ revision/ch16/README.md
+@@ -1,4 +1,6 @@
+ # 第16章关系数据教学附件
++
++> **2026-10-30 复算更新：** 本页下文的 `NOT_RUN`、未运行、尚未生成等文字保留为初次编制交付的历史状态，不代表本次验收结论。当前逐项状态见 [REVIEW_20261030.json](REVIEW_20261030.json)，实际命令、结果与限制见 [复算报告](../../../reports/ch12_17_recomputation.md)。 教学计算已实跑并独立核验，不等于真实史事或人工裁定已获验证。
+ 
+ ## 性质与状态
+ 
+--- baseline/ch17/README.md
++++ revision/ch17/README.md
+@@ -1,4 +1,6 @@
+ # 第17章社会网络教学附件
++
++> **2026-10-30 复算更新：** 本页下文的 `NOT_RUN`、未运行、尚未生成等文字保留为初次编制交付的历史状态，不代表本次验收结论。当前逐项状态见 [REVIEW_20261030.json](REVIEW_20261030.json)，实际命令、结果与限制见 [复算报告](../../../reports/ch12_17_recomputation.md)。 教学计算已实跑并独立核验，不等于真实史事或人工裁定已获验证。
+ 
+ ## 性质与状态
+ 

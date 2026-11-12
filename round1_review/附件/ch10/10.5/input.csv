@@ -1,0 +1,5 @@
+id,item,rater,supported,complete,readable,reason
+A,Q1,甲,0,1,1,把拟议写成已经
+B,Q1,乙,1,1,1,误把流畅等同有据
+C,Q2,甲,1,1,1,保留事件状态
+D,Q2,乙,1,1,1,与材料相合

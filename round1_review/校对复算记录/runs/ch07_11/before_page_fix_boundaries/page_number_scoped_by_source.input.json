@@ -1,0 +1,31 @@
+{
+  "section": "7.6",
+  "title": "数据切分与泄漏检查",
+  "status": "EXECUTED_PASS",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "split",
+  "rows": [
+    {
+      "id": "a",
+      "person": "x",
+      "source": "A",
+      "page": "1",
+      "split": "train"
+    },
+    {
+      "id": "b",
+      "person": "y",
+      "source": "B",
+      "page": "1",
+      "split": "test"
+    }
+  ],
+  "config": {
+    "group_keys": [
+      "person",
+      "source",
+      "page"
+    ]
+  },
+  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
+}

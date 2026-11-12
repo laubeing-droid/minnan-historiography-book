@@ -1,0 +1,52 @@
+{
+  "section": "10.7",
+  "title": "Bootstrap置信区间",
+  "status": "NOT_RUN",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "bootstrap",
+  "rows": [
+    {
+      "id": "P01",
+      "source": "A",
+      "a": 1,
+      "b": 1
+    },
+    {
+      "id": "P02",
+      "source": "A",
+      "a": 0,
+      "b": 1
+    },
+    {
+      "id": "P03",
+      "source": "B",
+      "a": 0,
+      "b": 1
+    },
+    {
+      "id": "P04",
+      "source": "B",
+      "a": 1,
+      "b": 0
+    },
+    {
+      "id": "P05",
+      "source": "C",
+      "a": 1,
+      "b": 1
+    },
+    {
+      "id": "P06",
+      "source": "C",
+      "a": 0,
+      "b": 0
+    }
+  ],
+  "config": {
+    "seed": 17,
+    "resamples": 0,
+    "confidence": 0.95,
+    "unit": "source",
+    "method": "percentile"
+  }
+}

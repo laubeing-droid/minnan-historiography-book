@@ -1,0 +1,194 @@
+{
+  "distance_bounds": [
+    {
+      "position": "A_old",
+      "place": "甲",
+      "threshold": 250,
+      "minimum": 300.0,
+      "maximum": 800.0,
+      "status": "all_outside",
+      "evidence": "fiction:位置二候选"
+    },
+    {
+      "position": "A_old",
+      "place": "甲",
+      "threshold": 500,
+      "minimum": 300.0,
+      "maximum": 800.0,
+      "status": "mixed",
+      "evidence": "fiction:位置二候选"
+    },
+    {
+      "position": "A_old",
+      "place": "甲",
+      "threshold": 1000,
+      "minimum": 300.0,
+      "maximum": 800.0,
+      "status": "all_inside",
+      "evidence": "fiction:位置二候选"
+    },
+    {
+      "position": "A_new",
+      "place": "甲",
+      "threshold": 250,
+      "minimum": 300.0,
+      "maximum": 300.0,
+      "status": "all_outside",
+      "evidence": "fiction:教学新增证据排除800米候选"
+    },
+    {
+      "position": "A_new",
+      "place": "甲",
+      "threshold": 500,
+      "minimum": 300.0,
+      "maximum": 300.0,
+      "status": "all_inside",
+      "evidence": "fiction:教学新增证据排除800米候选"
+    },
+    {
+      "position": "A_new",
+      "place": "甲",
+      "threshold": 1000,
+      "minimum": 300.0,
+      "maximum": 300.0,
+      "status": "all_inside",
+      "evidence": "fiction:教学新增证据排除800米候选"
+    },
+    {
+      "position": "B",
+      "place": "乙",
+      "threshold": 250,
+      "minimum": 500.0,
+      "maximum": 500.0,
+      "status": "all_outside",
+      "evidence": "fiction:阈值端点"
+    },
+    {
+      "position": "B",
+      "place": "乙",
+      "threshold": 500,
+      "minimum": 500.0,
+      "maximum": 500.0,
+      "status": "all_inside",
+      "evidence": "fiction:阈值端点"
+    },
+    {
+      "position": "B",
+      "place": "乙",
+      "threshold": 1000,
+      "minimum": 500.0,
+      "maximum": 500.0,
+      "status": "all_inside",
+      "evidence": "fiction:阈值端点"
+    },
+    {
+      "position": "C",
+      "place": "丙",
+      "threshold": 250,
+      "minimum": 350.0,
+      "maximum": 550.0,
+      "status": "all_outside",
+      "evidence": "fiction:近似位置"
+    },
+    {
+      "position": "C",
+      "place": "丙",
+      "threshold": 500,
+      "minimum": 350.0,
+      "maximum": 550.0,
+      "status": "mixed",
+      "evidence": "fiction:近似位置"
+    },
+    {
+      "position": "C",
+      "place": "丙",
+      "threshold": 1000,
+      "minimum": 350.0,
+      "maximum": 550.0,
+      "status": "all_inside",
+      "evidence": "fiction:近似位置"
+    },
+    {
+      "position": "D",
+      "place": "丁",
+      "threshold": 250,
+      "minimum": 400.0,
+      "maximum": 707.1067811865476,
+      "status": "all_outside",
+      "evidence": "fiction:仅知范围"
+    },
+    {
+      "position": "D",
+      "place": "丁",
+      "threshold": 500,
+      "minimum": 400.0,
+      "maximum": 707.1067811865476,
+      "status": "mixed",
+      "evidence": "fiction:仅知范围"
+    },
+    {
+      "position": "D",
+      "place": "丁",
+      "threshold": 1000,
+      "minimum": 400.0,
+      "maximum": 707.1067811865476,
+      "status": "all_inside",
+      "evidence": "fiction:仅知范围"
+    },
+    {
+      "position": "E",
+      "place": "戊",
+      "threshold": 250,
+      "minimum": 1000.0,
+      "maximum": 1200.0,
+      "status": "all_outside",
+      "evidence": "fiction:远处二候选"
+    },
+    {
+      "position": "E",
+      "place": "戊",
+      "threshold": 500,
+      "minimum": 1000.0,
+      "maximum": 1200.0,
+      "status": "all_outside",
+      "evidence": "fiction:远处二候选"
+    },
+    {
+      "position": "E",
+      "place": "戊",
+      "threshold": 1000,
+      "minimum": 1000.0,
+      "maximum": 1200.0,
+      "status": "mixed",
+      "evidence": "fiction:远处二候选"
+    },
+    {
+      "position": "F",
+      "place": "己",
+      "threshold": 250,
+      "minimum": null,
+      "maximum": null,
+      "status": "unknown",
+      "evidence": "fiction:位置不详"
+    },
+    {
+      "position": "F",
+      "place": "己",
+      "threshold": 500,
+      "minimum": null,
+      "maximum": null,
+      "status": "unknown",
+      "evidence": "fiction:位置不详"
+    },
+    {
+      "position": "F",
+      "place": "己",
+      "threshold": 1000,
+      "minimum": null,
+      "maximum": null,
+      "status": "unknown",
+      "evidence": "fiction:位置不详"
+    }
+  ],
+  "probabilities_assumed": false
+}

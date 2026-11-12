@@ -1,0 +1,100 @@
+{
+  "fiction": true,
+  "crs": "LOCAL_TEACHING_METRE",
+  "reference": [
+    0,
+    0
+  ],
+  "thresholds": [
+    250,
+    500,
+    1000
+  ],
+  "positions": [
+    {
+      "id": "A_old",
+      "place": "甲",
+      "kind": "candidates",
+      "points": [
+        [
+          300,
+          0
+        ],
+        [
+          800,
+          0
+        ]
+      ],
+      "supersedes": null,
+      "evidence": "fiction:位置二候选"
+    },
+    {
+      "id": "A_new",
+      "place": "甲",
+      "kind": "candidates",
+      "points": [
+        [
+          300,
+          0
+        ]
+      ],
+      "supersedes": "A_old",
+      "evidence": "fiction:教学新增证据排除800米候选"
+    },
+    {
+      "id": "B",
+      "place": "乙",
+      "kind": "point",
+      "point": [
+        500,
+        0
+      ],
+      "evidence": "fiction:阈值端点"
+    },
+    {
+      "id": "C",
+      "place": "丙",
+      "kind": "circle",
+      "point": [
+        450,
+        0
+      ],
+      "radius": 100,
+      "evidence": "fiction:近似位置"
+    },
+    {
+      "id": "D",
+      "place": "丁",
+      "kind": "rectangle",
+      "rect": [
+        400,
+        -100,
+        700,
+        100
+      ],
+      "evidence": "fiction:仅知范围"
+    },
+    {
+      "id": "E",
+      "place": "戊",
+      "kind": "candidates",
+      "points": [
+        [
+          1000,
+          0
+        ],
+        [
+          1200,
+          0
+        ]
+      ],
+      "evidence": "fiction:远处二候选"
+    },
+    {
+      "id": "F",
+      "place": "己",
+      "kind": "unknown",
+      "evidence": "fiction:位置不详"
+    }
+  ]
+}

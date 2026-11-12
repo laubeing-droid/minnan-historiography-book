@@ -1,0 +1,87 @@
+{
+  "search": "random_140",
+  "selected": "C1",
+  "all_trials": [
+    {
+      "search": "random_140",
+      "seed": 140,
+      "trial": 0,
+      "candidate": "C1",
+      "validation_MAE": 1.0,
+      "status": "complete",
+      "error": null,
+      "elapsed_seconds": 3.735000063898042e-06
+    },
+    {
+      "search": "random_140",
+      "seed": 140,
+      "trial": 1,
+      "candidate": "C0",
+      "validation_MAE": 1.5,
+      "status": "complete",
+      "error": null,
+      "elapsed_seconds": 2.843999936885666e-06
+    },
+    {
+      "search": "random_140",
+      "seed": 140,
+      "trial": 2,
+      "candidate": "C4",
+      "validation_MAE": 1.654163029335115,
+      "status": "complete",
+      "error": null,
+      "elapsed_seconds": 4.857000021729618e-06
+    },
+    {
+      "search": "random_140",
+      "seed": 140,
+      "trial": 3,
+      "candidate": "C0",
+      "validation_MAE": 1.5,
+      "status": "complete",
+      "error": null,
+      "elapsed_seconds": 2.1230007405392826e-06
+    },
+    {
+      "search": "random_140",
+      "seed": 140,
+      "trial": 4,
+      "candidate": "C0",
+      "validation_MAE": 1.5,
+      "status": "complete",
+      "error": null,
+      "elapsed_seconds": 1.942999915627297e-06
+    },
+    {
+      "search": "random_140",
+      "seed": 140,
+      "trial": 5,
+      "candidate": "C3",
+      "validation_MAE": 1.6111111111111114,
+      "status": "complete",
+      "error": null,
+      "elapsed_seconds": 2.6039997464977205e-06
+    },
+    {
+      "search": "random_140",
+      "seed": 140,
+      "trial": 6,
+      "candidate": "C0",
+      "validation_MAE": 1.5,
+      "status": "complete",
+      "error": null,
+      "elapsed_seconds": 2.0229999790899456e-06
+    },
+    {
+      "search": "random_140",
+      "seed": 140,
+      "trial": 7,
+      "candidate": "C3",
+      "validation_MAE": 1.6111111111111114,
+      "status": "complete",
+      "error": null,
+      "elapsed_seconds": 2.684000719455071e-06
+    }
+  ],
+  "development_sha256": "640a4a0677dd0cb35f13eccc72de412345fbc3d2e6a8f9bf6f1ff8899423b2bf"
+}

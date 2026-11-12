@@ -1,0 +1,7 @@
+instance_id,subject,relation_type,object,directed,start_year,end_year,temporal_kind,event_id,assertion_ids,source_ids,reasons,scenario_identity_assumptions
+R7,P3,father,P1,True,,,unknown,,C7,S5,identity_pending:P3;relation_pending;unknown_date,
+R8,P3,participate,V1,True,1703,1703,event_year,V1,C8,S2,identity_pending:P3,
+R9,P1,acquainted,P2,False,1703,1703,event_year,,C9,H1,analysis_hypothesis;relation_pending,
+R10,P1,member,O1,True,1708,1709,continuous_support,,C10,S1,outside_window,
+R12,P4,member,O1,True,1702,1702,event_year,,C12,S1,relation_rejected,
+R13,P2,participate,V3,True,1708,1708,event_year,V3,C13,S2,outside_window,

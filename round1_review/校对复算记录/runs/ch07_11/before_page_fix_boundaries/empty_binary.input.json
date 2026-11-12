@@ -1,0 +1,10 @@
+{
+  "section": "8.1",
+  "title": "任务指标与简单基线",
+  "status": "EXECUTED_PASS",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "baseline",
+  "rows": [],
+  "config": {},
+  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
+}

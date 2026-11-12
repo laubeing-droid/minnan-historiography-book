@@ -1,0 +1,9 @@
+{
+  "status": "NOT_RUN",
+  "authored_on": "2026-10-30",
+  "new_teaching_inputs": true,
+  "original_program_recovered": false,
+  "academic_computation_executed": false,
+  "tests_executed": false,
+  "dependency_installation": false
+}

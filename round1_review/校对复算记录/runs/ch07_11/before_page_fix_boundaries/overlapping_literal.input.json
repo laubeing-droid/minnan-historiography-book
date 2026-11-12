@@ -1,0 +1,16 @@
+{
+  "section": "8.6",
+  "title": "AI 结对编程 输入输出契约与三遍审查",
+  "status": "EXECUTED_PASS",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "literal",
+  "rows": [
+    {
+      "id": "a",
+      "text": "aaa",
+      "needle": "aa"
+    }
+  ],
+  "config": {},
+  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
+}

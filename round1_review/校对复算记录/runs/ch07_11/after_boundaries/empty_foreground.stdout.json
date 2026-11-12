@@ -1,0 +1,24 @@
+{
+  "execution": "reader_invoked",
+  "input_provenance": "编者新编教学数据 非史实 非模型输出",
+  "section": "11.3",
+  "result": [
+    {
+      "id": "x",
+      "classes": {
+        "0": {
+          "intersection": 2,
+          "union": 2,
+          "iou": 1.0
+        },
+        "1": {
+          "intersection": 0,
+          "union": 0,
+          "iou": null
+        }
+      },
+      "miou_including_background": 1.0,
+      "foreground_iou": null
+    }
+  ]
+}

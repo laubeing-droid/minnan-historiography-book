@@ -1,0 +1,30 @@
+{
+  "execution": "reader_invoked",
+  "input_provenance": "编者新编教学数据 非史实 非模型输出",
+  "section": "8.7",
+  "result": {
+    "by_id": [
+      {
+        "id": "J01",
+        "gold": 1,
+        "prediction": 1
+      },
+      {
+        "id": "J02",
+        "gold": 0,
+        "prediction": 0
+      }
+    ],
+    "metrics": {
+      "n": 2,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "tn": 1,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  }
+}

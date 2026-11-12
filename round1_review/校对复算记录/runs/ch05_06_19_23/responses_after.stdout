@@ -1,0 +1,20 @@
+{
+  "scope": "ID and path checks only",
+  "rows": [
+    {
+      "comment_id": "R1",
+      "change_id": "M1",
+      "structural_errors": []
+    },
+    {
+      "comment_id": "R2",
+      "change_id": "M2",
+      "structural_errors": []
+    },
+    {
+      "comment_id": "R3",
+      "change_id": "M3",
+      "structural_errors": []
+    }
+  ]
+}

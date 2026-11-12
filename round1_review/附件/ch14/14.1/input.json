@@ -1,0 +1,191 @@
+{
+  "fiction": true,
+  "year_interval": "closed",
+  "names": [
+    {
+      "id": "N1",
+      "entity": "P001",
+      "name": "云汀",
+      "start": 1600,
+      "end": 1699,
+      "parent": "甲府",
+      "source": "F1"
+    },
+    {
+      "id": "N2",
+      "entity": "P001",
+      "name": "青汀",
+      "start": 1700,
+      "end": 1799,
+      "parent": "甲府",
+      "source": "F2"
+    },
+    {
+      "id": "N3",
+      "entity": "P002",
+      "name": "云汀",
+      "start": 1600,
+      "end": 1799,
+      "parent": "乙府",
+      "source": "F3"
+    },
+    {
+      "id": "N4",
+      "entity": "P003",
+      "name": "石汀",
+      "start": null,
+      "end": null,
+      "parent": null,
+      "source": "F4"
+    }
+  ],
+  "mentions": [
+    {
+      "id": "M01",
+      "name": "云汀",
+      "year": 1650,
+      "parent": "甲府",
+      "source": "F5",
+      "quote": "甲府云汀有渡。"
+    },
+    {
+      "id": "M02",
+      "name": "云汀",
+      "year": 1650,
+      "parent": null,
+      "source": "F6",
+      "quote": "云汀有渡。"
+    },
+    {
+      "id": "M03",
+      "name": "青汀",
+      "year": 1750,
+      "parent": "甲府",
+      "source": "F7",
+      "quote": "甲府青汀建桥。"
+    },
+    {
+      "id": "M04",
+      "name": "青汀",
+      "year": 1650,
+      "parent": "甲府",
+      "source": "F8",
+      "quote": "甲府青汀。"
+    },
+    {
+      "id": "M05",
+      "name": "石汀",
+      "year": null,
+      "parent": null,
+      "source": "F9",
+      "quote": "石汀。"
+    },
+    {
+      "id": "M06",
+      "name": "海汀",
+      "year": 1650,
+      "parent": null,
+      "source": "F10",
+      "quote": "海汀。"
+    },
+    {
+      "id": "M07",
+      "name": "云汀",
+      "year": 1650,
+      "parent": "乙府",
+      "source": "F11",
+      "quote": "乙府云汀。"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "J0",
+      "mention": "M07",
+      "entity": "P001",
+      "status": "superseded",
+      "supersedes": null,
+      "reason": "旧教学误判，保留不采用"
+    },
+    {
+      "id": "J1",
+      "mention": "M01",
+      "entity": "P001",
+      "status": "confirmed",
+      "supersedes": null,
+      "reason": "F5所记地域与F1相容"
+    },
+    {
+      "id": "J2",
+      "mention": "M03",
+      "entity": "P001",
+      "status": "confirmed",
+      "supersedes": null,
+      "reason": "F7与F2时期地域相容"
+    },
+    {
+      "id": "J3",
+      "mention": "M07",
+      "entity": "P002",
+      "status": "confirmed",
+      "supersedes": "J0",
+      "reason": "F11地域与F3相容"
+    }
+  ],
+  "sources": [
+    {
+      "id": "F1",
+      "locator": "教材虚构卡1",
+      "independent_history_evidence": false
+    },
+    {
+      "id": "F2",
+      "locator": "教材虚构卡2",
+      "independent_history_evidence": false
+    },
+    {
+      "id": "F3",
+      "locator": "教材虚构卡3",
+      "independent_history_evidence": false
+    },
+    {
+      "id": "F4",
+      "locator": "教材虚构卡4",
+      "independent_history_evidence": false
+    },
+    {
+      "id": "F5",
+      "locator": "教材虚构卡5",
+      "independent_history_evidence": false
+    },
+    {
+      "id": "F6",
+      "locator": "教材虚构卡6",
+      "independent_history_evidence": false
+    },
+    {
+      "id": "F7",
+      "locator": "教材虚构卡7",
+      "independent_history_evidence": false
+    },
+    {
+      "id": "F8",
+      "locator": "教材虚构卡8",
+      "independent_history_evidence": false
+    },
+    {
+      "id": "F9",
+      "locator": "教材虚构卡9",
+      "independent_history_evidence": false
+    },
+    {
+      "id": "F10",
+      "locator": "教材虚构卡10",
+      "independent_history_evidence": false
+    },
+    {
+      "id": "F11",
+      "locator": "教材虚构卡11",
+      "independent_history_evidence": false
+    }
+  ]
+}

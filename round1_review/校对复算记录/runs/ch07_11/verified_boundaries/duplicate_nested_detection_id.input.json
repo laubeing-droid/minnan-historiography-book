@@ -1,0 +1,140 @@
+{
+  "section": "11.7",
+  "title": "Top-1/mAP/mIoU指标族",
+  "status": "EXECUTED_PASS",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "vision_metrics",
+  "rows": [
+    {
+      "id": "K1",
+      "label": "seal",
+      "scores": {
+        "seal": 0.8,
+        "photo": 0.2
+      }
+    },
+    {
+      "id": "K2",
+      "label": "photo",
+      "scores": {
+        "seal": 0.6,
+        "photo": 0.4
+      }
+    }
+  ],
+  "config": {
+    "boxes": [
+      {
+        "id": "D01",
+        "image": "teaching_page",
+        "kind": "reference",
+        "label": "seal",
+        "score": 1,
+        "box": [
+          1,
+          1,
+          5,
+          5
+        ]
+      },
+      {
+        "id": "D01",
+        "image": "teaching_page",
+        "kind": "prediction",
+        "label": "seal",
+        "score": 0.9,
+        "box": [
+          1,
+          1,
+          5,
+          5
+        ]
+      },
+      {
+        "id": "D03",
+        "image": "teaching_page",
+        "kind": "prediction",
+        "label": "seal",
+        "score": 0.7,
+        "box": [
+          2,
+          1,
+          6,
+          5
+        ]
+      },
+      {
+        "id": "D04",
+        "image": "teaching_page",
+        "kind": "prediction",
+        "label": "text",
+        "score": 0.8,
+        "box": [
+          1,
+          1,
+          5,
+          5
+        ]
+      }
+    ],
+    "masks": [
+      {
+        "id": "M1",
+        "reference": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "prediction": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    ],
+    "iou_threshold": 0.5
+  },
+  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
+}

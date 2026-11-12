@@ -1,0 +1,21 @@
+{
+  "section": "7.4",
+  "title": "标注指南 一致性与歧义仲裁",
+  "status": "EXECUTED_PASS",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "agreement",
+  "rows": [
+    {
+      "id": "a",
+      "a": "same",
+      "b": "same"
+    },
+    {
+      "id": "b",
+      "a": "same",
+      "b": "same"
+    }
+  ],
+  "config": {},
+  "execution_scope": "2026-10-30本地标准库教学命令已执行；模型调用仍未执行。"
+}

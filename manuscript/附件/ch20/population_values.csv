@@ -1,0 +1,5 @@
+id,region,statistical_year,value,unit,source_url,locator,identity
+Q2010,泉州,2010,8128530,人,https://tjj.quanzhou.gov.cn/zwgk/zfxxgk/fdzdgknr/tjxx/tjgb/202101/t20210125_2502652.htm,全市常住人口段,继承正文来源整理
+Q2020,泉州,2020,8782285,人,https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598804.htm,表2-1泉州行,继承正文来源整理
+F2010,福建全省,2010,36894216,人,https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598797.htm,全省人口2010回溯比较值,继承正文来源整理
+F2020,福建全省,2020,41540086,人,https://tjj.fujian.gov.cn/xxgk/tjgb/202105/t20210520_5598797.htm,全省人口2020数,继承正文来源整理

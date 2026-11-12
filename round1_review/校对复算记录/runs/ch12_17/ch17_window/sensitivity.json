@@ -1,0 +1,2367 @@
+{
+  "base": {
+    "summary": {
+      "model": "simple_undirected_unweighted_existence",
+      "N": 8,
+      "M": 4,
+      "possible_pairs": 28,
+      "density_fraction": "1/7",
+      "density_decimal": 0.14285714285714285,
+      "component_sizes": [
+        5,
+        1,
+        1,
+        1
+      ],
+      "components": [
+        [
+          "C",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        [
+          "A"
+        ],
+        [
+          "B"
+        ],
+        [
+          "H"
+        ]
+      ],
+      "isolates": [
+        "A",
+        "B",
+        "H"
+      ],
+      "largest_component_share": "5/8",
+      "degree_sum": 8,
+      "degree_sum_reference_2M": 8
+    },
+    "centralities": [
+      {
+        "node_id": "A",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      },
+      {
+        "node_id": "B",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      },
+      {
+        "node_id": "C",
+        "degree": 1,
+        "degree_centrality_fraction": "1/7",
+        "degree_centrality_decimal": 0.14285714285714285,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 4,
+        "distance_sum": 9,
+        "corrected_closeness_fraction": "16/63",
+        "corrected_closeness_decimal": 0.25396825396825395
+      },
+      {
+        "node_id": "D",
+        "degree": 2,
+        "degree_centrality_fraction": "2/7",
+        "degree_centrality_decimal": 0.2857142857142857,
+        "raw_betweenness_fraction": "3",
+        "normalized_betweenness_fraction": "1/7",
+        "normalized_betweenness_decimal": 0.14285714285714285,
+        "reachable_other_nodes": 4,
+        "distance_sum": 6,
+        "corrected_closeness_fraction": "8/21",
+        "corrected_closeness_decimal": 0.38095238095238093
+      },
+      {
+        "node_id": "E",
+        "degree": 1,
+        "degree_centrality_fraction": "1/7",
+        "degree_centrality_decimal": 0.14285714285714285,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 4,
+        "distance_sum": 8,
+        "corrected_closeness_fraction": "2/7",
+        "corrected_closeness_decimal": 0.2857142857142857
+      },
+      {
+        "node_id": "F",
+        "degree": 3,
+        "degree_centrality_fraction": "3/7",
+        "degree_centrality_decimal": 0.42857142857142855,
+        "raw_betweenness_fraction": "5",
+        "normalized_betweenness_fraction": "5/21",
+        "normalized_betweenness_decimal": 0.23809523809523808,
+        "reachable_other_nodes": 4,
+        "distance_sum": 5,
+        "corrected_closeness_fraction": "16/35",
+        "corrected_closeness_decimal": 0.45714285714285713
+      },
+      {
+        "node_id": "G",
+        "degree": 1,
+        "degree_centrality_fraction": "1/7",
+        "degree_centrality_decimal": 0.14285714285714285,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 4,
+        "distance_sum": 8,
+        "corrected_closeness_fraction": "2/7",
+        "corrected_closeness_decimal": 0.2857142857142857
+      },
+      {
+        "node_id": "H",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      }
+    ],
+    "bridges": [
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "F"
+      ],
+      [
+        "E",
+        "F"
+      ],
+      [
+        "F",
+        "G"
+      ]
+    ],
+    "articulation_points": [
+      "D",
+      "F"
+    ],
+    "change": "none",
+    "hypothetical_edges": []
+  },
+  "omit_CD": {
+    "summary": {
+      "model": "simple_undirected_unweighted_existence",
+      "N": 8,
+      "M": 3,
+      "possible_pairs": 28,
+      "density_fraction": "3/28",
+      "density_decimal": 0.10714285714285714,
+      "component_sizes": [
+        4,
+        1,
+        1,
+        1,
+        1
+      ],
+      "components": [
+        [
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        [
+          "A"
+        ],
+        [
+          "B"
+        ],
+        [
+          "C"
+        ],
+        [
+          "H"
+        ]
+      ],
+      "isolates": [
+        "A",
+        "B",
+        "C",
+        "H"
+      ],
+      "largest_component_share": "1/2",
+      "degree_sum": 6,
+      "degree_sum_reference_2M": 6
+    },
+    "centralities": [
+      {
+        "node_id": "A",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      },
+      {
+        "node_id": "B",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      },
+      {
+        "node_id": "C",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      },
+      {
+        "node_id": "D",
+        "degree": 1,
+        "degree_centrality_fraction": "1/7",
+        "degree_centrality_decimal": 0.14285714285714285,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 3,
+        "distance_sum": 5,
+        "corrected_closeness_fraction": "9/35",
+        "corrected_closeness_decimal": 0.2571428571428571
+      },
+      {
+        "node_id": "E",
+        "degree": 1,
+        "degree_centrality_fraction": "1/7",
+        "degree_centrality_decimal": 0.14285714285714285,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 3,
+        "distance_sum": 5,
+        "corrected_closeness_fraction": "9/35",
+        "corrected_closeness_decimal": 0.2571428571428571
+      },
+      {
+        "node_id": "F",
+        "degree": 3,
+        "degree_centrality_fraction": "3/7",
+        "degree_centrality_decimal": 0.42857142857142855,
+        "raw_betweenness_fraction": "3",
+        "normalized_betweenness_fraction": "1/7",
+        "normalized_betweenness_decimal": 0.14285714285714285,
+        "reachable_other_nodes": 3,
+        "distance_sum": 3,
+        "corrected_closeness_fraction": "3/7",
+        "corrected_closeness_decimal": 0.42857142857142855
+      },
+      {
+        "node_id": "G",
+        "degree": 1,
+        "degree_centrality_fraction": "1/7",
+        "degree_centrality_decimal": 0.14285714285714285,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 3,
+        "distance_sum": 5,
+        "corrected_closeness_fraction": "9/35",
+        "corrected_closeness_decimal": 0.2571428571428571
+      },
+      {
+        "node_id": "H",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      }
+    ],
+    "bridges": [
+      [
+        "D",
+        "F"
+      ],
+      [
+        "E",
+        "F"
+      ],
+      [
+        "F",
+        "G"
+      ]
+    ],
+    "articulation_points": [
+      "F"
+    ],
+    "change": "暂不纳入CD，原始事件不删除",
+    "hypothetical_edges": [],
+    "kept_nodes": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "kept_edges": [
+      [
+        "D",
+        "F"
+      ],
+      [
+        "E",
+        "F"
+      ],
+      [
+        "F",
+        "G"
+      ]
+    ],
+    "omitted_original_edges": [
+      [
+        "C",
+        "D"
+      ]
+    ],
+    "evidence_reference": "derived_edges.csv for recorded edges; hypothetical additions have no source"
+  },
+  "assume_BE": {
+    "summary": {
+      "model": "simple_undirected_unweighted_existence",
+      "N": 8,
+      "M": 5,
+      "possible_pairs": 28,
+      "density_fraction": "5/28",
+      "density_decimal": 0.17857142857142858,
+      "component_sizes": [
+        6,
+        1,
+        1
+      ],
+      "components": [
+        [
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        [
+          "A"
+        ],
+        [
+          "H"
+        ]
+      ],
+      "isolates": [
+        "A",
+        "H"
+      ],
+      "largest_component_share": "3/4",
+      "degree_sum": 10,
+      "degree_sum_reference_2M": 10
+    },
+    "centralities": [
+      {
+        "node_id": "A",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      },
+      {
+        "node_id": "B",
+        "degree": 1,
+        "degree_centrality_fraction": "1/7",
+        "degree_centrality_decimal": 0.14285714285714285,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 5,
+        "distance_sum": 13,
+        "corrected_closeness_fraction": "25/91",
+        "corrected_closeness_decimal": 0.27472527472527475
+      },
+      {
+        "node_id": "C",
+        "degree": 1,
+        "degree_centrality_fraction": "1/7",
+        "degree_centrality_decimal": 0.14285714285714285,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 5,
+        "distance_sum": 13,
+        "corrected_closeness_fraction": "25/91",
+        "corrected_closeness_decimal": 0.27472527472527475
+      },
+      {
+        "node_id": "D",
+        "degree": 2,
+        "degree_centrality_fraction": "2/7",
+        "degree_centrality_decimal": 0.2857142857142857,
+        "raw_betweenness_fraction": "4",
+        "normalized_betweenness_fraction": "4/21",
+        "normalized_betweenness_decimal": 0.19047619047619047,
+        "reachable_other_nodes": 5,
+        "distance_sum": 9,
+        "corrected_closeness_fraction": "25/63",
+        "corrected_closeness_decimal": 0.3968253968253968
+      },
+      {
+        "node_id": "E",
+        "degree": 2,
+        "degree_centrality_fraction": "2/7",
+        "degree_centrality_decimal": 0.2857142857142857,
+        "raw_betweenness_fraction": "4",
+        "normalized_betweenness_fraction": "4/21",
+        "normalized_betweenness_decimal": 0.19047619047619047,
+        "reachable_other_nodes": 5,
+        "distance_sum": 9,
+        "corrected_closeness_fraction": "25/63",
+        "corrected_closeness_decimal": 0.3968253968253968
+      },
+      {
+        "node_id": "F",
+        "degree": 3,
+        "degree_centrality_fraction": "3/7",
+        "degree_centrality_decimal": 0.42857142857142855,
+        "raw_betweenness_fraction": "8",
+        "normalized_betweenness_fraction": "8/21",
+        "normalized_betweenness_decimal": 0.38095238095238093,
+        "reachable_other_nodes": 5,
+        "distance_sum": 7,
+        "corrected_closeness_fraction": "25/49",
+        "corrected_closeness_decimal": 0.5102040816326531
+      },
+      {
+        "node_id": "G",
+        "degree": 1,
+        "degree_centrality_fraction": "1/7",
+        "degree_centrality_decimal": 0.14285714285714285,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 5,
+        "distance_sum": 11,
+        "corrected_closeness_fraction": "25/77",
+        "corrected_closeness_decimal": 0.3246753246753247
+      },
+      {
+        "node_id": "H",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      }
+    ],
+    "bridges": [
+      [
+        "B",
+        "E"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "F"
+      ],
+      [
+        "E",
+        "F"
+      ],
+      [
+        "F",
+        "G"
+      ]
+    ],
+    "articulation_points": [
+      "D",
+      "E",
+      "F"
+    ],
+    "change": "假设新增一条无来源BE；非新发现",
+    "hypothetical_edges": [
+      [
+        "B",
+        "E"
+      ]
+    ],
+    "kept_nodes": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "kept_edges": [
+      [
+        "B",
+        "E"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "F"
+      ],
+      [
+        "E",
+        "F"
+      ],
+      [
+        "F",
+        "G"
+      ]
+    ],
+    "omitted_original_edges": [],
+    "evidence_reference": "derived_edges.csv for recorded edges; hypothetical additions have no source"
+  },
+  "omit_H_boundary": {
+    "summary": {
+      "model": "simple_undirected_unweighted_existence",
+      "N": 7,
+      "M": 4,
+      "possible_pairs": 21,
+      "density_fraction": "4/21",
+      "density_decimal": 0.19047619047619047,
+      "component_sizes": [
+        5,
+        1,
+        1
+      ],
+      "components": [
+        [
+          "C",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        [
+          "A"
+        ],
+        [
+          "B"
+        ]
+      ],
+      "isolates": [
+        "A",
+        "B"
+      ],
+      "largest_component_share": "5/7",
+      "degree_sum": 8,
+      "degree_sum_reference_2M": 8
+    },
+    "centralities": [
+      {
+        "node_id": "A",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      },
+      {
+        "node_id": "B",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      },
+      {
+        "node_id": "C",
+        "degree": 1,
+        "degree_centrality_fraction": "1/6",
+        "degree_centrality_decimal": 0.16666666666666666,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 4,
+        "distance_sum": 9,
+        "corrected_closeness_fraction": "8/27",
+        "corrected_closeness_decimal": 0.2962962962962963
+      },
+      {
+        "node_id": "D",
+        "degree": 2,
+        "degree_centrality_fraction": "1/3",
+        "degree_centrality_decimal": 0.3333333333333333,
+        "raw_betweenness_fraction": "3",
+        "normalized_betweenness_fraction": "1/5",
+        "normalized_betweenness_decimal": 0.2,
+        "reachable_other_nodes": 4,
+        "distance_sum": 6,
+        "corrected_closeness_fraction": "4/9",
+        "corrected_closeness_decimal": 0.4444444444444444
+      },
+      {
+        "node_id": "E",
+        "degree": 1,
+        "degree_centrality_fraction": "1/6",
+        "degree_centrality_decimal": 0.16666666666666666,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 4,
+        "distance_sum": 8,
+        "corrected_closeness_fraction": "1/3",
+        "corrected_closeness_decimal": 0.3333333333333333
+      },
+      {
+        "node_id": "F",
+        "degree": 3,
+        "degree_centrality_fraction": "1/2",
+        "degree_centrality_decimal": 0.5,
+        "raw_betweenness_fraction": "5",
+        "normalized_betweenness_fraction": "1/3",
+        "normalized_betweenness_decimal": 0.3333333333333333,
+        "reachable_other_nodes": 4,
+        "distance_sum": 5,
+        "corrected_closeness_fraction": "8/15",
+        "corrected_closeness_decimal": 0.5333333333333333
+      },
+      {
+        "node_id": "G",
+        "degree": 1,
+        "degree_centrality_fraction": "1/6",
+        "degree_centrality_decimal": 0.16666666666666666,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 4,
+        "distance_sum": 8,
+        "corrected_closeness_fraction": "1/3",
+        "corrected_closeness_decimal": 0.3333333333333333
+      }
+    ],
+    "bridges": [
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "F"
+      ],
+      [
+        "E",
+        "F"
+      ],
+      [
+        "F",
+        "G"
+      ]
+    ],
+    "articulation_points": [
+      "D",
+      "F"
+    ],
+    "change": "只改变观察边界，不解释为H不存在",
+    "hypothetical_edges": [],
+    "kept_nodes": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ],
+    "kept_edges": [
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "F"
+      ],
+      [
+        "E",
+        "F"
+      ],
+      [
+        "F",
+        "G"
+      ]
+    ],
+    "omitted_original_edges": [],
+    "evidence_reference": "derived_edges.csv for recorded edges; hypothetical additions have no source"
+  },
+  "omit_D_records": {
+    "summary": {
+      "model": "simple_undirected_unweighted_existence",
+      "N": 7,
+      "M": 2,
+      "possible_pairs": 21,
+      "density_fraction": "2/21",
+      "density_decimal": 0.09523809523809523,
+      "component_sizes": [
+        3,
+        1,
+        1,
+        1,
+        1
+      ],
+      "components": [
+        [
+          "E",
+          "F",
+          "G"
+        ],
+        [
+          "A"
+        ],
+        [
+          "B"
+        ],
+        [
+          "C"
+        ],
+        [
+          "H"
+        ]
+      ],
+      "isolates": [
+        "A",
+        "B",
+        "C",
+        "H"
+      ],
+      "largest_component_share": "3/7",
+      "degree_sum": 4,
+      "degree_sum_reference_2M": 4
+    },
+    "centralities": [
+      {
+        "node_id": "A",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      },
+      {
+        "node_id": "B",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      },
+      {
+        "node_id": "C",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      },
+      {
+        "node_id": "E",
+        "degree": 1,
+        "degree_centrality_fraction": "1/6",
+        "degree_centrality_decimal": 0.16666666666666666,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 2,
+        "distance_sum": 3,
+        "corrected_closeness_fraction": "2/9",
+        "corrected_closeness_decimal": 0.2222222222222222
+      },
+      {
+        "node_id": "F",
+        "degree": 2,
+        "degree_centrality_fraction": "1/3",
+        "degree_centrality_decimal": 0.3333333333333333,
+        "raw_betweenness_fraction": "1",
+        "normalized_betweenness_fraction": "1/15",
+        "normalized_betweenness_decimal": 0.06666666666666667,
+        "reachable_other_nodes": 2,
+        "distance_sum": 2,
+        "corrected_closeness_fraction": "1/3",
+        "corrected_closeness_decimal": 0.3333333333333333
+      },
+      {
+        "node_id": "G",
+        "degree": 1,
+        "degree_centrality_fraction": "1/6",
+        "degree_centrality_decimal": 0.16666666666666666,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 2,
+        "distance_sum": 3,
+        "corrected_closeness_fraction": "2/9",
+        "corrected_closeness_decimal": 0.2222222222222222
+      },
+      {
+        "node_id": "H",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      }
+    ],
+    "bridges": [
+      [
+        "E",
+        "F"
+      ],
+      [
+        "F",
+        "G"
+      ]
+    ],
+    "articulation_points": [
+      "F"
+    ],
+    "change": "缺D及其全部邻边；不是死亡因果实验",
+    "hypothetical_edges": [],
+    "kept_nodes": [
+      "A",
+      "B",
+      "C",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "kept_edges": [
+      [
+        "E",
+        "F"
+      ],
+      [
+        "F",
+        "G"
+      ]
+    ],
+    "omitted_original_edges": [
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "F"
+      ]
+    ],
+    "evidence_reference": "derived_edges.csv for recorded edges; hypothetical additions have no source"
+  },
+  "omit_source_X2": {
+    "summary": {
+      "model": "simple_undirected_unweighted_existence",
+      "N": 8,
+      "M": 3,
+      "possible_pairs": 28,
+      "density_fraction": "3/28",
+      "density_decimal": 0.10714285714285714,
+      "component_sizes": [
+        4,
+        1,
+        1,
+        1,
+        1
+      ],
+      "components": [
+        [
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        [
+          "A"
+        ],
+        [
+          "B"
+        ],
+        [
+          "C"
+        ],
+        [
+          "H"
+        ]
+      ],
+      "isolates": [
+        "A",
+        "B",
+        "C",
+        "H"
+      ],
+      "largest_component_share": "1/2",
+      "degree_sum": 6,
+      "degree_sum_reference_2M": 6
+    },
+    "centralities": [
+      {
+        "node_id": "A",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      },
+      {
+        "node_id": "B",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      },
+      {
+        "node_id": "C",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      },
+      {
+        "node_id": "D",
+        "degree": 1,
+        "degree_centrality_fraction": "1/7",
+        "degree_centrality_decimal": 0.14285714285714285,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 3,
+        "distance_sum": 5,
+        "corrected_closeness_fraction": "9/35",
+        "corrected_closeness_decimal": 0.2571428571428571
+      },
+      {
+        "node_id": "E",
+        "degree": 1,
+        "degree_centrality_fraction": "1/7",
+        "degree_centrality_decimal": 0.14285714285714285,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 3,
+        "distance_sum": 5,
+        "corrected_closeness_fraction": "9/35",
+        "corrected_closeness_decimal": 0.2571428571428571
+      },
+      {
+        "node_id": "F",
+        "degree": 3,
+        "degree_centrality_fraction": "3/7",
+        "degree_centrality_decimal": 0.42857142857142855,
+        "raw_betweenness_fraction": "3",
+        "normalized_betweenness_fraction": "1/7",
+        "normalized_betweenness_decimal": 0.14285714285714285,
+        "reachable_other_nodes": 3,
+        "distance_sum": 3,
+        "corrected_closeness_fraction": "3/7",
+        "corrected_closeness_decimal": 0.42857142857142855
+      },
+      {
+        "node_id": "G",
+        "degree": 1,
+        "degree_centrality_fraction": "1/7",
+        "degree_centrality_decimal": 0.14285714285714285,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 3,
+        "distance_sum": 5,
+        "corrected_closeness_fraction": "9/35",
+        "corrected_closeness_decimal": 0.2571428571428571
+      },
+      {
+        "node_id": "H",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      }
+    ],
+    "bridges": [
+      [
+        "D",
+        "F"
+      ],
+      [
+        "E",
+        "F"
+      ],
+      [
+        "F",
+        "G"
+      ]
+    ],
+    "articulation_points": [
+      "F"
+    ],
+    "change": "整组来源缺失情境；保留固定名册",
+    "hypothetical_edges": [],
+    "kept_nodes": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "kept_edges": [
+      [
+        "D",
+        "F"
+      ],
+      [
+        "E",
+        "F"
+      ],
+      [
+        "F",
+        "G"
+      ]
+    ],
+    "omitted_original_edges": [
+      [
+        "C",
+        "D"
+      ]
+    ],
+    "evidence_reference": "derived_edges.csv for recorded edges; hypothetical additions have no source"
+  },
+  "omit_source_X3": {
+    "summary": {
+      "model": "simple_undirected_unweighted_existence",
+      "N": 8,
+      "M": 2,
+      "possible_pairs": 28,
+      "density_fraction": "1/14",
+      "density_decimal": 0.07142857142857142,
+      "component_sizes": [
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "components": [
+        [
+          "C",
+          "D"
+        ],
+        [
+          "F",
+          "G"
+        ],
+        [
+          "A"
+        ],
+        [
+          "B"
+        ],
+        [
+          "E"
+        ],
+        [
+          "H"
+        ]
+      ],
+      "isolates": [
+        "A",
+        "B",
+        "E",
+        "H"
+      ],
+      "largest_component_share": "1/4",
+      "degree_sum": 4,
+      "degree_sum_reference_2M": 4
+    },
+    "centralities": [
+      {
+        "node_id": "A",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      },
+      {
+        "node_id": "B",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      },
+      {
+        "node_id": "C",
+        "degree": 1,
+        "degree_centrality_fraction": "1/7",
+        "degree_centrality_decimal": 0.14285714285714285,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 1,
+        "distance_sum": 1,
+        "corrected_closeness_fraction": "1/7",
+        "corrected_closeness_decimal": 0.14285714285714285
+      },
+      {
+        "node_id": "D",
+        "degree": 1,
+        "degree_centrality_fraction": "1/7",
+        "degree_centrality_decimal": 0.14285714285714285,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 1,
+        "distance_sum": 1,
+        "corrected_closeness_fraction": "1/7",
+        "corrected_closeness_decimal": 0.14285714285714285
+      },
+      {
+        "node_id": "E",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      },
+      {
+        "node_id": "F",
+        "degree": 1,
+        "degree_centrality_fraction": "1/7",
+        "degree_centrality_decimal": 0.14285714285714285,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 1,
+        "distance_sum": 1,
+        "corrected_closeness_fraction": "1/7",
+        "corrected_closeness_decimal": 0.14285714285714285
+      },
+      {
+        "node_id": "G",
+        "degree": 1,
+        "degree_centrality_fraction": "1/7",
+        "degree_centrality_decimal": 0.14285714285714285,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 1,
+        "distance_sum": 1,
+        "corrected_closeness_fraction": "1/7",
+        "corrected_closeness_decimal": 0.14285714285714285
+      },
+      {
+        "node_id": "H",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      }
+    ],
+    "bridges": [
+      [
+        "C",
+        "D"
+      ],
+      [
+        "F",
+        "G"
+      ]
+    ],
+    "articulation_points": [],
+    "change": "整组来源缺失情境；保留固定名册",
+    "hypothetical_edges": [],
+    "kept_nodes": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "kept_edges": [
+      [
+        "C",
+        "D"
+      ],
+      [
+        "F",
+        "G"
+      ]
+    ],
+    "omitted_original_edges": [
+      [
+        "D",
+        "F"
+      ],
+      [
+        "E",
+        "F"
+      ]
+    ],
+    "evidence_reference": "derived_edges.csv for recorded edges; hypothetical additions have no source"
+  },
+  "omit_source_X4": {
+    "summary": {
+      "model": "simple_undirected_unweighted_existence",
+      "N": 8,
+      "M": 3,
+      "possible_pairs": 28,
+      "density_fraction": "3/28",
+      "density_decimal": 0.10714285714285714,
+      "component_sizes": [
+        4,
+        1,
+        1,
+        1,
+        1
+      ],
+      "components": [
+        [
+          "C",
+          "D",
+          "E",
+          "F"
+        ],
+        [
+          "A"
+        ],
+        [
+          "B"
+        ],
+        [
+          "G"
+        ],
+        [
+          "H"
+        ]
+      ],
+      "isolates": [
+        "A",
+        "B",
+        "G",
+        "H"
+      ],
+      "largest_component_share": "1/2",
+      "degree_sum": 6,
+      "degree_sum_reference_2M": 6
+    },
+    "centralities": [
+      {
+        "node_id": "A",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      },
+      {
+        "node_id": "B",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      },
+      {
+        "node_id": "C",
+        "degree": 1,
+        "degree_centrality_fraction": "1/7",
+        "degree_centrality_decimal": 0.14285714285714285,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 3,
+        "distance_sum": 6,
+        "corrected_closeness_fraction": "3/14",
+        "corrected_closeness_decimal": 0.21428571428571427
+      },
+      {
+        "node_id": "D",
+        "degree": 2,
+        "degree_centrality_fraction": "2/7",
+        "degree_centrality_decimal": 0.2857142857142857,
+        "raw_betweenness_fraction": "2",
+        "normalized_betweenness_fraction": "2/21",
+        "normalized_betweenness_decimal": 0.09523809523809523,
+        "reachable_other_nodes": 3,
+        "distance_sum": 4,
+        "corrected_closeness_fraction": "9/28",
+        "corrected_closeness_decimal": 0.32142857142857145
+      },
+      {
+        "node_id": "E",
+        "degree": 1,
+        "degree_centrality_fraction": "1/7",
+        "degree_centrality_decimal": 0.14285714285714285,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 3,
+        "distance_sum": 6,
+        "corrected_closeness_fraction": "3/14",
+        "corrected_closeness_decimal": 0.21428571428571427
+      },
+      {
+        "node_id": "F",
+        "degree": 2,
+        "degree_centrality_fraction": "2/7",
+        "degree_centrality_decimal": 0.2857142857142857,
+        "raw_betweenness_fraction": "2",
+        "normalized_betweenness_fraction": "2/21",
+        "normalized_betweenness_decimal": 0.09523809523809523,
+        "reachable_other_nodes": 3,
+        "distance_sum": 4,
+        "corrected_closeness_fraction": "9/28",
+        "corrected_closeness_decimal": 0.32142857142857145
+      },
+      {
+        "node_id": "G",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      },
+      {
+        "node_id": "H",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      }
+    ],
+    "bridges": [
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "F"
+      ],
+      [
+        "E",
+        "F"
+      ]
+    ],
+    "articulation_points": [
+      "D",
+      "F"
+    ],
+    "change": "整组来源缺失情境；保留固定名册",
+    "hypothetical_edges": [],
+    "kept_nodes": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "kept_edges": [
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "F"
+      ],
+      [
+        "E",
+        "F"
+      ]
+    ],
+    "omitted_original_edges": [
+      [
+        "F",
+        "G"
+      ]
+    ],
+    "evidence_reference": "derived_edges.csv for recorded edges; hypothetical additions have no source"
+  },
+  "omit_edge_C_D": {
+    "summary": {
+      "model": "simple_undirected_unweighted_existence",
+      "N": 8,
+      "M": 3,
+      "possible_pairs": 28,
+      "density_fraction": "3/28",
+      "density_decimal": 0.10714285714285714,
+      "component_sizes": [
+        4,
+        1,
+        1,
+        1,
+        1
+      ],
+      "components": [
+        [
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        [
+          "A"
+        ],
+        [
+          "B"
+        ],
+        [
+          "C"
+        ],
+        [
+          "H"
+        ]
+      ],
+      "isolates": [
+        "A",
+        "B",
+        "C",
+        "H"
+      ],
+      "largest_component_share": "1/2",
+      "degree_sum": 6,
+      "degree_sum_reference_2M": 6
+    },
+    "centralities": [
+      {
+        "node_id": "A",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      },
+      {
+        "node_id": "B",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      },
+      {
+        "node_id": "C",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      },
+      {
+        "node_id": "D",
+        "degree": 1,
+        "degree_centrality_fraction": "1/7",
+        "degree_centrality_decimal": 0.14285714285714285,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 3,
+        "distance_sum": 5,
+        "corrected_closeness_fraction": "9/35",
+        "corrected_closeness_decimal": 0.2571428571428571
+      },
+      {
+        "node_id": "E",
+        "degree": 1,
+        "degree_centrality_fraction": "1/7",
+        "degree_centrality_decimal": 0.14285714285714285,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 3,
+        "distance_sum": 5,
+        "corrected_closeness_fraction": "9/35",
+        "corrected_closeness_decimal": 0.2571428571428571
+      },
+      {
+        "node_id": "F",
+        "degree": 3,
+        "degree_centrality_fraction": "3/7",
+        "degree_centrality_decimal": 0.42857142857142855,
+        "raw_betweenness_fraction": "3",
+        "normalized_betweenness_fraction": "1/7",
+        "normalized_betweenness_decimal": 0.14285714285714285,
+        "reachable_other_nodes": 3,
+        "distance_sum": 3,
+        "corrected_closeness_fraction": "3/7",
+        "corrected_closeness_decimal": 0.42857142857142855
+      },
+      {
+        "node_id": "G",
+        "degree": 1,
+        "degree_centrality_fraction": "1/7",
+        "degree_centrality_decimal": 0.14285714285714285,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 3,
+        "distance_sum": 5,
+        "corrected_closeness_fraction": "9/35",
+        "corrected_closeness_decimal": 0.2571428571428571
+      },
+      {
+        "node_id": "H",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      }
+    ],
+    "bridges": [
+      [
+        "D",
+        "F"
+      ],
+      [
+        "E",
+        "F"
+      ],
+      [
+        "F",
+        "G"
+      ]
+    ],
+    "articulation_points": [
+      "F"
+    ],
+    "change": "逐边缺失情境；不是档案缺失概率",
+    "hypothetical_edges": [],
+    "kept_nodes": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "kept_edges": [
+      [
+        "D",
+        "F"
+      ],
+      [
+        "E",
+        "F"
+      ],
+      [
+        "F",
+        "G"
+      ]
+    ],
+    "omitted_original_edges": [
+      [
+        "C",
+        "D"
+      ]
+    ],
+    "evidence_reference": "derived_edges.csv for recorded edges; hypothetical additions have no source"
+  },
+  "omit_edge_D_F": {
+    "summary": {
+      "model": "simple_undirected_unweighted_existence",
+      "N": 8,
+      "M": 3,
+      "possible_pairs": 28,
+      "density_fraction": "3/28",
+      "density_decimal": 0.10714285714285714,
+      "component_sizes": [
+        3,
+        2,
+        1,
+        1,
+        1
+      ],
+      "components": [
+        [
+          "E",
+          "F",
+          "G"
+        ],
+        [
+          "C",
+          "D"
+        ],
+        [
+          "A"
+        ],
+        [
+          "B"
+        ],
+        [
+          "H"
+        ]
+      ],
+      "isolates": [
+        "A",
+        "B",
+        "H"
+      ],
+      "largest_component_share": "3/8",
+      "degree_sum": 6,
+      "degree_sum_reference_2M": 6
+    },
+    "centralities": [
+      {
+        "node_id": "A",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      },
+      {
+        "node_id": "B",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      },
+      {
+        "node_id": "C",
+        "degree": 1,
+        "degree_centrality_fraction": "1/7",
+        "degree_centrality_decimal": 0.14285714285714285,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 1,
+        "distance_sum": 1,
+        "corrected_closeness_fraction": "1/7",
+        "corrected_closeness_decimal": 0.14285714285714285
+      },
+      {
+        "node_id": "D",
+        "degree": 1,
+        "degree_centrality_fraction": "1/7",
+        "degree_centrality_decimal": 0.14285714285714285,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 1,
+        "distance_sum": 1,
+        "corrected_closeness_fraction": "1/7",
+        "corrected_closeness_decimal": 0.14285714285714285
+      },
+      {
+        "node_id": "E",
+        "degree": 1,
+        "degree_centrality_fraction": "1/7",
+        "degree_centrality_decimal": 0.14285714285714285,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 2,
+        "distance_sum": 3,
+        "corrected_closeness_fraction": "4/21",
+        "corrected_closeness_decimal": 0.19047619047619047
+      },
+      {
+        "node_id": "F",
+        "degree": 2,
+        "degree_centrality_fraction": "2/7",
+        "degree_centrality_decimal": 0.2857142857142857,
+        "raw_betweenness_fraction": "1",
+        "normalized_betweenness_fraction": "1/21",
+        "normalized_betweenness_decimal": 0.047619047619047616,
+        "reachable_other_nodes": 2,
+        "distance_sum": 2,
+        "corrected_closeness_fraction": "2/7",
+        "corrected_closeness_decimal": 0.2857142857142857
+      },
+      {
+        "node_id": "G",
+        "degree": 1,
+        "degree_centrality_fraction": "1/7",
+        "degree_centrality_decimal": 0.14285714285714285,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 2,
+        "distance_sum": 3,
+        "corrected_closeness_fraction": "4/21",
+        "corrected_closeness_decimal": 0.19047619047619047
+      },
+      {
+        "node_id": "H",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      }
+    ],
+    "bridges": [
+      [
+        "C",
+        "D"
+      ],
+      [
+        "E",
+        "F"
+      ],
+      [
+        "F",
+        "G"
+      ]
+    ],
+    "articulation_points": [
+      "F"
+    ],
+    "change": "逐边缺失情境；不是档案缺失概率",
+    "hypothetical_edges": [],
+    "kept_nodes": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "kept_edges": [
+      [
+        "C",
+        "D"
+      ],
+      [
+        "E",
+        "F"
+      ],
+      [
+        "F",
+        "G"
+      ]
+    ],
+    "omitted_original_edges": [
+      [
+        "D",
+        "F"
+      ]
+    ],
+    "evidence_reference": "derived_edges.csv for recorded edges; hypothetical additions have no source"
+  },
+  "omit_edge_E_F": {
+    "summary": {
+      "model": "simple_undirected_unweighted_existence",
+      "N": 8,
+      "M": 3,
+      "possible_pairs": 28,
+      "density_fraction": "3/28",
+      "density_decimal": 0.10714285714285714,
+      "component_sizes": [
+        4,
+        1,
+        1,
+        1,
+        1
+      ],
+      "components": [
+        [
+          "C",
+          "D",
+          "F",
+          "G"
+        ],
+        [
+          "A"
+        ],
+        [
+          "B"
+        ],
+        [
+          "E"
+        ],
+        [
+          "H"
+        ]
+      ],
+      "isolates": [
+        "A",
+        "B",
+        "E",
+        "H"
+      ],
+      "largest_component_share": "1/2",
+      "degree_sum": 6,
+      "degree_sum_reference_2M": 6
+    },
+    "centralities": [
+      {
+        "node_id": "A",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      },
+      {
+        "node_id": "B",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      },
+      {
+        "node_id": "C",
+        "degree": 1,
+        "degree_centrality_fraction": "1/7",
+        "degree_centrality_decimal": 0.14285714285714285,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 3,
+        "distance_sum": 6,
+        "corrected_closeness_fraction": "3/14",
+        "corrected_closeness_decimal": 0.21428571428571427
+      },
+      {
+        "node_id": "D",
+        "degree": 2,
+        "degree_centrality_fraction": "2/7",
+        "degree_centrality_decimal": 0.2857142857142857,
+        "raw_betweenness_fraction": "2",
+        "normalized_betweenness_fraction": "2/21",
+        "normalized_betweenness_decimal": 0.09523809523809523,
+        "reachable_other_nodes": 3,
+        "distance_sum": 4,
+        "corrected_closeness_fraction": "9/28",
+        "corrected_closeness_decimal": 0.32142857142857145
+      },
+      {
+        "node_id": "E",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      },
+      {
+        "node_id": "F",
+        "degree": 2,
+        "degree_centrality_fraction": "2/7",
+        "degree_centrality_decimal": 0.2857142857142857,
+        "raw_betweenness_fraction": "2",
+        "normalized_betweenness_fraction": "2/21",
+        "normalized_betweenness_decimal": 0.09523809523809523,
+        "reachable_other_nodes": 3,
+        "distance_sum": 4,
+        "corrected_closeness_fraction": "9/28",
+        "corrected_closeness_decimal": 0.32142857142857145
+      },
+      {
+        "node_id": "G",
+        "degree": 1,
+        "degree_centrality_fraction": "1/7",
+        "degree_centrality_decimal": 0.14285714285714285,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 3,
+        "distance_sum": 6,
+        "corrected_closeness_fraction": "3/14",
+        "corrected_closeness_decimal": 0.21428571428571427
+      },
+      {
+        "node_id": "H",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      }
+    ],
+    "bridges": [
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "F"
+      ],
+      [
+        "F",
+        "G"
+      ]
+    ],
+    "articulation_points": [
+      "D",
+      "F"
+    ],
+    "change": "逐边缺失情境；不是档案缺失概率",
+    "hypothetical_edges": [],
+    "kept_nodes": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "kept_edges": [
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "F"
+      ],
+      [
+        "F",
+        "G"
+      ]
+    ],
+    "omitted_original_edges": [
+      [
+        "E",
+        "F"
+      ]
+    ],
+    "evidence_reference": "derived_edges.csv for recorded edges; hypothetical additions have no source"
+  },
+  "omit_edge_F_G": {
+    "summary": {
+      "model": "simple_undirected_unweighted_existence",
+      "N": 8,
+      "M": 3,
+      "possible_pairs": 28,
+      "density_fraction": "3/28",
+      "density_decimal": 0.10714285714285714,
+      "component_sizes": [
+        4,
+        1,
+        1,
+        1,
+        1
+      ],
+      "components": [
+        [
+          "C",
+          "D",
+          "E",
+          "F"
+        ],
+        [
+          "A"
+        ],
+        [
+          "B"
+        ],
+        [
+          "G"
+        ],
+        [
+          "H"
+        ]
+      ],
+      "isolates": [
+        "A",
+        "B",
+        "G",
+        "H"
+      ],
+      "largest_component_share": "1/2",
+      "degree_sum": 6,
+      "degree_sum_reference_2M": 6
+    },
+    "centralities": [
+      {
+        "node_id": "A",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      },
+      {
+        "node_id": "B",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      },
+      {
+        "node_id": "C",
+        "degree": 1,
+        "degree_centrality_fraction": "1/7",
+        "degree_centrality_decimal": 0.14285714285714285,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 3,
+        "distance_sum": 6,
+        "corrected_closeness_fraction": "3/14",
+        "corrected_closeness_decimal": 0.21428571428571427
+      },
+      {
+        "node_id": "D",
+        "degree": 2,
+        "degree_centrality_fraction": "2/7",
+        "degree_centrality_decimal": 0.2857142857142857,
+        "raw_betweenness_fraction": "2",
+        "normalized_betweenness_fraction": "2/21",
+        "normalized_betweenness_decimal": 0.09523809523809523,
+        "reachable_other_nodes": 3,
+        "distance_sum": 4,
+        "corrected_closeness_fraction": "9/28",
+        "corrected_closeness_decimal": 0.32142857142857145
+      },
+      {
+        "node_id": "E",
+        "degree": 1,
+        "degree_centrality_fraction": "1/7",
+        "degree_centrality_decimal": 0.14285714285714285,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 3,
+        "distance_sum": 6,
+        "corrected_closeness_fraction": "3/14",
+        "corrected_closeness_decimal": 0.21428571428571427
+      },
+      {
+        "node_id": "F",
+        "degree": 2,
+        "degree_centrality_fraction": "2/7",
+        "degree_centrality_decimal": 0.2857142857142857,
+        "raw_betweenness_fraction": "2",
+        "normalized_betweenness_fraction": "2/21",
+        "normalized_betweenness_decimal": 0.09523809523809523,
+        "reachable_other_nodes": 3,
+        "distance_sum": 4,
+        "corrected_closeness_fraction": "9/28",
+        "corrected_closeness_decimal": 0.32142857142857145
+      },
+      {
+        "node_id": "G",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      },
+      {
+        "node_id": "H",
+        "degree": 0,
+        "degree_centrality_fraction": "0",
+        "degree_centrality_decimal": 0.0,
+        "raw_betweenness_fraction": "0",
+        "normalized_betweenness_fraction": "0",
+        "normalized_betweenness_decimal": 0.0,
+        "reachable_other_nodes": 0,
+        "distance_sum": 0,
+        "corrected_closeness_fraction": "0",
+        "corrected_closeness_decimal": 0.0
+      }
+    ],
+    "bridges": [
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "F"
+      ],
+      [
+        "E",
+        "F"
+      ]
+    ],
+    "articulation_points": [
+      "D",
+      "F"
+    ],
+    "change": "逐边缺失情境；不是档案缺失概率",
+    "hypothetical_edges": [],
+    "kept_nodes": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "kept_edges": [
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "F"
+      ],
+      [
+        "E",
+        "F"
+      ]
+    ],
+    "omitted_original_edges": [
+      [
+        "F",
+        "G"
+      ]
+    ],
+    "evidence_reference": "derived_edges.csv for recorded edges; hypothetical additions have no source"
+  }
+}

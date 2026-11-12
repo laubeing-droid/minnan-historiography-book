@@ -1,0 +1,173 @@
+{
+  "regions": [
+    {
+      "region": "A",
+      "covered": true,
+      "events": 2,
+      "valid_records": 3,
+      "sites": 1,
+      "opportunities": 4,
+      "event_per_opportunity": 0.5,
+      "unresolved": 0
+    },
+    {
+      "region": "B",
+      "covered": true,
+      "events": 2,
+      "valid_records": 2,
+      "sites": 1,
+      "opportunities": 8,
+      "event_per_opportunity": 0.25,
+      "unresolved": 1
+    },
+    {
+      "region": "C",
+      "covered": true,
+      "events": 1,
+      "valid_records": 1,
+      "sites": 1,
+      "opportunities": 2,
+      "event_per_opportunity": 0.5,
+      "unresolved": 0
+    },
+    {
+      "region": "D",
+      "covered": true,
+      "events": 0,
+      "valid_records": 0,
+      "sites": 0,
+      "opportunities": 0,
+      "event_per_opportunity": null,
+      "unresolved": 0
+    },
+    {
+      "region": "E",
+      "covered": false,
+      "events": null,
+      "valid_records": null,
+      "sites": null,
+      "opportunities": null,
+      "event_per_opportunity": null,
+      "unresolved": 0
+    }
+  ],
+  "audit_log": [
+    {
+      "record": "R01",
+      "event": "E01",
+      "status": "accepted",
+      "regions": [
+        "A"
+      ]
+    },
+    {
+      "record": "R02",
+      "event": "E01",
+      "status": "accepted",
+      "regions": [
+        "A"
+      ]
+    },
+    {
+      "record": "R03",
+      "event": "E02",
+      "status": "accepted",
+      "regions": [
+        "A"
+      ]
+    },
+    {
+      "record": "R04",
+      "event": "E03",
+      "status": "accepted",
+      "regions": [
+        "B"
+      ]
+    },
+    {
+      "record": "R05",
+      "event": "E04",
+      "status": "accepted",
+      "regions": [
+        "B"
+      ]
+    },
+    {
+      "record": "R06",
+      "event": null,
+      "status": "unresolved",
+      "regions": [
+        "B"
+      ]
+    },
+    {
+      "record": "R07",
+      "event": "E05",
+      "status": "accepted",
+      "regions": [
+        "C"
+      ]
+    },
+    {
+      "record": "R08",
+      "event": "E06",
+      "status": "outside_window",
+      "regions": [
+        "A"
+      ]
+    },
+    {
+      "record": "R09",
+      "event": null,
+      "status": "unknown_date",
+      "regions": [
+        "C"
+      ]
+    },
+    {
+      "record": "R10",
+      "event": "E07",
+      "status": "invalid_site_period",
+      "regions": [
+        "C"
+      ]
+    }
+  ],
+  "distinct_events": [
+    {
+      "event": "E01",
+      "site": "S_A",
+      "year": 1701
+    },
+    {
+      "event": "E02",
+      "site": "S_A",
+      "year": 1702
+    },
+    {
+      "event": "E03",
+      "site": "S_B",
+      "year": 1703
+    },
+    {
+      "event": "E04",
+      "site": "S_B",
+      "year": 1704
+    },
+    {
+      "event": "E05",
+      "site": "S_C",
+      "year": 1705
+    },
+    {
+      "event": "E06",
+      "site": "S_A",
+      "year": 1690
+    },
+    {
+      "event": "E07",
+      "site": "S_old",
+      "year": 1705
+    }
+  ]
+}

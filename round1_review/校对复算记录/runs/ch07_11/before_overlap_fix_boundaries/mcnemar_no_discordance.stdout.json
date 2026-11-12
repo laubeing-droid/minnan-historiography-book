@@ -1,0 +1,14 @@
+{
+  "execution": "reader_invoked",
+  "input_provenance": "编者新编教学数据 非史实 非模型输出",
+  "section": "10.8",
+  "result": {
+    "both_correct": 1,
+    "only_a": 0,
+    "only_b": 0,
+    "both_wrong": 0,
+    "discordant": 0,
+    "two_sided_exact_p": 1.0,
+    "assumption": "Independent paired units required; this six-row fixture shares sources."
+  }
+}

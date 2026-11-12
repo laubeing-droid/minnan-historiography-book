@@ -1,0 +1,188 @@
+[
+  {
+    "instance_id": "R1",
+    "included": true,
+    "all_reasons": [],
+    "evidence": [
+      {
+        "assertion_id": "C1",
+        "source_id": "S1",
+        "locator": "entry1",
+        "excerpt": "甲于1701至1705年为O1成员。",
+        "independent_group": "G1"
+      }
+    ]
+  },
+  {
+    "instance_id": "R2",
+    "included": true,
+    "all_reasons": [],
+    "evidence": [
+      {
+        "assertion_id": "C2",
+        "source_id": "S1",
+        "locator": "entry2",
+        "excerpt": "乙于1703至1704年为O1成员。",
+        "independent_group": "G1"
+      }
+    ]
+  },
+  {
+    "instance_id": "R3",
+    "included": true,
+    "all_reasons": [],
+    "evidence": [
+      {
+        "assertion_id": "C3",
+        "source_id": "S2",
+        "locator": "entry1",
+        "excerpt": "甲参加1703年活动V1。",
+        "independent_group": "G2"
+      }
+    ]
+  },
+  {
+    "instance_id": "R4",
+    "included": true,
+    "all_reasons": [],
+    "evidence": [
+      {
+        "assertion_id": "C4",
+        "source_id": "S2",
+        "locator": "entry2",
+        "excerpt": "乙参加1703年活动V1。",
+        "independent_group": "G2"
+      }
+    ]
+  },
+  {
+    "instance_id": "R5",
+    "included": true,
+    "all_reasons": [],
+    "evidence": [
+      {
+        "assertion_id": "C5",
+        "source_id": "S3",
+        "locator": "letter1",
+        "excerpt": "甲于1704年寄信给乙，本次寄信记为V2。",
+        "independent_group": "G3"
+      },
+      {
+        "assertion_id": "C11",
+        "source_id": "S4",
+        "locator": "copy1",
+        "excerpt": "转抄S3的letter1：甲于1704年寄信给乙，非另一次寄出。",
+        "independent_group": "G3"
+      }
+    ]
+  },
+  {
+    "instance_id": "R6",
+    "included": true,
+    "all_reasons": [],
+    "evidence": [
+      {
+        "assertion_id": "C6",
+        "source_id": "S5",
+        "locator": "entry1",
+        "excerpt": "甲乙为同胞；本练习证据支持范围记为1700至1710年。",
+        "independent_group": "G5"
+      }
+    ]
+  },
+  {
+    "instance_id": "R7",
+    "included": false,
+    "all_reasons": [
+      "identity_pending:P3",
+      "relation_pending",
+      "unknown_date"
+    ],
+    "evidence": [
+      {
+        "assertion_id": "C7",
+        "source_id": "S5",
+        "locator": "entry2",
+        "excerpt": "丙为甲父之说待查，日期未知。",
+        "independent_group": "G5"
+      }
+    ]
+  },
+  {
+    "instance_id": "R8",
+    "included": false,
+    "all_reasons": [
+      "identity_pending:P3"
+    ],
+    "evidence": [
+      {
+        "assertion_id": "C8",
+        "source_id": "S2",
+        "locator": "entry3",
+        "excerpt": "丙参加1703年活动V1；丙身份仍待定。",
+        "independent_group": "G2"
+      }
+    ]
+  },
+  {
+    "instance_id": "R9",
+    "included": false,
+    "all_reasons": [
+      "analysis_hypothesis",
+      "relation_pending"
+    ],
+    "evidence": [
+      {
+        "assertion_id": "C9",
+        "source_id": "H1",
+        "locator": "hypothesis1",
+        "excerpt": "由甲乙共同参加V1提出二人可能熟识，仅为分析假设。",
+        "independent_group": "H1"
+      }
+    ]
+  },
+  {
+    "instance_id": "R10",
+    "included": true,
+    "all_reasons": [],
+    "evidence": [
+      {
+        "assertion_id": "C10",
+        "source_id": "S1",
+        "locator": "entry3",
+        "excerpt": "另记甲于1708至1709年为O1成员。",
+        "independent_group": "G1"
+      }
+    ]
+  },
+  {
+    "instance_id": "R12",
+    "included": false,
+    "all_reasons": [
+      "relation_rejected"
+    ],
+    "evidence": [
+      {
+        "assertion_id": "C12",
+        "source_id": "S1",
+        "locator": "entry4",
+        "excerpt": "丁为O1成员之说在本练习判断中被否定。",
+        "independent_group": "G1"
+      }
+    ]
+  },
+  {
+    "instance_id": "R13",
+    "included": true,
+    "all_reasons": [],
+    "evidence": [
+      {
+        "assertion_id": "C13",
+        "source_id": "S2",
+        "locator": "entry4",
+        "excerpt": "乙参加1708年活动V3。",
+        "independent_group": "G2"
+      }
+    ]
+  }
+]

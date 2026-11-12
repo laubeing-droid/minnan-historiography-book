@@ -1,0 +1,7 @@
+usage: score_predictions.py [-h] --predictions PREDICTIONS
+                            [--reference REFERENCE]
+
+options:
+  -h, --help            show this help message and exit
+  --predictions PREDICTIONS
+  --reference REFERENCE

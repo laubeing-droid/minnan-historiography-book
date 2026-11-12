@@ -1,0 +1,30 @@
+{
+  "scope_review_utc": "2026-10-30T03:09:00Z",
+  "optuna_section": "13.9",
+  "section_13_8": "Three independent probability-score examples; no Optuna model fitting or frozen-test pipeline",
+  "script_cli_parameters": [
+    "--input",
+    "--out",
+    "--seed"
+  ],
+  "script_source_lines": {
+    "module_docstring": 2,
+    "cli": 8,
+    "development_slice": 11,
+    "not_evaluated_status": 18
+  },
+  "body_anchor": "13.9 五 Optuna只负责组织搜索",
+  "readme_line": 7,
+  "same_source_test_material": "provided in 13.9/input.json: test origin 13, horizon 2, targets index14/15",
+  "frozen_optuna_test_interface": "NOT_PROVIDED_BY_DESIGN",
+  "optuna_test_status": "NOT_EVALUATED",
+  "missed_existing_command": false,
+  "standard_library_test_already_executed": true,
+  "standard_library_test_is_not_optuna_test": true,
+  "section9_generic_phase_selection": "not dispatched into searches(); cannot load Optuna study.json",
+  "code_sha256": {
+    "optuna_search.py": "c16120ebd8c1d4270f1b98fbc17ef677ff59965c3f6ca2a30c7d0b3e654ae535",
+    "workflow.py": "ea6899131f1316bcb187596e85c056dce8648eedf3d32f7fcb5c3b9aedaed5f2"
+  },
+  "action": "read-only scope review; report/metadata clarification only; no model retuning or new testing implementation"
+}

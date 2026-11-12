@@ -1,0 +1,150 @@
+{
+  "fiction": true,
+  "crs": "EPSG:4326",
+  "unit": "metre",
+  "limit": [
+    0,
+    1000
+  ],
+  "features": [
+    {
+      "id": "P1",
+      "type": "Point",
+      "coordinates": [
+        100,
+        100
+      ]
+    },
+    {
+      "id": "P2",
+      "type": "Point",
+      "coordinates": [
+        103,
+        104
+      ]
+    },
+    {
+      "id": "L1",
+      "type": "LineString",
+      "coordinates": [
+        [
+          100,
+          100
+        ],
+        [
+          103,
+          100
+        ],
+        [
+          103,
+          104
+        ]
+      ]
+    },
+    {
+      "id": "A1",
+      "type": "Polygon",
+      "coordinates": [
+        [
+          100,
+          100
+        ],
+        [
+          104,
+          100
+        ],
+        [
+          104,
+          103
+        ],
+        [
+          100,
+          103
+        ],
+        [
+          100,
+          100
+        ]
+      ]
+    },
+    {
+      "id": "bad_open",
+      "type": "Polygon",
+      "coordinates": [
+        [
+          100,
+          100
+        ],
+        [
+          104,
+          100
+        ],
+        [
+          104,
+          103
+        ],
+        [
+          100,
+          103
+        ]
+      ]
+    },
+    {
+      "id": "bad_cross",
+      "type": "Polygon",
+      "coordinates": [
+        [
+          100,
+          100
+        ],
+        [
+          104,
+          103
+        ],
+        [
+          104,
+          100
+        ],
+        [
+          100,
+          103
+        ],
+        [
+          100,
+          100
+        ]
+      ]
+    },
+    {
+      "id": "bad_duplicate",
+      "type": "LineString",
+      "coordinates": [
+        [
+          100,
+          100
+        ],
+        [
+          103,
+          100
+        ],
+        [
+          100,
+          100
+        ]
+      ]
+    },
+    {
+      "id": "unknown",
+      "type": "Point",
+      "coordinates": null
+    },
+    {
+      "id": "bad_range",
+      "type": "Point",
+      "coordinates": [
+        1001,
+        100
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "review_date": "2026-10-30",
+  "scope": "Actual command execution and specified numerical/structural checks, not a certificate of historical facts.",
+  "file_names": "NOT_RUN suffix preserved from writing version; current status is recorded here.",
+  "results": [
+    {
+      "name": "responses",
+      "chapter": "ch21",
+      "script": "check_response_NOT_RUN.py",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch21/check_response_NOT_RUN.py"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "status": "FAILED_CONTENT_CHECK_FIXED",
+      "stdout": "responses.stdout",
+      "stderr": "responses.stderr",
+      "note": "Exit code 0 but JSON reported three errors. Unicode ID boundary repaired and rerun, see responses_after."
+    },
+    {
+      "name": "responses_after",
+      "status": "EXECUTED_PASS",
+      "note": "3 rows, no structural_errors after regex repair; M10 negative control passed"
+    }
+  ]
+}

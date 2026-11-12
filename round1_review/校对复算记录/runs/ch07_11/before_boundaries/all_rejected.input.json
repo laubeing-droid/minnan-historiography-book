@@ -1,0 +1,42 @@
+{
+  "section": "11.9",
+  "title": "分布偏移与鲁棒性评测",
+  "status": "NOT_RUN",
+  "provenance": "编者新编教学数据 非史实 非模型输出",
+  "mode": "shift",
+  "rows": [
+    {
+      "id": "R1",
+      "source": "clean",
+      "original": "O1",
+      "label": "seal",
+      "pred": "seal",
+      "accepted": 0
+    },
+    {
+      "id": "R2",
+      "source": "blur",
+      "original": "O1",
+      "label": "seal",
+      "pred": "photo",
+      "accepted": 0
+    },
+    {
+      "id": "R3",
+      "source": "clean",
+      "original": "O2",
+      "label": "photo",
+      "pred": "photo",
+      "accepted": 0
+    },
+    {
+      "id": "R4",
+      "source": "blur",
+      "original": "O2",
+      "label": "photo",
+      "pred": "photo",
+      "accepted": 0
+    }
+  ],
+  "config": {}
+}

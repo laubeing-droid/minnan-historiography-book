@@ -1,0 +1,6 @@
+{
+  "python": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "statsmodels_present": false,
+  "optuna_present": false,
+  "note": "Both remain absent in the base interpreter; installed only in dedicated approved venv."
+}

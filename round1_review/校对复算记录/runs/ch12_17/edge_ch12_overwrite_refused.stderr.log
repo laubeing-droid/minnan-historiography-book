@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch12/preprocess_annual.py", line 273, in <module>
+    main()
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch12/preprocess_annual.py", line 238, in main
+    raise FileExistsError("Output already exists; choose a new directory, do not overwrite")
+FileExistsError: Output already exists; choose a new directory, do not overwrite

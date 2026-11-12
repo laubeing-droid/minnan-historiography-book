@@ -1,0 +1,13 @@
+{
+  "version": "new-teaching-v1",
+  "execution_status": "NOT_RUN",
+  "start_year": 1700,
+  "end_year": 1705,
+  "interval": "closed_integer_year",
+  "unknown_date": "exclude_and_record",
+  "entity_identity_required": "confirmed",
+  "included_layer": "statement",
+  "included_judgment": "accepted",
+  "deduplication_unit": "human_assigned_instance_id",
+  "strength": "unknown_not_zero"
+}

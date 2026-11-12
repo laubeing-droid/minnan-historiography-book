@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch06/bm25_NOT_RUN.py", line 54, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch06/bm25_NOT_RUN.py", line 52, in main
+    for q in queries:out['queries'].append({'id':q['id'],**rank(docs,q['tokens'],a.k1,a.b)})
+                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/b06bda80e898/book_review_20261030/revision/附件/ch06/bm25_NOT_RUN.py", line 19, in rank
+    raise ValueError('k1 >= 0 and 0 <= b <= 1 required')
+ValueError: k1 >= 0 and 0 <= b <= 1 required

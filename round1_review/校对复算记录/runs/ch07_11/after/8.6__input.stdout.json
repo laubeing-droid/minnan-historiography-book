@@ -1,0 +1,41 @@
+{
+  "execution": "reader_invoked",
+  "input_provenance": "编者新编教学数据 非史实 非模型输出",
+  "section": "8.6",
+  "result": [
+    {
+      "id": "C01",
+      "spans": [
+        [
+          2,
+          4
+        ],
+        [
+          6,
+          8
+        ]
+      ]
+    },
+    {
+      "id": "C02",
+      "spans": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "C03",
+      "spans": []
+    },
+    {
+      "id": "C04",
+      "spans": []
+    }
+  ]
+}
